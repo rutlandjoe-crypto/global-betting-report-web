@@ -21,11 +21,12 @@ const SITE = {
   tagline: "Built for journalists, by a journalist.",
   topic: "Betting",
   descriptor:
-    "Global Betting Report tracks odds, implied probability, line movement, weather angles, betting market context, and newsroom-ready intelligence across MLB, NBA, NFL, NHL, soccer and the broader sports calendar.",
+    "Global Betting Report tracks odds, implied probability, line movement, weather angles, betting market context, and newsroom-ready intelligence across MLB, NBA, NFL, NHL, soccer, tennis, golf, combat sports, college football and the broader sports calendar.",
 };
 
 const TOOLKIT = [
   ["OddsTrader", "https://www.oddstrader.com/"],
+  ["OddsTrader MLB Weather", "https://www.oddstrader.com/mlb/weather/"],
   ["The Odds API", "https://the-odds-api.com/"],
   ["Action Network", "https://www.actionnetwork.com/"],
   ["Covers", "https://www.covers.com/"],
@@ -37,9 +38,11 @@ const GSR_NETWORK = [
   ["AI", "https://globalaireport.news"],
   ["Politics", "https://globalpoliticsreport.com"],
   ["Entertainment", "https://globalentertainmentreport.com"],
+  ["Betting", "https://globalbettingreport.com"],
 ];
 
 const DEFAULT_URL = "https://www.oddstrader.com/";
+const WEATHER_URL = "https://www.oddstrader.com/mlb/weather/";
 
 const BAD_CONTENT_PHRASES = [
   "source refresh",
@@ -54,7 +57,34 @@ const BAD_CONTENT_PHRASES = [
   "not allowed onto the homepage",
   "no verified data point attached yet",
   "no current items available",
+  "undefined sports category",
+  "undefined",
 ];
+
+const SPORT_LABELS: Record<string, string> = {
+  mlb: "MLB",
+  baseball: "MLB",
+  nba: "NBA",
+  basketball: "NBA",
+  nfl: "NFL",
+  football: "NFL",
+  ncaafb: "College Football",
+  cfb: "College Football",
+  "college football": "College Football",
+  nhl: "NHL",
+  hockey: "NHL",
+  soccer: "Global Soccer",
+  tennis: "Tennis",
+  golf: "Golf",
+  mma: "MMA",
+  ufc: "UFC",
+  boxing: "Boxing",
+  racing: "Racing",
+  nascar: "NASCAR",
+  cricket: "Cricket",
+  rugby: "Rugby",
+  betting: "Betting Watch",
+};
 
 function readReport(): AnyObj {
   try {
@@ -151,7 +181,21 @@ function extractBestUrl(story: AnyObj): string {
     if (isValidUrl(candidate)) return cleanText(candidate);
   }
 
+  const label = normalizeText(story.league || story.sport || story.category || story.title);
+  if (label.includes("weather") || label.includes("mlb")) return WEATHER_URL;
+
   return DEFAULT_URL;
+}
+
+function normalizeSportLabel(value: any, fallback = "Betting Watch"): string {
+  const raw = cleanText(value);
+  const key = raw.toLowerCase();
+
+  if (!raw || key === "undefined" || key === "null" || key === "sports category") {
+    return fallback;
+  }
+
+  return SPORT_LABELS[key] || raw;
 }
 
 function storyTitle(story: AnyObj, index: number): string {
@@ -159,7 +203,7 @@ function storyTitle(story: AnyObj, index: number): string {
     cleanText(story.headline) ||
     cleanText(story.title) ||
     cleanText(story.name) ||
-    cleanText(story.league) ||
+    normalizeSportLabel(story.league || story.sport || story.category, "") ||
     `Betting Storyline ${index + 1}`
   );
 }
@@ -175,17 +219,57 @@ function storySummary(story: AnyObj): string {
     cleanText(story.description) ||
     cleanText(story.why_it_matters) ||
     cleanText(story.body) ||
-    "Betting development flagged for newsroom monitoring."
+    "Betting development flagged for newsroom monitoring with odds, price, movement and context attached where available."
   );
 }
 
 function storyLabel(story: AnyObj): string {
-  return cleanText(story.league) || cleanText(story.title) || cleanText(story.label) || "Betting Watch";
+  return normalizeSportLabel(
+    story.league || story.sport || story.category || story.label || story.title,
+    "Betting Watch"
+  );
+}
+
+function enrichKeyData(story: AnyObj, title: string): string[] {
+  const direct = asList(story.key_data || story.keyData || story.data || story.metrics);
+
+  const odds = cleanText(story.odds || story.price || story.moneyline || story.spread || story.total);
+  const implied = cleanText(story.implied_probability || story.impliedProbability);
+  const movement = cleanText(story.line_movement || story.lineMovement || story.movement);
+  const weather = cleanText(story.weather || story.forecast || story.weather_angle || story.weatherAngle);
+
+  return unique([
+    ...direct,
+    odds ? `Odds/price: ${odds}` : "",
+    implied ? `Implied probability: ${implied}` : "",
+    movement ? `Line movement: ${movement}` : "",
+    weather ? `Weather angle: ${weather}` : "",
+    !direct.length && !odds && !implied && !movement ? `Signal: ${title}` : "",
+  ]).filter((item) => !isBadContent(item));
+}
+
+function enrichWhy(story: AnyObj): string[] {
+  const direct = asList(story.why_it_matters || story.whyItMatters || story.why);
+
+  return unique([
+    ...direct,
+    "Betting readers need more than the number — they need context on whether price, public money, injuries, matchup edges or weather may be driving the market.",
+  ]).filter((item) => !isBadContent(item));
+}
+
+function enrichWatch(story: AnyObj): string[] {
+  const direct = asList(story.what_to_watch || story.whatToWatch || story.watch || story.story_angles);
+
+  return unique([
+    ...direct,
+    "Watch for injury updates, lineup confirmations, pitching changes, weather shifts, totals movement, spread movement and late sportsbook adjustment.",
+  ]).filter((item) => !isBadContent(item));
 }
 
 function normalizeStory(story: AnyObj, index: number, sectionTitle = ""): AnyObj {
   const title = storyTitle(story, index);
-  const label = cleanText(story.league) || cleanText(sectionTitle) || cleanText(story.title) || "Betting Watch";
+  const rawLabel = story.league || story.sport || story.category || sectionTitle || story.title;
+  const label = normalizeSportLabel(rawLabel, "Betting Watch");
 
   return {
     ...story,
@@ -197,14 +281,14 @@ function normalizeStory(story: AnyObj, index: number, sectionTitle = ""): AnyObj
     summary: storySummary(story),
     snapshot: storySummary(story),
     url: storyUrl(story),
-    key_data: asList(story.key_data || story.keyData || story.data || story.metrics),
-    why_it_matters: asList(story.why_it_matters || story.whyItMatters || story.why),
-    what_to_watch: asList(story.what_to_watch || story.whatToWatch || story.watch || story.story_angles),
+    key_data: enrichKeyData(story, title),
+    why_it_matters: enrichWhy(story),
+    what_to_watch: enrichWatch(story),
   };
 }
 
 function sectionToStories(section: AnyObj, index: number): AnyObj[] {
-  const sectionTitle = cleanText(section.title || section.league || `Section ${index + 1}`);
+  const sectionTitle = normalizeSportLabel(section.title || section.league || section.sport || `Section ${index + 1}`);
 
   if (Array.isArray(section.cards) && section.cards.length) {
     const objectCards = section.cards.filter((card: any) => card && typeof card === "object");
@@ -223,13 +307,14 @@ function sectionToStories(section: AnyObj, index: number): AnyObj[] {
             league: sectionTitle,
             title: sectionTitle,
             headline: sectionTitle,
-            snapshot: "Latest verified betting signals generated for newsroom review.",
+            snapshot:
+              "Latest verified betting signals generated for newsroom review with market context attached.",
             key_data: stringCards,
             why_it_matters: [
               "This section gives readers betting market context beyond a raw odds board.",
             ],
             what_to_watch: [
-              "Watch for line movement, injury updates, weather changes, and late market shifts.",
+              "Watch for line movement, injury updates, weather changes, book-to-book differences and late market shifts.",
             ],
             url: DEFAULT_URL,
           },
@@ -394,7 +479,7 @@ function NewsroomBriefing({ items }: { items: string[] }) {
         </div>
       ) : (
         <p className="text-sm leading-6 text-neutral-700">
-          Monitoring verified odds, line movement, injuries, weather, totals, spreads and betting market signals.
+          Monitoring verified odds, implied probability, line movement, injuries, weather, totals, spreads and betting market signals.
         </p>
       )}
     </div>
@@ -440,7 +525,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
         </div>
 
         <div className="rounded-xl bg-neutral-50 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Why It Matters</p>
+          <p className="mb-2 text-xs font-black uppercase text-neutral-600">What The Odds Mean</p>
           <LineList
             items={
               why.length
@@ -535,7 +620,11 @@ export default function Page() {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-red-300"
+                className={
+                  name === "Betting"
+                    ? "text-red-300 hover:text-white"
+                    : "text-white hover:text-red-300"
+                }
               >
                 {name}
               </a>
@@ -601,6 +690,25 @@ export default function Page() {
             />
           </Block>
 
+          <Block title="Weather Forecast Angle">
+            <LineList
+              items={[
+                "Weather matters most for MLB totals, outdoor football totals, wind-sensitive parks and late game-time market movement.",
+                "Watch wind direction, rain risk, temperature, humidity and postponement risk before trusting early totals.",
+                "Use verified weather context as a betting signal — not as a standalone pick.",
+              ]}
+            />
+
+            <a
+              href={WEATHER_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 block rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3 text-sm font-bold text-red-800 hover:bg-red-50"
+            >
+              Check OddsTrader MLB Weather
+            </a>
+          </Block>
+
           <Block title="Journalist Betting Toolkit">
             <div className="space-y-2">
               {TOOLKIT.map(([name, url]) => (
@@ -622,8 +730,9 @@ export default function Page() {
               items={[
                 "Market: What number moved, and why might it matter?",
                 "Price: Is the favorite getting more expensive or drifting back?",
-                "Weather: Could wind, rain or temperature affect totals?",
+                "Weather: Could wind, rain, humidity or temperature affect totals?",
                 "News: What injury, lineup or roster development could reshape the board?",
+                "Context: What do the odds imply about win probability, risk and public perception?",
                 "Newsroom: What should journalists verify before publishing betting context?",
               ]}
             />
