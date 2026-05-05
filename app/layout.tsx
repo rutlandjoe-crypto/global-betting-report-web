@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Global Sports Report",
-  description: "Automated sports journalism support for the modern newsroom.",
+  title: "Global Betting Report",
+  description:
+    "Global Betting Report tracks odds, implied probability, line movement, weather angles, and betting market context for the modern sports betting newsroom.",
 };
 
 export default function RootLayout({
@@ -25,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-white text-black`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-white text-black antialiased`}
       >
         {children}
       </body>
