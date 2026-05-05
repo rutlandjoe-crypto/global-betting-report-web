@@ -1,1471 +1,952 @@
 {
-  "title": "Global Sports Report",
-  "site_name": "Global Sports Report",
+  "site": "Global Betting Report",
+  "site_name": "Global Betting Report",
+  "vertical": "Betting",
+  "title": "Global Betting Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "QB Brendan Sorsby's potential NFL path likely depends on 4 key questions amid NCAA gambling investigation",
-  "snapshot": "If Sorsby loses his NCAA eligibility, he could try to enter the rarely used NFL supplemental draft. But given his unprecedented situation, this could become a very complicated process.",
+  "headline": "MLB: Philadelphia Phillies priced as market favorite vs Athletics",
+  "snapshot": "Odds, implied probability, line movement, market context, weather angles, and what bettors should watch across the sports world.",
+  "updated_at": "2026-05-05 07:11 PM ET",
+  "generated_at": "2026-05-05 07:11 PM ET",
+  "generated_utc": "2026-05-05T23:11:53.890368+00:00",
+  "source_mode": "odds-market interpretation engine with line movement and weather context",
+  "x_handle": "@GlobalSportsRp",
+  "substack_url": "",
   "key_storylines": [
-    "Breaking Sports News: QB Brendan Sorsby's potential NFL path likely depends on 4 key questions amid NCAA gambling investigation",
-    "NBA: Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-    "NHL: Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-    "College Football: College Football Watch Tracks Schedule, Recruiting and Conference Signals",
-    "Betting Market Watch: Betting board update",
-    "MLB: MLB schedule opens with Athletics at Philadelphia Phillies"
+    "MLB: MLB: Philadelphia Phillies priced as market favorite vs Athletics",
+    "MLB: MLB: Baltimore Orioles priced as market favorite vs Miami Marlins",
+    "MLB: MLB: Boston Red Sox priced as market favorite vs Detroit Tigers",
+    "MLB: MLB: Toronto Blue Jays priced as market favorite vs Tampa Bay Rays",
+    "MLB: MLB: Minnesota Twins priced as market favorite vs Washington Nationals",
+    "MLB: MLB: New York Yankees priced as market favorite vs Texas Rangers",
+    "MLB: MLB: Chicago Cubs priced as market favorite vs Cincinnati Reds",
+    "MLB: MLB: Cleveland Guardians priced as market favorite vs Kansas City Royals"
   ],
   "live_newsroom": [
     {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "QB Brendan Sorsby's potential NFL path likely depends on 4 key questions amid NCAA gambling investigation",
-      "snapshot": "If Sorsby loses his NCAA eligibility, he could try to enter the rarely used NFL supplemental draft. But given his unprecedented situation, this could become a very complicated process.",
-      "key_storylines": [
-        "NFL: QB Brendan Sorsby's potential NFL path likely depends on 4 key questions amid NCAA gambling investigation",
-        "NHL: Ducks 'clearly' disagreed with icing wave-off in Game 1 loss",
-        "NBA: Victor Wembanyama has 12-block triple-double in Spurs' loss",
-        "NFL: Adriano, Samba, R.Larcos - ranking the most iconic video game footballers",
-        "NBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway",
-        "Global Soccer: Mikel Arteta promises fired-up Arsenal will play ‘like beasts’ in Atlético second leg",
-        "NHL: Rick Tocchet adamant Flyers 'won't give up' after OT loss",
-        "NHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
-        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
-        "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
-      ],
-      "story_angles": [
-        "What changed since the last site update?",
-        "Which newsroom follow-up should happen first?",
-        "Which team, player or league source should be checked next?",
-        "Does this change the lead story across the sports homepage?"
-      ],
-      "priority_score": 174,
-      "story_type": "breaking",
-      "content": "NFL: QB Brendan Sorsby's potential NFL path likely depends on 4 key questions amid NCAA gambling investigation\nNHL: Ducks 'clearly' disagreed with icing wave-off in Game 1 loss\nNBA: Victor Wembanyama has 12-block triple-double in Spurs' loss\nNFL: Adriano, Samba, R.Larcos - ranking the most iconic video game footballers\nNBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway\nGlobal Soccer: Mikel Arteta promises fired-up Arsenal will play ‘like beasts’ in Atlético second leg\nNHL: Rick Tocchet adamant Flyers 'won't give up' after OT loss\nNHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news\nYahoo Sports: https://sports.yahoo.com/nfl/article/qb-brendan-sorsbys-potential-nfl-path-likely-depends-on-4-key-questions-amid-ncaa-gambling-investigation-064648519.html\nBBC Sport Football: https://www.bbc.com/sport/football/articles/c78k1lv7d5no?at_medium=RSS&at_campaign=rss\nCBS Sports: https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/04/mikel-arteta-arsenal-atletico-madrid-second-leg",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_file": "breaking_news_engine",
-      "freshness_status": "fresh",
-      "source_age_hours": 0.19,
-      "lead_eligible": true,
-      "url": "https://sports.yahoo.com/nfl/article/qb-brendan-sorsbys-potential-nfl-path-likely-depends-on-4-key-questions-amid-ncaa-gambling-investigation-064648519.html",
-      "source_label": "Yahoo Sports",
-      "links": [
-        {
-          "label": "CBS Sports",
-          "url": "https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/",
-          "headline": "2026 NBA playoff bracket: Schedule, matchups with second round underway"
-        }
-      ],
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "sports.yahoo.com",
-        "non_espn_links": 1,
-        "total_links": 1,
-        "primary_url_policy": "section_url_locked"
-      }
-    },
-    {
-      "key": "nba",
-      "title": "NBA",
-      "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-      "snapshot": "2 NBA games on the board: 0 live, 2 final, 0 upcoming. Priority favors live games, marquee teams and close-score situations.",
-      "key_storylines": [
-        "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-        "New York Knicks beat Philadelphia 76ers, 137-98"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-        "New York Knicks beat Philadelphia 76ers, 137-98"
-      ],
-      "why_it_matters": [
-        "The NBA board now ranks live games, major-market teams and close-score situations above generic schedule items.",
-        "This helps prevent a national game such as Lakers-Rockets from being buried when it is the strongest newsroom signal."
-      ],
-      "story_angles": [
-        "Track live score swings, official injury updates, late-game execution and verified postgame quotes.",
-        "Use upcoming games as planning items unless they carry a strong standings, availability or national-interest angle."
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "Minnesota Timberwolves beat San Antonio Spurs, 104-102\nNew York Knicks beat Philadelphia 76ers, 137-98",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:56:45 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/nba/scoreboard",
-      "links": [
-        {
-          "label": "NBA.com News",
-          "url": "https://www.nba.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NBA",
-          "url": "https://sports.yahoo.com/nba/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NBA",
-          "url": "https://www.cbssports.com/nba/",
-          "headline": ""
-        },
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/nba/scoreboard",
-          "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.03,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
-    },
-    {
-      "key": "nhl",
-      "title": "NHL",
-      "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-      "snapshot": "2 NHL games on board: 0 live, 2 final, 0 upcoming.",
-      "key_storylines": [
-        "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-        "Vegas Golden Knights beat Anaheim Ducks, 3-1"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-        "Vegas Golden Knights beat Anaheim Ducks, 3-1"
-      ],
-      "why_it_matters": [
-        "The NHL board separates finals, live games and upcoming matchups so editors can avoid backwards or misleading score lines.",
-        "Correct winner/loser logic matters for trust, especially when final scores are used in homepage cards."
-      ],
-      "story_angles": [
-        "Track goalie decisions, special teams, late goals, injuries and standings impact."
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "Carolina Hurricanes beat Philadelphia Flyers, 3-2\nVegas Golden Knights beat Anaheim Ducks, 3-1",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:56:47 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/nhl/scoreboard",
-      "links": [
-        {
-          "label": "NHL.com News",
-          "url": "https://www.nhl.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NHL",
-          "url": "https://sports.yahoo.com/nhl/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NHL",
-          "url": "https://www.cbssports.com/nhl/",
-          "headline": ""
-        },
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/nhl/scoreboard",
-          "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.03,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
-    },
-    {
-      "key": "ncaafb",
-      "title": "College Football",
-      "headline": "College Football Watch Tracks Schedule, Recruiting and Conference Signals",
-      "snapshot": "['0 final games logged', '0 games currently live', '10 upcoming matchups']",
-      "key_storylines": [
-        "NCAAFB REPORT | 2026-05-05",
-        "HEADLINE",
-        "College football schedule loaded with 10 upcoming matchups across the board.",
-        "SNAPSHOT",
-        "final games logged",
-        "games currently live",
-        "upcoming matchups"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [
-        "North Carolina Tar Heels at TCU Horned Frogs - TBD.",
-        "Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.",
-        "NC State Wolfpack at Virginia Cavaliers - TBD.",
-        "Memphis Tigers at UNLV Rebels - TBD.",
-        "San José State Spartans at USC Trojans - TBD.",
-        "New Mexico State Aggies at Florida State Seminoles - TBD.",
-        "Jacksonville State Gamecocks at North Dakota State Bison - TBD.",
-        "Sacramento State Hornets at Eastern Michigan Eagles - TBD.",
-        "Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.",
-        "Bethune-Cookman Wildcats at UCF Knights - TBD."
-      ],
-      "advanced": [],
-      "why_it_matters": [
-        "Clear scoreboard separation improves usability for journalists",
-        "Prevents stale data from appearing in active reporting windows",
-        "Supports both recap and preview workflows cleanly"
-      ],
-      "story_angles": [
-        "Preview-driven coverage leads current reporting"
-      ],
-      "priority_score": 84,
-      "story_type": "live",
-      "content": "NCAAFB REPORT | 2026-05-05\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-05 02:58:18 AM ET",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:58:18 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/college-football/scoreboard",
-      "links": [
-        {
-          "label": "NCAA Football News",
-          "url": "https://www.ncaa.com/news/football/fbs",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NCAAF",
-          "url": "https://sports.yahoo.com/college-football/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports College Football",
-          "url": "https://www.cbssports.com/college-football/",
-          "headline": ""
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.0,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 3,
-        "primary_url_policy": "game_context_locked"
-      }
-    },
-    {
-      "key": "betting_odds",
-      "title": "Betting Market Watch",
-      "headline": "Betting board update",
-      "snapshot": "Sportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking.",
-      "key_storylines": [
-        "Odds feed unavailable during this run.",
-        "Pipeline completed safely without exposing any API token.",
-        "Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the .env file if odds remain unavailable."
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [
-        "{'live': [], 'upcoming': [], 'final': []}"
-      ],
-      "advanced": [],
-      "why_it_matters": [
-        "Market context helps editors monitor expected game flow and public attention."
-      ],
-      "story_angles": [
-        "Watch the next odds refresh, injury report or market movement."
-      ],
-      "priority_score": 140,
-      "story_type": "breaking",
-      "content": "GLOBAL SPORTS REPORT — BETTING ODDS WATCH\n\nGenerated: 2026-05-05 02:58:04 AM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- Pipeline completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the .env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-05 02:58:04 AM ET",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:58:04 AM ET",
-      "source_file": "",
-      "url": "https://www.actionnetwork.com/odds",
-      "links": [
-        {
-          "label": "Action Network",
-          "url": "https://www.actionnetwork.com",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports Betting",
-          "url": "https://sports.yahoo.com/sportsbook/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports Betting",
-          "url": "https://www.cbssports.com/betting/",
-          "headline": ""
-        },
-        {
-          "label": "Action Network",
-          "url": "https://www.actionnetwork.com/odds",
-          "headline": "Betting board update"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.01,
-      "lead_eligible": true,
-      "source_label": "Action Network",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "actionnetwork.com",
-        "non_espn_links": 4,
-        "total_links": 4,
-        "primary_url_policy": "section_url_locked"
-      }
-    }
-  ],
-  "editor_signals": [
-    {
-      "key": "mlb",
+      "key": "betting_market_1",
       "title": "MLB",
-      "headline": "MLB schedule opens with Athletics at Philadelphia Phillies",
-      "snapshot": "0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.",
-      "key_storylines": [
-        "UPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET",
-        "UPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET",
-        "UPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET",
-        "UPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET"
+      "headline": "MLB: Philadelphia Phillies priced as market favorite vs Athletics",
+      "snapshot": "The market leans clearly toward Philadelphia Phillies. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Philadelphia Phillies, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
+      "source": "DraftKings",
+      "url": "https://www.oddstrader.com/",
+      "key_data": [
+        "Matchup: Athletics at Philadelphia Phillies",
+        "Book: DraftKings",
+        "Moneyline: Philadelphia Phillies -227 | Athletics +170",
+        "Favorite implied probability: Philadelphia Phillies 69.4%",
+        "Line movement: Open -236 → Current -227 (away from Philadelphia Phillies)",
+        "Spread: Athletics +1.5 (-121) | Philadelphia Phillies -1.5 (-107)",
+        "Total: Over 7.5 (-119) | Under 7.5 (-109)",
+        "Weather: 84°F, wind out to center at 6 mph, rain risk 10%"
       ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "UPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET",
-        "UPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET",
-        "UPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET",
-        "UPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET"
-      ],
-      "why_it_matters": [
-        "MLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items."
-      ],
-      "story_angles": [
-        "Which result changes the main baseball conversation?",
-        "Which pitcher, bullpen or lineup decision deserves deeper review?",
-        "Which matchup has enough injury, standings or Statcast context to move beyond a basic preview?"
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "MLB REPORT | 2026-05-05\n\nHEADLINE\nMLB schedule opens with Athletics at Philadelphia Phillies\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET\nUPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET\nUPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET\nUPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nAthletics at Philadelphia Phillies — 6:40 PM ET\nBaltimore Orioles at Miami Marlins — 6:40 PM ET\nBoston Red Sox at Detroit Tigers — 6:40 PM ET\nToronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\nMinnesota Twins at Washington Nationals — 6:45 PM ET\nTexas Rangers at New York Yankees — 7:05 PM ET\nCincinnati Reds at Chicago Cubs — 7:40 PM ET\nCleveland Guardians at Kansas City Royals — 7:40 PM ET\nMilwaukee Brewers at St. Louis Cardinals — 7:45 PM ET\nLos Angeles Dodgers at Houston Astros — 8:10 PM ET\nNew York Mets at Colorado Rockies — 8:40 PM ET\nChicago White Sox at Los Angeles Angels — 9:38 PM ET\nAtlanta Braves at Seattle Mariners — 9:40 PM ET\nPittsburgh Pirates at Arizona Diamondbacks — 9:40 PM ET\nSan Diego Padres at San Francisco Giants — 9:45 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-05 02:56:41 AM ET",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:56:41 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/mlb/scoreboard",
-      "links": [
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/mlb/scoreboard",
-          "headline": "MLB schedule opens with Athletics at Philadelphia Phillies"
-        },
-        {
-          "label": "MLB.com News",
-          "url": "https://www.mlb.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports MLB",
-          "url": "https://sports.yahoo.com/mlb/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports MLB",
-          "url": "https://www.cbssports.com/mlb/",
-          "headline": ""
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.03,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
+      "why_it_matters": "The market leans clearly toward Philadelphia Phillies. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Philadelphia Phillies, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
+      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
     },
     {
-      "key": "soccer",
-      "title": "Global Soccer",
-      "headline": "Guardiola says Premier League out of City's hands after draw",
-      "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches.",
-      "key_storylines": [
-        "Guardiola says Premier League out of City's hands after draw",
-        "Everton draw could spell doom for Man City in Premier League title race",
-        "Arsenal and Man City's remaining Premier League fixtures compared as title race hots up",
-        "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
-        "Tracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga",
-        "Five times Arsenal have let the Premier League title slip away"
+      "key": "betting_market_2",
+      "title": "MLB",
+      "headline": "MLB: Baltimore Orioles priced as market favorite vs Miami Marlins",
+      "snapshot": "The market leans clearly toward Baltimore Orioles. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has moved toward Baltimore Orioles, which suggests the market is showing stronger support than the opener. Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
+      "source": "DraftKings",
+      "url": "https://www.oddstrader.com/",
+      "key_data": [
+        "Matchup: Baltimore Orioles at Miami Marlins",
+        "Book: DraftKings",
+        "Moneyline: Miami Marlins +154 | Baltimore Orioles -203",
+        "Favorite implied probability: Baltimore Orioles 67.0%",
+        "Line movement: Open -193 → Current -203 (toward Baltimore Orioles)",
+        "Spread: Baltimore Orioles -1.5 (-124) | Miami Marlins +1.5 (-105)",
+        "Total: Over 10.5 (-135) | Under 10.5 (+104)",
+        "Weather: 58°F, wind out to left at 9 mph, rain risk 42%"
       ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Guardiola says Premier League out of City's hands after draw",
-        "Everton draw could spell doom for Man City in Premier League title race",
-        "Arsenal and Man City's remaining Premier League fixtures compared as title race hots up",
-        "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
-        "Tracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga",
-        "Five times Arsenal have let the Premier League title slip away",
-        "Onuoha: Man City second half an 'abomination' in title race slip",
-        "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit"
-      ],
-      "why_it_matters": [
-        "The soccer card now ranks real soccer news and high-value matches above generic fixture dumps.",
-        "This keeps the Global Soccer section useful for editors tracking clubs, transfers, competitions and match results."
-      ],
-      "story_angles": [
-        "Watch major-club news, transfer movement, manager reaction, injuries, standings pressure and live score swings."
-      ],
-      "priority_score": 104,
-      "story_type": "championship",
-      "content": "Guardiola says Premier League out of City's hands after draw\nEverton draw could spell doom for Man City in Premier League title race\nArsenal and Man City's remaining Premier League fixtures compared as title race hots up\nBayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nTracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga\nFive times Arsenal have let the Premier League title slip away",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:57:12 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/soccer/story/_/id/48679116/guardiola-premier-league-city-hands-draw",
-      "links": [
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/soccer/story/_/id/48679116/guardiola-premier-league-city-hands-draw",
-          "headline": "Guardiola says Premier League out of City's hands after draw"
-        },
-        {
-          "label": "The Guardian Football",
-          "url": "https://www.theguardian.com/football",
-          "headline": ""
-        },
-        {
-          "label": "BBC Sport Football",
-          "url": "https://www.bbc.com/sport/football",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports Soccer",
-          "url": "https://sports.yahoo.com/soccer/",
-          "headline": ""
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.02,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "section_url_locked"
-      }
+      "why_it_matters": "The market leans clearly toward Baltimore Orioles. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has moved toward Baltimore Orioles, which suggests the market is showing stronger support than the opener. Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
+      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
     },
     {
-      "key": "fantasy",
-      "title": "Fantasy Sports",
-      "headline": "Fantasy Watch Tracks Usage, Roles and Waiver Signals",
-      "snapshot": "Fantasy usage and performance tracking.",
-      "key_storylines": [
-        "NFL: Seattle Seahawks at New England Patriots"
+      "key": "betting_market_3",
+      "title": "MLB",
+      "headline": "MLB: Boston Red Sox priced as market favorite vs Detroit Tigers",
+      "snapshot": "The market gives Boston Red Sox a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Boston Red Sox, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
+      "source": "DraftKings",
+      "url": "https://www.oddstrader.com/",
+      "key_data": [
+        "Matchup: Boston Red Sox at Detroit Tigers",
+        "Book: DraftKings",
+        "Moneyline: Detroit Tigers -108 | Boston Red Sox -120",
+        "Favorite implied probability: Boston Red Sox 54.5%",
+        "Line movement: Open -127 → Current -120 (away from Boston Red Sox)",
+        "Spread: Boston Red Sox -1.5 (+133) | Detroit Tigers +1.5 (-174)",
+        "Total: Over 12.5 (-107) | Under 12.5 (-122)",
+        "Weather: 58°F, wind in from center at 5 mph, rain risk 21%"
       ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [],
-      "why_it_matters": [
-        "Fantasy Sports coverage is updated with the latest available storylines for journalist-facing planning."
-      ],
-      "story_angles": [
-        "What should reporters watch next in Fantasy Sports?"
-      ],
-      "priority_score": 100,
-      "story_type": "trade",
-      "content": "NFL: Seattle Seahawks at New England Patriots",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:58:16 AM ET",
-      "source_file": "",
-      "url": "https://www.cbssports.com/fantasy/",
-      "links": [
-        {
-          "label": "Rotowire",
-          "url": "https://www.rotowire.com",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Fantasy Sports",
-          "url": "https://sports.yahoo.com/fantasy/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Fantasy Sports",
-          "url": "https://www.cbssports.com/fantasy/",
-          "headline": ""
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.0,
-      "lead_eligible": true,
-      "source_label": "CBS Sports",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "cbssports.com",
-        "non_espn_links": 3,
-        "total_links": 3,
-        "primary_url_policy": "section_url_locked"
-      }
+      "why_it_matters": "The market gives Boston Red Sox a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Boston Red Sox, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
+      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
     },
     {
-      "key": "nfl",
-      "title": "NFL",
-      "headline": "Quarterback depth charts shaping offseason outlook",
-      "snapshot": "No active games; offseason coverage signals in focus",
-      "key_storylines": [
-        "NFL REPORT | 2026-05-05",
-        "HEADLINE",
-        "NFL offseason roster signals emerging",
-        "SNAPSHOT",
-        "No active games; offseason coverage signals in focus",
-        "UPDATED",
-        ":57:18 AM ET"
+      "key": "betting_market_4",
+      "title": "MLB",
+      "headline": "MLB: Toronto Blue Jays priced as market favorite vs Tampa Bay Rays",
+      "snapshot": "The market is pricing Toronto Blue Jays as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward Toronto Blue Jays, which suggests the market is showing stronger support than the opener. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
+      "source": "DraftKings",
+      "url": "https://www.oddstrader.com/",
+      "key_data": [
+        "Matchup: Toronto Blue Jays at Tampa Bay Rays",
+        "Book: DraftKings",
+        "Moneyline: Tampa Bay Rays +242 | Toronto Blue Jays -341",
+        "Favorite implied probability: Toronto Blue Jays 77.3%",
+        "Line movement: Open -331 → Current -341 (toward Toronto Blue Jays)",
+        "Spread: Tampa Bay Rays +2.5 (-139) | Toronto Blue Jays -2.5 (+107)",
+        "Total: Over 7.5 (+101) | Under 7.5 (-132)",
+        "Weather: 69°F, wind out to right at 18 mph, rain risk 40%"
       ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [],
-      "why_it_matters": [
-        "NFL availability changes can reshape betting markets, lineup decisions and story angles."
+      "why_it_matters": "The market is pricing Toronto Blue Jays as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward Toronto Blue Jays, which suggests the market is showing stronger support than the opener. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
+      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+    },
+    {
+      "key": "betting_market_5",
+      "title": "MLB",
+      "headline": "MLB: Minnesota Twins priced as market favorite vs Washington Nationals",
+      "snapshot": "The market gives Minnesota Twins a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Minnesota Twins, which suggests the market is showing stronger support than the opener. Weather does not appear extreme, but totals should still be checked before first pitch.",
+      "source": "DraftKings",
+      "url": "https://www.oddstrader.com/",
+      "key_data": [
+        "Matchup: Minnesota Twins at Washington Nationals",
+        "Book: DraftKings",
+        "Moneyline: Washington Nationals +106 | Minnesota Twins -138",
+        "Favorite implied probability: Minnesota Twins 58.0%",
+        "Line movement: Open -128 → Current -138 (toward Minnesota Twins)",
+        "Spread: Minnesota Twins -1.5 (+113) | Washington Nationals +1.5 (-148)",
+        "Total: Over 10.5 (-130) | Under 10.5 (+100)",
+        "Weather: 66°F, wind crossfield at 15 mph, rain risk 9%"
       ],
-      "story_angles": [
-        "Which quarterback or coaching storyline drives the week?",
-        "Which roster decision has the biggest long-term impact?"
+      "why_it_matters": "The market gives Minnesota Twins a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Minnesota Twins, which suggests the market is showing stronger support than the opener. Weather does not appear extreme, but totals should still be checked before first pitch.",
+      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+    },
+    {
+      "key": "betting_market_6",
+      "title": "MLB",
+      "headline": "MLB: New York Yankees priced as market favorite vs Texas Rangers",
+      "snapshot": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has moved toward New York Yankees, which suggests the market is showing stronger support than the opener. Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
+      "source": "DraftKings",
+      "url": "https://www.oddstrader.com/",
+      "key_data": [
+        "Matchup: Texas Rangers at New York Yankees",
+        "Book: DraftKings",
+        "Moneyline: New York Yankees -115 | Texas Rangers -113",
+        "Favorite implied probability: New York Yankees 53.5%",
+        "Line movement: Open -105 → Current -115 (toward New York Yankees)",
+        "Spread: New York Yankees +1.5 (-178) | Texas Rangers -1.5 (+136)",
+        "Total: Over 9.5 (+103) | Under 9.5 (-134)",
+        "Weather: 64°F, wind out to right at 5 mph, rain risk 34%"
       ],
-      "priority_score": 37,
-      "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-05\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-05 02:57:18 AM ET",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:57:18 AM ET",
-      "source_file": "",
-      "url": "https://www.nfl.com/news",
-      "links": [
-        {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/nfl/article/qb-brendan-sorsbys-potential-nfl-path-likely-depends-on-4-key-questions-amid-ncaa-gambling-investigation-064648519.html",
-          "headline": "QB Brendan Sorsby's potential NFL path likely depends on 4 key questions amid NCAA gambling investigation"
-        },
-        {
-          "label": "NFL.com News",
-          "url": "https://www.nfl.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NFL",
-          "url": "https://sports.yahoo.com/nfl/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NFL",
-          "url": "https://www.cbssports.com/nfl/",
-          "headline": ""
-        }
+      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has moved toward New York Yankees, which suggests the market is showing stronger support than the opener. Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
+      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+    },
+    {
+      "key": "betting_market_7",
+      "title": "MLB",
+      "headline": "MLB: Chicago Cubs priced as market favorite vs Cincinnati Reds",
+      "snapshot": "The market leans clearly toward Chicago Cubs. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has moved toward Chicago Cubs, which suggests the market is showing stronger support than the opener. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
+      "source": "DraftKings",
+      "url": "https://www.oddstrader.com/",
+      "key_data": [
+        "Matchup: Cincinnati Reds at Chicago Cubs",
+        "Book: DraftKings",
+        "Moneyline: Chicago Cubs -166 | Cincinnati Reds +137",
+        "Favorite implied probability: Chicago Cubs 62.4%",
+        "Line movement: Open -156 → Current -166 (toward Chicago Cubs)",
+        "Spread: Chicago Cubs -1.5 (+128) | Cincinnati Reds +1.5 (-154)",
+        "Total: Over 8 (-115) | Under 8 (-105)",
+        "Weather: 61°F, wind out to left at 10 mph, rain risk 9%"
       ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.02,
-      "lead_eligible": true,
-      "source_label": "NFL.com",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "nfl.com",
-        "non_espn_links": 4,
-        "total_links": 4,
-        "primary_url_policy": "section_url_locked"
-      }
+      "why_it_matters": "The market leans clearly toward Chicago Cubs. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has moved toward Chicago Cubs, which suggests the market is showing stronger support than the opener. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
+      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+    },
+    {
+      "key": "betting_market_8",
+      "title": "MLB",
+      "headline": "MLB: Cleveland Guardians priced as market favorite vs Kansas City Royals",
+      "snapshot": "The market gives Cleveland Guardians a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Cleveland Guardians, which suggests the market is showing stronger support than the opener. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
+      "source": "DraftKings",
+      "url": "https://www.oddstrader.com/",
+      "key_data": [
+        "Matchup: Cleveland Guardians at Kansas City Royals",
+        "Book: DraftKings",
+        "Moneyline: Kansas City Royals -102 | Cleveland Guardians -118",
+        "Favorite implied probability: Cleveland Guardians 54.1%",
+        "Line movement: Open -106 → Current -118 (toward Cleveland Guardians)",
+        "Spread: Cleveland Guardians -1.5 (+144) | Kansas City Royals +1.5 (-175)",
+        "Total: Over 7.5 (-108) | Under 7.5 (-112)",
+        "Weather: 62°F, wind out to right at 14 mph, rain risk 32%"
+      ],
+      "why_it_matters": "The market gives Cleveland Guardians a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Cleveland Guardians, which suggests the market is showing stronger support than the opener. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
+      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
     }
   ],
-  "lead_section": "breaking_news",
-  "lead_story_type": "breaking",
   "sections": [
     {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "QB Brendan Sorsby's potential NFL path likely depends on 4 key questions amid NCAA gambling investigation",
-      "snapshot": "If Sorsby loses his NCAA eligibility, he could try to enter the rarely used NFL supplemental draft. But given his unprecedented situation, this could become a very complicated process.",
-      "key_storylines": [
-        "NFL: QB Brendan Sorsby's potential NFL path likely depends on 4 key questions amid NCAA gambling investigation",
-        "NHL: Ducks 'clearly' disagreed with icing wave-off in Game 1 loss",
-        "NBA: Victor Wembanyama has 12-block triple-double in Spurs' loss",
-        "NFL: Adriano, Samba, R.Larcos - ranking the most iconic video game footballers",
-        "NBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway",
-        "Global Soccer: Mikel Arteta promises fired-up Arsenal will play ‘like beasts’ in Atlético second leg",
-        "NHL: Rick Tocchet adamant Flyers 'won't give up' after OT loss",
-        "NHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
-        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
-        "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
-      ],
-      "story_angles": [
-        "What changed since the last site update?",
-        "Which newsroom follow-up should happen first?",
-        "Which team, player or league source should be checked next?",
-        "Does this change the lead story across the sports homepage?"
-      ],
-      "priority_score": 174,
-      "story_type": "breaking",
-      "content": "NFL: QB Brendan Sorsby's potential NFL path likely depends on 4 key questions amid NCAA gambling investigation\nNHL: Ducks 'clearly' disagreed with icing wave-off in Game 1 loss\nNBA: Victor Wembanyama has 12-block triple-double in Spurs' loss\nNFL: Adriano, Samba, R.Larcos - ranking the most iconic video game footballers\nNBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway\nGlobal Soccer: Mikel Arteta promises fired-up Arsenal will play ‘like beasts’ in Atlético second leg\nNHL: Rick Tocchet adamant Flyers 'won't give up' after OT loss\nNHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news\nYahoo Sports: https://sports.yahoo.com/nfl/article/qb-brendan-sorsbys-potential-nfl-path-likely-depends-on-4-key-questions-amid-ncaa-gambling-investigation-064648519.html\nBBC Sport Football: https://www.bbc.com/sport/football/articles/c78k1lv7d5no?at_medium=RSS&at_campaign=rss\nCBS Sports: https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/04/mikel-arteta-arsenal-atletico-madrid-second-leg",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_file": "breaking_news_engine",
-      "freshness_status": "fresh",
-      "source_age_hours": 0.19,
-      "lead_eligible": true,
-      "url": "https://sports.yahoo.com/nfl/article/qb-brendan-sorsbys-potential-nfl-path-likely-depends-on-4-key-questions-amid-ncaa-gambling-investigation-064648519.html",
-      "source_label": "Yahoo Sports",
-      "links": [
-        {
-          "label": "CBS Sports",
-          "url": "https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/",
-          "headline": "2026 NBA playoff bracket: Schedule, matchups with second round underway"
-        }
-      ],
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "sports.yahoo.com",
-        "non_espn_links": 1,
-        "total_links": 1,
-        "primary_url_policy": "section_url_locked"
-      }
+      "title": "Market Overview",
+      "cards": [
+        "MLB: Philadelphia Phillies priced as market favorite vs Athletics — The market leans clearly toward Philadelphia Phillies. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Philadelphia Phillies, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
+        "MLB: Baltimore Orioles priced as market favorite vs Miami Marlins — The market leans clearly toward Baltimore Orioles. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has moved toward Baltimore Orioles, which suggests the market is showing stronger support than the opener. Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
+        "MLB: Boston Red Sox priced as market favorite vs Detroit Tigers — The market gives Boston Red Sox a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Boston Red Sox, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
+        "MLB: Toronto Blue Jays priced as market favorite vs Tampa Bay Rays — The market is pricing Toronto Blue Jays as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward Toronto Blue Jays, which suggests the market is showing stronger support than the opener. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
+        "MLB: Minnesota Twins priced as market favorite vs Washington Nationals — The market gives Minnesota Twins a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Minnesota Twins, which suggests the market is showing stronger support than the opener. Weather does not appear extreme, but totals should still be checked before first pitch.",
+        "MLB: New York Yankees priced as market favorite vs Texas Rangers — This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has moved toward New York Yankees, which suggests the market is showing stronger support than the opener. Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
+        "MLB: Chicago Cubs priced as market favorite vs Cincinnati Reds — The market leans clearly toward Chicago Cubs. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has moved toward Chicago Cubs, which suggests the market is showing stronger support than the opener. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
+        "MLB: Cleveland Guardians priced as market favorite vs Kansas City Royals — The market gives Cleveland Guardians a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Cleveland Guardians, which suggests the market is showing stronger support than the opener. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention."
+      ]
     },
     {
-      "key": "nba",
-      "title": "NBA",
-      "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-      "snapshot": "2 NBA games on the board: 0 live, 2 final, 0 upcoming. Priority favors live games, marquee teams and close-score situations.",
-      "key_storylines": [
-        "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-        "New York Knicks beat Philadelphia 76ers, 137-98"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-        "New York Knicks beat Philadelphia 76ers, 137-98"
-      ],
-      "why_it_matters": [
-        "The NBA board now ranks live games, major-market teams and close-score situations above generic schedule items.",
-        "This helps prevent a national game such as Lakers-Rockets from being buried when it is the strongest newsroom signal."
-      ],
-      "story_angles": [
-        "Track live score swings, official injury updates, late-game execution and verified postgame quotes.",
-        "Use upcoming games as planning items unless they carry a strong standings, availability or national-interest angle."
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "Minnesota Timberwolves beat San Antonio Spurs, 104-102\nNew York Knicks beat Philadelphia 76ers, 137-98",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:56:45 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/nba/scoreboard",
-      "links": [
-        {
-          "label": "NBA.com News",
-          "url": "https://www.nba.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NBA",
-          "url": "https://sports.yahoo.com/nba/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NBA",
-          "url": "https://www.cbssports.com/nba/",
-          "headline": ""
-        },
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/nba/scoreboard",
-          "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.03,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
+      "title": "Line Movement Signals",
+      "cards": [
+        "Athletics at Philadelphia Phillies — Line movement: Open -236 → Current -227 (away from Philadelphia Phillies)",
+        "Baltimore Orioles at Miami Marlins — Line movement: Open -193 → Current -203 (toward Baltimore Orioles)",
+        "Boston Red Sox at Detroit Tigers — Line movement: Open -127 → Current -120 (away from Boston Red Sox)",
+        "Toronto Blue Jays at Tampa Bay Rays — Line movement: Open -331 → Current -341 (toward Toronto Blue Jays)",
+        "Minnesota Twins at Washington Nationals — Line movement: Open -128 → Current -138 (toward Minnesota Twins)",
+        "Texas Rangers at New York Yankees — Line movement: Open -105 → Current -115 (toward New York Yankees)",
+        "Cincinnati Reds at Chicago Cubs — Line movement: Open -156 → Current -166 (toward Chicago Cubs)",
+        "Cleveland Guardians at Kansas City Royals — Line movement: Open -106 → Current -118 (toward Cleveland Guardians)"
+      ]
     },
     {
-      "key": "nhl",
-      "title": "NHL",
-      "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-      "snapshot": "2 NHL games on board: 0 live, 2 final, 0 upcoming.",
-      "key_storylines": [
-        "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-        "Vegas Golden Knights beat Anaheim Ducks, 3-1"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-        "Vegas Golden Knights beat Anaheim Ducks, 3-1"
-      ],
-      "why_it_matters": [
-        "The NHL board separates finals, live games and upcoming matchups so editors can avoid backwards or misleading score lines.",
-        "Correct winner/loser logic matters for trust, especially when final scores are used in homepage cards."
-      ],
-      "story_angles": [
-        "Track goalie decisions, special teams, late goals, injuries and standings impact."
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "Carolina Hurricanes beat Philadelphia Flyers, 3-2\nVegas Golden Knights beat Anaheim Ducks, 3-1",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:56:47 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/nhl/scoreboard",
-      "links": [
+      "title": "Game Breakdowns",
+      "cards": [
         {
-          "label": "NHL.com News",
-          "url": "https://www.nhl.com/news",
-          "headline": ""
+          "league": "MLB",
+          "title": "MLB: Philadelphia Phillies priced as market favorite vs Athletics",
+          "headline": "MLB: Philadelphia Phillies priced as market favorite vs Athletics",
+          "matchup": "Athletics at Philadelphia Phillies",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Athletics at Philadelphia Phillies",
+            "Book: DraftKings",
+            "Moneyline: Philadelphia Phillies -227 | Athletics +170",
+            "Favorite implied probability: Philadelphia Phillies 69.4%",
+            "Line movement: Open -236 → Current -227 (away from Philadelphia Phillies)",
+            "Spread: Athletics +1.5 (-121) | Philadelphia Phillies -1.5 (-107)",
+            "Total: Over 7.5 (-119) | Under 7.5 (-109)",
+            "Weather: 84°F, wind out to center at 6 mph, rain risk 10%"
+          ],
+          "why_it_matters": "The market leans clearly toward Philadelphia Phillies. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Philadelphia Phillies, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
+          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -236 → Current -227 (away from Philadelphia Phillies)",
+          "weather": {
+            "summary": "84°F, wind out to center at 6 mph, rain risk 10%",
+            "impact": "Weather does not appear extreme, but totals should still be checked before first pitch."
+          },
+          "commence_time": "2026-05-05T22:41:00Z"
         },
         {
-          "label": "Yahoo Sports NHL",
-          "url": "https://sports.yahoo.com/nhl/",
-          "headline": ""
+          "league": "MLB",
+          "title": "MLB: Baltimore Orioles priced as market favorite vs Miami Marlins",
+          "headline": "MLB: Baltimore Orioles priced as market favorite vs Miami Marlins",
+          "matchup": "Baltimore Orioles at Miami Marlins",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Baltimore Orioles at Miami Marlins",
+            "Book: DraftKings",
+            "Moneyline: Miami Marlins +154 | Baltimore Orioles -203",
+            "Favorite implied probability: Baltimore Orioles 67.0%",
+            "Line movement: Open -193 → Current -203 (toward Baltimore Orioles)",
+            "Spread: Baltimore Orioles -1.5 (-124) | Miami Marlins +1.5 (-105)",
+            "Total: Over 10.5 (-135) | Under 10.5 (+104)",
+            "Weather: 58°F, wind out to left at 9 mph, rain risk 42%"
+          ],
+          "why_it_matters": "The market leans clearly toward Baltimore Orioles. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has moved toward Baltimore Orioles, which suggests the market is showing stronger support than the opener. Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
+          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -193 → Current -203 (toward Baltimore Orioles)",
+          "weather": {
+            "summary": "58°F, wind out to left at 9 mph, rain risk 42%",
+            "impact": "Rain risk could affect starters, bullpens, delays, and live-betting volatility."
+          },
+          "commence_time": "2026-05-05T22:41:00Z"
         },
         {
-          "label": "CBS Sports NHL",
-          "url": "https://www.cbssports.com/nhl/",
-          "headline": ""
+          "league": "MLB",
+          "title": "MLB: Boston Red Sox priced as market favorite vs Detroit Tigers",
+          "headline": "MLB: Boston Red Sox priced as market favorite vs Detroit Tigers",
+          "matchup": "Boston Red Sox at Detroit Tigers",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Boston Red Sox at Detroit Tigers",
+            "Book: DraftKings",
+            "Moneyline: Detroit Tigers -108 | Boston Red Sox -120",
+            "Favorite implied probability: Boston Red Sox 54.5%",
+            "Line movement: Open -127 → Current -120 (away from Boston Red Sox)",
+            "Spread: Boston Red Sox -1.5 (+133) | Detroit Tigers +1.5 (-174)",
+            "Total: Over 12.5 (-107) | Under 12.5 (-122)",
+            "Weather: 58°F, wind in from center at 5 mph, rain risk 21%"
+          ],
+          "why_it_matters": "The market gives Boston Red Sox a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Boston Red Sox, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
+          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -127 → Current -120 (away from Boston Red Sox)",
+          "weather": {
+            "summary": "58°F, wind in from center at 5 mph, rain risk 21%",
+            "impact": "Weather does not appear extreme, but totals should still be checked before first pitch."
+          },
+          "commence_time": "2026-05-05T22:41:00Z"
         },
         {
-          "label": "Espn",
-          "url": "https://www.espn.com/nhl/scoreboard",
-          "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2"
+          "league": "MLB",
+          "title": "MLB: Toronto Blue Jays priced as market favorite vs Tampa Bay Rays",
+          "headline": "MLB: Toronto Blue Jays priced as market favorite vs Tampa Bay Rays",
+          "matchup": "Toronto Blue Jays at Tampa Bay Rays",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Toronto Blue Jays at Tampa Bay Rays",
+            "Book: DraftKings",
+            "Moneyline: Tampa Bay Rays +242 | Toronto Blue Jays -341",
+            "Favorite implied probability: Toronto Blue Jays 77.3%",
+            "Line movement: Open -331 → Current -341 (toward Toronto Blue Jays)",
+            "Spread: Tampa Bay Rays +2.5 (-139) | Toronto Blue Jays -2.5 (+107)",
+            "Total: Over 7.5 (+101) | Under 7.5 (-132)",
+            "Weather: 69°F, wind out to right at 18 mph, rain risk 40%"
+          ],
+          "why_it_matters": "The market is pricing Toronto Blue Jays as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward Toronto Blue Jays, which suggests the market is showing stronger support than the opener. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
+          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -331 → Current -341 (toward Toronto Blue Jays)",
+          "weather": {
+            "summary": "69°F, wind out to right at 18 mph, rain risk 40%",
+            "impact": "Potential boost to carry and extra-base-hit conditions; totals deserve extra attention."
+          },
+          "commence_time": "2026-05-05T22:41:00Z"
+        },
+        {
+          "league": "MLB",
+          "title": "MLB: Minnesota Twins priced as market favorite vs Washington Nationals",
+          "headline": "MLB: Minnesota Twins priced as market favorite vs Washington Nationals",
+          "matchup": "Minnesota Twins at Washington Nationals",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Minnesota Twins at Washington Nationals",
+            "Book: DraftKings",
+            "Moneyline: Washington Nationals +106 | Minnesota Twins -138",
+            "Favorite implied probability: Minnesota Twins 58.0%",
+            "Line movement: Open -128 → Current -138 (toward Minnesota Twins)",
+            "Spread: Minnesota Twins -1.5 (+113) | Washington Nationals +1.5 (-148)",
+            "Total: Over 10.5 (-130) | Under 10.5 (+100)",
+            "Weather: 66°F, wind crossfield at 15 mph, rain risk 9%"
+          ],
+          "why_it_matters": "The market gives Minnesota Twins a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Minnesota Twins, which suggests the market is showing stronger support than the opener. Weather does not appear extreme, but totals should still be checked before first pitch.",
+          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -128 → Current -138 (toward Minnesota Twins)",
+          "weather": {
+            "summary": "66°F, wind crossfield at 15 mph, rain risk 9%",
+            "impact": "Weather does not appear extreme, but totals should still be checked before first pitch."
+          },
+          "commence_time": "2026-05-05T22:46:00Z"
+        },
+        {
+          "league": "MLB",
+          "title": "MLB: New York Yankees priced as market favorite vs Texas Rangers",
+          "headline": "MLB: New York Yankees priced as market favorite vs Texas Rangers",
+          "matchup": "Texas Rangers at New York Yankees",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Texas Rangers at New York Yankees",
+            "Book: DraftKings",
+            "Moneyline: New York Yankees -115 | Texas Rangers -113",
+            "Favorite implied probability: New York Yankees 53.5%",
+            "Line movement: Open -105 → Current -115 (toward New York Yankees)",
+            "Spread: New York Yankees +1.5 (-178) | Texas Rangers -1.5 (+136)",
+            "Total: Over 9.5 (+103) | Under 9.5 (-134)",
+            "Weather: 64°F, wind out to right at 5 mph, rain risk 34%"
+          ],
+          "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has moved toward New York Yankees, which suggests the market is showing stronger support than the opener. Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
+          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -105 → Current -115 (toward New York Yankees)",
+          "weather": {
+            "summary": "64°F, wind out to right at 5 mph, rain risk 34%",
+            "impact": "Rain risk could affect starters, bullpens, delays, and live-betting volatility."
+          },
+          "commence_time": "2026-05-05T23:06:00Z"
+        },
+        {
+          "league": "MLB",
+          "title": "MLB: Chicago Cubs priced as market favorite vs Cincinnati Reds",
+          "headline": "MLB: Chicago Cubs priced as market favorite vs Cincinnati Reds",
+          "matchup": "Cincinnati Reds at Chicago Cubs",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Cincinnati Reds at Chicago Cubs",
+            "Book: DraftKings",
+            "Moneyline: Chicago Cubs -166 | Cincinnati Reds +137",
+            "Favorite implied probability: Chicago Cubs 62.4%",
+            "Line movement: Open -156 → Current -166 (toward Chicago Cubs)",
+            "Spread: Chicago Cubs -1.5 (+128) | Cincinnati Reds +1.5 (-154)",
+            "Total: Over 8 (-115) | Under 8 (-105)",
+            "Weather: 61°F, wind out to left at 10 mph, rain risk 9%"
+          ],
+          "why_it_matters": "The market leans clearly toward Chicago Cubs. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has moved toward Chicago Cubs, which suggests the market is showing stronger support than the opener. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
+          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -156 → Current -166 (toward Chicago Cubs)",
+          "weather": {
+            "summary": "61°F, wind out to left at 10 mph, rain risk 9%",
+            "impact": "Potential boost to carry and extra-base-hit conditions; totals deserve extra attention."
+          },
+          "commence_time": "2026-05-05T23:40:00Z"
+        },
+        {
+          "league": "MLB",
+          "title": "MLB: Cleveland Guardians priced as market favorite vs Kansas City Royals",
+          "headline": "MLB: Cleveland Guardians priced as market favorite vs Kansas City Royals",
+          "matchup": "Cleveland Guardians at Kansas City Royals",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Cleveland Guardians at Kansas City Royals",
+            "Book: DraftKings",
+            "Moneyline: Kansas City Royals -102 | Cleveland Guardians -118",
+            "Favorite implied probability: Cleveland Guardians 54.1%",
+            "Line movement: Open -106 → Current -118 (toward Cleveland Guardians)",
+            "Spread: Cleveland Guardians -1.5 (+144) | Kansas City Royals +1.5 (-175)",
+            "Total: Over 7.5 (-108) | Under 7.5 (-112)",
+            "Weather: 62°F, wind out to right at 14 mph, rain risk 32%"
+          ],
+          "why_it_matters": "The market gives Cleveland Guardians a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Cleveland Guardians, which suggests the market is showing stronger support than the opener. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
+          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -106 → Current -118 (toward Cleveland Guardians)",
+          "weather": {
+            "summary": "62°F, wind out to right at 14 mph, rain risk 32%",
+            "impact": "Potential boost to carry and extra-base-hit conditions; totals deserve extra attention."
+          },
+          "commence_time": "2026-05-05T23:41:00Z"
+        },
+        {
+          "league": "NBA",
+          "title": "NBA: Detroit Pistons priced as market favorite vs Cleveland Cavaliers",
+          "headline": "NBA: Detroit Pistons priced as market favorite vs Cleveland Cavaliers",
+          "matchup": "Cleveland Cavaliers at Detroit Pistons",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Cleveland Cavaliers at Detroit Pistons",
+            "Book: DraftKings",
+            "Moneyline: Detroit Pistons -135 | Cleveland Cavaliers +105",
+            "Favorite implied probability: Detroit Pistons 57.4%",
+            "Line movement: Open -150 → Current -135 (away from Detroit Pistons)",
+            "Spread: Cleveland Cavaliers +2.5 (-120) | Detroit Pistons -2.5 (-110)",
+            "Total: Over 215.5 (-110) | Under 215.5 (-120)"
+          ],
+          "why_it_matters": "The market gives Detroit Pistons a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Detroit Pistons, which may signal buyback on the underdog or resistance to the favorite's original number.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -150 → Current -135 (away from Detroit Pistons)",
+          "weather": null,
+          "commence_time": "2026-05-05T23:10:00Z"
+        },
+        {
+          "league": "NBA",
+          "title": "NBA: Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers",
+          "headline": "NBA: Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers",
+          "matchup": "Los Angeles Lakers at Oklahoma City Thunder",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Los Angeles Lakers at Oklahoma City Thunder",
+            "Book: DraftKings",
+            "Moneyline: Oklahoma City Thunder -900 | Los Angeles Lakers +600",
+            "Favorite implied probability: Oklahoma City Thunder 90.0%",
+            "Line movement: Open -907 → Current -900 (away from Oklahoma City Thunder)",
+            "Spread: Los Angeles Lakers +15.5 (-105) | Oklahoma City Thunder -15.5 (-115)",
+            "Total: Over 214.5 (-108) | Under 214.5 (-112)"
+          ],
+          "why_it_matters": "The market is pricing Oklahoma City Thunder as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has eased away from Oklahoma City Thunder, which may signal buyback on the underdog or resistance to the favorite's original number.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -907 → Current -900 (away from Oklahoma City Thunder)",
+          "weather": null,
+          "commence_time": "2026-05-06T00:40:00Z"
+        },
+        {
+          "league": "NBA",
+          "title": "NBA: New York Knicks priced as market favorite vs Philadelphia 76ers",
+          "headline": "NBA: New York Knicks priced as market favorite vs Philadelphia 76ers",
+          "matchup": "Philadelphia 76ers at New York Knicks",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Philadelphia 76ers at New York Knicks",
+            "Book: DraftKings",
+            "Moneyline: New York Knicks -270 | Philadelphia 76ers +220",
+            "Favorite implied probability: New York Knicks 73.0%",
+            "Line movement: Open -260 → Current -270 (toward New York Knicks)",
+            "Spread: New York Knicks -7.5 (-110) | Philadelphia 76ers +7.5 (-110)",
+            "Total: Over 215.5 (-110) | Under 215.5 (-110)"
+          ],
+          "why_it_matters": "The market is pricing New York Knicks as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward New York Knicks, which suggests the market is showing stronger support than the opener.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -260 → Current -270 (toward New York Knicks)",
+          "weather": null,
+          "commence_time": "2026-05-06T23:10:00Z"
+        },
+        {
+          "league": "NBA",
+          "title": "NBA: San Antonio Spurs priced as market favorite vs Minnesota Timberwolves",
+          "headline": "NBA: San Antonio Spurs priced as market favorite vs Minnesota Timberwolves",
+          "matchup": "Minnesota Timberwolves at San Antonio Spurs",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Minnesota Timberwolves at San Antonio Spurs",
+            "Book: DraftKings",
+            "Moneyline: San Antonio Spurs -410 | Minnesota Timberwolves +320",
+            "Favorite implied probability: San Antonio Spurs 80.4%",
+            "Line movement: Open -400 → Current -410 (toward San Antonio Spurs)",
+            "Spread: Minnesota Timberwolves +9.5 (-110) | San Antonio Spurs -9.5 (-110)",
+            "Total: Over 215.5 (-110) | Under 215.5 (-110)"
+          ],
+          "why_it_matters": "The market is pricing San Antonio Spurs as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward San Antonio Spurs, which suggests the market is showing stronger support than the opener.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -400 → Current -410 (toward San Antonio Spurs)",
+          "weather": null,
+          "commence_time": "2026-05-07T01:40:00Z"
+        },
+        {
+          "league": "NHL",
+          "title": "NHL: Colorado Avalanche priced as market favorite vs Minnesota Wild",
+          "headline": "NHL: Colorado Avalanche priced as market favorite vs Minnesota Wild",
+          "matchup": "Minnesota Wild at Colorado Avalanche",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Minnesota Wild at Colorado Avalanche",
+            "Book: DraftKings",
+            "Moneyline: Colorado Avalanche -198 | Minnesota Wild +164",
+            "Favorite implied probability: Colorado Avalanche 66.4%",
+            "Line movement: Open -188 → Current -198 (toward Colorado Avalanche)",
+            "Spread: Colorado Avalanche -1.5 (+124) | Minnesota Wild +1.5 (-148)",
+            "Total: Over 6.5 (-105) | Under 6.5 (-115)"
+          ],
+          "why_it_matters": "The market leans clearly toward Colorado Avalanche. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has moved toward Colorado Avalanche, which suggests the market is showing stronger support than the opener.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -188 → Current -198 (toward Colorado Avalanche)",
+          "weather": null,
+          "commence_time": "2026-05-06T00:10:08Z"
+        },
+        {
+          "league": "NHL",
+          "title": "NHL: Buffalo Sabres priced as market favorite vs Montréal Canadiens",
+          "headline": "NHL: Buffalo Sabres priced as market favorite vs Montréal Canadiens",
+          "matchup": "Montréal Canadiens at Buffalo Sabres",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Montréal Canadiens at Buffalo Sabres",
+            "Book: DraftKings",
+            "Moneyline: Buffalo Sabres -130 | Montréal Canadiens +110",
+            "Favorite implied probability: Buffalo Sabres 56.5%",
+            "Line movement: Open -118 → Current -130 (toward Buffalo Sabres)",
+            "Spread: Buffalo Sabres -1.5 (+190) | Montréal Canadiens +1.5 (-230)",
+            "Total: Over 5.5 (-122) | Under 5.5 (+102)"
+          ],
+          "why_it_matters": "The market gives Buffalo Sabres a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Buffalo Sabres, which suggests the market is showing stronger support than the opener.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -118 → Current -130 (toward Buffalo Sabres)",
+          "weather": null,
+          "commence_time": "2026-05-06T23:10:36Z"
+        },
+        {
+          "league": "NHL",
+          "title": "NHL: Vegas Golden Knights priced as market favorite vs Anaheim Ducks",
+          "headline": "NHL: Vegas Golden Knights priced as market favorite vs Anaheim Ducks",
+          "matchup": "Anaheim Ducks at Vegas Golden Knights",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Anaheim Ducks at Vegas Golden Knights",
+            "Book: DraftKings",
+            "Moneyline: Vegas Golden Knights -162 | Anaheim Ducks +136",
+            "Favorite implied probability: Vegas Golden Knights 61.8%",
+            "Line movement: Open -176 → Current -162 (away from Vegas Golden Knights)",
+            "Spread: Anaheim Ducks +1.5 (-185) | Vegas Golden Knights -1.5 (+154)",
+            "Total: Over 6.5 (+102) | Under 6.5 (-122)"
+          ],
+          "why_it_matters": "The market leans clearly toward Vegas Golden Knights. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Vegas Golden Knights, which may signal buyback on the underdog or resistance to the favorite's original number.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -176 → Current -162 (away from Vegas Golden Knights)",
+          "weather": null,
+          "commence_time": "2026-05-07T01:50:00Z"
+        },
+        {
+          "league": "NHL",
+          "title": "NHL: Carolina Hurricanes priced as market favorite vs Philadelphia Flyers",
+          "headline": "NHL: Carolina Hurricanes priced as market favorite vs Philadelphia Flyers",
+          "matchup": "Carolina Hurricanes at Philadelphia Flyers",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Carolina Hurricanes at Philadelphia Flyers",
+            "Book: DraftKings",
+            "Moneyline: Philadelphia Flyers +140 | Carolina Hurricanes -166",
+            "Favorite implied probability: Carolina Hurricanes 62.4%",
+            "Line movement: Open -173 → Current -166 (away from Carolina Hurricanes)",
+            "Spread: Carolina Hurricanes -1.5 (+160) | Philadelphia Flyers +1.5 (-192)",
+            "Total: Over 5.5 (+114) | Under 5.5 (-135)"
+          ],
+          "why_it_matters": "The market leans clearly toward Carolina Hurricanes. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Carolina Hurricanes, which may signal buyback on the underdog or resistance to the favorite's original number.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -173 → Current -166 (away from Carolina Hurricanes)",
+          "weather": null,
+          "commence_time": "2026-05-08T00:10:00Z"
+        },
+        {
+          "league": "College Football",
+          "title": "College Football: Virginia Cavaliers priced as market favorite vs NC State Wolfpack",
+          "headline": "College Football: Virginia Cavaliers priced as market favorite vs NC State Wolfpack",
+          "matchup": "NC State Wolfpack at Virginia Cavaliers",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: NC State Wolfpack at Virginia Cavaliers",
+            "Book: DraftKings",
+            "Moneyline: Virginia Cavaliers -148 | NC State Wolfpack +124",
+            "Favorite implied probability: Virginia Cavaliers 59.7%",
+            "Line movement: Open -136 → Current -148 (toward Virginia Cavaliers)",
+            "Spread: NC State Wolfpack +3 (-112) | Virginia Cavaliers -3 (-108)",
+            "Total: Over 53.5 (-110) | Under 53.5 (-110)"
+          ],
+          "why_it_matters": "The market gives Virginia Cavaliers a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Virginia Cavaliers, which suggests the market is showing stronger support than the opener.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -136 → Current -148 (toward Virginia Cavaliers)",
+          "weather": null,
+          "commence_time": "2026-08-29T16:00:00Z"
+        },
+        {
+          "league": "College Football",
+          "title": "College Football: TCU Horned Frogs priced as market favorite vs North Carolina Tar Heels",
+          "headline": "College Football: TCU Horned Frogs priced as market favorite vs North Carolina Tar Heels",
+          "matchup": "North Carolina Tar Heels at TCU Horned Frogs",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: North Carolina Tar Heels at TCU Horned Frogs",
+            "Book: DraftKings",
+            "Moneyline: TCU Horned Frogs -238 | North Carolina Tar Heels +195",
+            "Favorite implied probability: TCU Horned Frogs 70.4%",
+            "Line movement: Open -225 → Current -238 (toward TCU Horned Frogs)",
+            "Spread: North Carolina Tar Heels +6.5 (-112) | TCU Horned Frogs -6.5 (-108)",
+            "Total: Over 49.5 (-115) | Under 49.5 (-105)"
+          ],
+          "why_it_matters": "The market is pricing TCU Horned Frogs as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward TCU Horned Frogs, which suggests the market is showing stronger support than the opener.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -225 → Current -238 (toward TCU Horned Frogs)",
+          "weather": null,
+          "commence_time": "2026-08-29T16:00:00Z"
+        },
+        {
+          "league": "College Football",
+          "title": "College Football: Auburn Tigers priced as market favorite vs Baylor Bears",
+          "headline": "College Football: Auburn Tigers priced as market favorite vs Baylor Bears",
+          "matchup": "Baylor Bears at Auburn Tigers",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Baylor Bears at Auburn Tigers",
+            "Book: DraftKings",
+            "Moneyline: Auburn Tigers -265 | Baylor Bears +215",
+            "Favorite implied probability: Auburn Tigers 72.6%",
+            "Line movement: Open -279 → Current -265 (away from Auburn Tigers)",
+            "Spread: Auburn Tigers -6.5 (-110) | Baylor Bears +6.5 (-110)",
+            "Total: Over 59.5 (-112) | Under 59.5 (-108)"
+          ],
+          "why_it_matters": "The market is pricing Auburn Tigers as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has eased away from Auburn Tigers, which may signal buyback on the underdog or resistance to the favorite's original number.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -279 → Current -265 (away from Auburn Tigers)",
+          "weather": null,
+          "commence_time": "2026-09-05T16:00:00Z"
+        },
+        {
+          "league": "College Football",
+          "title": "College Football: California Golden Bears priced as market favorite vs UCLA Bruins",
+          "headline": "College Football: California Golden Bears priced as market favorite vs UCLA Bruins",
+          "matchup": "UCLA Bruins at California Golden Bears",
+          "source": "FanDuel",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: UCLA Bruins at California Golden Bears",
+            "Book: FanDuel",
+            "Moneyline: California Golden Bears -122 | UCLA Bruins +102",
+            "Favorite implied probability: California Golden Bears 55.0%",
+            "Line movement: Open -134 → Current -122 (away from California Golden Bears)",
+            "Spread: California Golden Bears -1.5 (-110) | UCLA Bruins +1.5 (-110)",
+            "Total: Over 53.5 (-110) | Under 53.5 (-110)"
+          ],
+          "why_it_matters": "The market gives California Golden Bears a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from California Golden Bears, which may signal buyback on the underdog or resistance to the favorite's original number.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -134 → Current -122 (away from California Golden Bears)",
+          "weather": null,
+          "commence_time": "2026-09-05T16:00:00Z"
+        },
+        {
+          "league": "College Football",
+          "title": "College Football: LSU Tigers priced as market favorite vs Clemson Tigers",
+          "headline": "College Football: LSU Tigers priced as market favorite vs Clemson Tigers",
+          "matchup": "Clemson Tigers at LSU Tigers",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Clemson Tigers at LSU Tigers",
+            "Book: DraftKings",
+            "Moneyline: LSU Tigers -455 | Clemson Tigers +350",
+            "Favorite implied probability: LSU Tigers 82.0%",
+            "Line movement: Open -447 → Current -455 (toward LSU Tigers)",
+            "Spread: Clemson Tigers +10.5 (-110) | LSU Tigers -10.5 (-110)",
+            "Total: Over 50.5 (-110) | Under 50.5 (-110)"
+          ],
+          "why_it_matters": "The market is pricing LSU Tigers as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward LSU Tigers, which suggests the market is showing stronger support than the opener.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -447 → Current -455 (toward LSU Tigers)",
+          "weather": null,
+          "commence_time": "2026-09-05T16:00:00Z"
+        },
+        {
+          "league": "College Football",
+          "title": "College Football: Ole Miss Rebels priced as market favorite vs Louisville Cardinals",
+          "headline": "College Football: Ole Miss Rebels priced as market favorite vs Louisville Cardinals",
+          "matchup": "Louisville Cardinals at Ole Miss Rebels",
+          "source": "FanDuel",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Louisville Cardinals at Ole Miss Rebels",
+            "Book: FanDuel",
+            "Moneyline: Ole Miss Rebels -285 | Louisville Cardinals +230",
+            "Favorite implied probability: Ole Miss Rebels 74.0%",
+            "Line movement: Open -275 → Current -285 (toward Ole Miss Rebels)",
+            "Spread: Louisville Cardinals +7.5 (-120) | Ole Miss Rebels -7.5 (-102)",
+            "Total: Over 52.5 (-115) | Under 52.5 (-105)"
+          ],
+          "why_it_matters": "The market is pricing Ole Miss Rebels as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward Ole Miss Rebels, which suggests the market is showing stronger support than the opener.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -275 → Current -285 (toward Ole Miss Rebels)",
+          "weather": null,
+          "commence_time": "2026-09-05T16:00:00Z"
+        },
+        {
+          "league": "College Football",
+          "title": "College Football: Notre Dame Fighting Irish priced as market favorite vs Wisconsin Badgers",
+          "headline": "College Football: Notre Dame Fighting Irish priced as market favorite vs Wisconsin Badgers",
+          "matchup": "Notre Dame Fighting Irish at Wisconsin Badgers",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Notre Dame Fighting Irish at Wisconsin Badgers",
+            "Book: DraftKings",
+            "Moneyline: Wisconsin Badgers +1100 | Notre Dame Fighting Irish -2100",
+            "Favorite implied probability: Notre Dame Fighting Irish 95.5%",
+            "Line movement: Open -2090 → Current -2100 (toward Notre Dame Fighting Irish)",
+            "Spread: Notre Dame Fighting Irish -20.5 (-108) | Wisconsin Badgers +20.5 (-112)",
+            "Total: Over 47.5 (-110) | Under 47.5 (-110)"
+          ],
+          "why_it_matters": "The market is pricing Notre Dame Fighting Irish as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward Notre Dame Fighting Irish, which suggests the market is showing stronger support than the opener.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -2090 → Current -2100 (toward Notre Dame Fighting Irish)",
+          "weather": null,
+          "commence_time": "2026-09-06T16:00:00Z"
+        },
+        {
+          "league": "College Football",
+          "title": "College Football: Ole Miss Rebels priced as market favorite vs Louisville Cardinals",
+          "headline": "College Football: Ole Miss Rebels priced as market favorite vs Louisville Cardinals",
+          "matchup": "Louisville Cardinals at Ole Miss Rebels",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/",
+          "key_data": [
+            "Matchup: Louisville Cardinals at Ole Miss Rebels",
+            "Book: DraftKings",
+            "Moneyline: Ole Miss Rebels -270 | Louisville Cardinals +220",
+            "Favorite implied probability: Ole Miss Rebels 73.0%",
+            "Line movement: Open -260 → Current -270 (toward Ole Miss Rebels)",
+            "Spread: Louisville Cardinals +7 (-110) | Ole Miss Rebels -7 (-110)",
+            "Total: Over 53.5 (-115) | Under 53.5 (-105)"
+          ],
+          "why_it_matters": "The market is pricing Ole Miss Rebels as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward Ole Miss Rebels, which suggests the market is showing stronger support than the opener.",
+          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
+          "line_movement": "Line movement: Open -260 → Current -270 (toward Ole Miss Rebels)",
+          "weather": null,
+          "commence_time": "2026-09-06T23:30:00Z"
         }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.03,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
+      ]
     },
     {
-      "key": "ncaafb",
-      "title": "College Football",
-      "headline": "College Football Watch Tracks Schedule, Recruiting and Conference Signals",
-      "snapshot": "['0 final games logged', '0 games currently live', '10 upcoming matchups']",
-      "key_storylines": [
-        "NCAAFB REPORT | 2026-05-05",
-        "HEADLINE",
-        "College football schedule loaded with 10 upcoming matchups across the board.",
-        "SNAPSHOT",
-        "final games logged",
-        "games currently live",
-        "upcoming matchups"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [
-        "North Carolina Tar Heels at TCU Horned Frogs - TBD.",
-        "Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.",
-        "NC State Wolfpack at Virginia Cavaliers - TBD.",
-        "Memphis Tigers at UNLV Rebels - TBD.",
-        "San José State Spartans at USC Trojans - TBD.",
-        "New Mexico State Aggies at Florida State Seminoles - TBD.",
-        "Jacksonville State Gamecocks at North Dakota State Bison - TBD.",
-        "Sacramento State Hornets at Eastern Michigan Eagles - TBD.",
-        "Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.",
-        "Bethune-Cookman Wildcats at UCF Knights - TBD."
-      ],
-      "advanced": [],
-      "why_it_matters": [
-        "Clear scoreboard separation improves usability for journalists",
-        "Prevents stale data from appearing in active reporting windows",
-        "Supports both recap and preview workflows cleanly"
-      ],
-      "story_angles": [
-        "Preview-driven coverage leads current reporting"
-      ],
-      "priority_score": 84,
-      "story_type": "live",
-      "content": "NCAAFB REPORT | 2026-05-05\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-05 02:58:18 AM ET",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:58:18 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/college-football/scoreboard",
-      "links": [
+      "title": "Weather Impact",
+      "cards": [
         {
-          "label": "NCAA Football News",
-          "url": "https://www.ncaa.com/news/football/fbs",
-          "headline": ""
+          "title": "Weather angle: Athletics at Philadelphia Phillies",
+          "headline": "Weather angle: Athletics at Philadelphia Phillies",
+          "source": "Global Betting Report",
+          "url": "https://www.oddstrader.com/mlb/weather/",
+          "key_data": [
+            "Weather: 84°F, wind out to center at 6 mph, rain risk 10%",
+            "Check wind direction, temperature, and precipitation before first pitch.",
+            "Outdoor parks can create meaningful total movement."
+          ],
+          "why_it_matters": "Weather does not appear extreme, but totals should still be checked before first pitch.",
+          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
         },
         {
-          "label": "Yahoo Sports NCAAF",
-          "url": "https://sports.yahoo.com/college-football/",
-          "headline": ""
+          "title": "Weather angle: Baltimore Orioles at Miami Marlins",
+          "headline": "Weather angle: Baltimore Orioles at Miami Marlins",
+          "source": "Global Betting Report",
+          "url": "https://www.oddstrader.com/mlb/weather/",
+          "key_data": [
+            "Weather: 58°F, wind out to left at 9 mph, rain risk 42%",
+            "Check wind direction, temperature, and precipitation before first pitch.",
+            "Outdoor parks can create meaningful total movement."
+          ],
+          "why_it_matters": "Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
+          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
         },
         {
-          "label": "CBS Sports College Football",
-          "url": "https://www.cbssports.com/college-football/",
-          "headline": ""
+          "title": "Weather angle: Boston Red Sox at Detroit Tigers",
+          "headline": "Weather angle: Boston Red Sox at Detroit Tigers",
+          "source": "Global Betting Report",
+          "url": "https://www.oddstrader.com/mlb/weather/",
+          "key_data": [
+            "Weather: 58°F, wind in from center at 5 mph, rain risk 21%",
+            "Check wind direction, temperature, and precipitation before first pitch.",
+            "Outdoor parks can create meaningful total movement."
+          ],
+          "why_it_matters": "Weather does not appear extreme, but totals should still be checked before first pitch.",
+          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
+        },
+        {
+          "title": "Weather angle: Toronto Blue Jays at Tampa Bay Rays",
+          "headline": "Weather angle: Toronto Blue Jays at Tampa Bay Rays",
+          "source": "Global Betting Report",
+          "url": "https://www.oddstrader.com/mlb/weather/",
+          "key_data": [
+            "Weather: 69°F, wind out to right at 18 mph, rain risk 40%",
+            "Check wind direction, temperature, and precipitation before first pitch.",
+            "Outdoor parks can create meaningful total movement."
+          ],
+          "why_it_matters": "Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
+          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
+        },
+        {
+          "title": "Weather angle: Minnesota Twins at Washington Nationals",
+          "headline": "Weather angle: Minnesota Twins at Washington Nationals",
+          "source": "Global Betting Report",
+          "url": "https://www.oddstrader.com/mlb/weather/",
+          "key_data": [
+            "Weather: 66°F, wind crossfield at 15 mph, rain risk 9%",
+            "Check wind direction, temperature, and precipitation before first pitch.",
+            "Outdoor parks can create meaningful total movement."
+          ],
+          "why_it_matters": "Weather does not appear extreme, but totals should still be checked before first pitch.",
+          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
+        },
+        {
+          "title": "Weather angle: Texas Rangers at New York Yankees",
+          "headline": "Weather angle: Texas Rangers at New York Yankees",
+          "source": "Global Betting Report",
+          "url": "https://www.oddstrader.com/mlb/weather/",
+          "key_data": [
+            "Weather: 64°F, wind out to right at 5 mph, rain risk 34%",
+            "Check wind direction, temperature, and precipitation before first pitch.",
+            "Outdoor parks can create meaningful total movement."
+          ],
+          "why_it_matters": "Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
+          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
         }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.0,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 3,
-        "primary_url_policy": "game_context_locked"
-      }
+      ]
     },
     {
-      "key": "betting_odds",
-      "title": "Betting Market Watch",
-      "headline": "Betting board update",
-      "snapshot": "Sportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking.",
-      "key_storylines": [
-        "Odds feed unavailable during this run.",
-        "Pipeline completed safely without exposing any API token.",
-        "Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the .env file if odds remain unavailable."
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [
-        "{'live': [], 'upcoming': [], 'final': []}"
-      ],
-      "advanced": [],
-      "why_it_matters": [
-        "Market context helps editors monitor expected game flow and public attention."
-      ],
-      "story_angles": [
-        "Watch the next odds refresh, injury report or market movement."
-      ],
-      "priority_score": 140,
-      "story_type": "breaking",
-      "content": "GLOBAL SPORTS REPORT — BETTING ODDS WATCH\n\nGenerated: 2026-05-05 02:58:04 AM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- Pipeline completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the .env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-05 02:58:04 AM ET",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:58:04 AM ET",
-      "source_file": "",
-      "url": "https://www.actionnetwork.com/odds",
-      "links": [
-        {
-          "label": "Action Network",
-          "url": "https://www.actionnetwork.com",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports Betting",
-          "url": "https://sports.yahoo.com/sportsbook/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports Betting",
-          "url": "https://www.cbssports.com/betting/",
-          "headline": ""
-        },
-        {
-          "label": "Action Network",
-          "url": "https://www.actionnetwork.com/odds",
-          "headline": "Betting board update"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.01,
-      "lead_eligible": true,
-      "source_label": "Action Network",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "actionnetwork.com",
-        "non_espn_links": 4,
-        "total_links": 4,
-        "primary_url_policy": "section_url_locked"
-      }
+      "title": "What To Watch",
+      "cards": [
+        "Athletics at Philadelphia Phillies — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+        "Baltimore Orioles at Miami Marlins — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+        "Boston Red Sox at Detroit Tigers — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+        "Toronto Blue Jays at Tampa Bay Rays — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+        "Minnesota Twins at Washington Nationals — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+        "Texas Rangers at New York Yankees — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+        "Cincinnati Reds at Chicago Cubs — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
+        "Cleveland Guardians at Kansas City Royals — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+      ]
     },
     {
-      "key": "mlb",
-      "title": "MLB",
-      "headline": "MLB schedule opens with Athletics at Philadelphia Phillies",
-      "snapshot": "0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.",
-      "key_storylines": [
-        "UPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET",
-        "UPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET",
-        "UPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET",
-        "UPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "UPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET",
-        "UPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET",
-        "UPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET",
-        "UPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET"
-      ],
-      "why_it_matters": [
-        "MLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items."
-      ],
-      "story_angles": [
-        "Which result changes the main baseball conversation?",
-        "Which pitcher, bullpen or lineup decision deserves deeper review?",
-        "Which matchup has enough injury, standings or Statcast context to move beyond a basic preview?"
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "MLB REPORT | 2026-05-05\n\nHEADLINE\nMLB schedule opens with Athletics at Philadelphia Phillies\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET\nUPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET\nUPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET\nUPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nAthletics at Philadelphia Phillies — 6:40 PM ET\nBaltimore Orioles at Miami Marlins — 6:40 PM ET\nBoston Red Sox at Detroit Tigers — 6:40 PM ET\nToronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\nMinnesota Twins at Washington Nationals — 6:45 PM ET\nTexas Rangers at New York Yankees — 7:05 PM ET\nCincinnati Reds at Chicago Cubs — 7:40 PM ET\nCleveland Guardians at Kansas City Royals — 7:40 PM ET\nMilwaukee Brewers at St. Louis Cardinals — 7:45 PM ET\nLos Angeles Dodgers at Houston Astros — 8:10 PM ET\nNew York Mets at Colorado Rockies — 8:40 PM ET\nChicago White Sox at Los Angeles Angels — 9:38 PM ET\nAtlanta Braves at Seattle Mariners — 9:40 PM ET\nPittsburgh Pirates at Arizona Diamondbacks — 9:40 PM ET\nSan Diego Padres at San Francisco Giants — 9:45 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-05 02:56:41 AM ET",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:56:41 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/mlb/scoreboard",
-      "links": [
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/mlb/scoreboard",
-          "headline": "MLB schedule opens with Athletics at Philadelphia Phillies"
-        },
-        {
-          "label": "MLB.com News",
-          "url": "https://www.mlb.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports MLB",
-          "url": "https://sports.yahoo.com/mlb/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports MLB",
-          "url": "https://www.cbssports.com/mlb/",
-          "headline": ""
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.03,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
-    },
-    {
-      "key": "soccer",
-      "title": "Global Soccer",
-      "headline": "Guardiola says Premier League out of City's hands after draw",
-      "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches.",
-      "key_storylines": [
-        "Guardiola says Premier League out of City's hands after draw",
-        "Everton draw could spell doom for Man City in Premier League title race",
-        "Arsenal and Man City's remaining Premier League fixtures compared as title race hots up",
-        "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
-        "Tracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga",
-        "Five times Arsenal have let the Premier League title slip away"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Guardiola says Premier League out of City's hands after draw",
-        "Everton draw could spell doom for Man City in Premier League title race",
-        "Arsenal and Man City's remaining Premier League fixtures compared as title race hots up",
-        "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
-        "Tracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga",
-        "Five times Arsenal have let the Premier League title slip away",
-        "Onuoha: Man City second half an 'abomination' in title race slip",
-        "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit"
-      ],
-      "why_it_matters": [
-        "The soccer card now ranks real soccer news and high-value matches above generic fixture dumps.",
-        "This keeps the Global Soccer section useful for editors tracking clubs, transfers, competitions and match results."
-      ],
-      "story_angles": [
-        "Watch major-club news, transfer movement, manager reaction, injuries, standings pressure and live score swings."
-      ],
-      "priority_score": 104,
-      "story_type": "championship",
-      "content": "Guardiola says Premier League out of City's hands after draw\nEverton draw could spell doom for Man City in Premier League title race\nArsenal and Man City's remaining Premier League fixtures compared as title race hots up\nBayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nTracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga\nFive times Arsenal have let the Premier League title slip away",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:57:12 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/soccer/story/_/id/48679116/guardiola-premier-league-city-hands-draw",
-      "links": [
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/soccer/story/_/id/48679116/guardiola-premier-league-city-hands-draw",
-          "headline": "Guardiola says Premier League out of City's hands after draw"
-        },
-        {
-          "label": "The Guardian Football",
-          "url": "https://www.theguardian.com/football",
-          "headline": ""
-        },
-        {
-          "label": "BBC Sport Football",
-          "url": "https://www.bbc.com/sport/football",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports Soccer",
-          "url": "https://sports.yahoo.com/soccer/",
-          "headline": ""
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.02,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "section_url_locked"
-      }
-    },
-    {
-      "key": "fantasy",
-      "title": "Fantasy Sports",
-      "headline": "Fantasy Watch Tracks Usage, Roles and Waiver Signals",
-      "snapshot": "Fantasy usage and performance tracking.",
-      "key_storylines": [
-        "NFL: Seattle Seahawks at New England Patriots"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [],
-      "why_it_matters": [
-        "Fantasy Sports coverage is updated with the latest available storylines for journalist-facing planning."
-      ],
-      "story_angles": [
-        "What should reporters watch next in Fantasy Sports?"
-      ],
-      "priority_score": 100,
-      "story_type": "trade",
-      "content": "NFL: Seattle Seahawks at New England Patriots",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:58:16 AM ET",
-      "source_file": "",
-      "url": "https://www.cbssports.com/fantasy/",
-      "links": [
-        {
-          "label": "Rotowire",
-          "url": "https://www.rotowire.com",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Fantasy Sports",
-          "url": "https://sports.yahoo.com/fantasy/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Fantasy Sports",
-          "url": "https://www.cbssports.com/fantasy/",
-          "headline": ""
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.0,
-      "lead_eligible": true,
-      "source_label": "CBS Sports",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "cbssports.com",
-        "non_espn_links": 3,
-        "total_links": 3,
-        "primary_url_policy": "section_url_locked"
-      }
-    },
-    {
-      "key": "nfl",
-      "title": "NFL",
-      "headline": "Quarterback depth charts shaping offseason outlook",
-      "snapshot": "No active games; offseason coverage signals in focus",
-      "key_storylines": [
-        "NFL REPORT | 2026-05-05",
-        "HEADLINE",
-        "NFL offseason roster signals emerging",
-        "SNAPSHOT",
-        "No active games; offseason coverage signals in focus",
-        "UPDATED",
-        ":57:18 AM ET"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [],
-      "why_it_matters": [
-        "NFL availability changes can reshape betting markets, lineup decisions and story angles."
-      ],
-      "story_angles": [
-        "Which quarterback or coaching storyline drives the week?",
-        "Which roster decision has the biggest long-term impact?"
-      ],
-      "priority_score": 37,
-      "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-05\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-05 02:57:18 AM ET",
-      "updated_at": "2026-05-05 02:58:27 AM ET",
-      "source_updated_at": "2026-05-05 02:57:18 AM ET",
-      "source_file": "",
-      "url": "https://www.nfl.com/news",
-      "links": [
-        {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/nfl/article/qb-brendan-sorsbys-potential-nfl-path-likely-depends-on-4-key-questions-amid-ncaa-gambling-investigation-064648519.html",
-          "headline": "QB Brendan Sorsby's potential NFL path likely depends on 4 key questions amid NCAA gambling investigation"
-        },
-        {
-          "label": "NFL.com News",
-          "url": "https://www.nfl.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NFL",
-          "url": "https://sports.yahoo.com/nfl/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NFL",
-          "url": "https://www.cbssports.com/nfl/",
-          "headline": ""
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.02,
-      "lead_eligible": true,
-      "source_label": "NFL.com",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "nfl.com",
-        "non_espn_links": 4,
-        "total_links": 4,
-        "primary_url_policy": "section_url_locked"
-      }
+      "title": "Journalist Betting Toolkit",
+      "cards": [
+        "OddsTrader — betting odds, weather, line context, and matchup boards.",
+        "The Odds API — structured odds feed for moneylines, spreads, and totals.",
+        "Action Network — market movement, betting splits, and injury context.",
+        "Covers — matchup pages, odds screens, and trend context.",
+        "Sportsbook Review — odds comparison and betting market coverage."
+      ]
     }
   ],
   "homepage_cards": [
     {
-      "league": "Breaking Sports News",
-      "key": "breaking_news",
-      "headline": "QB Brendan Sorsby's potential NFL path likely depends on 4 key questions amid NCAA gambling investigation",
-      "url": "https://sports.yahoo.com/nfl/article/qb-brendan-sorsbys-potential-nfl-path-likely-depends-on-4-key-questions-amid-ncaa-gambling-investigation-064648519.html",
-      "snapshot": "If Sorsby loses his NCAA eligibility, he could try to enter the rarely used NFL supplemental draft.",
-      "story_type": "breaking",
-      "priority_score": 174,
-      "freshness_status": "fresh",
-      "source": "breaking_news_engine"
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-      "url": "https://www.espn.com/nba/scoreboard",
-      "snapshot": "2 NBA games on the board: 0 live, 2 final, 0 upcoming. Priority favors live games, marquee teams and close-score situations.",
-      "story_type": "live",
-      "priority_score": 72,
-      "freshness_status": "fresh",
-      "source": ""
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-      "url": "https://www.espn.com/nhl/scoreboard",
-      "snapshot": "2 NHL games on board: 0 live, 2 final, 0 upcoming.",
-      "story_type": "live",
-      "priority_score": 72,
-      "freshness_status": "fresh",
-      "source": ""
-    },
-    {
-      "league": "College Football",
-      "key": "ncaafb",
-      "headline": "College Football Watch Tracks Schedule, Recruiting and Conference Signals",
-      "url": "https://www.espn.com/college-football/scoreboard",
-      "snapshot": "['0 final games logged', '0 games currently live', '10 upcoming matchups']",
-      "story_type": "live",
-      "priority_score": 84,
-      "freshness_status": "fresh",
-      "source": ""
-    },
-    {
-      "league": "Betting Market Watch",
-      "key": "betting_odds",
-      "headline": "Betting board update",
-      "url": "https://www.actionnetwork.com/odds",
-      "snapshot": "Sportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking.",
-      "story_type": "breaking",
-      "priority_score": 140,
-      "freshness_status": "fresh",
-      "source": ""
+      "league": "MLB",
+      "headline": "MLB: Philadelphia Phillies priced as market favorite vs Athletics",
+      "url": "https://www.oddstrader.com/"
     },
     {
       "league": "MLB",
-      "key": "mlb",
-      "headline": "MLB schedule opens with Athletics at Philadelphia Phillies",
-      "url": "https://www.espn.com/mlb/scoreboard",
-      "snapshot": "0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.",
-      "story_type": "live",
-      "priority_score": 72,
-      "freshness_status": "fresh",
-      "source": ""
+      "headline": "MLB: Baltimore Orioles priced as market favorite vs Miami Marlins",
+      "url": "https://www.oddstrader.com/"
     },
     {
-      "league": "Global Soccer",
-      "key": "soccer",
-      "headline": "Guardiola says Premier League out of City's hands after draw",
-      "url": "https://www.espn.com/soccer/story/_/id/48679116/guardiola-premier-league-city-hands-draw",
-      "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches.",
-      "story_type": "championship",
-      "priority_score": 104,
-      "freshness_status": "fresh",
-      "source": ""
+      "league": "MLB",
+      "headline": "MLB: Boston Red Sox priced as market favorite vs Detroit Tigers",
+      "url": "https://www.oddstrader.com/"
     },
     {
-      "league": "Fantasy Sports",
-      "key": "fantasy",
-      "headline": "Fantasy Watch Tracks Usage, Roles and Waiver Signals",
-      "url": "https://www.cbssports.com/fantasy/",
-      "snapshot": "Fantasy usage and performance tracking.",
-      "story_type": "trade",
-      "priority_score": 100,
-      "freshness_status": "fresh",
-      "source": ""
+      "league": "MLB",
+      "headline": "MLB: Toronto Blue Jays priced as market favorite vs Tampa Bay Rays",
+      "url": "https://www.oddstrader.com/"
     },
     {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Quarterback depth charts shaping offseason outlook",
-      "url": "https://www.nfl.com/news",
-      "snapshot": "No active games; offseason coverage signals in focus",
-      "story_type": "generic",
-      "priority_score": 37,
-      "freshness_status": "fresh",
-      "source": ""
+      "league": "MLB",
+      "headline": "MLB: Minnesota Twins priced as market favorite vs Washington Nationals",
+      "url": "https://www.oddstrader.com/"
+    },
+    {
+      "league": "MLB",
+      "headline": "MLB: New York Yankees priced as market favorite vs Texas Rangers",
+      "url": "https://www.oddstrader.com/"
+    },
+    {
+      "league": "MLB",
+      "headline": "MLB: Chicago Cubs priced as market favorite vs Cincinnati Reds",
+      "url": "https://www.oddstrader.com/"
+    },
+    {
+      "league": "MLB",
+      "headline": "MLB: Cleveland Guardians priced as market favorite vs Kansas City Royals",
+      "url": "https://www.oddstrader.com/"
+    },
+    {
+      "league": "NBA",
+      "headline": "NBA: Detroit Pistons priced as market favorite vs Cleveland Cavaliers",
+      "url": "https://www.oddstrader.com/"
+    },
+    {
+      "league": "NBA",
+      "headline": "NBA: Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers",
+      "url": "https://www.oddstrader.com/"
+    },
+    {
+      "league": "NBA",
+      "headline": "NBA: New York Knicks priced as market favorite vs Philadelphia 76ers",
+      "url": "https://www.oddstrader.com/"
+    },
+    {
+      "league": "NBA",
+      "headline": "NBA: San Antonio Spurs priced as market favorite vs Minnesota Timberwolves",
+      "url": "https://www.oddstrader.com/"
     }
   ],
-  "journalist_toolkit": {
-    "title": "Journalist Toolkit",
-    "snapshot": "Fast-access reporting resources for sports journalists.",
-    "resources": [
-      {
-        "label": "ESPN Scoreboards",
-        "url": "https://www.espn.com"
-      },
-      {
-        "label": "Baseball Savant",
-        "url": "https://baseballsavant.mlb.com"
-      },
-      {
-        "label": "Sports Reference",
-        "url": "https://www.sports-reference.com"
-      },
-      {
-        "label": "Pro Football Reference",
-        "url": "https://www.pro-football-reference.com"
-      },
-      {
-        "label": "Basketball Reference",
-        "url": "https://www.basketball-reference.com"
-      },
-      {
-        "label": "Hockey Reference",
-        "url": "https://www.hockey-reference.com"
-      },
-      {
-        "label": "FBref",
-        "url": "https://fbref.com"
-      },
-      {
-        "label": "NCAA Statistics",
-        "url": "https://www.ncaa.com/stats"
-      }
-    ]
-  },
-  "x_handle": "@GlobalSportsRp",
-  "substack_url": "https://globalsportsreport.substack.com",
-  "updated_at": "2026-05-05 02:58:20 AM ET",
-  "generated_at": "2026-05-05 02:58:20 AM ET",
-  "published_at": "2026-05-05 02:58:20 AM ET",
-  "heartbeat": "2026-05-05T02:58:20-04:00",
-  "cache_buster": "2026-05-05T02:58:20-04:00",
-  "automation_status": {
-    "status": "running",
-    "last_successful_build": "2026-05-05 02:58:20 AM ET",
-    "last_successful_build_iso": "2026-05-05T02:58:20-04:00",
-    "purpose": "Forces a visible file change every run so GitHub, Vercel and the live site do not stay frozen when upstream sports data is quiet."
-  },
-  "freshness": {
-    "status": "active",
-    "max_section_age_hours": 6,
-    "max_breaking_news_age_hours": 6,
-    "max_lead_breaking_news_age_hours": 3,
-    "fresh_sections": 9,
-    "league_inputs": [
-      {
-        "league": "MLB",
-        "key": "mlb",
-        "age_hours": 0.03,
-        "status": "fresh",
-        "max_age_hours": 6
-      },
-      {
-        "league": "NBA",
-        "key": "nba",
-        "age_hours": 0.03,
-        "status": "fresh",
-        "max_age_hours": 6
-      },
-      {
-        "league": "NHL",
-        "key": "nhl",
-        "age_hours": 0.03,
-        "status": "fresh",
-        "max_age_hours": 6
-      },
-      {
-        "league": "NFL",
-        "key": "nfl",
-        "age_hours": 0.02,
-        "status": "fresh",
-        "max_age_hours": 6
-      },
-      {
-        "league": "College Football",
-        "key": "ncaafb",
-        "age_hours": 0.0,
-        "status": "fresh",
-        "max_age_hours": 6
-      },
-      {
-        "league": "Global Soccer",
-        "key": "soccer",
-        "age_hours": 0.02,
-        "status": "fresh",
-        "max_age_hours": 6
-      },
-      {
-        "league": "Betting Market Watch",
-        "key": "betting_odds",
-        "age_hours": 0.01,
-        "status": "fresh",
-        "max_age_hours": 6
-      },
-      {
-        "league": "Fantasy Sports",
-        "key": "fantasy",
-        "age_hours": 0.0,
-        "status": "fresh",
-        "max_age_hours": 6
-      }
-    ],
-    "last_checked": "2026-05-05 02:58:20 AM ET",
-    "heartbeat": "2026-05-05T02:58:20-04:00"
-  },
-  "editorial_brain": {
-    "status": "active",
-    "breaking_news_engine": "active",
-    "multi_source_sports_news": "active",
-    "score_normalizer": "active",
-    "manual_breaking_override_layer": "active",
-    "spotlight_separation": "active",
-    "duplicate_spotlight_guard": "active",
-    "lead_snapshot_cleanup": "active",
-    "freshness_gate": "active",
-    "stale_source_blocking": "active",
-    "heartbeat_refresh": "active",
-    "cache_buster": "active",
-    "real_time_lead_guard": "active",
-    "old_headline_demoter": "active",
-    "source_diversity_guard": "active",
-    "focus": [
-      "Breaking news hierarchy",
-      "Main headline must be timely enough for the current sports desk",
-      "Older breaking/context items can stay lower but cannot dominate the homepage",
-      "Clean single-story lead summaries",
-      "Separate live newsroom and editor signal modules",
-      "Freshness gate for stale league reports",
-      "Major U.S. sports leagues",
-      "Global soccer",
-      "Final scores",
-      "Live games",
-      "Upcoming schedules",
-      "Advanced journalist-facing angles",
-      "Orderly one-line card data",
-      "Forced freshness heartbeat",
-      "No silent stale homepage",
-      "Source diversity across sports news links",
-      "ESPN used for game context, not as the only story source"
-    ],
-    "version": "2026-05-04-sports-url-league-match-guard"
+  "editorial_standard": {
+    "label": "GSR Network Editorial Standard",
+    "text": "No AI-written gambling advice. AI is used for data, signals, and structure only. Final journalism and betting interpretation remain human-driven."
   }
 }
