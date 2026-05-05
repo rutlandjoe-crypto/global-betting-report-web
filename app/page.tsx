@@ -10,11 +10,11 @@ import EditorialStandard from "@/components/EditorialStandard";
 type AnyObj = Record<string, any>;
 
 const SITE = {
-  name: "Global Sports Report",
+  name: "Global Betting Report",
   tagline: "Built for journalists, by a journalist.",
-  topic: "Sports",
+  topic: "Betting",
   descriptor:
-    "Global Sports Report tracks live scores, schedules, advanced metrics, story angles and newsroom-ready sports intelligence across MLB, NBA, NFL, NHL, soccer and the broader sports calendar.",
+    "Global Betting Report tracks live scores, schedules, advanced metrics, story angles and newsroom-ready betting intelligence across MLB, NBA, NFL, NHL, soccer and the broader sports calendar.",
 };
 
 const TOOLKIT = [
@@ -33,7 +33,7 @@ const GSR_NETWORK = [
 ];
 
 const LEAGUE_LABELS: AnyObj = {
-  breaking_news: "Breaking Sports News",
+  breaking_news: "Breaking Betting News",
   mlb: "MLB",
   nba: "NBA",
   nhl: "NHL",
@@ -241,7 +241,7 @@ function extractHeadline(section: AnyObj): string {
     cleanText(section.headline) ||
     cleanText(headlineLines[0]) ||
     cleanText(section.title) ||
-    "Sports newsroom update"
+    "Betting newsroom update"
   );
 }
 
@@ -252,7 +252,7 @@ function extractSnapshot(section: AnyObj): string {
     cleanText(section.snapshot) ||
     cleanText(snapshotLines[0]) ||
     cleanText(section.content).slice(0, 260) ||
-    "Latest verified sports report generated for newsroom review."
+    "Latest verified betting report generated for newsroom review."
   );
 }
 
@@ -309,7 +309,7 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
 
 function normalizeStory(story: AnyObj, index: number): AnyObj {
   const key = cleanText(story.key || story.id || story.league || `story-${index}`);
-  const title = cleanText(story.title || story.league || LEAGUE_LABELS[key] || "Sports Watch");
+  const title = cleanText(story.title || story.league || LEAGUE_LABELS[key] || "Betting Watch");
   const url = extractBestUrl(story, key);
 
   return {
@@ -400,7 +400,7 @@ function storyTitle(story: AnyObj, index: number): string {
     cleanText(story.title) ||
     cleanText(story.name) ||
     cleanText(story.league) ||
-    `Sports Storyline ${index + 1}`
+    `Betting Storyline ${index + 1}`
   );
 }
 
@@ -415,12 +415,12 @@ function storySummary(story: AnyObj): string {
     cleanText(story.summary) ||
     cleanText(story.description) ||
     cleanText(story.body) ||
-    "Sports development flagged for newsroom monitoring."
+    "Betting development flagged for newsroom monitoring."
   );
 }
 
 function storyLabel(story: AnyObj): string {
-  return cleanText(story.league) || cleanText(story.title) || cleanText(story.label) || "Sports Watch";
+  return cleanText(story.league) || cleanText(story.title) || cleanText(story.label) || "Betting Watch";
 }
 
 function isPublishableStory(story: AnyObj): boolean {
@@ -603,7 +603,7 @@ export default function Page() {
       report.takeaways
   );
 
-  const fallbackHeadline = "Global Sports Report: Live Sports Newsroom Board";
+  const fallbackHeadline = "Global Betting Report: Live Betting Newsroom Board";
 
   const headline =
     cleanText(report.headline) && !isBadContent(report.headline)
@@ -613,7 +613,7 @@ export default function Page() {
   const snapshot =
     cleanText(report.snapshot) && !isBadContent(report.snapshot)
       ? cleanText(report.snapshot)
-      : "A live sports briefing built for journalists tracking verified scores, results, analytics, playoff races, injuries and story angles.";
+      : "A live betting briefing built for bettors tracking verified scores, results, analytics, playoff races, injuries and story angles.";
 
   const updated =
     cleanText(report.updated_at) ||
@@ -624,11 +624,11 @@ export default function Page() {
   if (!stories.length) {
     stories = [
       {
-        league: "Sports Watch",
+        league: "Betting Watch",
         headline,
         summary: snapshot,
         url: "https://www.espn.com/",
-        key_data: ["Latest sports report generated from the current verified newsroom board."],
+        key_data: ["Latest betting report generated from the current verified newsroom board."],
         why_it_matters: ["Editors need fast clarity across scores, results, analytics and live story movement."],
         what_to_watch: ["Next verified result, injury note, roster move, playoff angle or advanced metric signal."],
         story_type: "analysis",
@@ -697,7 +697,7 @@ export default function Page() {
               liveBriefingItems.length
                 ? liveBriefingItems
                 : [
-                    "Track the strongest verified sports development on today’s board.",
+                    "Track the strongest verified betting development on today’s board.",
                     "Prioritize results, injuries, playoff movement, roster news and verified links.",
                     "Watch advanced metrics, standings shifts and late-breaking league updates.",
                     "Monitor league-by-league angles for reporters and editors.",
@@ -715,7 +715,7 @@ export default function Page() {
                 editorSignalItems.length
                   ? editorSignalItems
                   : [
-                      "Track the strongest verified sports development on today’s board.",
+                      "Track the strongest verified betting development on today’s board.",
                       "Prioritize results, injuries, playoff movement, roster news and verified links.",
                       "Watch advanced metrics, standings shifts and late-breaking league updates.",
                     ]
@@ -742,7 +742,7 @@ export default function Page() {
           <Block title="Coverage Lens">
             <LineList
               items={[
-                "Scoreboard: What result changes the day’s sports conversation?",
+                "Scoreboard: What result changes the day’s betting conversation?",
                 "News: What injury, roster, playoff or league development needs follow-up?",
                 "Performance: Which player or team metric deserves deeper reporting?",
                 "Context: What standings, playoff or roster angle matters most?",
