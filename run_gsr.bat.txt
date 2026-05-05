@@ -1,0 +1,10 @@
+@echo off
+cd /d C:\Users\joeru\OneDrive\Desktop\sports_bot-ai
+
+echo ====================================================================== >> distribution_log.txt
+echo TASK RUN STARTED: %date% %time% >> distribution_log.txt
+
+C:\Users\joeru\AppData\Local\Programs\Python\Python313\python.exe master_runner.py >> distribution_log.txt 2>&1
+
+echo TASK RUN FINISHED: %date% %time% >> distribution_log.txt
+echo. >> distribution_log.txt

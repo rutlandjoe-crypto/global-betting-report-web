@@ -1,0 +1,21 @@
+Pipeline status: DEGRADED
+Timestamp: 2026-04-13 03:16:19 PM ET
+
+Successful scripts (2):
+- run_fantasy.py
+- global_sports_report.py
+
+Degraded scripts (1):
+- run_fantasy.py
+
+Failed scripts (7):
+- get_mlb_report.py
+- get_nba_report.py
+- get_nhl_report.py
+- get_nfl_report.py
+- get_soccer_report.py
+- betting_odds.py
+- build_distribution.py
+
+Blocked/skipped scripts (0):
+- None

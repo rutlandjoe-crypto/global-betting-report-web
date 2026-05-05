@@ -1,0 +1,56 @@
+{
+  "title": "GLOBAL SPORTS REPORT | 2026-04-08",
+  "date": "2026-04-08",
+  "generated_at": "2026-04-08 08:26:03 PM ET",
+  "disclaimer": "This report is an automated summary intended to support, not replace, human sports journalism.",
+  "global_report": "GLOBAL SPORTS REPORT | 2026-04-08\n\nHEADLINE\nMajor League Baseball leads the daytime board while the NBA carries the night schedule into focus.\n\nKEY STORYLINES\n• MLB shows 11 final, 3 live, and 1 upcoming games on the board.\n• NBA shows 3 live and 4 upcoming games on the board.\n• The fantasy layer keeps a cross-league view on developing production and later opportunity.\n\nSNAPSHOT\nThis edition includes 3 reports.\n\nMLB\nSNAPSHOT\nThe MLB slate currently shows 11 final, 3 live, and 1 upcoming games.\nFINAL SCORES\nSan Diego Padres beat Pittsburgh Pirates, 8-2.\nCleveland Guardians beat Kansas City Royals, 10-2.\nBoston Red Sox beat Milwaukee Brewers, 5-0.\nLIVE\nLIVE: Chicago Cubs 1, Tampa Bay Rays 0 — Middle 3.\nLIVE: Cincinnati Reds 2, Miami Marlins 2 — Bottom 1.\nLIVE: Athletics 0, New York Yankees 0 — Top 1.\nUPCOMING\nUPCOMING: Detroit Tigers at Minnesota Twins — 7:40 PM ET. Probables: Framber Valdez vs. Bailey Ober.\n\nNBA\nSNAPSHOT\nThe NBA slate currently shows 3 live games, 4 upcoming games.\nFINAL SCORES\nNo final scores were available during this report window.\nLIVE\nLIVE: Atlanta Hawks 5, Cleveland Cavaliers 11 — 8:08 - 1st Quarter.\nLIVE: Minnesota Timberwolves 16, Orlando Magic 18 — 6:04 - 1st Quarter.\nLIVE: Milwaukee Bucks 17, Detroit Pistons 19 — 6:46 - 1st Quarter.\nUPCOMING\nUPCOMING: Memphis Grizzlies at Denver Nuggets — 9:00 PM ET.\nUPCOMING: Portland Trail Blazers at San Antonio Spurs — 9:30 PM ET.\nUPCOMING: Oklahoma City Thunder at LA Clippers — 10:00 PM ET.\n\nThis report is an automated summary intended to support, not replace, human sports journalism.",
+  "global_report_hash": "34fe36684d4fdd9fcae89aece20f7fedf3b02e24a6bf60d308675f1c6b668ce2",
+  "leagues": {
+    "nba": {
+      "status": "ok",
+      "title": "NBA",
+      "content": "NBA REPORT | 2026-04-08\n\nAcross the NBA, the slate features live action and additional games still ahead on the schedule.\n\nSNAPSHOT\nThe NBA slate currently shows 3 live game(s), 4 upcoming game(s).\n\nFINAL SCORES\nNo final scores were available during this report window.\n\nLIVE GAMES\nLIVE: Atlanta Hawks 5, Cleveland Cavaliers 11 — 8:08 - 1st Quarter.\nLIVE: Minnesota Timberwolves 16, Orlando Magic 18 — 6:04 - 1st Quarter.\nLIVE: Milwaukee Bucks 17, Detroit Pistons 19 — 6:46 - 1st Quarter.\n\nUPCOMING\nUPCOMING: Memphis Grizzlies at Denver Nuggets — 9:00 PM ET.\nUPCOMING: Portland Trail Blazers at San Antonio Spurs — 9:30 PM ET.\nUPCOMING: Oklahoma City Thunder at LA Clippers — 10:00 PM ET.\nUPCOMING: Dallas Mavericks at Phoenix Suns — 10:00 PM ET.\n\nThis report is an automated summary intended to support, not replace, human sports journalism.",
+      "has_content": true,
+      "file": "nba_report.txt"
+    },
+    "mlb": {
+      "status": "ok",
+      "title": "MLB",
+      "content": "MLB REPORT | 2026-04-08\n\nAcross Major League Baseball, today’s slate features completed games, live action, and upcoming first pitches.\n\nSNAPSHOT\nThe MLB slate currently shows 11 final, 3 live, and 1 upcoming game(s).\n\nFINAL SCORES\nSan Diego Padres beat Pittsburgh Pirates, 8-2.\nCleveland Guardians beat Kansas City Royals, 10-2.\nBoston Red Sox beat Milwaukee Brewers, 5-0.\nBaltimore Orioles beat Chicago White Sox, 5-3.\nTexas Rangers beat Seattle Mariners, 3-0.\nToronto Blue Jays beat Los Angeles Dodgers, 4-3.\nColorado Rockies beat Houston Astros, 9-1.\nSan Francisco Giants beat Philadelphia Phillies, 5-0.\nSt. Louis Cardinals beat Washington Nationals, 6-1.\nAtlanta Braves beat Los Angeles Angels, 8-2.\nArizona Diamondbacks beat New York Mets, 7-2.\n\nLIVE GAMES\nLIVE: Chicago Cubs 1, Tampa Bay Rays 0 — Middle 3.\nLIVE: Cincinnati Reds 2, Miami Marlins 2 — Bottom 1.\nLIVE: Athletics 0, New York Yankees 0 — Top 1.\n\nUPCOMING\nUPCOMING: Detroit Tigers at Minnesota Twins — 7:40 PM ET. Probables: Framber Valdez vs. Bailey Ober.\n\nThis report is an automated summary intended to support, not replace, human sports journalism.",
+      "has_content": true,
+      "file": "mlb_report.txt"
+    },
+    "nhl": {
+      "status": "degraded",
+      "title": "NHL",
+      "content": "NHL REPORT",
+      "has_content": true,
+      "file": "nhl_report.txt"
+    },
+    "nfl": {
+      "status": "degraded",
+      "title": "NFL",
+      "content": "NFL REPORT",
+      "has_content": true,
+      "file": "nfl_report.txt"
+    },
+    "soccer": {
+      "status": "degraded",
+      "title": "SOCCER",
+      "content": "SOCCER REPORT",
+      "has_content": true,
+      "file": "soccer_report.txt"
+    }
+  },
+  "available_leagues": [
+    "nba",
+    "mlb"
+  ],
+  "degraded_leagues": [
+    "nhl",
+    "nfl",
+    "soccer"
+  ],
+  "missing_leagues": [],
+  "site_status": "ok"
+}

@@ -1,0 +1,39 @@
+Pipeline status: SUCCESS
+Timestamp: 2026-04-21 08:25:38 PM ET
+
+Successful scripts (12):
+- get_mlb_report.py [2.4s]
+- get_mlb_advanced_report.py [24.9s]
+- get_nba_report.py [6.9s]
+- get_nba_advanced_report.py [35.8s]
+- get_nhl_report.py [2.3s]
+- get_nfl_report.py [1.1s]
+- get_nfl_advanced_report.py [3.8s]
+- get_nfl_draft_signals.py [1.0s]
+- get_soccer_report.py [1.2s]
+- betting_odds.py [3.6s]
+- global_sports_report.py [0.2s]
+- build_distribution.py [15.5s]
+
+Degraded scripts (0):
+- None
+
+Failed scripts (0):
+- None
+
+Blocked/skipped scripts (0):
+- None
+
+Script runtimes:
+- get_mlb_report.py: 2.4s
+- get_mlb_advanced_report.py: 24.9s
+- get_nba_report.py: 6.9s
+- get_nba_advanced_report.py: 35.8s
+- get_nhl_report.py: 2.3s
+- get_nfl_report.py: 1.1s
+- get_nfl_advanced_report.py: 3.8s
+- get_nfl_draft_signals.py: 1.0s
+- get_soccer_report.py: 1.2s
+- betting_odds.py: 3.6s
+- global_sports_report.py: 0.2s
+- build_distribution.py: 15.5s

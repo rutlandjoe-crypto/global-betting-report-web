@@ -1,0 +1,55 @@
+[2026-04-13 07:00:51 AM ET] ======================================================================
+[2026-04-13 07:00:52 AM ET] MASTER RUNNER STARTED
+[2026-04-13 07:00:52 AM ET] BASE_DIR: C:\Users\joeru\OneDrive\Desktop\sports_bot-ai
+[2026-04-13 07:00:52 AM ET] PYTHON: C:\Users\joeru\AppData\Local\Programs\Python\Python313\python.exe
+[2026-04-13 07:00:52 AM ET] START: get_mlb_report.py
+[2026-04-13 07:05:21 AM ET] TIMEOUT: get_mlb_report.py exceeded 240 seconds
+[2026-04-13 07:05:55 AM ET] START: get_nba_report.py
+[2026-04-13 07:10:48 AM ET] TIMEOUT: get_nba_report.py exceeded 240 seconds
+[2026-04-13 07:11:43 AM ET] START: get_nhl_report.py
+[2026-04-13 07:15:56 AM ET] TIMEOUT: get_nhl_report.py exceeded 240 seconds
+[2026-04-13 07:16:21 AM ET] START: get_nfl_report.py
+[2026-04-13 07:20:16 AM ET] OUTPUT from get_nfl_report.py:
+NFL Request: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20260413
+ERROR: NFL API request failed: HTTPSConnectionPool(host='site.api.espn.com', port=443): Max retries exceeded with url: /apis/site/v2/sports/football/nfl/scoreboard?dates=20260413 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+[2026-04-13 07:20:30 AM ET] SUCCESS: get_nfl_report.py
+[2026-04-13 07:20:31 AM ET] START: get_soccer_report.py
+[2026-04-13 07:25:34 AM ET] TIMEOUT: get_soccer_report.py exceeded 300 seconds
+[2026-04-13 07:25:51 AM ET] START: run_fantasy.py
+[2026-04-13 07:27:17 AM ET] OUTPUT from run_fantasy.py:
+[2026-04-13 07:25:55 AM ET] Starting fantasy report build...
+[2026-04-13 07:27:03 AM ET] Fantasy script stdout:
+[2026-04-13 07:25:58 AM ET] Starting fantasy report build...
+[2026-04-13 07:26:58 AM ET] ERROR: Fantasy report build timed out after 60 seconds
+[2026-04-13 07:26:59 AM ET] Fallback fantasy report written: fantasy_report.txt
+[2026-04-13 07:27:03 AM ET] ERROR: Fantasy report script failed with code 1
+[2026-04-13 07:27:03 AM ET] Fallback fantasy report written: fantasy_report.txt
+[2026-04-13 07:27:18 AM ET] FAILED: run_fantasy.py exited with code 1
+[2026-04-13 07:28:33 AM ET] START: betting_odds.py
+[2026-04-13 07:32:42 AM ET] TIMEOUT: betting_odds.py exceeded 240 seconds
+[2026-04-13 07:32:47 AM ET] START: global_sports_report.py
+[2026-04-13 07:33:08 AM ET] OUTPUT from global_sports_report.py:
+Saved: C:\Users\joeru\OneDrive\Desktop\sports_bot-ai\global_sports_report.txt
+[2026-04-13 07:33:08 AM ET] SUCCESS: global_sports_report.py
+[2026-04-13 07:33:22 AM ET] START: build_distribution.py
+[2026-04-13 07:37:43 AM ET] TIMEOUT: build_distribution.py exceeded 240 seconds
+[2026-04-13 07:37:54 AM ET] PUBLISH BLOCKED by: build_distribution.py
+[2026-04-13 07:37:55 AM ET] ----------------------------------------------------------------------
+[2026-04-13 07:37:55 AM ET] SUCCESSFUL: 2
+[2026-04-13 07:37:55 AM ET] OK: get_nfl_report.py
+[2026-04-13 07:37:55 AM ET] OK: global_sports_report.py
+[2026-04-13 07:37:55 AM ET] FAILED: 7
+[2026-04-13 07:37:55 AM ET] FAIL: get_mlb_report.py
+[2026-04-13 07:37:55 AM ET] FAIL: get_nba_report.py
+[2026-04-13 07:37:55 AM ET] FAIL: get_nhl_report.py
+[2026-04-13 07:37:55 AM ET] FAIL: get_soccer_report.py
+[2026-04-13 07:37:55 AM ET] FAIL: run_fantasy.py
+[2026-04-13 07:37:57 AM ET] FAIL: betting_odds.py
+[2026-04-13 07:37:57 AM ET] FAIL: build_distribution.py
+[2026-04-13 07:37:57 AM ET] SKIPPED: 0
+[2026-04-13 07:37:57 AM ET] MASTER RUNNER FINISHED WITH ERRORS
+[2026-04-13 08:52:11 AM ET] ======================================================================
+[2026-04-13 08:52:16 AM ET] MASTER RUNNER STARTED
+[2026-04-13 08:52:16 AM ET] BASE_DIR: C:\Users\joeru\OneDrive\Desktop\sports_bot-ai
+[2026-04-13 08:52:16 AM ET] PYTHON: C:\Users\joeru\AppData\Local\Programs\Python\Python313\python.exe
+[2026-04-13 08:52:16 AM ET] START: get_mlb_report.py

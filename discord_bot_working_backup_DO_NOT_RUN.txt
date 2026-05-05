@@ -1,0 +1,132 @@
+import os
+from pathlib import Path
+
+import discord
+
+# =========================
+# CONFIG
+# =========================
+
+TOKEN = os.getenv("SPORTS_DISCORD_BOT_TOKEN")
+if not TOKEN:
+    raise SystemExit("SPORTS_DISCORD_BOT_TOKEN is not set.")
+
+BASE_DIR = Path(__file__).resolve().parent
+
+# Command -> report file mapping
+REPORT_FILES = {
+    "!nba": os.getenv("NBA_REPORT_FILE", str(BASE_DIR / "nba_report.txt")),
+    "!mlb": os.getenv("MLB_REPORT_FILE", str(BASE_DIR / "mlb_report.txt")),
+    "!nhl": os.getenv("NHL_REPORT_FILE", str(BASE_DIR / "nhl_report.txt")),
+    "!nfl": os.getenv("NFL_REPORT_FILE", str(BASE_DIR / "nfl_report.txt")),
+    "!ncaab": os.getenv("NCAAB_REPORT_FILE", str(BASE_DIR / "ncaab_report.txt")),
+    "!wnba": os.getenv("WNBA_REPORT_FILE", str(BASE_DIR / "wnba_report.txt")),
+}
+
+MAX_MESSAGE_LEN = 1900
+
+intents = discord.Intents.default()
+intents.message_content = True
+
+client = discord.Client(intents=intents)
+
+
+# =========================
+# HELPERS
+# =========================
+
+def split_message(text: str, chunk_size: int = MAX_MESSAGE_LEN) -> list[str]:
+    """Split long text into Discord-safe chunks."""
+    text = text.strip()
+    if not text:
+        return ["Report is empty."]
+
+    chunks = []
+    while len(text) > chunk_size:
+        split_at = text.rfind("\n", 0, chunk_size)
+        if split_at == -1:
+            split_at = chunk_size
+        chunks.append(text[:split_at].strip())
+        text = text[split_at:].strip()
+
+    if text:
+        chunks.append(text)
+
+    return chunks
+
+
+def read_report(file_path: str) -> str:
+    """Read report text from file."""
+    path = Path(file_path)
+
+    if not path.is_absolute():
+        path = BASE_DIR / path
+
+    if not path.exists():
+        raise FileNotFoundError(f"Report file not found: {path}")
+
+    content = path.read_text(encoding="utf-8").strip()
+
+    if not content:
+        return "Report file is empty."
+
+    return content
+
+
+async def send_report(channel: discord.abc.Messageable, command: str) -> None:
+    """Load and send the report for a given command."""
+    file_path = REPORT_FILES.get(command)
+    if not file_path:
+        await channel.send(f"No report is configured for {command}.")
+        return
+
+    try:
+        report = read_report(file_path)
+        for chunk in split_message(report):
+            await channel.send(chunk)
+        print(f"✅ {command} report sent")
+    except Exception as e:
+        print(f"❌ Error sending {command}: {e}")
+        await channel.send(f"{command.upper()} error: {e}")
+
+
+# =========================
+# EVENTS
+# =========================
+
+@client.event
+async def on_ready():
+    print(f"✅ Logged in as {client.user}")
+
+
+@client.event
+async def on_message(message: discord.Message):
+    if message.author == client.user:
+        return
+
+    content = message.content.strip().lower()
+
+    print(f"SAW: {content}")
+    print(f"Server: {message.guild.name if message.guild else 'DM'}")
+    print(f"Channel: {message.channel}")
+
+    if content == "!test":
+        print("TEST command fired")
+        await message.channel.send("Bot is working.")
+        return
+
+    if content == "!help":
+        commands = ", ".join(REPORT_FILES.keys())
+        await message.channel.send(f"Available commands: !test, !help, {commands}")
+        return
+
+    if content in REPORT_FILES:
+        print(f"{content.upper()} command fired")
+        await send_report(message.channel, content)
+
+
+# =========================
+# RUN
+# =========================
+
+client.run(TOKEN)
