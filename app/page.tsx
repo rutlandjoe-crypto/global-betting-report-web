@@ -1,11 +1,18 @@
 import fs from "fs";
 import path from "path";
+import type { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 export const fetchCache = "force-no-store";
 
 import EditorialStandard from "@/components/EditorialStandard";
+
+export const metadata: Metadata = {
+  title: "Global Betting Report",
+  description:
+    "Global Betting Report tracks odds, implied probability, line movement, weather angles, and betting market context.",
+};
 
 type AnyObj = Record<string, any>;
 
@@ -14,15 +21,15 @@ const SITE = {
   tagline: "Built for journalists, by a journalist.",
   topic: "Betting",
   descriptor:
-    "Global Betting Report tracks live scores, schedules, advanced metrics, story angles and newsroom-ready betting intelligence across MLB, NBA, NFL, NHL, soccer and the broader sports calendar.",
+    "Global Betting Report tracks odds, implied probability, line movement, weather angles, betting market context, and newsroom-ready intelligence across MLB, NBA, NFL, NHL, soccer and the broader sports calendar.",
 };
 
 const TOOLKIT = [
-  ["ESPN", "https://www.espn.com/"],
-  ["The Athletic", "https://www.nytimes.com/athletic/"],
-  ["Sports Reference", "https://www.sports-reference.com/"],
-  ["Baseball Savant", "https://baseballsavant.mlb.com/"],
-  ["Spotrac", "https://www.spotrac.com/"],
+  ["OddsTrader", "https://www.oddstrader.com/"],
+  ["The Odds API", "https://the-odds-api.com/"],
+  ["Action Network", "https://www.actionnetwork.com/"],
+  ["Covers", "https://www.covers.com/"],
+  ["Sportsbook Review", "https://www.sportsbookreview.com/"],
 ];
 
 const GSR_NETWORK = [
@@ -32,29 +39,7 @@ const GSR_NETWORK = [
   ["Entertainment", "https://globalentertainmentreport.com"],
 ];
 
-const LEAGUE_LABELS: AnyObj = {
-  breaking_news: "Breaking Betting News",
-  mlb: "MLB",
-  nba: "NBA",
-  nhl: "NHL",
-  nfl: "NFL",
-  ncaafb: "College Football",
-  soccer: "Soccer",
-  betting_odds: "Betting Odds",
-  fantasy: "Fantasy",
-};
-
-const LEAGUE_DEFAULT_URLS: AnyObj = {
-  breaking_news: "https://www.espn.com/",
-  mlb: "https://www.espn.com/mlb/",
-  nba: "https://www.espn.com/nba/",
-  nhl: "https://www.espn.com/nhl/",
-  nfl: "https://www.espn.com/nfl/",
-  ncaafb: "https://www.espn.com/college-football/",
-  soccer: "https://www.espn.com/soccer/",
-  betting_odds: "https://www.espn.com/",
-  fantasy: "https://www.espn.com/fantasy/",
-};
+const DEFAULT_URL = "https://www.oddstrader.com/";
 
 const BAD_CONTENT_PHRASES = [
   "source refresh",
@@ -125,7 +110,7 @@ function asList(value: any): string[] {
   if (Array.isArray(value)) {
     return value.flatMap((item) =>
       cleanText(item)
-        .split(/\n|•|\|/)
+        .split(/\n|•/)
         .map((x) => x.trim())
         .filter(Boolean)
     );
@@ -134,14 +119,14 @@ function asList(value: any): string[] {
   if (typeof value === "object") {
     return Object.values(value).flatMap((item) =>
       cleanText(item)
-        .split(/\n|•|\|/)
+        .split(/\n|•/)
         .map((x) => x.trim())
         .filter(Boolean)
     );
   }
 
   return cleanText(value)
-    .split(/\n|•|\|/)
+    .split(/\n|•/)
     .map((x) => x.trim())
     .filter(Boolean);
 }
@@ -151,194 +136,137 @@ function isValidUrl(value: any): boolean {
   return url.startsWith("http://") || url.startsWith("https://");
 }
 
-function findUrlInText(value: any): string {
-  const text = cleanText(value);
-  const match = text.match(/https?:\/\/[^\s"'<>]+/);
-  return match ? match[0].replace(/[),.;]+$/, "") : "";
-}
-
-function extractBestUrl(section: AnyObj, key: string): string {
+function extractBestUrl(story: AnyObj): string {
   const directCandidates = [
-    section.url,
-    section.link,
-    section.source_url,
-    section.sourceUrl,
-    section.href,
-    section.web_url,
-    section.webUrl,
+    story.url,
+    story.link,
+    story.source_url,
+    story.sourceUrl,
+    story.href,
+    story.web_url,
+    story.webUrl,
   ];
 
   for (const candidate of directCandidates) {
     if (isValidUrl(candidate)) return cleanText(candidate);
   }
 
-  if (Array.isArray(section.links)) {
-    for (const link of section.links) {
-      if (typeof link === "string" && isValidUrl(link)) return cleanText(link);
-      if (link && typeof link === "object") {
-        const candidates = [link.url, link.href, link.link, link.source_url];
-        for (const candidate of candidates) {
-          if (isValidUrl(candidate)) return cleanText(candidate);
-        }
-      }
-    }
-  }
-
-  const textSources = [
-    section.content,
-    section.summary,
-    section.snapshot,
-    section.description,
-    section.key_storylines,
-    section.advanced,
-    section.final_scores,
-    section.live_games,
-    section.upcoming,
-  ];
-
-  for (const source of textSources) {
-    const found = findUrlInText(source);
-    if (found) return found;
-  }
-
-  return LEAGUE_DEFAULT_URLS[key] || "https://www.espn.com/";
+  return DEFAULT_URL;
 }
 
-function extractSectionLines(content: string, heading: string): string[] {
-  if (!content) return [];
-
-  const lines = content.split("\n");
-  const startIndex = lines.findIndex(
-    (line) => line.trim().toUpperCase() === heading.toUpperCase()
-  );
-
-  if (startIndex === -1) return [];
-
-  const output: string[] = [];
-
-  for (let i = startIndex + 1; i < lines.length; i++) {
-    const line = lines[i].trim();
-
-    if (!line) continue;
-
-    const isNextHeading =
-      /^[A-Z0-9\s&/()-]{4,}$/.test(line) &&
-      !line.includes(".") &&
-      !line.includes(":");
-
-    if (isNextHeading) break;
-
-    output.push(line.replace(/^- /, "").trim());
-  }
-
-  return output.filter(Boolean);
-}
-
-function extractHeadline(section: AnyObj): string {
-  const headlineLines = extractSectionLines(section.content || "", "HEADLINE");
-
+function storyTitle(story: AnyObj, index: number): string {
   return (
-    cleanText(section.headline) ||
-    cleanText(headlineLines[0]) ||
-    cleanText(section.title) ||
-    "Betting newsroom update"
+    cleanText(story.headline) ||
+    cleanText(story.title) ||
+    cleanText(story.name) ||
+    cleanText(story.league) ||
+    `Betting Storyline ${index + 1}`
   );
 }
 
-function extractSnapshot(section: AnyObj): string {
-  const snapshotLines = extractSectionLines(section.content || "", "SNAPSHOT");
+function storyUrl(story: AnyObj): string {
+  return extractBestUrl(story);
+}
 
+function storySummary(story: AnyObj): string {
   return (
-    cleanText(section.snapshot) ||
-    cleanText(snapshotLines[0]) ||
-    cleanText(section.content).slice(0, 260) ||
-    "Latest verified betting report generated for newsroom review."
+    cleanText(story.snapshot) ||
+    cleanText(story.summary) ||
+    cleanText(story.description) ||
+    cleanText(story.why_it_matters) ||
+    cleanText(story.body) ||
+    "Betting development flagged for newsroom monitoring."
   );
 }
 
-function sectionToStory(key: string, section: AnyObj): AnyObj {
-  const content = section.content || "";
-
-  const keyData = [
-    ...extractSectionLines(content, "KEY DATA POINTS"),
-    ...asList(section.key_storylines),
-    ...asList(section.final_scores),
-    ...asList(section.live_games),
-    ...asList(section.upcoming),
-    ...asList(section.advanced?.sections?.key_data_points),
-    ...asList(section.advanced?.sections?.matchup_flags),
-    ...asList(section.advanced),
-  ];
-
-  const why = [
-    ...extractSectionLines(content, "WHY IT MATTERS"),
-    ...asList(section.advanced?.sections?.why_it_matters),
-    ...asList(section.why_it_matters),
-  ];
-
-  const watch = [
-    ...extractSectionLines(content, "STORY ANGLES"),
-    ...extractSectionLines(content, "LIVE"),
-    ...extractSectionLines(content, "UPCOMING"),
-    ...extractSectionLines(content, "FINAL SCORES"),
-    ...asList(section.advanced?.sections?.story_angles),
-    ...asList(section.advanced?.sections?.statcast_watch),
-    ...asList(section.advanced?.sections?.league_efficiency_watch),
-    ...asList(section.story_angles),
-    ...asList(section.what_to_watch),
-  ];
-
-  return {
-    id: key,
-    key,
-    league: section.title || LEAGUE_LABELS[key] || key.toUpperCase(),
-    title: section.title || LEAGUE_LABELS[key] || key.toUpperCase(),
-    headline: extractHeadline(section),
-    summary: extractSnapshot(section),
-    snapshot: extractSnapshot(section),
-    updated_at: section.updated_at,
-    source_file: section.source_file,
-    url: extractBestUrl(section, key),
-    key_data: unique(keyData).filter((item) => !isBadContent(item)).slice(0, 5),
-    why_it_matters: unique(why).filter((item) => !isBadContent(item)).slice(0, 5),
-    what_to_watch: unique(watch).filter((item) => !isBadContent(item)).slice(0, 6),
-    story_type: section.story_type || "analysis",
-    priority_score: section.priority_score || 0,
-  };
+function storyLabel(story: AnyObj): string {
+  return cleanText(story.league) || cleanText(story.title) || cleanText(story.label) || "Betting Watch";
 }
 
-function normalizeStory(story: AnyObj, index: number): AnyObj {
-  const key = cleanText(story.key || story.id || story.league || `story-${index}`);
-  const title = cleanText(story.title || story.league || LEAGUE_LABELS[key] || "Betting Watch");
-  const url = extractBestUrl(story, key);
+function normalizeStory(story: AnyObj, index: number, sectionTitle = ""): AnyObj {
+  const title = storyTitle(story, index);
+  const label = cleanText(story.league) || cleanText(sectionTitle) || cleanText(story.title) || "Betting Watch";
 
   return {
     ...story,
-    id: key || `story-${index}`,
-    key,
-    league: title,
+    id: cleanText(story.id || story.key || `${label}-${index}`),
+    key: cleanText(story.key || story.id || `${label}-${index}`),
+    league: label,
     title,
-    headline: cleanText(story.headline || story.title || story.name),
-    summary: cleanText(story.summary || story.snapshot || story.description || story.body),
-    snapshot: cleanText(story.snapshot || story.summary || story.description || story.body),
-    url,
+    headline: title,
+    summary: storySummary(story),
+    snapshot: storySummary(story),
+    url: storyUrl(story),
+    key_data: asList(story.key_data || story.keyData || story.data || story.metrics),
+    why_it_matters: asList(story.why_it_matters || story.whyItMatters || story.why),
+    what_to_watch: asList(story.what_to_watch || story.whatToWatch || story.watch || story.story_angles),
   };
+}
+
+function sectionToStories(section: AnyObj, index: number): AnyObj[] {
+  const sectionTitle = cleanText(section.title || section.league || `Section ${index + 1}`);
+
+  if (Array.isArray(section.cards) && section.cards.length) {
+    const objectCards = section.cards.filter((card: any) => card && typeof card === "object");
+    const stringCards = section.cards.filter((card: any) => typeof card === "string");
+
+    if (objectCards.length) {
+      return objectCards.map((card: AnyObj, cardIndex: number) =>
+        normalizeStory(card, cardIndex, sectionTitle)
+      );
+    }
+
+    if (stringCards.length) {
+      return [
+        normalizeStory(
+          {
+            league: sectionTitle,
+            title: sectionTitle,
+            headline: sectionTitle,
+            snapshot: "Latest verified betting signals generated for newsroom review.",
+            key_data: stringCards,
+            why_it_matters: [
+              "This section gives readers betting market context beyond a raw odds board.",
+            ],
+            what_to_watch: [
+              "Watch for line movement, injury updates, weather changes, and late market shifts.",
+            ],
+            url: DEFAULT_URL,
+          },
+          index,
+          sectionTitle
+        ),
+      ];
+    }
+  }
+
+  return [
+    normalizeStory(
+      {
+        league: sectionTitle,
+        title: sectionTitle,
+        headline: cleanText(section.headline || section.title || sectionTitle),
+        snapshot: cleanText(section.snapshot || section.summary || section.description),
+        key_data: asList(section.key_data || section.keyData || section.cards),
+        why_it_matters: asList(section.why_it_matters || section.whyItMatters || section.why),
+        what_to_watch: asList(section.what_to_watch || section.whatToWatch || section.watch),
+        url: extractBestUrl(section),
+      },
+      index,
+      sectionTitle
+    ),
+  ];
 }
 
 function getStories(report: AnyObj): AnyObj[] {
   if (Array.isArray(report.sections) && report.sections.length) {
-    return report.sections.map((section: AnyObj, index: number) =>
-      sectionToStory(section.key || section.id || `section-${index}`, section || {})
-    );
-  }
-
-  if (report.sections && typeof report.sections === "object") {
-    return Object.entries(report.sections).map(([key, value]: [string, any]) =>
-      sectionToStory(key, value || {})
+    return report.sections.flatMap((section: AnyObj, index: number) =>
+      sectionToStories(section || {}, index)
     );
   }
 
   const candidates =
+    report.live_newsroom ||
     report.homepage_cards ||
     report.cards ||
     report.stories ||
@@ -346,38 +274,12 @@ function getStories(report: AnyObj): AnyObj[] {
     report.headlines ||
     report.items ||
     report.articles ||
-    null;
+    [];
 
-  if (Array.isArray(candidates) && candidates.length) {
+  if (Array.isArray(candidates)) {
     return candidates
       .filter((story) => story && typeof story === "object")
       .map((story, index) => normalizeStory(story, index));
-  }
-
-  if (candidates && typeof candidates === "object") {
-    return Object.entries(candidates).map(([key, value]: [string, any], index) => {
-      if (value && typeof value === "object") {
-        return normalizeStory(
-          {
-            id: key,
-            key,
-            league: value.league || LEAGUE_LABELS[key] || key.toUpperCase(),
-            ...value,
-          },
-          index
-        );
-      }
-
-      return normalizeStory(
-        {
-          id: key,
-          key,
-          league: LEAGUE_LABELS[key] || key.toUpperCase(),
-          headline: cleanText(value),
-        },
-        index
-      );
-    });
   }
 
   return [];
@@ -392,35 +294,6 @@ function getSpotlightStories(report: AnyObj, key: "live_newsroom" | "editor_sign
     .filter((item) => item && typeof item === "object")
     .map((item, index) => normalizeStory(item, index))
     .filter(isPublishableStory);
-}
-
-function storyTitle(story: AnyObj, index: number): string {
-  return (
-    cleanText(story.headline) ||
-    cleanText(story.title) ||
-    cleanText(story.name) ||
-    cleanText(story.league) ||
-    `Betting Storyline ${index + 1}`
-  );
-}
-
-function storyUrl(story: AnyObj): string {
-  const url = cleanText(story.url) || cleanText(story.link) || cleanText(story.source_url);
-  return isValidUrl(url) ? url : "https://www.espn.com/";
-}
-
-function storySummary(story: AnyObj): string {
-  return (
-    cleanText(story.snapshot) ||
-    cleanText(story.summary) ||
-    cleanText(story.description) ||
-    cleanText(story.body) ||
-    "Betting development flagged for newsroom monitoring."
-  );
-}
-
-function storyLabel(story: AnyObj): string {
-  return cleanText(story.league) || cleanText(story.title) || cleanText(story.label) || "Betting Watch";
 }
 
 function isPublishableStory(story: AnyObj): boolean {
@@ -462,6 +335,10 @@ function spotlightItemsFromStories(stories: AnyObj[]): string[] {
   );
 }
 
+function removeDoubleLeaguePrefix(value: string): string {
+  return value.replace(/^([A-Z][A-Za-z ]+):\s+\1:\s+/i, "$1: ");
+}
+
 function Block({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
@@ -475,13 +352,14 @@ function Block({ title, children }: { title: string; children: React.ReactNode }
 
 function LineList({ items }: { items: string[] }) {
   const safe = unique(items)
+    .map(removeDoubleLeaguePrefix)
     .filter((item) => !isBadContent(item))
     .slice(0, 8);
 
   if (!safe.length) {
     return (
       <p className="text-sm leading-6 text-neutral-700">
-        Monitoring verified developments for the next clean newsroom update.
+        Monitoring verified betting developments for the next clean newsroom update.
       </p>
     );
   }
@@ -498,7 +376,7 @@ function LineList({ items }: { items: string[] }) {
 }
 
 function NewsroomBriefing({ items }: { items: string[] }) {
-  const safe = cleanSignals(items);
+  const safe = cleanSignals(items).map(removeDoubleLeaguePrefix);
 
   return (
     <div className="rounded-2xl border border-neutral-300 bg-white p-5 shadow-sm">
@@ -516,7 +394,7 @@ function NewsroomBriefing({ items }: { items: string[] }) {
         </div>
       ) : (
         <p className="text-sm leading-6 text-neutral-700">
-          Monitoring verified scores, injuries, playoff movement, roster changes and advanced performance signals.
+          Monitoring verified odds, line movement, injuries, weather, totals, spreads and betting market signals.
         </p>
       )}
     </div>
@@ -524,7 +402,7 @@ function NewsroomBriefing({ items }: { items: string[] }) {
 }
 
 function StoryCard({ story, index }: { story: AnyObj; index: number }) {
-  const title = storyTitle(story, index);
+  const title = removeDoubleLeaguePrefix(storyTitle(story, index));
   const url = storyUrl(story);
   const summary = storySummary(story);
   const label = storyLabel(story);
@@ -567,7 +445,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
             items={
               why.length
                 ? why
-                : ["This development can affect coverage priorities, follow-up angles or newsroom planning."]
+                : ["This betting signal can affect price, value, market direction or reporting priorities."]
             }
           />
         </div>
@@ -578,7 +456,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
             items={
               watch.length
                 ? watch
-                : ["Monitor confirmed reporting, next-game context, injury updates, standings movement or metric shifts."]
+                : ["Monitor injury news, lineup updates, weather, totals, spreads and late line movement."]
             }
           />
         </div>
@@ -607,13 +485,13 @@ export default function Page() {
 
   const headline =
     cleanText(report.headline) && !isBadContent(report.headline)
-      ? cleanText(report.headline)
+      ? removeDoubleLeaguePrefix(cleanText(report.headline))
       : fallbackHeadline;
 
   const snapshot =
     cleanText(report.snapshot) && !isBadContent(report.snapshot)
       ? cleanText(report.snapshot)
-      : "A live betting briefing built for bettors tracking verified scores, results, analytics, playoff races, injuries and story angles.";
+      : "A live betting briefing built for bettors tracking odds, implied probability, line movement, injuries, weather and market context.";
 
   const updated =
     cleanText(report.updated_at) ||
@@ -627,16 +505,16 @@ export default function Page() {
         league: "Betting Watch",
         headline,
         summary: snapshot,
-        url: "https://www.espn.com/",
-        key_data: ["Latest betting report generated from the current verified newsroom board."],
-        why_it_matters: ["Editors need fast clarity across scores, results, analytics and live story movement."],
-        what_to_watch: ["Next verified result, injury note, roster move, playoff angle or advanced metric signal."],
+        url: DEFAULT_URL,
+        key_data: ["Latest betting report generated from the current verified market board."],
+        why_it_matters: ["Editors and bettors need quick clarity across odds, totals, spreads and movement."],
+        what_to_watch: ["Next verified injury note, weather shift, lineup update or market movement."],
         story_type: "analysis",
       },
     ];
   }
 
-  const leadStories = stories.slice(0, 10);
+  const leadStories = stories.slice(0, 12);
 
   const liveBriefingItems = liveNewsroomStories.length
     ? spotlightItemsFromStories(liveNewsroomStories)
@@ -698,9 +576,9 @@ export default function Page() {
                 ? liveBriefingItems
                 : [
                     "Track the strongest verified betting development on today’s board.",
-                    "Prioritize results, injuries, playoff movement, roster news and verified links.",
-                    "Watch advanced metrics, standings shifts and late-breaking league updates.",
-                    "Monitor league-by-league angles for reporters and editors.",
+                    "Prioritize odds movement, injuries, weather, totals and spreads.",
+                    "Watch book-to-book differences and late market movement.",
+                    "Monitor league-by-league betting angles for reporters and editors.",
                   ]
             }
           />
@@ -716,14 +594,14 @@ export default function Page() {
                   ? editorSignalItems
                   : [
                       "Track the strongest verified betting development on today’s board.",
-                      "Prioritize results, injuries, playoff movement, roster news and verified links.",
-                      "Watch advanced metrics, standings shifts and late-breaking league updates.",
+                      "Prioritize odds movement, injuries, weather, totals and spreads.",
+                      "Watch book-to-book differences and late market movement.",
                     ]
               }
             />
           </Block>
 
-          <Block title="Journalist Toolkit">
+          <Block title="Journalist Betting Toolkit">
             <div className="space-y-2">
               {TOOLKIT.map(([name, url]) => (
                 <a
@@ -742,11 +620,11 @@ export default function Page() {
           <Block title="Coverage Lens">
             <LineList
               items={[
-                "Scoreboard: What result changes the day’s betting conversation?",
-                "News: What injury, roster, playoff or league development needs follow-up?",
-                "Performance: Which player or team metric deserves deeper reporting?",
-                "Context: What standings, playoff or roster angle matters most?",
-                "Newsroom: What should journalists verify next?",
+                "Market: What number moved, and why might it matter?",
+                "Price: Is the favorite getting more expensive or drifting back?",
+                "Weather: Could wind, rain or temperature affect totals?",
+                "News: What injury, lineup or roster development could reshape the board?",
+                "Newsroom: What should journalists verify before publishing betting context?",
               ]}
             />
           </Block>
