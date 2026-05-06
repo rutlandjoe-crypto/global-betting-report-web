@@ -288,7 +288,9 @@ function normalizeStory(story: AnyObj, index: number, sectionTitle = ""): AnyObj
 }
 
 function sectionToStories(section: AnyObj, index: number): AnyObj[] {
-  const sectionTitle = normalizeSportLabel(section.title || section.league || section.sport || `Section ${index + 1}`);
+  const sectionTitle = normalizeSportLabel(
+    section.title || section.league || section.sport || `Section ${index + 1}`
+  );
 
   if (Array.isArray(section.cards) && section.cards.length) {
     const objectCards = section.cards.filter((card: any) => card && typeof card === "object");
@@ -426,8 +428,8 @@ function removeDoubleLeaguePrefix(value: string): string {
 
 function Block({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
-      <h2 className="mb-3 text-sm font-black uppercase tracking-wide text-red-700">
+    <section className="rounded-2xl border border-lime-300/40 bg-slate-950 p-5 shadow-sm shadow-lime-500/10">
+      <h2 className="mb-3 text-sm font-black uppercase tracking-wide text-lime-300">
         {title}
       </h2>
       {children}
@@ -443,7 +445,7 @@ function LineList({ items }: { items: string[] }) {
 
   if (!safe.length) {
     return (
-      <p className="text-sm leading-6 text-neutral-700">
+      <p className="text-sm leading-6 text-slate-300">
         Monitoring verified betting developments for the next clean newsroom update.
       </p>
     );
@@ -452,7 +454,7 @@ function LineList({ items }: { items: string[] }) {
   return (
     <div className="space-y-2">
       {safe.map((item, i) => (
-        <p key={i} className="border-b border-neutral-100 pb-2 text-sm leading-6 text-neutral-800">
+        <p key={i} className="border-b border-slate-800 pb-2 text-sm leading-6 text-slate-200">
           {item}
         </p>
       ))}
@@ -464,21 +466,21 @@ function NewsroomBriefing({ items }: { items: string[] }) {
   const safe = cleanSignals(items).map(removeDoubleLeaguePrefix);
 
   return (
-    <div className="rounded-2xl border border-neutral-300 bg-white p-5 shadow-sm">
-      <p className="mb-3 text-xs font-black uppercase tracking-wide text-red-700">
+    <div className="rounded-2xl border border-lime-300/50 bg-slate-950 p-5 shadow-sm shadow-lime-500/20">
+      <p className="mb-3 text-xs font-black uppercase tracking-wide text-lime-300">
         Live Newsroom Briefing
       </p>
 
       {safe.length ? (
         <div className="space-y-2">
           {safe.map((item, i) => (
-            <p key={i} className="border-b border-neutral-100 pb-2 text-sm leading-6 text-neutral-800">
+            <p key={i} className="border-b border-slate-800 pb-2 text-sm leading-6 text-slate-200">
               {item}
             </p>
           ))}
         </div>
       ) : (
-        <p className="text-sm leading-6 text-neutral-700">
+        <p className="text-sm leading-6 text-slate-300">
           Monitoring verified odds, implied probability, line movement, injuries, weather, totals, spreads and betting market signals.
         </p>
       )}
@@ -505,27 +507,27 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
   );
 
   return (
-    <article className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
-      <p className="mb-2 text-xs font-black uppercase tracking-wide text-red-700">
+    <article className="rounded-2xl border border-slate-800 bg-slate-950 p-5 shadow-sm shadow-lime-500/10">
+      <p className="mb-2 text-xs font-black uppercase tracking-wide text-lime-300">
         {label}
       </p>
 
-      <h3 className="text-xl font-black leading-tight text-neutral-950">
-        <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-red-700">
+      <h3 className="text-xl font-black leading-tight text-white">
+        <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-lime-300">
           {title}
         </a>
       </h3>
 
-      <p className="mt-3 text-sm leading-6 text-neutral-700">{summary}</p>
+      <p className="mt-3 text-sm leading-6 text-slate-300">{summary}</p>
 
       <div className="mt-4 grid gap-3 md:grid-cols-3">
-        <div className="rounded-xl bg-neutral-50 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Key Data</p>
+        <div className="rounded-xl border border-slate-800 bg-black/40 p-3">
+          <p className="mb-2 text-xs font-black uppercase text-lime-300">Key Data</p>
           <LineList items={keyData.length ? keyData : [title]} />
         </div>
 
-        <div className="rounded-xl bg-neutral-50 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-neutral-600">What The Odds Mean</p>
+        <div className="rounded-xl border border-slate-800 bg-black/40 p-3">
+          <p className="mb-2 text-xs font-black uppercase text-emerald-300">What The Odds Mean</p>
           <LineList
             items={
               why.length
@@ -535,8 +537,8 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
           />
         </div>
 
-        <div className="rounded-xl bg-neutral-50 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-neutral-600">What To Watch</p>
+        <div className="rounded-xl border border-slate-800 bg-black/40 p-3">
+          <p className="mb-2 text-xs font-black uppercase text-cyan-300">What To Watch</p>
           <LineList
             items={
               watch.length
@@ -610,10 +612,10 @@ export default function Page() {
     : cleanSignals(rawSignals.length ? rawSignals : buildBriefingItems(stories.slice(3), []));
 
   return (
-    <main className="min-h-screen bg-neutral-100 text-neutral-950">
-      <div className="border-b border-neutral-800 bg-black text-white">
+    <main className="min-h-screen bg-slate-950 text-white">
+      <div className="border-b border-lime-300/30 bg-black text-white">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-3 px-5 py-2 text-xs font-bold uppercase tracking-wide">
-          <span className="text-neutral-300">GSR Network:</span>
+          <span className="text-slate-400">GSR Network:</span>
           {GSR_NETWORK.map(([name, url], index) => (
             <span key={name} className="flex items-center gap-3">
               <a
@@ -622,38 +624,38 @@ export default function Page() {
                 rel="noopener noreferrer"
                 className={
                   name === "Betting"
-                    ? "text-red-300 hover:text-white"
-                    : "text-white hover:text-red-300"
+                    ? "text-lime-300 hover:text-white"
+                    : "text-white hover:text-lime-300"
                 }
               >
                 {name}
               </a>
-              {index < GSR_NETWORK.length - 1 ? <span className="text-neutral-500">•</span> : null}
+              {index < GSR_NETWORK.length - 1 ? <span className="text-slate-600">•</span> : null}
             </span>
           ))}
         </div>
       </div>
 
-      <header className="border-b border-neutral-300 bg-white">
+      <header className="border-b border-lime-300/20 bg-gradient-to-br from-black via-slate-950 to-emerald-950">
         <div className="mx-auto grid max-w-7xl gap-6 px-5 py-8 lg:grid-cols-[1.2fr_0.8fr]">
           <div>
-            <p className="text-sm font-black uppercase tracking-wide text-red-700">
+            <p className="text-sm font-black uppercase tracking-wide text-lime-300">
               {SITE.name}
             </p>
 
-            <h1 className="mt-3 text-4xl font-black leading-tight md:text-5xl">
+            <h1 className="mt-3 text-4xl font-black leading-tight text-white md:text-5xl">
               {headline}
             </h1>
 
-            <p className="mt-4 max-w-3xl text-lg leading-8 text-neutral-700">
+            <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">
               {snapshot}
             </p>
 
             <div className="mt-5 flex flex-wrap gap-3 text-sm font-bold">
-              <span className="rounded-full bg-black px-4 py-2 text-white">
+              <span className="rounded-full bg-lime-300 px-4 py-2 text-black">
                 {SITE.tagline}
               </span>
-              <span className="rounded-full bg-neutral-200 px-4 py-2 text-neutral-800">
+              <span className="rounded-full border border-lime-300/30 bg-black px-4 py-2 text-lime-200">
                 Updated: {updated}
               </span>
             </div>
@@ -703,7 +705,7 @@ export default function Page() {
               href={WEATHER_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 block rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3 text-sm font-bold text-red-800 hover:bg-red-50"
+              className="mt-4 block rounded-xl border border-lime-300/40 bg-lime-300 px-4 py-3 text-sm font-black text-black hover:bg-lime-200"
             >
               Check OddsTrader MLB Weather
             </a>
@@ -717,7 +719,7 @@ export default function Page() {
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3 text-sm font-bold text-red-800 hover:bg-red-50"
+                  className="block rounded-xl border border-lime-300/30 bg-black/40 px-4 py-3 text-sm font-bold text-lime-200 hover:bg-lime-300 hover:text-black"
                 >
                   {name}
                 </a>
@@ -746,12 +748,12 @@ export default function Page() {
         </section>
       </section>
 
-      <footer className="border-t border-neutral-300 bg-white">
+      <footer className="border-t border-lime-300/20 bg-black">
         <div className="mx-auto max-w-7xl px-5 py-6">
-          <p className="text-sm font-medium text-neutral-700">
+          <p className="text-sm font-medium text-lime-200">
             © {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
           </p>
-          <p className="mt-2 max-w-4xl text-sm leading-6 text-neutral-500">
+          <p className="mt-2 max-w-4xl text-sm leading-6 text-slate-400">
             {SITE.descriptor}
           </p>
         </div>
