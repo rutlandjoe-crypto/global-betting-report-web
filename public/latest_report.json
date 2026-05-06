@@ -1,1210 +1,869 @@
 {
   "site": "Global Betting Report",
-  "site_name": "Global Betting Report",
   "vertical": "Betting",
-  "title": "Global Betting Report",
-  "tagline": "Built for journalists, by a journalist.",
-  "headline": "MLB: Tampa Bay Rays priced as market favorite vs Toronto Blue Jays",
-  "snapshot": "Odds, implied probability, line movement, market context, weather angles, futures watch, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-06 08:41 AM ET",
-  "generated_at": "2026-05-06 08:41 AM ET",
-  "generated_utc": "2026-05-06T12:41:33.501646+00:00",
-  "source_mode": "odds-market interpretation engine with line movement, futures watch, weather context, and newsroom-ready betting explanation",
-  "x_handle": "@GlobalSportsRp",
-  "substack_url": "",
-  "theme": {
-    "name": "Global Betting Report",
-    "colors": {
-      "primary": "#7f1d1d",
-      "primary_name": "deep betting red",
-      "secondary": "#111827",
-      "secondary_name": "charcoal black",
-      "accent": "#facc15",
-      "accent_name": "odds-ticket gold",
-      "background": "#f5f5f4",
-      "background_name": "warm newsroom neutral"
-    },
-    "style": "black, deep red, white, warm neutral, and odds-ticket gold accents"
+  "headline": "MLB: Tampa Bay Rays priced as market favorite vs Toronto Blue Jays (-650)",
+  "snapshot": "Tampa Bay Rays priced as market favorite vs Toronto Blue Jays (-650). Implied probability is approximately 86.7% based on the listed moneyline.",
+  "updated_at": "2026-05-06 02:14:27 PM ET",
+  "generated_at": "2026-05-06 02:14:27 PM ET",
+  "freshness": {
+    "last_checked": "2026-05-06 02:14:27 PM ET",
+    "sports_checked": [
+      "MLB",
+      "NBA",
+      "NHL",
+      "NFL",
+      "NCAAF",
+      "Soccer"
+    ],
+    "total_games_checked": 32
   },
-  "network_links": [
-    {
-      "label": "Sports",
-      "url": "https://globalsportsreport.com"
-    },
-    {
-      "label": "AI",
-      "url": "https://globalaireport.news"
-    },
-    {
-      "label": "Politics",
-      "url": "https://globalpoliticsreport.com"
-    },
-    {
-      "label": "Entertainment",
-      "url": "https://globalentertainmentreport.com"
-    },
-    {
-      "label": "Betting",
-      "url": "https://globalbettingreport.com"
-    }
-  ],
-  "key_storylines": [
-    "MLB: MLB: Tampa Bay Rays priced as market favorite vs Toronto Blue Jays",
-    "MLB: MLB: St. Louis Cardinals priced as market favorite vs Milwaukee Brewers",
-    "MLB: MLB: Los Angeles Dodgers priced as market favorite vs Houston Astros",
-    "MLB: MLB: San Diego Padres priced as market favorite vs San Francisco Giants",
-    "MLB: MLB: Chicago White Sox priced as market favorite vs Los Angeles Angels",
-    "MLB: MLB: Seattle Mariners priced as market favorite vs Atlanta Braves",
-    "MLB: MLB: Philadelphia Phillies priced as market favorite vs Athletics",
-    "MLB: MLB: Miami Marlins priced as market favorite vs Baltimore Orioles"
-  ],
   "live_newsroom": [
     {
-      "key": "betting_market_1",
-      "title": "MLB",
-      "headline": "MLB: Tampa Bay Rays priced as market favorite vs Toronto Blue Jays",
-      "snapshot": "The market gives Tampa Bay Rays a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Tampa Bay Rays, which may signal buyback on the underdog or resistance to the favorite's original number. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
-      "key_data": [
-        "Matchup: Toronto Blue Jays at Tampa Bay Rays",
-        "Book: DraftKings",
-        "Moneyline: Tampa Bay Rays -136 | Toronto Blue Jays +113",
-        "Favorite implied probability: Tampa Bay Rays 57.6%",
-        "Line movement: Open -153 → Current -136 (away from Tampa Bay Rays)",
-        "Spread: Tampa Bay Rays -1.5 (+153) | Toronto Blue Jays +1.5 (-186)",
-        "Total: Over 7.5 (-115) | Under 7.5 (-105)",
-        "Weather: 69°F, wind out to right at 18 mph, rain risk 40%"
-      ],
-      "why_it_matters": "The market gives Tampa Bay Rays a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Tampa Bay Rays, which may signal buyback on the underdog or resistance to the favorite's original number. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+      "headline": "MLB: Tampa Bay Rays priced as market favorite vs Toronto Blue Jays (-650)",
+      "snapshot": "Tampa Bay Rays priced as market favorite vs Toronto Blue Jays (-650). Implied probability is approximately 86.7% based on the listed moneyline.",
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "key": "betting_market_2",
-      "title": "MLB",
-      "headline": "MLB: St. Louis Cardinals priced as market favorite vs Milwaukee Brewers",
-      "snapshot": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from St. Louis Cardinals, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
-      "key_data": [
-        "Matchup: Milwaukee Brewers at St. Louis Cardinals",
-        "Book: DraftKings",
-        "Moneyline: St. Louis Cardinals -112 | Milwaukee Brewers -108",
-        "Favorite implied probability: St. Louis Cardinals 52.8%",
-        "Line movement: Open -120 → Current -112 (away from St. Louis Cardinals)",
-        "Spread: Milwaukee Brewers -1.5 (+145) | St. Louis Cardinals +1.5 (-177)",
-        "Total: Over 8.5 (-108) | Under 8.5 (-112)",
-        "Weather: 75°F, wind in from left at 12 mph, rain risk 30%"
-      ],
-      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from St. Louis Cardinals, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+      "headline": "MLB: Milwaukee Brewers priced as market favorite vs St. Louis Cardinals (-1400)",
+      "snapshot": "Milwaukee Brewers priced as market favorite vs St. Louis Cardinals (-1400). Implied probability is approximately 93.3% based on the listed moneyline.",
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "key": "betting_market_3",
-      "title": "MLB",
-      "headline": "MLB: Los Angeles Dodgers priced as market favorite vs Houston Astros",
-      "snapshot": "The market leans clearly toward Los Angeles Dodgers. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Los Angeles Dodgers, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
-      "key_data": [
-        "Matchup: Los Angeles Dodgers at Houston Astros",
-        "Book: DraftKings",
-        "Moneyline: Houston Astros +184 | Los Angeles Dodgers -226",
-        "Favorite implied probability: Los Angeles Dodgers 69.3%",
-        "Line movement: Open -244 → Current -226 (away from Los Angeles Dodgers)",
-        "Spread: Houston Astros +1.5 (+109) | Los Angeles Dodgers -1.5 (-131)",
-        "Total: Over 9 (+100) | Under 9 (-120)",
-        "Weather: 66°F, wind in from center at 15 mph, rain risk 9%"
-      ],
-      "why_it_matters": "The market leans clearly toward Los Angeles Dodgers. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Los Angeles Dodgers, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+      "headline": "MLB: Los Angeles Dodgers priced as market favorite vs Houston Astros (-184)",
+      "snapshot": "Los Angeles Dodgers priced as market favorite vs Houston Astros (-184). Implied probability is approximately 64.8% based on the listed moneyline.",
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "key": "betting_market_4",
-      "title": "MLB",
-      "headline": "MLB: San Diego Padres priced as market favorite vs San Francisco Giants",
-      "snapshot": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from San Diego Padres, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
-      "key_data": [
-        "Matchup: San Diego Padres at San Francisco Giants",
-        "Book: DraftKings",
-        "Moneyline: San Francisco Giants -105 | San Diego Padres -115",
-        "Favorite implied probability: San Diego Padres 53.5%",
-        "Line movement: Open -132 → Current -115 (away from San Diego Padres)",
-        "Spread: San Diego Padres -1.5 (+144) | San Francisco Giants +1.5 (-175)",
-        "Total: Over 8.5 (-115) | Under 8.5 (-105)",
-        "Weather: 81°F, wind crossfield at 12 mph, rain risk 27%"
-      ],
-      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from San Diego Padres, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+      "headline": "MLB: San Diego Padres priced as market favorite vs San Francisco Giants (-112)",
+      "snapshot": "San Diego Padres priced as market favorite vs San Francisco Giants (-112). Implied probability is approximately 52.8% based on the listed moneyline.",
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "key": "betting_market_5",
-      "title": "MLB",
-      "headline": "MLB: Chicago White Sox priced as market favorite vs Los Angeles Angels",
-      "snapshot": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from Chicago White Sox, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
-      "key_data": [
-        "Matchup: Chicago White Sox at Los Angeles Angels",
-        "Book: DraftKings",
-        "Moneyline: Los Angeles Angels -108 | Chicago White Sox -112",
-        "Favorite implied probability: Chicago White Sox 52.8%",
-        "Line movement: Open -125 → Current -112 (away from Chicago White Sox)",
-        "Spread: Chicago White Sox -1.5 (+144) | Los Angeles Angels +1.5 (-175)",
-        "Total: Over 9 (-105) | Under 9 (-115)",
-        "Weather: 61°F, wind in from center at 10 mph, rain risk 29%"
-      ],
-      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from Chicago White Sox, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+      "headline": "MLB: Chicago White Sox priced as market favorite vs Los Angeles Angels (-112)",
+      "snapshot": "Chicago White Sox priced as market favorite vs Los Angeles Angels (-112). Implied probability is approximately 52.8% based on the listed moneyline.",
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "key": "betting_market_6",
-      "title": "MLB",
-      "headline": "MLB: Seattle Mariners priced as market favorite vs Atlanta Braves",
-      "snapshot": "The market gives Seattle Mariners a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Seattle Mariners, which suggests the market is showing stronger support than the opener. Weather does not appear extreme, but totals should still be checked before first pitch.",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
-      "key_data": [
-        "Matchup: Atlanta Braves at Seattle Mariners",
-        "Book: DraftKings",
-        "Moneyline: Seattle Mariners -136 | Atlanta Braves +113",
-        "Favorite implied probability: Seattle Mariners 57.6%",
-        "Line movement: Open -120 → Current -136 (toward Seattle Mariners)",
-        "Spread: Atlanta Braves +1.5 (-186) | Seattle Mariners -1.5 (+153)",
-        "Total: Over 8 (-118) | Under 8 (-102)",
-        "Weather: 77°F, wind in from center at 8 mph, rain risk 8%"
-      ],
-      "why_it_matters": "The market gives Seattle Mariners a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Seattle Mariners, which suggests the market is showing stronger support than the opener. Weather does not appear extreme, but totals should still be checked before first pitch.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
-    },
-    {
-      "key": "betting_market_7",
-      "title": "MLB",
-      "headline": "MLB: Philadelphia Phillies priced as market favorite vs Athletics",
-      "snapshot": "The market leans clearly toward Philadelphia Phillies. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Philadelphia Phillies, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
-      "key_data": [
-        "Matchup: Athletics at Philadelphia Phillies",
-        "Book: DraftKings",
-        "Moneyline: Philadelphia Phillies -175 | Athletics +144",
-        "Favorite implied probability: Philadelphia Phillies 63.6%",
-        "Line movement: Open -184 → Current -175 (away from Philadelphia Phillies)",
-        "Spread: Athletics +1.5 (-143) | Philadelphia Phillies -1.5 (+119)",
-        "Total: Over 8.5 (-112) | Under 8.5 (-108)",
-        "Weather: 84°F, wind out to center at 6 mph, rain risk 10%"
-      ],
-      "why_it_matters": "The market leans clearly toward Philadelphia Phillies. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Philadelphia Phillies, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
-    },
-    {
-      "key": "betting_market_8",
-      "title": "MLB",
-      "headline": "MLB: Miami Marlins priced as market favorite vs Baltimore Orioles",
-      "snapshot": "The market gives Miami Marlins a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Miami Marlins, which may signal buyback on the underdog or resistance to the favorite's original number. Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
-      "key_data": [
-        "Matchup: Baltimore Orioles at Miami Marlins",
-        "Book: DraftKings",
-        "Moneyline: Miami Marlins -131 | Baltimore Orioles +109",
-        "Favorite implied probability: Miami Marlins 56.7%",
-        "Line movement: Open -141 → Current -131 (away from Miami Marlins)",
-        "Spread: Baltimore Orioles +1.5 (-193) | Miami Marlins -1.5 (+159)",
-        "Total: Over 8.5 (-115) | Under 8.5 (-105)",
-        "Weather: 58°F, wind out to left at 9 mph, rain risk 42%"
-      ],
-      "why_it_matters": "The market gives Miami Marlins a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Miami Marlins, which may signal buyback on the underdog or resistance to the favorite's original number. Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+      "headline": "MLB: Seattle Mariners priced as market favorite vs Atlanta Braves (-132)",
+      "snapshot": "Seattle Mariners priced as market favorite vs Atlanta Braves (-132). Implied probability is approximately 56.9% based on the listed moneyline.",
+      "url": "#",
+      "source_name": "FanDuel"
     }
   ],
   "editor_signals": [
     {
-      "key": "editor_signal_1",
-      "title": "MLB",
-      "headline": "MLB: Tampa Bay Rays priced as market favorite vs Toronto Blue Jays",
-      "snapshot": "Line movement: Open -153 → Current -136 (away from Tampa Bay Rays)",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
+      "headline": "MLB market watch: Toronto Blue Jays at Tampa Bay Rays",
+      "snapshot": "Tampa Bay Rays priced as market favorite vs Toronto Blue Jays (-650). Implied probability is approximately 86.7% based on the listed moneyline.",
       "key_data": [
-        "Matchup: Toronto Blue Jays at Tampa Bay Rays",
-        "Book: DraftKings",
-        "Moneyline: Tampa Bay Rays -136 | Toronto Blue Jays +113",
-        "Favorite implied probability: Tampa Bay Rays 57.6%",
-        "Line movement: Open -153 → Current -136 (away from Tampa Bay Rays)",
-        "Spread: Tampa Bay Rays -1.5 (+153) | Toronto Blue Jays +1.5 (-186)",
-        "Total: Over 7.5 (-115) | Under 7.5 (-105)",
-        "Weather: 69°F, wind out to right at 18 mph, rain risk 40%"
+        "Moneyline: Toronto Blue Jays +420 / Tampa Bay Rays -650",
+        "Spread: Toronto Blue Jays 1.5 (+138) / Tampa Bay Rays -1.5 (-186)",
+        "Total: 4.5 (O -158 / U +118)",
+        "Implied probability: 86.7%"
       ],
-      "why_it_matters": "The market gives Tampa Bay Rays a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Tampa Bay Rays, which may signal buyback on the underdog or resistance to the favorite's original number. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+      "why_it_matters": [
+        "Betting markets show how books and bettors are pricing risk before the event.",
+        "Line movement, totals and implied probability can signal where attention is building."
+      ],
+      "what_to_watch": [
+        "Watch for odds movement closer to game time.",
+        "Track injury, weather, lineup and fantasy-related changes that can move the market."
+      ],
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "key": "editor_signal_2",
-      "title": "MLB",
-      "headline": "MLB: St. Louis Cardinals priced as market favorite vs Milwaukee Brewers",
-      "snapshot": "Line movement: Open -120 → Current -112 (away from St. Louis Cardinals)",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
+      "headline": "MLB market watch: Milwaukee Brewers at St. Louis Cardinals",
+      "snapshot": "Milwaukee Brewers priced as market favorite vs St. Louis Cardinals (-1400). Implied probability is approximately 93.3% based on the listed moneyline.",
       "key_data": [
-        "Matchup: Milwaukee Brewers at St. Louis Cardinals",
-        "Book: DraftKings",
-        "Moneyline: St. Louis Cardinals -112 | Milwaukee Brewers -108",
-        "Favorite implied probability: St. Louis Cardinals 52.8%",
-        "Line movement: Open -120 → Current -112 (away from St. Louis Cardinals)",
-        "Spread: Milwaukee Brewers -1.5 (+145) | St. Louis Cardinals +1.5 (-177)",
-        "Total: Over 8.5 (-108) | Under 8.5 (-112)",
-        "Weather: 75°F, wind in from left at 12 mph, rain risk 30%"
+        "Moneyline: Milwaukee Brewers -1400 / St. Louis Cardinals +680",
+        "Spread: Milwaukee Brewers -3.5 (-148) / St. Louis Cardinals 3.5 (+112)",
+        "Total: 8.5 (O -112 / U -118)",
+        "Implied probability: 93.3%"
       ],
-      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from St. Louis Cardinals, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+      "why_it_matters": [
+        "Betting markets show how books and bettors are pricing risk before the event.",
+        "Line movement, totals and implied probability can signal where attention is building."
+      ],
+      "what_to_watch": [
+        "Watch for odds movement closer to game time.",
+        "Track injury, weather, lineup and fantasy-related changes that can move the market."
+      ],
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "key": "editor_signal_3",
-      "title": "MLB",
-      "headline": "MLB: Los Angeles Dodgers priced as market favorite vs Houston Astros",
-      "snapshot": "Line movement: Open -244 → Current -226 (away from Los Angeles Dodgers)",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
+      "headline": "MLB market watch: Los Angeles Dodgers at Houston Astros",
+      "snapshot": "Los Angeles Dodgers priced as market favorite vs Houston Astros (-184). Implied probability is approximately 64.8% based on the listed moneyline.",
       "key_data": [
-        "Matchup: Los Angeles Dodgers at Houston Astros",
-        "Book: DraftKings",
-        "Moneyline: Houston Astros +184 | Los Angeles Dodgers -226",
-        "Favorite implied probability: Los Angeles Dodgers 69.3%",
-        "Line movement: Open -244 → Current -226 (away from Los Angeles Dodgers)",
-        "Spread: Houston Astros +1.5 (+109) | Los Angeles Dodgers -1.5 (-131)",
-        "Total: Over 9 (+100) | Under 9 (-120)",
-        "Weather: 66°F, wind in from center at 15 mph, rain risk 9%"
+        "Moneyline: Los Angeles Dodgers -184 / Houston Astros +142",
+        "Spread: Los Angeles Dodgers -1.5 (-106) / Houston Astros 1.5 (-125)",
+        "Total: 7.5 (O -138 / U +104)",
+        "Implied probability: 64.8%"
       ],
-      "why_it_matters": "The market leans clearly toward Los Angeles Dodgers. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Los Angeles Dodgers, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+      "why_it_matters": [
+        "Betting markets show how books and bettors are pricing risk before the event.",
+        "Line movement, totals and implied probability can signal where attention is building."
+      ],
+      "what_to_watch": [
+        "Watch for odds movement closer to game time.",
+        "Track injury, weather, lineup and fantasy-related changes that can move the market."
+      ],
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "key": "editor_signal_4",
-      "title": "MLB",
-      "headline": "MLB: San Diego Padres priced as market favorite vs San Francisco Giants",
-      "snapshot": "Line movement: Open -132 → Current -115 (away from San Diego Padres)",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
+      "headline": "MLB market watch: San Diego Padres at San Francisco Giants",
+      "snapshot": "San Diego Padres priced as market favorite vs San Francisco Giants (-112). Implied probability is approximately 52.8% based on the listed moneyline.",
       "key_data": [
-        "Matchup: San Diego Padres at San Francisco Giants",
-        "Book: DraftKings",
-        "Moneyline: San Francisco Giants -105 | San Diego Padres -115",
-        "Favorite implied probability: San Diego Padres 53.5%",
-        "Line movement: Open -132 → Current -115 (away from San Diego Padres)",
-        "Spread: San Diego Padres -1.5 (+144) | San Francisco Giants +1.5 (-175)",
-        "Total: Over 8.5 (-115) | Under 8.5 (-105)",
-        "Weather: 81°F, wind crossfield at 12 mph, rain risk 27%"
+        "Moneyline: San Diego Padres -112 / San Francisco Giants -104",
+        "Spread: San Diego Padres -1.5 (+152) / San Francisco Giants 1.5 (-184)",
+        "Total: 8.5 (O -105 / U -115)",
+        "Implied probability: 52.8%"
       ],
-      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from San Diego Padres, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+      "why_it_matters": [
+        "Betting markets show how books and bettors are pricing risk before the event.",
+        "Line movement, totals and implied probability can signal where attention is building."
+      ],
+      "what_to_watch": [
+        "Watch for odds movement closer to game time.",
+        "Track injury, weather, lineup and fantasy-related changes that can move the market."
+      ],
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "key": "editor_signal_5",
-      "title": "MLB",
-      "headline": "MLB: Chicago White Sox priced as market favorite vs Los Angeles Angels",
-      "snapshot": "Line movement: Open -125 → Current -112 (away from Chicago White Sox)",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
+      "headline": "MLB market watch: Chicago White Sox at Los Angeles Angels",
+      "snapshot": "Chicago White Sox priced as market favorite vs Los Angeles Angels (-112). Implied probability is approximately 52.8% based on the listed moneyline.",
       "key_data": [
-        "Matchup: Chicago White Sox at Los Angeles Angels",
-        "Book: DraftKings",
-        "Moneyline: Los Angeles Angels -108 | Chicago White Sox -112",
-        "Favorite implied probability: Chicago White Sox 52.8%",
-        "Line movement: Open -125 → Current -112 (away from Chicago White Sox)",
-        "Spread: Chicago White Sox -1.5 (+144) | Los Angeles Angels +1.5 (-175)",
-        "Total: Over 9 (-105) | Under 9 (-115)",
-        "Weather: 61°F, wind in from center at 10 mph, rain risk 29%"
+        "Moneyline: Chicago White Sox -112 / Los Angeles Angels -104",
+        "Spread: Chicago White Sox -1.5 (+150) / Los Angeles Angels 1.5 (-182)",
+        "Total: 9.0 (O -105 / U -115)",
+        "Implied probability: 52.8%"
       ],
-      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from Chicago White Sox, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
-    },
-    {
-      "key": "editor_signal_6",
-      "title": "MLB",
-      "headline": "MLB: Seattle Mariners priced as market favorite vs Atlanta Braves",
-      "snapshot": "Line movement: Open -120 → Current -136 (toward Seattle Mariners)",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/",
-      "key_data": [
-        "Matchup: Atlanta Braves at Seattle Mariners",
-        "Book: DraftKings",
-        "Moneyline: Seattle Mariners -136 | Atlanta Braves +113",
-        "Favorite implied probability: Seattle Mariners 57.6%",
-        "Line movement: Open -120 → Current -136 (toward Seattle Mariners)",
-        "Spread: Atlanta Braves +1.5 (-186) | Seattle Mariners -1.5 (+153)",
-        "Total: Over 8 (-118) | Under 8 (-102)",
-        "Weather: 77°F, wind in from center at 8 mph, rain risk 8%"
+      "why_it_matters": [
+        "Betting markets show how books and bettors are pricing risk before the event.",
+        "Line movement, totals and implied probability can signal where attention is building."
       ],
-      "why_it_matters": "The market gives Seattle Mariners a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Seattle Mariners, which suggests the market is showing stronger support than the opener. Weather does not appear extreme, but totals should still be checked before first pitch.",
-      "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
+      "what_to_watch": [
+        "Watch for odds movement closer to game time.",
+        "Track injury, weather, lineup and fantasy-related changes that can move the market."
+      ],
+      "url": "#",
+      "source_name": "FanDuel"
     }
   ],
   "sections": [
     {
-      "title": "Market Overview",
-      "cards": [
-        "MLB: Tampa Bay Rays priced as market favorite vs Toronto Blue Jays — The market gives Tampa Bay Rays a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Tampa Bay Rays, which may signal buyback on the underdog or resistance to the favorite's original number. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
-        "MLB: St. Louis Cardinals priced as market favorite vs Milwaukee Brewers — This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from St. Louis Cardinals, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-        "MLB: Los Angeles Dodgers priced as market favorite vs Houston Astros — The market leans clearly toward Los Angeles Dodgers. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Los Angeles Dodgers, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-        "MLB: San Diego Padres priced as market favorite vs San Francisco Giants — This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from San Diego Padres, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
-        "MLB: Chicago White Sox priced as market favorite vs Los Angeles Angels — This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from Chicago White Sox, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-        "MLB: Seattle Mariners priced as market favorite vs Atlanta Braves — The market gives Seattle Mariners a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Seattle Mariners, which suggests the market is showing stronger support than the opener. Weather does not appear extreme, but totals should still be checked before first pitch.",
-        "MLB: Philadelphia Phillies priced as market favorite vs Athletics — The market leans clearly toward Philadelphia Phillies. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Philadelphia Phillies, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
-        "MLB: Miami Marlins priced as market favorite vs Baltimore Orioles — The market gives Miami Marlins a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Miami Marlins, which may signal buyback on the underdog or resistance to the favorite's original number. Rain risk could affect starters, bullpens, delays, and live-betting volatility."
-      ]
+      "headline": "MLB: Tampa Bay Rays priced as market favorite vs Toronto Blue Jays (-650)",
+      "snapshot": "Tampa Bay Rays priced as market favorite vs Toronto Blue Jays (-650). Implied probability is approximately 86.7% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Toronto Blue Jays at Tampa Bay Rays",
+        "Start time: 1:11 PM ET",
+        "Moneyline: Toronto Blue Jays +420 / Tampa Bay Rays -650",
+        "Spread: Toronto Blue Jays 1.5 (+138) / Tampa Bay Rays -1.5 (-186)",
+        "Total: 4.5 (O -158 / U +118)",
+        "Implied probability: 86.7%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
     },
     {
-      "title": "Line Movement Signals",
-      "cards": [
-        "Toronto Blue Jays at Tampa Bay Rays — Line movement: Open -153 → Current -136 (away from Tampa Bay Rays)",
-        "Milwaukee Brewers at St. Louis Cardinals — Line movement: Open -120 → Current -112 (away from St. Louis Cardinals)",
-        "Los Angeles Dodgers at Houston Astros — Line movement: Open -244 → Current -226 (away from Los Angeles Dodgers)",
-        "San Diego Padres at San Francisco Giants — Line movement: Open -132 → Current -115 (away from San Diego Padres)",
-        "Chicago White Sox at Los Angeles Angels — Line movement: Open -125 → Current -112 (away from Chicago White Sox)",
-        "Atlanta Braves at Seattle Mariners — Line movement: Open -120 → Current -136 (toward Seattle Mariners)",
-        "Athletics at Philadelphia Phillies — Line movement: Open -184 → Current -175 (away from Philadelphia Phillies)",
-        "Baltimore Orioles at Miami Marlins — Line movement: Open -141 → Current -131 (away from Miami Marlins)"
-      ]
+      "headline": "MLB: Milwaukee Brewers priced as market favorite vs St. Louis Cardinals (-1400)",
+      "snapshot": "Milwaukee Brewers priced as market favorite vs St. Louis Cardinals (-1400). Implied probability is approximately 93.3% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Milwaukee Brewers at St. Louis Cardinals",
+        "Start time: 1:16 PM ET",
+        "Moneyline: Milwaukee Brewers -1400 / St. Louis Cardinals +680",
+        "Spread: Milwaukee Brewers -3.5 (-148) / St. Louis Cardinals 3.5 (+112)",
+        "Total: 8.5 (O -112 / U -118)",
+        "Implied probability: 93.3%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
     },
     {
-      "title": "Game Breakdowns",
-      "cards": [
-        {
-          "league": "MLB",
-          "title": "MLB: Tampa Bay Rays priced as market favorite vs Toronto Blue Jays",
-          "headline": "MLB: Tampa Bay Rays priced as market favorite vs Toronto Blue Jays",
-          "matchup": "Toronto Blue Jays at Tampa Bay Rays",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Toronto Blue Jays at Tampa Bay Rays",
-            "Book: DraftKings",
-            "Moneyline: Tampa Bay Rays -136 | Toronto Blue Jays +113",
-            "Favorite implied probability: Tampa Bay Rays 57.6%",
-            "Line movement: Open -153 → Current -136 (away from Tampa Bay Rays)",
-            "Spread: Tampa Bay Rays -1.5 (+153) | Toronto Blue Jays +1.5 (-186)",
-            "Total: Over 7.5 (-115) | Under 7.5 (-105)",
-            "Weather: 69°F, wind out to right at 18 mph, rain risk 40%"
-          ],
-          "why_it_matters": "The market gives Tampa Bay Rays a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Tampa Bay Rays, which may signal buyback on the underdog or resistance to the favorite's original number. Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
-          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -153 → Current -136 (away from Tampa Bay Rays)",
-          "weather": {
-            "summary": "69°F, wind out to right at 18 mph, rain risk 40%",
-            "impact": "Potential boost to carry and extra-base-hit conditions; totals deserve extra attention."
-          },
-          "commence_time": "2026-05-06T17:11:00Z"
-        },
-        {
-          "league": "MLB",
-          "title": "MLB: St. Louis Cardinals priced as market favorite vs Milwaukee Brewers",
-          "headline": "MLB: St. Louis Cardinals priced as market favorite vs Milwaukee Brewers",
-          "matchup": "Milwaukee Brewers at St. Louis Cardinals",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Milwaukee Brewers at St. Louis Cardinals",
-            "Book: DraftKings",
-            "Moneyline: St. Louis Cardinals -112 | Milwaukee Brewers -108",
-            "Favorite implied probability: St. Louis Cardinals 52.8%",
-            "Line movement: Open -120 → Current -112 (away from St. Louis Cardinals)",
-            "Spread: Milwaukee Brewers -1.5 (+145) | St. Louis Cardinals +1.5 (-177)",
-            "Total: Over 8.5 (-108) | Under 8.5 (-112)",
-            "Weather: 75°F, wind in from left at 12 mph, rain risk 30%"
-          ],
-          "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from St. Louis Cardinals, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -120 → Current -112 (away from St. Louis Cardinals)",
-          "weather": {
-            "summary": "75°F, wind in from left at 12 mph, rain risk 30%",
-            "impact": "Wind may suppress carry, which can matter for totals and home-run props."
-          },
-          "commence_time": "2026-05-06T17:16:00Z"
-        },
-        {
-          "league": "MLB",
-          "title": "MLB: Los Angeles Dodgers priced as market favorite vs Houston Astros",
-          "headline": "MLB: Los Angeles Dodgers priced as market favorite vs Houston Astros",
-          "matchup": "Los Angeles Dodgers at Houston Astros",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Los Angeles Dodgers at Houston Astros",
-            "Book: DraftKings",
-            "Moneyline: Houston Astros +184 | Los Angeles Dodgers -226",
-            "Favorite implied probability: Los Angeles Dodgers 69.3%",
-            "Line movement: Open -244 → Current -226 (away from Los Angeles Dodgers)",
-            "Spread: Houston Astros +1.5 (+109) | Los Angeles Dodgers -1.5 (-131)",
-            "Total: Over 9 (+100) | Under 9 (-120)",
-            "Weather: 66°F, wind in from center at 15 mph, rain risk 9%"
-          ],
-          "why_it_matters": "The market leans clearly toward Los Angeles Dodgers. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Los Angeles Dodgers, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -244 → Current -226 (away from Los Angeles Dodgers)",
-          "weather": {
-            "summary": "66°F, wind in from center at 15 mph, rain risk 9%",
-            "impact": "Wind may suppress carry, which can matter for totals and home-run props."
-          },
-          "commence_time": "2026-05-06T18:11:00Z"
-        },
-        {
-          "league": "MLB",
-          "title": "MLB: San Diego Padres priced as market favorite vs San Francisco Giants",
-          "headline": "MLB: San Diego Padres priced as market favorite vs San Francisco Giants",
-          "matchup": "San Diego Padres at San Francisco Giants",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: San Diego Padres at San Francisco Giants",
-            "Book: DraftKings",
-            "Moneyline: San Francisco Giants -105 | San Diego Padres -115",
-            "Favorite implied probability: San Diego Padres 53.5%",
-            "Line movement: Open -132 → Current -115 (away from San Diego Padres)",
-            "Spread: San Diego Padres -1.5 (+144) | San Francisco Giants +1.5 (-175)",
-            "Total: Over 8.5 (-115) | Under 8.5 (-105)",
-            "Weather: 81°F, wind crossfield at 12 mph, rain risk 27%"
-          ],
-          "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from San Diego Padres, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
-          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -132 → Current -115 (away from San Diego Padres)",
-          "weather": {
-            "summary": "81°F, wind crossfield at 12 mph, rain risk 27%",
-            "impact": "Weather does not appear extreme, but totals should still be checked before first pitch."
-          },
-          "commence_time": "2026-05-06T19:46:00Z"
-        },
-        {
-          "league": "MLB",
-          "title": "MLB: Chicago White Sox priced as market favorite vs Los Angeles Angels",
-          "headline": "MLB: Chicago White Sox priced as market favorite vs Los Angeles Angels",
-          "matchup": "Chicago White Sox at Los Angeles Angels",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Chicago White Sox at Los Angeles Angels",
-            "Book: DraftKings",
-            "Moneyline: Los Angeles Angels -108 | Chicago White Sox -112",
-            "Favorite implied probability: Chicago White Sox 52.8%",
-            "Line movement: Open -125 → Current -112 (away from Chicago White Sox)",
-            "Spread: Chicago White Sox -1.5 (+144) | Los Angeles Angels +1.5 (-175)",
-            "Total: Over 9 (-105) | Under 9 (-115)",
-            "Weather: 61°F, wind in from center at 10 mph, rain risk 29%"
-          ],
-          "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from Chicago White Sox, which may signal buyback on the underdog or resistance to the favorite's original number. Wind may suppress carry, which can matter for totals and home-run props.",
-          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -125 → Current -112 (away from Chicago White Sox)",
-          "weather": {
-            "summary": "61°F, wind in from center at 10 mph, rain risk 29%",
-            "impact": "Wind may suppress carry, which can matter for totals and home-run props."
-          },
-          "commence_time": "2026-05-06T20:08:00Z"
-        },
-        {
-          "league": "MLB",
-          "title": "MLB: Seattle Mariners priced as market favorite vs Atlanta Braves",
-          "headline": "MLB: Seattle Mariners priced as market favorite vs Atlanta Braves",
-          "matchup": "Atlanta Braves at Seattle Mariners",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Atlanta Braves at Seattle Mariners",
-            "Book: DraftKings",
-            "Moneyline: Seattle Mariners -136 | Atlanta Braves +113",
-            "Favorite implied probability: Seattle Mariners 57.6%",
-            "Line movement: Open -120 → Current -136 (toward Seattle Mariners)",
-            "Spread: Atlanta Braves +1.5 (-186) | Seattle Mariners -1.5 (+153)",
-            "Total: Over 8 (-118) | Under 8 (-102)",
-            "Weather: 77°F, wind in from center at 8 mph, rain risk 8%"
-          ],
-          "why_it_matters": "The market gives Seattle Mariners a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Seattle Mariners, which suggests the market is showing stronger support than the opener. Weather does not appear extreme, but totals should still be checked before first pitch.",
-          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -120 → Current -136 (toward Seattle Mariners)",
-          "weather": {
-            "summary": "77°F, wind in from center at 8 mph, rain risk 8%",
-            "impact": "Weather does not appear extreme, but totals should still be checked before first pitch."
-          },
-          "commence_time": "2026-05-06T20:10:00Z"
-        },
-        {
-          "league": "MLB",
-          "title": "MLB: Philadelphia Phillies priced as market favorite vs Athletics",
-          "headline": "MLB: Philadelphia Phillies priced as market favorite vs Athletics",
-          "matchup": "Athletics at Philadelphia Phillies",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Athletics at Philadelphia Phillies",
-            "Book: DraftKings",
-            "Moneyline: Philadelphia Phillies -175 | Athletics +144",
-            "Favorite implied probability: Philadelphia Phillies 63.6%",
-            "Line movement: Open -184 → Current -175 (away from Philadelphia Phillies)",
-            "Spread: Athletics +1.5 (-143) | Philadelphia Phillies -1.5 (+119)",
-            "Total: Over 8.5 (-112) | Under 8.5 (-108)",
-            "Weather: 84°F, wind out to center at 6 mph, rain risk 10%"
-          ],
-          "why_it_matters": "The market leans clearly toward Philadelphia Phillies. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Philadelphia Phillies, which may signal buyback on the underdog or resistance to the favorite's original number. Weather does not appear extreme, but totals should still be checked before first pitch.",
-          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -184 → Current -175 (away from Philadelphia Phillies)",
-          "weather": {
-            "summary": "84°F, wind out to center at 6 mph, rain risk 10%",
-            "impact": "Weather does not appear extreme, but totals should still be checked before first pitch."
-          },
-          "commence_time": "2026-05-06T22:41:00Z"
-        },
-        {
-          "league": "MLB",
-          "title": "MLB: Miami Marlins priced as market favorite vs Baltimore Orioles",
-          "headline": "MLB: Miami Marlins priced as market favorite vs Baltimore Orioles",
-          "matchup": "Baltimore Orioles at Miami Marlins",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Baltimore Orioles at Miami Marlins",
-            "Book: DraftKings",
-            "Moneyline: Miami Marlins -131 | Baltimore Orioles +109",
-            "Favorite implied probability: Miami Marlins 56.7%",
-            "Line movement: Open -141 → Current -131 (away from Miami Marlins)",
-            "Spread: Baltimore Orioles +1.5 (-193) | Miami Marlins -1.5 (+159)",
-            "Total: Over 8.5 (-115) | Under 8.5 (-105)",
-            "Weather: 58°F, wind out to left at 9 mph, rain risk 42%"
-          ],
-          "why_it_matters": "The market gives Miami Marlins a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Miami Marlins, which may signal buyback on the underdog or resistance to the favorite's original number. Rain risk could affect starters, bullpens, delays, and live-betting volatility.",
-          "what_to_watch": "Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -141 → Current -131 (away from Miami Marlins)",
-          "weather": {
-            "summary": "58°F, wind out to left at 9 mph, rain risk 42%",
-            "impact": "Rain risk could affect starters, bullpens, delays, and live-betting volatility."
-          },
-          "commence_time": "2026-05-06T22:41:00Z"
-        },
-        {
-          "league": "NBA",
-          "title": "NBA: New York Knicks priced as market favorite vs Philadelphia 76ers",
-          "headline": "NBA: New York Knicks priced as market favorite vs Philadelphia 76ers",
-          "matchup": "Philadelphia 76ers at New York Knicks",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Philadelphia 76ers at New York Knicks",
-            "Book: DraftKings",
-            "Moneyline: New York Knicks -305 | Philadelphia 76ers +245",
-            "Favorite implied probability: New York Knicks 75.3%",
-            "Line movement: Open -295 → Current -305 (toward New York Knicks)",
-            "Spread: New York Knicks -7.5 (-115) | Philadelphia 76ers +7.5 (-105)",
-            "Total: Over 215.5 (-110) | Under 215.5 (-110)"
-          ],
-          "why_it_matters": "The market is pricing New York Knicks as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward New York Knicks, which suggests the market is showing stronger support than the opener.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -295 → Current -305 (toward New York Knicks)",
-          "weather": null,
-          "commence_time": "2026-05-06T23:10:00Z"
-        },
-        {
-          "league": "NBA",
-          "title": "NBA: San Antonio Spurs priced as market favorite vs Minnesota Timberwolves",
-          "headline": "NBA: San Antonio Spurs priced as market favorite vs Minnesota Timberwolves",
-          "matchup": "Minnesota Timberwolves at San Antonio Spurs",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Minnesota Timberwolves at San Antonio Spurs",
-            "Book: DraftKings",
-            "Moneyline: San Antonio Spurs -410 | Minnesota Timberwolves +320",
-            "Favorite implied probability: San Antonio Spurs 80.4%",
-            "Line movement: Open -400 → Current -410 (toward San Antonio Spurs)",
-            "Spread: Minnesota Timberwolves +9.5 (-105) | San Antonio Spurs -9.5 (-115)",
-            "Total: Over 215.5 (-110) | Under 215.5 (-110)"
-          ],
-          "why_it_matters": "The market is pricing San Antonio Spurs as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward San Antonio Spurs, which suggests the market is showing stronger support than the opener.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -400 → Current -410 (toward San Antonio Spurs)",
-          "weather": null,
-          "commence_time": "2026-05-07T01:40:00Z"
-        },
-        {
-          "league": "NBA",
-          "title": "NBA: Detroit Pistons priced as market favorite vs Cleveland Cavaliers",
-          "headline": "NBA: Detroit Pistons priced as market favorite vs Cleveland Cavaliers",
-          "matchup": "Cleveland Cavaliers at Detroit Pistons",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Cleveland Cavaliers at Detroit Pistons",
-            "Book: DraftKings",
-            "Moneyline: Detroit Pistons -162 | Cleveland Cavaliers +136",
-            "Favorite implied probability: Detroit Pistons 61.8%",
-            "Line movement: Open -177 → Current -162 (away from Detroit Pistons)",
-            "Spread: Cleveland Cavaliers +3.5 (-110) | Detroit Pistons -3.5 (-110)",
-            "Total: Over 215.5 (-110) | Under 215.5 (-110)"
-          ],
-          "why_it_matters": "The market leans clearly toward Detroit Pistons. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Detroit Pistons, which may signal buyback on the underdog or resistance to the favorite's original number.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -177 → Current -162 (away from Detroit Pistons)",
-          "weather": null,
-          "commence_time": "2026-05-07T23:10:00Z"
-        },
-        {
-          "league": "NBA",
-          "title": "NBA: Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers",
-          "headline": "NBA: Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers",
-          "matchup": "Los Angeles Lakers at Oklahoma City Thunder",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Los Angeles Lakers at Oklahoma City Thunder",
-            "Book: DraftKings",
-            "Moneyline: Oklahoma City Thunder -1100 | Los Angeles Lakers +700",
-            "Favorite implied probability: Oklahoma City Thunder 91.7%",
-            "Line movement: Open -1107 → Current -1100 (away from Oklahoma City Thunder)",
-            "Spread: Los Angeles Lakers +15.5 (-110) | Oklahoma City Thunder -15.5 (-110)",
-            "Total: Over 209.5 (-105) | Under 209.5 (-115)"
-          ],
-          "why_it_matters": "The market is pricing Oklahoma City Thunder as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has eased away from Oklahoma City Thunder, which may signal buyback on the underdog or resistance to the favorite's original number.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -1107 → Current -1100 (away from Oklahoma City Thunder)",
-          "weather": null,
-          "commence_time": "2026-05-08T01:40:00Z"
-        },
-        {
-          "league": "NHL",
-          "title": "NHL: Buffalo Sabres priced as market favorite vs Montréal Canadiens",
-          "headline": "NHL: Buffalo Sabres priced as market favorite vs Montréal Canadiens",
-          "matchup": "Montréal Canadiens at Buffalo Sabres",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Montréal Canadiens at Buffalo Sabres",
-            "Book: DraftKings",
-            "Moneyline: Buffalo Sabres -130 | Montréal Canadiens +110",
-            "Favorite implied probability: Buffalo Sabres 56.5%",
-            "Line movement: Open -118 → Current -130 (toward Buffalo Sabres)",
-            "Spread: Buffalo Sabres -1.5 (+190) | Montréal Canadiens +1.5 (-230)",
-            "Total: Over 5.5 (-122) | Under 5.5 (+102)"
-          ],
-          "why_it_matters": "The market gives Buffalo Sabres a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Buffalo Sabres, which suggests the market is showing stronger support than the opener.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -118 → Current -130 (toward Buffalo Sabres)",
-          "weather": null,
-          "commence_time": "2026-05-06T23:10:36Z"
-        },
-        {
-          "league": "NHL",
-          "title": "NHL: Vegas Golden Knights priced as market favorite vs Anaheim Ducks",
-          "headline": "NHL: Vegas Golden Knights priced as market favorite vs Anaheim Ducks",
-          "matchup": "Anaheim Ducks at Vegas Golden Knights",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Anaheim Ducks at Vegas Golden Knights",
-            "Book: DraftKings",
-            "Moneyline: Vegas Golden Knights -162 | Anaheim Ducks +136",
-            "Favorite implied probability: Vegas Golden Knights 61.8%",
-            "Line movement: Open -176 → Current -162 (away from Vegas Golden Knights)",
-            "Spread: Anaheim Ducks +1.5 (-185) | Vegas Golden Knights -1.5 (+154)",
-            "Total: Over 6.5 (+102) | Under 6.5 (-122)"
-          ],
-          "why_it_matters": "The market leans clearly toward Vegas Golden Knights. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Vegas Golden Knights, which may signal buyback on the underdog or resistance to the favorite's original number.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -176 → Current -162 (away from Vegas Golden Knights)",
-          "weather": null,
-          "commence_time": "2026-05-07T01:40:00Z"
-        },
-        {
-          "league": "NHL",
-          "title": "NHL: Carolina Hurricanes priced as market favorite vs Philadelphia Flyers",
-          "headline": "NHL: Carolina Hurricanes priced as market favorite vs Philadelphia Flyers",
-          "matchup": "Carolina Hurricanes at Philadelphia Flyers",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Carolina Hurricanes at Philadelphia Flyers",
-            "Book: DraftKings",
-            "Moneyline: Philadelphia Flyers +140 | Carolina Hurricanes -166",
-            "Favorite implied probability: Carolina Hurricanes 62.4%",
-            "Line movement: Open -173 → Current -166 (away from Carolina Hurricanes)",
-            "Spread: Carolina Hurricanes -1.5 (+160) | Philadelphia Flyers +1.5 (-192)",
-            "Total: Over 5.5 (+114) | Under 5.5 (-135)"
-          ],
-          "why_it_matters": "The market leans clearly toward Carolina Hurricanes. That implies confidence, but not a lock — injury, pitching, weather, or lineup news could still move the number. The price has eased away from Carolina Hurricanes, which may signal buyback on the underdog or resistance to the favorite's original number.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -173 → Current -166 (away from Carolina Hurricanes)",
-          "weather": null,
-          "commence_time": "2026-05-08T00:10:00Z"
-        },
-        {
-          "league": "NHL",
-          "title": "NHL: Colorado Avalanche priced as market favorite vs Minnesota Wild",
-          "headline": "NHL: Colorado Avalanche priced as market favorite vs Minnesota Wild",
-          "matchup": "Colorado Avalanche at Minnesota Wild",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Colorado Avalanche at Minnesota Wild",
-            "Book: DraftKings",
-            "Moneyline: Minnesota Wild +110 | Colorado Avalanche -130",
-            "Favorite implied probability: Colorado Avalanche 56.5%",
-            "Line movement: Open -144 → Current -130 (away from Colorado Avalanche)",
-            "Spread: Colorado Avalanche -1.5 (+200) | Minnesota Wild +1.5 (-245)",
-            "Total: Over 6.5 (+110) | Under 6.5 (-130)"
-          ],
-          "why_it_matters": "The market gives Colorado Avalanche a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from Colorado Avalanche, which may signal buyback on the underdog or resistance to the favorite's original number.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -144 → Current -130 (away from Colorado Avalanche)",
-          "weather": null,
-          "commence_time": "2026-05-10T01:10:00Z"
-        },
-        {
-          "league": "College Football",
-          "title": "College Football: Virginia Cavaliers priced as market favorite vs NC State Wolfpack",
-          "headline": "College Football: Virginia Cavaliers priced as market favorite vs NC State Wolfpack",
-          "matchup": "NC State Wolfpack at Virginia Cavaliers",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: NC State Wolfpack at Virginia Cavaliers",
-            "Book: DraftKings",
-            "Moneyline: Virginia Cavaliers -148 | NC State Wolfpack +124",
-            "Favorite implied probability: Virginia Cavaliers 59.7%",
-            "Line movement: Open -136 → Current -148 (toward Virginia Cavaliers)",
-            "Spread: NC State Wolfpack +3 (-112) | Virginia Cavaliers -3 (-108)",
-            "Total: Over 53.5 (-110) | Under 53.5 (-110)"
-          ],
-          "why_it_matters": "The market gives Virginia Cavaliers a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has moved toward Virginia Cavaliers, which suggests the market is showing stronger support than the opener.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -136 → Current -148 (toward Virginia Cavaliers)",
-          "weather": null,
-          "commence_time": "2026-08-29T16:00:00Z"
-        },
-        {
-          "league": "College Football",
-          "title": "College Football: TCU Horned Frogs priced as market favorite vs North Carolina Tar Heels",
-          "headline": "College Football: TCU Horned Frogs priced as market favorite vs North Carolina Tar Heels",
-          "matchup": "North Carolina Tar Heels at TCU Horned Frogs",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: North Carolina Tar Heels at TCU Horned Frogs",
-            "Book: DraftKings",
-            "Moneyline: TCU Horned Frogs -238 | North Carolina Tar Heels +195",
-            "Favorite implied probability: TCU Horned Frogs 70.4%",
-            "Line movement: Open -225 → Current -238 (toward TCU Horned Frogs)",
-            "Spread: North Carolina Tar Heels +6.5 (-112) | TCU Horned Frogs -6.5 (-108)",
-            "Total: Over 49.5 (-115) | Under 49.5 (-105)"
-          ],
-          "why_it_matters": "The market is pricing TCU Horned Frogs as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward TCU Horned Frogs, which suggests the market is showing stronger support than the opener.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -225 → Current -238 (toward TCU Horned Frogs)",
-          "weather": null,
-          "commence_time": "2026-08-29T16:00:00Z"
-        },
-        {
-          "league": "College Football",
-          "title": "College Football: Auburn Tigers priced as market favorite vs Baylor Bears",
-          "headline": "College Football: Auburn Tigers priced as market favorite vs Baylor Bears",
-          "matchup": "Baylor Bears at Auburn Tigers",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Baylor Bears at Auburn Tigers",
-            "Book: DraftKings",
-            "Moneyline: Auburn Tigers -265 | Baylor Bears +215",
-            "Favorite implied probability: Auburn Tigers 72.6%",
-            "Line movement: Open -279 → Current -265 (away from Auburn Tigers)",
-            "Spread: Auburn Tigers -6.5 (-110) | Baylor Bears +6.5 (-110)",
-            "Total: Over 59.5 (-112) | Under 59.5 (-108)"
-          ],
-          "why_it_matters": "The market is pricing Auburn Tigers as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has eased away from Auburn Tigers, which may signal buyback on the underdog or resistance to the favorite's original number.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -279 → Current -265 (away from Auburn Tigers)",
-          "weather": null,
-          "commence_time": "2026-09-05T16:00:00Z"
-        },
-        {
-          "league": "College Football",
-          "title": "College Football: California Golden Bears priced as market favorite vs UCLA Bruins",
-          "headline": "College Football: California Golden Bears priced as market favorite vs UCLA Bruins",
-          "matchup": "UCLA Bruins at California Golden Bears",
-          "source": "FanDuel",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: UCLA Bruins at California Golden Bears",
-            "Book: FanDuel",
-            "Moneyline: California Golden Bears -122 | UCLA Bruins +102",
-            "Favorite implied probability: California Golden Bears 55.0%",
-            "Line movement: Open -134 → Current -122 (away from California Golden Bears)",
-            "Spread: California Golden Bears -1.5 (-110) | UCLA Bruins +1.5 (-110)",
-            "Total: Over 53.5 (-110) | Under 53.5 (-110)"
-          ],
-          "why_it_matters": "The market gives California Golden Bears a modest edge. This is the type of range where line movement and book-to-book differences matter. The price has eased away from California Golden Bears, which may signal buyback on the underdog or resistance to the favorite's original number.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -134 → Current -122 (away from California Golden Bears)",
-          "weather": null,
-          "commence_time": "2026-09-05T16:00:00Z"
-        },
-        {
-          "league": "College Football",
-          "title": "College Football: LSU Tigers priced as market favorite vs Clemson Tigers",
-          "headline": "College Football: LSU Tigers priced as market favorite vs Clemson Tigers",
-          "matchup": "Clemson Tigers at LSU Tigers",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Clemson Tigers at LSU Tigers",
-            "Book: DraftKings",
-            "Moneyline: LSU Tigers -455 | Clemson Tigers +350",
-            "Favorite implied probability: LSU Tigers 82.0%",
-            "Line movement: Open -447 → Current -455 (toward LSU Tigers)",
-            "Spread: Clemson Tigers +10.5 (-110) | LSU Tigers -10.5 (-110)",
-            "Total: Over 50.5 (-110) | Under 50.5 (-110)"
-          ],
-          "why_it_matters": "The market is pricing LSU Tigers as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward LSU Tigers, which suggests the market is showing stronger support than the opener.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -447 → Current -455 (toward LSU Tigers)",
-          "weather": null,
-          "commence_time": "2026-09-05T16:00:00Z"
-        },
-        {
-          "league": "College Football",
-          "title": "College Football: Ole Miss Rebels priced as market favorite vs Louisville Cardinals",
-          "headline": "College Football: Ole Miss Rebels priced as market favorite vs Louisville Cardinals",
-          "matchup": "Louisville Cardinals at Ole Miss Rebels",
-          "source": "FanDuel",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Louisville Cardinals at Ole Miss Rebels",
-            "Book: FanDuel",
-            "Moneyline: Ole Miss Rebels -285 | Louisville Cardinals +230",
-            "Favorite implied probability: Ole Miss Rebels 74.0%",
-            "Line movement: Open -275 → Current -285 (toward Ole Miss Rebels)",
-            "Spread: Louisville Cardinals +7.5 (-120) | Ole Miss Rebels -7.5 (-102)",
-            "Total: Over 52.5 (-115) | Under 52.5 (-105)"
-          ],
-          "why_it_matters": "The market is pricing Ole Miss Rebels as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward Ole Miss Rebels, which suggests the market is showing stronger support than the opener.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -275 → Current -285 (toward Ole Miss Rebels)",
-          "weather": null,
-          "commence_time": "2026-09-05T16:00:00Z"
-        },
-        {
-          "league": "College Football",
-          "title": "College Football: Notre Dame Fighting Irish priced as market favorite vs Wisconsin Badgers",
-          "headline": "College Football: Notre Dame Fighting Irish priced as market favorite vs Wisconsin Badgers",
-          "matchup": "Notre Dame Fighting Irish at Wisconsin Badgers",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Notre Dame Fighting Irish at Wisconsin Badgers",
-            "Book: DraftKings",
-            "Moneyline: Wisconsin Badgers +1100 | Notre Dame Fighting Irish -2100",
-            "Favorite implied probability: Notre Dame Fighting Irish 95.5%",
-            "Line movement: Open -2090 → Current -2100 (toward Notre Dame Fighting Irish)",
-            "Spread: Notre Dame Fighting Irish -20.5 (-108) | Wisconsin Badgers +20.5 (-112)",
-            "Total: Over 47.5 (-110) | Under 47.5 (-110)"
-          ],
-          "why_it_matters": "The market is pricing Notre Dame Fighting Irish as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward Notre Dame Fighting Irish, which suggests the market is showing stronger support than the opener.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -2090 → Current -2100 (toward Notre Dame Fighting Irish)",
-          "weather": null,
-          "commence_time": "2026-09-06T16:00:00Z"
-        },
-        {
-          "league": "College Football",
-          "title": "College Football: Ole Miss Rebels priced as market favorite vs Louisville Cardinals",
-          "headline": "College Football: Ole Miss Rebels priced as market favorite vs Louisville Cardinals",
-          "matchup": "Louisville Cardinals at Ole Miss Rebels",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Louisville Cardinals at Ole Miss Rebels",
-            "Book: DraftKings",
-            "Moneyline: Ole Miss Rebels -270 | Louisville Cardinals +220",
-            "Favorite implied probability: Ole Miss Rebels 73.0%",
-            "Line movement: Open -260 → Current -270 (toward Ole Miss Rebels)",
-            "Spread: Louisville Cardinals +7 (-110) | Ole Miss Rebels -7 (-110)",
-            "Total: Over 53.5 (-115) | Under 53.5 (-105)"
-          ],
-          "why_it_matters": "The market is pricing Ole Miss Rebels as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has moved toward Ole Miss Rebels, which suggests the market is showing stronger support than the opener.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -260 → Current -270 (toward Ole Miss Rebels)",
-          "weather": null,
-          "commence_time": "2026-09-06T23:30:00Z"
-        },
-        {
-          "league": "Premier League",
-          "title": "Premier League: Liverpool priced as market favorite vs Chelsea",
-          "headline": "Premier League: Liverpool priced as market favorite vs Chelsea",
-          "matchup": "Chelsea at Liverpool",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Chelsea at Liverpool",
-            "Book: DraftKings",
-            "Moneyline: Liverpool -115 | Chelsea +285",
-            "Favorite implied probability: Liverpool 53.5%",
-            "Line movement: Open -133 → Current -115 (away from Liverpool)",
-            "Spread: Spread unavailable",
-            "Total: Total unavailable"
-          ],
-          "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has eased away from Liverpool, which may signal buyback on the underdog or resistance to the favorite's original number.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -133 → Current -115 (away from Liverpool)",
-          "weather": null,
-          "commence_time": "2026-05-09T11:30:00Z"
-        },
-        {
-          "league": "Premier League",
-          "title": "Premier League: Bournemouth priced as market favorite vs Fulham",
-          "headline": "Premier League: Bournemouth priced as market favorite vs Fulham",
-          "matchup": "Bournemouth at Fulham",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Bournemouth at Fulham",
-            "Book: DraftKings",
-            "Moneyline: Fulham +175 | Bournemouth +140",
-            "Favorite implied probability: Bournemouth 41.7%",
-            "Line movement: Open +130 → Current +140 (toward Bournemouth)",
-            "Spread: Spread unavailable",
-            "Total: Total unavailable"
-          ],
-          "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has moved toward Bournemouth, which suggests the market is showing stronger support than the opener.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open +130 → Current +140 (toward Bournemouth)",
-          "weather": null,
-          "commence_time": "2026-05-09T14:00:00Z"
-        },
-        {
-          "league": "Premier League",
-          "title": "Premier League: Brighton and Hove Albion priced as market favorite vs Wolverhampton Wanderers",
-          "headline": "Premier League: Brighton and Hove Albion priced as market favorite vs Wolverhampton Wanderers",
-          "matchup": "Wolverhampton Wanderers at Brighton and Hove Albion",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Wolverhampton Wanderers at Brighton and Hove Albion",
-            "Book: DraftKings",
-            "Moneyline: Brighton and Hove Albion -360 | Wolverhampton Wanderers +850",
-            "Favorite implied probability: Brighton and Hove Albion 78.3%",
-            "Line movement: Open -375 → Current -360 (away from Brighton and Hove Albion)",
-            "Spread: Spread unavailable",
-            "Total: Total unavailable"
-          ],
-          "why_it_matters": "The market is pricing Brighton and Hove Albion as a heavy favorite. Bettors must pay a premium, so the value question becomes whether the price is already too inflated. The price has eased away from Brighton and Hove Albion, which may signal buyback on the underdog or resistance to the favorite's original number.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -375 → Current -360 (away from Brighton and Hove Albion)",
-          "weather": null,
-          "commence_time": "2026-05-09T14:00:00Z"
-        },
-        {
-          "league": "Premier League",
-          "title": "Premier League: Manchester United priced as market favorite vs Sunderland",
-          "headline": "Premier League: Manchester United priced as market favorite vs Sunderland",
-          "matchup": "Manchester United at Sunderland",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/",
-          "key_data": [
-            "Matchup: Manchester United at Sunderland",
-            "Book: DraftKings",
-            "Moneyline: Sunderland +285 | Manchester United -110",
-            "Favorite implied probability: Manchester United 52.4%",
-            "Line movement: Open -100 → Current -110 (toward Manchester United)",
-            "Spread: Spread unavailable",
-            "Total: Total unavailable"
-          ],
-          "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. The price has moved toward Manchester United, which suggests the market is showing stronger support than the opener.",
-          "what_to_watch": "Watch for lineup/injury updates, weather shifts, and late book movement before treating the current price as stable.",
-          "line_movement": "Line movement: Open -100 → Current -110 (toward Manchester United)",
-          "weather": null,
-          "commence_time": "2026-05-09T14:00:00Z"
-        }
-      ]
+      "headline": "MLB: Los Angeles Dodgers priced as market favorite vs Houston Astros (-184)",
+      "snapshot": "Los Angeles Dodgers priced as market favorite vs Houston Astros (-184). Implied probability is approximately 64.8% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Los Angeles Dodgers at Houston Astros",
+        "Start time: 2:11 PM ET",
+        "Moneyline: Los Angeles Dodgers -184 / Houston Astros +142",
+        "Spread: Los Angeles Dodgers -1.5 (-106) / Houston Astros 1.5 (-125)",
+        "Total: 7.5 (O -138 / U +104)",
+        "Implied probability: 64.8%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
     },
     {
-      "title": "Weather Impact",
-      "cards": [
-        {
-          "title": "Weather angle: Toronto Blue Jays at Tampa Bay Rays",
-          "headline": "Weather angle: Toronto Blue Jays at Tampa Bay Rays",
-          "source": "Global Betting Report",
-          "url": "https://www.oddstrader.com/mlb/weather/",
-          "key_data": [
-            "Weather: 69°F, wind out to right at 18 mph, rain risk 40%",
-            "Check wind direction, temperature, and precipitation before first pitch.",
-            "Outdoor parks can create meaningful total movement."
-          ],
-          "why_it_matters": "Potential boost to carry and extra-base-hit conditions; totals deserve extra attention.",
-          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
-        },
-        {
-          "title": "Weather angle: Milwaukee Brewers at St. Louis Cardinals",
-          "headline": "Weather angle: Milwaukee Brewers at St. Louis Cardinals",
-          "source": "Global Betting Report",
-          "url": "https://www.oddstrader.com/mlb/weather/",
-          "key_data": [
-            "Weather: 75°F, wind in from left at 12 mph, rain risk 30%",
-            "Check wind direction, temperature, and precipitation before first pitch.",
-            "Outdoor parks can create meaningful total movement."
-          ],
-          "why_it_matters": "Wind may suppress carry, which can matter for totals and home-run props.",
-          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
-        },
-        {
-          "title": "Weather angle: Los Angeles Dodgers at Houston Astros",
-          "headline": "Weather angle: Los Angeles Dodgers at Houston Astros",
-          "source": "Global Betting Report",
-          "url": "https://www.oddstrader.com/mlb/weather/",
-          "key_data": [
-            "Weather: 66°F, wind in from center at 15 mph, rain risk 9%",
-            "Check wind direction, temperature, and precipitation before first pitch.",
-            "Outdoor parks can create meaningful total movement."
-          ],
-          "why_it_matters": "Wind may suppress carry, which can matter for totals and home-run props.",
-          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
-        },
-        {
-          "title": "Weather angle: San Diego Padres at San Francisco Giants",
-          "headline": "Weather angle: San Diego Padres at San Francisco Giants",
-          "source": "Global Betting Report",
-          "url": "https://www.oddstrader.com/mlb/weather/",
-          "key_data": [
-            "Weather: 81°F, wind crossfield at 12 mph, rain risk 27%",
-            "Check wind direction, temperature, and precipitation before first pitch.",
-            "Outdoor parks can create meaningful total movement."
-          ],
-          "why_it_matters": "Weather does not appear extreme, but totals should still be checked before first pitch.",
-          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
-        },
-        {
-          "title": "Weather angle: Chicago White Sox at Los Angeles Angels",
-          "headline": "Weather angle: Chicago White Sox at Los Angeles Angels",
-          "source": "Global Betting Report",
-          "url": "https://www.oddstrader.com/mlb/weather/",
-          "key_data": [
-            "Weather: 61°F, wind in from center at 10 mph, rain risk 29%",
-            "Check wind direction, temperature, and precipitation before first pitch.",
-            "Outdoor parks can create meaningful total movement."
-          ],
-          "why_it_matters": "Wind may suppress carry, which can matter for totals and home-run props.",
-          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
-        },
-        {
-          "title": "Weather angle: Atlanta Braves at Seattle Mariners",
-          "headline": "Weather angle: Atlanta Braves at Seattle Mariners",
-          "source": "Global Betting Report",
-          "url": "https://www.oddstrader.com/mlb/weather/",
-          "key_data": [
-            "Weather: 77°F, wind in from center at 8 mph, rain risk 8%",
-            "Check wind direction, temperature, and precipitation before first pitch.",
-            "Outdoor parks can create meaningful total movement."
-          ],
-          "why_it_matters": "Weather does not appear extreme, but totals should still be checked before first pitch.",
-          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
-        }
-      ]
+      "headline": "MLB: San Diego Padres priced as market favorite vs San Francisco Giants (-112)",
+      "snapshot": "San Diego Padres priced as market favorite vs San Francisco Giants (-112). Implied probability is approximately 52.8% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: San Diego Padres at San Francisco Giants",
+        "Start time: 3:46 PM ET",
+        "Moneyline: San Diego Padres -112 / San Francisco Giants -104",
+        "Spread: San Diego Padres -1.5 (+152) / San Francisco Giants 1.5 (-184)",
+        "Total: 8.5 (O -105 / U -115)",
+        "Implied probability: 52.8%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
     },
     {
-      "title": "Futures Watch",
-      "cards": [
-        "College Football Futures: Keep the board visible year-round because bettors track long-range prices months before kickoff.",
-        "NFL Futures: Watch schedule strength, quarterback health, roster movement and divisional prices.",
-        "NBA Futures: Track playoff paths, injury news, rest patterns and championship price movement.",
-        "NHL Futures: Watch goalie health, playoff seeding, travel spots and market adjustment.",
-        "Soccer Futures: Track title races, promotion/relegation pressure, tournament paths and transfer-window movement.",
-        "Tennis/Golf Futures: Draws, form, surface, course fit and injury news can reshape prices quickly."
-      ]
+      "headline": "MLB: Chicago White Sox priced as market favorite vs Los Angeles Angels (-112)",
+      "snapshot": "Chicago White Sox priced as market favorite vs Los Angeles Angels (-112). Implied probability is approximately 52.8% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Chicago White Sox at Los Angeles Angels",
+        "Start time: 4:08 PM ET",
+        "Moneyline: Chicago White Sox -112 / Los Angeles Angels -104",
+        "Spread: Chicago White Sox -1.5 (+150) / Los Angeles Angels 1.5 (-182)",
+        "Total: 9.0 (O -105 / U -115)",
+        "Implied probability: 52.8%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
     },
     {
-      "title": "What To Watch",
-      "cards": [
-        "Toronto Blue Jays at Tampa Bay Rays — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-        "Milwaukee Brewers at St. Louis Cardinals — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-        "Los Angeles Dodgers at Houston Astros — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-        "San Diego Padres at San Francisco Giants — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-        "Chicago White Sox at Los Angeles Angels — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-        "Atlanta Braves at Seattle Mariners — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-        "Athletics at Philadelphia Phillies — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable.",
-        "Baltimore Orioles at Miami Marlins — Watch starting pitching confirmation, bullpen availability, lineup cards, weather, and late total movement before treating the current price as stable."
-      ]
+      "headline": "MLB: Seattle Mariners priced as market favorite vs Atlanta Braves (-132)",
+      "snapshot": "Seattle Mariners priced as market favorite vs Atlanta Braves (-132). Implied probability is approximately 56.9% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Atlanta Braves at Seattle Mariners",
+        "Start time: 4:10 PM ET",
+        "Moneyline: Atlanta Braves +112 / Seattle Mariners -132",
+        "Spread: Atlanta Braves 1.5 (-192) / Seattle Mariners -1.5 (+158)",
+        "Total: 8.0 (O -118 / U -104)",
+        "Implied probability: 56.9%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
     },
     {
-      "title": "Journalist Betting Toolkit",
-      "cards": [
-        "OddsTrader — betting odds, weather, line context, and matchup boards.",
-        "OddsTrader MLB Weather — wind, temperature and precipitation context for baseball totals.",
-        "The Odds API — structured odds feed for moneylines, spreads, and totals.",
-        "Action Network — market movement, betting splits, and injury context.",
-        "Covers — matchup pages, odds screens, and trend context.",
-        "Sportsbook Review — odds comparison and betting market coverage."
-      ]
+      "headline": "MLB: Philadelphia Phillies priced as market favorite vs Athletics (-172)",
+      "snapshot": "Philadelphia Phillies priced as market favorite vs Athletics (-172). Implied probability is approximately 63.2% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Athletics at Philadelphia Phillies",
+        "Start time: 6:41 PM ET",
+        "Moneyline: Athletics +144 / Philadelphia Phillies -172",
+        "Spread: Athletics 1.5 (-140) / Philadelphia Phillies -1.5 (+116)",
+        "Total: 8.5 (O -104 / U -118)",
+        "Implied probability: 63.2%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "MLB: Miami Marlins priced as market favorite vs Baltimore Orioles (-130)",
+      "snapshot": "Miami Marlins priced as market favorite vs Baltimore Orioles (-130). Implied probability is approximately 56.5% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Baltimore Orioles at Miami Marlins",
+        "Start time: 6:41 PM ET",
+        "Moneyline: Baltimore Orioles +110 / Miami Marlins -130",
+        "Spread: Baltimore Orioles 1.5 (-188) / Miami Marlins -1.5 (+155)",
+        "Total: 8.5 (O -118 / U -104)",
+        "Implied probability: 56.5%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "NBA: New York Knicks priced as market favorite vs Philadelphia 76ers (-450)",
+      "snapshot": "New York Knicks priced as market favorite vs Philadelphia 76ers (-450). Implied probability is approximately 81.8% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Philadelphia 76ers at New York Knicks",
+        "Start time: 7:10 PM ET",
+        "Moneyline: Philadelphia 76ers +350 / New York Knicks -450",
+        "Spread: Philadelphia 76ers 10.5 (-105) / New York Knicks -10.5 (-115)",
+        "Total: 214.5 (O -115 / U -105)",
+        "Implied probability: 81.8%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "NBA: San Antonio Spurs priced as market favorite vs Minnesota Timberwolves (-395)",
+      "snapshot": "San Antonio Spurs priced as market favorite vs Minnesota Timberwolves (-395). Implied probability is approximately 79.8% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Minnesota Timberwolves at San Antonio Spurs",
+        "Start time: 9:40 PM ET",
+        "Moneyline: Minnesota Timberwolves +310 / San Antonio Spurs -395",
+        "Spread: Minnesota Timberwolves 10.5 (-118) / San Antonio Spurs -10.5 (-102)",
+        "Total: 216.5 (O -112 / U -108)",
+        "Implied probability: 79.8%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "DraftKings"
+    },
+    {
+      "headline": "NBA: Detroit Pistons priced as market favorite vs Cleveland Cavaliers (-156)",
+      "snapshot": "Detroit Pistons priced as market favorite vs Cleveland Cavaliers (-156). Implied probability is approximately 60.9% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Cleveland Cavaliers at Detroit Pistons",
+        "Start time: 7:10 PM ET",
+        "Moneyline: Cleveland Cavaliers +132 / Detroit Pistons -156",
+        "Spread: Cleveland Cavaliers 3.5 (-114) / Detroit Pistons -3.5 (-106)",
+        "Total: 215.5 (O -110 / U -110)",
+        "Implied probability: 60.9%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "NBA: Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers (-900)",
+      "snapshot": "Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers (-900). Implied probability is approximately 90.0% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Los Angeles Lakers at Oklahoma City Thunder",
+        "Start time: 9:40 PM ET",
+        "Moneyline: Los Angeles Lakers +600 / Oklahoma City Thunder -900",
+        "Spread: Los Angeles Lakers 15.5 (-110) / Oklahoma City Thunder -15.5 (-110)",
+        "Total: 209.5 (O -105 / U -115)",
+        "Implied probability: 90.0%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "DraftKings"
     }
   ],
-  "homepage_cards": [
-    {
-      "league": "MLB",
-      "headline": "MLB: Tampa Bay Rays priced as market favorite vs Toronto Blue Jays",
-      "url": "https://www.oddstrader.com/"
-    },
-    {
-      "league": "MLB",
-      "headline": "MLB: St. Louis Cardinals priced as market favorite vs Milwaukee Brewers",
-      "url": "https://www.oddstrader.com/"
-    },
-    {
-      "league": "MLB",
-      "headline": "MLB: Los Angeles Dodgers priced as market favorite vs Houston Astros",
-      "url": "https://www.oddstrader.com/"
-    },
-    {
-      "league": "MLB",
-      "headline": "MLB: San Diego Padres priced as market favorite vs San Francisco Giants",
-      "url": "https://www.oddstrader.com/"
-    },
-    {
-      "league": "MLB",
-      "headline": "MLB: Chicago White Sox priced as market favorite vs Los Angeles Angels",
-      "url": "https://www.oddstrader.com/"
-    },
-    {
-      "league": "MLB",
-      "headline": "MLB: Seattle Mariners priced as market favorite vs Atlanta Braves",
-      "url": "https://www.oddstrader.com/"
-    },
-    {
-      "league": "MLB",
-      "headline": "MLB: Philadelphia Phillies priced as market favorite vs Athletics",
-      "url": "https://www.oddstrader.com/"
-    },
-    {
-      "league": "MLB",
-      "headline": "MLB: Miami Marlins priced as market favorite vs Baltimore Orioles",
-      "url": "https://www.oddstrader.com/"
-    },
-    {
-      "league": "NBA",
-      "headline": "NBA: New York Knicks priced as market favorite vs Philadelphia 76ers",
-      "url": "https://www.oddstrader.com/"
-    },
-    {
-      "league": "NBA",
-      "headline": "NBA: San Antonio Spurs priced as market favorite vs Minnesota Timberwolves",
-      "url": "https://www.oddstrader.com/"
-    },
-    {
-      "league": "NBA",
-      "headline": "NBA: Detroit Pistons priced as market favorite vs Cleveland Cavaliers",
-      "url": "https://www.oddstrader.com/"
-    },
-    {
-      "league": "NBA",
-      "headline": "NBA: Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers",
-      "url": "https://www.oddstrader.com/"
-    }
-  ],
-  "editorial_standard": {
-    "label": "GSR Network Editorial Standard",
-    "text": "No AI-written gambling advice. AI is used for data, signals, and structure only. Final journalism and betting interpretation remain human-driven."
+  "raw_boards": {
+    "mlb": [
+      {
+        "league": "MLB",
+        "game": "Toronto Blue Jays at Tampa Bay Rays",
+        "time": "1:11 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Tampa Bay Rays priced as market favorite vs Toronto Blue Jays (-650)",
+        "market_summary": "Tampa Bay Rays priced as market favorite vs Toronto Blue Jays (-650)",
+        "moneyline": "Toronto Blue Jays +420 / Tampa Bay Rays -650",
+        "spread": "Toronto Blue Jays 1.5 (+138) / Tampa Bay Rays -1.5 (-186)",
+        "total": "4.5 (O -158 / U +118)",
+        "implied_probability": "86.7%",
+        "context": "Tampa Bay Rays priced as market favorite vs Toronto Blue Jays (-650). Implied probability is approximately 86.7% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "Milwaukee Brewers at St. Louis Cardinals",
+        "time": "1:16 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Milwaukee Brewers priced as market favorite vs St. Louis Cardinals (-1400)",
+        "market_summary": "Milwaukee Brewers priced as market favorite vs St. Louis Cardinals (-1400)",
+        "moneyline": "Milwaukee Brewers -1400 / St. Louis Cardinals +680",
+        "spread": "Milwaukee Brewers -3.5 (-148) / St. Louis Cardinals 3.5 (+112)",
+        "total": "8.5 (O -112 / U -118)",
+        "implied_probability": "93.3%",
+        "context": "Milwaukee Brewers priced as market favorite vs St. Louis Cardinals (-1400). Implied probability is approximately 93.3% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "Los Angeles Dodgers at Houston Astros",
+        "time": "2:11 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Los Angeles Dodgers priced as market favorite vs Houston Astros (-184)",
+        "market_summary": "Los Angeles Dodgers priced as market favorite vs Houston Astros (-184)",
+        "moneyline": "Los Angeles Dodgers -184 / Houston Astros +142",
+        "spread": "Los Angeles Dodgers -1.5 (-106) / Houston Astros 1.5 (-125)",
+        "total": "7.5 (O -138 / U +104)",
+        "implied_probability": "64.8%",
+        "context": "Los Angeles Dodgers priced as market favorite vs Houston Astros (-184). Implied probability is approximately 64.8% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "San Diego Padres at San Francisco Giants",
+        "time": "3:46 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: San Diego Padres priced as market favorite vs San Francisco Giants (-112)",
+        "market_summary": "San Diego Padres priced as market favorite vs San Francisco Giants (-112)",
+        "moneyline": "San Diego Padres -112 / San Francisco Giants -104",
+        "spread": "San Diego Padres -1.5 (+152) / San Francisco Giants 1.5 (-184)",
+        "total": "8.5 (O -105 / U -115)",
+        "implied_probability": "52.8%",
+        "context": "San Diego Padres priced as market favorite vs San Francisco Giants (-112). Implied probability is approximately 52.8% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "Chicago White Sox at Los Angeles Angels",
+        "time": "4:08 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Chicago White Sox priced as market favorite vs Los Angeles Angels (-112)",
+        "market_summary": "Chicago White Sox priced as market favorite vs Los Angeles Angels (-112)",
+        "moneyline": "Chicago White Sox -112 / Los Angeles Angels -104",
+        "spread": "Chicago White Sox -1.5 (+150) / Los Angeles Angels 1.5 (-182)",
+        "total": "9.0 (O -105 / U -115)",
+        "implied_probability": "52.8%",
+        "context": "Chicago White Sox priced as market favorite vs Los Angeles Angels (-112). Implied probability is approximately 52.8% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "Atlanta Braves at Seattle Mariners",
+        "time": "4:10 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Seattle Mariners priced as market favorite vs Atlanta Braves (-132)",
+        "market_summary": "Seattle Mariners priced as market favorite vs Atlanta Braves (-132)",
+        "moneyline": "Atlanta Braves +112 / Seattle Mariners -132",
+        "spread": "Atlanta Braves 1.5 (-192) / Seattle Mariners -1.5 (+158)",
+        "total": "8.0 (O -118 / U -104)",
+        "implied_probability": "56.9%",
+        "context": "Seattle Mariners priced as market favorite vs Atlanta Braves (-132). Implied probability is approximately 56.9% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "Athletics at Philadelphia Phillies",
+        "time": "6:41 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Philadelphia Phillies priced as market favorite vs Athletics (-172)",
+        "market_summary": "Philadelphia Phillies priced as market favorite vs Athletics (-172)",
+        "moneyline": "Athletics +144 / Philadelphia Phillies -172",
+        "spread": "Athletics 1.5 (-140) / Philadelphia Phillies -1.5 (+116)",
+        "total": "8.5 (O -104 / U -118)",
+        "implied_probability": "63.2%",
+        "context": "Philadelphia Phillies priced as market favorite vs Athletics (-172). Implied probability is approximately 63.2% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "Baltimore Orioles at Miami Marlins",
+        "time": "6:41 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Miami Marlins priced as market favorite vs Baltimore Orioles (-130)",
+        "market_summary": "Miami Marlins priced as market favorite vs Baltimore Orioles (-130)",
+        "moneyline": "Baltimore Orioles +110 / Miami Marlins -130",
+        "spread": "Baltimore Orioles 1.5 (-188) / Miami Marlins -1.5 (+155)",
+        "total": "8.5 (O -118 / U -104)",
+        "implied_probability": "56.5%",
+        "context": "Miami Marlins priced as market favorite vs Baltimore Orioles (-130). Implied probability is approximately 56.5% based on the listed moneyline."
+      }
+    ],
+    "nba": [
+      {
+        "league": "NBA",
+        "game": "Philadelphia 76ers at New York Knicks",
+        "time": "7:10 PM ET",
+        "book": "FanDuel",
+        "headline": "NBA: New York Knicks priced as market favorite vs Philadelphia 76ers (-450)",
+        "market_summary": "New York Knicks priced as market favorite vs Philadelphia 76ers (-450)",
+        "moneyline": "Philadelphia 76ers +350 / New York Knicks -450",
+        "spread": "Philadelphia 76ers 10.5 (-105) / New York Knicks -10.5 (-115)",
+        "total": "214.5 (O -115 / U -105)",
+        "implied_probability": "81.8%",
+        "context": "New York Knicks priced as market favorite vs Philadelphia 76ers (-450). Implied probability is approximately 81.8% based on the listed moneyline."
+      },
+      {
+        "league": "NBA",
+        "game": "Minnesota Timberwolves at San Antonio Spurs",
+        "time": "9:40 PM ET",
+        "book": "DraftKings",
+        "headline": "NBA: San Antonio Spurs priced as market favorite vs Minnesota Timberwolves (-395)",
+        "market_summary": "San Antonio Spurs priced as market favorite vs Minnesota Timberwolves (-395)",
+        "moneyline": "Minnesota Timberwolves +310 / San Antonio Spurs -395",
+        "spread": "Minnesota Timberwolves 10.5 (-118) / San Antonio Spurs -10.5 (-102)",
+        "total": "216.5 (O -112 / U -108)",
+        "implied_probability": "79.8%",
+        "context": "San Antonio Spurs priced as market favorite vs Minnesota Timberwolves (-395). Implied probability is approximately 79.8% based on the listed moneyline."
+      },
+      {
+        "league": "NBA",
+        "game": "Cleveland Cavaliers at Detroit Pistons",
+        "time": "7:10 PM ET",
+        "book": "FanDuel",
+        "headline": "NBA: Detroit Pistons priced as market favorite vs Cleveland Cavaliers (-156)",
+        "market_summary": "Detroit Pistons priced as market favorite vs Cleveland Cavaliers (-156)",
+        "moneyline": "Cleveland Cavaliers +132 / Detroit Pistons -156",
+        "spread": "Cleveland Cavaliers 3.5 (-114) / Detroit Pistons -3.5 (-106)",
+        "total": "215.5 (O -110 / U -110)",
+        "implied_probability": "60.9%",
+        "context": "Detroit Pistons priced as market favorite vs Cleveland Cavaliers (-156). Implied probability is approximately 60.9% based on the listed moneyline."
+      },
+      {
+        "league": "NBA",
+        "game": "Los Angeles Lakers at Oklahoma City Thunder",
+        "time": "9:40 PM ET",
+        "book": "DraftKings",
+        "headline": "NBA: Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers (-900)",
+        "market_summary": "Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers (-900)",
+        "moneyline": "Los Angeles Lakers +600 / Oklahoma City Thunder -900",
+        "spread": "Los Angeles Lakers 15.5 (-110) / Oklahoma City Thunder -15.5 (-110)",
+        "total": "209.5 (O -105 / U -115)",
+        "implied_probability": "90.0%",
+        "context": "Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers (-900). Implied probability is approximately 90.0% based on the listed moneyline."
+      }
+    ],
+    "nhl": [
+      {
+        "league": "NHL",
+        "game": "Montr\u00e9al Canadiens at Buffalo Sabres",
+        "time": "7:10 PM ET",
+        "book": "FanDuel",
+        "headline": "NHL: Buffalo Sabres priced as market favorite vs Montr\u00e9al Canadiens (-130)",
+        "market_summary": "Buffalo Sabres priced as market favorite vs Montr\u00e9al Canadiens (-130)",
+        "moneyline": "Montr\u00e9al Canadiens +108 / Buffalo Sabres -130",
+        "spread": "Montr\u00e9al Canadiens 1.5 (-235) / Buffalo Sabres -1.5 (+186)",
+        "total": "5.5 (O -130 / U +106)",
+        "implied_probability": "56.5%",
+        "context": "Buffalo Sabres priced as market favorite vs Montr\u00e9al Canadiens (-130). Implied probability is approximately 56.5% based on the listed moneyline."
+      },
+      {
+        "league": "NHL",
+        "game": "Anaheim Ducks at Vegas Golden Knights",
+        "time": "9:40 PM ET",
+        "book": "BetRivers",
+        "headline": "NHL: Vegas Golden Knights priced as market favorite vs Anaheim Ducks (-165)",
+        "market_summary": "Vegas Golden Knights priced as market favorite vs Anaheim Ducks (-165)",
+        "moneyline": "Anaheim Ducks +135 / Vegas Golden Knights -165",
+        "spread": "Anaheim Ducks 1.5 (-186) / Vegas Golden Knights -1.5 (+145)",
+        "total": "6.5 (O -106 / U -121)",
+        "implied_probability": "62.3%",
+        "context": "Vegas Golden Knights priced as market favorite vs Anaheim Ducks (-165). Implied probability is approximately 62.3% based on the listed moneyline."
+      },
+      {
+        "league": "NHL",
+        "game": "Carolina Hurricanes at Philadelphia Flyers",
+        "time": "8:10 PM ET",
+        "book": "FanDuel",
+        "headline": "NHL: Carolina Hurricanes priced as market favorite vs Philadelphia Flyers (-162)",
+        "market_summary": "Carolina Hurricanes priced as market favorite vs Philadelphia Flyers (-162)",
+        "moneyline": "Carolina Hurricanes -162 / Philadelphia Flyers +134",
+        "spread": "Carolina Hurricanes -1.5 (+152) / Philadelphia Flyers 1.5 (-188)",
+        "total": "5.5 (O +120 / U -148)",
+        "implied_probability": "61.8%",
+        "context": "Carolina Hurricanes priced as market favorite vs Philadelphia Flyers (-162). Implied probability is approximately 61.8% based on the listed moneyline."
+      },
+      {
+        "league": "NHL",
+        "game": "Colorado Avalanche at Minnesota Wild",
+        "time": "9:10 PM ET",
+        "book": "DraftKings",
+        "headline": "NHL: Colorado Avalanche priced as market favorite vs Minnesota Wild (-130)",
+        "market_summary": "Colorado Avalanche priced as market favorite vs Minnesota Wild (-130)",
+        "moneyline": "Colorado Avalanche -130 / Minnesota Wild +110",
+        "spread": "Colorado Avalanche -1.5 (+200) / Minnesota Wild 1.5 (-245)",
+        "total": "6.5 (O +110 / U -130)",
+        "implied_probability": "56.5%",
+        "context": "Colorado Avalanche priced as market favorite vs Minnesota Wild (-130). Implied probability is approximately 56.5% based on the listed moneyline."
+      }
+    ],
+    "nfl": [
+      {
+        "league": "NFL",
+        "game": "No NFL betting board available",
+        "time": "TBD",
+        "book": "N/A",
+        "headline": "NFL: Betting board unavailable",
+        "market_summary": "No NFL betting board available",
+        "moneyline": "N/A",
+        "spread": "N/A",
+        "total": "N/A",
+        "implied_probability": "N/A",
+        "context": "No active NFL odds were available from the current feed."
+      }
+    ],
+    "ncaaf": [
+      {
+        "league": "NCAAF",
+        "game": "NC State Wolfpack at Virginia Cavaliers",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: Virginia Cavaliers priced as market favorite vs NC State Wolfpack (-138)",
+        "market_summary": "Virginia Cavaliers priced as market favorite vs NC State Wolfpack (-138)",
+        "moneyline": "NC State Wolfpack +115 / Virginia Cavaliers -138",
+        "spread": "NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115)",
+        "total": "54.5 (O -105 / U -115)",
+        "implied_probability": "58.0%",
+        "context": "Virginia Cavaliers priced as market favorite vs NC State Wolfpack (-138). Implied probability is approximately 58.0% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "North Carolina Tar Heels at TCU Horned Frogs",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: TCU Horned Frogs priced as market favorite vs North Carolina Tar Heels (-260)",
+        "market_summary": "TCU Horned Frogs priced as market favorite vs North Carolina Tar Heels (-260)",
+        "moneyline": "North Carolina Tar Heels +210 / TCU Horned Frogs -260",
+        "spread": "North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120)",
+        "total": "50.5 (O -105 / U -115)",
+        "implied_probability": "72.2%",
+        "context": "TCU Horned Frogs priced as market favorite vs North Carolina Tar Heels (-260). Implied probability is approximately 72.2% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "Baylor Bears at Auburn Tigers",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: Auburn Tigers priced as market favorite vs Baylor Bears (-315)",
+        "market_summary": "Auburn Tigers priced as market favorite vs Baylor Bears (-315)",
+        "moneyline": "Baylor Bears +250 / Auburn Tigers -315",
+        "spread": "Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110)",
+        "total": "58.5 (O -110 / U -110)",
+        "implied_probability": "75.9%",
+        "context": "Auburn Tigers priced as market favorite vs Baylor Bears (-315). Implied probability is approximately 75.9% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "UCLA Bruins at California Golden Bears",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: California Golden Bears priced as market favorite vs UCLA Bruins (-122)",
+        "market_summary": "California Golden Bears priced as market favorite vs UCLA Bruins (-122)",
+        "moneyline": "UCLA Bruins +102 / California Golden Bears -122",
+        "spread": "UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110)",
+        "total": "53.5 (O -110 / U -110)",
+        "implied_probability": "55.0%",
+        "context": "California Golden Bears priced as market favorite vs UCLA Bruins (-122). Implied probability is approximately 55.0% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "Clemson Tigers at LSU Tigers",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: LSU Tigers priced as market favorite vs Clemson Tigers (-490)",
+        "market_summary": "LSU Tigers priced as market favorite vs Clemson Tigers (-490)",
+        "moneyline": "Clemson Tigers +365 / LSU Tigers -490",
+        "spread": "Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110)",
+        "total": "50.5 (O -110 / U -110)",
+        "implied_probability": "83.1%",
+        "context": "LSU Tigers priced as market favorite vs Clemson Tigers (-490). Implied probability is approximately 83.1% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "Louisville Cardinals at Ole Miss Rebels",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: Ole Miss Rebels priced as market favorite vs Louisville Cardinals (-285)",
+        "market_summary": "Ole Miss Rebels priced as market favorite vs Louisville Cardinals (-285)",
+        "moneyline": "Louisville Cardinals +230 / Ole Miss Rebels -285",
+        "spread": "Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102)",
+        "total": "52.5 (O -115 / U -105)",
+        "implied_probability": "74.0%",
+        "context": "Ole Miss Rebels priced as market favorite vs Louisville Cardinals (-285). Implied probability is approximately 74.0% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "Notre Dame Fighting Irish at Wisconsin Badgers",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: Notre Dame Fighting Irish priced as market favorite vs Wisconsin Badgers (-1800)",
+        "market_summary": "Notre Dame Fighting Irish priced as market favorite vs Wisconsin Badgers (-1800)",
+        "moneyline": "Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920",
+        "spread": "Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110)",
+        "total": "46.5 (O -115 / U -105)",
+        "implied_probability": "94.7%",
+        "context": "Notre Dame Fighting Irish priced as market favorite vs Wisconsin Badgers (-1800). Implied probability is approximately 94.7% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "Louisville Cardinals at Ole Miss Rebels",
+        "time": "7:30 PM ET",
+        "book": "DraftKings",
+        "headline": "NCAAF: Ole Miss Rebels priced as market favorite vs Louisville Cardinals (-270)",
+        "market_summary": "Ole Miss Rebels priced as market favorite vs Louisville Cardinals (-270)",
+        "moneyline": "Louisville Cardinals +220 / Ole Miss Rebels -270",
+        "spread": "Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110)",
+        "total": "53.5 (O -115 / U -105)",
+        "implied_probability": "73.0%",
+        "context": "Ole Miss Rebels priced as market favorite vs Louisville Cardinals (-270). Implied probability is approximately 73.0% based on the listed moneyline."
+      }
+    ],
+    "soccer": [
+      {
+        "league": "Soccer",
+        "game": "Inter Miami CF at Toronto FC",
+        "time": "1:00 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: Inter Miami CF priced as market favorite vs Toronto FC (+100)",
+        "market_summary": "Inter Miami CF priced as market favorite vs Toronto FC (+100)",
+        "moneyline": "Inter Miami CF +100 / Toronto FC +225",
+        "spread": "Spread N/A",
+        "total": "3.5 (O +116 / U -152)",
+        "implied_probability": "50.0%",
+        "context": "Inter Miami CF priced as market favorite vs Toronto FC (+100). Implied probability is approximately 50.0% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "New York Red Bulls at Chicago Fire",
+        "time": "2:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: Chicago Fire priced as market favorite vs New York Red Bulls (-186)",
+        "market_summary": "Chicago Fire priced as market favorite vs New York Red Bulls (-186)",
+        "moneyline": "New York Red Bulls +400 / Chicago Fire -186",
+        "spread": "Spread N/A",
+        "total": "3.5 (O +100 / U -130)",
+        "implied_probability": "65.0%",
+        "context": "Chicago Fire priced as market favorite vs New York Red Bulls (-186). Implied probability is approximately 65.0% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "Orlando City SC at CF Montreal",
+        "time": "4:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: CF Montreal priced as market favorite vs Orlando City SC (-120)",
+        "market_summary": "CF Montreal priced as market favorite vs Orlando City SC (-120)",
+        "moneyline": "Orlando City SC +270 / CF Montreal -120",
+        "spread": "Spread N/A",
+        "total": "3.5 (O +120 / U -157)",
+        "implied_probability": "54.5%",
+        "context": "CF Montreal priced as market favorite vs Orlando City SC (-120). Implied probability is approximately 54.5% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "LA Galaxy at Atlanta United FC",
+        "time": "7:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: Atlanta United FC priced as market favorite vs LA Galaxy (+143)",
+        "market_summary": "Atlanta United FC priced as market favorite vs LA Galaxy (+143)",
+        "moneyline": "LA Galaxy +170 / Atlanta United FC +143",
+        "spread": "Spread N/A",
+        "total": "2.5 (O -150 / U +115)",
+        "implied_probability": "41.2%",
+        "context": "Atlanta United FC priced as market favorite vs LA Galaxy (+143). Implied probability is approximately 41.2% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "FC Cincinnati at Charlotte FC",
+        "time": "7:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: Charlotte FC priced as market favorite vs FC Cincinnati (+110)",
+        "market_summary": "Charlotte FC priced as market favorite vs FC Cincinnati (+110)",
+        "moneyline": "FC Cincinnati +215 / Charlotte FC +110",
+        "spread": "Spread N/A",
+        "total": "2.5 (O -167 / U +130)",
+        "implied_probability": "47.6%",
+        "context": "Charlotte FC priced as market favorite vs FC Cincinnati (+110). Implied probability is approximately 47.6% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "Philadelphia Union at New England Revolution",
+        "time": "7:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: New England Revolution priced as market favorite vs Philadelphia Union (+155)",
+        "market_summary": "New England Revolution priced as market favorite vs Philadelphia Union (+155)",
+        "moneyline": "Philadelphia Union +160 / New England Revolution +155",
+        "spread": "Spread N/A",
+        "total": "2.5 (O -113 / U -114)",
+        "implied_probability": "39.2%",
+        "context": "New England Revolution priced as market favorite vs Philadelphia Union (+155). Implied probability is approximately 39.2% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "Real Salt Lake at FC Dallas",
+        "time": "8:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: FC Dallas priced as market favorite vs Real Salt Lake (+132)",
+        "market_summary": "FC Dallas priced as market favorite vs Real Salt Lake (+132)",
+        "moneyline": "Real Salt Lake +175 / FC Dallas +132",
+        "spread": "Spread N/A",
+        "total": "3.5 (O +132 / U -175)",
+        "implied_probability": "43.1%",
+        "context": "FC Dallas priced as market favorite vs Real Salt Lake (+132). Implied probability is approximately 43.1% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "D.C. United at Nashville SC",
+        "time": "9:15 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: Nashville SC priced as market favorite vs D.C. United (-195)",
+        "market_summary": "Nashville SC priced as market favorite vs D.C. United (-195)",
+        "moneyline": "D.C. United +525 / Nashville SC -195",
+        "spread": "Spread N/A",
+        "total": "2.5 (O -115 / U -113)",
+        "implied_probability": "66.1%",
+        "context": "Nashville SC priced as market favorite vs D.C. United (-195). Implied probability is approximately 66.1% based on the listed moneyline."
+      }
+    ]
   }
 }
