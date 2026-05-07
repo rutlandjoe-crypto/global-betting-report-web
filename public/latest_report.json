@@ -3,19 +3,19 @@
   "site_name": "Global Betting Report",
   "vertical": "Betting",
   "title": "Global Betting Report",
-  "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day’s market outlook.",
+  "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-07 02:59:49 PM ET",
-  "generated_at": "2026-05-07 02:59:49 PM ET",
-  "generated_utc": "2026-05-07T18:59:49.344523+00:00",
+  "updated_at": "2026-05-07 05:25:26 PM ET",
+  "generated_at": "2026-05-07 05:25:26 PM ET",
+  "generated_utc": "2026-05-07T21:25:26.155991+00:00",
   "source_mode": "odds report text distribution",
   "sections": [
     {
       "title": "Betting Odds",
-      "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day’s market outlook.",
-      "snapshot": "BETTING ODDS REPORT | 2026-04-21\n\nAcross the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day’s market outlook.\n\nGLOBAL SNAPSHOT\nLimited betting data was available during this report window.\n\nNBA\nCould not load odds: HTTP 401: {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#out-of-usage-credits\"}\n\nMLB\nCould not load odds: HTTP 401: {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#out-of-usage-credits\"}\n\nNHL\nCould not load odds: HTTP 401: {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#out-of-usage-credits\"}\n\nNFL\nCould not load odds: HTTP 401: {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#out-of-usage-credits\"}\n\nBETTING MARKET NOTE\nThis report reflects publicly available odds data at the time of generation. Lines may move and can vary across sportsbooks.\n\nThis report is an automated summary intended to support, not replace, human sports journalism.\nGenerated: 2026-04-21 08:25:22 PM ET",
+      "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
+      "snapshot": "BETTING ODDS REPORT | 2026-05-07\n\nAcross the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.\n\nGLOBAL SNAPSHOT\nLimited betting data was available during this report window.\n\nNBA\nCould not load odds: Missing API key.\n\nMLB\nCould not load odds: Missing API key.\n\nNHL\nCould not load odds: Missing API key.\n\nNFL\nCould not load odds: Missing API key.\n\nBETTING MARKET NOTE\nThis report reflects publicly available odds data at the time of generation. Lines may move and can vary across sportsbooks.\n\nThis report is an automated summary intended to support, not replace, human sports journalism.\n\nGenerated: 2026-05-07 05:25:26 PM ET",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-07 02:59:49 PM ET"
+      "updated_at": "2026-05-07 05:25:26 PM ET"
     }
   ]
 }
