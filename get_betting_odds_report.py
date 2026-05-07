@@ -37,7 +37,7 @@ REGIONS = "us"
 ODDS_FORMAT = "american"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (GlobalSportsReport Betting Desk)",
+    "User-Agent": "Mozilla/5.0 (GlobalBettingReport Betting Desk)",
     "Accept": "application/json",
 }
 
@@ -45,27 +45,47 @@ DISCLAIMER = (
     "This report is an automated summary intended to support, not replace, human sports journalism."
 )
 
+FALLBACK_MARKET_WATCH = {
+    "NBA": [
+        "Monitor injury reports, rest situations, rotation news, and late scratches before tipoff.",
+        "Watch totals closely when pace, back-to-back scheduling, or defensive absences affect expected scoring.",
+        "Track spread movement when star-player availability changes close to game time.",
+    ],
+    "MLB": [
+        "Monitor confirmed starting pitchers, bullpen usage, lineup cards, weather, and park factors.",
+        "Watch totals closely when wind, temperature, or pitching changes affect run-scoring conditions.",
+        "Track moneyline movement after lineup releases and late pitching updates.",
+    ],
+    "NHL": [
+        "Monitor confirmed starting goalies, back-to-back spots, special-teams form, and late injury news.",
+        "Watch totals closely when goalie changes or defensive absences shift expected scoring.",
+        "Track puck-line and moneyline movement as goalie confirmations arrive.",
+    ],
+    "NFL": [
+        "Monitor injury reports, quarterback status, weather, offensive-line availability, and practice trends.",
+        "Watch totals closely when wind, rain, snow, or tempo expectations affect scoring conditions.",
+        "Track spread movement around major injury updates and market reaction to public betting pressure.",
+    ],
+}
+
+
 # =========================================================
 # TEXT CLEANING
 # =========================================================
-def fix_spacing(text: str) -> str:
-    if not text:
-        return ""
+def fix_team_spacing(text: str) -> str:
+    fixes = {
+        "76 ers": "76ers",
+        "49 ers": "49ers",
+        " Trail Blazers": " Trail Blazers",
+    }
 
-    text = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", text)
-    text = re.sub(r"(?<=[A-Za-z])(?=[0-9])", " ", text)
-    text = re.sub(r"(?<=[0-9])(?=[A-Za-z])", " ", text)
-    text = re.sub(r"\s+", " ", text)
+    for old, new in fixes.items():
+        text = text.replace(old, new)
 
-    return text.strip()
+    return text
 
 
-def clean_text(value, fallback="N/A") -> str:
-    if value is None:
-        return fallback
-
-    text = str(value)
-
+def fix_encoding(text: str) -> str:
     replacements = {
         "\u2018": "'",
         "\u2019": "'",
@@ -77,15 +97,61 @@ def clean_text(value, fallback="N/A") -> str:
         "â€™": "'",
         "â€œ": '"',
         "â€\x9d": '"',
+        "â€": '"',
         "â€”": "—",
         "â€“": "–",
+        "Ã©": "é",
+        "Ã¨": "è",
+        "Ã¡": "á",
+        "Ã­": "í",
+        "Ã³": "ó",
+        "Ãº": "ú",
+        "Ã±": "ñ",
+        "Ã¼": "ü",
+        "MontrÃ©al": "Montréal",
     }
 
     for old, new in replacements.items():
         text = text.replace(old, new)
 
+    return text
+
+
+def fix_spacing(text: str) -> str:
+    if not text:
+        return ""
+
+    text = fix_encoding(text)
+
+    protected_terms = {
+        "76ers": "__TEAM_76ERS__",
+        "49ers": "__TEAM_49ERS__",
+    }
+
+    for term, marker in protected_terms.items():
+        text = text.replace(term, marker)
+
+    text = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", text)
+    text = re.sub(r"(?<=[A-Za-z])(?=[0-9])", " ", text)
+    text = re.sub(r"(?<=[0-9])(?=[A-Za-z])", " ", text)
     text = re.sub(r"\s+", " ", text)
-    text = text.strip()
+
+    for term, marker in protected_terms.items():
+        text = text.replace(marker, term)
+
+    text = fix_team_spacing(text)
+    return text.strip()
+
+
+def clean_text(value, fallback="N/A") -> str:
+    if value is None:
+        return fallback
+
+    text = str(value)
+    text = fix_encoding(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    text = fix_team_spacing(text)
+
     return text if text else fallback
 
 
@@ -159,15 +225,20 @@ def format_point(val) -> str:
 def build_lede() -> str:
     return (
         "Across the betting landscape, attention turns to the board, where moneylines, "
-        "spreads, and totals help frame the day’s market outlook."
+        "spreads, and totals help frame the day's market outlook."
     )
 
 
-def build_snapshot(event_count: int) -> str:
+def build_snapshot(event_count: int, fallback_count: int) -> str:
     if event_count >= 15:
         return "A full betting board is in place across multiple leagues, offering broad market coverage."
     if event_count >= 1:
-        return "A focused betting board highlights key matchups across the day’s schedule."
+        return "A focused betting board highlights key matchups across the day's schedule."
+    if fallback_count >= 1:
+        return (
+            "Live odds were limited during this report window, so the desk is emphasizing "
+            "market-watch signals bettors and journalists should monitor."
+        )
     return "Limited betting data was available during this report window."
 
 
@@ -176,6 +247,59 @@ def build_market_note() -> str:
         "This report reflects publicly available odds data at the time of generation. "
         "Lines may move and can vary across sportsbooks."
     )
+
+
+def is_quota_error(error_text: str) -> bool:
+    lowered = error_text.lower()
+    return (
+        "out_of_usage_credits" in lowered
+        or "usage quota" in lowered
+        or "quota has been reached" in lowered
+        or "out of usage credits" in lowered
+    )
+
+
+def is_auth_error(error_text: str) -> bool:
+    lowered = error_text.lower()
+    return "401" in lowered or "unauthorized" in lowered or "invalid api key" in lowered
+
+
+def fallback_reason(error_text: str) -> str:
+    if not error_text:
+        return "Live odds feed unavailable during this report window."
+    if is_quota_error(error_text):
+        return "Live odds feed unavailable because the Odds API usage quota has been reached."
+    if is_auth_error(error_text):
+        return "Live odds feed unavailable because the Odds API request was not authorized."
+    if "missing api key" in error_text.lower():
+        return "Live odds feed unavailable because no Odds API key is configured."
+    return f"Live odds feed unavailable: {clean_output_line(error_text)}"
+
+
+def build_fallback_section(label: str, error_text: str = "") -> str:
+    lines = [
+        clean_output_line(label),
+        clean_output_line(fallback_reason(error_text)),
+        "",
+        clean_output_line("MARKET WATCH"),
+    ]
+
+    for item in FALLBACK_MARKET_WATCH.get(label, []):
+        lines.append(clean_output_line(f"- {item}"))
+
+    lines.extend(
+        [
+            "",
+            clean_output_line("BETTOR CONTEXT"),
+            clean_output_line(
+                "When live prices are unavailable, avoid treating stale lines as current. "
+                "Use this window to monitor injuries, schedules, lineup confirmations, weather, "
+                "market movement, and sportsbook-by-sportsbook differences before making decisions."
+            ),
+        ]
+    )
+
+    return "\n".join(lines).strip()
 
 
 # =========================================================
@@ -363,44 +487,50 @@ def no_board_message(label: str) -> str:
     return messages.get(label, "No betting board is currently available.")
 
 
+def build_no_board_section(label: str) -> str:
+    lines = [
+        clean_output_line(label),
+        clean_output_line(no_board_message(label)),
+        "",
+        clean_output_line("MARKET WATCH"),
+    ]
+
+    for item in FALLBACK_MARKET_WATCH.get(label, []):
+        lines.append(clean_output_line(f"- {item}"))
+
+    return "\n".join(lines).strip()
+
+
 def build_sport_section(sport: dict):
     label = sport.get("label", "UNKNOWN")
     key = sport.get("key", "")
-    lines = [clean_output_line(label)]
 
     try:
         result = fetch_odds(key)
     except Exception as exc:
-        lines.append(clean_output_line(f"Could not load odds: {exc}"))
-        return "\n".join(lines), 0
+        return build_fallback_section(label, str(exc)), 0, True
 
     if result.get("error"):
         error_text = clean_output_line(result["error"])
 
         if "404" in error_text or "no data" in error_text.lower():
-            lines.append(clean_output_line(no_board_message(label)))
-        elif "Missing API key" in error_text:
-            lines.append(clean_output_line("Could not load odds: Missing API key."))
-        else:
-            lines.append(clean_output_line(f"Could not load odds: {error_text}"))
+            return build_no_board_section(label), 0, True
 
-        return "\n".join(lines), 0
+        return build_fallback_section(label, error_text), 0, True
 
     events = result.get("events", [])
     count = len(events)
 
     if not events:
-        lines.append(clean_output_line(no_board_message(label)))
-        return "\n".join(lines), 0
+        return build_no_board_section(label), 0, True
 
-    lines.append(clean_output_line("TOP BOARD"))
-    lines.append("")
+    lines = [clean_output_line(label), clean_output_line("TOP BOARD"), ""]
 
     for event in events[:5]:
         lines.extend(summarize_event(event))
         lines.append("")
 
-    return "\n".join(lines).strip(), count
+    return "\n".join(lines).strip(), count, False
 
 
 # =========================================================
@@ -436,12 +566,15 @@ def save_report(report: str) -> None:
 # =========================================================
 def build_report() -> str:
     total_events = 0
+    fallback_sections = 0
     all_sections: list[str] = []
 
     for sport in SPORTS:
-        section_text, count = build_sport_section(sport)
+        section_text, count, used_fallback = build_sport_section(sport)
         all_sections.append(section_text)
         total_events += count
+        if used_fallback:
+            fallback_sections += 1
 
     report_lines = [
         f"BETTING ODDS REPORT | {report_date_string()}",
@@ -449,12 +582,15 @@ def build_report() -> str:
         build_lede(),
         "",
         "GLOBAL SNAPSHOT",
-        build_snapshot(total_events),
+        build_snapshot(total_events, fallback_sections),
         "",
         "\n\n".join(all_sections),
         "",
         "BETTING MARKET NOTE",
         build_market_note(),
+        "",
+        "EDITORIAL SAFETY NOTE",
+        "If live odds are unavailable, Global Betting Report still publishes market-watch guidance so readers can monitor the betting board without mistaking stale odds for current prices.",
         "",
         DISCLAIMER,
         "",
