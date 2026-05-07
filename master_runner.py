@@ -23,22 +23,12 @@ PYTHON_EXE = sys.executable
 
 # script_name, timeout_seconds, required_for_pipeline
 SCRIPTS = [
-    ("get_mlb_report.py", 240, True),
-    ("get_mlb_advanced_report.py", 300, False),
-    ("get_nba_report.py", 240, True),
-    ("get_nba_advanced_report.py", 300, False),
-    ("get_nhl_report.py", 240, True),
-    ("get_nfl_report.py", 240, False),
-    ("get_nfl_advanced_report.py", 300, False),
-    ("get_nfl_draft_signals.py", 300, False),
-    ("get_soccer_report.py", 300, False),
-    ("betting_odds.py", 240, False),
-    ("global_sports_report.py", 180, True),
-    ("build_distribution.py", 300, True),
+    ("get_betting_odds_report.py", 300, True),
+    ("build_betting_distribution.py", 180, True),
 ]
 
-ALWAYS_RUN = {"global_sports_report.py", "build_distribution.py"}
-CRITICAL_SCRIPTS = {"global_sports_report.py", "build_distribution.py"}
+ALWAYS_RUN = {"get_betting_odds_report.py", "build_betting_distribution.py"}
+CRITICAL_SCRIPTS = {"get_betting_odds_report.py", "build_betting_distribution.py"}
 NON_CRITICAL_FAILURES = {
     "get_mlb_advanced_report.py",
     "get_nba_advanced_report.py",
@@ -48,6 +38,8 @@ NON_CRITICAL_FAILURES = {
     "get_soccer_report.py",
     "betting_odds.py",
 }
+
+REQUIRED_OUTPUTS = [BASE_DIR / "public" / "latest_report.json"]
 
 
 def et_now() -> datetime:
@@ -347,6 +339,7 @@ def main() -> int:
     upstream_report_issue = False
 
     try:
+        log("BETTING BLOCK START")
         for script_name, timeout_seconds, required_for_pipeline in SCRIPTS:
             script_path = BASE_DIR / script_name
 
@@ -399,7 +392,15 @@ def main() -> int:
                     if required_for_pipeline:
                         required_failures.append(script_name)
 
-        has_critical_failure = any(name in failed_scripts for name in CRITICAL_SCRIPTS)
+        missing_outputs = [str(path) for path in REQUIRED_OUTPUTS if not path.exists()]
+        if missing_outputs:
+            for path in missing_outputs:
+                log(f"FAILED: required Betting output missing: {path}")
+            failed_scripts.append("betting latest_report.json verification")
+
+        log("BETTING BLOCK FINISH")
+
+        has_critical_failure = any(name in failed_scripts for name in CRITICAL_SCRIPTS) or bool(missing_outputs)
 
         meaningful_failed_scripts = [
             name for name in failed_scripts if name not in NON_CRITICAL_FAILURES

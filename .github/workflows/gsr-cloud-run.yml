@@ -3,12 +3,7 @@ name: GSR Morning Run
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 5 * * *"
-      timezone: "America/New_York"
-    - cron: "0 11 * * *"
-      timezone: "America/New_York"
-    - cron: "0 17 * * *"
-      timezone: "America/New_York"
+    - cron: "0 * * * *"
 
 permissions:
   contents: write
@@ -59,11 +54,13 @@ jobs:
 
       - name: Run master runner
         run: |
+          echo "BETTING BLOCK START"
           python master_runner.py
+          echo "BETTING BLOCK FINISH"
 
       - name: Stage website files
         run: |
-          git add public/latest_report.json public/latest_report.txt public/global_sports_report.txt || true
+          git add public/latest_report.json public/latest_report.txt || true
 
       - name: Commit updated site data if changed
         run: |
