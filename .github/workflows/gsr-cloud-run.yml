@@ -46,13 +46,20 @@ jobs:
             pip install requests python-dotenv tweepy
           fi
 
-      - name: Show working directory
+      - name: Confirm runtime configuration
         run: |
           pwd
           ls -la
-          find . -maxdepth 2 -type f | sort
+          if [ -n "$ODDS_API_KEY" ]; then
+            echo "ODDS_API_KEY is available to this workflow."
+          else
+            echo "ODDS_API_KEY is NOT available to this workflow."
+            exit 1
+          fi
 
       - name: Run master runner
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: |
           echo "BETTING BLOCK START"
           python master_runner.py
@@ -60,21 +67,22 @@ jobs:
 
       - name: Stage website files
         run: |
-          git add public/latest_report.json public/latest_report.txt || true
+          git add public/latest_report.json public/latest_report.txt latest_report.json latest_report.txt betting_odds_report.json betting_odds_report.txt || true
 
       - name: Commit updated site data if changed
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com}"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           if git diff --cached --quiet; then
             echo "No site-data changes to commit."
           else
-            git commit -m "Auto update GSR site data"
+            git commit -m "Auto update GSR betting site data"
           fi
 
       - name: Push changes
         run: |
+          git pull --rebase origin master || true
           if git diff --cached --quiet && git diff --quiet; then
             echo "Nothing to push."
           else
