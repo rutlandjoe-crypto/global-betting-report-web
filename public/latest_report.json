@@ -3,11 +3,11 @@
   "site_name": "Global Betting Report",
   "vertical": "Betting",
   "title": "Global Betting Report",
-  "headline": "NBA: Oklahoma City Thunder priced as heavy favorite vs Los Angeles Lakers (-360)",
+  "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-08 04:42:59 PM ET",
-  "generated_at": "2026-05-08 04:42:59 PM ET",
-  "generated_utc": "2026-05-08T20:42:59.757492+00:00",
+  "updated_at": "2026-05-08 04:54:17 PM ET",
+  "generated_at": "2026-05-08 04:54:17 PM ET",
+  "generated_utc": "2026-05-08T20:54:18.011925+00:00",
   "source_mode": "clean multi-card odds report distribution",
   "homepage_cards": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "league": "NHL Betting Board",
-      "headline": "Montréal Canadiens at Buffalo Sabres - 7:00 PM ET",
+      "headline": "Montréal Canadiens at Buffalo Sabres - 7:10 PM ET",
       "url": "https://www.globalbettingreport.com"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "league": "NHL Betting Board",
-      "headline": "Vegas Golden Knights at Anaheim Ducks - 9:30 PM ET",
+      "headline": "Vegas Golden Knights at Anaheim Ducks - 9:50 PM ET",
       "url": "https://www.globalbettingreport.com"
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "league": "NHL Betting Board",
-      "headline": "Montréal Canadiens at Buffalo Sabres - 7:00 PM ET",
+      "headline": "Montréal Canadiens at Buffalo Sabres - 7:10 PM ET",
       "url": "https://www.globalbettingreport.com"
     },
     {
@@ -84,7 +84,7 @@
     },
     {
       "league": "NHL Betting Board",
-      "headline": "Vegas Golden Knights at Anaheim Ducks - 9:30 PM ET",
+      "headline": "Vegas Golden Knights at Anaheim Ducks - 9:50 PM ET",
       "url": "https://www.globalbettingreport.com"
     },
     {
@@ -96,7 +96,7 @@
   "editor_signals": [
     "New York Knicks at Philadelphia 76ers - 7:10 PM ET",
     "Houston Astros at Cincinnati Reds - 6:11 PM ET",
-    "Montréal Canadiens at Buffalo Sabres - 7:00 PM ET",
+    "Montréal Canadiens at Buffalo Sabres - 7:10 PM ET",
     "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
     "San Antonio Spurs at Minnesota Timberwolves - 9:40 PM ET"
   ],
@@ -106,26 +106,26 @@
       "league": "NBA Betting Board",
       "headline": "New York Knicks at Philadelphia 76ers - 7:10 PM ET",
       "game": "New York Knicks at Philadelphia 76ers - 7:10 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: New York Knicks +100 / Philadelphia 76ers -118 | Spread: New York Knicks +1.5 (-108) / Philadelphia 76ers -1.5 (-112) | Total: +213.5 (Over -114 / Under -106)",
+      "market": "Bookmaker: FanDuel | Moneyline: New York Knicks +114 / Philadelphia 76ers -134 | Spread: New York Knicks 2.5 (-112) / Philadelphia 76ers -2.5 (-108) | Total: 213.5 (Over -110 / Under -110)",
       "bookmaker": "FanDuel",
-      "moneyline": "New York Knicks +100 / Philadelphia 76ers -118",
-      "spread": "New York Knicks +1.5 (-108) / Philadelphia 76ers -1.5 (-112)",
-      "total": "+213.5 (Over -114 / Under -106)",
-      "implied_probability": "Philadelphia 76ers carries an implied win probability of approximately 54.1% based on the listed moneyline.",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: New York Knicks +100 / Philadelphia 76ers -118 | Spread: New York Knicks +1.5 (-108) / Philadelphia 76ers -1.5 (-112) | Total: +213.5 (Over -114 / Under -106)",
+      "moneyline": "New York Knicks +114 / Philadelphia 76ers -134",
+      "spread": "New York Knicks 2.5 (-112) / Philadelphia 76ers -2.5 (-108)",
+      "total": "213.5 (Over -110 / Under -110)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: New York Knicks +114 / Philadelphia 76ers -134 | Spread: New York Knicks 2.5 (-112) / Philadelphia 76ers -2.5 (-108) | Total: 213.5 (Over -110 / Under -110)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: New York Knicks +100 / Philadelphia 76ers -118",
-        "Spread: New York Knicks +1.5 (-108) / Philadelphia 76ers -1.5 (-112)",
-        "Total: +213.5 (Over -114 / Under -106)"
+        "Moneyline: New York Knicks +114 / Philadelphia 76ers -134",
+        "Spread: New York Knicks 2.5 (-112) / Philadelphia 76ers -2.5 (-108)",
+        "Total: 213.5 (Over -110 / Under -110)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Philadelphia 76ers before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
+        "A short favorite price suggests a tighter market than the matchup name may imply."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Philadelphia 76ers before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
+        "A short favorite price suggests a tighter market than the matchup name may imply."
       ],
       "what_to_watch": [
         "Official injury report updates.",
@@ -133,33 +133,33 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Houston Astros at Cincinnati Reds - 6:11 PM ET",
       "game": "Houston Astros at Cincinnati Reds - 6:11 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Houston Astros +110 / Cincinnati Reds -130 | Spread: Houston Astros +1.5 (-184) / Cincinnati Reds -1.5 (+152) | Total: +9.5 (Over -105 / Under -115)",
+      "market": "Bookmaker: FanDuel | Moneyline: Houston Astros +110 / Cincinnati Reds -130 | Spread: Houston Astros 1.5 (-188) / Cincinnati Reds -1.5 (+155) | Total: 9 (Over -108 / Under -112)",
       "bookmaker": "FanDuel",
       "moneyline": "Houston Astros +110 / Cincinnati Reds -130",
-      "spread": "Houston Astros +1.5 (-184) / Cincinnati Reds -1.5 (+152)",
-      "total": "+9.5 (Over -105 / Under -115)",
-      "implied_probability": "Cincinnati Reds carries an implied win probability of approximately 56.5% based on the listed moneyline.",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Houston Astros +110 / Cincinnati Reds -130 | Spread: Houston Astros +1.5 (-184) / Cincinnati Reds -1.5 (+152) | Total: +9.5 (Over -105 / Under -115)",
+      "spread": "Houston Astros 1.5 (-188) / Cincinnati Reds -1.5 (+155)",
+      "total": "9 (Over -108 / Under -112)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Houston Astros +110 / Cincinnati Reds -130 | Spread: Houston Astros 1.5 (-188) / Cincinnati Reds -1.5 (+155) | Total: 9 (Over -108 / Under -112)",
       "key_data": [
         "Bookmaker: FanDuel",
         "Moneyline: Houston Astros +110 / Cincinnati Reds -130",
-        "Spread: Houston Astros +1.5 (-184) / Cincinnati Reds -1.5 (+152)",
-        "Total: +9.5 (Over -105 / Under -115)"
+        "Spread: Houston Astros 1.5 (-188) / Cincinnati Reds -1.5 (+155)",
+        "Total: 9 (Over -108 / Under -112)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Cincinnati Reds before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Cincinnati Reds before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
       ],
       "what_to_watch": [
         "Starting pitcher confirmations.",
@@ -167,33 +167,33 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "NHL Betting Board",
       "league": "NHL Betting Board",
-      "headline": "Montréal Canadiens at Buffalo Sabres - 7:00 PM ET",
-      "game": "Montréal Canadiens at Buffalo Sabres - 7:00 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Montréal Canadiens +112 / Buffalo Sabres -134 | Spread: Montréal Canadiens +1.5 (-220) / Buffalo Sabres -1.5 (+176) | Total: +5.5 (Over -124 / Under +102)",
+      "headline": "Montréal Canadiens at Buffalo Sabres - 7:10 PM ET",
+      "game": "Montréal Canadiens at Buffalo Sabres - 7:10 PM ET",
+      "market": "Bookmaker: FanDuel | Moneyline: Montréal Canadiens +110 / Buffalo Sabres -132 | Spread: Montréal Canadiens 1.5 (-215) / Buffalo Sabres -1.5 (+172) | Total: 5.5 (Over -128 / Under +104)",
       "bookmaker": "FanDuel",
-      "moneyline": "Montréal Canadiens +112 / Buffalo Sabres -134",
-      "spread": "Montréal Canadiens +1.5 (-220) / Buffalo Sabres -1.5 (+176)",
-      "total": "+5.5 (Over -124 / Under +102)",
-      "implied_probability": "Buffalo Sabres carries an implied win probability of approximately 57.3% based on the listed moneyline.",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Montréal Canadiens +112 / Buffalo Sabres -134 | Spread: Montréal Canadiens +1.5 (-220) / Buffalo Sabres -1.5 (+176) | Total: +5.5 (Over -124 / Under +102)",
+      "moneyline": "Montréal Canadiens +110 / Buffalo Sabres -132",
+      "spread": "Montréal Canadiens 1.5 (-215) / Buffalo Sabres -1.5 (+172)",
+      "total": "5.5 (Over -128 / Under +104)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Montréal Canadiens +110 / Buffalo Sabres -132 | Spread: Montréal Canadiens 1.5 (-215) / Buffalo Sabres -1.5 (+172) | Total: 5.5 (Over -128 / Under +104)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Montréal Canadiens +112 / Buffalo Sabres -134",
-        "Spread: Montréal Canadiens +1.5 (-220) / Buffalo Sabres -1.5 (+176)",
-        "Total: +5.5 (Over -124 / Under +102)"
+        "Moneyline: Montréal Canadiens +110 / Buffalo Sabres -132",
+        "Spread: Montréal Canadiens 1.5 (-215) / Buffalo Sabres -1.5 (+172)",
+        "Total: 5.5 (Over -128 / Under +104)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Buffalo Sabres before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Goalie confirmations can materially change NHL moneylines and totals.",
+        "Low totals make puck-line risk more important than raw favorite price."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Buffalo Sabres before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Goalie confirmations can materially change NHL moneylines and totals.",
+        "Low totals make puck-line risk more important than raw favorite price."
       ],
       "what_to_watch": [
         "Confirmed starting goalies.",
@@ -201,33 +201,33 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "NFL Betting Board",
       "league": "NFL Betting Board",
       "headline": "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
       "game": "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: San Francisco 49ers +124 / Los Angeles Rams -148 | Spread: San Francisco 49ers +2.5 (+100) / Los Angeles Rams -2.5 (-120) | Total: +48.5 (Over -110 / Under -110)",
+      "market": "Bookmaker: DraftKings | Moneyline: San Francisco 49ers +124 / Los Angeles Rams -148 | Spread: San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | Total: 48.5 (Over -110 / Under -110)",
       "bookmaker": "DraftKings",
       "moneyline": "San Francisco 49ers +124 / Los Angeles Rams -148",
-      "spread": "San Francisco 49ers +2.5 (+100) / Los Angeles Rams -2.5 (-120)",
-      "total": "+48.5 (Over -110 / Under -110)",
-      "implied_probability": "Los Angeles Rams carries an implied win probability of approximately 59.7% based on the listed moneyline.",
-      "snapshot": "Bookmaker: DraftKings | Moneyline: San Francisco 49ers +124 / Los Angeles Rams -148 | Spread: San Francisco 49ers +2.5 (+100) / Los Angeles Rams -2.5 (-120) | Total: +48.5 (Over -110 / Under -110)",
+      "spread": "San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120)",
+      "total": "48.5 (Over -110 / Under -110)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: DraftKings | Moneyline: San Francisco 49ers +124 / Los Angeles Rams -148 | Spread: San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | Total: 48.5 (Over -110 / Under -110)",
       "key_data": [
         "Bookmaker: DraftKings",
         "Moneyline: San Francisco 49ers +124 / Los Angeles Rams -148",
-        "Spread: San Francisco 49ers +2.5 (+100) / Los Angeles Rams -2.5 (-120)",
-        "Total: +48.5 (Over -110 / Under -110)"
+        "Spread: San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120)",
+        "Total: 48.5 (Over -110 / Under -110)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Los Angeles Rams before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
+        "Prime-time markets can move late as public money arrives."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Los Angeles Rams before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
+        "Prime-time markets can move late as public money arrives."
       ],
       "what_to_watch": [
         "Quarterback and injury report movement.",
@@ -235,33 +235,33 @@
         "Prime-time public money and late spread movement."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "NBA Betting Board",
       "league": "NBA Betting Board",
       "headline": "San Antonio Spurs at Minnesota Timberwolves - 9:40 PM ET",
       "game": "San Antonio Spurs at Minnesota Timberwolves - 9:40 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: San Antonio Spurs -190 / Minnesota Timberwolves +160 | Spread: San Antonio Spurs -4.5 (-106) / Minnesota Timberwolves +4.5 (-114) | Total: +216.5 (Over -110 / Under -110)",
+      "market": "Bookmaker: FanDuel | Moneyline: San Antonio Spurs -205 / Minnesota Timberwolves +172 | Spread: San Antonio Spurs -4.5 (-115) / Minnesota Timberwolves 4.5 (-105) | Total: 216.5 (Over -110 / Under -110)",
       "bookmaker": "FanDuel",
-      "moneyline": "San Antonio Spurs -190 / Minnesota Timberwolves +160",
-      "spread": "San Antonio Spurs -4.5 (-106) / Minnesota Timberwolves +4.5 (-114)",
-      "total": "+216.5 (Over -110 / Under -110)",
-      "implied_probability": "San Antonio Spurs carries an implied win probability of approximately 65.5% based on the listed moneyline.",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: San Antonio Spurs -190 / Minnesota Timberwolves +160 | Spread: San Antonio Spurs -4.5 (-106) / Minnesota Timberwolves +4.5 (-114) | Total: +216.5 (Over -110 / Under -110)",
+      "moneyline": "San Antonio Spurs -205 / Minnesota Timberwolves +172",
+      "spread": "San Antonio Spurs -4.5 (-115) / Minnesota Timberwolves 4.5 (-105)",
+      "total": "216.5 (Over -110 / Under -110)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: San Antonio Spurs -205 / Minnesota Timberwolves +172 | Spread: San Antonio Spurs -4.5 (-115) / Minnesota Timberwolves 4.5 (-105) | Total: 216.5 (Over -110 / Under -110)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: San Antonio Spurs -190 / Minnesota Timberwolves +160",
-        "Spread: San Antonio Spurs -4.5 (-106) / Minnesota Timberwolves +4.5 (-114)",
-        "Total: +216.5 (Over -110 / Under -110)"
+        "Moneyline: San Antonio Spurs -205 / Minnesota Timberwolves +172",
+        "Spread: San Antonio Spurs -4.5 (-115) / Minnesota Timberwolves 4.5 (-105)",
+        "Total: 216.5 (Over -110 / Under -110)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward San Antonio Spurs before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
+        "A short favorite price suggests a tighter market than the matchup name may imply."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward San Antonio Spurs before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
+        "A short favorite price suggests a tighter market than the matchup name may imply."
       ],
       "what_to_watch": [
         "Official injury report updates.",
@@ -269,33 +269,33 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Colorado Rockies at Philadelphia Phillies - 6:41 PM ET",
       "game": "Colorado Rockies at Philadelphia Phillies - 6:41 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Colorado Rockies +184 / Philadelphia Phillies -220 | Spread: Colorado Rockies +1.5 (-126) / Philadelphia Phillies -1.5 (+105) | Total: +7.5 (Over -112 / Under -108)",
+      "market": "Bookmaker: FanDuel | Moneyline: Colorado Rockies +184 / Philadelphia Phillies -220 | Spread: Colorado Rockies 1.5 (-122) / Philadelphia Phillies -1.5 (+102) | Total: 7.5 (Over +100 / Under -122)",
       "bookmaker": "FanDuel",
       "moneyline": "Colorado Rockies +184 / Philadelphia Phillies -220",
-      "spread": "Colorado Rockies +1.5 (-126) / Philadelphia Phillies -1.5 (+105)",
-      "total": "+7.5 (Over -112 / Under -108)",
-      "implied_probability": "Philadelphia Phillies carries an implied win probability of approximately 68.8% based on the listed moneyline.",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Colorado Rockies +184 / Philadelphia Phillies -220 | Spread: Colorado Rockies +1.5 (-126) / Philadelphia Phillies -1.5 (+105) | Total: +7.5 (Over -112 / Under -108)",
+      "spread": "Colorado Rockies 1.5 (-122) / Philadelphia Phillies -1.5 (+102)",
+      "total": "7.5 (Over +100 / Under -122)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Colorado Rockies +184 / Philadelphia Phillies -220 | Spread: Colorado Rockies 1.5 (-122) / Philadelphia Phillies -1.5 (+102) | Total: 7.5 (Over +100 / Under -122)",
       "key_data": [
         "Bookmaker: FanDuel",
         "Moneyline: Colorado Rockies +184 / Philadelphia Phillies -220",
-        "Spread: Colorado Rockies +1.5 (-126) / Philadelphia Phillies -1.5 (+105)",
-        "Total: +7.5 (Over -112 / Under -108)"
+        "Spread: Colorado Rockies 1.5 (-122) / Philadelphia Phillies -1.5 (+102)",
+        "Total: 7.5 (Over +100 / Under -122)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Philadelphia Phillies before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Philadelphia Phillies before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
       ],
       "what_to_watch": [
         "Starting pitcher confirmations.",
@@ -303,33 +303,33 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "NHL Betting Board",
       "league": "NHL Betting Board",
-      "headline": "Vegas Golden Knights at Anaheim Ducks - 9:30 PM ET",
-      "game": "Vegas Golden Knights at Anaheim Ducks - 9:30 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Vegas Golden Knights -115 / Anaheim Ducks -105 | Spread: Vegas Golden Knights -1.5 (+205) / Anaheim Ducks +1.5 (-260) | Total: +6.5 (Over +114 / Under -140)",
+      "headline": "Vegas Golden Knights at Anaheim Ducks - 9:50 PM ET",
+      "game": "Vegas Golden Knights at Anaheim Ducks - 9:50 PM ET",
+      "market": "Bookmaker: FanDuel | Moneyline: Vegas Golden Knights -113 / Anaheim Ducks -106 | Spread: Vegas Golden Knights -1.5 (+225) / Anaheim Ducks 1.5 (-290) | Total: 6.5 (Over +102 / Under -124)",
       "bookmaker": "FanDuel",
-      "moneyline": "Vegas Golden Knights -115 / Anaheim Ducks -105",
-      "spread": "Vegas Golden Knights -1.5 (+205) / Anaheim Ducks +1.5 (-260)",
-      "total": "+6.5 (Over +114 / Under -140)",
-      "implied_probability": "Vegas Golden Knights carries an implied win probability of approximately 53.5% based on the listed moneyline.",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Vegas Golden Knights -115 / Anaheim Ducks -105 | Spread: Vegas Golden Knights -1.5 (+205) / Anaheim Ducks +1.5 (-260) | Total: +6.5 (Over +114 / Under -140)",
+      "moneyline": "Vegas Golden Knights -113 / Anaheim Ducks -106",
+      "spread": "Vegas Golden Knights -1.5 (+225) / Anaheim Ducks 1.5 (-290)",
+      "total": "6.5 (Over +102 / Under -124)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Vegas Golden Knights -113 / Anaheim Ducks -106 | Spread: Vegas Golden Knights -1.5 (+225) / Anaheim Ducks 1.5 (-290) | Total: 6.5 (Over +102 / Under -124)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Vegas Golden Knights -115 / Anaheim Ducks -105",
-        "Spread: Vegas Golden Knights -1.5 (+205) / Anaheim Ducks +1.5 (-260)",
-        "Total: +6.5 (Over +114 / Under -140)"
+        "Moneyline: Vegas Golden Knights -113 / Anaheim Ducks -106",
+        "Spread: Vegas Golden Knights -1.5 (+225) / Anaheim Ducks 1.5 (-290)",
+        "Total: 6.5 (Over +102 / Under -124)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Vegas Golden Knights before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Goalie confirmations can materially change NHL moneylines and totals.",
+        "Low totals make puck-line risk more important than raw favorite price."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Vegas Golden Knights before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Goalie confirmations can materially change NHL moneylines and totals.",
+        "Low totals make puck-line risk more important than raw favorite price."
       ],
       "what_to_watch": [
         "Confirmed starting goalies.",
@@ -337,33 +337,33 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "NBA Betting Board",
       "league": "NBA Betting Board",
       "headline": "Detroit Pistons at Cleveland Cavaliers - 3:10 PM ET",
       "game": "Detroit Pistons at Cleveland Cavaliers - 3:10 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Detroit Pistons +148 / Cleveland Cavaliers -176 | Spread: Detroit Pistons +4.5 (-118) / Cleveland Cavaliers -4.5 (-104) | Total: +211.5 (Over -110 / Under -110)",
+      "market": "Bookmaker: FanDuel | Moneyline: Detroit Pistons +154 / Cleveland Cavaliers -184 | Spread: Detroit Pistons 4.5 (-114) / Cleveland Cavaliers -4.5 (-106) | Total: 211.5 (Over -110 / Under -110)",
       "bookmaker": "FanDuel",
-      "moneyline": "Detroit Pistons +148 / Cleveland Cavaliers -176",
-      "spread": "Detroit Pistons +4.5 (-118) / Cleveland Cavaliers -4.5 (-104)",
-      "total": "+211.5 (Over -110 / Under -110)",
-      "implied_probability": "Cleveland Cavaliers carries an implied win probability of approximately 63.8% based on the listed moneyline.",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Detroit Pistons +148 / Cleveland Cavaliers -176 | Spread: Detroit Pistons +4.5 (-118) / Cleveland Cavaliers -4.5 (-104) | Total: +211.5 (Over -110 / Under -110)",
+      "moneyline": "Detroit Pistons +154 / Cleveland Cavaliers -184",
+      "spread": "Detroit Pistons 4.5 (-114) / Cleveland Cavaliers -4.5 (-106)",
+      "total": "211.5 (Over -110 / Under -110)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Detroit Pistons +154 / Cleveland Cavaliers -184 | Spread: Detroit Pistons 4.5 (-114) / Cleveland Cavaliers -4.5 (-106) | Total: 211.5 (Over -110 / Under -110)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Detroit Pistons +148 / Cleveland Cavaliers -176",
-        "Spread: Detroit Pistons +4.5 (-118) / Cleveland Cavaliers -4.5 (-104)",
-        "Total: +211.5 (Over -110 / Under -110)"
+        "Moneyline: Detroit Pistons +154 / Cleveland Cavaliers -184",
+        "Spread: Detroit Pistons 4.5 (-114) / Cleveland Cavaliers -4.5 (-106)",
+        "Total: 211.5 (Over -110 / Under -110)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Cleveland Cavaliers before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
+        "A short favorite price suggests a tighter market than the matchup name may imply."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Cleveland Cavaliers before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
+        "A short favorite price suggests a tighter market than the matchup name may imply."
       ],
       "what_to_watch": [
         "Official injury report updates.",
@@ -371,33 +371,33 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Athletics at Baltimore Orioles - 7:06 PM ET",
       "game": "Athletics at Baltimore Orioles - 7:06 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Athletics +124 / Baltimore Orioles -146 | Spread: Athletics +1.5 (-160) / Baltimore Orioles -1.5 (+132) | Total: +9.5 (Over +104 / Under -128)",
+      "market": "Bookmaker: FanDuel | Moneyline: Athletics +118 / Baltimore Orioles -138 | Spread: Athletics 1.5 (-170) / Baltimore Orioles -1.5 (+140) | Total: 9.5 (Over +100 / Under -122)",
       "bookmaker": "FanDuel",
-      "moneyline": "Athletics +124 / Baltimore Orioles -146",
-      "spread": "Athletics +1.5 (-160) / Baltimore Orioles -1.5 (+132)",
-      "total": "+9.5 (Over +104 / Under -128)",
-      "implied_probability": "Baltimore Orioles carries an implied win probability of approximately 59.3% based on the listed moneyline.",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Athletics +124 / Baltimore Orioles -146 | Spread: Athletics +1.5 (-160) / Baltimore Orioles -1.5 (+132) | Total: +9.5 (Over +104 / Under -128)",
+      "moneyline": "Athletics +118 / Baltimore Orioles -138",
+      "spread": "Athletics 1.5 (-170) / Baltimore Orioles -1.5 (+140)",
+      "total": "9.5 (Over +100 / Under -122)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Athletics +118 / Baltimore Orioles -138 | Spread: Athletics 1.5 (-170) / Baltimore Orioles -1.5 (+140) | Total: 9.5 (Over +100 / Under -122)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Athletics +124 / Baltimore Orioles -146",
-        "Spread: Athletics +1.5 (-160) / Baltimore Orioles -1.5 (+132)",
-        "Total: +9.5 (Over +104 / Under -128)"
+        "Moneyline: Athletics +118 / Baltimore Orioles -138",
+        "Spread: Athletics 1.5 (-170) / Baltimore Orioles -1.5 (+140)",
+        "Total: 9.5 (Over +100 / Under -122)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Baltimore Orioles before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Baltimore Orioles before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
       ],
       "what_to_watch": [
         "Starting pitcher confirmations.",
@@ -405,33 +405,33 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "NHL Betting Board",
       "league": "NHL Betting Board",
-      "headline": "Carolina Hurricanes at Philadelphia Flyers - 6:00 PM ET",
-      "game": "Carolina Hurricanes at Philadelphia Flyers - 6:00 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -182 / Philadelphia Flyers +150 | Spread: Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers +1.5 (-170) | Total: +5.5 (Over +120 / Under -148)",
+      "headline": "Carolina Hurricanes at Philadelphia Flyers - 6:10 PM ET",
+      "game": "Carolina Hurricanes at Philadelphia Flyers - 6:10 PM ET",
+      "market": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -188 / Philadelphia Flyers +155 | Spread: Carolina Hurricanes -1.5 (+132) / Philadelphia Flyers 1.5 (-162) | Total: 5.5 (Over +118 / Under -144)",
       "bookmaker": "FanDuel",
-      "moneyline": "Carolina Hurricanes -182 / Philadelphia Flyers +150",
-      "spread": "Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers +1.5 (-170)",
-      "total": "+5.5 (Over +120 / Under -148)",
-      "implied_probability": "Carolina Hurricanes carries an implied win probability of approximately 64.5% based on the listed moneyline.",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -182 / Philadelphia Flyers +150 | Spread: Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers +1.5 (-170) | Total: +5.5 (Over +120 / Under -148)",
+      "moneyline": "Carolina Hurricanes -188 / Philadelphia Flyers +155",
+      "spread": "Carolina Hurricanes -1.5 (+132) / Philadelphia Flyers 1.5 (-162)",
+      "total": "5.5 (Over +118 / Under -144)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -188 / Philadelphia Flyers +155 | Spread: Carolina Hurricanes -1.5 (+132) / Philadelphia Flyers 1.5 (-162) | Total: 5.5 (Over +118 / Under -144)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Carolina Hurricanes -182 / Philadelphia Flyers +150",
-        "Spread: Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers +1.5 (-170)",
-        "Total: +5.5 (Over +120 / Under -148)"
+        "Moneyline: Carolina Hurricanes -188 / Philadelphia Flyers +155",
+        "Spread: Carolina Hurricanes -1.5 (+132) / Philadelphia Flyers 1.5 (-162)",
+        "Total: 5.5 (Over +118 / Under -144)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Carolina Hurricanes before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Goalie confirmations can materially change NHL moneylines and totals.",
+        "Low totals make puck-line risk more important than raw favorite price."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Carolina Hurricanes before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Goalie confirmations can materially change NHL moneylines and totals.",
+        "Low totals make puck-line risk more important than raw favorite price."
       ],
       "what_to_watch": [
         "Confirmed starting goalies.",
@@ -439,33 +439,33 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "NBA Betting Board",
       "league": "NBA Betting Board",
       "headline": "Oklahoma City Thunder at Los Angeles Lakers - 8:40 PM ET",
       "game": "Oklahoma City Thunder at Los Angeles Lakers - 8:40 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -360 / Los Angeles Lakers +290 | Spread: Oklahoma City Thunder -9.5 (-104) / Los Angeles Lakers +9.5 (-118) | Total: +211.5 (Over -110 / Under -110)",
+      "market": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -370 / Los Angeles Lakers +295 | Spread: Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108) | Total: 211.5 (Over -112 / Under -108)",
       "bookmaker": "FanDuel",
-      "moneyline": "Oklahoma City Thunder -360 / Los Angeles Lakers +290",
-      "spread": "Oklahoma City Thunder -9.5 (-104) / Los Angeles Lakers +9.5 (-118)",
-      "total": "+211.5 (Over -110 / Under -110)",
-      "implied_probability": "Oklahoma City Thunder carries an implied win probability of approximately 78.3% based on the listed moneyline.",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -360 / Los Angeles Lakers +290 | Spread: Oklahoma City Thunder -9.5 (-104) / Los Angeles Lakers +9.5 (-118) | Total: +211.5 (Over -110 / Under -110)",
+      "moneyline": "Oklahoma City Thunder -370 / Los Angeles Lakers +295",
+      "spread": "Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108)",
+      "total": "211.5 (Over -112 / Under -108)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -370 / Los Angeles Lakers +295 | Spread: Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108) | Total: 211.5 (Over -112 / Under -108)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Oklahoma City Thunder -360 / Los Angeles Lakers +290",
-        "Spread: Oklahoma City Thunder -9.5 (-104) / Los Angeles Lakers +9.5 (-118)",
-        "Total: +211.5 (Over -110 / Under -110)"
+        "Moneyline: Oklahoma City Thunder -370 / Los Angeles Lakers +295",
+        "Spread: Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108)",
+        "Total: 211.5 (Over -112 / Under -108)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Oklahoma City Thunder before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
+        "A short favorite price suggests a tighter market than the matchup name may imply."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Oklahoma City Thunder before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
+        "A short favorite price suggests a tighter market than the matchup name may imply."
       ],
       "what_to_watch": [
         "Official injury report updates.",
@@ -473,33 +473,33 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Los Angeles Angels at Toronto Blue Jays - 7:08 PM ET",
       "game": "Los Angeles Angels at Toronto Blue Jays - 7:08 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +136 / Toronto Blue Jays -162 | Spread: Los Angeles Angels +1.5 (-166) / Toronto Blue Jays -1.5 (+138) | Total: +7.5 (Over -110 / Under -110)",
+      "market": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +126 / Toronto Blue Jays -148 | Spread: Los Angeles Angels 1.5 (-170) / Toronto Blue Jays -1.5 (+140) | Total: 7.5 (Over -105 / Under -115)",
       "bookmaker": "FanDuel",
-      "moneyline": "Los Angeles Angels +136 / Toronto Blue Jays -162",
-      "spread": "Los Angeles Angels +1.5 (-166) / Toronto Blue Jays -1.5 (+138)",
-      "total": "+7.5 (Over -110 / Under -110)",
-      "implied_probability": "Toronto Blue Jays carries an implied win probability of approximately 61.8% based on the listed moneyline.",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +136 / Toronto Blue Jays -162 | Spread: Los Angeles Angels +1.5 (-166) / Toronto Blue Jays -1.5 (+138) | Total: +7.5 (Over -110 / Under -110)",
+      "moneyline": "Los Angeles Angels +126 / Toronto Blue Jays -148",
+      "spread": "Los Angeles Angels 1.5 (-170) / Toronto Blue Jays -1.5 (+140)",
+      "total": "7.5 (Over -105 / Under -115)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +126 / Toronto Blue Jays -148 | Spread: Los Angeles Angels 1.5 (-170) / Toronto Blue Jays -1.5 (+140) | Total: 7.5 (Over -105 / Under -115)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Los Angeles Angels +136 / Toronto Blue Jays -162",
-        "Spread: Los Angeles Angels +1.5 (-166) / Toronto Blue Jays -1.5 (+138)",
-        "Total: +7.5 (Over -110 / Under -110)"
+        "Moneyline: Los Angeles Angels +126 / Toronto Blue Jays -148",
+        "Spread: Los Angeles Angels 1.5 (-170) / Toronto Blue Jays -1.5 (+140)",
+        "Total: 7.5 (Over -105 / Under -115)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Toronto Blue Jays before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Toronto Blue Jays before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
       ],
       "what_to_watch": [
         "Starting pitcher confirmations.",
@@ -507,33 +507,33 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "NHL Betting Board",
       "league": "NHL Betting Board",
       "headline": "Colorado Avalanche at Minnesota Wild - 9:10 PM ET",
       "game": "Colorado Avalanche at Minnesota Wild - 9:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Colorado Avalanche -130 / Minnesota Wild +110 | Spread: Colorado Avalanche -1.5 (+200) / Minnesota Wild +1.5 (-245) | Total: +6.5 (Over +110 / Under -130)",
+      "market": "Bookmaker: DraftKings | Moneyline: Colorado Avalanche -130 / Minnesota Wild +110 | Spread: Colorado Avalanche -1.5 (+190) / Minnesota Wild 1.5 (-230) | Total: 6.5 (Over +110 / Under -130)",
       "bookmaker": "DraftKings",
       "moneyline": "Colorado Avalanche -130 / Minnesota Wild +110",
-      "spread": "Colorado Avalanche -1.5 (+200) / Minnesota Wild +1.5 (-245)",
-      "total": "+6.5 (Over +110 / Under -130)",
-      "implied_probability": "Colorado Avalanche carries an implied win probability of approximately 56.5% based on the listed moneyline.",
-      "snapshot": "Bookmaker: DraftKings | Moneyline: Colorado Avalanche -130 / Minnesota Wild +110 | Spread: Colorado Avalanche -1.5 (+200) / Minnesota Wild +1.5 (-245) | Total: +6.5 (Over +110 / Under -130)",
+      "spread": "Colorado Avalanche -1.5 (+190) / Minnesota Wild 1.5 (-230)",
+      "total": "6.5 (Over +110 / Under -130)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: DraftKings | Moneyline: Colorado Avalanche -130 / Minnesota Wild +110 | Spread: Colorado Avalanche -1.5 (+190) / Minnesota Wild 1.5 (-230) | Total: 6.5 (Over +110 / Under -130)",
       "key_data": [
         "Bookmaker: DraftKings",
         "Moneyline: Colorado Avalanche -130 / Minnesota Wild +110",
-        "Spread: Colorado Avalanche -1.5 (+200) / Minnesota Wild +1.5 (-245)",
-        "Total: +6.5 (Over +110 / Under -130)"
+        "Spread: Colorado Avalanche -1.5 (+190) / Minnesota Wild 1.5 (-230)",
+        "Total: 6.5 (Over +110 / Under -130)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Colorado Avalanche before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Goalie confirmations can materially change NHL moneylines and totals.",
+        "Low totals make puck-line risk more important than raw favorite price."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Colorado Avalanche before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Goalie confirmations can materially change NHL moneylines and totals.",
+        "Low totals make puck-line risk more important than raw favorite price."
       ],
       "what_to_watch": [
         "Confirmed starting goalies.",
@@ -541,33 +541,33 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Tampa Bay Rays at Boston Red Sox - 7:11 PM ET",
       "game": "Tampa Bay Rays at Boston Red Sox - 7:11 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +122 / Boston Red Sox -144 | Spread: Tampa Bay Rays +1.5 (-176) / Boston Red Sox -1.5 (+146) | Total: +8.5 (Over -115 / Under -105)",
+      "market": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +112 / Boston Red Sox -132 | Spread: Tampa Bay Rays 1.5 (-192) / Boston Red Sox -1.5 (+158) | Total: 8.5 (Over -112 / Under -108)",
       "bookmaker": "FanDuel",
-      "moneyline": "Tampa Bay Rays +122 / Boston Red Sox -144",
-      "spread": "Tampa Bay Rays +1.5 (-176) / Boston Red Sox -1.5 (+146)",
-      "total": "+8.5 (Over -115 / Under -105)",
-      "implied_probability": "Boston Red Sox carries an implied win probability of approximately 59.0% based on the listed moneyline.",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +122 / Boston Red Sox -144 | Spread: Tampa Bay Rays +1.5 (-176) / Boston Red Sox -1.5 (+146) | Total: +8.5 (Over -115 / Under -105)",
+      "moneyline": "Tampa Bay Rays +112 / Boston Red Sox -132",
+      "spread": "Tampa Bay Rays 1.5 (-192) / Boston Red Sox -1.5 (+158)",
+      "total": "8.5 (Over -112 / Under -108)",
+      "implied_probability": "",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +112 / Boston Red Sox -132 | Spread: Tampa Bay Rays 1.5 (-192) / Boston Red Sox -1.5 (+158) | Total: 8.5 (Over -112 / Under -108)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Tampa Bay Rays +122 / Boston Red Sox -144",
-        "Spread: Tampa Bay Rays +1.5 (-176) / Boston Red Sox -1.5 (+146)",
-        "Total: +8.5 (Over -115 / Under -105)"
+        "Moneyline: Tampa Bay Rays +112 / Boston Red Sox -132",
+        "Spread: Tampa Bay Rays 1.5 (-192) / Boston Red Sox -1.5 (+158)",
+        "Total: 8.5 (Over -112 / Under -108)"
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Boston Red Sox before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
       ],
       "what_the_odds_mean": [
-        "The moneyline shows how strongly the market is leaning toward Boston Red Sox before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone."
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
       ],
       "what_to_watch": [
         "Starting pitcher confirmations.",
@@ -575,11 +575,11 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "Market Watch",
-      "headline": "NBA: Oklahoma City Thunder priced as heavy favorite vs Los Angeles Lakers (-360)",
+      "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
       "snapshot": "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored for betting-market movement.",
       "key_data": [
         "Market board is active across available leagues."
@@ -593,7 +593,7 @@
         "Compare sportsbook movement before treating one number as the full market."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     },
     {
       "title": "Betting Context",
@@ -609,7 +609,7 @@
         "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
       ],
       "source": "GSR betting desk",
-      "updated_at": "2026-05-08 04:42:59 PM ET"
+      "updated_at": "2026-05-08 04:54:17 PM ET"
     }
   ]
 }
