@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-08 03:04:51 PM ET",
-  "generated_at": "2026-05-08 03:04:51 PM ET",
-  "generated_utc": "2026-05-08T19:04:51.108930+00:00",
+  "updated_at": "2026-05-08 04:47:05 PM ET",
+  "generated_at": "2026-05-08 04:47:05 PM ET",
+  "generated_utc": "2026-05-08T20:47:05.094435+00:00",
   "source_mode": "clean multi-card odds report distribution",
   "homepage_cards": [
     {
@@ -84,11 +84,11 @@
     {
       "title": "NBA Betting Board",
       "headline": "New York Knicks at Philadelphia 76ers - 7:10 PM ET",
-      "snapshot": "Matchup: New York Knicks at Philadelphia 76ers - 7:10 PM ET\nBookmaker: FanDuel\nMoneyline: New York Knicks +108 / Philadelphia 76ers -126\nSpread: New York Knicks 1.5 (-106) / Philadelphia 76ers -1.5 (-114)\nTotal: 213.5 (Over -110 / Under -110)\n\nMatchup: San Antonio Spurs at Minnesota Timberwolves - 9:40 PM ET\nBookmaker: FanDuel\nMoneyline: San Antonio Spurs -215 / Minnesota Timberwolves +180\nSpread: San Antonio Spurs -4.5 (-115) / Minnesota Timberwolves 4.5 (-105)\nTotal: 216.5 (Over -110 / Under -110)\n\nMatchup: Detroit Pistons at Cleveland Cavaliers - 3:10 PM ET\nBookmaker: FanDuel\nMoneyline: Detroit Pistons +154 / Cleveland Cavaliers -184\nSpread: Detroit Pistons 4.5 (-114) / Cleveland Cavaliers -4.5 (-106)\nTotal: 211.5 (Over -110 / Under -110)",
+      "snapshot": "Matchup: New York Knicks at Philadelphia 76ers - 7:10 PM ET\nBookmaker: FanDuel\nMoneyline: New York Knicks +114 / Philadelphia 76ers -134\nSpread: New York Knicks 2.5 (-112) / Philadelphia 76ers -2.5 (-108)\nTotal: 213.5 (Over -110 / Under -110)\n\nMatchup: San Antonio Spurs at Minnesota Timberwolves - 9:40 PM ET\nBookmaker: FanDuel\nMoneyline: San Antonio Spurs -205 / Minnesota Timberwolves +172\nSpread: San Antonio Spurs -4.5 (-115) / Minnesota Timberwolves 4.5 (-105)\nTotal: 216.5 (Over -110 / Under -110)\n\nMatchup: Detroit Pistons at Cleveland Cavaliers - 3:10 PM ET\nBookmaker: FanDuel\nMoneyline: Detroit Pistons +154 / Cleveland Cavaliers -184\nSpread: Detroit Pistons 4.5 (-114) / Cleveland Cavaliers -4.5 (-106)\nTotal: 211.5 (Over -110 / Under -110)",
       "key_data": [
         "Lead signal: New York Knicks at Philadelphia 76ers - 7:10 PM ET",
-        "Moneyline context: New York Knicks +108 / Philadelphia 76ers -126",
-        "Spread context: New York Knicks 1.5 (-106) / Philadelphia 76ers -1.5 (-114)",
+        "Moneyline context: New York Knicks +114 / Philadelphia 76ers -134",
+        "Spread context: New York Knicks 2.5 (-112) / Philadelphia 76ers -2.5 (-108)",
         "Total context: 213.5 (Over -110 / Under -110)"
       ],
       "what_the_odds_mean": [
@@ -102,16 +102,16 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 03:04:51 PM ET"
+      "updated_at": "2026-05-08 04:47:05 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "headline": "Houston Astros at Cincinnati Reds - 6:11 PM ET",
-      "snapshot": "Matchup: Houston Astros at Cincinnati Reds - 6:11 PM ET\nBookmaker: FanDuel\nMoneyline: Houston Astros +110 / Cincinnati Reds -130\nSpread: Houston Astros 1.5 (-194) / Cincinnati Reds -1.5 (+160)\nTotal: 9 (Over -108 / Under -112)\n\nMatchup: Colorado Rockies at Philadelphia Phillies - 6:41 PM ET\nBookmaker: FanDuel\nMoneyline: Colorado Rockies +184 / Philadelphia Phillies -220\nSpread: Colorado Rockies 1.5 (-125) / Philadelphia Phillies -1.5 (+104)\nTotal: 7.5 (Over +100 / Under -122)\n\nMatchup: Athletics at Baltimore Orioles - 7:06 PM ET\nBookmaker: FanDuel\nMoneyline: Athletics +118 / Baltimore Orioles -138\nSpread: Athletics 1.5 (-176) / Baltimore Orioles -1.5 (+146)\nTotal: 9.5 (Over +100 / Under -122)",
+      "snapshot": "Matchup: Houston Astros at Cincinnati Reds - 6:11 PM ET\nBookmaker: FanDuel\nMoneyline: Houston Astros +110 / Cincinnati Reds -130\nSpread: Houston Astros 1.5 (-188) / Cincinnati Reds -1.5 (+155)\nTotal: 9 (Over -108 / Under -112)\n\nMatchup: Colorado Rockies at Philadelphia Phillies - 6:41 PM ET\nBookmaker: FanDuel\nMoneyline: Colorado Rockies +184 / Philadelphia Phillies -220\nSpread: Colorado Rockies 1.5 (-122) / Philadelphia Phillies -1.5 (+102)\nTotal: 7.5 (Over +100 / Under -122)\n\nMatchup: Athletics at Baltimore Orioles - 7:06 PM ET\nBookmaker: FanDuel\nMoneyline: Athletics +118 / Baltimore Orioles -138\nSpread: Athletics 1.5 (-170) / Baltimore Orioles -1.5 (+140)\nTotal: 9.5 (Over +100 / Under -122)",
       "key_data": [
         "Lead signal: Houston Astros at Cincinnati Reds - 6:11 PM ET",
         "Moneyline context: Houston Astros +110 / Cincinnati Reds -130",
-        "Spread context: Houston Astros 1.5 (-194) / Cincinnati Reds -1.5 (+160)",
+        "Spread context: Houston Astros 1.5 (-188) / Cincinnati Reds -1.5 (+155)",
         "Total context: 9 (Over -108 / Under -112)"
       ],
       "what_the_odds_mean": [
@@ -125,7 +125,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 03:04:51 PM ET"
+      "updated_at": "2026-05-08 04:47:05 PM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -148,7 +148,7 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 03:04:51 PM ET"
+      "updated_at": "2026-05-08 04:47:05 PM ET"
     },
     {
       "title": "NFL Betting Board",
@@ -171,7 +171,7 @@
         "Prime-time public money and late spread movement."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 03:04:51 PM ET"
+      "updated_at": "2026-05-08 04:47:05 PM ET"
     },
     {
       "title": "Market Watch",
@@ -189,7 +189,7 @@
         "Compare sportsbook movement before treating one number as the full market."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 03:04:51 PM ET"
+      "updated_at": "2026-05-08 04:47:05 PM ET"
     },
     {
       "title": "Betting Context",
@@ -205,7 +205,7 @@
         "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
       ],
       "source": "GSR betting desk",
-      "updated_at": "2026-05-08 03:04:51 PM ET"
+      "updated_at": "2026-05-08 04:47:05 PM ET"
     }
   ]
 }
