@@ -118,6 +118,102 @@ def split_event_blocks(body: str) -> list[list[str]]:
     return blocks[:5]
 
 
+def extract_market_read(block: list[str]) -> list[str]:
+    items: list[str] = []
+    in_market_read = False
+
+    for raw in block:
+        line = clean_line(raw).strip(" -")
+        if not line:
+            continue
+
+        if line.lower() == "market read:":
+            in_market_read = True
+            continue
+
+        if in_market_read:
+            if line.lower().startswith(("bookmaker:", "moneyline:", "spread:", "total:")):
+                continue
+            items.append(line)
+
+    return items[:3]
+
+
+def parse_event_card(block: list[str], league: str, current_stamp: str) -> dict | None:
+    if not block:
+        return None
+
+    joined = " ".join(clean_line(line) for line in block if clean_line(line))
+    joined = re.sub(r"\s+", " ", joined).strip()
+
+    game = clean_line(block[0])
+
+    bookmaker_match = re.search(
+        r"Bookmaker:\s*([^:]+?)(?=\s+Moneyline:|\s+Spread:|\s+Total:|\s+Market read:|$)",
+        joined,
+        flags=re.I,
+    )
+    moneyline_match = re.search(
+        r"Moneyline:\s*(.*?)(?=\s+Spread:|\s+Total:|\s+Market read:|$)",
+        joined,
+        flags=re.I,
+    )
+    spread_match = re.search(
+        r"Spread:\s*(.*?)(?=\s+Total:|\s+Market read:|$)",
+        joined,
+        flags=re.I,
+    )
+    total_match = re.search(
+        r"Total:\s*(.*?)(?=\s+Market read:|\s+Bookmaker:|\s+BETTING MARKET NOTE|\s+Generated:|$)",
+        joined,
+        flags=re.I,
+    )
+
+    bookmaker = clean_line(bookmaker_match.group(1)) if bookmaker_match else ""
+    moneyline = clean_line(moneyline_match.group(1)) if moneyline_match else ""
+    spread = clean_line(spread_match.group(1)) if spread_match else ""
+    total = clean_line(total_match.group(1)) if total_match else ""
+
+    market_read = extract_market_read(block)
+    implied_probability = next(
+        (item for item in market_read if "implied win probability" in item.lower()),
+        "",
+    )
+
+    market_lines = [
+        f"Bookmaker: {bookmaker}" if bookmaker else "",
+        f"Moneyline: {moneyline}" if moneyline else "",
+        f"Spread: {spread}" if spread else "",
+        f"Total: {total}" if total else "",
+    ]
+    market = " | ".join(line for line in market_lines if line)
+
+    if not game or not market:
+        return None
+
+    why = [item for item in market_read if item != implied_probability] or build_odds_meaning(f"{league} Betting Board")[:2]
+
+    return {
+        "title": f"{league} Betting Board",
+        "league": f"{league} Betting Board",
+        "headline": game,
+        "game": game,
+        "market": market,
+        "bookmaker": bookmaker,
+        "moneyline": moneyline,
+        "spread": spread,
+        "total": total,
+        "implied_probability": implied_probability,
+        "snapshot": market,
+        "key_data": [line for line in market_lines if line],
+        "why_it_matters": why,
+        "what_the_odds_mean": why,
+        "what_to_watch": build_watch_items(f"{league} Betting Board"),
+        "source": "betting_odds_report.txt",
+        "updated_at": current_stamp,
+    }
+
+
 def compress_event_block(block: list[str]) -> list[str]:
     if not block:
         return []
@@ -254,9 +350,32 @@ def build_watch_items(title: str) -> list[str]:
     return base
 
 
+def interleave_league_cards(cards: list[dict]) -> list[dict]:
+    grouped: dict[str, list[dict]] = {}
+    order: list[str] = []
+
+    for card in cards:
+        title = str(card.get("title") or "Betting")
+        if title not in grouped:
+            grouped[title] = []
+            order.append(title)
+        grouped[title].append(card)
+
+    interleaved: list[dict] = []
+    max_group_size = max((len(items) for items in grouped.values()), default=0)
+
+    for index in range(max_group_size):
+        for title in order:
+            if index < len(grouped[title]):
+                interleaved.append(grouped[title][index])
+
+    return interleaved
+
+
 def split_sections(text: str) -> list[dict]:
     league_titles = {"NBA", "MLB", "NHL", "NFL"}
     cards: list[dict] = []
+    current_stamp = stamp()
 
     lines = text.splitlines()
     current_title = None
@@ -270,24 +389,12 @@ def split_sections(text: str) -> list[dict]:
 
         body = "\n".join(current_lines).strip()
         if not body:
-            body = f"No current {current_title} betting board data was available during this report window."
+            return
 
-        body = clean_team_artifacts(body)
-        headline = first_real_line(body)
-        snapshot = build_clean_snapshot(body)
-
-        cards.append(
-            {
-                "title": f"{current_title} Betting Board",
-                "headline": headline,
-                "snapshot": snapshot,
-                "key_data": build_key_data(headline, snapshot),
-                "what_the_odds_mean": build_odds_meaning(f"{current_title} Betting Board"),
-                "what_to_watch": build_watch_items(f"{current_title} Betting Board"),
-                "source": "betting_odds_report.txt",
-                "updated_at": stamp(),
-            }
-        )
+        for block in split_event_blocks(clean_team_artifacts(body)):
+            card = parse_event_card(block, current_title, current_stamp)
+            if card:
+                cards.append(card)
 
     for raw in lines:
         line = raw.strip()
@@ -303,7 +410,7 @@ def split_sections(text: str) -> list[dict]:
 
     flush()
 
-    return cards
+    return interleave_league_cards(cards)
 
 
 def build_support_cards(text: str, current_stamp: str) -> list[dict]:

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "Global Betting Report tracks odds, implied probability, line movement, weather angles, and betting market context.",
 };
 
-type AnyObj = Record<string, any>;
+type AnyObj = Record<string, unknown>;
 
 const SITE = {
   name: "Global Betting Report",
@@ -96,7 +96,7 @@ function readReport(): AnyObj {
   }
 }
 
-function cleanText(value: any): string {
+function cleanText(value: unknown): string {
   if (value === null || value === undefined) return "";
 
   if (Array.isArray(value)) {
@@ -110,11 +110,11 @@ function cleanText(value: any): string {
   return String(value).replace(/\s+/g, " ").trim();
 }
 
-function normalizeText(value: any): string {
+function normalizeText(value: unknown): string {
   return cleanText(value).toLowerCase();
 }
 
-function isBadContent(value: any): boolean {
+function isBadContent(value: unknown): boolean {
   const text = normalizeText(value);
   if (!text) return true;
   return BAD_CONTENT_PHRASES.some((phrase) => text.includes(phrase));
@@ -134,34 +134,24 @@ function unique(items: string[]): string[] {
     });
 }
 
-function asList(value: any): string[] {
+function asList(value: unknown): string[] {
   if (!value) return [];
 
   if (Array.isArray(value)) {
-    return value.flatMap((item) =>
-      cleanText(item)
-        .split(/\n|•/)
-        .map((x) => x.trim())
-        .filter(Boolean)
-    );
+    return value.flatMap((item) => asList(item));
   }
 
   if (typeof value === "object") {
-    return Object.values(value).flatMap((item) =>
-      cleanText(item)
-        .split(/\n|•/)
-        .map((x) => x.trim())
-        .filter(Boolean)
-    );
+    return Object.values(value).flatMap((item) => asList(item));
   }
 
-  return cleanText(value)
-    .split(/\n|•/)
-    .map((x) => x.trim())
+  return String(value)
+    .split(/\r?\n|•|â€¢/)
+    .map(cleanText)
     .filter(Boolean);
 }
 
-function isValidUrl(value: any): boolean {
+function isValidUrl(value: unknown): boolean {
   const url = cleanText(value);
   return url.startsWith("http://") || url.startsWith("https://");
 }
@@ -187,7 +177,7 @@ function extractBestUrl(story: AnyObj): string {
   return DEFAULT_URL;
 }
 
-function normalizeSportLabel(value: any, fallback = "Betting Watch"): string {
+function normalizeSportLabel(value: unknown, fallback = "Betting Watch"): string {
   const raw = cleanText(value);
   const key = raw.toLowerCase();
 
@@ -293,12 +283,12 @@ function sectionToStories(section: AnyObj, index: number): AnyObj[] {
   );
 
   if (Array.isArray(section.cards) && section.cards.length) {
-    const objectCards = section.cards.filter((card: any) => card && typeof card === "object");
-    const stringCards = section.cards.filter((card: any) => typeof card === "string");
+    const objectCards = section.cards.filter((card: unknown) => card && typeof card === "object");
+    const stringCards = section.cards.filter((card: unknown) => typeof card === "string");
 
     if (objectCards.length) {
-      return objectCards.map((card: AnyObj, cardIndex: number) =>
-        normalizeStory(card, cardIndex, sectionTitle)
+      return objectCards.map((card, cardIndex: number) =>
+        normalizeStory(card as AnyObj, cardIndex, sectionTitle)
       );
     }
 
@@ -462,6 +452,35 @@ function LineList({ items }: { items: string[] }) {
   );
 }
 
+function expandBettingLines(items: string[]): string[] {
+  return unique(
+    items.flatMap((item) =>
+      cleanText(item)
+        .replace(/\s+Market read:\s*/i, "\n")
+        .replace(/\s+-\s+(?=[A-Z])/g, "\n")
+        .split(/\r?\n/)
+        .map(cleanText)
+        .filter(Boolean)
+    )
+  );
+}
+
+function DetailBlock({ title, items }: { title: string; items: string[] }) {
+  const safe = expandBettingLines(items)
+    .map(removeDoubleLeaguePrefix)
+    .filter((item) => !isBadContent(item))
+    .slice(0, 5);
+
+  if (!safe.length) return null;
+
+  return (
+    <div className="rounded-xl border border-slate-800 bg-black/40 p-3">
+      <p className="mb-2 text-xs font-black uppercase text-lime-300">{title}</p>
+      <LineList items={safe} />
+    </div>
+  );
+}
+
 function NewsroomBriefing({ items }: { items: string[] }) {
   const safe = cleanSignals(items).map(removeDoubleLeaguePrefix);
 
@@ -493,10 +512,22 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
   const url = storyUrl(story);
   const summary = storySummary(story);
   const label = storyLabel(story);
+  const game = cleanText(story.game) || title;
 
-  const keyData = asList(story.key_data || story.keyData || story.data || story.metrics).filter(
-    (item) => !isBadContent(item)
-  );
+  const market = expandBettingLines([
+    cleanText(story.market),
+    cleanText(story.bookmaker) ? `Bookmaker: ${cleanText(story.bookmaker)}` : "",
+    cleanText(story.moneyline) ? `Moneyline: ${cleanText(story.moneyline)}` : "",
+    cleanText(story.spread) ? `Spread: ${cleanText(story.spread)}` : "",
+    cleanText(story.total) ? `Total: ${cleanText(story.total)}` : "",
+    ...asList(story.key_data || story.keyData || story.data || story.metrics),
+  ]).filter((item) => !isBadContent(item));
+
+  const impliedProbability = expandBettingLines([
+    cleanText(story.implied_probability || story.impliedProbability),
+    ...market.filter((item) => item.toLowerCase().includes("implied probability")),
+    ...asList(summary).filter((item) => item.toLowerCase().includes("implied probability")),
+  ]).filter((item) => !isBadContent(item));
 
   const why = asList(story.why_it_matters || story.whyItMatters || story.why).filter(
     (item) => !isBadContent(item)
@@ -518,35 +549,33 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
         </a>
       </h3>
 
-      <p className="mt-3 text-sm leading-6 text-slate-300">{summary}</p>
-
       <div className="mt-4 grid gap-3 md:grid-cols-3">
-        <div className="rounded-xl border border-slate-800 bg-black/40 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-lime-300">Key Data</p>
-          <LineList items={keyData.length ? keyData : [title]} />
-        </div>
-
-        <div className="rounded-xl border border-slate-800 bg-black/40 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-emerald-300">What The Odds Mean</p>
-          <LineList
-            items={
-              why.length
-                ? why
-                : ["This betting signal can affect price, value, market direction or reporting priorities."]
-            }
-          />
-        </div>
-
-        <div className="rounded-xl border border-slate-800 bg-black/40 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-cyan-300">What To Watch</p>
-          <LineList
-            items={
-              watch.length
-                ? watch
-                : ["Monitor injury news, lineup updates, weather, totals, spreads and late line movement."]
-            }
-          />
-        </div>
+        <DetailBlock title="Game" items={[game]} />
+        <DetailBlock title="Market" items={market.length ? market : asList(summary)} />
+        <DetailBlock
+          title="Implied Probability"
+          items={
+            impliedProbability.length
+              ? impliedProbability
+              : ["Monitor the moneyline to estimate the market's implied win probability."]
+          }
+        />
+        <DetailBlock
+          title="Why It Matters"
+          items={
+            why.length
+              ? why
+              : ["This betting signal can affect price, value, market direction or reporting priorities."]
+          }
+        />
+        <DetailBlock
+          title="What To Watch"
+          items={
+            watch.length
+              ? watch
+              : ["Monitor injury news, lineup updates, weather, totals, spreads and late line movement."]
+          }
+        />
       </div>
     </article>
   );
@@ -743,7 +772,7 @@ export default function Page() {
 
         <section className="space-y-6">
           {leadStories.map((story, index) => (
-            <StoryCard key={story.id || index} story={story} index={index} />
+            <StoryCard key={cleanText(story.id) || index} story={story} index={index} />
           ))}
         </section>
       </section>
