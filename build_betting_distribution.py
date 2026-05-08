@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -22,6 +23,47 @@ def stamp() -> str:
     return now_et().strftime("%Y-%m-%d %I:%M:%S %p ET")
 
 
+def clean_team_artifacts(text: str) -> str:
+    if not text:
+        return ""
+
+    replacements = {
+        "__TEAM_76 ERS__": "76ers",
+        "__TEAM_76ERS__": "76ers",
+        "__TEAM_49 ERS__": "49ers",
+        "__TEAM_49ERS__": "49ers",
+        "Philadelphia __TEAM_76 ERS__": "Philadelphia 76ers",
+        "Philadelphia __TEAM_76ERS__": "Philadelphia 76ers",
+        "San Francisco __TEAM_49 ERS__": "San Francisco 49ers",
+        "San Francisco __TEAM_49ERS__": "San Francisco 49ers",
+    }
+
+    for bad, good in replacements.items():
+        text = text.replace(bad, good)
+
+    text = re.sub(r"__TEAM_76\s*ERS__", "76ers", text)
+    text = re.sub(r"__TEAM_49\s*ERS__", "49ers", text)
+    text = text.replace("_TEAM_76 ERS_", "76ers")
+    text = text.replace("_TEAM_49 ERS_", "49ers")
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def normalize_bookmaker(text: str) -> str:
+    text = text.replace("Fan Duel", "FanDuel")
+    text = text.replace("Draft Kings", "DraftKings")
+    return text
+
+
+def clean_line(text: str) -> str:
+    text = str(text or "").strip()
+    text = clean_team_artifacts(text)
+    text = normalize_bookmaker(text)
+    text = text.replace("—", "-")
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
 def first_real_line(text: str) -> str:
     skip = {
         "GLOBAL SNAPSHOT",
@@ -31,25 +73,190 @@ def first_real_line(text: str) -> str:
         "MLB",
         "NHL",
         "NFL",
+        "DISCLAIMER",
     }
 
-    for line in text.splitlines():
-        line = line.strip(" -\t")
+    for raw in text.splitlines():
+        line = clean_line(raw).strip(" -\t")
         if not line:
             continue
         if "|" in line:
             continue
         if line.upper() in skip:
             continue
-        if len(line) > 30:
+        if line.lower().startswith(("bookmaker:", "moneyline:", "spread:", "total:")):
+            continue
+        if line.lower().startswith(("this report", "generated:", "editorial safety note")):
+            continue
+        if len(line) > 20:
             return line
 
     return "Global Betting Report is tracking the current odds board."
 
 
+def split_event_blocks(body: str) -> list[list[str]]:
+    lines = [clean_line(line) for line in body.splitlines() if clean_line(line)]
+    lines = [line for line in lines if line.upper() != "TOP BOARD"]
+
+    blocks: list[list[str]] = []
+    current: list[str] = []
+
+    for line in lines:
+        is_matchup = bool(re.search(r"\bat\b", line, flags=re.I)) and bool(
+            re.search(r"\d{1,2}:\d{2}\s*[AP]M\s*ET", line, flags=re.I)
+        )
+
+        if is_matchup and current:
+            blocks.append(current)
+            current = [line]
+        else:
+            current.append(line)
+
+    if current:
+        blocks.append(current)
+
+    return blocks[:5]
+
+
+def compress_event_block(block: list[str]) -> list[str]:
+    if not block:
+        return []
+
+    joined = " ".join(clean_line(line) for line in block if clean_line(line))
+    joined = re.sub(r"\s+", " ", joined).strip()
+
+    lines: list[str] = []
+
+    first = clean_line(block[0])
+    if first:
+        lines.append(f"Matchup: {first}")
+
+    bookmaker = re.search(r"Bookmaker:\s*([^:]+?)(?=\s+Moneyline:|\s+Spread:|\s+Total:|$)", joined, flags=re.I)
+    if bookmaker:
+        lines.append(f"Bookmaker: {clean_line(bookmaker.group(1))}")
+
+    moneyline = re.search(r"Moneyline:\s*(.*?)(?=\s+Spread:|\s+Total:|$)", joined, flags=re.I)
+    if moneyline:
+        lines.append(f"Moneyline: {clean_line(moneyline.group(1))}")
+
+    spread = re.search(r"Spread:\s*(.*?)(?=\s+Total:|$)", joined, flags=re.I)
+    if spread:
+        lines.append(f"Spread: {clean_line(spread.group(1))}")
+
+    total = re.search(r"Total:\s*(.*?)(?=\s+Bookmaker:|\s+BETTING MARKET NOTE|\s+EDITORIAL SAFETY NOTE|\s+Generated:|$)", joined, flags=re.I)
+    if total:
+        lines.append(f"Total: {clean_line(total.group(1))}")
+
+    return lines[:5]
+
+
+def build_clean_snapshot(body: str) -> str:
+    blocks = split_event_blocks(body)
+    clean_lines: list[str] = []
+
+    for block in blocks[:3]:
+        clean_lines.extend(compress_event_block(block))
+        clean_lines.append("")
+
+    if not clean_lines:
+        return first_real_line(body)
+
+    return "\n".join(clean_lines).strip()
+
+
+def build_key_data(headline: str, snapshot: str) -> list[str]:
+    data: list[str] = []
+
+    if headline:
+        data.append(f"Lead signal: {clean_line(headline)}")
+
+    moneyline = re.search(r"Moneyline:\s*(.+)", snapshot)
+    spread = re.search(r"Spread:\s*(.+)", snapshot)
+    total = re.search(r"Total:\s*(.+)", snapshot)
+
+    if moneyline:
+        data.append(f"Moneyline context: {clean_line(moneyline.group(1))}")
+    if spread:
+        data.append(f"Spread context: {clean_line(spread.group(1))}")
+    if total:
+        data.append(f"Total context: {clean_line(total.group(1))}")
+
+    return data[:4] or ["Current betting board is being monitored."]
+
+
+def build_odds_meaning(title: str) -> list[str]:
+    if "MLB" in title:
+        return [
+            "Pitching confirmations and weather can move MLB totals quickly.",
+            "Moneyline gaps show market confidence, but late lineup news still matters.",
+            "Check whether the favorite is becoming more expensive before first pitch.",
+        ]
+    if "NBA" in title:
+        return [
+            "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
+            "A short favorite price suggests a tighter market than the matchup name may imply.",
+            "Watch late movement near tipoff for sharper market signals.",
+        ]
+    if "NHL" in title:
+        return [
+            "Goalie confirmations can materially change NHL moneylines and totals.",
+            "Low totals make puck-line risk more important than raw favorite price.",
+            "Special teams and back-to-back scheduling can affect late movement.",
+        ]
+    if "NFL" in title:
+        return [
+            "NFL spreads often reflect quarterback, injury, and rest information quickly.",
+            "Prime-time markets can move late as public money arrives.",
+            "Compare the spread and moneyline together before reading market confidence.",
+        ]
+
+    return [
+        "Betting readers need more than the number; they need market context.",
+        "Track whether price, injuries, matchup edges, public money, or weather may be driving the line.",
+    ]
+
+
+def build_watch_items(title: str) -> list[str]:
+    base = [
+        "Line movement before game time.",
+        "Injury and lineup confirmations.",
+        "Late sportsbook adjustment across moneyline, spread, and total.",
+    ]
+
+    if "MLB" in title:
+        return [
+            "Starting pitcher confirmations.",
+            "Weather, wind, humidity, and postponement risk.",
+            "Bullpen usage and lineup scratches before first pitch.",
+        ]
+
+    if "NBA" in title:
+        return [
+            "Official injury report updates.",
+            "Rest and back-to-back spots.",
+            "Rotation news and late movement near tipoff.",
+        ]
+
+    if "NHL" in title:
+        return [
+            "Confirmed starting goalies.",
+            "Back-to-back scheduling and travel spots.",
+            "Totals movement after goalie news.",
+        ]
+
+    if "NFL" in title:
+        return [
+            "Quarterback and injury report movement.",
+            "Weather for outdoor games.",
+            "Prime-time public money and late spread movement.",
+        ]
+
+    return base
+
+
 def split_sections(text: str) -> list[dict]:
     league_titles = {"NBA", "MLB", "NHL", "NFL"}
-    cards = []
+    cards: list[dict] = []
 
     lines = text.splitlines()
     current_title = None
@@ -65,11 +272,18 @@ def split_sections(text: str) -> list[dict]:
         if not body:
             body = f"No current {current_title} betting board data was available during this report window."
 
+        body = clean_team_artifacts(body)
+        headline = first_real_line(body)
+        snapshot = build_clean_snapshot(body)
+
         cards.append(
             {
                 "title": f"{current_title} Betting Board",
-                "headline": first_real_line(body),
-                "snapshot": body,
+                "headline": headline,
+                "snapshot": snapshot,
+                "key_data": build_key_data(headline, snapshot),
+                "what_the_odds_mean": build_odds_meaning(f"{current_title} Betting Board"),
+                "what_to_watch": build_watch_items(f"{current_title} Betting Board"),
                 "source": "betting_odds_report.txt",
                 "updated_at": stamp(),
             }
@@ -103,6 +317,15 @@ def build_support_cards(text: str, current_stamp: str) -> list[dict]:
                 "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored "
                 "for betting-market movement."
             ),
+            "key_data": ["Market board is active across available leagues."],
+            "what_the_odds_mean": [
+                "Line movement matters most when it connects to injuries, weather, roster news, or sportsbook adjustment."
+            ],
+            "what_to_watch": [
+                "Track favorites getting more expensive or underdogs drawing late money.",
+                "Watch totals in weather-sensitive games.",
+                "Compare sportsbook movement before treating one number as the full market.",
+            ],
             "source": "betting_odds_report.txt",
             "updated_at": current_stamp,
         },
@@ -113,6 +336,13 @@ def build_support_cards(text: str, current_stamp: str) -> list[dict]:
                 "Track line movement, injury news, starting lineup changes, pitching confirmations, "
                 "weather, rest advantages, and late market steam before making any betting decision."
             ),
+            "key_data": ["Betting context requires line movement plus supporting news."],
+            "what_the_odds_mean": [
+                "A number alone is not a recommendation. Context explains why the market may be moving."
+            ],
+            "what_to_watch": [
+                "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
+            ],
             "source": "GSR betting desk",
             "updated_at": current_stamp,
         },
@@ -136,6 +366,7 @@ def build_homepage_cards(sections: list[dict]) -> list[dict]:
 
 def build_payload(text: str) -> dict:
     current_stamp = stamp()
+    text = clean_team_artifacts(text)
     headline = first_real_line(text)
 
     sections = split_sections(text)
@@ -146,7 +377,7 @@ def build_payload(text: str) -> dict:
             {
                 "title": "Betting Odds",
                 "headline": headline,
-                "snapshot": text,
+                "snapshot": build_clean_snapshot(text),
                 "source": "betting_odds_report.txt",
                 "updated_at": current_stamp,
             }
@@ -165,8 +396,14 @@ def build_payload(text: str) -> dict:
         "updated_at": current_stamp,
         "generated_at": current_stamp,
         "generated_utc": datetime.now(timezone.utc).isoformat(),
-        "source_mode": "multi-card odds report distribution",
+        "source_mode": "clean multi-card odds report distribution",
         "homepage_cards": build_homepage_cards(sections),
+        "live_newsroom": build_homepage_cards(sections),
+        "editor_signals": [
+            section.get("headline", "")
+            for section in sections[:5]
+            if section.get("headline")
+        ],
         "sections": sections,
     }
 
@@ -187,7 +424,7 @@ def main() -> int:
     payload = build_payload(text)
 
     OUTPUT_JSON.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    OUTPUT_TXT.write_text(text + "\n", encoding="utf-8")
+    OUTPUT_TXT.write_text(clean_team_artifacts(text) + "\n", encoding="utf-8")
 
     print(f"[OK] Wrote {OUTPUT_JSON}")
     print(f"[OK] Wrote {OUTPUT_TXT}")
