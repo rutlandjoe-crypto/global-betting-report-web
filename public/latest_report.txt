@@ -1,212 +1,112 @@
 BETTING ODDS REPORT | 2026-05-08
 
-HEADLINE
-NBA: Oklahoma City Thunder priced as heavy favorite vs Los Angeles Lakers (-360)
-
-SNAPSHOT
-A full multi-league betting board is live, giving the desk enough volume to compare favorites, totals and matchup pricing.
-
-KEY DATA
-- Total games checked: 23
-- Market cards generated: 14
-- Odds API key found: True
-
-EDITORIAL SIGNALS
-- Lead market: NBA: Oklahoma City Thunder priced as heavy favorite vs Los Angeles Lakers (-360)
-- Total games checked: 23.
-- Cards prioritize implied probability, expected margin and scoring environment instead of raw odds alone.
-- Betting context should remain descriptive and journalist-facing, not prescriptive wagering advice.
-- Active sports on board: MLB, NBA, NFL, NHL.
-
-Global Betting Report reads the board through moneylines, spreads and totals, then translates those prices into newsroom context for betting-focused readers.
+Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.
 
 GLOBAL SNAPSHOT
-A full multi-league betting board is live, giving the desk enough volume to compare favorites, totals and matchup pricing.
+A full betting board is in place across multiple leagues, offering broad market coverage.
 
 NBA
 TOP BOARD
 
-New York Knicks at Philadelphia 76ers — 7:10 PM ET
-Bookmaker: FanDuel
+New York Knicks at Philadelphia 76ers - 7:10 PM ET
+Bookmaker: Fan Duel
 Moneyline: New York Knicks +100 / Philadelphia 76ers -118
-Spread: New York Knicks +1.5 (-108) / Philadelphia 76ers -1.5 (-112)
-Total: +213.5 (Over -114 / Under -106)
-Market read:
-- Philadelphia 76ers carries an implied win probability of approximately 54.1% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Philadelphia 76ers before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: New York Knicks 1.5 (-108) / Philadelphia 76ers -1.5 (-112)
+Total: 213.5 (Over -114 / Under -106)
 
-San Antonio Spurs at Minnesota Timberwolves — 9:40 PM ET
-Bookmaker: FanDuel
+San Antonio Spurs at Minnesota Timberwolves - 9:40 PM ET
+Bookmaker: Fan Duel
 Moneyline: San Antonio Spurs -190 / Minnesota Timberwolves +160
-Spread: San Antonio Spurs -4.5 (-106) / Minnesota Timberwolves +4.5 (-114)
-Total: +216.5 (Over -110 / Under -110)
-Market read:
-- San Antonio Spurs carries an implied win probability of approximately 65.5% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward San Antonio Spurs before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: San Antonio Spurs -4.5 (-106) / Minnesota Timberwolves 4.5 (-114)
+Total: 216.5 (Over -110 / Under -110)
 
-Detroit Pistons at Cleveland Cavaliers — 3:10 PM ET
-Bookmaker: FanDuel
+Detroit Pistons at Cleveland Cavaliers - 3:10 PM ET
+Bookmaker: Fan Duel
 Moneyline: Detroit Pistons +148 / Cleveland Cavaliers -176
-Spread: Detroit Pistons +4.5 (-118) / Cleveland Cavaliers -4.5 (-104)
-Total: +211.5 (Over -110 / Under -110)
-Market read:
-- Cleveland Cavaliers carries an implied win probability of approximately 63.8% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Cleveland Cavaliers before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: Detroit Pistons 4.5 (-118) / Cleveland Cavaliers -4.5 (-104)
+Total: 211.5 (Over -110 / Under -110)
 
-Oklahoma City Thunder at Los Angeles Lakers — 8:40 PM ET
-Bookmaker: FanDuel
+Oklahoma City Thunder at Los Angeles Lakers - 8:40 PM ET
+Bookmaker: Fan Duel
 Moneyline: Oklahoma City Thunder -360 / Los Angeles Lakers +290
-Spread: Oklahoma City Thunder -9.5 (-104) / Los Angeles Lakers +9.5 (-118)
-Total: +211.5 (Over -110 / Under -110)
-Market read:
-- Oklahoma City Thunder carries an implied win probability of approximately 78.3% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Oklahoma City Thunder before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: Oklahoma City Thunder -9.5 (-104) / Los Angeles Lakers 9.5 (-118)
+Total: 211.5 (Over -110 / Under -110)
 
 MLB
 TOP BOARD
 
-Houston Astros at Cincinnati Reds — 6:11 PM ET
-Bookmaker: FanDuel
+Houston Astros at Cincinnati Reds - 6:11 PM ET
+Bookmaker: Fan Duel
 Moneyline: Houston Astros +110 / Cincinnati Reds -130
-Spread: Houston Astros +1.5 (-184) / Cincinnati Reds -1.5 (+152)
-Total: +9.5 (Over -105 / Under -115)
-Market read:
-- Cincinnati Reds carries an implied win probability of approximately 56.5% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Cincinnati Reds before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: Houston Astros 1.5 (-184) / Cincinnati Reds -1.5 (+152)
+Total: 9.5 (Over -105 / Under -115)
 
-Colorado Rockies at Philadelphia Phillies — 6:41 PM ET
-Bookmaker: FanDuel
+Colorado Rockies at Philadelphia Phillies - 6:41 PM ET
+Bookmaker: Fan Duel
 Moneyline: Colorado Rockies +184 / Philadelphia Phillies -220
-Spread: Colorado Rockies +1.5 (-126) / Philadelphia Phillies -1.5 (+105)
-Total: +7.5 (Over -112 / Under -108)
-Market read:
-- Philadelphia Phillies carries an implied win probability of approximately 68.8% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Philadelphia Phillies before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: Colorado Rockies 1.5 (-126) / Philadelphia Phillies -1.5 (+105)
+Total: 7.5 (Over -112 / Under -108)
 
-Athletics at Baltimore Orioles — 7:06 PM ET
-Bookmaker: FanDuel
+Athletics at Baltimore Orioles - 7:06 PM ET
+Bookmaker: Fan Duel
 Moneyline: Athletics +124 / Baltimore Orioles -146
-Spread: Athletics +1.5 (-160) / Baltimore Orioles -1.5 (+132)
-Total: +9.5 (Over +104 / Under -128)
-Market read:
-- Baltimore Orioles carries an implied win probability of approximately 59.3% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Baltimore Orioles before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: Athletics 1.5 (-160) / Baltimore Orioles -1.5 (+132)
+Total: 9.5 (Over +104 / Under -128)
 
-Los Angeles Angels at Toronto Blue Jays — 7:08 PM ET
-Bookmaker: FanDuel
+Los Angeles Angels at Toronto Blue Jays - 7:08 PM ET
+Bookmaker: Fan Duel
 Moneyline: Los Angeles Angels +136 / Toronto Blue Jays -162
-Spread: Los Angeles Angels +1.5 (-166) / Toronto Blue Jays -1.5 (+138)
-Total: +7.5 (Over -110 / Under -110)
-Market read:
-- Toronto Blue Jays carries an implied win probability of approximately 61.8% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Toronto Blue Jays before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: Los Angeles Angels 1.5 (-166) / Toronto Blue Jays -1.5 (+138)
+Total: 7.5 (Over -110 / Under -110)
 
-Tampa Bay Rays at Boston Red Sox — 7:11 PM ET
-Bookmaker: FanDuel
+Tampa Bay Rays at Boston Red Sox - 7:11 PM ET
+Bookmaker: Fan Duel
 Moneyline: Tampa Bay Rays +122 / Boston Red Sox -144
-Spread: Tampa Bay Rays +1.5 (-176) / Boston Red Sox -1.5 (+146)
-Total: +8.5 (Over -115 / Under -105)
-Market read:
-- Boston Red Sox carries an implied win probability of approximately 59.0% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Boston Red Sox before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
-
-Washington Nationals at Miami Marlins — 7:11 PM ET
-Bookmaker: FanDuel
-Moneyline: Washington Nationals +108 / Miami Marlins -126
-Spread: Washington Nationals +1.5 (-205) / Miami Marlins -1.5 (+168)
-Total: +8 (Over -115 / Under -105)
-Market read:
-- Miami Marlins carries an implied win probability of approximately 55.8% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Miami Marlins before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
-
-Minnesota Twins at Cleveland Guardians — 7:16 PM ET
-Bookmaker: FanDuel
-Moneyline: Minnesota Twins +118 / Cleveland Guardians -138
-Spread: Minnesota Twins +1.5 (-188) / Cleveland Guardians -1.5 (+155)
-Total: +7.5 (Over -124 / Under +102)
-Market read:
-- Cleveland Guardians carries an implied win probability of approximately 58.0% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Cleveland Guardians before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
-
-Seattle Mariners at Chicago White Sox — 7:41 PM ET
-Bookmaker: FanDuel
-Moneyline: Seattle Mariners -142 / Chicago White Sox +120
-Spread: Seattle Mariners -1.5 (+126) / Chicago White Sox +1.5 (-152)
-Total: +7.5 (Over -124 / Under +102)
-Market read:
-- Seattle Mariners carries an implied win probability of approximately 58.7% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Seattle Mariners before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146)
+Total: 8.5 (Over -115 / Under -105)
 
 NHL
 TOP BOARD
 
-Montréal Canadiens at Buffalo Sabres — 7:00 PM ET
-Bookmaker: FanDuel
+Montréal Canadiens at Buffalo Sabres - 7:00 PM ET
+Bookmaker: Fan Duel
 Moneyline: Montréal Canadiens +112 / Buffalo Sabres -134
-Spread: Montréal Canadiens +1.5 (-220) / Buffalo Sabres -1.5 (+176)
-Total: +5.5 (Over -124 / Under +102)
-Market read:
-- Buffalo Sabres carries an implied win probability of approximately 57.3% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Buffalo Sabres before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: Montréal Canadiens 1.5 (-220) / Buffalo Sabres -1.5 (+176)
+Total: 5.5 (Over -124 / Under +102)
 
-Vegas Golden Knights at Anaheim Ducks — 9:30 PM ET
-Bookmaker: FanDuel
+Vegas Golden Knights at Anaheim Ducks - 9:30 PM ET
+Bookmaker: Fan Duel
 Moneyline: Vegas Golden Knights -115 / Anaheim Ducks -105
-Spread: Vegas Golden Knights -1.5 (+205) / Anaheim Ducks +1.5 (-260)
-Total: +6.5 (Over +114 / Under -140)
-Market read:
-- Vegas Golden Knights carries an implied win probability of approximately 53.5% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Vegas Golden Knights before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-260)
+Total: 6.5 (Over +114 / Under -140)
 
-Carolina Hurricanes at Philadelphia Flyers — 6:00 PM ET
-Bookmaker: FanDuel
+Carolina Hurricanes at Philadelphia Flyers - 6:00 PM ET
+Bookmaker: Fan Duel
 Moneyline: Carolina Hurricanes -182 / Philadelphia Flyers +150
-Spread: Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers +1.5 (-170)
-Total: +5.5 (Over +120 / Under -148)
-Market read:
-- Carolina Hurricanes carries an implied win probability of approximately 64.5% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Carolina Hurricanes before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers 1.5 (-170)
+Total: 5.5 (Over +120 / Under -148)
 
-Colorado Avalanche at Minnesota Wild — 9:10 PM ET
-Bookmaker: DraftKings
+Colorado Avalanche at Minnesota Wild - 9:10 PM ET
+Bookmaker: Draft Kings
 Moneyline: Colorado Avalanche -130 / Minnesota Wild +110
-Spread: Colorado Avalanche -1.5 (+200) / Minnesota Wild +1.5 (-245)
-Total: +6.5 (Over +110 / Under -130)
-Market read:
-- Colorado Avalanche carries an implied win probability of approximately 56.5% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Colorado Avalanche before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: Colorado Avalanche -1.5 (+200) / Minnesota Wild 1.5 (-245)
+Total: 6.5 (Over +110 / Under -130)
 
 NFL
 TOP BOARD
 
-San Francisco 49ers at Los Angeles Rams — 8:35 PM ET
-Bookmaker: DraftKings
+San Francisco 49ers at Los Angeles Rams - 8:35 PM ET
+Bookmaker: Draft Kings
 Moneyline: San Francisco 49ers +124 / Los Angeles Rams -148
-Spread: San Francisco 49ers +2.5 (+100) / Los Angeles Rams -2.5 (-120)
-Total: +48.5 (Over -110 / Under -110)
-Market read:
-- Los Angeles Rams carries an implied win probability of approximately 59.7% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Los Angeles Rams before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+Spread: San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120)
+Total: 48.5 (Over -110 / Under -110)
 
 BETTING MARKET NOTE
-Odds are a market signal, not a prediction guarantee. Moneylines show implied win probability, spreads show expected margin, and totals frame the scoring environment. Lines may move quickly and can vary by sportsbook.
+This report reflects publicly available odds data at the time of generation. Lines may move and can vary across sportsbooks.
 
-This report is an automated betting-market summary intended to support, not replace, human sports journalism. It is not betting advice.
-Generated: 2026-05-08 01:51:32 AM ET
+EDITORIAL SAFETY NOTE
+If live odds are unavailable, Global Betting Report still publishes market-watch guidance so readers can monitor the betting board without mistaking stale odds for current prices.
+
+This report is an automated summary intended to support, not replace, human sports journalism.
+
+Generated: 2026-05-08 01:52:24 AM ET
