@@ -5,29 +5,29 @@
   "title": "Global Betting Report",
   "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-08 12:55:02 AM ET",
-  "generated_at": "2026-05-08 12:55:02 AM ET",
-  "generated_utc": "2026-05-08T04:55:02.533198+00:00",
+  "updated_at": "2026-05-08 01:20:30 AM ET",
+  "generated_at": "2026-05-08 01:20:30 AM ET",
+  "generated_utc": "2026-05-08T05:20:30.227087+00:00",
   "source_mode": "multi-card odds report distribution",
   "homepage_cards": [
     {
       "league": "NBA Betting Board",
-      "headline": "Live odds feed unavailable because no Odds API key is configured.",
+      "headline": "New York Knicks at Philadelphia __TEAM_76 ERS__ - 7:10 PM ET",
       "url": "https://www.globalbettingreport.com"
     },
     {
       "league": "MLB Betting Board",
-      "headline": "Live odds feed unavailable because no Odds API key is configured.",
+      "headline": "Houston Astros at Cincinnati Reds - 6:11 PM ET",
       "url": "https://www.globalbettingreport.com"
     },
     {
       "league": "NHL Betting Board",
-      "headline": "Live odds feed unavailable because no Odds API key is configured.",
+      "headline": "Montréal Canadiens at Buffalo Sabres - 7:00 PM ET",
       "url": "https://www.globalbettingreport.com"
     },
     {
       "league": "NFL Betting Board",
-      "headline": "Live odds feed unavailable because no Odds API key is configured.",
+      "headline": "San Francisco __TEAM_49 ERS__ at Los Angeles Rams - 8:35 PM ET",
       "url": "https://www.globalbettingreport.com"
     },
     {
@@ -44,45 +44,45 @@
   "sections": [
     {
       "title": "NBA Betting Board",
-      "headline": "Live odds feed unavailable because no Odds API key is configured.",
-      "snapshot": "Live odds feed unavailable because no Odds API key is configured.\n\nMARKET WATCH\n- Monitor injury reports, rest situations, rotation news, and late scratches before tipoff.\n- Watch totals closely when pace, back-to-back scheduling, or defensive absences affect expected scoring.\n- Track spread movement when star-player availability changes close to game time.\n\nBETTOR CONTEXT\nWhen live prices are unavailable, avoid treating stale lines as current. Use this window to monitor injuries, schedules, lineup confirmations, weather, market movement, and sportsbook-by-sportsbook differences before making decisions.",
+      "headline": "New York Knicks at Philadelphia __TEAM_76 ERS__ - 7:10 PM ET",
+      "snapshot": "TOP BOARD\n\nNew York Knicks at Philadelphia __TEAM_76 ERS__ - 7:10 PM ET\nBookmaker: Fan Duel\nMoneyline: New York Knicks +100 / Philadelphia __TEAM_76 ERS__ -118\nSpread: New York Knicks 1.5 (-108) / Philadelphia __TEAM_76 ERS__ -1.5 (-112)\nTotal: 213.5 (Over -114 / Under -106)\n\nSan Antonio Spurs at Minnesota Timberwolves - 9:40 PM ET\nBookmaker: Fan Duel\nMoneyline: San Antonio Spurs -190 / Minnesota Timberwolves +160\nSpread: San Antonio Spurs -4.5 (-106) / Minnesota Timberwolves 4.5 (-114)\nTotal: 216.5 (Over -110 / Under -110)\n\nDetroit Pistons at Cleveland Cavaliers - 3:10 PM ET\nBookmaker: Fan Duel\nMoneyline: Detroit Pistons +148 / Cleveland Cavaliers -176\nSpread: Detroit Pistons 4.5 (-118) / Cleveland Cavaliers -4.5 (-104)\nTotal: 211.5 (Over -110 / Under -110)\n\nOklahoma City Thunder at Los Angeles Lakers - 8:40 PM ET\nBookmaker: Fan Duel\nMoneyline: Oklahoma City Thunder -370 / Los Angeles Lakers +295\nSpread: Oklahoma City Thunder -9.5 (-108) / Los Angeles Lakers 9.5 (-112)\nTotal: 211.5 (Over -110 / Under -110)",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 12:55:02 AM ET"
+      "updated_at": "2026-05-08 01:20:30 AM ET"
     },
     {
       "title": "MLB Betting Board",
-      "headline": "Live odds feed unavailable because no Odds API key is configured.",
-      "snapshot": "Live odds feed unavailable because no Odds API key is configured.\n\nMARKET WATCH\n- Monitor confirmed starting pitchers, bullpen usage, lineup cards, weather, and park factors.\n- Watch totals closely when wind, temperature, or pitching changes affect run-scoring conditions.\n- Track moneyline movement after lineup releases and late pitching updates.\n\nBETTOR CONTEXT\nWhen live prices are unavailable, avoid treating stale lines as current. Use this window to monitor injuries, schedules, lineup confirmations, weather, market movement, and sportsbook-by-sportsbook differences before making decisions.",
+      "headline": "Houston Astros at Cincinnati Reds - 6:11 PM ET",
+      "snapshot": "TOP BOARD\n\nHouston Astros at Cincinnati Reds - 6:11 PM ET\nBookmaker: Fan Duel\nMoneyline: Houston Astros +110 / Cincinnati Reds -130\nSpread: Houston Astros 1.5 (-184) / Cincinnati Reds -1.5 (+152)\nTotal: 9.5 (Over -105 / Under -115)\n\nColorado Rockies at Philadelphia Phillies - 6:41 PM ET\nBookmaker: Fan Duel\nMoneyline: Colorado Rockies +184 / Philadelphia Phillies -220\nSpread: Colorado Rockies 1.5 (-128) / Philadelphia Phillies -1.5 (+106)\nTotal: 7.5 (Over -112 / Under -108)\n\nAthletics at Baltimore Orioles - 7:06 PM ET\nBookmaker: Fan Duel\nMoneyline: Athletics +124 / Baltimore Orioles -146\nSpread: Athletics 1.5 (-160) / Baltimore Orioles -1.5 (+132)\nTotal: 9.5 (Over +104 / Under -128)\n\nLos Angeles Angels at Toronto Blue Jays - 7:08 PM ET\nBookmaker: Fan Duel\nMoneyline: Los Angeles Angels +136 / Toronto Blue Jays -162\nSpread: Los Angeles Angels 1.5 (-166) / Toronto Blue Jays -1.5 (+138)\nTotal: 7.5 (Over -110 / Under -110)\n\nTampa Bay Rays at Boston Red Sox - 7:11 PM ET\nBookmaker: Fan Duel\nMoneyline: Tampa Bay Rays +122 / Boston Red Sox -144\nSpread: Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146)\nTotal: 8.5 (Over -115 / Under -105)",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 12:55:02 AM ET"
+      "updated_at": "2026-05-08 01:20:30 AM ET"
     },
     {
       "title": "NHL Betting Board",
-      "headline": "Live odds feed unavailable because no Odds API key is configured.",
-      "snapshot": "Live odds feed unavailable because no Odds API key is configured.\n\nMARKET WATCH\n- Monitor confirmed starting goalies, back-to-back spots, special-teams form, and late injury news.\n- Watch totals closely when goalie changes or defensive absences shift expected scoring.\n- Track puck-line and moneyline movement as goalie confirmations arrive.\n\nBETTOR CONTEXT\nWhen live prices are unavailable, avoid treating stale lines as current. Use this window to monitor injuries, schedules, lineup confirmations, weather, market movement, and sportsbook-by-sportsbook differences before making decisions.",
+      "headline": "Montréal Canadiens at Buffalo Sabres - 7:00 PM ET",
+      "snapshot": "TOP BOARD\n\nMontréal Canadiens at Buffalo Sabres - 7:00 PM ET\nBookmaker: Fan Duel\nMoneyline: Montréal Canadiens +112 / Buffalo Sabres -134\nSpread: Montréal Canadiens 1.5 (-220) / Buffalo Sabres -1.5 (+176)\nTotal: 5.5 (Over -124 / Under +102)\n\nVegas Golden Knights at Anaheim Ducks - 9:30 PM ET\nBookmaker: Fan Duel\nMoneyline: Vegas Golden Knights -115 / Anaheim Ducks -105\nSpread: Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-260)\nTotal: 6.5 (Over +114 / Under -140)\n\nCarolina Hurricanes at Philadelphia Flyers - 6:00 PM ET\nBookmaker: Fan Duel\nMoneyline: Carolina Hurricanes -182 / Philadelphia Flyers +150\nSpread: Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers 1.5 (-170)\nTotal: 5.5 (Over +120 / Under -148)\n\nColorado Avalanche at Minnesota Wild - 9:10 PM ET\nBookmaker: Draft Kings\nMoneyline: Colorado Avalanche -130 / Minnesota Wild +110\nSpread: Colorado Avalanche -1.5 (+200) / Minnesota Wild 1.5 (-245)\nTotal: 6.5 (Over +110 / Under -130)",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 12:55:02 AM ET"
+      "updated_at": "2026-05-08 01:20:30 AM ET"
     },
     {
       "title": "NFL Betting Board",
-      "headline": "Live odds feed unavailable because no Odds API key is configured.",
-      "snapshot": "Live odds feed unavailable because no Odds API key is configured.\n\nMARKET WATCH\n- Monitor injury reports, quarterback status, weather, offensive-line availability, and practice trends.\n- Watch totals closely when wind, rain, snow, or tempo expectations affect scoring conditions.\n- Track spread movement around major injury updates and market reaction to public betting pressure.\n\nBETTOR CONTEXT\nWhen live prices are unavailable, avoid treating stale lines as current. Use this window to monitor injuries, schedules, lineup confirmations, weather, market movement, and sportsbook-by-sportsbook differences before making decisions.\n\nBETTING MARKET NOTE\nThis report reflects publicly available odds data at the time of generation. Lines may move and can vary across sportsbooks.\n\nEDITORIAL SAFETY NOTE\nIf live odds are unavailable, Global Betting Report still publishes market-watch guidance so readers can monitor the betting board without mistaking stale odds for current prices.\n\nThis report is an automated summary intended to support, not replace, human sports journalism.\n\nGenerated: 2026-05-08 12:55:02 AM ET",
+      "headline": "San Francisco __TEAM_49 ERS__ at Los Angeles Rams - 8:35 PM ET",
+      "snapshot": "TOP BOARD\n\nSan Francisco __TEAM_49 ERS__ at Los Angeles Rams - 8:35 PM ET\nBookmaker: Draft Kings\nMoneyline: San Francisco __TEAM_49 ERS__ +124 / Los Angeles Rams -148\nSpread: San Francisco __TEAM_49 ERS__ 2.5 (+100) / Los Angeles Rams -2.5 (-120)\nTotal: 48.5 (Over -110 / Under -110)\n\nBETTING MARKET NOTE\nThis report reflects publicly available odds data at the time of generation. Lines may move and can vary across sportsbooks.\n\nEDITORIAL SAFETY NOTE\nIf live odds are unavailable, Global Betting Report still publishes market-watch guidance so readers can monitor the betting board without mistaking stale odds for current prices.\n\nThis report is an automated summary intended to support, not replace, human sports journalism.\n\nGenerated: 2026-05-08 01:20:30 AM ET",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 12:55:02 AM ET"
+      "updated_at": "2026-05-08 01:20:30 AM ET"
     },
     {
       "title": "Market Watch",
       "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
       "snapshot": "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored for betting-market movement.",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 12:55:02 AM ET"
+      "updated_at": "2026-05-08 01:20:30 AM ET"
     },
     {
       "title": "Betting Context",
       "headline": "What bettors should monitor today",
       "snapshot": "Track line movement, injury news, starting lineup changes, pitching confirmations, weather, rest advantages, and late market steam before making any betting decision.",
       "source": "GSR betting desk",
-      "updated_at": "2026-05-08 12:55:02 AM ET"
+      "updated_at": "2026-05-08 01:20:30 AM ET"
     }
   ]
 }
