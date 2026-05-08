@@ -23,16 +23,134 @@ def stamp() -> str:
 
 
 def first_real_line(text: str) -> str:
+    skip = {
+        "GLOBAL SNAPSHOT",
+        "BETTING MARKET NOTE",
+        "TOP BOARD",
+        "NBA",
+        "MLB",
+        "NHL",
+        "NFL",
+    }
+
     for line in text.splitlines():
         line = line.strip(" -\t")
-        if len(line) > 30 and "|" not in line:
+        if not line:
+            continue
+        if "|" in line:
+            continue
+        if line.upper() in skip:
+            continue
+        if len(line) > 30:
             return line
+
     return "Global Betting Report is tracking the current odds board."
+
+
+def split_sections(text: str) -> list[dict]:
+    league_titles = {"NBA", "MLB", "NHL", "NFL"}
+    cards = []
+
+    lines = text.splitlines()
+    current_title = None
+    current_lines: list[str] = []
+
+    def flush():
+        nonlocal current_title, current_lines
+
+        if not current_title:
+            return
+
+        body = "\n".join(current_lines).strip()
+        if not body:
+            body = f"No current {current_title} betting board data was available during this report window."
+
+        cards.append(
+            {
+                "title": f"{current_title} Betting Board",
+                "headline": first_real_line(body),
+                "snapshot": body,
+                "source": "betting_odds_report.txt",
+                "updated_at": stamp(),
+            }
+        )
+
+    for raw in lines:
+        line = raw.strip()
+
+        if line in league_titles:
+            flush()
+            current_title = line
+            current_lines = []
+            continue
+
+        if current_title:
+            current_lines.append(raw)
+
+    flush()
+
+    return cards
+
+
+def build_support_cards(text: str, current_stamp: str) -> list[dict]:
+    headline = first_real_line(text)
+
+    return [
+        {
+            "title": "Market Watch",
+            "headline": headline,
+            "snapshot": (
+                "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored "
+                "for betting-market movement."
+            ),
+            "source": "betting_odds_report.txt",
+            "updated_at": current_stamp,
+        },
+        {
+            "title": "Betting Context",
+            "headline": "What bettors should monitor today",
+            "snapshot": (
+                "Track line movement, injury news, starting lineup changes, pitching confirmations, "
+                "weather, rest advantages, and late market steam before making any betting decision."
+            ),
+            "source": "GSR betting desk",
+            "updated_at": current_stamp,
+        },
+    ]
+
+
+def build_homepage_cards(sections: list[dict]) -> list[dict]:
+    cards = []
+
+    for section in sections[:8]:
+        cards.append(
+            {
+                "league": section.get("title", "Betting"),
+                "headline": section.get("headline", "Global Betting Report market update"),
+                "url": "https://www.globalbettingreport.com",
+            }
+        )
+
+    return cards
 
 
 def build_payload(text: str) -> dict:
     current_stamp = stamp()
     headline = first_real_line(text)
+
+    sections = split_sections(text)
+    sections.extend(build_support_cards(text, current_stamp))
+
+    if not sections:
+        sections = [
+            {
+                "title": "Betting Odds",
+                "headline": headline,
+                "snapshot": text,
+                "source": "betting_odds_report.txt",
+                "updated_at": current_stamp,
+            }
+        ]
 
     return {
         "site": "Global Betting Report",
@@ -47,16 +165,9 @@ def build_payload(text: str) -> dict:
         "updated_at": current_stamp,
         "generated_at": current_stamp,
         "generated_utc": datetime.now(timezone.utc).isoformat(),
-        "source_mode": "odds report text distribution",
-        "sections": [
-            {
-                "title": "Betting Odds",
-                "headline": headline,
-                "snapshot": text,
-                "source": "betting_odds_report.txt",
-                "updated_at": current_stamp,
-            }
-        ],
+        "source_mode": "multi-card odds report distribution",
+        "homepage_cards": build_homepage_cards(sections),
+        "sections": sections,
     }
 
 
@@ -80,6 +191,8 @@ def main() -> int:
 
     print(f"[OK] Wrote {OUTPUT_JSON}")
     print(f"[OK] Wrote {OUTPUT_TXT}")
+    print(f"[CHECK] Betting sections: {len(payload.get('sections', []))}")
+    print(f"[CHECK] Homepage cards: {len(payload.get('homepage_cards', []))}")
     print(f"[{stamp()}] BETTING BUILD COMPLETE")
     return 0
 
