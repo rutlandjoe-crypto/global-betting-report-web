@@ -32,6 +32,8 @@ def clean_team_artifacts(text: str) -> str:
         "__TEAM_76ERS__": "76ers",
         "__TEAM_49 ERS__": "49ers",
         "__TEAM_49ERS__": "49ers",
+        "_TEAM_76 ERS_": "76ers",
+        "_TEAM_49 ERS_": "49ers",
         "Philadelphia __TEAM_76 ERS__": "Philadelphia 76ers",
         "Philadelphia __TEAM_76ERS__": "Philadelphia 76ers",
         "San Francisco __TEAM_49 ERS__": "San Francisco 49ers",
@@ -43,9 +45,7 @@ def clean_team_artifacts(text: str) -> str:
 
     text = re.sub(r"__TEAM_76\s*ERS__", "76ers", text)
     text = re.sub(r"__TEAM_49\s*ERS__", "49ers", text)
-    text = text.replace("_TEAM_76 ERS_", "76ers")
-    text = text.replace("_TEAM_49 ERS_", "49ers")
-    text = re.sub(r"\s+", " ", text)
+
     return text.strip()
 
 

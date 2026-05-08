@@ -97,9 +97,31 @@ def format_time(dt_str: str) -> str:
 def clean_text(value, fallback="N/A") -> str:
     if value is None:
         return fallback
-    value = str(value).strip()
-    return value if value else fallback
 
+    value = str(value)
+
+    replacements = {
+        "__TEAM_76 ERS__": "76ers",
+        "__TEAM_76ERS__": "76ers",
+        "__TEAM_49 ERS__": "49ers",
+        "__TEAM_49ERS__": "49ers",
+        "_TEAM_76 ERS_": "76ers",
+        "_TEAM_49 ERS_": "49ers",
+        "Philadelphia __TEAM_76 ERS__": "Philadelphia 76ers",
+        "Philadelphia __TEAM_76ERS__": "Philadelphia 76ers",
+        "San Francisco __TEAM_49 ERS__": "San Francisco 49ers",
+        "San Francisco __TEAM_49ERS__": "San Francisco 49ers",
+    }
+
+    for bad, good in replacements.items():
+        value = value.replace(bad, good)
+
+    value = re.sub(r"__TEAM_76\s*ERS__", "76ers", value)
+    value = re.sub(r"__TEAM_49\s*ERS__", "49ers", value)
+
+    value = re.sub(r"\s+", " ", value).strip()
+
+    return value if value else fallback
 
 def safe_slug(value: str) -> str:
     text = clean_text(value, "").lower()
