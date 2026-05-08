@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-08 03:16:48 AM ET",
-  "generated_at": "2026-05-08 03:16:48 AM ET",
-  "generated_utc": "2026-05-08T07:16:48.065680+00:00",
+  "updated_at": "2026-05-08 05:06:28 AM ET",
+  "generated_at": "2026-05-08 05:06:28 AM ET",
+  "generated_utc": "2026-05-08T09:06:28.167385+00:00",
   "source_mode": "clean multi-card odds report distribution",
   "homepage_cards": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "league": "NHL Betting Board",
-      "headline": "Montréal Canadiens at Buffalo Sabres - 7:00 PM ET",
+      "headline": "Montréal Canadiens at Buffalo Sabres - 7:10 PM ET",
       "url": "https://www.globalbettingreport.com"
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "league": "NHL Betting Board",
-      "headline": "Montréal Canadiens at Buffalo Sabres - 7:00 PM ET",
+      "headline": "Montréal Canadiens at Buffalo Sabres - 7:10 PM ET",
       "url": "https://www.globalbettingreport.com"
     },
     {
@@ -76,7 +76,7 @@
   "editor_signals": [
     "New York Knicks at Philadelphia 76ers - 7:10 PM ET",
     "Houston Astros at Cincinnati Reds - 6:11 PM ET",
-    "Montréal Canadiens at Buffalo Sabres - 7:00 PM ET",
+    "Montréal Canadiens at Buffalo Sabres - 7:10 PM ET",
     "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
     "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook."
   ],
@@ -102,7 +102,7 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 03:16:48 AM ET"
+      "updated_at": "2026-05-08 05:06:28 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -125,17 +125,17 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 03:16:48 AM ET"
+      "updated_at": "2026-05-08 05:06:28 AM ET"
     },
     {
       "title": "NHL Betting Board",
-      "headline": "Montréal Canadiens at Buffalo Sabres - 7:00 PM ET",
-      "snapshot": "Matchup: Montréal Canadiens at Buffalo Sabres - 7:00 PM ET\nBookmaker: FanDuel\nMoneyline: Montréal Canadiens +112 / Buffalo Sabres -134\nSpread: Montréal Canadiens 1.5 (-220) / Buffalo Sabres -1.5 (+176)\nTotal: 5.5 (Over -124 / Under +102)\n\nMatchup: Vegas Golden Knights at Anaheim Ducks - 9:30 PM ET\nBookmaker: FanDuel\nMoneyline: Vegas Golden Knights -115 / Anaheim Ducks -105\nSpread: Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-260)\nTotal: 6.5 (Over +114 / Under -140)\n\nMatchup: Carolina Hurricanes at Philadelphia Flyers - 6:00 PM ET\nBookmaker: FanDuel\nMoneyline: Carolina Hurricanes -182 / Philadelphia Flyers +150\nSpread: Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers 1.5 (-170)\nTotal: 5.5 (Over +120 / Under -148)",
+      "headline": "Montréal Canadiens at Buffalo Sabres - 7:10 PM ET",
+      "snapshot": "Matchup: Montréal Canadiens at Buffalo Sabres - 7:10 PM ET\nBookmaker: FanDuel\nMoneyline: Montréal Canadiens +110 / Buffalo Sabres -132\nSpread: Montréal Canadiens 1.5 (-215) / Buffalo Sabres -1.5 (+176)\nTotal: 5.5 (Over -128 / Under +104)\n\nMatchup: Vegas Golden Knights at Anaheim Ducks - 9:40 PM ET\nBookmaker: FanDuel\nMoneyline: Vegas Golden Knights -115 / Anaheim Ducks -104\nSpread: Vegas Golden Knights -1.5 (+198) / Anaheim Ducks 1.5 (-250)\nTotal: 6.5 (Over +114 / Under -140)\n\nMatchup: Carolina Hurricanes at Philadelphia Flyers - 6:00 PM ET\nBookmaker: FanDuel\nMoneyline: Carolina Hurricanes -184 / Philadelphia Flyers +152\nSpread: Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers 1.5 (-170)\nTotal: 5.5 (Over +120 / Under -148)",
       "key_data": [
-        "Lead signal: Montréal Canadiens at Buffalo Sabres - 7:00 PM ET",
-        "Moneyline context: Montréal Canadiens +112 / Buffalo Sabres -134",
-        "Spread context: Montréal Canadiens 1.5 (-220) / Buffalo Sabres -1.5 (+176)",
-        "Total context: 5.5 (Over -124 / Under +102)"
+        "Lead signal: Montréal Canadiens at Buffalo Sabres - 7:10 PM ET",
+        "Moneyline context: Montréal Canadiens +110 / Buffalo Sabres -132",
+        "Spread context: Montréal Canadiens 1.5 (-215) / Buffalo Sabres -1.5 (+176)",
+        "Total context: 5.5 (Over -128 / Under +104)"
       ],
       "what_the_odds_mean": [
         "Goalie confirmations can materially change NHL moneylines and totals.",
@@ -148,7 +148,7 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 03:16:48 AM ET"
+      "updated_at": "2026-05-08 05:06:28 AM ET"
     },
     {
       "title": "NFL Betting Board",
@@ -171,7 +171,7 @@
         "Prime-time public money and late spread movement."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 03:16:48 AM ET"
+      "updated_at": "2026-05-08 05:06:28 AM ET"
     },
     {
       "title": "Market Watch",
@@ -189,7 +189,7 @@
         "Compare sportsbook movement before treating one number as the full market."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-08 03:16:48 AM ET"
+      "updated_at": "2026-05-08 05:06:28 AM ET"
     },
     {
       "title": "Betting Context",
@@ -205,7 +205,7 @@
         "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
       ],
       "source": "GSR betting desk",
-      "updated_at": "2026-05-08 03:16:48 AM ET"
+      "updated_at": "2026-05-08 05:06:28 AM ET"
     }
   ]
 }
