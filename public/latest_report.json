@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-09 06:48:15 AM ET",
-  "generated_at": "2026-05-09 06:48:15 AM ET",
-  "generated_utc": "2026-05-09T10:48:15.645530+00:00",
+  "updated_at": "2026-05-09 07:41:42 AM ET",
+  "generated_at": "2026-05-09 07:41:42 AM ET",
+  "generated_utc": "2026-05-09T11:41:42.093542+00:00",
   "source_mode": "clean multi-card odds report distribution",
   "homepage_cards": [
     {
@@ -133,25 +133,25 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Los Angeles Angels at Toronto Blue Jays - 3:08 PM ET",
       "game": "Los Angeles Angels at Toronto Blue Jays - 3:08 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +154 / Toronto Blue Jays -184 | Spread: Los Angeles Angels 1.5 (-140) / Toronto Blue Jays -1.5 (+116) | Total: 8 (Over -110 / Under -110)",
+      "market": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +154 / Toronto Blue Jays -184 | Spread: Los Angeles Angels 1.5 (-140) / Toronto Blue Jays -1.5 (+116) | Total: 8 (Over -112 / Under -108)",
       "bookmaker": "FanDuel",
       "moneyline": "Los Angeles Angels +154 / Toronto Blue Jays -184",
       "spread": "Los Angeles Angels 1.5 (-140) / Toronto Blue Jays -1.5 (+116)",
-      "total": "8 (Over -110 / Under -110)",
+      "total": "8 (Over -112 / Under -108)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +154 / Toronto Blue Jays -184 | Spread: Los Angeles Angels 1.5 (-140) / Toronto Blue Jays -1.5 (+116) | Total: 8 (Over -110 / Under -110)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +154 / Toronto Blue Jays -184 | Spread: Los Angeles Angels 1.5 (-140) / Toronto Blue Jays -1.5 (+116) | Total: 8 (Over -112 / Under -108)",
       "key_data": [
         "Bookmaker: FanDuel",
         "Moneyline: Los Angeles Angels +154 / Toronto Blue Jays -184",
         "Spread: Los Angeles Angels 1.5 (-140) / Toronto Blue Jays -1.5 (+116)",
-        "Total: 8 (Over -110 / Under -110)"
+        "Total: 8 (Over -112 / Under -108)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -167,25 +167,25 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "NHL Betting Board",
       "league": "NHL Betting Board",
       "headline": "Carolina Hurricanes at Philadelphia Flyers - 6:10 PM ET",
       "game": "Carolina Hurricanes at Philadelphia Flyers - 6:10 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -194 / Philadelphia Flyers +160 | Spread: Carolina Hurricanes -1.5 (+130) / Philadelphia Flyers 1.5 (-158) | Total: 5.5 (Over +116 / Under -142)",
+      "market": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -188 / Philadelphia Flyers +155 | Spread: Carolina Hurricanes -1.5 (+134) / Philadelphia Flyers 1.5 (-164) | Total: 5.5 (Over +118 / Under -144)",
       "bookmaker": "FanDuel",
-      "moneyline": "Carolina Hurricanes -194 / Philadelphia Flyers +160",
-      "spread": "Carolina Hurricanes -1.5 (+130) / Philadelphia Flyers 1.5 (-158)",
-      "total": "5.5 (Over +116 / Under -142)",
+      "moneyline": "Carolina Hurricanes -188 / Philadelphia Flyers +155",
+      "spread": "Carolina Hurricanes -1.5 (+134) / Philadelphia Flyers 1.5 (-164)",
+      "total": "5.5 (Over +118 / Under -144)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -194 / Philadelphia Flyers +160 | Spread: Carolina Hurricanes -1.5 (+130) / Philadelphia Flyers 1.5 (-158) | Total: 5.5 (Over +116 / Under -142)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -188 / Philadelphia Flyers +155 | Spread: Carolina Hurricanes -1.5 (+134) / Philadelphia Flyers 1.5 (-164) | Total: 5.5 (Over +118 / Under -144)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Carolina Hurricanes -194 / Philadelphia Flyers +160",
-        "Spread: Carolina Hurricanes -1.5 (+130) / Philadelphia Flyers 1.5 (-158)",
-        "Total: 5.5 (Over +116 / Under -142)"
+        "Moneyline: Carolina Hurricanes -188 / Philadelphia Flyers +155",
+        "Spread: Carolina Hurricanes -1.5 (+134) / Philadelphia Flyers 1.5 (-164)",
+        "Total: 5.5 (Over +118 / Under -144)"
       ],
       "why_it_matters": [
         "Goalie confirmations can materially change NHL moneylines and totals.",
@@ -201,7 +201,7 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "NFL Betting Board",
@@ -235,7 +235,7 @@
         "Prime-time public money and late spread movement."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "NBA Betting Board",
@@ -269,7 +269,7 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -303,7 +303,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -337,7 +337,7 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "NBA Betting Board",
@@ -371,24 +371,24 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Tampa Bay Rays at Boston Red Sox - 4:11 PM ET",
       "game": "Tampa Bay Rays at Boston Red Sox - 4:11 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +128 / Boston Red Sox -152 | Spread: Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | Total: 7.5 (Over -110 / Under -110)",
+      "market": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +128 / Boston Red Sox -152 | Spread: Tampa Bay Rays 1.5 (-182) / Boston Red Sox -1.5 (+150) | Total: 7.5 (Over -110 / Under -110)",
       "bookmaker": "FanDuel",
       "moneyline": "Tampa Bay Rays +128 / Boston Red Sox -152",
-      "spread": "Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146)",
+      "spread": "Tampa Bay Rays 1.5 (-182) / Boston Red Sox -1.5 (+150)",
       "total": "7.5 (Over -110 / Under -110)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +128 / Boston Red Sox -152 | Spread: Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | Total: 7.5 (Over -110 / Under -110)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +128 / Boston Red Sox -152 | Spread: Tampa Bay Rays 1.5 (-182) / Boston Red Sox -1.5 (+150) | Total: 7.5 (Over -110 / Under -110)",
       "key_data": [
         "Bookmaker: FanDuel",
         "Moneyline: Tampa Bay Rays +128 / Boston Red Sox -152",
-        "Spread: Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146)",
+        "Spread: Tampa Bay Rays 1.5 (-182) / Boston Red Sox -1.5 (+150)",
         "Total: 7.5 (Over -110 / Under -110)"
       ],
       "why_it_matters": [
@@ -405,7 +405,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -439,7 +439,7 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "NBA Betting Board",
@@ -473,7 +473,7 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -507,7 +507,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -541,25 +541,25 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Washington Nationals at Miami Marlins - 4:11 PM ET",
       "game": "Washington Nationals at Miami Marlins - 4:11 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Washington Nationals +132 / Miami Marlins -156 | Spread: Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | Total: 8.5 (Over -115 / Under -105)",
+      "market": "Bookmaker: FanDuel | Moneyline: Washington Nationals +132 / Miami Marlins -156 | Spread: Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | Total: 8.5 (Over -118 / Under -104)",
       "bookmaker": "FanDuel",
       "moneyline": "Washington Nationals +132 / Miami Marlins -156",
       "spread": "Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130)",
-      "total": "8.5 (Over -115 / Under -105)",
+      "total": "8.5 (Over -118 / Under -104)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Washington Nationals +132 / Miami Marlins -156 | Spread: Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | Total: 8.5 (Over -115 / Under -105)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Washington Nationals +132 / Miami Marlins -156 | Spread: Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | Total: 8.5 (Over -118 / Under -104)",
       "key_data": [
         "Bookmaker: FanDuel",
         "Moneyline: Washington Nationals +132 / Miami Marlins -156",
         "Spread: Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130)",
-        "Total: 8.5 (Over -115 / Under -105)"
+        "Total: 8.5 (Over -118 / Under -104)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -575,7 +575,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "Market Watch",
@@ -593,7 +593,7 @@
         "Compare sportsbook movement before treating one number as the full market."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     },
     {
       "title": "Betting Context",
@@ -609,7 +609,7 @@
         "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
       ],
       "source": "GSR betting desk",
-      "updated_at": "2026-05-09 06:48:15 AM ET"
+      "updated_at": "2026-05-09 07:41:42 AM ET"
     }
   ]
 }
