@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-09 04:35:21 PM ET",
-  "generated_at": "2026-05-09 04:35:21 PM ET",
-  "generated_utc": "2026-05-09T20:35:21.855119+00:00",
+  "updated_at": "2026-05-09 05:34:57 PM ET",
+  "generated_at": "2026-05-09 05:34:57 PM ET",
+  "generated_utc": "2026-05-09T21:34:57.160383+00:00",
   "source_mode": "clean multi-card odds report distribution",
   "homepage_cards": [
     {
@@ -106,18 +106,18 @@
       "league": "NBA Betting Board",
       "headline": "Detroit Pistons at Cleveland Cavaliers - 3:14 PM ET",
       "game": "Detroit Pistons at Cleveland Cavaliers - 3:14 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Detroit Pistons +800 / Cleveland Cavaliers -1800 | Spread: Detroit Pistons 15.5 (-140) / Cleveland Cavaliers -15.5 (+106) | Total: 214.5 (Over -130 / Under -102)",
+      "market": "Bookmaker: FanDuel | Moneyline: Detroit Pistons +250 / Cleveland Cavaliers -340 | Spread: Detroit Pistons 4.5 (-136) / Cleveland Cavaliers -4.5 (+102) | Total: 225.5 (Over -122 / Under -108)",
       "bookmaker": "FanDuel",
-      "moneyline": "Detroit Pistons +800 / Cleveland Cavaliers -1800",
-      "spread": "Detroit Pistons 15.5 (-140) / Cleveland Cavaliers -15.5 (+106)",
-      "total": "214.5 (Over -130 / Under -102)",
+      "moneyline": "Detroit Pistons +250 / Cleveland Cavaliers -340",
+      "spread": "Detroit Pistons 4.5 (-136) / Cleveland Cavaliers -4.5 (+102)",
+      "total": "225.5 (Over -122 / Under -108)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Detroit Pistons +800 / Cleveland Cavaliers -1800 | Spread: Detroit Pistons 15.5 (-140) / Cleveland Cavaliers -15.5 (+106) | Total: 214.5 (Over -130 / Under -102)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Detroit Pistons +250 / Cleveland Cavaliers -340 | Spread: Detroit Pistons 4.5 (-136) / Cleveland Cavaliers -4.5 (+102) | Total: 225.5 (Over -122 / Under -108)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Detroit Pistons +800 / Cleveland Cavaliers -1800",
-        "Spread: Detroit Pistons 15.5 (-140) / Cleveland Cavaliers -15.5 (+106)",
-        "Total: 214.5 (Over -130 / Under -102)"
+        "Moneyline: Detroit Pistons +250 / Cleveland Cavaliers -340",
+        "Spread: Detroit Pistons 4.5 (-136) / Cleveland Cavaliers -4.5 (+102)",
+        "Total: 225.5 (Over -122 / Under -108)"
       ],
       "why_it_matters": [
         "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
@@ -133,25 +133,24 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Los Angeles Angels at Toronto Blue Jays - 3:08 PM ET",
       "game": "Los Angeles Angels at Toronto Blue Jays - 3:08 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +400 / Toronto Blue Jays -620 | Spread: Los Angeles Angels 2.5 (-158) / Toronto Blue Jays -2.5 (+118) | Total: 5.5 (Over -112 / Under -118)",
+      "market": "Bookmaker: FanDuel | Spread: Los Angeles Angels 9.5 (+194) / Toronto Blue Jays -9.5 (-270) | Total: 10.5 (Over -188 / Under +140)",
       "bookmaker": "FanDuel",
-      "moneyline": "Los Angeles Angels +400 / Toronto Blue Jays -620",
-      "spread": "Los Angeles Angels 2.5 (-158) / Toronto Blue Jays -2.5 (+118)",
-      "total": "5.5 (Over -112 / Under -118)",
+      "moneyline": "",
+      "spread": "Los Angeles Angels 9.5 (+194) / Toronto Blue Jays -9.5 (-270)",
+      "total": "10.5 (Over -188 / Under +140)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +400 / Toronto Blue Jays -620 | Spread: Los Angeles Angels 2.5 (-158) / Toronto Blue Jays -2.5 (+118) | Total: 5.5 (Over -112 / Under -118)",
+      "snapshot": "Bookmaker: FanDuel | Spread: Los Angeles Angels 9.5 (+194) / Toronto Blue Jays -9.5 (-270) | Total: 10.5 (Over -188 / Under +140)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Los Angeles Angels +400 / Toronto Blue Jays -620",
-        "Spread: Los Angeles Angels 2.5 (-158) / Toronto Blue Jays -2.5 (+118)",
-        "Total: 5.5 (Over -112 / Under -118)"
+        "Spread: Los Angeles Angels 9.5 (+194) / Toronto Blue Jays -9.5 (-270)",
+        "Total: 10.5 (Over -188 / Under +140)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -167,7 +166,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -201,7 +200,7 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "NFL Betting Board",
@@ -235,7 +234,7 @@
         "Prime-time public money and late spread movement."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "NBA Betting Board",
@@ -269,25 +268,25 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Athletics at Baltimore Orioles - 4:06 PM ET",
       "game": "Athletics at Baltimore Orioles - 4:06 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Athletics -136 / Baltimore Orioles +106 | Spread: Athletics -1.5 (+122) / Baltimore Orioles 1.5 (-162) | Total: 8.5 (Over -138 / Under +104)",
+      "market": "Bookmaker: FanDuel | Moneyline: Athletics -2500 / Baltimore Orioles +900 | Spread: Athletics -5.5 (+108) / Baltimore Orioles 5.5 (-144) | Total: 10.5 (Over +100 / Under -132)",
       "bookmaker": "FanDuel",
-      "moneyline": "Athletics -136 / Baltimore Orioles +106",
-      "spread": "Athletics -1.5 (+122) / Baltimore Orioles 1.5 (-162)",
-      "total": "8.5 (Over -138 / Under +104)",
+      "moneyline": "Athletics -2500 / Baltimore Orioles +900",
+      "spread": "Athletics -5.5 (+108) / Baltimore Orioles 5.5 (-144)",
+      "total": "10.5 (Over +100 / Under -132)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Athletics -136 / Baltimore Orioles +106 | Spread: Athletics -1.5 (+122) / Baltimore Orioles 1.5 (-162) | Total: 8.5 (Over -138 / Under +104)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Athletics -2500 / Baltimore Orioles +900 | Spread: Athletics -5.5 (+108) / Baltimore Orioles 5.5 (-144) | Total: 10.5 (Over +100 / Under -132)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Athletics -136 / Baltimore Orioles +106",
-        "Spread: Athletics -1.5 (+122) / Baltimore Orioles 1.5 (-162)",
-        "Total: 8.5 (Over -138 / Under +104)"
+        "Moneyline: Athletics -2500 / Baltimore Orioles +900",
+        "Spread: Athletics -5.5 (+108) / Baltimore Orioles 5.5 (-144)",
+        "Total: 10.5 (Over +100 / Under -132)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -303,7 +302,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -337,7 +336,7 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "NBA Betting Board",
@@ -371,25 +370,25 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Houston Astros at Cincinnati Reds - 4:11 PM ET",
       "game": "Houston Astros at Cincinnati Reds - 4:11 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Houston Astros +138 / Cincinnati Reds -178 | Spread: Houston Astros 1.5 (-166) / Cincinnati Reds -1.5 (+124) | Total: 6.5 (Over -136 / Under +102)",
+      "market": "Bookmaker: FanDuel | Moneyline: Houston Astros +320 / Cincinnati Reds -460 | Spread: Houston Astros 1.5 (+122) / Cincinnati Reds -1.5 (-162) | Total: 7.5 (Over -108 / Under -122)",
       "bookmaker": "FanDuel",
-      "moneyline": "Houston Astros +138 / Cincinnati Reds -178",
-      "spread": "Houston Astros 1.5 (-166) / Cincinnati Reds -1.5 (+124)",
-      "total": "6.5 (Over -136 / Under +102)",
+      "moneyline": "Houston Astros +320 / Cincinnati Reds -460",
+      "spread": "Houston Astros 1.5 (+122) / Cincinnati Reds -1.5 (-162)",
+      "total": "7.5 (Over -108 / Under -122)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Houston Astros +138 / Cincinnati Reds -178 | Spread: Houston Astros 1.5 (-166) / Cincinnati Reds -1.5 (+124) | Total: 6.5 (Over -136 / Under +102)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Houston Astros +320 / Cincinnati Reds -460 | Spread: Houston Astros 1.5 (+122) / Cincinnati Reds -1.5 (-162) | Total: 7.5 (Over -108 / Under -122)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Houston Astros +138 / Cincinnati Reds -178",
-        "Spread: Houston Astros 1.5 (-166) / Cincinnati Reds -1.5 (+124)",
-        "Total: 6.5 (Over -136 / Under +102)"
+        "Moneyline: Houston Astros +320 / Cincinnati Reds -460",
+        "Spread: Houston Astros 1.5 (+122) / Cincinnati Reds -1.5 (-162)",
+        "Total: 7.5 (Over -108 / Under -122)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -405,7 +404,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -439,7 +438,7 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "NBA Betting Board",
@@ -473,25 +472,25 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Washington Nationals at Miami Marlins - 4:11 PM ET",
       "game": "Washington Nationals at Miami Marlins - 4:11 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Washington Nationals -330 / Miami Marlins +240 | Spread: Washington Nationals -2.5 (-132) / Miami Marlins 2.5 (+100) | Total: 10.5 (Over -122 / Under -108)",
+      "market": "Bookmaker: FanDuel | Moneyline: Washington Nationals -240 / Miami Marlins +182 | Spread: Washington Nationals -1.5 (-122) / Miami Marlins 1.5 (-108) | Total: 10.5 (Over -102 / Under -130)",
       "bookmaker": "FanDuel",
-      "moneyline": "Washington Nationals -330 / Miami Marlins +240",
-      "spread": "Washington Nationals -2.5 (-132) / Miami Marlins 2.5 (+100)",
-      "total": "10.5 (Over -122 / Under -108)",
+      "moneyline": "Washington Nationals -240 / Miami Marlins +182",
+      "spread": "Washington Nationals -1.5 (-122) / Miami Marlins 1.5 (-108)",
+      "total": "10.5 (Over -102 / Under -130)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Washington Nationals -330 / Miami Marlins +240 | Spread: Washington Nationals -2.5 (-132) / Miami Marlins 2.5 (+100) | Total: 10.5 (Over -122 / Under -108)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Washington Nationals -240 / Miami Marlins +182 | Spread: Washington Nationals -1.5 (-122) / Miami Marlins 1.5 (-108) | Total: 10.5 (Over -102 / Under -130)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Washington Nationals -330 / Miami Marlins +240",
-        "Spread: Washington Nationals -2.5 (-132) / Miami Marlins 2.5 (+100)",
-        "Total: 10.5 (Over -122 / Under -108)"
+        "Moneyline: Washington Nationals -240 / Miami Marlins +182",
+        "Spread: Washington Nationals -1.5 (-122) / Miami Marlins 1.5 (-108)",
+        "Total: 10.5 (Over -102 / Under -130)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -507,7 +506,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -541,25 +540,25 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Colorado Rockies at Philadelphia Phillies - 6:06 PM ET",
       "game": "Colorado Rockies at Philadelphia Phillies - 6:06 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Colorado Rockies +150 / Philadelphia Phillies -178 | Spread: Colorado Rockies 1.5 (-137) / Philadelphia Phillies -1.5 (+114) | Total: 8.5 (Over -115 / Under -105)",
+      "market": "Bookmaker: FanDuel | Moneyline: Colorado Rockies +154 / Philadelphia Phillies -184 | Spread: Colorado Rockies 1.5 (-134) / Philadelphia Phillies -1.5 (+112) | Total: 8.5 (Over -118 / Under -104)",
       "bookmaker": "FanDuel",
-      "moneyline": "Colorado Rockies +150 / Philadelphia Phillies -178",
-      "spread": "Colorado Rockies 1.5 (-137) / Philadelphia Phillies -1.5 (+114)",
-      "total": "8.5 (Over -115 / Under -105)",
+      "moneyline": "Colorado Rockies +154 / Philadelphia Phillies -184",
+      "spread": "Colorado Rockies 1.5 (-134) / Philadelphia Phillies -1.5 (+112)",
+      "total": "8.5 (Over -118 / Under -104)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Colorado Rockies +150 / Philadelphia Phillies -178 | Spread: Colorado Rockies 1.5 (-137) / Philadelphia Phillies -1.5 (+114) | Total: 8.5 (Over -115 / Under -105)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Colorado Rockies +154 / Philadelphia Phillies -184 | Spread: Colorado Rockies 1.5 (-134) / Philadelphia Phillies -1.5 (+112) | Total: 8.5 (Over -118 / Under -104)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Colorado Rockies +150 / Philadelphia Phillies -178",
-        "Spread: Colorado Rockies 1.5 (-137) / Philadelphia Phillies -1.5 (+114)",
-        "Total: 8.5 (Over -115 / Under -105)"
+        "Moneyline: Colorado Rockies +154 / Philadelphia Phillies -184",
+        "Spread: Colorado Rockies 1.5 (-134) / Philadelphia Phillies -1.5 (+112)",
+        "Total: 8.5 (Over -118 / Under -104)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -575,7 +574,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "Market Watch",
@@ -593,7 +592,7 @@
         "Compare sportsbook movement before treating one number as the full market."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     },
     {
       "title": "Betting Context",
@@ -609,7 +608,7 @@
         "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
       ],
       "source": "GSR betting desk",
-      "updated_at": "2026-05-09 04:35:21 PM ET"
+      "updated_at": "2026-05-09 05:34:57 PM ET"
     }
   ]
 }
