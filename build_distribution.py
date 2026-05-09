@@ -2,25 +2,17 @@
 # -*- coding: utf-8 -*-
 
 """
-build_distribution.py
+build_betting_distribution.py
 
-Global Sports Report distribution builder.
+Global Betting Report distribution builder.
 
-What this script does:
-- Loads plain-text report files from sports_bot-ai
-- Loads optional advanced report files
-- Builds a stable latest_report.json payload for the website
-- Writes platform-ready text outputs:
-  - substack_post.txt
-  - telegram_post.txt
-  - twitter_thread.txt
-  - latest_report.txt
-- Copies the website files into global-sports-report-web/public
-- Copies Statcast SVG into website public folder so it renders on site
-- Optionally posts to Telegram
-- Optionally posts a thread to X/Twitter
-- Never crashes because a section contains lists/dicts instead of strings
-- Never calls undefined upload helpers
+Editorial Brain v3 update:
+- Deepens betting-market interpretation without changing the locked front-end structure
+- Adds cleaner card-ready fields: key_data, why_it_matters, what_to_watch
+- Adds WNBA-ready hooks so WNBA betting context can appear when data exists
+- Builds homepage_cards, live_newsroom, and editor_signals
+- Preserves latest_report.json / latest_report.txt public outputs
+- Never crashes on missing, partial, list-based, or dict-based inputs
 
 This file is designed as a full replacement.
 """
@@ -28,13 +20,10 @@ This file is designed as a full replacement.
 from __future__ import annotations
 
 import json
-import math
 import os
 import re
 import shutil
 import subprocess
-import sys
-import textwrap
 import traceback
 from datetime import datetime
 from pathlib import Path
@@ -44,16 +33,6 @@ try:
     from zoneinfo import ZoneInfo
 except Exception:
     ZoneInfo = None  # type: ignore
-
-try:
-    import requests
-except Exception:
-    requests = None  # type: ignore
-
-try:
-    import tweepy
-except Exception:
-    tweepy = None  # type: ignore
 
 try:
     from dotenv import load_dotenv
@@ -66,79 +45,145 @@ except Exception:
 # =============================================================================
 
 BASE_DIR = Path(__file__).resolve().parent
-WEB_DIR = Path(r"C:\Users\joeru\OneDrive\Desktop\global-sports-report-web")
-WEB_PUBLIC_DIR = WEB_DIR / "public"
+PUBLIC_DIR = BASE_DIR / "public"
 
-TITLE = "GLOBAL SPORTS REPORT"
-DISCLAIMER = "This report is an automated summary intended to support, not replace, human sports journalism."
-DEFAULT_X_HANDLE = "@GlobalSportsRp"
-DEFAULT_SUBSTACK_URL = "https://globalsportsreport.substack.com/"
-
+TITLE = "GLOBAL BETTING REPORT"
+SITE = "Global Betting Report"
+VERTICAL = "Betting"
 SITE_TZ = "America/New_York"
 
-REPORT_FILES: dict[str, Path] = {
-    "mlb": BASE_DIR / "mlb_report.txt",
-    "nba": BASE_DIR / "nba_report.txt",
-    "nhl": BASE_DIR / "nhl_report.txt",
-    "nfl": BASE_DIR / "nfl_report.txt",
-    "ncaafb": BASE_DIR / "ncaafb_report.txt",
-    "soccer": BASE_DIR / "soccer_report.txt",
-    "betting_odds": BASE_DIR / "betting_odds_report.txt",
-    "fantasy": BASE_DIR / "fantasy_report.txt",
-}
+DEFAULT_X_HANDLE = "@GlobalSportsRp"
+DEFAULT_SUBSTACK_URL = "https://globalsportsreport.substack.com/"
+DISCLAIMER = (
+    "This report is an automated market-context summary intended to support, "
+    "not replace, human sports journalism. It is not gambling advice."
+)
 
-ADVANCED_REPORT_FILES: dict[str, Path] = {
-    "mlb": BASE_DIR / "mlb_advanced_report.txt",
-    "nba": BASE_DIR / "nba_advanced_report.txt",
-    "nfl": BASE_DIR / "nfl_advanced_report.txt",
-    "nfl_draft_signals": BASE_DIR / "nfl_draft_signals.txt",
-}
+EDITORIAL_BRAIN_VERSION = "v3-betting-market-context-wnba-ready"
 
-JSON_REPORT_FILES: dict[str, Path] = {
+INPUT_JSON_FILES: dict[str, Path] = {
+    "betting_odds": BASE_DIR / "betting_odds_report.json",
     "mlb": BASE_DIR / "mlb_report.json",
     "nba": BASE_DIR / "nba_report.json",
+    "wnba": BASE_DIR / "wnba_report.json",
     "nhl": BASE_DIR / "nhl_report.json",
     "nfl": BASE_DIR / "nfl_report.json",
     "ncaafb": BASE_DIR / "ncaafb_report.json",
     "soccer": BASE_DIR / "soccer_report.json",
-    "betting_odds": BASE_DIR / "betting_odds_report.json",
     "fantasy": BASE_DIR / "fantasy_report.json",
 }
 
-STATCAST_FILES = [
-    BASE_DIR / "mlb_statcast_snapshot.svg",
-    BASE_DIR / "statcast_snapshot.svg",
-]
-
-OUTPUT_SUBSTACK = BASE_DIR / "substack_post.txt"
-OUTPUT_TELEGRAM = BASE_DIR / "telegram_post.txt"
-OUTPUT_TWITTER = BASE_DIR / "twitter_thread.txt"
-OUTPUT_LATEST_TXT = BASE_DIR / "latest_report.txt"
-OUTPUT_LATEST_JSON = BASE_DIR / "latest_report.json"
-OUTPUT_PREVIOUS_JSON = BASE_DIR / "latest_report.previous.json"
-GLOBAL_REPORT_TXT = BASE_DIR / "global_sports_report.txt"
-
-WEB_COPY_TARGETS = {
-    "latest_report.json": WEB_PUBLIC_DIR / "latest_report.json",
-    "latest_report.txt": WEB_PUBLIC_DIR / "latest_report.txt",
-    "global_sports_report.txt": WEB_PUBLIC_DIR / "global_sports_report.txt",
-    "mlb_statcast_snapshot.svg": WEB_PUBLIC_DIR / "mlb_statcast_snapshot.svg",
+INPUT_TEXT_FILES: dict[str, Path] = {
+    "betting_odds": BASE_DIR / "betting_odds_report.txt",
+    "mlb": BASE_DIR / "mlb_report.txt",
+    "nba": BASE_DIR / "nba_report.txt",
+    "wnba": BASE_DIR / "wnba_report.txt",
+    "nhl": BASE_DIR / "nhl_report.txt",
+    "nfl": BASE_DIR / "nfl_report.txt",
+    "ncaafb": BASE_DIR / "ncaafb_report.txt",
+    "soccer": BASE_DIR / "soccer_report.txt",
+    "fantasy": BASE_DIR / "fantasy_report.txt",
 }
 
 SECTION_ORDER = [
+    "betting_odds",
     "mlb",
     "nba",
+    "wnba",
     "nhl",
     "nfl",
     "ncaafb",
     "soccer",
-    "betting_odds",
     "fantasy",
+]
+
+OUTPUT_LATEST_JSON = BASE_DIR / "latest_report.json"
+OUTPUT_LATEST_TXT = BASE_DIR / "latest_report.txt"
+OUTPUT_FULL_TXT = BASE_DIR / "global_betting_report.txt"
+
+PUBLIC_LATEST_JSON = PUBLIC_DIR / "latest_report.json"
+PUBLIC_LATEST_TXT = PUBLIC_DIR / "latest_report.txt"
+PUBLIC_FULL_TXT = PUBLIC_DIR / "global_betting_report.txt"
+
+BETTING_TERMS = [
+    "odds",
+    "moneyline",
+    "spread",
+    "total",
+    "over",
+    "under",
+    "favorite",
+    "underdog",
+    "implied probability",
+    "market",
+    "sportsbook",
+    "line",
+    "priced",
+    "price",
+    "handle",
+    "tickets",
+    "movement",
+    "number",
+    "prop",
+]
+
+VOLATILITY_TERMS = [
+    "moved",
+    "movement",
+    "steam",
+    "drift",
+    "shortened",
+    "lengthened",
+    "late money",
+    "sharp",
+    "public",
+    "adjusted",
+    "opened",
+    "closing",
+]
+
+RISK_TERMS = [
+    "injury",
+    "questionable",
+    "out",
+    "rest",
+    "back-to-back",
+    "travel",
+    "bullpen",
+    "pitching",
+    "lineup",
+    "scratch",
+    "weather",
+    "minutes restriction",
+]
+
+PRESSURE_TERMS = [
+    "playoff",
+    "postseason",
+    "elimination",
+    "must-win",
+    "standings",
+    "race",
+    "clinched",
+    "finals",
+    "game 7",
+    "series",
+]
+
+LIVE_TERMS = [
+    "live",
+    "in progress",
+    "halftime",
+    "quarter",
+    "period",
+    "overtime",
+    "extra innings",
+    "final",
 ]
 
 
 # =============================================================================
-# LOGGING / TIME
+# TIME / LOGGING
 # =============================================================================
 
 def now_et() -> datetime:
@@ -156,28 +201,15 @@ def log(message: str) -> None:
 
 
 # =============================================================================
-# ENV / TEXT SAFETY
+# TEXT / DATA SAFETY
 # =============================================================================
 
-def load_environment() -> None:
-    env_path = BASE_DIR / ".env"
-    if load_dotenv and env_path.exists():
-        load_dotenv(env_path)
-    log(f"ENV PATH: {env_path}")
-    log(f"ENV EXISTS: {env_path.exists()}")
-    log(f"TELEGRAM TOKEN FOUND: {bool(os.getenv('TELEGRAM_BOT_TOKEN'))}")
-    log(f"TELEGRAM CHAT ID FOUND: {bool(os.getenv('TELEGRAM_CHAT_ID'))}")
-    log(f"TWITTER API KEY FOUND: {bool(os.getenv('TWITTER_API_KEY'))}")
-    log(f"TWITTER API SECRET FOUND: {bool(os.getenv('TWITTER_API_SECRET'))}")
-    log(f"TWITTER ACCESS TOKEN FOUND: {bool(os.getenv('TWITTER_ACCESS_TOKEN'))}")
-    log(f"TWITTER ACCESS TOKEN SECRET FOUND: {bool(os.getenv('TWITTER_ACCESS_TOKEN_SECRET'))}")
-    log(f"TWITTER BEARER TOKEN FOUND: {bool(os.getenv('TWITTER_BEARER_TOKEN'))}")
-    log(f"WEB PUBLIC DIR: {WEB_PUBLIC_DIR}")
+def clean_text(value: Any) -> str:
+    if value is None:
+        return ""
 
-
-def clean_text(text: str) -> str:
-    if not isinstance(text, str):
-        text = str(text)
+    if not isinstance(value, str):
+        value = str(value)
 
     replacements = {
         "\ufeff": "",
@@ -200,47 +232,27 @@ def clean_text(text: str) -> str:
         "Ã±": "ñ",
         "Ã¼": "ü",
         "Ã": "",
-        "S nchez": "Sánchez",
-        "Germ n": "Germán",
-        "MartÃ­n": "Martín",
     }
+
     for old, new in replacements.items():
-        text = text.replace(old, new)
+        value = value.replace(old, new)
 
-    text = text.replace("\r\n", "\n").replace("\r", "\n")
-    text = re.sub(r"[ \t]+\n", "\n", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
-
-
-def slugify(text: str) -> str:
-    text = clean_text(text).lower().strip()
-    text = re.sub(r"[^a-z0-9]+", "_", text)
-    return text.strip("_") or "section"
+    value = value.replace("\r\n", "\n").replace("\r", "\n")
+    value = re.sub(r"[ \t]+\n", "\n", value)
+    value = re.sub(r"\n{3,}", "\n\n", value)
+    value = re.sub(r"[ \t]{2,}", " ", value)
+    return value.strip()
 
 
-def format_label(key: str) -> str:
-    labels = {
-        "mlb": "MLB",
-        "nba": "NBA",
-        "nhl": "NHL",
-        "nfl": "NFL",
-        "ncaafb": "College Football",
-        "soccer": "Soccer",
-        "betting_odds": "Betting Odds",
-        "fantasy": "Fantasy",
-        "nfl_draft_signals": "NFL Draft Signals",
-    }
-    return labels.get(key, key.replace("_", " ").title())
+def trim_text(value: Any, max_chars: int = 260) -> str:
+    text = clean_text(value)
+    if len(text) <= max_chars:
+        return text
+    shortened = text[:max_chars].rsplit(" ", 1)[0].strip()
+    return f"{shortened}..." if shortened else text[:max_chars]
 
 
 def safe_join_parts(value: Any) -> str:
-    """
-    Flatten any mix of strings/lists/dicts into a clean string.
-
-    This directly prevents the old:
-    AttributeError: 'list' object has no attribute 'strip'
-    """
     flattened: list[str] = []
 
     def walk(item: Any) -> None:
@@ -262,40 +274,105 @@ def safe_join_parts(value: Any) -> str:
             for sub in item:
                 walk(sub)
             return
-        flattened.append(clean_text(str(item)))
+        txt = clean_text(str(item))
+        if txt:
+            flattened.append(txt)
 
     walk(value)
     return "\n\n".join(part for part in flattened if part.strip()).strip()
 
 
+def normalize_lines(value: Any, limit: int = 8) -> list[str]:
+    if value is None:
+        return []
+
+    raw_items: list[Any]
+
+    if isinstance(value, str):
+        raw_items = re.split(r"\n+|•|\||;", value)
+    elif isinstance(value, list):
+        raw_items = value
+    elif isinstance(value, dict):
+        raw_items = list(value.values())
+    else:
+        raw_items = [value]
+
+    cleaned: list[str] = []
+    seen: set[str] = set()
+
+    for item in raw_items:
+        if isinstance(item, dict):
+            for sub in item.values():
+                for line in normalize_lines(sub, limit=limit):
+                    key = line.lower()
+                    if key not in seen:
+                        seen.add(key)
+                        cleaned.append(line)
+                    if len(cleaned) >= limit:
+                        return cleaned
+            continue
+
+        line = clean_text(item)
+        line = re.sub(r"^[-*•\d.)\s]+", "", line).strip()
+        if not line:
+            continue
+
+        key = line.lower()
+        if key in seen:
+            continue
+
+        seen.add(key)
+        cleaned.append(line)
+
+        if len(cleaned) >= limit:
+            break
+
+    return cleaned
+
+
+def text_contains_any(text: Any, terms: list[str]) -> bool:
+    lower = clean_text(text).lower()
+    return any(term in lower for term in terms)
+
+
+def format_label(key: str) -> str:
+    labels = {
+        "betting_odds": "Betting Market Watch",
+        "mlb": "MLB Betting",
+        "nba": "NBA Betting",
+        "wnba": "WNBA Betting",
+        "nhl": "NHL Betting",
+        "nfl": "NFL Betting",
+        "ncaafb": "College Football Betting",
+        "soccer": "Soccer Betting",
+        "fantasy": "Fantasy Market Watch",
+    }
+    return labels.get(key, key.replace("_", " ").title())
+
+
 def first_meaningful_line(text: str) -> str:
+    ignored = {
+        "HEADLINE",
+        "SNAPSHOT",
+        "KEY DATA",
+        "KEY DATA POINTS",
+        "WHY IT MATTERS",
+        "WHAT TO WATCH",
+        "BETTING MARKET NOTE",
+        "WATCH LIST",
+        "MATCHUP FLAGS",
+        "UPDATED",
+        "DISCLAIMER",
+        "LIVE",
+        "UPCOMING",
+        "FINAL SCORES",
+    }
+
     for line in clean_text(text).splitlines():
         line = line.strip(" -:\t")
-        if line and line.upper() not in {
-            "HEADLINE",
-            "SNAPSHOT",
-            "KEY DATA POINTS",
-            "WHY IT MATTERS",
-            "CURRENT DATA AND ANALYTICS",
-            "STORY ANGLES",
-            "FINAL SCORES",
-            "YESTERDAY FINAL SCORES",
-            "TODAY LIVE",
-            "LIVE",
-            "UPCOMING",
-            "TODAY SCHEDULE",
-            "TODAY FINAL SCORES",
-            "DISCLAIMER",
-            "UPDATED",
-            "GLOBAL SNAPSHOT",
-            "BETTING MARKET NOTE",
-            "WATCH LIST",
-            "MATCHUP FLAGS",
-            "STATCAST WATCH",
-            "BOARD CONTEXT",
-            "LEAGUE EFFICIENCY WATCH",
-        }:
+        if line and line.upper() not in ignored:
             return line
+
     return ""
 
 
@@ -305,10 +382,12 @@ def parse_timestamp_from_text(text: str) -> str | None:
         r"UPDATED\s*\n\s*([0-9:\-\sAPMET]+)",
         r"Updated:\s*([0-9:\-\sAPMET]+)",
     ]
+
     for pattern in patterns:
         match = re.search(pattern, text, flags=re.IGNORECASE)
         if match:
             return clean_text(match.group(1))
+
     return None
 
 
@@ -319,8 +398,7 @@ def parse_timestamp_from_text(text: str) -> str | None:
 def read_text_file(path: Path) -> str:
     if not path.exists():
         return ""
-    raw = path.read_text(encoding="utf-8", errors="replace")
-    return clean_text(raw)
+    return clean_text(path.read_text(encoding="utf-8", errors="replace"))
 
 
 def read_json_file(path: Path) -> Any:
@@ -333,30 +411,42 @@ def read_json_file(path: Path) -> Any:
 
 
 def write_text_file(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(clean_text(text) + "\n", encoding="utf-8")
     log(f"Saved: {path}")
 
 
 def write_json_file(path: Path, payload: Any) -> None:
-    path.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     log(f"Saved: {path}")
 
 
+def copy_file_if_exists(src: Path, dst: Path) -> bool:
+    if not src.exists():
+        return False
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(src, dst)
+    log(f"Copied: {src} -> {dst}")
+    return True
+
+
 # =============================================================================
-# REPORT PARSING
+# SECTION PARSING
 # =============================================================================
 
 SECTION_HEADER_RE = re.compile(
-    r"^(HEADLINE|SNAPSHOT|KEY DATA POINTS|WHY IT MATTERS|CURRENT DATA AND ANALYTICS|"
-    r"STORY ANGLES|FINAL SCORES|YESTERDAY FINAL SCORES|TODAY LIVE|LIVE|UPCOMING|"
-    r"TODAY SCHEDULE|TODAY FINAL SCORES|DISCLAIMER|UPDATED|GLOBAL SNAPSHOT|"
-    r"BETTING MARKET NOTE|WATCH LIST|MATCHUP FLAGS|STATCAST WATCH|BOARD CONTEXT|"
-    r"LEAGUE EFFICIENCY WATCH)$",
+    r"^(HEADLINE|SNAPSHOT|KEY DATA|KEY DATA POINTS|WHY IT MATTERS|WHAT TO WATCH|"
+    r"BETTING MARKET NOTE|WATCH LIST|MATCHUP FLAGS|UPDATED|DISCLAIMER|LIVE|UPCOMING|"
+    r"FINAL SCORES|TODAY SCHEDULE|TODAY LIVE|CURRENT DATA AND ANALYTICS|STORY ANGLES)$",
     flags=re.IGNORECASE | re.MULTILINE,
 )
+
+
+def slugify(text: str) -> str:
+    text = clean_text(text).lower()
+    text = re.sub(r"[^a-z0-9]+", "_", text)
+    return text.strip("_") or "section"
 
 
 def split_named_sections(text: str) -> dict[str, list[str]]:
@@ -384,507 +474,667 @@ def split_named_sections(text: str) -> dict[str, list[str]]:
     return sections
 
 
-def parse_advanced_report(path: Path) -> dict[str, Any] | None:
-    text = read_text_file(path)
-    if not text:
+def json_first_value(data: Any, keys: list[str]) -> Any:
+    if not isinstance(data, dict):
         return None
 
-    lines = text.splitlines()
-    title = lines[0].strip() if lines else f"{format_label(path.stem)} REPORT"
-    updated_at = parse_timestamp_from_text(text) or now_et().strftime("%Y-%m-%d %I:%M:%S %p ET")
+    for key in keys:
+        value = data.get(key)
+        if value not in (None, "", [], {}):
+            return value
+
+    return None
+
+
+def extract_url(section_key: str, json_data: Any, text: str) -> str:
+    if isinstance(json_data, dict):
+        direct = json_first_value(
+            json_data,
+            ["url", "source_url", "game_url", "espn_url", "link", "story_url"],
+        )
+        if isinstance(direct, str) and direct.startswith("http"):
+            return clean_text(direct)
+
+        for collection_name in ["cards", "stories", "games", "events", "odds"]:
+            collection = json_data.get(collection_name)
+            if isinstance(collection, list):
+                for item in collection:
+                    if isinstance(item, dict):
+                        value = json_first_value(
+                            item,
+                            ["url", "source_url", "game_url", "espn_url", "link", "story_url"],
+                        )
+                        if isinstance(value, str) and value.startswith("http"):
+                            return clean_text(value)
+
+    match = re.search(r"https?://[^\s)>\]]+", text)
+    if match:
+        return match.group(0).rstrip(".,;")
+
+    fallbacks = {
+        "betting_odds": "https://www.actionnetwork.com/odds",
+        "mlb": "https://www.espn.com/mlb/scoreboard",
+        "nba": "https://www.espn.com/nba/scoreboard",
+        "wnba": "https://www.espn.com/wnba/scoreboard",
+        "nhl": "https://www.espn.com/nhl/scoreboard",
+        "nfl": "https://www.espn.com/nfl/scoreboard",
+        "ncaafb": "https://www.espn.com/college-football/scoreboard",
+        "soccer": "https://www.espn.com/soccer/",
+        "fantasy": "https://www.cbssports.com/fantasy/",
+    }
+    return fallbacks.get(section_key, "https://globalbettingreport.com")
+
+
+# =============================================================================
+# BETTING EDITORIAL BRAIN V3
+# =============================================================================
+
+def extract_moneylines(text: str) -> list[str]:
+    return re.findall(r"(?<!\w)([+-]\d{3,4})(?!\w)", clean_text(text))
+
+
+def extract_percentages(text: str) -> list[str]:
+    return re.findall(r"\b\d{1,3}(?:\.\d+)?%", clean_text(text))
+
+
+def detect_market_signal(text: str) -> str:
+    lower = clean_text(text).lower()
+
+    if text_contains_any(lower, VOLATILITY_TERMS):
+        return "market_movement"
+    if "favorite" in lower:
+        return "favorite_watch"
+    if "underdog" in lower:
+        return "underdog_watch"
+    if "total" in lower or "over" in lower or "under" in lower:
+        return "total_watch"
+    if "spread" in lower:
+        return "spread_watch"
+    if text_contains_any(lower, RISK_TERMS):
+        return "risk_watch"
+    if text_contains_any(lower, PRESSURE_TERMS):
+        return "pressure_watch"
+    if text_contains_any(lower, LIVE_TERMS):
+        return "live_market_watch"
+
+    return "market_board"
+
+
+def build_key_data(section_key: str, headline: str, snapshot: str, source_lines: list[str]) -> list[str]:
+    text = " ".join([headline, snapshot, " ".join(source_lines)])
+    moneylines = extract_moneylines(text)
+    percentages = extract_percentages(text)
+
+    key_data: list[str] = []
+
+    if moneylines:
+        unique_moneylines = []
+        for line in moneylines:
+            if line not in unique_moneylines:
+                unique_moneylines.append(line)
+        key_data.append(f"Moneyline signal detected: {', '.join(unique_moneylines[:4])}.")
+
+    if percentages:
+        unique_percentages = []
+        for pct in percentages:
+            if pct not in unique_percentages:
+                unique_percentages.append(pct)
+        key_data.append(f"Implied-probability signal detected: {', '.join(unique_percentages[:4])}.")
+
+    lower = text.lower()
+
+    if "spread" in lower:
+        key_data.append("Spread context is present, which frames expected margin rather than only winner probability.")
+    if "total" in lower or "over" in lower or "under" in lower:
+        key_data.append("Total context is present, adding pace, scoring environment and game-script angles.")
+    if "favorite" in lower:
+        key_data.append("Favorite pricing is present, creating a clear expectation baseline.")
+    if "underdog" in lower:
+        key_data.append("Underdog pricing is present, creating upset-watch and value-market context.")
+    if text_contains_any(lower, VOLATILITY_TERMS):
+        key_data.append("Market-movement language is present, which can signal late information or changing sentiment.")
+    if text_contains_any(lower, RISK_TERMS):
+        key_data.append("Risk context is present through injury, rest, lineup, weather, pitching or travel-related language.")
+    if section_key == "wnba":
+        key_data.append("WNBA betting window is active and ready for odds, props, lineup and fantasy-market context.")
+
+    if not key_data:
+        key_data.append("Market signal: sportsbook pricing is being used as context, not as a prediction.")
+
+    return key_data[:5]
+
+
+def build_why_it_matters(section_key: str, headline: str, snapshot: str, source_lines: list[str]) -> list[str]:
+    text = " ".join([headline, snapshot, " ".join(source_lines)]).lower()
+    why: list[str] = []
+
+    if "favorite" in text:
+        why.append("The favorite price gives reporters a clean expectation baseline to compare against the actual result.")
+    if "underdog" in text:
+        why.append("The underdog number creates an immediate upset-watch angle if game flow moves against the market.")
+    if "spread" in text:
+        why.append("The spread shows how much separation the market expects, not just which team is favored.")
+    if "total" in text or "over" in text or "under" in text:
+        why.append("The total points to pace, scoring environment, defensive matchups and game-script assumptions.")
+    if text_contains_any(text, VOLATILITY_TERMS):
+        why.append("Line movement matters because it can reflect new information, injury updates or sharper market opinion.")
+    if text_contains_any(text, RISK_TERMS):
+        why.append("Risk factors can change both the betting board and the editorial framing before the game starts.")
+    if text_contains_any(text, PRESSURE_TERMS):
+        why.append("High-pressure standings or postseason context can change motivation, rotation choices and late-game decision-making.")
+    if section_key == "wnba":
+        why.append("WNBA betting coverage belongs on the board because the league is rising in audience attention, fantasy interest and market activity.")
+
+    if not why:
+        why.append("The betting board matters because it turns matchup expectations into measurable pressure points for journalists.")
+
+    return why[:5]
+
+
+def build_what_to_watch(section_key: str, headline: str, snapshot: str, source_lines: list[str]) -> list[str]:
+    text = " ".join([headline, snapshot, " ".join(source_lines)]).lower()
+    watch: list[str] = []
+
+    if text_contains_any(text, RISK_TERMS):
+        watch.append("Watch late injury, lineup, pitching, rest, travel or weather updates before treating the market as settled.")
+    if text_contains_any(text, VOLATILITY_TERMS):
+        watch.append("Watch whether the number keeps moving or stabilizes before game time.")
+    if "total" in text or "over" in text or "under" in text:
+        watch.append("Watch whether tempo, pitching, goalie, defensive or weather factors support the listed total.")
+    if "favorite" in text:
+        watch.append("Watch whether the favorite controls early game flow or leaves room for live-market pressure.")
+    if "underdog" in text:
+        watch.append("Watch whether the underdog has a path through pace, defense, pitching, shooting variance or matchup leverage.")
+    if section_key == "wnba":
+        watch.append("Watch for WNBA lineup availability, star usage, travel spots and prop-market movement as the section matures.")
+
+    watch.append("Compare the market expectation with the live result once games begin.")
+
+    deduped: list[str] = []
+    seen: set[str] = set()
+    for item in watch:
+        key = item.lower()
+        if key not in seen:
+            seen.add(key)
+            deduped.append(item)
+
+    return deduped[:5]
+
+
+def build_headline(section_key: str, text: str, json_data: Any) -> str:
+    if isinstance(json_data, dict):
+        value = json_first_value(json_data, ["headline", "title", "lead_headline"])
+        if value:
+            return trim_text(value, 180)
+
+        cards = json_data.get("cards")
+        if isinstance(cards, list) and cards:
+            first = cards[0]
+            if isinstance(first, dict):
+                value = json_first_value(first, ["headline", "title", "matchup", "game"])
+                if value:
+                    return trim_text(value, 180)
+
+        stories = json_data.get("stories")
+        if isinstance(stories, list) and stories:
+            first = stories[0]
+            if isinstance(first, dict):
+                value = json_first_value(first, ["headline", "title", "matchup", "game"])
+                if value:
+                    return trim_text(value, 180)
+
+    sections = split_named_sections(text)
+    headline_lines = sections.get("headline", [])
+    if headline_lines:
+        return trim_text(headline_lines[0], 180)
+
+    first = first_meaningful_line(text)
+    if first:
+        return trim_text(first, 180)
+
+    return f"{format_label(section_key)} market board is active"
+
+
+def build_snapshot(section_key: str, text: str, json_data: Any, headline: str) -> str:
+    if isinstance(json_data, dict):
+        value = json_first_value(json_data, ["snapshot", "summary", "description", "lead_summary"])
+        if value:
+            return trim_text(value, 280)
+
+        cards = json_data.get("cards")
+        if isinstance(cards, list) and cards:
+            first = cards[0]
+            if isinstance(first, dict):
+                value = json_first_value(first, ["snapshot", "summary", "description", "note"])
+                if value:
+                    return trim_text(value, 280)
+
+        stories = json_data.get("stories")
+        if isinstance(stories, list) and stories:
+            first = stories[0]
+            if isinstance(first, dict):
+                value = json_first_value(first, ["snapshot", "summary", "description", "note"])
+                if value:
+                    return trim_text(value, 280)
+
+    sections = split_named_sections(text)
+    snapshot_lines = sections.get("snapshot", [])
+    if snapshot_lines:
+        return trim_text(snapshot_lines[0], 280)
+
+    if headline:
+        return trim_text(f"{headline} is the lead betting-market signal in the current update window.", 280)
+
+    return f"{format_label(section_key)} remains active in the current betting report window."
+
+
+def build_editorial_fields(section_key: str, text: str, json_data: Any) -> dict[str, Any]:
     sections = split_named_sections(text)
 
-    normalized_sections: dict[str, list[str]] = {}
-    for key, values in sections.items():
-        cleaned_values = [clean_text(v) for v in values if clean_text(v)]
-        normalized_sections[key] = cleaned_values
+    headline = build_headline(section_key, text, json_data)
+    snapshot = build_snapshot(section_key, text, json_data, headline)
+
+    existing_key_data = normalize_lines(
+        sections.get("key_data")
+        or sections.get("key_data_points")
+        or sections.get("current_data_and_analytics"),
+        limit=5,
+    )
+    existing_why = normalize_lines(sections.get("why_it_matters"), limit=5)
+    existing_watch = normalize_lines(sections.get("what_to_watch") or sections.get("watch_list"), limit=5)
+
+    source_lines = normalize_lines(
+        [headline, snapshot]
+        + existing_key_data
+        + existing_why
+        + existing_watch
+        + normalize_lines(text, limit=10),
+        limit=16,
+    )
+
+    key_data = existing_key_data or build_key_data(section_key, headline, snapshot, source_lines)
+    why_it_matters = existing_why or build_why_it_matters(section_key, headline, snapshot, source_lines)
+    what_to_watch = existing_watch or build_what_to_watch(section_key, headline, snapshot, source_lines)
+
+    signal = detect_market_signal(" ".join([headline, snapshot, " ".join(source_lines)]))
 
     return {
-        "title": title,
-        "source_file": path.name,
-        "updated_at": updated_at,
-        "sections": normalized_sections,
+        "key": section_key,
+        "label": format_label(section_key),
+        "headline": headline,
+        "snapshot": snapshot,
+        "key_data": key_data[:5],
+        "key_data_points": key_data[:5],
+        "why_it_matters": why_it_matters[:5],
+        "what_to_watch": what_to_watch[:5],
+        "story_type": signal,
+        "market_signal": signal,
+        "url": extract_url(section_key, json_data, text),
+        "editorial_brain": {
+            "version": EDITORIAL_BRAIN_VERSION,
+            "status": "active",
+            "section": section_key,
+            "label": format_label(section_key),
+            "signal": signal,
+            "standard": "Betting data is used for context and reporting signals, not gambling advice.",
+        },
     }
 
 
-def parse_standard_report(section_key: str, path: Path) -> dict[str, Any] | None:
-    text = read_text_file(path)
-    if not text:
+def parse_section(section_key: str) -> dict[str, Any] | None:
+    json_path = INPUT_JSON_FILES.get(section_key)
+    text_path = INPUT_TEXT_FILES.get(section_key)
+
+    json_data = read_json_file(json_path) if json_path else None
+    text = read_text_file(text_path) if text_path else ""
+
+    if not text and json_data is None:
         return None
 
-    lines = text.splitlines()
-    title = lines[0].strip() if lines else f"{format_label(section_key)} REPORT"
-    updated_at = parse_timestamp_from_text(text) or now_et().strftime("%Y-%m-%d %I:%M:%S %p ET")
+    if not text and json_data is not None:
+        text = safe_join_parts(json_data)
 
-    return {
-        "title": title,
-        "source_file": path.name,
+    updated_at = parse_timestamp_from_text(text) or ts()
+
+    section = {
+        "title": format_label(section_key),
+        "source_file": text_path.name if text_path else "",
+        "json_source_file": json_path.name if json_path and json_path.exists() else "",
         "updated_at": updated_at,
         "content": text,
     }
 
+    section.update(build_editorial_fields(section_key, text, json_data))
 
-def load_reports() -> dict[str, dict[str, Any]]:
-    reports: dict[str, dict[str, Any]] = {}
+    if isinstance(json_data, dict):
+        for carry_key in [
+            "cards",
+            "stories",
+            "games",
+            "events",
+            "odds",
+            "freshness",
+            "sports_checked",
+            "total_games_checked",
+            "links",
+            "source_label",
+        ]:
+            if carry_key in json_data and carry_key not in section:
+                section[carry_key] = json_data[carry_key]
+
+    return section
+
+
+def load_sections() -> dict[str, dict[str, Any]]:
+    sections: dict[str, dict[str, Any]] = {}
 
     for key in SECTION_ORDER:
-        path = REPORT_FILES.get(key)
-        if not path:
-            continue
-        parsed = parse_standard_report(key, path)
+        parsed = parse_section(key)
         if parsed:
-            reports[key] = parsed
-            log(f"Loaded report: {path.name}")
+            sections[key] = parsed
+            log(f"Loaded section: {key}")
         else:
-            log(f"Missing report: {path.name}")
+            log(f"Missing section: {key}")
 
-    return reports
-
-
-def load_advanced_reports() -> dict[str, dict[str, Any]]:
-    advanced: dict[str, dict[str, Any]] = {}
-    for key, path in ADVANCED_REPORT_FILES.items():
-        parsed = parse_advanced_report(path)
-        if parsed:
-            advanced[key] = parsed
-            log(f"Loaded advanced report: {path.name}")
-    return advanced
+    return sections
 
 
 # =============================================================================
-# GLOBAL JSON PAYLOAD
+# PAYLOAD BUILDERS
 # =============================================================================
 
-def infer_global_headline(reports: dict[str, dict[str, Any]]) -> str:
-    mlb = reports.get("mlb", {}).get("content", "")
-    nba = reports.get("nba", {}).get("content", "")
-    nhl = reports.get("nhl", {}).get("content", "")
-    soccer = reports.get("soccer", {}).get("content", "")
+def section_priority_score(key: str, section: dict[str, Any]) -> int:
+    text = " ".join(
+        [
+            clean_text(section.get("headline", "")),
+            clean_text(section.get("snapshot", "")),
+            safe_join_parts(section.get("key_data", [])),
+            safe_join_parts(section.get("why_it_matters", [])),
+            safe_join_parts(section.get("what_to_watch", [])),
+        ]
+    ).lower()
 
-    for block in [mlb, nba, nhl, soccer]:
-        sections = split_named_sections(block)
-        headline = sections.get("headline", [])
+    score = 10
+
+    if key == "betting_odds":
+        score += 45
+    if key in {"mlb", "nba", "wnba", "nhl"}:
+        score += 18
+    if key in {"nfl", "ncaafb"}:
+        score += 12
+    if key == "fantasy":
+        score += 10
+
+    if text_contains_any(text, BETTING_TERMS):
+        score += 25
+    if text_contains_any(text, VOLATILITY_TERMS):
+        score += 28
+    if text_contains_any(text, RISK_TERMS):
+        score += 20
+    if text_contains_any(text, PRESSURE_TERMS):
+        score += 22
+    if text_contains_any(text, LIVE_TERMS):
+        score += 16
+
+    if key in SECTION_ORDER:
+        score += max(0, 20 - SECTION_ORDER.index(key))
+
+    return score
+
+
+def infer_headline(sections: dict[str, dict[str, Any]]) -> str:
+    if not sections:
+        return "The betting board is active across the sports market."
+
+    ranked = sorted(
+        sections.items(),
+        key=lambda item: section_priority_score(item[0], item[1]),
+        reverse=True,
+    )
+
+    for _, section in ranked:
+        headline = clean_text(section.get("headline", ""))
         if headline:
-            return headline[0]
+            return headline
 
-    available = [format_label(k) for k in SECTION_ORDER if k in reports]
-    if available:
-        return f"{', '.join(available[:2])} lead the current sports calendar while the broader board stays in view."
-    return "The sports calendar remains active across multiple leagues."
+    return "The betting board is active across the sports market."
 
-def extract_storylines(reports: dict[str, dict[str, Any]]) -> list[str]:
-    lines: list[str] = []
 
-    for key in ["mlb", "nba", "nhl", "nfl", "ncaafb", "soccer", "fantasy"]:
-        report = reports.get(key)
-        if not report:
-            continue
-        content = report.get("content", "")
-        sections = split_named_sections(content)
-        snapshot = sections.get("snapshot", [])
+def infer_snapshot(sections: dict[str, dict[str, Any]]) -> str:
+    if "betting_odds" in sections:
+        why = normalize_lines(sections["betting_odds"].get("why_it_matters"), limit=1)
+        if why:
+            return why[0]
+
+    ranked = sorted(
+        sections.items(),
+        key=lambda item: section_priority_score(item[0], item[1]),
+        reverse=True,
+    )
+
+    for _, section in ranked:
+        snapshot = clean_text(section.get("snapshot", ""))
         if snapshot:
-            lines.append(f"{format_label(key)} snapshot: {snapshot[0]}")
-        elif content:
-            first_line = first_meaningful_line(content)
-            if first_line:
-                lines.append(f"{format_label(key)}: {first_line}")
+            return snapshot
 
-    return lines[:6]
+    return "Global Betting Report is monitoring odds, implied probability, market movement and matchup risk across the current sports board."
 
 
-def infer_global_snapshot(reports: dict[str, dict[str, Any]]) -> str:
-    fantasy = reports.get("fantasy", {}).get("content", "")
-    if fantasy:
-        sections = split_named_sections(fantasy)
-        snapshot = sections.get("snapshot", [])
+def build_key_storylines(sections: dict[str, dict[str, Any]]) -> list[str]:
+    storylines: list[str] = []
+
+    ranked = sorted(
+        sections.items(),
+        key=lambda item: section_priority_score(item[0], item[1]),
+        reverse=True,
+    )
+
+    for key, section in ranked:
+        headline = clean_text(section.get("headline", ""))
+        snapshot = clean_text(section.get("snapshot", ""))
         if snapshot:
-            return snapshot[0]
+            storylines.append(f"{format_label(key)}: {snapshot}")
+        elif headline:
+            storylines.append(f"{format_label(key)}: {headline}")
 
-    soccer = reports.get("soccer", {}).get("content", "")
-    if soccer:
-        sections = split_named_sections(soccer)
-        snapshot = sections.get("snapshot", [])
-        if snapshot:
-            return snapshot[0]
-
-    return "No fantasy updates were available at this time."
+    return storylines[:6]
 
 
-def attach_advanced_reports(
-    reports: dict[str, dict[str, Any]],
-    advanced: dict[str, dict[str, Any]],
-) -> None:
-    for section_key, report in reports.items():
-        if section_key in advanced:
-            report["advanced"] = advanced[section_key]
+def build_homepage_cards(sections: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+    cards: list[dict[str, Any]] = []
 
-    if "nfl_draft_signals" in advanced:
-        if "nfl" in reports:
-            report = reports["nfl"]
-            if "advanced" not in report:
-                report["advanced"] = advanced["nfl_draft_signals"]
+    ranked = sorted(
+        sections.items(),
+        key=lambda item: section_priority_score(item[0], item[1]),
+        reverse=True,
+    )
+
+    for key, section in ranked:
+        cards.append(
+            {
+                "league": format_label(key),
+                "key": key,
+                "headline": trim_text(section.get("headline", ""), 180),
+                "snapshot": trim_text(section.get("snapshot", ""), 260),
+                "url": clean_text(section.get("url", "")),
+                "source_label": clean_text(section.get("source_label", "")) or format_label(key),
+                "story_type": clean_text(section.get("story_type", "market_board")),
+                "market_signal": clean_text(section.get("market_signal", "market_board")),
+                "key_data": normalize_lines(section.get("key_data") or section.get("key_data_points"), limit=4),
+                "why_it_matters": normalize_lines(section.get("why_it_matters"), limit=3),
+                "what_to_watch": normalize_lines(section.get("what_to_watch"), limit=3),
+                "editorial_brain": section.get("editorial_brain", {}),
+            }
+        )
+
+    return cards[:12]
 
 
-def build_latest_report_payload(
-    reports: dict[str, dict[str, Any]],
-    advanced: dict[str, dict[str, Any]],
-) -> dict[str, Any]:
-    attach_advanced_reports(reports, advanced)
+def build_live_newsroom(sections: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+    newsroom: list[dict[str, Any]] = []
 
-    now_string = now_et().strftime("%Y-%m-%d %I:%M:%S %p ET")
+    ranked = sorted(
+        sections.items(),
+        key=lambda item: section_priority_score(item[0], item[1]),
+        reverse=True,
+    )
+
+    for key, section in ranked:
+        newsroom.append(
+            {
+                "section": key,
+                "label": format_label(key),
+                "headline": clean_text(section.get("headline", "")),
+                "snapshot": clean_text(section.get("snapshot", "")),
+                "market_signal": clean_text(section.get("market_signal", "")),
+                "updated_at": clean_text(section.get("updated_at", "")),
+                "url": clean_text(section.get("url", "")),
+            }
+        )
+
+    return newsroom[:10]
+
+
+def build_editor_signals(sections: dict[str, dict[str, Any]]) -> list[str]:
+    signals = [
+        "Betting Editorial Brain v3 is active: odds are being interpreted as market context, not gambling advice.",
+        "Cards now carry cleaner key_data, why_it_matters and what_to_watch fields for journalist-facing readability.",
+        "Market context now detects favorite, underdog, spread, total, volatility, risk and live-board signals.",
+    ]
+
+    if "wnba" in sections:
+        signals.append("WNBA betting window is active because WNBA data was detected.")
+    else:
+        signals.append("WNBA betting window is ready and will appear automatically when WNBA data files are generated.")
+
+    if "fantasy" in sections:
+        signals.append("Fantasy crossover watch is active for betting/fantasy context.")
+
+    return signals
+
+
+def build_payload(sections: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    now_string = ts()
     date_string = now_et().strftime("%Y-%m-%d")
 
     payload = {
+        "site": SITE,
+        "vertical": VERTICAL,
         "title": f"{TITLE} | {date_string}",
-        "headline": infer_global_headline(reports),
-        "key_storylines": extract_storylines(reports),
-        "snapshot": infer_global_snapshot(reports),
-        "generated_at": now_string,
+        "headline": infer_headline(sections),
+        "snapshot": infer_snapshot(sections),
+        "key_storylines": build_key_storylines(sections),
         "updated_at": now_string,
+        "generated_at": now_string,
         "published_at": now_string,
-        "disclaimer": DISCLAIMER,
         "x_handle": os.getenv("GSR_X_HANDLE", DEFAULT_X_HANDLE),
         "substack_url": os.getenv("GSR_SUBSTACK_URL", DEFAULT_SUBSTACK_URL),
+        "disclaimer": DISCLAIMER,
+        "editorial_brain_version": EDITORIAL_BRAIN_VERSION,
+        "editorial_standard": "Betting data is used for context, signals and reporting structure only. This is not gambling advice.",
         "sections": {},
     }
 
     for key in SECTION_ORDER:
-        if key in reports:
-            payload["sections"][key] = reports[key]
+        if key in sections:
+            payload["sections"][key] = sections[key]
 
-    statcast_public_name = "mlb_statcast_snapshot.svg"
-    if any(p.exists() for p in STATCAST_FILES):
-        payload["statcast_graphic"] = f"/{statcast_public_name}"
+    payload["homepage_cards"] = build_homepage_cards(sections)
+    payload["live_newsroom"] = build_live_newsroom(sections)
+    payload["editor_signals"] = build_editor_signals(sections)
+
+    freshness = {}
+    betting = sections.get("betting_odds", {})
+    if isinstance(betting, dict):
+        freshness = betting.get("freshness", {}) if isinstance(betting.get("freshness"), dict) else {}
+
+    payload["freshness"] = {
+        "last_checked": now_string,
+        "source": "build_betting_distribution.py",
+        "editorial_brain": EDITORIAL_BRAIN_VERSION,
+        **freshness,
+    }
 
     return payload
 
 
-# =============================================================================
-# PLATFORM TEXT BUILDERS
-# =============================================================================
-
-def build_latest_report_text(payload: dict[str, Any]) -> str:
+def build_text_report(payload: dict[str, Any]) -> str:
     parts: list[str] = [
         payload.get("title", TITLE),
         "",
         "HEADLINE",
         payload.get("headline", ""),
         "",
-        "KEY STORYLINES",
-    ]
-
-    for line in payload.get("key_storylines", []):
-        parts.append(f"- {line}")
-
-    parts += [
-        "",
         "SNAPSHOT",
         payload.get("snapshot", ""),
         "",
+        "KEY STORYLINES",
     ]
+
+    for item in payload.get("key_storylines", []):
+        parts.append(f"- {item}")
+
+    parts += ["", "EDITOR SIGNALS"]
+
+    for item in payload.get("editor_signals", []):
+        parts.append(f"- {item}")
+
+    parts.append("")
 
     for key in SECTION_ORDER:
         section = payload.get("sections", {}).get(key)
         if not section:
             continue
+
         parts.append(format_label(key).upper())
-        parts.append(section.get("content", ""))
+
+        headline = clean_text(section.get("headline", ""))
+        snapshot = clean_text(section.get("snapshot", ""))
+
+        if headline:
+            parts.append("HEADLINE")
+            parts.append(headline)
+
+        if snapshot:
+            parts.append("SNAPSHOT")
+            parts.append(snapshot)
+
+        key_data = normalize_lines(section.get("key_data") or section.get("key_data_points"), limit=5)
+        if key_data:
+            parts.append("KEY DATA")
+            for item in key_data:
+                parts.append(f"- {item}")
+
+        why = normalize_lines(section.get("why_it_matters"), limit=5)
+        if why:
+            parts.append("WHY IT MATTERS")
+            for item in why:
+                parts.append(f"- {item}")
+
+        watch = normalize_lines(section.get("what_to_watch"), limit=5)
+        if watch:
+            parts.append("WHAT TO WATCH")
+            for item in watch:
+                parts.append(f"- {item}")
+
         parts.append("")
 
     parts.append(DISCLAIMER)
     return safe_join_parts(parts)
 
 
-def build_substack_post(payload: dict[str, Any]) -> str:
-    parts: list[str] = [
-        payload.get("title", TITLE),
-        "",
-        payload.get("headline", ""),
-        "",
-        "Key Storylines",
-    ]
-    for line in payload.get("key_storylines", []):
-        parts.append(f"- {line}")
-
-    parts += ["", "Snapshot", payload.get("snapshot", ""), ""]
-
-    for key in SECTION_ORDER:
-        section = payload.get("sections", {}).get(key)
-        if not section:
-            continue
-        parts.append(format_label(key))
-        parts.append(section.get("content", ""))
-        advanced = section.get("advanced")
-        if advanced:
-            parts.append("")
-            parts.append(f"{format_label(key)} Advanced")
-            adv_sections = advanced.get("sections", {})
-            for adv_key, adv_values in adv_sections.items():
-                if not adv_values:
-                    continue
-                parts.append(adv_key.replace("_", " ").title())
-                for item in adv_values:
-                    parts.append(f"- {item}")
-        parts.append("")
-
-    parts.append(DISCLAIMER)
-    return safe_join_parts(parts)
-
-
-def build_telegram_post(payload: dict[str, Any]) -> str:
-    lines: list[str] = [
-        payload.get("title", TITLE),
-        payload.get("headline", ""),
-        "",
-    ]
-    for line in payload.get("key_storylines", [])[:5]:
-        lines.append(f"- {line}")
-
-    lines += [
-        "",
-        payload.get("snapshot", ""),
-        "",
-        f"Read more on Substack: {payload.get('substack_url', DEFAULT_SUBSTACK_URL)}",
-        f"Follow on X: {payload.get('x_handle', DEFAULT_X_HANDLE)}",
-    ]
-    return safe_join_parts(lines)
-
-
-def split_for_twitter(text: str, max_len: int = 275) -> list[str]:
-    text = clean_text(text)
-    chunks: list[str] = []
-
-    paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
-    current = ""
-
-    for para in paragraphs:
-        candidate = f"{current}\n\n{para}".strip() if current else para
-        if len(candidate) <= max_len:
-            current = candidate
-            continue
-
-        if current:
-            chunks.append(current)
-            current = ""
-
-        if len(para) <= max_len:
-            current = para
-            continue
-
-        words = para.split()
-        temp = ""
-        for word in words:
-            candidate_word = f"{temp} {word}".strip()
-            if len(candidate_word) <= max_len:
-                temp = candidate_word
-            else:
-                if temp:
-                    chunks.append(temp)
-                temp = word
-        if temp:
-            current = temp
-
-    if current:
-        chunks.append(current)
-
-    total = len(chunks)
-    numbered: list[str] = []
-    for i, chunk in enumerate(chunks, start=1):
-        prefix = f"{i}/{total} "
-        if len(prefix) + len(chunk) > 280:
-            chunk = chunk[: 280 - len(prefix) - 1].rstrip()
-        numbered.append(prefix + chunk)
-    return numbered
-
-
-def build_twitter_thread(payload: dict[str, Any]) -> list[str]:
-    intro = (
-        f"{payload.get('title', TITLE)}\n\n"
-        f"{payload.get('headline', '')}\n\n"
-        f"{payload.get('x_handle', DEFAULT_X_HANDLE)}"
-    )
-
-    bullets = "\n".join(f"- {line}" for line in payload.get("key_storylines", [])[:4])
-
-    body = (
-        f"{intro}\n\n"
-        f"Key storylines:\n{bullets}\n\n"
-        f"Snapshot: {payload.get('snapshot', '')}\n\n"
-        f"{payload.get('substack_url', DEFAULT_SUBSTACK_URL)}"
-    )
-
-    return split_for_twitter(body)
-
-
 # =============================================================================
-# COPY / WEBSITE SYNC
+# OPTIONAL GIT SYNC
 # =============================================================================
 
-def backup_previous_json() -> None:
-    if OUTPUT_LATEST_JSON.exists():
-        shutil.copy2(OUTPUT_LATEST_JSON, OUTPUT_PREVIOUS_JSON)
-        log(f"Backed up previous JSON to {OUTPUT_PREVIOUS_JSON.name}")
-
-
-def copy_file_if_exists(src: Path, dst: Path) -> bool:
-    if not src.exists():
-        return False
-    dst.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(src, dst)
-    log(f"Copied: {src} -> {dst}")
-    return True
-
-
-def copy_statcast_asset() -> bool:
-    for src in STATCAST_FILES:
-        if src.exists():
-            target = WEB_COPY_TARGETS["mlb_statcast_snapshot.svg"]
-            return copy_file_if_exists(src, target)
-    log("No Statcast SVG found to copy.")
-    return False
-
-
-def sync_website_files() -> list[Path]:
-    copied: list[Path] = []
-
-    pairs = [
-        (OUTPUT_LATEST_JSON, WEB_COPY_TARGETS["latest_report.json"]),
-        (OUTPUT_LATEST_TXT, WEB_COPY_TARGETS["latest_report.txt"]),
-        (GLOBAL_REPORT_TXT, WEB_COPY_TARGETS["global_sports_report.txt"]),
-    ]
-
-    for src, dst in pairs:
-        if copy_file_if_exists(src, dst):
-            copied.append(dst)
-
-    if copy_statcast_asset():
-        copied.append(WEB_COPY_TARGETS["mlb_statcast_snapshot.svg"])
-
-    return copied
-
-
-# =============================================================================
-# TELEGRAM / TWITTER
-# =============================================================================
-
-def send_telegram_message(text: str) -> bool:
-    token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
-    chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
-
-    if not token or not chat_id or requests is None:
-        log("Telegram send skipped.")
-        return False
-
-    chunks = split_for_telegram(text, 3900)
-    ok = True
-
-    for idx, chunk in enumerate(chunks, start=1):
-        try:
-            response = requests.post(
-                f"https://api.telegram.org/bot{token}/sendMessage",
-                json={
-                    "chat_id": chat_id,
-                    "text": chunk,
-                    "disable_web_page_preview": False,
-                },
-                timeout=30,
-            )
-            response.raise_for_status()
-            log(f"Telegram part sent: {idx}/{len(chunks)}")
-        except Exception as exc:
-            ok = False
-            log(f"Telegram exception: {exc}")
-            break
-
-    return ok
-
-
-def split_for_telegram(text: str, max_len: int = 3900) -> list[str]:
-    text = clean_text(text)
-    if len(text) <= max_len:
-        return [text]
-
-    chunks: list[str] = []
-    current = ""
-
-    for para in text.split("\n\n"):
-        para = para.strip()
-        if not para:
-            continue
-        candidate = f"{current}\n\n{para}".strip() if current else para
-        if len(candidate) <= max_len:
-            current = candidate
-        else:
-            if current:
-                chunks.append(current)
-            current = para
-            while len(current) > max_len:
-                chunks.append(current[:max_len])
-                current = current[max_len:]
-
-    if current:
-        chunks.append(current)
-
-    return chunks
-
-
-def send_twitter_thread(parts: list[str]) -> bool:
-    api_key = os.getenv("TWITTER_API_KEY", "").strip()
-    api_secret = os.getenv("TWITTER_API_SECRET", "").strip()
-    access_token = os.getenv("TWITTER_ACCESS_TOKEN", "").strip()
-    access_secret = os.getenv("TWITTER_ACCESS_TOKEN_SECRET", "").strip()
-
-    if not all([api_key, api_secret, access_token, access_secret]) or tweepy is None:
-        log("X/Twitter send skipped.")
-        return False
-
-    try:
-        client = tweepy.Client(
-            consumer_key=api_key,
-            consumer_secret=api_secret,
-            access_token=access_token,
-            access_token_secret=access_secret,
-        )
-
-        reply_to = None
-        for idx, part in enumerate(parts, start=1):
-            response = client.create_tweet(
-                text=part,
-                in_reply_to_tweet_id=reply_to,
-                user_auth=True,
-            )
-            tweet_id = response.data["id"]
-            reply_to = tweet_id
-            log(f"Posted tweet {idx}/{len(parts)}")
-
-        log("X thread posted successfully.")
-        return True
-
-    except Exception as exc:
-        log(f"Twitter exception: {exc}")
-        return False
-
-
-# =============================================================================
-# OPTIONAL WEBSITE GIT SYNC
-# =============================================================================
-
-def maybe_run_website_git_sync() -> bool:
-    """
-    Optional.
-    Only runs if WEBSITE_AUTO_GIT=1 in .env.
-    """
+def maybe_run_git_sync() -> bool:
     if os.getenv("WEBSITE_AUTO_GIT", "0").strip() != "1":
-        log("Website git sync skipped.")
-        return False
-
-    if not WEB_DIR.exists():
-        log("Website git sync skipped: web directory missing.")
+        log("Git sync skipped.")
         return False
 
     commands = [
-        ["git", "add", "public/latest_report.json", "public/latest_report.txt", "public/global_sports_report.txt", "public/mlb_statcast_snapshot.svg"],
-        ["git", "commit", "-m", f"GSR auto-update {now_et().strftime('%Y-%m-%d %H:%M:%S ET')}"],
+        ["git", "add", "latest_report.json", "latest_report.txt", "global_betting_report.txt", "public/latest_report.json", "public/latest_report.txt", "public/global_betting_report.txt"],
+        ["git", "commit", "-m", f"Update betting report {now_et().strftime('%Y-%m-%d %H:%M:%S ET')}"],
         ["git", "pull", "--rebase"],
         ["git", "push", "origin", "master"],
     ]
@@ -893,7 +1143,7 @@ def maybe_run_website_git_sync() -> bool:
         for cmd in commands:
             result = subprocess.run(
                 cmd,
-                cwd=str(WEB_DIR),
+                cwd=str(BASE_DIR),
                 capture_output=True,
                 text=True,
                 check=False,
@@ -904,7 +1154,7 @@ def maybe_run_website_git_sync() -> bool:
                 log(result.stderr.strip())
         return True
     except Exception as exc:
-        log(f"Website git sync exception: {exc}")
+        log(f"Git sync exception: {exc}")
         return False
 
 
@@ -913,62 +1163,50 @@ def maybe_run_website_git_sync() -> bool:
 # =============================================================================
 
 def main() -> int:
-    log("Starting distribution build.")
-    load_environment()
+    log("Starting Global Betting Report distribution build.")
 
-    backup_previous_json()
+    env_path = BASE_DIR / ".env"
+    if load_dotenv and env_path.exists():
+        load_dotenv(env_path)
 
-    reports = load_reports()
-    advanced = load_advanced_reports()
+    log(f"ENV PATH: {env_path}")
+    log(f"ENV EXISTS: {env_path.exists()}")
+    log(f"PUBLIC DIR: {PUBLIC_DIR}")
 
-    if not reports:
-        log("FATAL ERROR: No report files were loaded.")
+    sections = load_sections()
+
+    if not sections:
+        log("FATAL ERROR: No betting sections loaded.")
         return 1
 
-    payload = build_latest_report_payload(reports, advanced)
-
-    latest_report_text = build_latest_report_text(payload)
-    substack_post = build_substack_post(payload)
-    telegram_post = build_telegram_post(payload)
-    twitter_parts = build_twitter_thread(payload)
+    payload = build_payload(sections)
+    text_report = build_text_report(payload)
 
     write_json_file(OUTPUT_LATEST_JSON, payload)
-    write_text_file(OUTPUT_LATEST_TXT, latest_report_text)
-    write_text_file(OUTPUT_SUBSTACK, substack_post)
-    write_text_file(OUTPUT_TELEGRAM, telegram_post)
-    write_text_file(OUTPUT_TWITTER, "\n\n---\n\n".join(twitter_parts))
+    write_text_file(OUTPUT_LATEST_TXT, text_report)
+    write_text_file(OUTPUT_FULL_TXT, text_report)
 
-    if not GLOBAL_REPORT_TXT.exists():
-        write_text_file(GLOBAL_REPORT_TXT, latest_report_text)
+    copy_file_if_exists(OUTPUT_LATEST_JSON, PUBLIC_LATEST_JSON)
+    copy_file_if_exists(OUTPUT_LATEST_TXT, PUBLIC_LATEST_TXT)
+    copy_file_if_exists(OUTPUT_FULL_TXT, PUBLIC_FULL_TXT)
 
-    copied_files = sync_website_files()
-
-    telegram_ok = send_telegram_message(telegram_post)
-    twitter_ok = send_twitter_thread(twitter_parts)
-    website_git_ok = maybe_run_website_git_sync()
+    git_ok = maybe_run_git_sync()
 
     log("==============================================")
-    log("DISTRIBUTION SUMMARY")
+    log("GLOBAL BETTING REPORT DISTRIBUTION SUMMARY")
     log("==============================================")
-    log("Files Written: 5")
-    log(f" - {OUTPUT_SUBSTACK.name}")
-    log(f" - {OUTPUT_TELEGRAM.name}")
-    log(f" - {OUTPUT_TWITTER.name}")
-    log(f" - {OUTPUT_LATEST_TXT.name}")
-    log(f" - {OUTPUT_LATEST_JSON.name}")
-
-    log(f"Website Sync Copies: {len(copied_files)}")
-    for path in copied_files:
-        log(f" - {path}")
-
-    log(f"Telegram OK: {telegram_ok}")
-    log(f"X OK: {twitter_ok}")
-    log(f"Website Auto-Deploy OK: {website_git_ok}")
-
+    log(f"Sections loaded: {len(sections)}")
+    for key in sections:
+        log(f" - {format_label(key)}")
+    log(f"Homepage cards: {len(payload.get('homepage_cards', []))}")
+    log(f"Live newsroom items: {len(payload.get('live_newsroom', []))}")
+    log(f"Editorial Brain: {EDITORIAL_BRAIN_VERSION}")
+    log(f"Git sync OK: {git_ok}")
     log("NO CRITICAL ERRORS DETECTED")
     log("==============================================")
-    log("DISTRIBUTION BUILD COMPLETE")
+    log("GLOBAL BETTING REPORT DISTRIBUTION BUILD COMPLETE")
     log("==============================================")
+
     return 0
 
 
