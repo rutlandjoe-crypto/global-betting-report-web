@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-09 10:14:12 AM ET",
-  "generated_at": "2026-05-09 10:14:12 AM ET",
-  "generated_utc": "2026-05-09T14:14:12.176506+00:00",
+  "updated_at": "2026-05-09 11:42:01 AM ET",
+  "generated_at": "2026-05-09 11:42:01 AM ET",
+  "generated_utc": "2026-05-09T15:42:01.886685+00:00",
   "source_mode": "clean multi-card odds report distribution",
   "homepage_cards": [
     {
@@ -106,18 +106,18 @@
       "league": "NBA Betting Board",
       "headline": "Detroit Pistons at Cleveland Cavaliers - 3:10 PM ET",
       "game": "Detroit Pistons at Cleveland Cavaliers - 3:10 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Detroit Pistons +162 / Cleveland Cavaliers -194 | Spread: Detroit Pistons 4.5 (-106) / Cleveland Cavaliers -4.5 (-114) | Total: 212.5 (Over -110 / Under -110)",
+      "market": "Bookmaker: FanDuel | Moneyline: Detroit Pistons +152 / Cleveland Cavaliers -180 | Spread: Detroit Pistons 4.5 (-106) / Cleveland Cavaliers -4.5 (-114) | Total: 212.5 (Over -106 / Under -114)",
       "bookmaker": "FanDuel",
-      "moneyline": "Detroit Pistons +162 / Cleveland Cavaliers -194",
+      "moneyline": "Detroit Pistons +152 / Cleveland Cavaliers -180",
       "spread": "Detroit Pistons 4.5 (-106) / Cleveland Cavaliers -4.5 (-114)",
-      "total": "212.5 (Over -110 / Under -110)",
+      "total": "212.5 (Over -106 / Under -114)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Detroit Pistons +162 / Cleveland Cavaliers -194 | Spread: Detroit Pistons 4.5 (-106) / Cleveland Cavaliers -4.5 (-114) | Total: 212.5 (Over -110 / Under -110)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Detroit Pistons +152 / Cleveland Cavaliers -180 | Spread: Detroit Pistons 4.5 (-106) / Cleveland Cavaliers -4.5 (-114) | Total: 212.5 (Over -106 / Under -114)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Detroit Pistons +162 / Cleveland Cavaliers -194",
+        "Moneyline: Detroit Pistons +152 / Cleveland Cavaliers -180",
         "Spread: Detroit Pistons 4.5 (-106) / Cleveland Cavaliers -4.5 (-114)",
-        "Total: 212.5 (Over -110 / Under -110)"
+        "Total: 212.5 (Over -106 / Under -114)"
       ],
       "why_it_matters": [
         "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
@@ -133,24 +133,24 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Los Angeles Angels at Toronto Blue Jays - 3:08 PM ET",
       "game": "Los Angeles Angels at Toronto Blue Jays - 3:08 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +152 / Toronto Blue Jays -180 | Spread: Los Angeles Angels 1.5 (-142) / Toronto Blue Jays -1.5 (+118) | Total: 8.5 (Over -105 / Under -115)",
+      "market": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +152 / Toronto Blue Jays -180 | Spread: Los Angeles Angels 1.5 (-144) / Toronto Blue Jays -1.5 (+120) | Total: 8.5 (Over -105 / Under -115)",
       "bookmaker": "FanDuel",
       "moneyline": "Los Angeles Angels +152 / Toronto Blue Jays -180",
-      "spread": "Los Angeles Angels 1.5 (-142) / Toronto Blue Jays -1.5 (+118)",
+      "spread": "Los Angeles Angels 1.5 (-144) / Toronto Blue Jays -1.5 (+120)",
       "total": "8.5 (Over -105 / Under -115)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +152 / Toronto Blue Jays -180 | Spread: Los Angeles Angels 1.5 (-142) / Toronto Blue Jays -1.5 (+118) | Total: 8.5 (Over -105 / Under -115)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels +152 / Toronto Blue Jays -180 | Spread: Los Angeles Angels 1.5 (-144) / Toronto Blue Jays -1.5 (+120) | Total: 8.5 (Over -105 / Under -115)",
       "key_data": [
         "Bookmaker: FanDuel",
         "Moneyline: Los Angeles Angels +152 / Toronto Blue Jays -180",
-        "Spread: Los Angeles Angels 1.5 (-142) / Toronto Blue Jays -1.5 (+118)",
+        "Spread: Los Angeles Angels 1.5 (-144) / Toronto Blue Jays -1.5 (+120)",
         "Total: 8.5 (Over -105 / Under -115)"
       ],
       "why_it_matters": [
@@ -167,24 +167,24 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "NHL Betting Board",
       "league": "NHL Betting Board",
       "headline": "Carolina Hurricanes at Philadelphia Flyers - 6:10 PM ET",
       "game": "Carolina Hurricanes at Philadelphia Flyers - 6:10 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -192 / Philadelphia Flyers +158 | Spread: Carolina Hurricanes -1.5 (+134) / Philadelphia Flyers 1.5 (-164) | Total: 5.5 (Over +118 / Under -144)",
+      "market": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -205 / Philadelphia Flyers +168 | Spread: Carolina Hurricanes -1.5 (+124) / Philadelphia Flyers 1.5 (-152) | Total: 5.5 (Over +118 / Under -144)",
       "bookmaker": "FanDuel",
-      "moneyline": "Carolina Hurricanes -192 / Philadelphia Flyers +158",
-      "spread": "Carolina Hurricanes -1.5 (+134) / Philadelphia Flyers 1.5 (-164)",
+      "moneyline": "Carolina Hurricanes -205 / Philadelphia Flyers +168",
+      "spread": "Carolina Hurricanes -1.5 (+124) / Philadelphia Flyers 1.5 (-152)",
       "total": "5.5 (Over +118 / Under -144)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -192 / Philadelphia Flyers +158 | Spread: Carolina Hurricanes -1.5 (+134) / Philadelphia Flyers 1.5 (-164) | Total: 5.5 (Over +118 / Under -144)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -205 / Philadelphia Flyers +168 | Spread: Carolina Hurricanes -1.5 (+124) / Philadelphia Flyers 1.5 (-152) | Total: 5.5 (Over +118 / Under -144)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Carolina Hurricanes -192 / Philadelphia Flyers +158",
-        "Spread: Carolina Hurricanes -1.5 (+134) / Philadelphia Flyers 1.5 (-164)",
+        "Moneyline: Carolina Hurricanes -205 / Philadelphia Flyers +168",
+        "Spread: Carolina Hurricanes -1.5 (+124) / Philadelphia Flyers 1.5 (-152)",
         "Total: 5.5 (Over +118 / Under -144)"
       ],
       "why_it_matters": [
@@ -201,7 +201,7 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "NFL Betting Board",
@@ -235,25 +235,25 @@
         "Prime-time public money and late spread movement."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "NBA Betting Board",
       "league": "NBA Betting Board",
       "headline": "Oklahoma City Thunder at Los Angeles Lakers - 8:40 PM ET",
       "game": "Oklahoma City Thunder at Los Angeles Lakers - 8:40 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -390 / Los Angeles Lakers +310 | Spread: Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108) | Total: 211.5 (Over -112 / Under -108)",
+      "market": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -375 / Los Angeles Lakers +300 | Spread: Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108) | Total: 211.5 (Over -110 / Under -110)",
       "bookmaker": "FanDuel",
-      "moneyline": "Oklahoma City Thunder -390 / Los Angeles Lakers +310",
+      "moneyline": "Oklahoma City Thunder -375 / Los Angeles Lakers +300",
       "spread": "Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108)",
-      "total": "211.5 (Over -112 / Under -108)",
+      "total": "211.5 (Over -110 / Under -110)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -390 / Los Angeles Lakers +310 | Spread: Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108) | Total: 211.5 (Over -112 / Under -108)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -375 / Los Angeles Lakers +300 | Spread: Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108) | Total: 211.5 (Over -110 / Under -110)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Oklahoma City Thunder -390 / Los Angeles Lakers +310",
+        "Moneyline: Oklahoma City Thunder -375 / Los Angeles Lakers +300",
         "Spread: Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108)",
-        "Total: 211.5 (Over -112 / Under -108)"
+        "Total: 211.5 (Over -110 / Under -110)"
       ],
       "why_it_matters": [
         "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
@@ -269,7 +269,7 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -303,7 +303,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -337,7 +337,7 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "NBA Betting Board",
@@ -371,24 +371,24 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Tampa Bay Rays at Boston Red Sox - 4:11 PM ET",
       "game": "Tampa Bay Rays at Boston Red Sox - 4:11 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +128 / Boston Red Sox -152 | Spread: Tampa Bay Rays 1.5 (-172) / Boston Red Sox -1.5 (+142) | Total: 8 (Over -105 / Under -115)",
+      "market": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +126 / Boston Red Sox -148 | Spread: Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | Total: 8 (Over -105 / Under -115)",
       "bookmaker": "FanDuel",
-      "moneyline": "Tampa Bay Rays +128 / Boston Red Sox -152",
-      "spread": "Tampa Bay Rays 1.5 (-172) / Boston Red Sox -1.5 (+142)",
+      "moneyline": "Tampa Bay Rays +126 / Boston Red Sox -148",
+      "spread": "Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146)",
       "total": "8 (Over -105 / Under -115)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +128 / Boston Red Sox -152 | Spread: Tampa Bay Rays 1.5 (-172) / Boston Red Sox -1.5 (+142) | Total: 8 (Over -105 / Under -115)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +126 / Boston Red Sox -148 | Spread: Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | Total: 8 (Over -105 / Under -115)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Tampa Bay Rays +128 / Boston Red Sox -152",
-        "Spread: Tampa Bay Rays 1.5 (-172) / Boston Red Sox -1.5 (+142)",
+        "Moneyline: Tampa Bay Rays +126 / Boston Red Sox -148",
+        "Spread: Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146)",
         "Total: 8 (Over -105 / Under -115)"
       ],
       "why_it_matters": [
@@ -405,7 +405,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -439,25 +439,25 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "NBA Betting Board",
       "league": "NBA Betting Board",
       "headline": "San Antonio Spurs at Minnesota Timberwolves - 7:40 PM ET",
       "game": "San Antonio Spurs at Minnesota Timberwolves - 7:40 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: San Antonio Spurs -186 / Minnesota Timberwolves +156 | Spread: San Antonio Spurs -4.5 (-108) / Minnesota Timberwolves 4.5 (-112) | Total: 217.5 (Over -110 / Under -110)",
+      "market": "Bookmaker: FanDuel | Moneyline: San Antonio Spurs -190 / Minnesota Timberwolves +160 | Spread: San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110) | Total: 217.5 (Over -106 / Under -114)",
       "bookmaker": "FanDuel",
-      "moneyline": "San Antonio Spurs -186 / Minnesota Timberwolves +156",
-      "spread": "San Antonio Spurs -4.5 (-108) / Minnesota Timberwolves 4.5 (-112)",
-      "total": "217.5 (Over -110 / Under -110)",
+      "moneyline": "San Antonio Spurs -190 / Minnesota Timberwolves +160",
+      "spread": "San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110)",
+      "total": "217.5 (Over -106 / Under -114)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: San Antonio Spurs -186 / Minnesota Timberwolves +156 | Spread: San Antonio Spurs -4.5 (-108) / Minnesota Timberwolves 4.5 (-112) | Total: 217.5 (Over -110 / Under -110)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: San Antonio Spurs -190 / Minnesota Timberwolves +160 | Spread: San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110) | Total: 217.5 (Over -106 / Under -114)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: San Antonio Spurs -186 / Minnesota Timberwolves +156",
-        "Spread: San Antonio Spurs -4.5 (-108) / Minnesota Timberwolves 4.5 (-112)",
-        "Total: 217.5 (Over -110 / Under -110)"
+        "Moneyline: San Antonio Spurs -190 / Minnesota Timberwolves +160",
+        "Spread: San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110)",
+        "Total: 217.5 (Over -106 / Under -114)"
       ],
       "why_it_matters": [
         "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
@@ -473,25 +473,25 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Houston Astros at Cincinnati Reds - 4:11 PM ET",
       "game": "Houston Astros at Cincinnati Reds - 4:11 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Houston Astros +136 / Cincinnati Reds -162 | Spread: Houston Astros 1.5 (-152) / Cincinnati Reds -1.5 (+126) | Total: 8.5 (Over -110 / Under -110)",
+      "market": "Bookmaker: FanDuel | Moneyline: Houston Astros +136 / Cincinnati Reds -162 | Spread: Houston Astros 1.5 (-146) / Cincinnati Reds -1.5 (+125) | Total: 8.5 (Over -118 / Under -104)",
       "bookmaker": "FanDuel",
       "moneyline": "Houston Astros +136 / Cincinnati Reds -162",
-      "spread": "Houston Astros 1.5 (-152) / Cincinnati Reds -1.5 (+126)",
-      "total": "8.5 (Over -110 / Under -110)",
+      "spread": "Houston Astros 1.5 (-146) / Cincinnati Reds -1.5 (+125)",
+      "total": "8.5 (Over -118 / Under -104)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Houston Astros +136 / Cincinnati Reds -162 | Spread: Houston Astros 1.5 (-152) / Cincinnati Reds -1.5 (+126) | Total: 8.5 (Over -110 / Under -110)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Houston Astros +136 / Cincinnati Reds -162 | Spread: Houston Astros 1.5 (-146) / Cincinnati Reds -1.5 (+125) | Total: 8.5 (Over -118 / Under -104)",
       "key_data": [
         "Bookmaker: FanDuel",
         "Moneyline: Houston Astros +136 / Cincinnati Reds -162",
-        "Spread: Houston Astros 1.5 (-152) / Cincinnati Reds -1.5 (+126)",
-        "Total: 8.5 (Over -110 / Under -110)"
+        "Spread: Houston Astros 1.5 (-146) / Cincinnati Reds -1.5 (+125)",
+        "Total: 8.5 (Over -118 / Under -104)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -507,7 +507,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -541,24 +541,24 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Washington Nationals at Miami Marlins - 4:11 PM ET",
       "game": "Washington Nationals at Miami Marlins - 4:11 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Washington Nationals +132 / Miami Marlins -156 | Spread: Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | Total: 8.5 (Over -118 / Under -104)",
+      "market": "Bookmaker: FanDuel | Moneyline: Washington Nationals +132 / Miami Marlins -156 | Spread: Washington Nationals 1.5 (-160) / Miami Marlins -1.5 (+132) | Total: 8.5 (Over -118 / Under -104)",
       "bookmaker": "FanDuel",
       "moneyline": "Washington Nationals +132 / Miami Marlins -156",
-      "spread": "Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130)",
+      "spread": "Washington Nationals 1.5 (-160) / Miami Marlins -1.5 (+132)",
       "total": "8.5 (Over -118 / Under -104)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Washington Nationals +132 / Miami Marlins -156 | Spread: Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | Total: 8.5 (Over -118 / Under -104)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Washington Nationals +132 / Miami Marlins -156 | Spread: Washington Nationals 1.5 (-160) / Miami Marlins -1.5 (+132) | Total: 8.5 (Over -118 / Under -104)",
       "key_data": [
         "Bookmaker: FanDuel",
         "Moneyline: Washington Nationals +132 / Miami Marlins -156",
-        "Spread: Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130)",
+        "Spread: Washington Nationals 1.5 (-160) / Miami Marlins -1.5 (+132)",
         "Total: 8.5 (Over -118 / Under -104)"
       ],
       "why_it_matters": [
@@ -575,7 +575,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "Market Watch",
@@ -593,7 +593,7 @@
         "Compare sportsbook movement before treating one number as the full market."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     },
     {
       "title": "Betting Context",
@@ -609,7 +609,7 @@
         "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
       ],
       "source": "GSR betting desk",
-      "updated_at": "2026-05-09 10:14:12 AM ET"
+      "updated_at": "2026-05-09 11:42:01 AM ET"
     }
   ]
 }
