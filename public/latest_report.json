@@ -1,613 +1,869 @@
 {
   "site": "Global Betting Report",
-  "site_name": "Global Betting Report",
   "vertical": "Betting",
-  "title": "Global Betting Report",
-  "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
-  "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-09 06:33:46 PM ET",
-  "generated_at": "2026-05-09 06:33:46 PM ET",
-  "generated_utc": "2026-05-09T22:33:46.907498+00:00",
-  "source_mode": "clean multi-card odds report distribution",
-  "homepage_cards": [
-    {
-      "league": "NBA Betting Board",
-      "headline": "Oklahoma City Thunder at Los Angeles Lakers - 8:40 PM ET",
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "MLB Betting Board",
-      "headline": "Athletics at Baltimore Orioles - 4:06 PM ET",
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "NHL Betting Board",
-      "headline": "Carolina Hurricanes at Philadelphia Flyers - 6:20 PM ET",
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "NFL Betting Board",
-      "headline": "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "NBA Betting Board",
-      "headline": "New York Knicks at Philadelphia 76ers - 3:40 PM ET",
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "MLB Betting Board",
-      "headline": "Houston Astros at Cincinnati Reds - 4:11 PM ET",
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "NHL Betting Board",
-      "headline": "Colorado Avalanche at Minnesota Wild - 9:10 PM ET",
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "NBA Betting Board",
-      "headline": "San Antonio Spurs at Minnesota Timberwolves - 7:40 PM ET",
-      "url": "https://www.globalbettingreport.com"
-    }
-  ],
+  "headline": "MLB: Miami Marlins priced as market favorite vs Washington Nationals (-50000)",
+  "snapshot": "Miami Marlins priced as market favorite vs Washington Nationals (-50000). Implied probability is approximately 99.8% based on the listed moneyline.",
+  "updated_at": "2026-05-09 06:53:33 PM ET",
+  "generated_at": "2026-05-09 06:53:33 PM ET",
+  "freshness": {
+    "last_checked": "2026-05-09 06:53:33 PM ET",
+    "sports_checked": [
+      "MLB",
+      "NBA",
+      "NHL",
+      "NFL",
+      "NCAAF",
+      "Soccer"
+    ],
+    "total_games_checked": 32
+  },
   "live_newsroom": [
     {
-      "league": "NBA Betting Board",
-      "headline": "Oklahoma City Thunder at Los Angeles Lakers - 8:40 PM ET",
-      "url": "https://www.globalbettingreport.com"
+      "headline": "MLB: Miami Marlins priced as market favorite vs Washington Nationals (-50000)",
+      "snapshot": "Miami Marlins priced as market favorite vs Washington Nationals (-50000). Implied probability is approximately 99.8% based on the listed moneyline.",
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "league": "MLB Betting Board",
-      "headline": "Athletics at Baltimore Orioles - 4:06 PM ET",
-      "url": "https://www.globalbettingreport.com"
+      "headline": "MLB: Philadelphia Phillies priced as market favorite vs Colorado Rockies (-118)",
+      "snapshot": "Philadelphia Phillies priced as market favorite vs Colorado Rockies (-118). Implied probability is approximately 54.1% based on the listed moneyline.",
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "league": "NHL Betting Board",
-      "headline": "Carolina Hurricanes at Philadelphia Flyers - 6:20 PM ET",
-      "url": "https://www.globalbettingreport.com"
+      "headline": "MLB: Chicago Cubs priced as market favorite vs Texas Rangers (-130)",
+      "snapshot": "Chicago Cubs priced as market favorite vs Texas Rangers (-130). Implied probability is approximately 56.5% based on the listed moneyline.",
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "league": "NFL Betting Board",
-      "headline": "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-      "url": "https://www.globalbettingreport.com"
+      "headline": "MLB: Seattle Mariners priced as market favorite vs Chicago White Sox (-134)",
+      "snapshot": "Seattle Mariners priced as market favorite vs Chicago White Sox (-134). Implied probability is approximately 57.3% based on the listed moneyline.",
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "league": "NBA Betting Board",
-      "headline": "New York Knicks at Philadelphia 76ers - 3:40 PM ET",
-      "url": "https://www.globalbettingreport.com"
+      "headline": "MLB: Kansas City Royals priced as market favorite vs Detroit Tigers (-138)",
+      "snapshot": "Kansas City Royals priced as market favorite vs Detroit Tigers (-138). Implied probability is approximately 58.0% based on the listed moneyline.",
+      "url": "#",
+      "source_name": "FanDuel"
     },
     {
-      "league": "MLB Betting Board",
-      "headline": "Houston Astros at Cincinnati Reds - 4:11 PM ET",
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "NHL Betting Board",
-      "headline": "Colorado Avalanche at Minnesota Wild - 9:10 PM ET",
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "NBA Betting Board",
-      "headline": "San Antonio Spurs at Minnesota Timberwolves - 7:40 PM ET",
-      "url": "https://www.globalbettingreport.com"
+      "headline": "MLB: New York Yankees priced as market favorite vs Milwaukee Brewers (-134)",
+      "snapshot": "New York Yankees priced as market favorite vs Milwaukee Brewers (-134). Implied probability is approximately 57.3% based on the listed moneyline.",
+      "url": "#",
+      "source_name": "FanDuel"
     }
   ],
   "editor_signals": [
-    "Oklahoma City Thunder at Los Angeles Lakers - 8:40 PM ET",
-    "Athletics at Baltimore Orioles - 4:06 PM ET",
-    "Carolina Hurricanes at Philadelphia Flyers - 6:20 PM ET",
-    "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-    "New York Knicks at Philadelphia 76ers - 3:40 PM ET"
+    {
+      "headline": "MLB market watch: Washington Nationals at Miami Marlins",
+      "snapshot": "Miami Marlins priced as market favorite vs Washington Nationals (-50000). Implied probability is approximately 99.8% based on the listed moneyline.",
+      "key_data": [
+        "Moneyline: Washington Nationals +3500 / Miami Marlins -50000",
+        "Spread: Washington Nationals 3.5 (+280) / Miami Marlins -3.5 (-420)",
+        "Total: 12.5 (O +280 / U -420)",
+        "Implied probability: 99.8%"
+      ],
+      "why_it_matters": [
+        "Betting markets show how books and bettors are pricing risk before the event.",
+        "Line movement, totals and implied probability can signal where attention is building."
+      ],
+      "what_to_watch": [
+        "Watch for odds movement closer to game time.",
+        "Track injury, weather, lineup and fantasy-related changes that can move the market."
+      ],
+      "url": "#",
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "MLB market watch: Colorado Rockies at Philadelphia Phillies",
+      "snapshot": "Philadelphia Phillies priced as market favorite vs Colorado Rockies (-118). Implied probability is approximately 54.1% based on the listed moneyline.",
+      "key_data": [
+        "Moneyline: Colorado Rockies -108 / Philadelphia Phillies -118",
+        "Spread: Colorado Rockies 1.5 (-250) / Philadelphia Phillies -1.5 (+182)",
+        "Total: 8.5 (O -102 / U -130)",
+        "Implied probability: 54.1%"
+      ],
+      "why_it_matters": [
+        "Betting markets show how books and bettors are pricing risk before the event.",
+        "Line movement, totals and implied probability can signal where attention is building."
+      ],
+      "what_to_watch": [
+        "Watch for odds movement closer to game time.",
+        "Track injury, weather, lineup and fantasy-related changes that can move the market."
+      ],
+      "url": "#",
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "MLB market watch: Chicago Cubs at Texas Rangers",
+      "snapshot": "Chicago Cubs priced as market favorite vs Texas Rangers (-130). Implied probability is approximately 56.5% based on the listed moneyline.",
+      "key_data": [
+        "Moneyline: Chicago Cubs -130 / Texas Rangers +110",
+        "Spread: Chicago Cubs -1.5 (+132) / Texas Rangers 1.5 (-162)",
+        "Total: 8.5 (O +102 / U -124)",
+        "Implied probability: 56.5%"
+      ],
+      "why_it_matters": [
+        "Betting markets show how books and bettors are pricing risk before the event.",
+        "Line movement, totals and implied probability can signal where attention is building."
+      ],
+      "what_to_watch": [
+        "Watch for odds movement closer to game time.",
+        "Track injury, weather, lineup and fantasy-related changes that can move the market."
+      ],
+      "url": "#",
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "MLB market watch: Seattle Mariners at Chicago White Sox",
+      "snapshot": "Seattle Mariners priced as market favorite vs Chicago White Sox (-134). Implied probability is approximately 57.3% based on the listed moneyline.",
+      "key_data": [
+        "Moneyline: Seattle Mariners -134 / Chicago White Sox +114",
+        "Spread: Seattle Mariners -1.5 (+122) / Chicago White Sox 1.5 (-146)",
+        "Total: 9.5 (O -105 / U -115)",
+        "Implied probability: 57.3%"
+      ],
+      "why_it_matters": [
+        "Betting markets show how books and bettors are pricing risk before the event.",
+        "Line movement, totals and implied probability can signal where attention is building."
+      ],
+      "what_to_watch": [
+        "Watch for odds movement closer to game time.",
+        "Track injury, weather, lineup and fantasy-related changes that can move the market."
+      ],
+      "url": "#",
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "MLB market watch: Detroit Tigers at Kansas City Royals",
+      "snapshot": "Kansas City Royals priced as market favorite vs Detroit Tigers (-138). Implied probability is approximately 58.0% based on the listed moneyline.",
+      "key_data": [
+        "Moneyline: Detroit Tigers +118 / Kansas City Royals -138",
+        "Spread: Detroit Tigers 1.5 (-172) / Kansas City Royals -1.5 (+142)",
+        "Total: 9.0 (O -118 / U -104)",
+        "Implied probability: 58.0%"
+      ],
+      "why_it_matters": [
+        "Betting markets show how books and bettors are pricing risk before the event.",
+        "Line movement, totals and implied probability can signal where attention is building."
+      ],
+      "what_to_watch": [
+        "Watch for odds movement closer to game time.",
+        "Track injury, weather, lineup and fantasy-related changes that can move the market."
+      ],
+      "url": "#",
+      "source_name": "FanDuel"
+    }
   ],
   "sections": [
     {
-      "title": "NBA Betting Board",
-      "league": "NBA Betting Board",
-      "headline": "Oklahoma City Thunder at Los Angeles Lakers - 8:40 PM ET",
-      "game": "Oklahoma City Thunder at Los Angeles Lakers - 8:40 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -375 / Los Angeles Lakers +300 | Spread: Oklahoma City Thunder -9.5 (-105) / Los Angeles Lakers 9.5 (-115) | Total: 210.5 (Over -114 / Under -106)",
-      "bookmaker": "FanDuel",
-      "moneyline": "Oklahoma City Thunder -375 / Los Angeles Lakers +300",
-      "spread": "Oklahoma City Thunder -9.5 (-105) / Los Angeles Lakers 9.5 (-115)",
-      "total": "210.5 (Over -114 / Under -106)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -375 / Los Angeles Lakers +300 | Spread: Oklahoma City Thunder -9.5 (-105) / Los Angeles Lakers 9.5 (-115) | Total: 210.5 (Over -114 / Under -106)",
+      "headline": "MLB: Miami Marlins priced as market favorite vs Washington Nationals (-50000)",
+      "snapshot": "Miami Marlins priced as market favorite vs Washington Nationals (-50000). Implied probability is approximately 99.8% based on the listed moneyline.",
+      "url": "#",
       "key_data": [
-        "Bookmaker: FanDuel",
-        "Moneyline: Oklahoma City Thunder -375 / Los Angeles Lakers +300",
-        "Spread: Oklahoma City Thunder -9.5 (-105) / Los Angeles Lakers 9.5 (-115)",
-        "Total: 210.5 (Over -114 / Under -106)"
+        "Game: Washington Nationals at Miami Marlins",
+        "Start time: 4:11 PM ET",
+        "Moneyline: Washington Nationals +3500 / Miami Marlins -50000",
+        "Spread: Washington Nationals 3.5 (+280) / Miami Marlins -3.5 (-420)",
+        "Total: 12.5 (O +280 / U -420)",
+        "Implied probability: 99.8%"
       ],
       "why_it_matters": [
-        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
-        "A short favorite price suggests a tighter market than the matchup name may imply."
-      ],
-      "what_the_odds_mean": [
-        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
-        "A short favorite price suggests a tighter market than the matchup name may imply."
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
       ],
       "what_to_watch": [
-        "Official injury report updates.",
-        "Rest and back-to-back spots.",
-        "Rotation news and late movement near tipoff."
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
       ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
+      "source_name": "FanDuel"
     },
     {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Athletics at Baltimore Orioles - 4:06 PM ET",
-      "game": "Athletics at Baltimore Orioles - 4:06 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Athletics -10000 / Baltimore Orioles +1700 | Spread: Athletics -4.5 (-162) / Baltimore Orioles 4.5 (+122) | Total: 6.5 (Over +102 / Under -136)",
-      "bookmaker": "FanDuel",
-      "moneyline": "Athletics -10000 / Baltimore Orioles +1700",
-      "spread": "Athletics -4.5 (-162) / Baltimore Orioles 4.5 (+122)",
-      "total": "6.5 (Over +102 / Under -136)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Athletics -10000 / Baltimore Orioles +1700 | Spread: Athletics -4.5 (-162) / Baltimore Orioles 4.5 (+122) | Total: 6.5 (Over +102 / Under -136)",
+      "headline": "MLB: Philadelphia Phillies priced as market favorite vs Colorado Rockies (-118)",
+      "snapshot": "Philadelphia Phillies priced as market favorite vs Colorado Rockies (-118). Implied probability is approximately 54.1% based on the listed moneyline.",
+      "url": "#",
       "key_data": [
-        "Bookmaker: FanDuel",
-        "Moneyline: Athletics -10000 / Baltimore Orioles +1700",
-        "Spread: Athletics -4.5 (-162) / Baltimore Orioles 4.5 (+122)",
-        "Total: 6.5 (Over +102 / Under -136)"
+        "Game: Colorado Rockies at Philadelphia Phillies",
+        "Start time: 6:31 PM ET",
+        "Moneyline: Colorado Rockies -108 / Philadelphia Phillies -118",
+        "Spread: Colorado Rockies 1.5 (-250) / Philadelphia Phillies -1.5 (+182)",
+        "Total: 8.5 (O -102 / U -130)",
+        "Implied probability: 54.1%"
       ],
       "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
       ],
       "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
       ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
+      "source_name": "FanDuel"
     },
     {
-      "title": "NHL Betting Board",
-      "league": "NHL Betting Board",
-      "headline": "Carolina Hurricanes at Philadelphia Flyers - 6:20 PM ET",
-      "game": "Carolina Hurricanes at Philadelphia Flyers - 6:20 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -106 / Philadelphia Flyers -120 | Spread: Carolina Hurricanes 1.5 (-265) / Philadelphia Flyers -1.5 (+195) | Total: 5.5 (Over -115 / Under -113)",
-      "bookmaker": "FanDuel",
-      "moneyline": "Carolina Hurricanes -106 / Philadelphia Flyers -120",
-      "spread": "Carolina Hurricanes 1.5 (-265) / Philadelphia Flyers -1.5 (+195)",
-      "total": "5.5 (Over -115 / Under -113)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Carolina Hurricanes -106 / Philadelphia Flyers -120 | Spread: Carolina Hurricanes 1.5 (-265) / Philadelphia Flyers -1.5 (+195) | Total: 5.5 (Over -115 / Under -113)",
+      "headline": "MLB: Chicago Cubs priced as market favorite vs Texas Rangers (-130)",
+      "snapshot": "Chicago Cubs priced as market favorite vs Texas Rangers (-130). Implied probability is approximately 56.5% based on the listed moneyline.",
+      "url": "#",
       "key_data": [
-        "Bookmaker: FanDuel",
-        "Moneyline: Carolina Hurricanes -106 / Philadelphia Flyers -120",
-        "Spread: Carolina Hurricanes 1.5 (-265) / Philadelphia Flyers -1.5 (+195)",
-        "Total: 5.5 (Over -115 / Under -113)"
-      ],
-      "why_it_matters": [
-        "Goalie confirmations can materially change NHL moneylines and totals.",
-        "Low totals make puck-line risk more important than raw favorite price."
-      ],
-      "what_the_odds_mean": [
-        "Goalie confirmations can materially change NHL moneylines and totals.",
-        "Low totals make puck-line risk more important than raw favorite price."
-      ],
-      "what_to_watch": [
-        "Confirmed starting goalies.",
-        "Back-to-back scheduling and travel spots.",
-        "Totals movement after goalie news."
-      ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
-    },
-    {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-      "game": "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: San Francisco 49ers +124 / Los Angeles Rams -148 | Spread: San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | Total: 48.5 (Over -110 / Under -110)",
-      "bookmaker": "DraftKings",
-      "moneyline": "San Francisco 49ers +124 / Los Angeles Rams -148",
-      "spread": "San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120)",
-      "total": "48.5 (Over -110 / Under -110)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: DraftKings | Moneyline: San Francisco 49ers +124 / Los Angeles Rams -148 | Spread: San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | Total: 48.5 (Over -110 / Under -110)",
-      "key_data": [
-        "Bookmaker: DraftKings",
-        "Moneyline: San Francisco 49ers +124 / Los Angeles Rams -148",
-        "Spread: San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120)",
-        "Total: 48.5 (Over -110 / Under -110)"
-      ],
-      "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
-      ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
-    },
-    {
-      "title": "NBA Betting Board",
-      "league": "NBA Betting Board",
-      "headline": "New York Knicks at Philadelphia 76ers - 3:40 PM ET",
-      "game": "New York Knicks at Philadelphia 76ers - 3:40 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: New York Knicks -122 / Philadelphia 76ers +104 | Spread: New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106) | Total: 212.5 (Over -110 / Under -110)",
-      "bookmaker": "FanDuel",
-      "moneyline": "New York Knicks -122 / Philadelphia 76ers +104",
-      "spread": "New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106)",
-      "total": "212.5 (Over -110 / Under -110)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: New York Knicks -122 / Philadelphia 76ers +104 | Spread: New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106) | Total: 212.5 (Over -110 / Under -110)",
-      "key_data": [
-        "Bookmaker: FanDuel",
-        "Moneyline: New York Knicks -122 / Philadelphia 76ers +104",
-        "Spread: New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106)",
-        "Total: 212.5 (Over -110 / Under -110)"
-      ],
-      "why_it_matters": [
-        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
-        "A short favorite price suggests a tighter market than the matchup name may imply."
-      ],
-      "what_the_odds_mean": [
-        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
-        "A short favorite price suggests a tighter market than the matchup name may imply."
-      ],
-      "what_to_watch": [
-        "Official injury report updates.",
-        "Rest and back-to-back spots.",
-        "Rotation news and late movement near tipoff."
-      ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
-    },
-    {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Houston Astros at Cincinnati Reds - 4:11 PM ET",
-      "game": "Houston Astros at Cincinnati Reds - 4:11 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Houston Astros +3500 / Cincinnati Reds -50000",
-      "bookmaker": "FanDuel",
-      "moneyline": "Houston Astros +3500 / Cincinnati Reds -50000",
-      "spread": "",
-      "total": "",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Houston Astros +3500 / Cincinnati Reds -50000",
-      "key_data": [
-        "Bookmaker: FanDuel",
-        "Moneyline: Houston Astros +3500 / Cincinnati Reds -50000"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
-    },
-    {
-      "title": "NHL Betting Board",
-      "league": "NHL Betting Board",
-      "headline": "Colorado Avalanche at Minnesota Wild - 9:10 PM ET",
-      "game": "Colorado Avalanche at Minnesota Wild - 9:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Colorado Avalanche -130 / Minnesota Wild +110 | Spread: Colorado Avalanche -1.5 (+180) / Minnesota Wild 1.5 (-218) | Total: 6.5 (Over +102 / Under -122)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Colorado Avalanche -130 / Minnesota Wild +110",
-      "spread": "Colorado Avalanche -1.5 (+180) / Minnesota Wild 1.5 (-218)",
-      "total": "6.5 (Over +102 / Under -122)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: DraftKings | Moneyline: Colorado Avalanche -130 / Minnesota Wild +110 | Spread: Colorado Avalanche -1.5 (+180) / Minnesota Wild 1.5 (-218) | Total: 6.5 (Over +102 / Under -122)",
-      "key_data": [
-        "Bookmaker: DraftKings",
-        "Moneyline: Colorado Avalanche -130 / Minnesota Wild +110",
-        "Spread: Colorado Avalanche -1.5 (+180) / Minnesota Wild 1.5 (-218)",
-        "Total: 6.5 (Over +102 / Under -122)"
-      ],
-      "why_it_matters": [
-        "Goalie confirmations can materially change NHL moneylines and totals.",
-        "Low totals make puck-line risk more important than raw favorite price."
-      ],
-      "what_the_odds_mean": [
-        "Goalie confirmations can materially change NHL moneylines and totals.",
-        "Low totals make puck-line risk more important than raw favorite price."
-      ],
-      "what_to_watch": [
-        "Confirmed starting goalies.",
-        "Back-to-back scheduling and travel spots.",
-        "Totals movement after goalie news."
-      ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
-    },
-    {
-      "title": "NBA Betting Board",
-      "league": "NBA Betting Board",
-      "headline": "San Antonio Spurs at Minnesota Timberwolves - 7:40 PM ET",
-      "game": "San Antonio Spurs at Minnesota Timberwolves - 7:40 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: San Antonio Spurs -186 / Minnesota Timberwolves +156 | Spread: San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110) | Total: 218.5 (Over -108 / Under -112)",
-      "bookmaker": "FanDuel",
-      "moneyline": "San Antonio Spurs -186 / Minnesota Timberwolves +156",
-      "spread": "San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110)",
-      "total": "218.5 (Over -108 / Under -112)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: San Antonio Spurs -186 / Minnesota Timberwolves +156 | Spread: San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110) | Total: 218.5 (Over -108 / Under -112)",
-      "key_data": [
-        "Bookmaker: FanDuel",
-        "Moneyline: San Antonio Spurs -186 / Minnesota Timberwolves +156",
-        "Spread: San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110)",
-        "Total: 218.5 (Over -108 / Under -112)"
-      ],
-      "why_it_matters": [
-        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
-        "A short favorite price suggests a tighter market than the matchup name may imply."
-      ],
-      "what_the_odds_mean": [
-        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
-        "A short favorite price suggests a tighter market than the matchup name may imply."
-      ],
-      "what_to_watch": [
-        "Official injury report updates.",
-        "Rest and back-to-back spots.",
-        "Rotation news and late movement near tipoff."
-      ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
-    },
-    {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Washington Nationals at Miami Marlins - 4:11 PM ET",
-      "game": "Washington Nationals at Miami Marlins - 4:11 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Washington Nationals +310 / Miami Marlins -440 | Spread: Washington Nationals 1.5 (-210) / Miami Marlins -1.5 (+154) | Total: 10.5 (Over +108 / Under -144)",
-      "bookmaker": "FanDuel",
-      "moneyline": "Washington Nationals +310 / Miami Marlins -440",
-      "spread": "Washington Nationals 1.5 (-210) / Miami Marlins -1.5 (+154)",
-      "total": "10.5 (Over +108 / Under -144)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Washington Nationals +310 / Miami Marlins -440 | Spread: Washington Nationals 1.5 (-210) / Miami Marlins -1.5 (+154) | Total: 10.5 (Over +108 / Under -144)",
-      "key_data": [
-        "Bookmaker: FanDuel",
-        "Moneyline: Washington Nationals +310 / Miami Marlins -440",
-        "Spread: Washington Nationals 1.5 (-210) / Miami Marlins -1.5 (+154)",
-        "Total: 10.5 (Over +108 / Under -144)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
-    },
-    {
-      "title": "NHL Betting Board",
-      "league": "NHL Betting Board",
-      "headline": "Buffalo Sabres at Montréal Canadiens - 7:00 PM ET",
-      "game": "Buffalo Sabres at Montréal Canadiens - 7:00 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Buffalo Sabres +106 / Montréal Canadiens -128 | Spread: Buffalo Sabres 1.5 (-220) / Montréal Canadiens -1.5 (+176) | Total: 5.5 (Over -132 / Under +108)",
-      "bookmaker": "FanDuel",
-      "moneyline": "Buffalo Sabres +106 / Montréal Canadiens -128",
-      "spread": "Buffalo Sabres 1.5 (-220) / Montréal Canadiens -1.5 (+176)",
-      "total": "5.5 (Over -132 / Under +108)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Buffalo Sabres +106 / Montréal Canadiens -128 | Spread: Buffalo Sabres 1.5 (-220) / Montréal Canadiens -1.5 (+176) | Total: 5.5 (Over -132 / Under +108)",
-      "key_data": [
-        "Bookmaker: FanDuel",
-        "Moneyline: Buffalo Sabres +106 / Montréal Canadiens -128",
-        "Spread: Buffalo Sabres 1.5 (-220) / Montréal Canadiens -1.5 (+176)",
-        "Total: 5.5 (Over -132 / Under +108)"
-      ],
-      "why_it_matters": [
-        "Goalie confirmations can materially change NHL moneylines and totals.",
-        "Low totals make puck-line risk more important than raw favorite price."
-      ],
-      "what_the_odds_mean": [
-        "Goalie confirmations can materially change NHL moneylines and totals.",
-        "Low totals make puck-line risk more important than raw favorite price."
-      ],
-      "what_to_watch": [
-        "Confirmed starting goalies.",
-        "Back-to-back scheduling and travel spots.",
-        "Totals movement after goalie news."
-      ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
-    },
-    {
-      "title": "NBA Betting Board",
-      "league": "NBA Betting Board",
-      "headline": "Detroit Pistons at Cleveland Cavaliers - 8:00 PM ET",
-      "game": "Detroit Pistons at Cleveland Cavaliers - 8:00 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Detroit Pistons +136 / Cleveland Cavaliers -162 | Spread: Detroit Pistons 3.5 (-110) / Cleveland Cavaliers -3.5 (-110) | Total: 211.5 (Over -110 / Under -110)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Detroit Pistons +136 / Cleveland Cavaliers -162",
-      "spread": "Detroit Pistons 3.5 (-110) / Cleveland Cavaliers -3.5 (-110)",
-      "total": "211.5 (Over -110 / Under -110)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: DraftKings | Moneyline: Detroit Pistons +136 / Cleveland Cavaliers -162 | Spread: Detroit Pistons 3.5 (-110) / Cleveland Cavaliers -3.5 (-110) | Total: 211.5 (Over -110 / Under -110)",
-      "key_data": [
-        "Bookmaker: DraftKings",
-        "Moneyline: Detroit Pistons +136 / Cleveland Cavaliers -162",
-        "Spread: Detroit Pistons 3.5 (-110) / Cleveland Cavaliers -3.5 (-110)",
-        "Total: 211.5 (Over -110 / Under -110)"
-      ],
-      "why_it_matters": [
-        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
-        "A short favorite price suggests a tighter market than the matchup name may imply."
-      ],
-      "what_the_odds_mean": [
-        "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
-        "A short favorite price suggests a tighter market than the matchup name may imply."
-      ],
-      "what_to_watch": [
-        "Official injury report updates.",
-        "Rest and back-to-back spots.",
-        "Rotation news and late movement near tipoff."
-      ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
-    },
-    {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Colorado Rockies at Philadelphia Phillies - 6:31 PM ET",
-      "game": "Colorado Rockies at Philadelphia Phillies - 6:31 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Colorado Rockies +162 / Philadelphia Phillies -210 | Spread: Colorado Rockies 1.5 (-132) / Philadelphia Phillies -1.5 (+100) | Total: 8.5 (Over -128 / Under -104)",
-      "bookmaker": "FanDuel",
-      "moneyline": "Colorado Rockies +162 / Philadelphia Phillies -210",
-      "spread": "Colorado Rockies 1.5 (-132) / Philadelphia Phillies -1.5 (+100)",
-      "total": "8.5 (Over -128 / Under -104)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Colorado Rockies +162 / Philadelphia Phillies -210 | Spread: Colorado Rockies 1.5 (-132) / Philadelphia Phillies -1.5 (+100) | Total: 8.5 (Over -128 / Under -104)",
-      "key_data": [
-        "Bookmaker: FanDuel",
-        "Moneyline: Colorado Rockies +162 / Philadelphia Phillies -210",
-        "Spread: Colorado Rockies 1.5 (-132) / Philadelphia Phillies -1.5 (+100)",
-        "Total: 8.5 (Over -128 / Under -104)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
-    },
-    {
-      "title": "NHL Betting Board",
-      "league": "NHL Betting Board",
-      "headline": "Vegas Golden Knights at Anaheim Ducks - 9:40 PM ET",
-      "game": "Vegas Golden Knights at Anaheim Ducks - 9:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Vegas Golden Knights -122 / Anaheim Ducks +102 | Spread: Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250) | Total: 6.5 (Over -108 / Under -112)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Vegas Golden Knights -122 / Anaheim Ducks +102",
-      "spread": "Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250)",
-      "total": "6.5 (Over -108 / Under -112)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: DraftKings | Moneyline: Vegas Golden Knights -122 / Anaheim Ducks +102 | Spread: Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250) | Total: 6.5 (Over -108 / Under -112)",
-      "key_data": [
-        "Bookmaker: DraftKings",
-        "Moneyline: Vegas Golden Knights -122 / Anaheim Ducks +102",
-        "Spread: Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250)",
-        "Total: 6.5 (Over -108 / Under -112)"
-      ],
-      "why_it_matters": [
-        "Goalie confirmations can materially change NHL moneylines and totals.",
-        "Low totals make puck-line risk more important than raw favorite price."
-      ],
-      "what_the_odds_mean": [
-        "Goalie confirmations can materially change NHL moneylines and totals.",
-        "Low totals make puck-line risk more important than raw favorite price."
-      ],
-      "what_to_watch": [
-        "Confirmed starting goalies.",
-        "Back-to-back scheduling and travel spots.",
-        "Totals movement after goalie news."
-      ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
-    },
-    {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Chicago Cubs at Texas Rangers - 7:06 PM ET",
-      "game": "Chicago Cubs at Texas Rangers - 7:06 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Chicago Cubs -130 / Texas Rangers +110 | Spread: Chicago Cubs -1.5 (+132) / Texas Rangers 1.5 (-162) | Total: 8.5 (Over +102 / Under -124)",
-      "bookmaker": "FanDuel",
-      "moneyline": "Chicago Cubs -130 / Texas Rangers +110",
-      "spread": "Chicago Cubs -1.5 (+132) / Texas Rangers 1.5 (-162)",
-      "total": "8.5 (Over +102 / Under -124)",
-      "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Chicago Cubs -130 / Texas Rangers +110 | Spread: Chicago Cubs -1.5 (+132) / Texas Rangers 1.5 (-162) | Total: 8.5 (Over +102 / Under -124)",
-      "key_data": [
-        "Bookmaker: FanDuel",
+        "Game: Chicago Cubs at Texas Rangers",
+        "Start time: 7:06 PM ET",
         "Moneyline: Chicago Cubs -130 / Texas Rangers +110",
         "Spread: Chicago Cubs -1.5 (+132) / Texas Rangers 1.5 (-162)",
-        "Total: 8.5 (Over +102 / Under -124)"
+        "Total: 8.5 (O +102 / U -124)",
+        "Implied probability: 56.5%"
       ],
       "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
       ],
       "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
       ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
+      "source_name": "FanDuel"
     },
     {
-      "title": "Market Watch",
-      "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
-      "snapshot": "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored for betting-market movement.",
+      "headline": "MLB: Seattle Mariners priced as market favorite vs Chicago White Sox (-134)",
+      "snapshot": "Seattle Mariners priced as market favorite vs Chicago White Sox (-134). Implied probability is approximately 57.3% based on the listed moneyline.",
+      "url": "#",
       "key_data": [
-        "Market board is active across available leagues."
+        "Game: Seattle Mariners at Chicago White Sox",
+        "Start time: 7:11 PM ET",
+        "Moneyline: Seattle Mariners -134 / Chicago White Sox +114",
+        "Spread: Seattle Mariners -1.5 (+122) / Chicago White Sox 1.5 (-146)",
+        "Total: 9.5 (O -105 / U -115)",
+        "Implied probability: 57.3%"
       ],
-      "what_the_odds_mean": [
-        "Line movement matters most when it connects to injuries, weather, roster news, or sportsbook adjustment."
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
       ],
       "what_to_watch": [
-        "Track favorites getting more expensive or underdogs drawing late money.",
-        "Watch totals in weather-sensitive games.",
-        "Compare sportsbook movement before treating one number as the full market."
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
       ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
+      "source_name": "FanDuel"
     },
     {
-      "title": "Betting Context",
-      "headline": "What bettors should monitor today",
-      "snapshot": "Track line movement, injury news, starting lineup changes, pitching confirmations, weather, rest advantages, and late market steam before making any betting decision.",
+      "headline": "MLB: Kansas City Royals priced as market favorite vs Detroit Tigers (-138)",
+      "snapshot": "Kansas City Royals priced as market favorite vs Detroit Tigers (-138). Implied probability is approximately 58.0% based on the listed moneyline.",
+      "url": "#",
       "key_data": [
-        "Betting context requires line movement plus supporting news."
+        "Game: Detroit Tigers at Kansas City Royals",
+        "Start time: 7:11 PM ET",
+        "Moneyline: Detroit Tigers +118 / Kansas City Royals -138",
+        "Spread: Detroit Tigers 1.5 (-172) / Kansas City Royals -1.5 (+142)",
+        "Total: 9.0 (O -118 / U -104)",
+        "Implied probability: 58.0%"
       ],
-      "what_the_odds_mean": [
-        "A number alone is not a recommendation. Context explains why the market may be moving."
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
       ],
       "what_to_watch": [
-        "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
       ],
-      "source": "GSR betting desk",
-      "updated_at": "2026-05-09 06:33:46 PM ET"
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "MLB: New York Yankees priced as market favorite vs Milwaukee Brewers (-134)",
+      "snapshot": "New York Yankees priced as market favorite vs Milwaukee Brewers (-134). Implied probability is approximately 57.3% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: New York Yankees at Milwaukee Brewers",
+        "Start time: 7:11 PM ET",
+        "Moneyline: New York Yankees -134 / Milwaukee Brewers +114",
+        "Spread: New York Yankees -1.5 (+126) / Milwaukee Brewers 1.5 (-152)",
+        "Total: 7.5 (O -105 / U -115)",
+        "Implied probability: 57.3%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "MLB: Arizona Diamondbacks priced as market favorite vs New York Mets (-108)",
+      "snapshot": "Arizona Diamondbacks priced as market favorite vs New York Mets (-108). Implied probability is approximately 51.9% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: New York Mets at Arizona Diamondbacks",
+        "Start time: 7:16 PM ET",
+        "Moneyline: New York Mets -108 / Arizona Diamondbacks -108",
+        "Spread: New York Mets -1.5 (+146) / Arizona Diamondbacks 1.5 (-176)",
+        "Total: 9.5 (O -108 / U -112)",
+        "Implied probability: 51.9%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "NBA: Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers (-375)",
+      "snapshot": "Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers (-375). Implied probability is approximately 78.9% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Oklahoma City Thunder at Los Angeles Lakers",
+        "Start time: 8:40 PM ET",
+        "Moneyline: Oklahoma City Thunder -375 / Los Angeles Lakers +300",
+        "Spread: Oklahoma City Thunder -9.5 (-105) / Los Angeles Lakers 9.5 (-115)",
+        "Total: 210.5 (O -114 / U -106)",
+        "Implied probability: 78.9%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "NBA: New York Knicks priced as market favorite vs Philadelphia 76ers (-122)",
+      "snapshot": "New York Knicks priced as market favorite vs Philadelphia 76ers (-122). Implied probability is approximately 55.0% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: New York Knicks at Philadelphia 76ers",
+        "Start time: 3:40 PM ET",
+        "Moneyline: New York Knicks -122 / Philadelphia 76ers +104",
+        "Spread: New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106)",
+        "Total: 212.5 (O -110 / U -110)",
+        "Implied probability: 55.0%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "NBA: San Antonio Spurs priced as market favorite vs Minnesota Timberwolves (-186)",
+      "snapshot": "San Antonio Spurs priced as market favorite vs Minnesota Timberwolves (-186). Implied probability is approximately 65.0% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: San Antonio Spurs at Minnesota Timberwolves",
+        "Start time: 7:40 PM ET",
+        "Moneyline: San Antonio Spurs -186 / Minnesota Timberwolves +156",
+        "Spread: San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110)",
+        "Total: 218.5 (O -108 / U -112)",
+        "Implied probability: 65.0%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
+    },
+    {
+      "headline": "NBA: Cleveland Cavaliers priced as market favorite vs Detroit Pistons (-162)",
+      "snapshot": "Cleveland Cavaliers priced as market favorite vs Detroit Pistons (-162). Implied probability is approximately 61.8% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Detroit Pistons at Cleveland Cavaliers",
+        "Start time: 8:00 PM ET",
+        "Moneyline: Detroit Pistons +136 / Cleveland Cavaliers -162",
+        "Spread: Detroit Pistons 3.5 (-110) / Cleveland Cavaliers -3.5 (-110)",
+        "Total: 211.5 (O -110 / U -110)",
+        "Implied probability: 61.8%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "DraftKings"
+    },
+    {
+      "headline": "NHL: Philadelphia Flyers priced as market favorite vs Carolina Hurricanes (-128)",
+      "snapshot": "Philadelphia Flyers priced as market favorite vs Carolina Hurricanes (-128). Implied probability is approximately 56.1% based on the listed moneyline.",
+      "url": "#",
+      "key_data": [
+        "Game: Carolina Hurricanes at Philadelphia Flyers",
+        "Start time: 6:20 PM ET",
+        "Moneyline: Carolina Hurricanes +100 / Philadelphia Flyers -128",
+        "Spread: Carolina Hurricanes 1.5 (-265) / Philadelphia Flyers -1.5 (+195)",
+        "Total: 5.5 (O +165 / U -220)",
+        "Implied probability: 56.1%"
+      ],
+      "why_it_matters": [
+        "This gives betting-focused readers a quick view of how the market is pricing the matchup.",
+        "It helps separate raw odds from actual betting context."
+      ],
+      "what_to_watch": [
+        "Monitor line movement before first pitch, tipoff, puck drop or kickoff.",
+        "Watch late injury, lineup, weather and public-betting shifts."
+      ],
+      "source_name": "FanDuel"
     }
-  ]
+  ],
+  "raw_boards": {
+    "mlb": [
+      {
+        "league": "MLB",
+        "game": "Athletics at Baltimore Orioles",
+        "time": "4:06 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Athletics at Baltimore Orioles: market favorite unavailable",
+        "market_summary": "Athletics at Baltimore Orioles: market favorite unavailable",
+        "moneyline": "Athletics N/A / Baltimore Orioles N/A",
+        "spread": "Athletics -3.5 (-580) / Baltimore Orioles 3.5 (+360)",
+        "total": "8.5 (O +390 / U -650)",
+        "implied_probability": "N/A",
+        "context": "Athletics at Baltimore Orioles: market favorite unavailable. Implied probability is approximately N/A based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "Washington Nationals at Miami Marlins",
+        "time": "4:11 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Miami Marlins priced as market favorite vs Washington Nationals (-50000)",
+        "market_summary": "Miami Marlins priced as market favorite vs Washington Nationals (-50000)",
+        "moneyline": "Washington Nationals +3500 / Miami Marlins -50000",
+        "spread": "Washington Nationals 3.5 (+280) / Miami Marlins -3.5 (-420)",
+        "total": "12.5 (O +280 / U -420)",
+        "implied_probability": "99.8%",
+        "context": "Miami Marlins priced as market favorite vs Washington Nationals (-50000). Implied probability is approximately 99.8% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "Colorado Rockies at Philadelphia Phillies",
+        "time": "6:31 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Philadelphia Phillies priced as market favorite vs Colorado Rockies (-118)",
+        "market_summary": "Philadelphia Phillies priced as market favorite vs Colorado Rockies (-118)",
+        "moneyline": "Colorado Rockies -108 / Philadelphia Phillies -118",
+        "spread": "Colorado Rockies 1.5 (-250) / Philadelphia Phillies -1.5 (+182)",
+        "total": "8.5 (O -102 / U -130)",
+        "implied_probability": "54.1%",
+        "context": "Philadelphia Phillies priced as market favorite vs Colorado Rockies (-118). Implied probability is approximately 54.1% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "Chicago Cubs at Texas Rangers",
+        "time": "7:06 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Chicago Cubs priced as market favorite vs Texas Rangers (-130)",
+        "market_summary": "Chicago Cubs priced as market favorite vs Texas Rangers (-130)",
+        "moneyline": "Chicago Cubs -130 / Texas Rangers +110",
+        "spread": "Chicago Cubs -1.5 (+132) / Texas Rangers 1.5 (-162)",
+        "total": "8.5 (O +102 / U -124)",
+        "implied_probability": "56.5%",
+        "context": "Chicago Cubs priced as market favorite vs Texas Rangers (-130). Implied probability is approximately 56.5% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "Seattle Mariners at Chicago White Sox",
+        "time": "7:11 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Seattle Mariners priced as market favorite vs Chicago White Sox (-134)",
+        "market_summary": "Seattle Mariners priced as market favorite vs Chicago White Sox (-134)",
+        "moneyline": "Seattle Mariners -134 / Chicago White Sox +114",
+        "spread": "Seattle Mariners -1.5 (+122) / Chicago White Sox 1.5 (-146)",
+        "total": "9.5 (O -105 / U -115)",
+        "implied_probability": "57.3%",
+        "context": "Seattle Mariners priced as market favorite vs Chicago White Sox (-134). Implied probability is approximately 57.3% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "Detroit Tigers at Kansas City Royals",
+        "time": "7:11 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Kansas City Royals priced as market favorite vs Detroit Tigers (-138)",
+        "market_summary": "Kansas City Royals priced as market favorite vs Detroit Tigers (-138)",
+        "moneyline": "Detroit Tigers +118 / Kansas City Royals -138",
+        "spread": "Detroit Tigers 1.5 (-172) / Kansas City Royals -1.5 (+142)",
+        "total": "9.0 (O -118 / U -104)",
+        "implied_probability": "58.0%",
+        "context": "Kansas City Royals priced as market favorite vs Detroit Tigers (-138). Implied probability is approximately 58.0% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "New York Yankees at Milwaukee Brewers",
+        "time": "7:11 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: New York Yankees priced as market favorite vs Milwaukee Brewers (-134)",
+        "market_summary": "New York Yankees priced as market favorite vs Milwaukee Brewers (-134)",
+        "moneyline": "New York Yankees -134 / Milwaukee Brewers +114",
+        "spread": "New York Yankees -1.5 (+126) / Milwaukee Brewers 1.5 (-152)",
+        "total": "7.5 (O -105 / U -115)",
+        "implied_probability": "57.3%",
+        "context": "New York Yankees priced as market favorite vs Milwaukee Brewers (-134). Implied probability is approximately 57.3% based on the listed moneyline."
+      },
+      {
+        "league": "MLB",
+        "game": "New York Mets at Arizona Diamondbacks",
+        "time": "7:16 PM ET",
+        "book": "FanDuel",
+        "headline": "MLB: Arizona Diamondbacks priced as market favorite vs New York Mets (-108)",
+        "market_summary": "Arizona Diamondbacks priced as market favorite vs New York Mets (-108)",
+        "moneyline": "New York Mets -108 / Arizona Diamondbacks -108",
+        "spread": "New York Mets -1.5 (+146) / Arizona Diamondbacks 1.5 (-176)",
+        "total": "9.5 (O -108 / U -112)",
+        "implied_probability": "51.9%",
+        "context": "Arizona Diamondbacks priced as market favorite vs New York Mets (-108). Implied probability is approximately 51.9% based on the listed moneyline."
+      }
+    ],
+    "nba": [
+      {
+        "league": "NBA",
+        "game": "Oklahoma City Thunder at Los Angeles Lakers",
+        "time": "8:40 PM ET",
+        "book": "FanDuel",
+        "headline": "NBA: Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers (-375)",
+        "market_summary": "Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers (-375)",
+        "moneyline": "Oklahoma City Thunder -375 / Los Angeles Lakers +300",
+        "spread": "Oklahoma City Thunder -9.5 (-105) / Los Angeles Lakers 9.5 (-115)",
+        "total": "210.5 (O -114 / U -106)",
+        "implied_probability": "78.9%",
+        "context": "Oklahoma City Thunder priced as market favorite vs Los Angeles Lakers (-375). Implied probability is approximately 78.9% based on the listed moneyline."
+      },
+      {
+        "league": "NBA",
+        "game": "New York Knicks at Philadelphia 76ers",
+        "time": "3:40 PM ET",
+        "book": "FanDuel",
+        "headline": "NBA: New York Knicks priced as market favorite vs Philadelphia 76ers (-122)",
+        "market_summary": "New York Knicks priced as market favorite vs Philadelphia 76ers (-122)",
+        "moneyline": "New York Knicks -122 / Philadelphia 76ers +104",
+        "spread": "New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106)",
+        "total": "212.5 (O -110 / U -110)",
+        "implied_probability": "55.0%",
+        "context": "New York Knicks priced as market favorite vs Philadelphia 76ers (-122). Implied probability is approximately 55.0% based on the listed moneyline."
+      },
+      {
+        "league": "NBA",
+        "game": "San Antonio Spurs at Minnesota Timberwolves",
+        "time": "7:40 PM ET",
+        "book": "FanDuel",
+        "headline": "NBA: San Antonio Spurs priced as market favorite vs Minnesota Timberwolves (-186)",
+        "market_summary": "San Antonio Spurs priced as market favorite vs Minnesota Timberwolves (-186)",
+        "moneyline": "San Antonio Spurs -186 / Minnesota Timberwolves +156",
+        "spread": "San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110)",
+        "total": "218.5 (O -108 / U -112)",
+        "implied_probability": "65.0%",
+        "context": "San Antonio Spurs priced as market favorite vs Minnesota Timberwolves (-186). Implied probability is approximately 65.0% based on the listed moneyline."
+      },
+      {
+        "league": "NBA",
+        "game": "Detroit Pistons at Cleveland Cavaliers",
+        "time": "8:00 PM ET",
+        "book": "DraftKings",
+        "headline": "NBA: Cleveland Cavaliers priced as market favorite vs Detroit Pistons (-162)",
+        "market_summary": "Cleveland Cavaliers priced as market favorite vs Detroit Pistons (-162)",
+        "moneyline": "Detroit Pistons +136 / Cleveland Cavaliers -162",
+        "spread": "Detroit Pistons 3.5 (-110) / Cleveland Cavaliers -3.5 (-110)",
+        "total": "211.5 (O -110 / U -110)",
+        "implied_probability": "61.8%",
+        "context": "Cleveland Cavaliers priced as market favorite vs Detroit Pistons (-162). Implied probability is approximately 61.8% based on the listed moneyline."
+      }
+    ],
+    "nhl": [
+      {
+        "league": "NHL",
+        "game": "Carolina Hurricanes at Philadelphia Flyers",
+        "time": "6:20 PM ET",
+        "book": "FanDuel",
+        "headline": "NHL: Philadelphia Flyers priced as market favorite vs Carolina Hurricanes (-128)",
+        "market_summary": "Philadelphia Flyers priced as market favorite vs Carolina Hurricanes (-128)",
+        "moneyline": "Carolina Hurricanes +100 / Philadelphia Flyers -128",
+        "spread": "Carolina Hurricanes 1.5 (-265) / Philadelphia Flyers -1.5 (+195)",
+        "total": "5.5 (O +165 / U -220)",
+        "implied_probability": "56.1%",
+        "context": "Philadelphia Flyers priced as market favorite vs Carolina Hurricanes (-128). Implied probability is approximately 56.1% based on the listed moneyline."
+      },
+      {
+        "league": "NHL",
+        "game": "Colorado Avalanche at Minnesota Wild",
+        "time": "9:10 PM ET",
+        "book": "DraftKings",
+        "headline": "NHL: Colorado Avalanche priced as market favorite vs Minnesota Wild (-130)",
+        "market_summary": "Colorado Avalanche priced as market favorite vs Minnesota Wild (-130)",
+        "moneyline": "Colorado Avalanche -130 / Minnesota Wild +110",
+        "spread": "Colorado Avalanche -1.5 (+180) / Minnesota Wild 1.5 (-218)",
+        "total": "6.5 (O +102 / U -122)",
+        "implied_probability": "56.5%",
+        "context": "Colorado Avalanche priced as market favorite vs Minnesota Wild (-130). Implied probability is approximately 56.5% based on the listed moneyline."
+      },
+      {
+        "league": "NHL",
+        "game": "Buffalo Sabres at Montr\u00e9al Canadiens",
+        "time": "7:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NHL: Montr\u00e9al Canadiens priced as market favorite vs Buffalo Sabres (-128)",
+        "market_summary": "Montr\u00e9al Canadiens priced as market favorite vs Buffalo Sabres (-128)",
+        "moneyline": "Buffalo Sabres +106 / Montr\u00e9al Canadiens -128",
+        "spread": "Buffalo Sabres 1.5 (-220) / Montr\u00e9al Canadiens -1.5 (+176)",
+        "total": "5.5 (O -132 / U +108)",
+        "implied_probability": "56.1%",
+        "context": "Montr\u00e9al Canadiens priced as market favorite vs Buffalo Sabres (-128). Implied probability is approximately 56.1% based on the listed moneyline."
+      },
+      {
+        "league": "NHL",
+        "game": "Vegas Golden Knights at Anaheim Ducks",
+        "time": "9:40 PM ET",
+        "book": "DraftKings",
+        "headline": "NHL: Vegas Golden Knights priced as market favorite vs Anaheim Ducks (-122)",
+        "market_summary": "Vegas Golden Knights priced as market favorite vs Anaheim Ducks (-122)",
+        "moneyline": "Vegas Golden Knights -122 / Anaheim Ducks +102",
+        "spread": "Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250)",
+        "total": "6.5 (O -108 / U -112)",
+        "implied_probability": "55.0%",
+        "context": "Vegas Golden Knights priced as market favorite vs Anaheim Ducks (-122). Implied probability is approximately 55.0% based on the listed moneyline."
+      }
+    ],
+    "nfl": [
+      {
+        "league": "NFL",
+        "game": "San Francisco 49ers at Los Angeles Rams",
+        "time": "8:35 PM ET",
+        "book": "DraftKings",
+        "headline": "NFL: Los Angeles Rams priced as market favorite vs San Francisco 49ers (-148)",
+        "market_summary": "Los Angeles Rams priced as market favorite vs San Francisco 49ers (-148)",
+        "moneyline": "San Francisco 49ers +124 / Los Angeles Rams -148",
+        "spread": "San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120)",
+        "total": "48.5 (O -110 / U -110)",
+        "implied_probability": "59.7%",
+        "context": "Los Angeles Rams priced as market favorite vs San Francisco 49ers (-148). Implied probability is approximately 59.7% based on the listed moneyline."
+      }
+    ],
+    "ncaaf": [
+      {
+        "league": "NCAAF",
+        "game": "NC State Wolfpack at Virginia Cavaliers",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: Virginia Cavaliers priced as market favorite vs NC State Wolfpack (-138)",
+        "market_summary": "Virginia Cavaliers priced as market favorite vs NC State Wolfpack (-138)",
+        "moneyline": "NC State Wolfpack +115 / Virginia Cavaliers -138",
+        "spread": "NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115)",
+        "total": "54.5 (O -105 / U -115)",
+        "implied_probability": "58.0%",
+        "context": "Virginia Cavaliers priced as market favorite vs NC State Wolfpack (-138). Implied probability is approximately 58.0% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "North Carolina Tar Heels at TCU Horned Frogs",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: TCU Horned Frogs priced as market favorite vs North Carolina Tar Heels (-260)",
+        "market_summary": "TCU Horned Frogs priced as market favorite vs North Carolina Tar Heels (-260)",
+        "moneyline": "North Carolina Tar Heels +210 / TCU Horned Frogs -260",
+        "spread": "North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120)",
+        "total": "50.5 (O -105 / U -115)",
+        "implied_probability": "72.2%",
+        "context": "TCU Horned Frogs priced as market favorite vs North Carolina Tar Heels (-260). Implied probability is approximately 72.2% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "Baylor Bears at Auburn Tigers",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: Auburn Tigers priced as market favorite vs Baylor Bears (-315)",
+        "market_summary": "Auburn Tigers priced as market favorite vs Baylor Bears (-315)",
+        "moneyline": "Baylor Bears +250 / Auburn Tigers -315",
+        "spread": "Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110)",
+        "total": "58.5 (O -110 / U -110)",
+        "implied_probability": "75.9%",
+        "context": "Auburn Tigers priced as market favorite vs Baylor Bears (-315). Implied probability is approximately 75.9% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "UCLA Bruins at California Golden Bears",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: California Golden Bears priced as market favorite vs UCLA Bruins (-122)",
+        "market_summary": "California Golden Bears priced as market favorite vs UCLA Bruins (-122)",
+        "moneyline": "UCLA Bruins +102 / California Golden Bears -122",
+        "spread": "UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110)",
+        "total": "53.5 (O -110 / U -110)",
+        "implied_probability": "55.0%",
+        "context": "California Golden Bears priced as market favorite vs UCLA Bruins (-122). Implied probability is approximately 55.0% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "Clemson Tigers at LSU Tigers",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: LSU Tigers priced as market favorite vs Clemson Tigers (-490)",
+        "market_summary": "LSU Tigers priced as market favorite vs Clemson Tigers (-490)",
+        "moneyline": "Clemson Tigers +365 / LSU Tigers -490",
+        "spread": "Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110)",
+        "total": "50.5 (O -110 / U -110)",
+        "implied_probability": "83.1%",
+        "context": "LSU Tigers priced as market favorite vs Clemson Tigers (-490). Implied probability is approximately 83.1% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "Louisville Cardinals at Ole Miss Rebels",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: Ole Miss Rebels priced as market favorite vs Louisville Cardinals (-275)",
+        "market_summary": "Ole Miss Rebels priced as market favorite vs Louisville Cardinals (-275)",
+        "moneyline": "Louisville Cardinals +220 / Ole Miss Rebels -275",
+        "spread": "Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102)",
+        "total": "53.5 (O -110 / U -110)",
+        "implied_probability": "73.3%",
+        "context": "Ole Miss Rebels priced as market favorite vs Louisville Cardinals (-275). Implied probability is approximately 73.3% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "Notre Dame Fighting Irish at Wisconsin Badgers",
+        "time": "12:00 PM ET",
+        "book": "FanDuel",
+        "headline": "NCAAF: Notre Dame Fighting Irish priced as market favorite vs Wisconsin Badgers (-1800)",
+        "market_summary": "Notre Dame Fighting Irish priced as market favorite vs Wisconsin Badgers (-1800)",
+        "moneyline": "Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920",
+        "spread": "Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110)",
+        "total": "46.5 (O -115 / U -105)",
+        "implied_probability": "94.7%",
+        "context": "Notre Dame Fighting Irish priced as market favorite vs Wisconsin Badgers (-1800). Implied probability is approximately 94.7% based on the listed moneyline."
+      },
+      {
+        "league": "NCAAF",
+        "game": "Louisville Cardinals at Ole Miss Rebels",
+        "time": "7:30 PM ET",
+        "book": "DraftKings",
+        "headline": "NCAAF: Ole Miss Rebels priced as market favorite vs Louisville Cardinals (-270)",
+        "market_summary": "Ole Miss Rebels priced as market favorite vs Louisville Cardinals (-270)",
+        "moneyline": "Louisville Cardinals +220 / Ole Miss Rebels -270",
+        "spread": "Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110)",
+        "total": "53.5 (O -115 / U -105)",
+        "implied_probability": "73.0%",
+        "context": "Ole Miss Rebels priced as market favorite vs Louisville Cardinals (-270). Implied probability is approximately 73.0% based on the listed moneyline."
+      }
+    ],
+    "soccer": [
+      {
+        "league": "Soccer",
+        "game": "LA Galaxy at Atlanta United FC",
+        "time": "7:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: Atlanta United FC priced as market favorite vs LA Galaxy (+128)",
+        "market_summary": "Atlanta United FC priced as market favorite vs LA Galaxy (+128)",
+        "moneyline": "LA Galaxy +185 / Atlanta United FC +128",
+        "spread": "Spread N/A",
+        "total": "2.5 (O -150 / U +114)",
+        "implied_probability": "43.9%",
+        "context": "Atlanta United FC priced as market favorite vs LA Galaxy (+128). Implied probability is approximately 43.9% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "FC Cincinnati at Charlotte FC",
+        "time": "7:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: Charlotte FC priced as market favorite vs FC Cincinnati (+110)",
+        "market_summary": "Charlotte FC priced as market favorite vs FC Cincinnati (+110)",
+        "moneyline": "FC Cincinnati +210 / Charlotte FC +110",
+        "spread": "Spread N/A",
+        "total": "3.5 (O +133 / U -177)",
+        "implied_probability": "47.6%",
+        "context": "Charlotte FC priced as market favorite vs FC Cincinnati (+110). Implied probability is approximately 47.6% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "Philadelphia Union at New England Revolution",
+        "time": "7:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: New England Revolution priced as market favorite vs Philadelphia Union (+155)",
+        "market_summary": "New England Revolution priced as market favorite vs Philadelphia Union (+155)",
+        "moneyline": "Philadelphia Union +165 / New England Revolution +155",
+        "spread": "Spread N/A",
+        "total": "2.5 (O -113 / U -114)",
+        "implied_probability": "39.2%",
+        "context": "New England Revolution priced as market favorite vs Philadelphia Union (+155). Implied probability is approximately 39.2% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "Real Salt Lake at FC Dallas",
+        "time": "8:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: FC Dallas priced as market favorite vs Real Salt Lake (+125)",
+        "market_summary": "FC Dallas priced as market favorite vs Real Salt Lake (+125)",
+        "moneyline": "Real Salt Lake +180 / FC Dallas +125",
+        "spread": "Spread N/A",
+        "total": "3.5 (O +132 / U -175)",
+        "implied_probability": "44.4%",
+        "context": "FC Dallas priced as market favorite vs Real Salt Lake (+125). Implied probability is approximately 44.4% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "D.C. United at Nashville SC",
+        "time": "9:15 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: Nashville SC priced as market favorite vs D.C. United (-162)",
+        "market_summary": "Nashville SC priced as market favorite vs D.C. United (-162)",
+        "moneyline": "D.C. United +440 / Nashville SC -162",
+        "spread": "Spread N/A",
+        "total": "2.5 (O -107 / U -122)",
+        "implied_probability": "61.8%",
+        "context": "Nashville SC priced as market favorite vs D.C. United (-162). Implied probability is approximately 61.8% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "St. Louis City SC at Colorado Rapids",
+        "time": "9:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: Colorado Rapids priced as market favorite vs St. Louis City SC (-106)",
+        "market_summary": "Colorado Rapids priced as market favorite vs St. Louis City SC (-106)",
+        "moneyline": "St. Louis City SC +245 / Colorado Rapids -106",
+        "spread": "Spread N/A",
+        "total": "2.5 (O -165 / U +125)",
+        "implied_probability": "51.5%",
+        "context": "Colorado Rapids priced as market favorite vs St. Louis City SC (-106). Implied probability is approximately 51.5% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "Sporting Kansas City at Portland Timbers",
+        "time": "10:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: Portland Timbers priced as market favorite vs Sporting Kansas City (-205)",
+        "market_summary": "Portland Timbers priced as market favorite vs Sporting Kansas City (-205)",
+        "moneyline": "Sporting Kansas City +460 / Portland Timbers -205",
+        "spread": "Spread N/A",
+        "total": "3.5 (O +100 / U -130)",
+        "implied_probability": "67.2%",
+        "context": "Portland Timbers priced as market favorite vs Sporting Kansas City (-205). Implied probability is approximately 67.2% based on the listed moneyline."
+      },
+      {
+        "league": "Soccer",
+        "game": "San Diego FC at Seattle Sounders FC",
+        "time": "10:30 PM ET",
+        "book": "BetRivers",
+        "headline": "Soccer: Seattle Sounders FC priced as market favorite vs San Diego FC (-165)",
+        "market_summary": "Seattle Sounders FC priced as market favorite vs San Diego FC (-165)",
+        "moneyline": "San Diego FC +370 / Seattle Sounders FC -165",
+        "spread": "Spread N/A",
+        "total": "3.5 (O +135 / U -177)",
+        "implied_probability": "62.3%",
+        "context": "Seattle Sounders FC priced as market favorite vs San Diego FC (-165). Implied probability is approximately 62.3% based on the listed moneyline."
+      }
+    ]
+  }
 }
