@@ -59,6 +59,9 @@ const BAD_CONTENT_PHRASES = [
   "no current items available",
   "undefined sports category",
   "undefined",
+  "out_of_usage_credits",
+  "usage quota has been reached",
+  "could not load odds",
 ];
 
 const SPORT_LABELS: Record<string, string> = {
@@ -124,9 +127,9 @@ function unique(items: string[]): string[] {
   const seen = new Set<string>();
 
   return items
-    .map((item) => item.replace(/\s+/g, " ").trim())
+    .map((item) => cleanText(item))
+    .filter((item) => item && !isBadContent(item))
     .filter((item) => {
-      if (!item) return false;
       const key = item.toLowerCase();
       if (seen.has(key)) return false;
       seen.add(key);
@@ -138,17 +141,19 @@ function asList(value: unknown): string[] {
   if (!value) return [];
 
   if (Array.isArray(value)) {
-    return value.flatMap((item) => asList(item));
+    return unique(value.flatMap((item) => asList(item)));
   }
 
   if (typeof value === "object") {
-    return Object.values(value).flatMap((item) => asList(item));
+    return unique(Object.values(value).flatMap((item) => asList(item)));
   }
 
-  return String(value)
-    .split(/\r?\n|•|â€¢/)
-    .map(cleanText)
-    .filter(Boolean);
+  return unique(
+    String(value)
+      .split(/\r?\n|•|â€¢|\|/)
+      .map(cleanText)
+      .filter(Boolean)
+  );
 }
 
 function isValidUrl(value: unknown): boolean {
@@ -235,7 +240,7 @@ function enrichKeyData(story: AnyObj, title: string): string[] {
     movement ? `Line movement: ${movement}` : "",
     weather ? `Weather angle: ${weather}` : "",
     !direct.length && !odds && !implied && !movement ? `Signal: ${title}` : "",
-  ]).filter((item) => !isBadContent(item));
+  ]);
 }
 
 function enrichWhy(story: AnyObj): string[] {
@@ -244,21 +249,30 @@ function enrichWhy(story: AnyObj): string[] {
   return unique([
     ...direct,
     "Betting readers need more than the number — they need context on whether price, public money, injuries, matchup edges or weather may be driving the market.",
-  ]).filter((item) => !isBadContent(item));
+  ]);
 }
 
 function enrichWatch(story: AnyObj): string[] {
-  const direct = asList(story.what_to_watch || story.whatToWatch || story.watch || story.story_angles);
+  const direct = asList(story.what_to_watch || story.whatToWatch || story.watch);
 
   return unique([
     ...direct,
     "Watch for injury updates, lineup confirmations, pitching changes, weather shifts, totals movement, spread movement and late sportsbook adjustment.",
-  ]).filter((item) => !isBadContent(item));
+  ]);
+}
+
+function enrichAngles(story: AnyObj): string[] {
+  const direct = asList(story.story_angles || story.storyAngles || story.angles);
+
+  return unique([
+    ...direct,
+    "Frame the market through price movement, matchup context, public perception, injury timing and late-book adjustment.",
+  ]);
 }
 
 function normalizeStory(story: AnyObj, index: number, sectionTitle = ""): AnyObj {
   const title = storyTitle(story, index);
-  const rawLabel = story.league || story.sport || story.category || sectionTitle || story.title;
+  const rawLabel = story.league || story.sport || story.category || story.label || sectionTitle || story.title;
   const label = normalizeSportLabel(rawLabel, "Betting Watch");
 
   return {
@@ -266,6 +280,7 @@ function normalizeStory(story: AnyObj, index: number, sectionTitle = ""): AnyObj
     id: cleanText(story.id || story.key || `${label}-${index}`),
     key: cleanText(story.key || story.id || `${label}-${index}`),
     league: label,
+    label,
     title,
     headline: title,
     summary: storySummary(story),
@@ -274,6 +289,7 @@ function normalizeStory(story: AnyObj, index: number, sectionTitle = ""): AnyObj
     key_data: enrichKeyData(story, title),
     why_it_matters: enrichWhy(story),
     what_to_watch: enrichWatch(story),
+    story_angles: enrichAngles(story),
   };
 }
 
@@ -282,9 +298,11 @@ function sectionToStories(section: AnyObj, index: number): AnyObj[] {
     section.title || section.league || section.sport || `Section ${index + 1}`
   );
 
-  if (Array.isArray(section.cards) && section.cards.length) {
-    const objectCards = section.cards.filter((card: unknown) => card && typeof card === "object");
-    const stringCards = section.cards.filter((card: unknown) => typeof card === "string");
+  const cards = section.homepage_cards || section.cards || section.items || section.stories;
+
+  if (Array.isArray(cards) && cards.length) {
+    const objectCards = cards.filter((card: unknown) => card && typeof card === "object");
+    const stringCards = cards.filter((card: unknown) => typeof card === "string");
 
     if (objectCards.length) {
       return objectCards.map((card, cardIndex: number) =>
@@ -308,6 +326,9 @@ function sectionToStories(section: AnyObj, index: number): AnyObj[] {
             what_to_watch: [
               "Watch for line movement, injury updates, weather changes, book-to-book differences and late market shifts.",
             ],
+            story_angles: [
+              "Identify whether the betting angle comes from pricing, injuries, weather, public perception or matchup context.",
+            ],
             url: DEFAULT_URL,
           },
           index,
@@ -327,6 +348,7 @@ function sectionToStories(section: AnyObj, index: number): AnyObj[] {
         key_data: asList(section.key_data || section.keyData || section.cards),
         why_it_matters: asList(section.why_it_matters || section.whyItMatters || section.why),
         what_to_watch: asList(section.what_to_watch || section.whatToWatch || section.watch),
+        story_angles: asList(section.story_angles || section.storyAngles || section.angles),
         url: extractBestUrl(section),
       },
       index,
@@ -335,28 +357,89 @@ function sectionToStories(section: AnyObj, index: number): AnyObj[] {
   ];
 }
 
+function normalizeCollection(candidates: unknown, sourceName: string): AnyObj[] {
+  if (Array.isArray(candidates) && candidates.length) {
+    return candidates
+      .filter((story) => story && typeof story === "object")
+      .map((story, index) =>
+        normalizeStory(
+          {
+            ...(story as AnyObj),
+            source_collection: sourceName,
+          },
+          index
+        )
+      );
+  }
+
+  if (candidates && typeof candidates === "object") {
+    return Object.entries(candidates).flatMap(([key, value]: [string, any], index) => {
+      if (Array.isArray(value)) {
+        return value
+          .filter((story) => story && typeof story === "object")
+          .map((story, itemIndex) =>
+            normalizeStory(
+              {
+                id: `${key}-${itemIndex}`,
+                key,
+                league: key,
+                source_collection: sourceName,
+                ...(story as AnyObj),
+              },
+              itemIndex
+            )
+          );
+      }
+
+      if (value && typeof value === "object") {
+        return [
+          normalizeStory(
+            {
+              id: key,
+              key,
+              league: key,
+              source_collection: sourceName,
+              ...value,
+            },
+            index
+          ),
+        ];
+      }
+
+      return [];
+    });
+  }
+
+  return [];
+}
+
 function getStories(report: AnyObj): AnyObj[] {
+  const publicCollections: [string, unknown][] = [
+    ["homepage_cards", report.homepage_cards],
+    ["live_newsroom", report.live_newsroom],
+    ["stories", report.stories],
+    ["cards", report.cards],
+    ["news", report.news],
+    ["headlines", report.headlines],
+    ["items", report.items],
+    ["articles", report.articles],
+  ];
+
+  for (const [sourceName, candidates] of publicCollections) {
+    const normalized = normalizeCollection(candidates, sourceName).filter(isPublishableStory);
+    if (normalized.length) return normalized;
+  }
+
   if (Array.isArray(report.sections) && report.sections.length) {
     return report.sections.flatMap((section: AnyObj, index: number) =>
       sectionToStories(section || {}, index)
     );
   }
 
-  const candidates =
-    report.live_newsroom ||
-    report.homepage_cards ||
-    report.cards ||
-    report.stories ||
-    report.news ||
-    report.headlines ||
-    report.items ||
-    report.articles ||
-    [];
-
-  if (Array.isArray(candidates)) {
-    return candidates
-      .filter((story) => story && typeof story === "object")
-      .map((story, index) => normalizeStory(story, index));
+  if (report.sections && typeof report.sections === "object") {
+    return Object.values(report.sections).flatMap((section: any, index: number) =>
+      sectionToStories(section || {}, index)
+    );
   }
 
   return [];
@@ -533,7 +616,11 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
     (item) => !isBadContent(item)
   );
 
-  const watch = asList(story.what_to_watch || story.whatToWatch || story.watch || story.story_angles).filter(
+  const watch = asList(story.what_to_watch || story.whatToWatch || story.watch).filter(
+    (item) => !isBadContent(item)
+  );
+
+  const angles = asList(story.story_angles || story.storyAngles || story.angles).filter(
     (item) => !isBadContent(item)
   );
 
@@ -549,7 +636,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
         </a>
       </h3>
 
-      <div className="mt-4 grid gap-3 md:grid-cols-3">
+      <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
         <DetailBlock title="Game" items={[game]} />
         <DetailBlock title="Market" items={market.length ? market : asList(summary)} />
         <DetailBlock
@@ -574,6 +661,14 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
             watch.length
               ? watch
               : ["Monitor injury news, lineup updates, weather, totals, spreads and late line movement."]
+          }
+        />
+        <DetailBlock
+          title="Story Angles"
+          items={
+            angles.length
+              ? angles
+              : ["Frame the market through price movement, matchup context, public perception, injury timing and late-book adjustment."]
           }
         />
       </div>
@@ -625,6 +720,7 @@ export default function Page() {
         key_data: ["Latest betting report generated from the current verified market board."],
         why_it_matters: ["Editors and bettors need quick clarity across odds, totals, spreads and movement."],
         what_to_watch: ["Next verified injury note, weather shift, lineup update or market movement."],
+        story_angles: ["Follow the strongest price, injury, weather, matchup or market-movement angle."],
         story_type: "analysis",
       },
     ];
