@@ -1,136 +1,192 @@
 {
-  "title": "Global Sports Report",
-  "vertical": "Sports",
-  "headline": "MLB Live Board Anchors Busy Night Across Baseball, NBA and Soccer",
-  "snapshot": "Major League Baseball leads an active sports board featuring live leverage situations, late-night pitching matchups and playoff-style pressure across multiple leagues.",
-  "updated_at": "2026-04-22 03:26:25 PM ET",
-  "generated_at": "2026-04-22 03:26:25 PM ET",
+  "title": "GSR Network",
+  "site": "GSR Network",
+  "vertical": "Network",
+  "headline": "GSR Network Live Editorial Intelligence Dashboard",
+  "snapshot": "A unified real-time editorial intelligence layer across sports, AI, politics, entertainment and betting.",
+  "generated_at": "2026-05-09 07:45:00 PM ET",
+  "updated_at": "2026-05-09 07:45:00 PM ET",
+  "published_at": "2026-05-09 07:45:00 PM ET",
+  "source_mode": "standardized_public_schema",
+  "freshness_status": "current",
 
   "key_storylines": [
-    "MLB slate features 10 live games and 5 upcoming matchups",
-    "NBA board mixes live playoff-style flow with late-night positioning",
-    "Soccer board remains globally active with 56 final matches recorded",
-    "Advanced pitching and efficiency metrics continue shaping coverage angles"
+    "Sports coverage is moving beyond scores into matchup context, advanced metrics and reporter angles.",
+    "AI coverage is tracking the enterprise shift from model hype to deployment, governance and infrastructure.",
+    "Politics coverage is focused on policy pressure, legislative action and institutional consequences.",
+    "Entertainment coverage is monitoring film, television, streaming, gaming, media business and audience signals.",
+    "Betting coverage is framing odds, implied probability and market movement as editorial intelligence."
   ],
 
-  "live_newsroom": [
+  "homepage_cards": [
     {
-      "label": "MLB",
-      "headline": "Dodgers-Giants Late Window Headlines Busy MLB Board",
-      "summary": "The late-night MLB slate remains active with pitching-driven matchups, bullpen leverage and strong live-game editorial value.",
-      "url": "https://www.espn.com/mlb/",
+      "id": "sports-lead",
+      "key": "sports-lead",
+      "category": "Sports",
+      "label": "Sports Editorial Signal",
+      "headline": "Sports Board Shows Strong Value in Matchup Context and Advanced Reporting Layers",
+      "summary": "The sports layer is now positioned to move beyond schedule and score updates by surfacing probable starters, efficiency indicators, live-game leverage and reporter-ready angles.",
+      "url": "https://globalsportsreport.com",
+      "source_name": "Global Sports Report",
+      "published_at": "2026-05-09 07:45:00 PM ET",
       "key_data": [
-        "15 MLB games appeared on the board during this report window",
-        "5 upcoming games listed confirmed probable starters",
-        "Dodgers vs Giants features Yoshinobu Yamamoto vs Landen Roupp"
+        "MLB coverage can surface probable starters, Statcast signals and late-window leverage.",
+        "NBA coverage can use pace, net rating, shot efficiency and rotation pressure.",
+        "NFL coverage can use EPA/play, draft context and team-building signals.",
+        "WNBA should be added as a priority sports expansion."
       ],
       "why_it_matters": [
-        "Confirmed starters improve preview reporting quality",
-        "Late-night windows extend live coverage and newsletter value",
-        "Pitching matchups remain the clearest pregame editorial framework"
+        "Sports readers, reporters, fantasy players and betting audiences need context, not just final scores.",
+        "Advanced framing helps separate real editorial signal from schedule noise."
       ],
       "what_to_watch": [
-        "Monitor bullpen leverage and late-inning momentum swings",
-        "Watch how staggered start times affect newsroom workflow",
-        "Track pitching efficiency and strikeout trends in late games"
+        "Track WNBA integration.",
+        "Monitor whether cards display key data, why-it-matters and what-to-watch fields.",
+        "Prioritize matchup flags and advanced metrics where reliable data exists."
+      ],
+      "story_angles": [
+        "How late-night sports windows create newsroom value.",
+        "Where advanced metrics improve game previews and recap framing."
       ]
     },
-
     {
-      "label": "NBA",
-      "headline": "Rockets-Lakers Matchup Leads NBA Positioning Board",
-      "summary": "The NBA board mixes live action with playoff-style positioning and efficiency-driven matchup framing.",
-      "url": "https://www.espn.com/nba/",
+      "id": "ai-lead",
+      "key": "ai-lead",
+      "category": "AI",
+      "label": "AI Enterprise Signal",
+      "headline": "Enterprise AI Coverage Moves From Demo Mode to Deployment Mode",
+      "summary": "The AI layer is strongest when it explains how companies, developers, regulators and enterprise customers are turning AI systems into daily infrastructure.",
+      "url": "https://globalaireport.news",
+      "source_name": "Global AI Report",
+      "published_at": "2026-05-09 07:45:00 PM ET",
       "key_data": [
-        "Houston entered at 52-30 while Lakers stood at 53-29",
-        "Two NBA games remained live during this report window",
-        "One late matchup remained on the board"
+        "Enterprise AI adoption is moving from pilots into workflow deployment.",
+        "AI competition is increasingly tied to productivity ecosystems.",
+        "Regulation, safety and governance are becoming core business factors."
       ],
       "why_it_matters": [
-        "Late-season positioning shifts playoff framing and coverage priorities",
-        "Live NBA windows increase focus on pace and rotation pressure",
-        "Efficiency metrics help separate sustainable team strength from surface-level records"
+        "The AI market is now being judged by deployment, trust, measurable value and enterprise integration.",
+        "Reporters need help tracking the business impact behind product announcements."
       ],
       "what_to_watch": [
-        "Watch fourth-quarter leverage and pace swings",
-        "Track lineup adjustments and seeding implications",
-        "Monitor net-rating separation between contenders"
+        "Watch Microsoft, Google, OpenAI, Nvidia and major enterprise software providers.",
+        "Track customer adoption, pricing, security concerns and regulatory action."
+      ],
+      "story_angles": [
+        "Enterprise AI as infrastructure.",
+        "The shift from model capability to business utility."
       ]
     },
-
     {
-      "label": "Soccer",
-      "headline": "Global Soccer Slate Remains Highly Active Across Multiple Regions",
-      "summary": "The worldwide soccer board carried heavy volume with dozens of finals, live matches and upcoming fixtures.",
-      "url": "https://www.espn.com/soccer/",
+      "id": "politics-lead",
+      "key": "politics-lead",
+      "category": "Politics",
+      "label": "Politics Policy Signal",
+      "headline": "Washington Coverage Centers on Budget Pressure, Policy Stakes and Institutional Response",
+      "summary": "The politics layer should frame public-sector developments through lawmakers, agencies, courts, campaigns, deadlines and consequences for affected communities.",
+      "url": "https://globalpoliticsreport.com",
+      "source_name": "Global Politics Report",
+      "published_at": "2026-05-09 07:45:00 PM ET",
       "key_data": [
-        "56 soccer finals were recorded during this report window",
-        "10 additional matches remained upcoming",
-        "Real Madrid defeated Alavés while Inter won against Como"
+        "Budget negotiations remain a central Washington storyline.",
+        "Policy fights can shift agency action, public spending and legislative leverage.",
+        "Coverage should identify the next vote, filing, hearing, ruling or official statement."
       ],
       "why_it_matters": [
-        "Global soccer volume creates constant newsroom turnover",
-        "International coverage windows extend audience engagement across time zones"
+        "Political stories matter most when readers understand the policy consequence, not just the partisan conflict.",
+        "Structured politics cards can help reporters track what changed, who is affected and what happens next."
       ],
       "what_to_watch": [
-        "Track late-match momentum and table implications",
-        "Monitor international club positioning and player performance"
+        "Track official statements, committee action, court filings and agency decisions.",
+        "Watch responses from lawmakers, campaigns, courts and affected voters."
+      ],
+      "story_angles": [
+        "Budget pressure as governing test.",
+        "Policy consequences beyond the headline fight."
+      ]
+    },
+    {
+      "id": "entertainment-lead",
+      "key": "entertainment-lead",
+      "category": "Entertainment",
+      "label": "Entertainment Industry Signal",
+      "headline": "Entertainment Coverage Tracks Film, TV, Streaming, Gaming and Media Business Signals",
+      "summary": "The entertainment layer should convert live industry headlines into cleaner context around audience attention, studio movement, platform strategy, talent leverage and media business impact.",
+      "url": "https://globalentertainmentreport.com",
+      "source_name": "Global Entertainment Report",
+      "published_at": "2026-05-09 07:45:00 PM ET",
+      "key_data": [
+        "Entertainment coverage spans film, television, streaming, gaming, awards, media and celebrity business.",
+        "Public cards should never expose RSS counts, feed audits or internal pipeline diagnostics.",
+        "The strongest stories should explain why a headline matters to studios, platforms, creators or audiences."
+      ],
+      "why_it_matters": [
+        "Entertainment readers need more than headline aggregation; they need industry meaning.",
+        "Cleaner public-facing language makes the site feel like a publication, not a backend monitor."
+      ],
+      "what_to_watch": [
+        "Replace internal pipeline language with editorial summaries.",
+        "Improve generic why-it-matters copy with story-specific business and audience context.",
+        "Track studio movement, platform response, box office trends and audience reaction."
+      ],
+      "story_angles": [
+        "Streaming competition as media-business signal.",
+        "Box office and audience behavior as industry indicators."
+      ]
+    },
+    {
+      "id": "betting-lead",
+      "key": "betting-lead",
+      "category": "Betting",
+      "label": "Betting Market Signal",
+      "headline": "Betting Coverage Should Explain What Odds Mean, Not Just Display Lines",
+      "summary": "The betting layer is strongest when it translates odds, implied probability, market movement and matchup context into clear editorial intelligence for betting-focused readers.",
+      "url": "https://globalbettingreport.com",
+      "source_name": "Global Betting Report",
+      "published_at": "2026-05-09 07:45:00 PM ET",
+      "key_data": [
+        "Moneylines should be paired with implied probability.",
+        "Spread and total movement should be explained in plain language.",
+        "Cards should identify the market, the favorite, the risk and the context."
+      ],
+      "why_it_matters": [
+        "Betting readers need interpretation, not raw odds alone.",
+        "Market context creates stronger value for sportsbook, fantasy and sports-media audiences."
+      ],
+      "what_to_watch": [
+        "Track line movement, injury news, starting lineups and late market shifts.",
+        "Separate useful betting signal from shallow pick-style content.",
+        "Keep card structure clean: game, market, implied probability, why it matters and what to watch."
+      ],
+      "story_angles": [
+        "How market movement reflects changing game expectations.",
+        "Where betting context overlaps with fantasy and injury reporting."
       ]
     }
   ],
 
-  "editor_signals": [
-    {
-      "label": "Editor Signal",
-      "headline": "Late-Night Windows Are Driving Sports Newsroom Value",
-      "summary": "The strongest sports newsroom advantage currently comes from live-game leverage, staggered schedules and multi-league overlap.",
-      "key_data": [
-        "MLB late-night games extend newsroom activity deep into the evening",
-        "NBA and NHL live windows overlap with baseball coverage",
-        "Soccer creates global overnight continuity"
-      ],
-      "why_it_matters": [
-        "Multi-league overlap increases demand for live editorial prioritization"
-      ],
-      "what_to_watch": [
-        "Watch which leagues consistently produce the strongest engagement windows"
-      ]
-    }
-  ],
+  "live_newsroom": [],
+  "editor_signals": [],
+  "stories": [],
 
-  "stories": [
-    {
-      "label": "MLB",
-      "headline": "Late MLB Pitching Matchups Drive Newsroom Focus",
-      "summary": "Pitching context and live leverage continue dominating MLB editorial framing.",
-      "url": "https://www.espn.com/mlb/",
-      "key_data": [
-        "5 games listed probable starters",
-        "Late-night slate remains active"
-      ],
-      "why_it_matters": [
-        "Pitching remains the strongest pregame storytelling angle"
-      ],
-      "what_to_watch": [
-        "Monitor bullpen stress and strikeout efficiency"
-      ]
-    },
-
-    {
-      "label": "NBA",
-      "headline": "Playoff-Style Pressure Shapes NBA Coverage",
-      "summary": "Efficiency, pace and matchup context continue driving NBA analysis.",
-      "url": "https://www.espn.com/nba/",
-      "key_data": [
-        "Rockets-Lakers highlighted the board",
-        "Two games remained live"
-      ],
-      "why_it_matters": [
-        "Late-season positioning shifts editorial priorities"
-      ],
-      "what_to_watch": [
-        "Watch rotation pressure and closing stretches"
-      ]
-    }
-  ]
+  "metadata": {
+    "schema_version": "gsr_universal_v1",
+    "public_render_fields": [
+      "headline",
+      "summary",
+      "key_data",
+      "why_it_matters",
+      "what_to_watch",
+      "story_angles",
+      "source_name",
+      "published_at"
+    ],
+    "hide_from_public_cards": [
+      "feed_audit",
+      "internal_notes",
+      "raw_content",
+      "pipeline_logs",
+      "fallback_note"
+    ]
+  }
 }
