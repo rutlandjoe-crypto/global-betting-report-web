@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-10 01:40:18 AM ET",
-  "generated_at": "2026-05-10 01:40:18 AM ET",
-  "generated_utc": "2026-05-10T05:40:18.228069+00:00",
+  "updated_at": "2026-05-10 03:57:36 AM ET",
+  "generated_at": "2026-05-10 03:57:36 AM ET",
+  "generated_utc": "2026-05-10T07:57:36.599795+00:00",
   "source_mode": "clean multi-card odds report distribution",
   "homepage_cards": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "league": "NHL Betting Board",
-      "headline": "Buffalo Sabres at Montréal Canadiens - 7:00 PM ET",
+      "headline": "Buffalo Sabres at Montréal Canadiens - 7:10 PM ET",
       "url": "https://www.globalbettingreport.com"
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "league": "NHL Betting Board",
-      "headline": "Buffalo Sabres at Montréal Canadiens - 7:00 PM ET",
+      "headline": "Buffalo Sabres at Montréal Canadiens - 7:10 PM ET",
       "url": "https://www.globalbettingreport.com"
     },
     {
@@ -96,7 +96,7 @@
   "editor_signals": [
     "New York Knicks at Philadelphia 76ers - 3:40 PM ET",
     "Washington Nationals at Miami Marlins - 12:16 PM ET",
-    "Buffalo Sabres at Montréal Canadiens - 7:00 PM ET",
+    "Buffalo Sabres at Montréal Canadiens - 7:10 PM ET",
     "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
     "San Antonio Spurs at Minnesota Timberwolves - 7:40 PM ET"
   ],
@@ -133,25 +133,25 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Washington Nationals at Miami Marlins - 12:16 PM ET",
       "game": "Washington Nationals at Miami Marlins - 12:16 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Washington Nationals +118 / Miami Marlins -138 | Spread: Washington Nationals 1.5 (-184) / Miami Marlins -1.5 (+152) | Total: 8.5 (Over +100 / Under -122)",
+      "market": "Bookmaker: FanDuel | Moneyline: Washington Nationals +116 / Miami Marlins -134 | Spread: Washington Nationals 1.5 (-194) / Miami Marlins -1.5 (+160) | Total: 8.5 (Over -102 / Under -120)",
       "bookmaker": "FanDuel",
-      "moneyline": "Washington Nationals +118 / Miami Marlins -138",
-      "spread": "Washington Nationals 1.5 (-184) / Miami Marlins -1.5 (+152)",
-      "total": "8.5 (Over +100 / Under -122)",
+      "moneyline": "Washington Nationals +116 / Miami Marlins -134",
+      "spread": "Washington Nationals 1.5 (-194) / Miami Marlins -1.5 (+160)",
+      "total": "8.5 (Over -102 / Under -120)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Washington Nationals +118 / Miami Marlins -138 | Spread: Washington Nationals 1.5 (-184) / Miami Marlins -1.5 (+152) | Total: 8.5 (Over +100 / Under -122)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Washington Nationals +116 / Miami Marlins -134 | Spread: Washington Nationals 1.5 (-194) / Miami Marlins -1.5 (+160) | Total: 8.5 (Over -102 / Under -120)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Washington Nationals +118 / Miami Marlins -138",
-        "Spread: Washington Nationals 1.5 (-184) / Miami Marlins -1.5 (+152)",
-        "Total: 8.5 (Over +100 / Under -122)"
+        "Moneyline: Washington Nationals +116 / Miami Marlins -134",
+        "Spread: Washington Nationals 1.5 (-194) / Miami Marlins -1.5 (+160)",
+        "Total: 8.5 (Over -102 / Under -120)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -167,24 +167,24 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "NHL Betting Board",
       "league": "NHL Betting Board",
-      "headline": "Buffalo Sabres at Montréal Canadiens - 7:00 PM ET",
-      "game": "Buffalo Sabres at Montréal Canadiens - 7:00 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Buffalo Sabres +106 / Montréal Canadiens -128 | Spread: Buffalo Sabres 1.5 (-225) / Montréal Canadiens -1.5 (+180) | Total: 5.5 (Over -134 / Under +110)",
+      "headline": "Buffalo Sabres at Montréal Canadiens - 7:10 PM ET",
+      "game": "Buffalo Sabres at Montréal Canadiens - 7:10 PM ET",
+      "market": "Bookmaker: FanDuel | Moneyline: Buffalo Sabres +105 / Montréal Canadiens -126 | Spread: Buffalo Sabres 1.5 (-230) / Montréal Canadiens -1.5 (+180) | Total: 5.5 (Over -134 / Under +110)",
       "bookmaker": "FanDuel",
-      "moneyline": "Buffalo Sabres +106 / Montréal Canadiens -128",
-      "spread": "Buffalo Sabres 1.5 (-225) / Montréal Canadiens -1.5 (+180)",
+      "moneyline": "Buffalo Sabres +105 / Montréal Canadiens -126",
+      "spread": "Buffalo Sabres 1.5 (-230) / Montréal Canadiens -1.5 (+180)",
       "total": "5.5 (Over -134 / Under +110)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Buffalo Sabres +106 / Montréal Canadiens -128 | Spread: Buffalo Sabres 1.5 (-225) / Montréal Canadiens -1.5 (+180) | Total: 5.5 (Over -134 / Under +110)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Buffalo Sabres +105 / Montréal Canadiens -126 | Spread: Buffalo Sabres 1.5 (-230) / Montréal Canadiens -1.5 (+180) | Total: 5.5 (Over -134 / Under +110)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Buffalo Sabres +106 / Montréal Canadiens -128",
-        "Spread: Buffalo Sabres 1.5 (-225) / Montréal Canadiens -1.5 (+180)",
+        "Moneyline: Buffalo Sabres +105 / Montréal Canadiens -126",
+        "Spread: Buffalo Sabres 1.5 (-230) / Montréal Canadiens -1.5 (+180)",
         "Total: 5.5 (Over -134 / Under +110)"
       ],
       "why_it_matters": [
@@ -201,7 +201,7 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "NFL Betting Board",
@@ -235,7 +235,7 @@
         "Prime-time public money and late spread movement."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "NBA Betting Board",
@@ -269,24 +269,24 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Athletics at Baltimore Orioles - 1:36 PM ET",
       "game": "Athletics at Baltimore Orioles - 1:36 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Athletics -106 / Baltimore Orioles -110 | Spread: Athletics -1.5 (+146) / Baltimore Orioles 1.5 (-178) | Total: 9.5 (Over -122 / Under +100)",
+      "market": "Bookmaker: FanDuel | Moneyline: Athletics -108 / Baltimore Orioles -108 | Spread: Athletics -1.5 (+146) / Baltimore Orioles 1.5 (-176) | Total: 9.5 (Over -122 / Under +100)",
       "bookmaker": "FanDuel",
-      "moneyline": "Athletics -106 / Baltimore Orioles -110",
-      "spread": "Athletics -1.5 (+146) / Baltimore Orioles 1.5 (-178)",
+      "moneyline": "Athletics -108 / Baltimore Orioles -108",
+      "spread": "Athletics -1.5 (+146) / Baltimore Orioles 1.5 (-176)",
       "total": "9.5 (Over -122 / Under +100)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Athletics -106 / Baltimore Orioles -110 | Spread: Athletics -1.5 (+146) / Baltimore Orioles 1.5 (-178) | Total: 9.5 (Over -122 / Under +100)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Athletics -108 / Baltimore Orioles -108 | Spread: Athletics -1.5 (+146) / Baltimore Orioles 1.5 (-176) | Total: 9.5 (Over -122 / Under +100)",
       "key_data": [
         "Bookmaker: FanDuel",
-        "Moneyline: Athletics -106 / Baltimore Orioles -110",
-        "Spread: Athletics -1.5 (+146) / Baltimore Orioles 1.5 (-178)",
+        "Moneyline: Athletics -108 / Baltimore Orioles -108",
+        "Spread: Athletics -1.5 (+146) / Baltimore Orioles 1.5 (-176)",
         "Total: 9.5 (Over -122 / Under +100)"
       ],
       "why_it_matters": [
@@ -303,7 +303,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -337,7 +337,7 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "NBA Betting Board",
@@ -371,25 +371,25 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Tampa Bay Rays at Boston Red Sox - 1:36 PM ET",
       "game": "Tampa Bay Rays at Boston Red Sox - 1:36 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +110 / Boston Red Sox -130 | Spread: Tampa Bay Rays 1.5 (-196) / Boston Red Sox -1.5 (+162) | Total: 8.5 (Over -110 / Under -110)",
+      "market": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +110 / Boston Red Sox -130 | Spread: Tampa Bay Rays 1.5 (-196) / Boston Red Sox -1.5 (+162) | Total: 8.5 (Over -105 / Under -115)",
       "bookmaker": "FanDuel",
       "moneyline": "Tampa Bay Rays +110 / Boston Red Sox -130",
       "spread": "Tampa Bay Rays 1.5 (-196) / Boston Red Sox -1.5 (+162)",
-      "total": "8.5 (Over -110 / Under -110)",
+      "total": "8.5 (Over -105 / Under -115)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +110 / Boston Red Sox -130 | Spread: Tampa Bay Rays 1.5 (-196) / Boston Red Sox -1.5 (+162) | Total: 8.5 (Over -110 / Under -110)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Tampa Bay Rays +110 / Boston Red Sox -130 | Spread: Tampa Bay Rays 1.5 (-196) / Boston Red Sox -1.5 (+162) | Total: 8.5 (Over -105 / Under -115)",
       "key_data": [
         "Bookmaker: FanDuel",
         "Moneyline: Tampa Bay Rays +110 / Boston Red Sox -130",
         "Spread: Tampa Bay Rays 1.5 (-196) / Boston Red Sox -1.5 (+162)",
-        "Total: 8.5 (Over -110 / Under -110)"
+        "Total: 8.5 (Over -105 / Under -115)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -405,7 +405,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "NHL Betting Board",
@@ -439,25 +439,25 @@
         "Totals movement after goalie news."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "NBA Betting Board",
       "league": "NBA Betting Board",
       "headline": "Oklahoma City Thunder at Los Angeles Lakers - 10:40 PM ET",
       "game": "Oklahoma City Thunder at Los Angeles Lakers - 10:40 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -520 / Los Angeles Lakers +400 | Spread: Oklahoma City Thunder -10.5 (-118) / Los Angeles Lakers 10.5 (-104) | Total: 213.5 (Over -112 / Under -108)",
+      "market": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -520 / Los Angeles Lakers +400 | Spread: Oklahoma City Thunder -10.5 (-118) / Los Angeles Lakers 10.5 (-104) | Total: 214.5 (Over -106 / Under -114)",
       "bookmaker": "FanDuel",
       "moneyline": "Oklahoma City Thunder -520 / Los Angeles Lakers +400",
       "spread": "Oklahoma City Thunder -10.5 (-118) / Los Angeles Lakers 10.5 (-104)",
-      "total": "213.5 (Over -112 / Under -108)",
+      "total": "214.5 (Over -106 / Under -114)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -520 / Los Angeles Lakers +400 | Spread: Oklahoma City Thunder -10.5 (-118) / Los Angeles Lakers 10.5 (-104) | Total: 213.5 (Over -112 / Under -108)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Oklahoma City Thunder -520 / Los Angeles Lakers +400 | Spread: Oklahoma City Thunder -10.5 (-118) / Los Angeles Lakers 10.5 (-104) | Total: 214.5 (Over -106 / Under -114)",
       "key_data": [
         "Bookmaker: FanDuel",
         "Moneyline: Oklahoma City Thunder -520 / Los Angeles Lakers +400",
         "Spread: Oklahoma City Thunder -10.5 (-118) / Los Angeles Lakers 10.5 (-104)",
-        "Total: 213.5 (Over -112 / Under -108)"
+        "Total: 214.5 (Over -106 / Under -114)"
       ],
       "why_it_matters": [
         "Injury reports, rest spots, and rotation news can reshape NBA spreads.",
@@ -473,7 +473,7 @@
         "Rotation news and late movement near tipoff."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -507,25 +507,25 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Los Angeles Angels at Toronto Blue Jays - 1:38 PM ET",
       "game": "Los Angeles Angels at Toronto Blue Jays - 1:38 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels -116 / Toronto Blue Jays -102 | Spread: Los Angeles Angels -1.5 (+146) / Toronto Blue Jays 1.5 (-176) | Total: 8 (Over -110 / Under -110)",
+      "market": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels -116 / Toronto Blue Jays -102 | Spread: Los Angeles Angels -1.5 (+142) / Toronto Blue Jays 1.5 (-172) | Total: 8 (Over -115 / Under -105)",
       "bookmaker": "FanDuel",
       "moneyline": "Los Angeles Angels -116 / Toronto Blue Jays -102",
-      "spread": "Los Angeles Angels -1.5 (+146) / Toronto Blue Jays 1.5 (-176)",
-      "total": "8 (Over -110 / Under -110)",
+      "spread": "Los Angeles Angels -1.5 (+142) / Toronto Blue Jays 1.5 (-172)",
+      "total": "8 (Over -115 / Under -105)",
       "implied_probability": "",
-      "snapshot": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels -116 / Toronto Blue Jays -102 | Spread: Los Angeles Angels -1.5 (+146) / Toronto Blue Jays 1.5 (-176) | Total: 8 (Over -110 / Under -110)",
+      "snapshot": "Bookmaker: FanDuel | Moneyline: Los Angeles Angels -116 / Toronto Blue Jays -102 | Spread: Los Angeles Angels -1.5 (+142) / Toronto Blue Jays 1.5 (-172) | Total: 8 (Over -115 / Under -105)",
       "key_data": [
         "Bookmaker: FanDuel",
         "Moneyline: Los Angeles Angels -116 / Toronto Blue Jays -102",
-        "Spread: Los Angeles Angels -1.5 (+146) / Toronto Blue Jays 1.5 (-176)",
-        "Total: 8 (Over -110 / Under -110)"
+        "Spread: Los Angeles Angels -1.5 (+142) / Toronto Blue Jays 1.5 (-172)",
+        "Total: 8 (Over -115 / Under -105)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -541,7 +541,7 @@
         "Bullpen usage and lineup scratches before first pitch."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "Market Watch",
@@ -559,7 +559,7 @@
         "Compare sportsbook movement before treating one number as the full market."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     },
     {
       "title": "Betting Context",
@@ -575,7 +575,7 @@
         "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
       ],
       "source": "GSR betting desk",
-      "updated_at": "2026-05-10 01:40:18 AM ET"
+      "updated_at": "2026-05-10 03:57:36 AM ET"
     }
   ]
 }
