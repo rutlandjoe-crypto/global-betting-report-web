@@ -572,14 +572,14 @@ def build_key_data(section_key: str, headline: str, snapshot: str, source_lines:
         for line in moneylines:
             if line not in unique_moneylines:
                 unique_moneylines.append(line)
-        key_data.append(f"Moneyline signal detected: {', '.join(unique_moneylines[:4])}.")
+        key_data.append(f"Moneyline prices set the market baseline: {', '.join(unique_moneylines[:4])}.")
 
     if percentages:
         unique_percentages = []
         for pct in percentages:
             if pct not in unique_percentages:
                 unique_percentages.append(pct)
-        key_data.append(f"Implied-probability signal detected: {', '.join(unique_percentages[:4])}.")
+        key_data.append(f"Implied probability gives the desk an expectation marker: {', '.join(unique_percentages[:4])}.")
 
     lower = text.lower()
 
@@ -997,15 +997,15 @@ def build_live_newsroom(sections: dict[str, dict[str, Any]]) -> list[dict[str, A
 
 def build_editor_signals(sections: dict[str, dict[str, Any]]) -> list[str]:
     signals = [
-        "Betting Editorial Brain v3 is active: odds are being interpreted as market context, not gambling advice.",
-        "Cards now carry cleaner key_data, why_it_matters and what_to_watch fields for journalist-facing readability.",
-        "Market context now detects favorite, underdog, spread, total, volatility, risk and live-board signals.",
+        "Odds are framed as market context and reporting intelligence, not gambling advice.",
+        "Cards emphasize the game, market, implied probability, stakes and what to watch.",
+        "Market context separates favorite, underdog, spread, total, volatility, risk and live-board reads.",
     ]
 
     if "wnba" in sections:
         signals.append("WNBA betting window is active because WNBA data was detected.")
     else:
-        signals.append("WNBA betting window is ready and will appear automatically when WNBA data files are generated.")
+        signals.append("WNBA betting coverage is ready to join the board when source data is available.")
 
     if "fantasy" in sections:
         signals.append("Fantasy crossover watch is active for betting/fantasy context.")

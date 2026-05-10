@@ -64,6 +64,69 @@ def clean_line(text: str) -> str:
     return text.strip()
 
 
+def first_moneyline_price(moneyline: str) -> str:
+    match = re.search(r"(?<!\w)([+-]\d{3,4})(?!\w)", clean_line(moneyline))
+    return match.group(1) if match else ""
+
+
+def implied_probability_from_price(price: str) -> str:
+    if not price:
+        return ""
+    try:
+        value = int(price)
+    except ValueError:
+        return ""
+    if value < 0:
+        probability = abs(value) / (abs(value) + 100)
+    else:
+        probability = 100 / (value + 100)
+    return f"{probability * 100:.1f}%"
+
+
+def market_snapshot(game: str, moneyline: str, spread: str, total: str, implied_probability: str) -> str:
+    price = first_moneyline_price(moneyline)
+    implied = implied_probability or (
+        f"First listed moneyline implies roughly {implied_probability_from_price(price)} win probability"
+        if implied_probability_from_price(price)
+        else ""
+    )
+    parts: list[str] = []
+    if moneyline:
+        parts.append(f"Moneyline sets the win-probability baseline: {moneyline}.")
+    if spread:
+        parts.append(f"Spread frames the expected margin: {spread}.")
+    if total:
+        parts.append(f"Total frames the scoring environment: {total}.")
+    if implied:
+        parts.append(implied.rstrip(".") + ".")
+    if not parts:
+        return f"{game} is on the betting board; the useful read is how price, availability and matchup context line up before game time."
+    return " ".join(parts[:4])
+
+
+def event_key_data(game: str, bookmaker: str, moneyline: str, spread: str, total: str, implied_probability: str) -> list[str]:
+    data: list[str] = [f"Game: {game}"]
+    if bookmaker:
+        data.append(f"Market source: {bookmaker}")
+    if moneyline:
+        data.append(f"Moneyline: {moneyline}")
+    if spread:
+        data.append(f"Spread: {spread}")
+    if total:
+        data.append(f"Total: {total}")
+    if implied_probability:
+        data.append(implied_probability)
+    return data[:5]
+
+
+def market_label(title: str) -> str:
+    if "Fantasy" in title:
+        return "Fantasy market read"
+    if "Context" in title or "Watch" in title:
+        return "Market context"
+    return "Betting market read"
+
+
 def first_real_line(text: str) -> str:
     skip = {
         "GLOBAL SNAPSHOT",
@@ -192,6 +255,7 @@ def parse_event_card(block: list[str], league: str, current_stamp: str) -> dict 
         return None
 
     why = [item for item in market_read if item != implied_probability] or build_odds_meaning(f"{league} Betting Board")[:2]
+    snapshot = market_snapshot(game, moneyline, spread, total, implied_probability)
 
     return {
         "title": f"{league} Betting Board",
@@ -204,11 +268,13 @@ def parse_event_card(block: list[str], league: str, current_stamp: str) -> dict 
         "spread": spread,
         "total": total,
         "implied_probability": implied_probability,
-        "snapshot": market,
-        "key_data": [line for line in market_lines if line],
+        "snapshot": snapshot,
+        "key_data": event_key_data(game, bookmaker, moneyline, spread, total, implied_probability),
         "why_it_matters": why,
         "what_the_odds_mean": why,
         "what_to_watch": build_watch_items(f"{league} Betting Board"),
+        "source_label": "Betting market read",
+        "story_type": "market_context",
         "source": "betting_odds_report.txt",
         "updated_at": current_stamp,
     }
@@ -264,7 +330,7 @@ def build_key_data(headline: str, snapshot: str) -> list[str]:
     data: list[str] = []
 
     if headline:
-        data.append(f"Lead signal: {clean_line(headline)}")
+        data.append(f"Lead market: {clean_line(headline)}")
 
     moneyline = re.search(r"Moneyline:\s*(.+)", snapshot)
     spread = re.search(r"Spread:\s*(.+)", snapshot)
@@ -277,7 +343,7 @@ def build_key_data(headline: str, snapshot: str) -> list[str]:
     if total:
         data.append(f"Total context: {clean_line(total.group(1))}")
 
-    return data[:4] or ["Current betting board is being monitored."]
+    return data[:4] or ["Current betting board is being read for market position, risk and late movement."]
 
 
 def build_odds_meaning(title: str) -> list[str]:
@@ -464,6 +530,12 @@ def build_homepage_cards(sections: list[dict]) -> list[dict]:
             {
                 "league": section.get("title", "Betting"),
                 "headline": section.get("headline", "Global Betting Report market update"),
+                "snapshot": section.get("snapshot", ""),
+                "source_label": section.get("source_label") or market_label(str(section.get("title", "Betting"))),
+                "story_type": section.get("story_type", "market_context"),
+                "key_data": section.get("key_data", [])[:4],
+                "why_it_matters": (section.get("why_it_matters") or section.get("what_the_odds_mean", []))[:3],
+                "what_to_watch": section.get("what_to_watch", [])[:3],
                 "url": "https://www.globalbettingreport.com",
             }
         )
@@ -503,7 +575,7 @@ def build_payload(text: str) -> dict:
         "updated_at": current_stamp,
         "generated_at": current_stamp,
         "generated_utc": datetime.now(timezone.utc).isoformat(),
-        "source_mode": "clean multi-card odds report distribution",
+        "source_mode": "public_betting_market_report",
         "homepage_cards": build_homepage_cards(sections),
         "live_newsroom": build_homepage_cards(sections),
         "editor_signals": [
