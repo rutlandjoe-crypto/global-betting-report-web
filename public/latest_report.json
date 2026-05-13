@@ -3,126 +3,354 @@
   "site_name": "Global Betting Report",
   "vertical": "Betting",
   "title": "Global Betting Report",
-  "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
-  "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-13 05:18:06 PM ET",
-  "generated_at": "2026-05-13 05:18:06 PM ET",
-  "generated_utc": "2026-05-13T21:18:06.707594+00:00",
-  "source_mode": "public_betting_market_report",
-  "homepage_cards": [
+  "tagline": "Built for journalists, by a journalist.",
+  "headline": "Books Wait on Prices as Board Takes Shape",
+  "snapshot": "Fast odds context for moneylines, spreads, totals, implied probability, fantasy angles, weather and late price movement.",
+  "updated_at": "2026-05-13 06:09 PM ET",
+  "generated_at": "2026-05-13 06:09 PM ET",
+  "generated_utc": "2026-05-13T22:09:27.183859+00:00",
+  "source_mode": "odds-market interpretation engine with line movement, futures watch, weather context, and newsroom-ready betting explanation",
+  "x_handle": "@GlobalSportsRp",
+  "substack_url": "",
+  "theme": {
+    "name": "Global Betting Report",
+    "colors": {
+      "primary": "#7f1d1d",
+      "primary_name": "deep betting red",
+      "secondary": "#111827",
+      "secondary_name": "charcoal black",
+      "accent": "#facc15",
+      "accent_name": "odds-ticket gold",
+      "background": "#f5f5f4",
+      "background_name": "warm newsroom neutral"
+    },
+    "style": "black, deep red, white, warm neutral, and odds-ticket gold accents"
+  },
+  "network_links": [
     {
-      "league": "Market Watch",
-      "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
-      "snapshot": "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored for betting-market movement.",
-      "source_label": "Market context",
-      "story_type": "market_context",
-      "key_data": [
-        "Market board is active across available leagues."
-      ],
-      "why_it_matters": [
-        "Line movement matters most when it connects to injuries, weather, roster news, or sportsbook adjustment."
-      ],
-      "what_to_watch": [
-        "Track favorites getting more expensive or underdogs drawing late money.",
-        "Watch totals in weather-sensitive games.",
-        "Compare sportsbook movement before treating one number as the full market."
-      ],
-      "url": "https://www.globalbettingreport.com"
+      "label": "Sports",
+      "url": "https://globalsportsreport.com"
     },
     {
-      "league": "Betting Context",
-      "headline": "What bettors should monitor today",
-      "snapshot": "Track line movement, injury news, starting lineup changes, pitching confirmations, weather, rest advantages, and late market steam before making any betting decision.",
-      "source_label": "Market context",
-      "story_type": "market_context",
-      "key_data": [
-        "Betting context requires line movement plus supporting news."
-      ],
-      "why_it_matters": [
-        "A number alone is not a recommendation. Context explains why the market may be moving."
-      ],
-      "what_to_watch": [
-        "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
-      ],
-      "url": "https://www.globalbettingreport.com"
+      "label": "AI",
+      "url": "https://globalaireport.news"
+    },
+    {
+      "label": "Politics",
+      "url": "https://globalpoliticsreport.com"
+    },
+    {
+      "label": "Entertainment",
+      "url": "https://globalentertainmentreport.com"
+    },
+    {
+      "label": "Betting",
+      "url": "https://globalbettingreport.com"
     }
+  ],
+  "key_storylines": [
+    "Betting Markets: Books Wait on Prices as Board Takes Shape",
+    "Weather Impact: MLB totals get sharper once wind and rain risk enter the board",
+    "Futures Watch: Futures Board Moves With Roster News"
   ],
   "live_newsroom": [
     {
-      "league": "Market Watch",
-      "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
-      "snapshot": "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored for betting-market movement.",
-      "source_label": "Market context",
-      "story_type": "market_context",
+      "key": "betting_market_1",
+      "title": "Betting Markets",
+      "headline": "Books Wait on Prices as Board Takes Shape",
+      "snapshot": "Once prices land, each card turns the number into plain-English context for bettors and fantasy players.",
+      "source": "Global Betting Report",
+      "url": "https://www.actionnetwork.com/odds",
       "key_data": [
-        "Market board is active across available leagues."
+        "GAME: Live board pending",
+        "MARKET: Moneyline, spread and total markets are ready for live prices.",
+        "LINE / ODDS: Awaiting ODDS_API_KEY feed.",
+        "IMPLIED PROBABILITY: unavailable until a moneyline posts.",
+        "MOVEMENT: unavailable until an opener and current price exist."
       ],
-      "why_it_matters": [
-        "Line movement matters most when it connects to injuries, weather, roster news, or sportsbook adjustment."
-      ],
-      "what_to_watch": [
-        "Track favorites getting more expensive or underdogs drawing late money.",
-        "Watch totals in weather-sensitive games.",
-        "Compare sportsbook movement before treating one number as the full market."
-      ],
-      "url": "https://www.globalbettingreport.com"
+      "why_it_matters": "Once prices land, each card turns the number into plain-English context for bettors and fantasy players.",
+      "what_to_watch": "Add ODDS_API_KEY in the environment, then rerun this script to populate live games."
     },
     {
-      "league": "Betting Context",
-      "headline": "What bettors should monitor today",
-      "snapshot": "Track line movement, injury news, starting lineup changes, pitching confirmations, weather, rest advantages, and late market steam before making any betting decision.",
-      "source_label": "Market context",
-      "story_type": "market_context",
+      "key": "betting_market_2",
+      "title": "Weather Impact",
+      "headline": "MLB totals get sharper once wind and rain risk enter the board",
+      "snapshot": "Weather is one of the clearest context layers that separates useful betting analysis from a raw odds board.",
+      "source": "OddsTrader weather reference",
+      "url": "https://www.oddstrader.com/mlb/weather/",
       "key_data": [
-        "Betting context requires line movement plus supporting news."
+        "GAME: MLB weather board",
+        "MARKET: Baseball totals and live-betting volatility.",
+        "LINE / ODDS: Weather can push totals before first pitch.",
+        "IMPLIED PROBABILITY: not applicable to weather-only cards.",
+        "MOVEMENT: wind and rain can force total movement."
       ],
-      "why_it_matters": [
-        "A number alone is not a recommendation. Context explains why the market may be moving."
+      "why_it_matters": "Weather is one of the clearest context layers that separates useful betting analysis from a raw odds board.",
+      "what_to_watch": "Wind, temperature, precipitation and park shape can move baseball totals before first pitch."
+    },
+    {
+      "key": "betting_market_3",
+      "title": "Futures Watch",
+      "headline": "Futures Board Moves With Roster News",
+      "snapshot": "Betting readers often track markets before games are near. Keeping futures alive gives the site year-round value.",
+      "source": "Global Betting Report",
+      "url": "https://www.covers.com/sports",
+      "key_data": [
+        "GAME: Futures board",
+        "MARKET: NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures.",
+        "LINE / ODDS: Long-range prices change after roster, schedule and injury news.",
+        "IMPLIED PROBABILITY: compare futures prices before and after major news.",
+        "MOVEMENT: shortening prices show growing support; drifting prices show resistance."
       ],
-      "what_to_watch": [
-        "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
-      ],
-      "url": "https://www.globalbettingreport.com"
+      "why_it_matters": "Betting readers often track markets before games are near. Keeping futures alive gives the site year-round value.",
+      "what_to_watch": "Schedule releases, injuries, coaching changes, transfers, trades, playoff paths and major tournament draws can move futures."
     }
   ],
   "editor_signals": [
-    "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
-    "What bettors should monitor today"
+    {
+      "key": "editor_signal_1",
+      "title": "Betting Markets",
+      "headline": "Books Wait on Prices as Board Takes Shape",
+      "snapshot": "MOVEMENT: ready",
+      "source": "Global Betting Report",
+      "url": "https://www.actionnetwork.com/odds",
+      "key_data": [
+        "GAME: Live board pending",
+        "MARKET: Moneyline, spread and total markets are ready for live prices.",
+        "LINE / ODDS: Awaiting ODDS_API_KEY feed.",
+        "IMPLIED PROBABILITY: unavailable until a moneyline posts.",
+        "MOVEMENT: unavailable until an opener and current price exist."
+      ],
+      "why_it_matters": "Once prices land, each card turns the number into plain-English context for bettors and fantasy players.",
+      "what_to_watch": "Add ODDS_API_KEY in the environment, then rerun this script to populate live games."
+    },
+    {
+      "key": "editor_signal_2",
+      "title": "Weather Impact",
+      "headline": "MLB totals get sharper once wind and rain risk enter the board",
+      "snapshot": "MOVEMENT: not applicable",
+      "source": "OddsTrader weather reference",
+      "url": "https://www.oddstrader.com/mlb/weather/",
+      "key_data": [
+        "GAME: MLB weather board",
+        "MARKET: Baseball totals and live-betting volatility.",
+        "LINE / ODDS: Weather can push totals before first pitch.",
+        "IMPLIED PROBABILITY: not applicable to weather-only cards.",
+        "MOVEMENT: wind and rain can force total movement."
+      ],
+      "why_it_matters": "Weather is one of the clearest context layers that separates useful betting analysis from a raw odds board.",
+      "what_to_watch": "Wind, temperature, precipitation and park shape can move baseball totals before first pitch."
+    },
+    {
+      "key": "editor_signal_3",
+      "title": "Futures Watch",
+      "headline": "Futures Board Moves With Roster News",
+      "snapshot": "MOVEMENT: futures board ready",
+      "source": "Global Betting Report",
+      "url": "https://www.covers.com/sports",
+      "key_data": [
+        "GAME: Futures board",
+        "MARKET: NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures.",
+        "LINE / ODDS: Long-range prices change after roster, schedule and injury news.",
+        "IMPLIED PROBABILITY: compare futures prices before and after major news.",
+        "MOVEMENT: shortening prices show growing support; drifting prices show resistance."
+      ],
+      "why_it_matters": "Betting readers often track markets before games are near. Keeping futures alive gives the site year-round value.",
+      "what_to_watch": "Schedule releases, injuries, coaching changes, transfers, trades, playoff paths and major tournament draws can move futures."
+    }
   ],
   "sections": [
     {
-      "title": "Market Watch",
-      "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
-      "snapshot": "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored for betting-market movement.",
-      "key_data": [
-        "Market board is active across available leagues."
-      ],
-      "what_the_odds_mean": [
-        "Line movement matters most when it connects to injuries, weather, roster news, or sportsbook adjustment."
-      ],
-      "what_to_watch": [
-        "Track favorites getting more expensive or underdogs drawing late money.",
-        "Watch totals in weather-sensitive games.",
-        "Compare sportsbook movement before treating one number as the full market."
-      ],
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-13 05:18:06 PM ET"
+      "title": "Market Overview",
+      "cards": [
+        "Books Wait on Prices as Board Takes Shape | MARKET: Moneyline, spread and total markets are ready for live prices. | IMPLIED PROBABILITY: unavailable until a moneyline posts. | MOVEMENT: ready",
+        "MLB totals get sharper once wind and rain risk enter the board | MARKET: Baseball totals and live-betting volatility. | IMPLIED PROBABILITY: not applicable to weather-only cards. | MOVEMENT: not applicable",
+        "Futures Board Moves With Roster News | MARKET: NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures. | IMPLIED PROBABILITY: compare futures prices before and after major news. | MOVEMENT: futures board ready"
+      ]
     },
     {
-      "title": "Betting Context",
-      "headline": "What bettors should monitor today",
-      "snapshot": "Track line movement, injury news, starting lineup changes, pitching confirmations, weather, rest advantages, and late market steam before making any betting decision.",
-      "key_data": [
-        "Betting context requires line movement plus supporting news."
-      ],
-      "what_the_odds_mean": [
-        "A number alone is not a recommendation. Context explains why the market may be moving."
-      ],
-      "what_to_watch": [
-        "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
-      ],
-      "source": "GSR betting desk",
-      "updated_at": "2026-05-13 05:18:06 PM ET"
+      "title": "Line Movement Signals",
+      "cards": [
+        "Market board - MOVEMENT: ready",
+        "MLB weather board - MOVEMENT: not applicable",
+        "Long-range market board - MOVEMENT: futures board ready"
+      ]
+    },
+    {
+      "title": "Game Breakdowns",
+      "cards": [
+        {
+          "league": "Betting Markets",
+          "title": "Books Wait on Prices as Board Takes Shape",
+          "headline": "Books Wait on Prices as Board Takes Shape",
+          "matchup": "Market board",
+          "source": "Global Betting Report",
+          "url": "https://www.actionnetwork.com/odds",
+          "key_data": [
+            "GAME: Live board pending",
+            "MARKET: Moneyline, spread and total markets are ready for live prices.",
+            "LINE / ODDS: Awaiting ODDS_API_KEY feed.",
+            "IMPLIED PROBABILITY: unavailable until a moneyline posts.",
+            "MOVEMENT: unavailable until an opener and current price exist."
+          ],
+          "why_it_matters": "Once prices land, each card turns the number into plain-English context for bettors and fantasy players.",
+          "what_to_watch": "Add ODDS_API_KEY in the environment, then rerun this script to populate live games.",
+          "line_movement": "MOVEMENT: ready",
+          "weather": null,
+          "commence_time": null
+        },
+        {
+          "league": "Weather Impact",
+          "title": "MLB totals get sharper once wind and rain risk enter the board",
+          "headline": "MLB totals get sharper once wind and rain risk enter the board",
+          "matchup": "MLB weather board",
+          "source": "OddsTrader weather reference",
+          "url": "https://www.oddstrader.com/mlb/weather/",
+          "key_data": [
+            "GAME: MLB weather board",
+            "MARKET: Baseball totals and live-betting volatility.",
+            "LINE / ODDS: Weather can push totals before first pitch.",
+            "IMPLIED PROBABILITY: not applicable to weather-only cards.",
+            "MOVEMENT: wind and rain can force total movement."
+          ],
+          "why_it_matters": "Weather is one of the clearest context layers that separates useful betting analysis from a raw odds board.",
+          "what_to_watch": "Wind, temperature, precipitation and park shape can move baseball totals before first pitch.",
+          "line_movement": "MOVEMENT: not applicable",
+          "weather": {
+            "summary": "MLB weather layer active",
+            "impact": "Weather context will attach to MLB matchup cards."
+          },
+          "commence_time": null
+        },
+        {
+          "league": "Futures Watch",
+          "title": "Futures Board Moves With Roster News",
+          "headline": "Futures Board Moves With Roster News",
+          "matchup": "Long-range market board",
+          "source": "Global Betting Report",
+          "url": "https://www.covers.com/sports",
+          "key_data": [
+            "GAME: Futures board",
+            "MARKET: NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures.",
+            "LINE / ODDS: Long-range prices change after roster, schedule and injury news.",
+            "IMPLIED PROBABILITY: compare futures prices before and after major news.",
+            "MOVEMENT: shortening prices show growing support; drifting prices show resistance."
+          ],
+          "why_it_matters": "Betting readers often track markets before games are near. Keeping futures alive gives the site year-round value.",
+          "what_to_watch": "Schedule releases, injuries, coaching changes, transfers, trades, playoff paths and major tournament draws can move futures.",
+          "line_movement": "MOVEMENT: futures board ready",
+          "weather": null,
+          "commence_time": null
+        }
+      ]
+    },
+    {
+      "title": "Weather Impact",
+      "cards": [
+        {
+          "title": "Weather forecast board",
+          "headline": "Weather forecast board",
+          "source": "OddsTrader weather reference",
+          "url": "https://www.oddstrader.com/mlb/weather/",
+          "key_data": [
+            "Weather layer is ready for MLB betting context.",
+            "Wind, temperature, and rain risk should be surfaced before first pitch.",
+            "This section should explain how weather may affect totals, pitching, and live markets."
+          ],
+          "why_it_matters": "Weather gives Global Betting Report a practical edge beyond basic odds display.",
+          "what_to_watch": "Wire in structured weather data after the core odds engine is stable."
+        }
+      ]
+    },
+    {
+      "title": "Futures Watch",
+      "cards": [
+        "College Football Futures: Keep the board visible year-round because bettors track long-range prices months before kickoff.",
+        "NFL Futures: Watch schedule strength, quarterback health, roster movement and divisional prices.",
+        "NBA Futures: Track playoff paths, injury news, rest patterns and championship price movement.",
+        "NHL Futures: Watch goalie health, playoff seeding, travel spots and market adjustment.",
+        "Soccer Futures: Track title races, promotion/relegation pressure, tournament paths and transfer-window movement.",
+        "Tennis/Golf Futures: Draws, form, surface, course fit and injury news can reshape prices quickly."
+      ]
+    },
+    {
+      "title": "Late Market Checks",
+      "cards": [
+        "Market board - Add ODDS_API_KEY in the environment, then rerun this script to populate live games.",
+        "MLB weather board - Wind, temperature, precipitation and park shape can move baseball totals before first pitch.",
+        "Long-range market board - Schedule releases, injuries, coaching changes, transfers, trades, playoff paths and major tournament draws can move futures."
+      ]
+    },
+    {
+      "title": "Betting Toolkit",
+      "cards": [
+        "OddsTrader - betting odds, weather, line context, and matchup boards.",
+        "OddsTrader MLB Weather - wind, temperature and precipitation context for baseball totals.",
+        "The Odds API - structured odds feed for moneylines, spreads, and totals.",
+        "Action Network - market movement, betting splits, and injury context.",
+        "Covers - matchup pages, odds screens, and trend context.",
+        "Sportsbook Review - odds comparison and betting market coverage."
+      ]
     }
-  ]
+  ],
+  "homepage_cards": [
+    {
+      "league": "Betting Markets",
+      "headline": "Books Wait on Prices as Board Takes Shape",
+      "url": "https://www.actionnetwork.com/odds",
+      "matchup": "Market board",
+      "market_context": "",
+      "implied_probability": "",
+      "line_movement": "MOVEMENT: ready",
+      "key_data": [
+        "GAME: Live board pending",
+        "MARKET: Moneyline, spread and total markets are ready for live prices.",
+        "LINE / ODDS: Awaiting ODDS_API_KEY feed.",
+        "IMPLIED PROBABILITY: unavailable until a moneyline posts.",
+        "MOVEMENT: unavailable until an opener and current price exist."
+      ],
+      "why_it_matters": "Once prices land, each card turns the number into plain-English context for bettors and fantasy players.",
+      "what_to_watch": "Add ODDS_API_KEY in the environment, then rerun this script to populate live games."
+    },
+    {
+      "league": "Weather Impact",
+      "headline": "MLB totals get sharper once wind and rain risk enter the board",
+      "url": "https://www.oddstrader.com/mlb/weather/",
+      "matchup": "MLB weather board",
+      "market_context": "",
+      "implied_probability": "",
+      "line_movement": "MOVEMENT: not applicable",
+      "key_data": [
+        "GAME: MLB weather board",
+        "MARKET: Baseball totals and live-betting volatility.",
+        "LINE / ODDS: Weather can push totals before first pitch.",
+        "IMPLIED PROBABILITY: not applicable to weather-only cards.",
+        "MOVEMENT: wind and rain can force total movement."
+      ],
+      "why_it_matters": "Weather is one of the clearest context layers that separates useful betting analysis from a raw odds board.",
+      "what_to_watch": "Wind, temperature, precipitation and park shape can move baseball totals before first pitch."
+    },
+    {
+      "league": "Futures Watch",
+      "headline": "Futures Board Moves With Roster News",
+      "url": "https://www.covers.com/sports",
+      "matchup": "Long-range market board",
+      "market_context": "",
+      "implied_probability": "",
+      "line_movement": "MOVEMENT: futures board ready",
+      "key_data": [
+        "GAME: Futures board",
+        "MARKET: NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures.",
+        "LINE / ODDS: Long-range prices change after roster, schedule and injury news.",
+        "IMPLIED PROBABILITY: compare futures prices before and after major news.",
+        "MOVEMENT: shortening prices show growing support; drifting prices show resistance."
+      ],
+      "why_it_matters": "Betting readers often track markets before games are near. Keeping futures alive gives the site year-round value.",
+      "what_to_watch": "Schedule releases, injuries, coaching changes, transfers, trades, playoff paths and major tournament draws can move futures."
+    }
+  ],
+  "editorial_standard": {
+    "label": "GSR Network Editorial Standard",
+    "text": "No gambling advice or picks. Prices, injuries, lineups, weather and fantasy usage are organized for human betting context."
+  }
 }
