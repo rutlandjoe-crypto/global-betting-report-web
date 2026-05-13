@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Across the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-13 10:10:11 AM ET",
-  "generated_at": "2026-05-13 10:10:11 AM ET",
-  "generated_utc": "2026-05-13T14:10:11.228634+00:00",
+  "updated_at": "2026-05-13 01:08:48 PM ET",
+  "generated_at": "2026-05-13 01:08:48 PM ET",
+  "generated_utc": "2026-05-13T17:08:48.243346+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -106,7 +106,7 @@
         "Compare sportsbook movement before treating one number as the full market."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-13 10:10:11 AM ET"
+      "updated_at": "2026-05-13 01:08:48 PM ET"
     },
     {
       "title": "Betting Context",
@@ -122,7 +122,7 @@
         "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
       ],
       "source": "GSR betting desk",
-      "updated_at": "2026-05-13 10:10:11 AM ET"
+      "updated_at": "2026-05-13 01:08:48 PM ET"
     }
   ]
 }
