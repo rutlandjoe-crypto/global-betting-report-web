@@ -224,8 +224,8 @@ def format_point(val) -> str:
 # =========================================================
 def build_lede() -> str:
     return (
-        "Across the betting landscape, attention turns to the board, where moneylines, "
-        "spreads, and totals help frame the day's market outlook."
+        "Books wait on prices as the board takes shape, with moneylines, "
+        "spreads, totals and late market movement giving bettors the first real read."
     )
 
 
