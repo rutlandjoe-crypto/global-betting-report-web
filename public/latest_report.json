@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Books wait on prices as the board takes shape, with moneylines, spreads, totals and late market movement giving bettors the first real read.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-05-14 02:49:23 PM ET",
-  "generated_at": "2026-05-14 02:49:23 PM ET",
-  "generated_utc": "2026-05-14T18:49:23.822312+00:00",
+  "updated_at": "2026-05-14 04:23:58 PM ET",
+  "generated_at": "2026-05-14 04:23:58 PM ET",
+  "generated_utc": "2026-05-14T20:23:58.457004+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -106,7 +106,7 @@
         "Compare sportsbook movement before treating one number as the full market."
       ],
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-05-14 02:49:23 PM ET"
+      "updated_at": "2026-05-14 04:23:58 PM ET"
     },
     {
       "title": "Betting Context",
@@ -122,7 +122,7 @@
         "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
       ],
       "source": "GSR betting desk",
-      "updated_at": "2026-05-14 02:49:23 PM ET"
+      "updated_at": "2026-05-14 04:23:58 PM ET"
     }
   ]
 }
