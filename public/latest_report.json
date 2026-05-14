@@ -6,9 +6,9 @@
   "tagline": "Built for journalists, by a journalist.",
   "headline": "MLB Moneylines Need Lineup Check",
   "snapshot": "Fast odds context for moneylines, spreads, totals, implied probability, fantasy angles, weather and late price movement.",
-  "updated_at": "2026-05-14 04:26 PM ET",
-  "generated_at": "2026-05-14 04:26 PM ET",
-  "generated_utc": "2026-05-14T20:26:19.512028+00:00",
+  "updated_at": "2026-05-14 04:42 PM ET",
+  "generated_at": "2026-05-14 04:42 PM ET",
+  "generated_utc": "2026-05-14T20:42:51.881233+00:00",
   "source_mode": "odds-market interpretation engine with line movement, futures watch, weather context, and newsroom-ready betting explanation",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "",
@@ -68,13 +68,26 @@
       "url": "https://www.actionnetwork.com/odds",
       "key_data": [
         "GAME: Market board",
-        "MARKET: moneyline, spread and total markets",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Moneylines, spreads and totals",
+        "LINE / ODDS: Live odds feed unavailable; check current board",
+        "IMPLIED PROBABILITY: Unavailable until moneylines post",
+        "MOVEMENT: Watch opener versus current number"
       ],
       "why_it_matters": "When live prices are unavailable, the site still needs a useful market frame instead of a thin board.",
-      "what_to_watch": "Watch for odds feed recovery, late injury news, lineup updates and market movement."
+      "what_to_watch": "Watch for odds feed recovery, late injury news, lineup updates and market movement.",
+      "matchup": "Market board",
+      "game": "Market board",
+      "market_context": "Moneylines, spreads and totals",
+      "market": "Moneylines, spreads and totals",
+      "line_odds": "Live odds feed unavailable; check current board",
+      "implied_probability": "Unavailable until moneylines post",
+      "line_movement": "Watch opener versus current number",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "key": "betting_market_2",
@@ -85,13 +98,26 @@
       "url": "https://www.actionnetwork.com/mlb/odds",
       "key_data": [
         "GAME: MLB board",
-        "MARKET: moneyline, run line and total context",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Moneyline, run line and total",
+        "LINE / ODDS: Check current MLB board before publication",
+        "IMPLIED PROBABILITY: Compare posted moneyline to implied chance",
+        "MOVEMENT: Lineups, starters, bullpens and weather can move the number"
       ],
       "why_it_matters": "Baseball prices can move quickly after lineups, starting pitchers, bullpen availability and weather become clearer.",
-      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement."
+      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
+      "matchup": "MLB board",
+      "game": "MLB board",
+      "market_context": "Moneyline, run line and total",
+      "market": "Moneyline, run line and total",
+      "line_odds": "Check current MLB board before publication",
+      "implied_probability": "Compare posted moneyline to implied chance",
+      "line_movement": "Lineups, starters, bullpens and weather can move the number",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "key": "betting_market_3",
@@ -102,13 +128,26 @@
       "url": "https://www.actionnetwork.com/nba/odds",
       "key_data": [
         "GAME: NBA board",
-        "MARKET: moneyline, spread and total context",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Moneyline, spread and total",
+        "LINE / ODDS: Check current NBA board before publication",
+        "IMPLIED PROBABILITY: Compare moneyline price to win chance",
+        "MOVEMENT: Injury reports and rotation news can reshape the spread"
       ],
       "why_it_matters": "Basketball markets often change when injury reports, rotations and rest situations update before tipoff.",
-      "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement."
+      "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement.",
+      "matchup": "NBA board",
+      "game": "NBA board",
+      "market_context": "Moneyline, spread and total",
+      "market": "Moneyline, spread and total",
+      "line_odds": "Check current NBA board before publication",
+      "implied_probability": "Compare moneyline price to win chance",
+      "line_movement": "Injury reports and rotation news can reshape the spread",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "key": "betting_market_4",
@@ -119,13 +158,26 @@
       "url": "https://www.actionnetwork.com/nhl/odds",
       "key_data": [
         "GAME: NHL board",
-        "MARKET: moneyline, puck line and total context",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Moneyline, puck line and total",
+        "LINE / ODDS: Check current NHL board before publication",
+        "IMPLIED PROBABILITY: Compare goalie news to moneyline price",
+        "MOVEMENT: Confirmed goalies can move totals and sides"
       ],
       "why_it_matters": "Hockey prices depend heavily on confirmed goalies, special teams, travel spots and late injury news.",
-      "what_to_watch": "Track goalie confirmation, back-to-backs, special teams, injuries and late total movement."
+      "what_to_watch": "Track goalie confirmation, back-to-backs, special teams, injuries and late total movement.",
+      "matchup": "NHL board",
+      "game": "NHL board",
+      "market_context": "Moneyline, puck line and total",
+      "market": "Moneyline, puck line and total",
+      "line_odds": "Check current NHL board before publication",
+      "implied_probability": "Compare goalie news to moneyline price",
+      "line_movement": "Confirmed goalies can move totals and sides",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "key": "betting_market_5",
@@ -136,13 +188,26 @@
       "url": "https://www.actionnetwork.com/nfl/odds",
       "key_data": [
         "GAME: NFL board",
-        "MARKET: futures, win totals, spreads and game prices",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Futures, win totals, spreads and game prices",
+        "LINE / ODDS: Check current NFL board before publication",
+        "IMPLIED PROBABILITY: Compare futures price to season outlook",
+        "MOVEMENT: Quarterback, injury and roster news can move the board"
       ],
       "why_it_matters": "Football markets stay active around schedule news, quarterback depth, injuries, win totals and futures positioning.",
-      "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement."
+      "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.",
+      "matchup": "NFL board",
+      "game": "NFL board",
+      "market_context": "Futures, win totals, spreads and game prices",
+      "market": "Futures, win totals, spreads and game prices",
+      "line_odds": "Check current NFL board before publication",
+      "implied_probability": "Compare futures price to season outlook",
+      "line_movement": "Quarterback, injury and roster news can move the board",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "key": "betting_market_6",
@@ -153,13 +218,26 @@
       "url": "https://www.actionnetwork.com/ncaaf/odds",
       "key_data": [
         "GAME: College football board",
-        "MARKET: futures, win totals and game prices",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Futures, win totals and game prices",
+        "LINE / ODDS: Check current college football board before publication",
+        "IMPLIED PROBABILITY: Compare futures price to roster outlook",
+        "MOVEMENT: Transfers and quarterback battles can move prices"
       ],
       "why_it_matters": "College football prices move around transfers, quarterback battles, coaching changes and schedule strength.",
-      "what_to_watch": "Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength."
+      "what_to_watch": "Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength.",
+      "matchup": "College football board",
+      "game": "College football board",
+      "market_context": "Futures, win totals and game prices",
+      "market": "Futures, win totals and game prices",
+      "line_odds": "Check current college football board before publication",
+      "implied_probability": "Compare futures price to roster outlook",
+      "line_movement": "Transfers and quarterback battles can move prices",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "key": "betting_market_7",
@@ -170,13 +248,26 @@
       "url": "https://www.oddstrader.com/mlb/weather/",
       "key_data": [
         "GAME: MLB weather board",
-        "MARKET: baseball totals and live-betting volatility",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Baseball totals and live-betting volatility",
+        "LINE / ODDS: Weather can move totals before first pitch",
+        "IMPLIED PROBABILITY: Not applicable to weather-only cards",
+        "MOVEMENT: Wind and rain can force total movement"
       ],
       "why_it_matters": "Wind, rain, temperature and park shape can change baseball totals before first pitch.",
-      "what_to_watch": "Track wind direction, temperature, precipitation, roof status and park-specific run environment."
+      "what_to_watch": "Track wind direction, temperature, precipitation, roof status and park-specific run environment.",
+      "matchup": "MLB weather board",
+      "game": "MLB weather board",
+      "market_context": "Baseball totals and live-betting volatility",
+      "market": "Baseball totals and live-betting volatility",
+      "line_odds": "Weather can move totals before first pitch",
+      "implied_probability": "Not applicable to weather-only cards",
+      "line_movement": "Wind and rain can force total movement",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "key": "betting_market_8",
@@ -188,12 +279,25 @@
       "key_data": [
         "GAME: Long-range market board",
         "MARKET: NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "LINE / ODDS: Futures prices change after roster, schedule and injury news",
+        "IMPLIED PROBABILITY: Compare futures prices before and after major news",
+        "MOVEMENT: Shortening prices show support; drifting prices show resistance"
       ],
       "why_it_matters": "Long-range markets can move after injuries, trades, schedule releases and playoff-path changes.",
-      "what_to_watch": "Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws."
+      "what_to_watch": "Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws.",
+      "matchup": "Long-range market board",
+      "game": "Long-range market board",
+      "market_context": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
+      "market": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
+      "line_odds": "Futures prices change after roster, schedule and injury news",
+      "implied_probability": "Compare futures prices before and after major news",
+      "line_movement": "Shortening prices show support; drifting prices show resistance",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     }
   ],
   "editor_signals": [
@@ -206,13 +310,26 @@
       "url": "https://www.actionnetwork.com/odds",
       "key_data": [
         "GAME: Market board",
-        "MARKET: moneyline, spread and total markets",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Moneylines, spreads and totals",
+        "LINE / ODDS: Live odds feed unavailable; check current board",
+        "IMPLIED PROBABILITY: Unavailable until moneylines post",
+        "MOVEMENT: Watch opener versus current number"
       ],
       "why_it_matters": "When live prices are unavailable, the site still needs a useful market frame instead of a thin board.",
-      "what_to_watch": "Watch for odds feed recovery, late injury news, lineup updates and market movement."
+      "what_to_watch": "Watch for odds feed recovery, late injury news, lineup updates and market movement.",
+      "matchup": "Market board",
+      "game": "Market board",
+      "market_context": "Moneylines, spreads and totals",
+      "market": "Moneylines, spreads and totals",
+      "line_odds": "Live odds feed unavailable; check current board",
+      "implied_probability": "Unavailable until moneylines post",
+      "line_movement": "Watch opener versus current number",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "key": "editor_signal_2",
@@ -223,13 +340,26 @@
       "url": "https://www.actionnetwork.com/mlb/odds",
       "key_data": [
         "GAME: MLB board",
-        "MARKET: moneyline, run line and total context",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Moneyline, run line and total",
+        "LINE / ODDS: Check current MLB board before publication",
+        "IMPLIED PROBABILITY: Compare posted moneyline to implied chance",
+        "MOVEMENT: Lineups, starters, bullpens and weather can move the number"
       ],
       "why_it_matters": "Baseball prices can move quickly after lineups, starting pitchers, bullpen availability and weather become clearer.",
-      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement."
+      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
+      "matchup": "MLB board",
+      "game": "MLB board",
+      "market_context": "Moneyline, run line and total",
+      "market": "Moneyline, run line and total",
+      "line_odds": "Check current MLB board before publication",
+      "implied_probability": "Compare posted moneyline to implied chance",
+      "line_movement": "Lineups, starters, bullpens and weather can move the number",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "key": "editor_signal_3",
@@ -240,13 +370,26 @@
       "url": "https://www.actionnetwork.com/nba/odds",
       "key_data": [
         "GAME: NBA board",
-        "MARKET: moneyline, spread and total context",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Moneyline, spread and total",
+        "LINE / ODDS: Check current NBA board before publication",
+        "IMPLIED PROBABILITY: Compare moneyline price to win chance",
+        "MOVEMENT: Injury reports and rotation news can reshape the spread"
       ],
       "why_it_matters": "Basketball markets often change when injury reports, rotations and rest situations update before tipoff.",
-      "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement."
+      "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement.",
+      "matchup": "NBA board",
+      "game": "NBA board",
+      "market_context": "Moneyline, spread and total",
+      "market": "Moneyline, spread and total",
+      "line_odds": "Check current NBA board before publication",
+      "implied_probability": "Compare moneyline price to win chance",
+      "line_movement": "Injury reports and rotation news can reshape the spread",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "key": "editor_signal_4",
@@ -257,13 +400,26 @@
       "url": "https://www.actionnetwork.com/nhl/odds",
       "key_data": [
         "GAME: NHL board",
-        "MARKET: moneyline, puck line and total context",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Moneyline, puck line and total",
+        "LINE / ODDS: Check current NHL board before publication",
+        "IMPLIED PROBABILITY: Compare goalie news to moneyline price",
+        "MOVEMENT: Confirmed goalies can move totals and sides"
       ],
       "why_it_matters": "Hockey prices depend heavily on confirmed goalies, special teams, travel spots and late injury news.",
-      "what_to_watch": "Track goalie confirmation, back-to-backs, special teams, injuries and late total movement."
+      "what_to_watch": "Track goalie confirmation, back-to-backs, special teams, injuries and late total movement.",
+      "matchup": "NHL board",
+      "game": "NHL board",
+      "market_context": "Moneyline, puck line and total",
+      "market": "Moneyline, puck line and total",
+      "line_odds": "Check current NHL board before publication",
+      "implied_probability": "Compare goalie news to moneyline price",
+      "line_movement": "Confirmed goalies can move totals and sides",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "key": "editor_signal_5",
@@ -274,13 +430,26 @@
       "url": "https://www.actionnetwork.com/nfl/odds",
       "key_data": [
         "GAME: NFL board",
-        "MARKET: futures, win totals, spreads and game prices",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Futures, win totals, spreads and game prices",
+        "LINE / ODDS: Check current NFL board before publication",
+        "IMPLIED PROBABILITY: Compare futures price to season outlook",
+        "MOVEMENT: Quarterback, injury and roster news can move the board"
       ],
       "why_it_matters": "Football markets stay active around schedule news, quarterback depth, injuries, win totals and futures positioning.",
-      "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement."
+      "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.",
+      "matchup": "NFL board",
+      "game": "NFL board",
+      "market_context": "Futures, win totals, spreads and game prices",
+      "market": "Futures, win totals, spreads and game prices",
+      "line_odds": "Check current NFL board before publication",
+      "implied_probability": "Compare futures price to season outlook",
+      "line_movement": "Quarterback, injury and roster news can move the board",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "key": "editor_signal_6",
@@ -291,13 +460,26 @@
       "url": "https://www.actionnetwork.com/ncaaf/odds",
       "key_data": [
         "GAME: College football board",
-        "MARKET: futures, win totals and game prices",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Futures, win totals and game prices",
+        "LINE / ODDS: Check current college football board before publication",
+        "IMPLIED PROBABILITY: Compare futures price to roster outlook",
+        "MOVEMENT: Transfers and quarterback battles can move prices"
       ],
       "why_it_matters": "College football prices move around transfers, quarterback battles, coaching changes and schedule strength.",
-      "what_to_watch": "Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength."
+      "what_to_watch": "Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength.",
+      "matchup": "College football board",
+      "game": "College football board",
+      "market_context": "Futures, win totals and game prices",
+      "market": "Futures, win totals and game prices",
+      "line_odds": "Check current college football board before publication",
+      "implied_probability": "Compare futures price to roster outlook",
+      "line_movement": "Transfers and quarterback battles can move prices",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     }
   ],
   "sections": [
@@ -339,20 +521,27 @@
           "url": "https://www.actionnetwork.com/odds",
           "key_data": [
             "GAME: Market board",
-            "MARKET: moneyline, spread and total markets",
-            "LINE / ODDS: check current board before publication",
-            "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-            "MOVEMENT: watch opener versus current number"
+            "MARKET: Moneylines, spreads and totals",
+            "LINE / ODDS: Live odds feed unavailable; check current board",
+            "IMPLIED PROBABILITY: Unavailable until moneylines post",
+            "MOVEMENT: Watch opener versus current number"
           ],
-          "market_context": "moneyline, spread and total markets",
-          "implied_probability": "Check posted moneyline before publication",
-          "market": "moneyline, spread and total markets",
-          "line_odds": "Live board check required",
+          "market_context": "Moneylines, spreads and totals",
+          "implied_probability": "Unavailable until moneylines post",
+          "market": "Moneylines, spreads and totals",
+          "line_odds": "Live odds feed unavailable; check current board",
           "movement_direction": "watching",
           "why_it_matters": "When live prices are unavailable, the site still needs a useful market frame instead of a thin board.",
           "what_to_watch": "Watch for odds feed recovery, late injury news, lineup updates and market movement.",
-          "line_movement": "MOVEMENT: watch opener versus current number",
-          "weather": null
+          "line_movement": "Watch opener versus current number",
+          "weather": null,
+          "game": "Market board",
+          "story_angles": [
+            "Price movement",
+            "Matchup context",
+            "Public perception",
+            "Injury, lineup or weather timing"
+          ]
         },
         {
           "league": "MLB",
@@ -363,20 +552,27 @@
           "url": "https://www.actionnetwork.com/mlb/odds",
           "key_data": [
             "GAME: MLB board",
-            "MARKET: moneyline, run line and total context",
-            "LINE / ODDS: check current board before publication",
-            "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-            "MOVEMENT: watch opener versus current number"
+            "MARKET: Moneyline, run line and total",
+            "LINE / ODDS: Check current MLB board before publication",
+            "IMPLIED PROBABILITY: Compare posted moneyline to implied chance",
+            "MOVEMENT: Lineups, starters, bullpens and weather can move the number"
           ],
-          "market_context": "moneyline, run line and total context",
-          "implied_probability": "Check posted moneyline before publication",
-          "market": "moneyline, run line and total context",
-          "line_odds": "Live board check required",
+          "market_context": "Moneyline, run line and total",
+          "implied_probability": "Compare posted moneyline to implied chance",
+          "market": "Moneyline, run line and total",
+          "line_odds": "Check current MLB board before publication",
           "movement_direction": "watching",
           "why_it_matters": "Baseball prices can move quickly after lineups, starting pitchers, bullpen availability and weather become clearer.",
           "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
-          "line_movement": "MOVEMENT: watch opener versus current number",
-          "weather": null
+          "line_movement": "Lineups, starters, bullpens and weather can move the number",
+          "weather": null,
+          "game": "MLB board",
+          "story_angles": [
+            "Price movement",
+            "Matchup context",
+            "Public perception",
+            "Injury, lineup or weather timing"
+          ]
         },
         {
           "league": "NBA",
@@ -387,20 +583,27 @@
           "url": "https://www.actionnetwork.com/nba/odds",
           "key_data": [
             "GAME: NBA board",
-            "MARKET: moneyline, spread and total context",
-            "LINE / ODDS: check current board before publication",
-            "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-            "MOVEMENT: watch opener versus current number"
+            "MARKET: Moneyline, spread and total",
+            "LINE / ODDS: Check current NBA board before publication",
+            "IMPLIED PROBABILITY: Compare moneyline price to win chance",
+            "MOVEMENT: Injury reports and rotation news can reshape the spread"
           ],
-          "market_context": "moneyline, spread and total context",
-          "implied_probability": "Check posted moneyline before publication",
-          "market": "moneyline, spread and total context",
-          "line_odds": "Live board check required",
+          "market_context": "Moneyline, spread and total",
+          "implied_probability": "Compare moneyline price to win chance",
+          "market": "Moneyline, spread and total",
+          "line_odds": "Check current NBA board before publication",
           "movement_direction": "watching",
           "why_it_matters": "Basketball markets often change when injury reports, rotations and rest situations update before tipoff.",
           "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement.",
-          "line_movement": "MOVEMENT: watch opener versus current number",
-          "weather": null
+          "line_movement": "Injury reports and rotation news can reshape the spread",
+          "weather": null,
+          "game": "NBA board",
+          "story_angles": [
+            "Price movement",
+            "Matchup context",
+            "Public perception",
+            "Injury, lineup or weather timing"
+          ]
         },
         {
           "league": "NHL",
@@ -411,20 +614,27 @@
           "url": "https://www.actionnetwork.com/nhl/odds",
           "key_data": [
             "GAME: NHL board",
-            "MARKET: moneyline, puck line and total context",
-            "LINE / ODDS: check current board before publication",
-            "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-            "MOVEMENT: watch opener versus current number"
+            "MARKET: Moneyline, puck line and total",
+            "LINE / ODDS: Check current NHL board before publication",
+            "IMPLIED PROBABILITY: Compare goalie news to moneyline price",
+            "MOVEMENT: Confirmed goalies can move totals and sides"
           ],
-          "market_context": "moneyline, puck line and total context",
-          "implied_probability": "Check posted moneyline before publication",
-          "market": "moneyline, puck line and total context",
-          "line_odds": "Live board check required",
+          "market_context": "Moneyline, puck line and total",
+          "implied_probability": "Compare goalie news to moneyline price",
+          "market": "Moneyline, puck line and total",
+          "line_odds": "Check current NHL board before publication",
           "movement_direction": "watching",
           "why_it_matters": "Hockey prices depend heavily on confirmed goalies, special teams, travel spots and late injury news.",
           "what_to_watch": "Track goalie confirmation, back-to-backs, special teams, injuries and late total movement.",
-          "line_movement": "MOVEMENT: watch opener versus current number",
-          "weather": null
+          "line_movement": "Confirmed goalies can move totals and sides",
+          "weather": null,
+          "game": "NHL board",
+          "story_angles": [
+            "Price movement",
+            "Matchup context",
+            "Public perception",
+            "Injury, lineup or weather timing"
+          ]
         },
         {
           "league": "NFL",
@@ -435,20 +645,27 @@
           "url": "https://www.actionnetwork.com/nfl/odds",
           "key_data": [
             "GAME: NFL board",
-            "MARKET: futures, win totals, spreads and game prices",
-            "LINE / ODDS: check current board before publication",
-            "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-            "MOVEMENT: watch opener versus current number"
+            "MARKET: Futures, win totals, spreads and game prices",
+            "LINE / ODDS: Check current NFL board before publication",
+            "IMPLIED PROBABILITY: Compare futures price to season outlook",
+            "MOVEMENT: Quarterback, injury and roster news can move the board"
           ],
-          "market_context": "futures, win totals, spreads and game prices",
-          "implied_probability": "Check posted moneyline before publication",
-          "market": "futures, win totals, spreads and game prices",
-          "line_odds": "Live board check required",
+          "market_context": "Futures, win totals, spreads and game prices",
+          "implied_probability": "Compare futures price to season outlook",
+          "market": "Futures, win totals, spreads and game prices",
+          "line_odds": "Check current NFL board before publication",
           "movement_direction": "watching",
           "why_it_matters": "Football markets stay active around schedule news, quarterback depth, injuries, win totals and futures positioning.",
           "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.",
-          "line_movement": "MOVEMENT: watch opener versus current number",
-          "weather": null
+          "line_movement": "Quarterback, injury and roster news can move the board",
+          "weather": null,
+          "game": "NFL board",
+          "story_angles": [
+            "Price movement",
+            "Matchup context",
+            "Public perception",
+            "Injury, lineup or weather timing"
+          ]
         },
         {
           "league": "College Football",
@@ -459,20 +676,27 @@
           "url": "https://www.actionnetwork.com/ncaaf/odds",
           "key_data": [
             "GAME: College football board",
-            "MARKET: futures, win totals and game prices",
-            "LINE / ODDS: check current board before publication",
-            "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-            "MOVEMENT: watch opener versus current number"
+            "MARKET: Futures, win totals and game prices",
+            "LINE / ODDS: Check current college football board before publication",
+            "IMPLIED PROBABILITY: Compare futures price to roster outlook",
+            "MOVEMENT: Transfers and quarterback battles can move prices"
           ],
-          "market_context": "futures, win totals and game prices",
-          "implied_probability": "Check posted moneyline before publication",
-          "market": "futures, win totals and game prices",
-          "line_odds": "Live board check required",
+          "market_context": "Futures, win totals and game prices",
+          "implied_probability": "Compare futures price to roster outlook",
+          "market": "Futures, win totals and game prices",
+          "line_odds": "Check current college football board before publication",
           "movement_direction": "watching",
           "why_it_matters": "College football prices move around transfers, quarterback battles, coaching changes and schedule strength.",
           "what_to_watch": "Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength.",
-          "line_movement": "MOVEMENT: watch opener versus current number",
-          "weather": null
+          "line_movement": "Transfers and quarterback battles can move prices",
+          "weather": null,
+          "game": "College football board",
+          "story_angles": [
+            "Price movement",
+            "Matchup context",
+            "Public perception",
+            "Injury, lineup or weather timing"
+          ]
         },
         {
           "league": "Weather Impact",
@@ -483,20 +707,27 @@
           "url": "https://www.oddstrader.com/mlb/weather/",
           "key_data": [
             "GAME: MLB weather board",
-            "MARKET: baseball totals and live-betting volatility",
-            "LINE / ODDS: check current board before publication",
-            "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-            "MOVEMENT: watch opener versus current number"
+            "MARKET: Baseball totals and live-betting volatility",
+            "LINE / ODDS: Weather can move totals before first pitch",
+            "IMPLIED PROBABILITY: Not applicable to weather-only cards",
+            "MOVEMENT: Wind and rain can force total movement"
           ],
-          "market_context": "baseball totals and live-betting volatility",
-          "implied_probability": "Check posted moneyline before publication",
-          "market": "baseball totals and live-betting volatility",
-          "line_odds": "Live board check required",
+          "market_context": "Baseball totals and live-betting volatility",
+          "implied_probability": "Not applicable to weather-only cards",
+          "market": "Baseball totals and live-betting volatility",
+          "line_odds": "Weather can move totals before first pitch",
           "movement_direction": "watching",
           "why_it_matters": "Wind, rain, temperature and park shape can change baseball totals before first pitch.",
           "what_to_watch": "Track wind direction, temperature, precipitation, roof status and park-specific run environment.",
-          "line_movement": "MOVEMENT: watch opener versus current number",
-          "weather": null
+          "line_movement": "Wind and rain can force total movement",
+          "weather": null,
+          "game": "MLB weather board",
+          "story_angles": [
+            "Price movement",
+            "Matchup context",
+            "Public perception",
+            "Injury, lineup or weather timing"
+          ]
         },
         {
           "league": "Futures Watch",
@@ -508,19 +739,26 @@
           "key_data": [
             "GAME: Long-range market board",
             "MARKET: NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-            "LINE / ODDS: check current board before publication",
-            "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-            "MOVEMENT: watch opener versus current number"
+            "LINE / ODDS: Futures prices change after roster, schedule and injury news",
+            "IMPLIED PROBABILITY: Compare futures prices before and after major news",
+            "MOVEMENT: Shortening prices show support; drifting prices show resistance"
           ],
           "market_context": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-          "implied_probability": "Check posted moneyline before publication",
+          "implied_probability": "Compare futures prices before and after major news",
           "market": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-          "line_odds": "Live board check required",
+          "line_odds": "Futures prices change after roster, schedule and injury news",
           "movement_direction": "watching",
           "why_it_matters": "Long-range markets can move after injuries, trades, schedule releases and playoff-path changes.",
           "what_to_watch": "Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws.",
-          "line_movement": "MOVEMENT: watch opener versus current number",
-          "weather": null
+          "line_movement": "Shortening prices show support; drifting prices show resistance",
+          "weather": null,
+          "game": "Long-range market board",
+          "story_angles": [
+            "Price movement",
+            "Matchup context",
+            "Public perception",
+            "Injury, lineup or weather timing"
+          ]
         }
       ]
     },
@@ -584,126 +822,189 @@
       "headline": "Books Wait on Prices as Board Takes Shape",
       "url": "https://www.actionnetwork.com/odds",
       "matchup": "Market board",
-      "market_context": "moneyline, spread and total markets",
-      "implied_probability": "Check posted moneyline before publication",
-      "line_movement": "MOVEMENT: watch opener versus current number",
+      "market_context": "Moneylines, spreads and totals",
+      "implied_probability": "Unavailable until moneylines post",
+      "line_movement": "Watch opener versus current number",
       "key_data": [
         "GAME: Market board",
-        "MARKET: moneyline, spread and total markets",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Moneylines, spreads and totals",
+        "LINE / ODDS: Live odds feed unavailable; check current board",
+        "IMPLIED PROBABILITY: Unavailable until moneylines post",
+        "MOVEMENT: Watch opener versus current number"
       ],
       "why_it_matters": "When live prices are unavailable, the site still needs a useful market frame instead of a thin board.",
-      "what_to_watch": "Watch for odds feed recovery, late injury news, lineup updates and market movement."
+      "what_to_watch": "Watch for odds feed recovery, late injury news, lineup updates and market movement.",
+      "game": "Market board",
+      "market": "Moneylines, spreads and totals",
+      "line_odds": "Live odds feed unavailable; check current board",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "league": "MLB",
       "headline": "MLB Moneylines Need Lineup Check",
       "url": "https://www.actionnetwork.com/mlb/odds",
       "matchup": "MLB board",
-      "market_context": "moneyline, run line and total context",
-      "implied_probability": "Check posted moneyline before publication",
-      "line_movement": "MOVEMENT: watch opener versus current number",
+      "market_context": "Moneyline, run line and total",
+      "implied_probability": "Compare posted moneyline to implied chance",
+      "line_movement": "Lineups, starters, bullpens and weather can move the number",
       "key_data": [
         "GAME: MLB board",
-        "MARKET: moneyline, run line and total context",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Moneyline, run line and total",
+        "LINE / ODDS: Check current MLB board before publication",
+        "IMPLIED PROBABILITY: Compare posted moneyline to implied chance",
+        "MOVEMENT: Lineups, starters, bullpens and weather can move the number"
       ],
       "why_it_matters": "Baseball prices can move quickly after lineups, starting pitchers, bullpen availability and weather become clearer.",
-      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement."
+      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
+      "game": "MLB board",
+      "market": "Moneyline, run line and total",
+      "line_odds": "Check current MLB board before publication",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "league": "NBA",
       "headline": "NBA Prices Move With Injury News",
       "url": "https://www.actionnetwork.com/nba/odds",
       "matchup": "NBA board",
-      "market_context": "moneyline, spread and total context",
-      "implied_probability": "Check posted moneyline before publication",
-      "line_movement": "MOVEMENT: watch opener versus current number",
+      "market_context": "Moneyline, spread and total",
+      "implied_probability": "Compare moneyline price to win chance",
+      "line_movement": "Injury reports and rotation news can reshape the spread",
       "key_data": [
         "GAME: NBA board",
-        "MARKET: moneyline, spread and total context",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Moneyline, spread and total",
+        "LINE / ODDS: Check current NBA board before publication",
+        "IMPLIED PROBABILITY: Compare moneyline price to win chance",
+        "MOVEMENT: Injury reports and rotation news can reshape the spread"
       ],
       "why_it_matters": "Basketball markets often change when injury reports, rotations and rest situations update before tipoff.",
-      "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement."
+      "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement.",
+      "game": "NBA board",
+      "market": "Moneyline, spread and total",
+      "line_odds": "Check current NBA board before publication",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "league": "NHL",
       "headline": "NHL Totals Need Goalie Confirmation",
       "url": "https://www.actionnetwork.com/nhl/odds",
       "matchup": "NHL board",
-      "market_context": "moneyline, puck line and total context",
-      "implied_probability": "Check posted moneyline before publication",
-      "line_movement": "MOVEMENT: watch opener versus current number",
+      "market_context": "Moneyline, puck line and total",
+      "implied_probability": "Compare goalie news to moneyline price",
+      "line_movement": "Confirmed goalies can move totals and sides",
       "key_data": [
         "GAME: NHL board",
-        "MARKET: moneyline, puck line and total context",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Moneyline, puck line and total",
+        "LINE / ODDS: Check current NHL board before publication",
+        "IMPLIED PROBABILITY: Compare goalie news to moneyline price",
+        "MOVEMENT: Confirmed goalies can move totals and sides"
       ],
       "why_it_matters": "Hockey prices depend heavily on confirmed goalies, special teams, travel spots and late injury news.",
-      "what_to_watch": "Track goalie confirmation, back-to-backs, special teams, injuries and late total movement."
+      "what_to_watch": "Track goalie confirmation, back-to-backs, special teams, injuries and late total movement.",
+      "game": "NHL board",
+      "market": "Moneyline, puck line and total",
+      "line_odds": "Check current NHL board before publication",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "league": "NFL",
       "headline": "NFL Futures Watch Roster Movement",
       "url": "https://www.actionnetwork.com/nfl/odds",
       "matchup": "NFL board",
-      "market_context": "futures, win totals, spreads and game prices",
-      "implied_probability": "Check posted moneyline before publication",
-      "line_movement": "MOVEMENT: watch opener versus current number",
+      "market_context": "Futures, win totals, spreads and game prices",
+      "implied_probability": "Compare futures price to season outlook",
+      "line_movement": "Quarterback, injury and roster news can move the board",
       "key_data": [
         "GAME: NFL board",
-        "MARKET: futures, win totals, spreads and game prices",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Futures, win totals, spreads and game prices",
+        "LINE / ODDS: Check current NFL board before publication",
+        "IMPLIED PROBABILITY: Compare futures price to season outlook",
+        "MOVEMENT: Quarterback, injury and roster news can move the board"
       ],
       "why_it_matters": "Football markets stay active around schedule news, quarterback depth, injuries, win totals and futures positioning.",
-      "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement."
+      "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.",
+      "game": "NFL board",
+      "market": "Futures, win totals, spreads and game prices",
+      "line_odds": "Check current NFL board before publication",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "league": "College Football",
       "headline": "College Football Futures Track Transfers",
       "url": "https://www.actionnetwork.com/ncaaf/odds",
       "matchup": "College football board",
-      "market_context": "futures, win totals and game prices",
-      "implied_probability": "Check posted moneyline before publication",
-      "line_movement": "MOVEMENT: watch opener versus current number",
+      "market_context": "Futures, win totals and game prices",
+      "implied_probability": "Compare futures price to roster outlook",
+      "line_movement": "Transfers and quarterback battles can move prices",
       "key_data": [
         "GAME: College football board",
-        "MARKET: futures, win totals and game prices",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Futures, win totals and game prices",
+        "LINE / ODDS: Check current college football board before publication",
+        "IMPLIED PROBABILITY: Compare futures price to roster outlook",
+        "MOVEMENT: Transfers and quarterback battles can move prices"
       ],
       "why_it_matters": "College football prices move around transfers, quarterback battles, coaching changes and schedule strength.",
-      "what_to_watch": "Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength."
+      "what_to_watch": "Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength.",
+      "game": "College football board",
+      "market": "Futures, win totals and game prices",
+      "line_odds": "Check current college football board before publication",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "league": "Weather Impact",
       "headline": "MLB Totals Need Weather Check",
       "url": "https://www.oddstrader.com/mlb/weather/",
       "matchup": "MLB weather board",
-      "market_context": "baseball totals and live-betting volatility",
-      "implied_probability": "Check posted moneyline before publication",
-      "line_movement": "MOVEMENT: watch opener versus current number",
+      "market_context": "Baseball totals and live-betting volatility",
+      "implied_probability": "Not applicable to weather-only cards",
+      "line_movement": "Wind and rain can force total movement",
       "key_data": [
         "GAME: MLB weather board",
-        "MARKET: baseball totals and live-betting volatility",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "MARKET: Baseball totals and live-betting volatility",
+        "LINE / ODDS: Weather can move totals before first pitch",
+        "IMPLIED PROBABILITY: Not applicable to weather-only cards",
+        "MOVEMENT: Wind and rain can force total movement"
       ],
       "why_it_matters": "Wind, rain, temperature and park shape can change baseball totals before first pitch.",
-      "what_to_watch": "Track wind direction, temperature, precipitation, roof status and park-specific run environment."
+      "what_to_watch": "Track wind direction, temperature, precipitation, roof status and park-specific run environment.",
+      "game": "MLB weather board",
+      "market": "Baseball totals and live-betting volatility",
+      "line_odds": "Weather can move totals before first pitch",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     },
     {
       "league": "Futures Watch",
@@ -711,17 +1012,26 @@
       "url": "https://www.covers.com/sports",
       "matchup": "Long-range market board",
       "market_context": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-      "implied_probability": "Check posted moneyline before publication",
-      "line_movement": "MOVEMENT: watch opener versus current number",
+      "implied_probability": "Compare futures prices before and after major news",
+      "line_movement": "Shortening prices show support; drifting prices show resistance",
       "key_data": [
         "GAME: Long-range market board",
         "MARKET: NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-        "LINE / ODDS: check current board before publication",
-        "IMPLIED PROBABILITY: compare posted moneyline to implied chance when available",
-        "MOVEMENT: watch opener versus current number"
+        "LINE / ODDS: Futures prices change after roster, schedule and injury news",
+        "IMPLIED PROBABILITY: Compare futures prices before and after major news",
+        "MOVEMENT: Shortening prices show support; drifting prices show resistance"
       ],
       "why_it_matters": "Long-range markets can move after injuries, trades, schedule releases and playoff-path changes.",
-      "what_to_watch": "Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws."
+      "what_to_watch": "Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws.",
+      "game": "Long-range market board",
+      "market": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
+      "line_odds": "Futures prices change after roster, schedule and injury news",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
     }
   ],
   "editorial_standard": {
