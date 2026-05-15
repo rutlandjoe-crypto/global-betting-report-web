@@ -1,0 +1,162 @@
+﻿name: Global Betting Agent Hourly Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: global-betting-agent-hourly
+  cancel-in-progress: true
+
+jobs:
+  betting-agent:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Betting site
+        uses: actions/checkout@v4
+        with:
+          path: betting-site
+
+      - name: Checkout GSR content engine
+        uses: actions/checkout@v4
+        with:
+          repository: rutlandjoe-crypto/sports_bot-ai
+          path: engine
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests python-dotenv feedparser beautifulsoup4
+
+      - name: Generate fresh Betting report
+        working-directory: engine
+        shell: pwsh
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          GSR_DISABLE_SOCIAL_POSTS: "1"
+          DISTRIBUTION_DISABLE_POSTS: "1"
+          PYTHONUNBUFFERED: "1"
+        run: |
+          if (-not (Test-Path "betting_report.py")) {
+            throw "betting_report.py not found in engine repo."
+          }
+
+          python betting_report.py
+
+      - name: Copy Betting report into site
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force betting-site/public | Out-Null
+
+          $candidates = @(
+            "engine/latest_betting_report.json",
+            "engine/latest_report.json",
+            "engine/public/latest_report.json"
+          )
+
+          $source = $candidates | Where-Object { Test-Path $_ } | Select-Object -First 1
+
+          if (-not $source) {
+            throw "No generated Betting JSON found."
+          }
+
+          Copy-Item $source betting-site/public/latest_report.json -Force
+          Copy-Item $source betting-site/latest_report.json -Force
+
+          Write-Host "Copied Betting report from $source"
+
+      - name: Validate Betting Agent output
+        shell: pwsh
+        run: |
+          $script = @'
+          import json
+          import sys
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          path = "betting-site/public/latest_report.json"
+
+          with open(path, "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          site = str(data.get("site") or data.get("site_name") or data.get("title") or "")
+          if "Betting" not in site:
+              raise SystemExit("Report does not identify as Betting.")
+
+          updated = str(data.get("updated_at") or data.get("generated_at") or "").strip()
+          if not updated:
+              raise SystemExit("Missing updated_at/generated_at timestamp.")
+
+          formats = [
+              "%Y-%m-%d %I:%M:%S %p ET",
+              "%Y-%m-%d %I:%M %p ET",
+              "%Y-%m-%d %H:%M:%S",
+              "%Y-%m-%d %H:%M",
+          ]
+
+          parsed = None
+          for fmt in formats:
+              try:
+                  parsed = datetime.strptime(updated, fmt)
+                  break
+              except ValueError:
+                  pass
+
+          if parsed is None:
+              raise SystemExit(f"Could not parse Betting timestamp: {updated}")
+
+          eastern = ZoneInfo("America/New_York")
+          if parsed.tzinfo is None:
+              parsed = parsed.replace(tzinfo=eastern)
+
+          now = datetime.now(eastern)
+          age_hours = (now - parsed).total_seconds() / 3600
+
+          if age_hours > 3:
+              raise SystemExit(f"Betting report is stale: {age_hours:.2f} hours old.")
+
+          cards = data.get("homepage_cards") or data.get("cards") or []
+          newsroom = data.get("live_newsroom") or data.get("briefing") or []
+          signals = data.get("editor_signals") or []
+
+          if len(cards) < 6:
+              raise SystemExit(f"Too few Betting homepage cards: {len(cards)}")
+
+          if len(newsroom) < 5:
+              raise SystemExit(f"Too few Betting newsroom items: {len(newsroom)}")
+
+          print(f"Betting Agent OK: timestamp={updated}, age_hours={age_hours:.2f}, cards={len(cards)}, newsroom={len(newsroom)}, signals={len(signals)}")
+          '@
+
+          Set-Content -Path validate_betting_agent.py -Value $script -Encoding utf8
+          python validate_betting_agent.py
+
+      - name: Commit fresh Betting data
+        shell: pwsh
+        working-directory: betting-site
+        run: |
+          git config user.name "GSR Betting Agent"
+          git config user.email "actions@github.com"
+
+          git add public/latest_report.json latest_report.json
+
+          $changes = git diff --cached --name-only
+
+          if (-not $changes) {
+            Write-Host "No Betting data changes to commit."
+            exit 0
+          }
+
+          git commit -m "Betting Agent hourly data refresh"
+          git push
