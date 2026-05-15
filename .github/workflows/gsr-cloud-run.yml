@@ -65,6 +65,57 @@ jobs:
           python master_runner.py
           echo "BETTING BLOCK FINISH"
 
+      - name: Publish live report to Vercel Blob
+        env:
+          GSR_PUSH_TOKEN: ${{ secrets.GSR_PUSH_TOKEN }}
+          GSR_PUSH_URL: ${{ secrets.GSR_PUSH_URL }}
+        run: |
+          if [ -z "$GSR_PUSH_TOKEN" ] || [ -z "$GSR_PUSH_URL" ]; then
+            echo "Skipping Blob publish because GSR_PUSH_TOKEN or GSR_PUSH_URL is missing."
+            exit 0
+          fi
+
+          if [ ! -f public/latest_report.json ]; then
+            echo "public/latest_report.json is missing."
+            exit 1
+          fi
+
+          python - <<'PY'
+import json
+from pathlib import Path
+
+p = Path("public/latest_report.json")
+data = json.loads(p.read_text(encoding="utf-8"))
+
+cards = data.get("homepage_cards") or data.get("cards") or []
+headline = str(data.get("headline") or "")
+text = p.read_text(encoding="utf-8", errors="ignore").lower()
+
+bad = [
+    "books wait on prices",
+    "board takes shape",
+    "market takes shape",
+    "lines take shape",
+    "fallback",
+    "generic",
+    "placeholder",
+]
+
+if len(cards) < 8:
+    raise SystemExit(f"Refusing to publish weak Betting report: only {len(cards)} cards.")
+
+for phrase in bad:
+    if phrase in text:
+        raise SystemExit(f"Refusing to publish weak Betting report: found '{phrase}'.")
+
+print("Betting report passed Blob publish gate.")
+PY
+
+          curl -sS -X POST "$GSR_PUSH_URL" \
+            -H "Authorization: Bearer $GSR_PUSH_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data-binary @public/latest_report.json
+
       - name: Stage website files
         run: |
           git add public/latest_report.json public/latest_report.txt latest_report.json latest_report.txt betting_odds_report.json betting_odds_report.txt || true
