@@ -1,4 +1,4 @@
-name: GSR Morning Run
+﻿name: GSR Morning Run
 
 on:
   workflow_dispatch:
@@ -85,8 +85,10 @@ jobs:
           curl -sS --fail -X POST "$GSR_PUSH_URL" -H "Authorization: Bearer $GSR_PUSH_TOKEN" -H "Content-Type: application/json" --data-binary @public/latest_report.json
 
       - name: Guard betting report quality before commit
+        shell: pwsh
         run: |
-          python scripts/check_betting_agent.py
+          Copy-Item .\latest_report.json .\public\latest_report.json -Force
+          python scripts\check_betting_agent.py
 
 
       - name: Stage website files
