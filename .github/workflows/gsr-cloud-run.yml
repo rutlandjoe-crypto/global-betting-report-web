@@ -80,41 +80,9 @@ jobs:
             exit 1
           fi
 
-          python - <<'PY'
-import json
-from pathlib import Path
+          python -c "import json, pathlib; p=pathlib.Path('public/latest_report.json'); t=p.read_text(encoding='utf-8', errors='ignore'); d=json.loads(t); cards=d.get('homepage_cards') or d.get('cards') or []; bad=['books wait on prices','board takes shape','market takes shape','lines take shape','fallback','generic','placeholder']; hits=[x for x in bad if x in t.lower()]; assert len(cards) >= 8, f'Refusing to publish weak Betting report: only {len(cards)} cards'; assert not hits, f'Refusing to publish weak Betting report: found {hits}'; print('Betting report passed Blob publish gate.')"
 
-p = Path("public/latest_report.json")
-data = json.loads(p.read_text(encoding="utf-8"))
-
-cards = data.get("homepage_cards") or data.get("cards") or []
-headline = str(data.get("headline") or "")
-text = p.read_text(encoding="utf-8", errors="ignore").lower()
-
-bad = [
-    "books wait on prices",
-    "board takes shape",
-    "market takes shape",
-    "lines take shape",
-    "fallback",
-    "generic",
-    "placeholder",
-]
-
-if len(cards) < 8:
-    raise SystemExit(f"Refusing to publish weak Betting report: only {len(cards)} cards.")
-
-for phrase in bad:
-    if phrase in text:
-        raise SystemExit(f"Refusing to publish weak Betting report: found '{phrase}'.")
-
-print("Betting report passed Blob publish gate.")
-PY
-
-          curl -sS -X POST "$GSR_PUSH_URL" \
-            -H "Authorization: Bearer $GSR_PUSH_TOKEN" \
-            -H "Content-Type: application/json" \
-            --data-binary @public/latest_report.json
+          curl -sS --fail -X POST "$GSR_PUSH_URL" -H "Authorization: Bearer $GSR_PUSH_TOKEN" -H "Content-Type: application/json" --data-binary @public/latest_report.json
 
       - name: Stage website files
         run: |
