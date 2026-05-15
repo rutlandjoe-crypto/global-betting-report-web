@@ -26,6 +26,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: rutlandjoe-crypto/sports_bot-ai
+          token: ${{ secrets.GSR_PUSH_TOKEN }}
           path: engine
 
       - name: Set up Python
@@ -160,3 +161,4 @@ jobs:
 
           git commit -m "Betting Agent hourly data refresh"
           git push
+
