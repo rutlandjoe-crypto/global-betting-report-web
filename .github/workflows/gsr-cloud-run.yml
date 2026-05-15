@@ -87,8 +87,8 @@ jobs:
       - name: Guard betting report quality before commit
         shell: pwsh
         run: |
-          Copy-Item .\latest_report.json .\public\latest_report.json -Force
-          python scripts\check_betting_agent.py
+          Copy-Item ./latest_report.json ./public/latest_report.json -Force
+          python scripts/check_betting_agent.py
 
 
       - name: Stage website files
@@ -114,3 +114,4 @@ jobs:
           else
             git push origin HEAD:master
           fi
+
