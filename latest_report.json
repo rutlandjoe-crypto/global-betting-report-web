@@ -6,9 +6,9 @@
   "tagline": "Built for journalists, by a journalist.",
   "headline": "MLB Moneylines Need Lineup Check",
   "snapshot": "Fast odds context for moneylines, spreads, totals, implied probability, fantasy angles, weather and late price movement.",
-  "updated_at": "2026-05-16 11:18 AM ET",
-  "generated_at": "2026-05-16 11:18 AM ET",
-  "generated_utc": "2026-05-16T15:18:32.529112+00:00",
+  "updated_at": "2026-05-16 01:17 PM ET",
+  "generated_at": "2026-05-16 01:17 PM ET",
+  "generated_utc": "2026-05-16T17:17:17.530728+00:00",
   "source_mode": "odds-market interpretation engine with line movement, futures watch, weather context, and newsroom-ready betting explanation",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "",
@@ -49,7 +49,7 @@
     }
   ],
   "key_storylines": [
-    "Betting Markets: Books Wait on Prices as Board Takes Shape",
+    "Betting Markets: MLB Moneylines Need Lineup Check",
     "MLB: MLB Moneylines Need Lineup Check",
     "NBA: NBA Prices Move With Injury News",
     "NHL: NHL Totals Need Goalie Confirmation",
@@ -62,7 +62,7 @@
     {
       "key": "betting_market_1",
       "title": "Betting Markets",
-      "headline": "Books Wait on Prices as Board Takes Shape",
+      "headline": "MLB Moneylines Need Lineup Check",
       "snapshot": "When live prices are unavailable, the site still needs a useful market frame instead of a thin board.",
       "source": "Action Network odds board",
       "url": "https://www.actionnetwork.com/odds",
@@ -256,7 +256,7 @@
     {
       "key": "editor_signal_1",
       "title": "Betting Markets",
-      "headline": "Books Wait on Prices as Board Takes Shape",
+      "headline": "MLB Moneylines Need Lineup Check",
       "snapshot": "MOVEMENT: watch opener versus current number",
       "source": "Action Network odds board",
       "url": "https://www.actionnetwork.com/odds",
@@ -402,7 +402,7 @@
     {
       "title": "Market Overview",
       "cards": [
-        "Books Wait on Prices as Board Takes Shape | MARKET: moneyline, spread and total markets | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
+        "MLB Moneylines Need Lineup Check | MARKET: moneyline, spread and total markets | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
         "MLB Moneylines Need Lineup Check | MARKET: moneyline, run line and total context | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
         "NBA Prices Move With Injury News | MARKET: moneyline, spread and total context | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
         "NHL Totals Need Goalie Confirmation | MARKET: moneyline, puck line and total context | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
@@ -430,8 +430,8 @@
       "cards": [
         {
           "league": "Betting Markets",
-          "title": "Books Wait on Prices as Board Takes Shape",
-          "headline": "Books Wait on Prices as Board Takes Shape",
+          "title": "MLB Moneylines Need Lineup Check",
+          "headline": "MLB Moneylines Need Lineup Check",
           "matchup": "Market board",
           "source": "Action Network odds board",
           "url": "https://www.actionnetwork.com/odds",
@@ -687,7 +687,7 @@
   "homepage_cards": [
     {
       "league": "Betting Markets",
-      "headline": "Books Wait on Prices as Board Takes Shape",
+      "headline": "MLB Moneylines Need Lineup Check",
       "url": "https://www.actionnetwork.com/odds",
       "matchup": "Market board",
       "market_context": "Moneylines, spreads and totals",
