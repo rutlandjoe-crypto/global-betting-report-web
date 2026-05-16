@@ -4,11 +4,11 @@
   "vertical": "Betting",
   "title": "Global Betting Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "MLB Moneylines Need Lineup Check",
+  "headline": "Betting Board Waits for Live Prices",
   "snapshot": "Fast odds context for moneylines, spreads, totals, implied probability, fantasy angles, weather and late price movement.",
-  "updated_at": "2026-05-16 06:06 PM ET",
-  "generated_at": "2026-05-16 06:06 PM ET",
-  "generated_utc": "2026-05-16T22:06:56.236631+00:00",
+  "updated_at": "2026-05-16 07:10 PM ET",
+  "generated_at": "2026-05-16 07:10 PM ET",
+  "generated_utc": "2026-05-16T23:10:39.878179+00:00",
   "source_mode": "odds-market interpretation engine with line movement, futures watch, weather context, and newsroom-ready betting explanation",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "",
@@ -687,7 +687,7 @@
   "homepage_cards": [
     {
       "league": "Betting Markets",
-      "headline": "MLB Moneylines Need Lineup Check",
+      "headline": "Betting Board Waits for Live Prices",
       "url": "https://www.actionnetwork.com/odds",
       "matchup": "Market board",
       "market_context": "Moneylines, spreads and totals",
@@ -704,11 +704,12 @@
         "Matchup context",
         "Public perception",
         "Injury, lineup or weather timing"
-      ]
+      ],
+      "title": "Betting Board Waits for Live Prices"
     },
     {
       "league": "MLB",
-      "headline": "MLB Moneylines Need Lineup Check",
+      "headline": "MLB Board Needs Confirmed Lineups and Prices",
       "url": "https://www.actionnetwork.com/mlb/odds",
       "matchup": "MLB board",
       "market_context": "Moneyline, run line and total",
@@ -725,7 +726,8 @@
         "Matchup context",
         "Public perception",
         "Injury, lineup or weather timing"
-      ]
+      ],
+      "title": "MLB Board Needs Confirmed Lineups and Prices"
     },
     {
       "league": "NBA",
@@ -750,7 +752,7 @@
     },
     {
       "league": "NHL",
-      "headline": "NHL Totals Need Goalie Confirmation",
+      "headline": "NHL Board Turns on Goalies and Totals",
       "url": "https://www.actionnetwork.com/nhl/odds",
       "matchup": "NHL board",
       "market_context": "Moneyline, puck line and total",
@@ -767,7 +769,8 @@
         "Matchup context",
         "Public perception",
         "Injury, lineup or weather timing"
-      ]
+      ],
+      "title": "NHL Board Turns on Goalies and Totals"
     },
     {
       "league": "NFL",
