@@ -4,11 +4,11 @@
   "vertical": "Betting",
   "title": "Global Betting Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "Betting Markets Track Lineups and Injury News",
+  "headline": "Late Lineup News Puts Betting Markets on Watch",
   "snapshot": "Fast odds context for moneylines, spreads, totals, implied probability, fantasy angles, weather and late price movement.",
-  "updated_at": "2026-05-24 05:13 PM ET",
-  "generated_at": "2026-05-24 05:13 PM ET",
-  "generated_utc": "2026-05-24T21:13:45.044586+00:00",
+  "updated_at": "2026-05-24 06:13 PM ET",
+  "generated_at": "2026-05-24 06:13 PM ET",
+  "generated_utc": "2026-05-24T22:13:42.845373+00:00",
   "source_mode": "odds-market interpretation engine with line movement, futures watch, weather context, and newsroom-ready betting explanation",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "",
@@ -61,8 +61,8 @@
   "live_newsroom": [
     {
       "key": "betting_market_1",
-      "title": "Betting Markets",
-      "headline": "MLB Moneylines Need Lineup Check",
+      "title": "Late Lineup News Puts Betting Markets on Watch",
+      "headline": "Late Lineup News Puts Betting Markets on Watch",
       "snapshot": "When live prices are unavailable, the site still needs a useful market frame instead of a thin board.",
       "source": "Action Network odds board",
       "url": "https://www.actionnetwork.com/odds",
@@ -85,8 +85,8 @@
     },
     {
       "key": "betting_market_2",
-      "title": "MLB",
-      "headline": "MLB Moneylines Need Lineup Check",
+      "title": "Late Lineup News Puts Betting Markets on Watch",
+      "headline": "Late Lineup News Puts Betting Markets on Watch",
       "snapshot": "Baseball prices can move quickly after lineups, starting pitchers, bullpen availability and weather become clearer.",
       "source": "Action Network MLB odds",
       "url": "https://www.actionnetwork.com/mlb/odds",
@@ -109,7 +109,7 @@
     },
     {
       "key": "betting_market_3",
-      "title": "NBA",
+      "title": "NBA Prices Move With Injury News",
       "headline": "NBA Prices Move With Injury News",
       "snapshot": "Basketball markets often change when injury reports, rotations and rest situations update before tipoff.",
       "source": "Action Network NBA odds",
@@ -133,7 +133,7 @@
     },
     {
       "key": "betting_market_4",
-      "title": "NHL",
+      "title": "NHL Totals Need Goalie Confirmation",
       "headline": "NHL Totals Need Goalie Confirmation",
       "snapshot": "Hockey prices depend heavily on confirmed goalies, special teams, travel spots and late injury news.",
       "source": "Action Network NHL odds",
@@ -157,7 +157,7 @@
     },
     {
       "key": "betting_market_5",
-      "title": "NFL",
+      "title": "NFL Futures Watch Roster Movement",
       "headline": "NFL Futures Watch Roster Movement",
       "snapshot": "Football markets stay active around schedule news, quarterback depth, injuries, win totals and futures positioning.",
       "source": "Action Network NFL odds",
@@ -181,7 +181,7 @@
     },
     {
       "key": "betting_market_6",
-      "title": "College Football",
+      "title": "College Football Futures Track Transfers",
       "headline": "College Football Futures Track Transfers",
       "snapshot": "College football prices move around transfers, quarterback battles, coaching changes and schedule strength.",
       "source": "Action Network college football odds",
@@ -205,7 +205,7 @@
     },
     {
       "key": "betting_market_7",
-      "title": "Weather Impact",
+      "title": "MLB Totals Need Weather Check",
       "headline": "MLB Totals Need Weather Check",
       "snapshot": "Wind, rain, temperature and park shape can change baseball totals before first pitch.",
       "source": "OddsTrader weather reference",
@@ -229,7 +229,7 @@
     },
     {
       "key": "betting_market_8",
-      "title": "Futures Watch",
+      "title": "Futures Board Moves With Roster News",
       "headline": "Futures Board Moves With Roster News",
       "snapshot": "Long-range markets can move after injuries, trades, schedule releases and playoff-path changes.",
       "source": "Covers futures board",
@@ -255,8 +255,8 @@
   "editor_signals": [
     {
       "key": "editor_signal_1",
-      "title": "Betting Markets",
-      "headline": "MLB Moneylines Need Lineup Check",
+      "title": "Late Lineup News Puts Betting Markets on Watch",
+      "headline": "Late Lineup News Puts Betting Markets on Watch",
       "snapshot": "MOVEMENT: watch opener versus current number",
       "source": "Action Network odds board",
       "url": "https://www.actionnetwork.com/odds",
@@ -279,8 +279,8 @@
     },
     {
       "key": "editor_signal_2",
-      "title": "MLB",
-      "headline": "MLB Moneylines Need Lineup Check",
+      "title": "Late Lineup News Puts Betting Markets on Watch",
+      "headline": "Late Lineup News Puts Betting Markets on Watch",
       "snapshot": "MOVEMENT: watch opener versus current number",
       "source": "Action Network MLB odds",
       "url": "https://www.actionnetwork.com/mlb/odds",
@@ -303,7 +303,7 @@
     },
     {
       "key": "editor_signal_3",
-      "title": "NBA",
+      "title": "NBA Prices Move With Injury News",
       "headline": "NBA Prices Move With Injury News",
       "snapshot": "MOVEMENT: watch opener versus current number",
       "source": "Action Network NBA odds",
@@ -327,7 +327,7 @@
     },
     {
       "key": "editor_signal_4",
-      "title": "NHL",
+      "title": "NHL Totals Need Goalie Confirmation",
       "headline": "NHL Totals Need Goalie Confirmation",
       "snapshot": "MOVEMENT: watch opener versus current number",
       "source": "Action Network NHL odds",
@@ -351,7 +351,7 @@
     },
     {
       "key": "editor_signal_5",
-      "title": "NFL",
+      "title": "NFL Futures Watch Roster Movement",
       "headline": "NFL Futures Watch Roster Movement",
       "snapshot": "MOVEMENT: watch opener versus current number",
       "source": "Action Network NFL odds",
@@ -375,7 +375,7 @@
     },
     {
       "key": "editor_signal_6",
-      "title": "College Football",
+      "title": "College Football Futures Track Transfers",
       "headline": "College Football Futures Track Transfers",
       "snapshot": "MOVEMENT: watch opener versus current number",
       "source": "Action Network college football odds",
@@ -410,7 +410,10 @@
         "College Football Futures Track Transfers | MARKET: futures, win totals and game prices | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
         "MLB Totals Need Weather Check | MARKET: baseball totals and live-betting volatility | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
         "Futures Board Moves With Roster News | MARKET: NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number"
-      ]
+      ],
+      "headline": "Market Overview",
+      "market": "Market",
+      "market_context": "Market"
     },
     {
       "title": "Line Movement Signals",
@@ -423,7 +426,10 @@
         "College football board - MOVEMENT: watch opener versus current number",
         "MLB weather board - MOVEMENT: watch opener versus current number",
         "Long-range market board - MOVEMENT: watch opener versus current number"
-      ]
+      ],
+      "headline": "Line Movement Signals",
+      "market": "Market",
+      "market_context": "Market"
     },
     {
       "title": "Game Breakdowns",
@@ -628,7 +634,10 @@
             "Injury, lineup or weather timing"
           ]
         }
-      ]
+      ],
+      "headline": "Game Breakdowns",
+      "market": "Market",
+      "market_context": "Market"
     },
     {
       "title": "Weather Impact",
@@ -646,7 +655,10 @@
           "why_it_matters": "Wind is working against carry, which can matter for totals and home-run props.",
           "what_to_watch": "Compare the current total to updated weather before publishing betting context."
         }
-      ]
+      ],
+      "headline": "Weather Impact",
+      "market": "Market",
+      "market_context": "Market"
     },
     {
       "title": "Futures Watch",
@@ -657,7 +669,10 @@
         "NHL Futures: Watch goalie health, playoff seeding, travel spots and market adjustment.",
         "Soccer Futures: Track title races, promotion/relegation pressure, tournament paths and transfer-window movement.",
         "Tennis/Golf Futures: Draws, form, surface, course fit and injury news can reshape prices quickly."
-      ]
+      ],
+      "headline": "Futures Watch",
+      "market": "Futures",
+      "market_context": "Futures"
     },
     {
       "title": "Late Market Checks",
@@ -670,7 +685,10 @@
         "College football board - Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength.",
         "MLB weather board - Track wind direction, temperature, precipitation, roof status and park-specific run environment.",
         "Long-range market board - Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws."
-      ]
+      ],
+      "headline": "Late Market Checks",
+      "market": "Market",
+      "market_context": "Market"
     },
     {
       "title": "Betting Toolkit",
@@ -681,13 +699,16 @@
         "Action Network - market movement, betting splits, and injury context.",
         "Covers - matchup pages, odds screens, and trend context.",
         "Sportsbook Review - odds comparison and betting market coverage."
-      ]
+      ],
+      "headline": "Betting Toolkit",
+      "market": "Market",
+      "market_context": "Market"
     }
   ],
   "homepage_cards": [
     {
       "league": "Betting Markets",
-      "headline": "Betting Markets Track Lineups and Injury News",
+      "headline": "Late Lineup News Puts Betting Markets on Watch",
       "url": "https://www.actionnetwork.com/odds",
       "matchup": "Market watch",
       "market_context": "Moneylines, spreads and totals watch",
@@ -705,11 +726,11 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "title": "Betting Markets Track Lineups and Injury News"
+      "title": "Late Lineup News Puts Betting Markets on Watch"
     },
     {
       "league": "MLB",
-      "headline": "MLB Board Needs Confirmed Lineups and Prices",
+      "headline": "MLB Totals Watch Starts With Weather and Bullpens",
       "url": "https://www.actionnetwork.com/mlb/odds",
       "matchup": "MLB board",
       "market_context": "Moneyline, run line and total",
@@ -727,7 +748,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "title": "MLB Board Needs Confirmed Lineups and Prices"
+      "title": "MLB Totals Watch Starts With Weather and Bullpens"
     },
     {
       "league": "NBA",
@@ -752,7 +773,7 @@
     },
     {
       "league": "NHL",
-      "headline": "NHL Board Turns on Goalies and Totals",
+      "headline": "NHL Goalie Confirmation Shapes Market Watch",
       "url": "https://www.actionnetwork.com/nhl/odds",
       "matchup": "NHL board",
       "market_context": "Moneyline, puck line and total",
@@ -770,7 +791,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "title": "NHL Board Turns on Goalies and Totals"
+      "title": "NHL Goalie Confirmation Shapes Market Watch"
     },
     {
       "league": "NFL",
