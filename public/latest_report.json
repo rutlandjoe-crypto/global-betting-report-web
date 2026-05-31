@@ -4,11 +4,11 @@
   "vertical": "Betting",
   "title": "Global Betting Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "Spurs-Thunder Game 6 Drives Tonight's Betting Board",
+  "headline": "Oklahoma City Thunder at San Antonio Spurs",
   "snapshot": "Fast odds context for moneylines, spreads, totals, implied probability, fantasy angles, weather and late price movement.",
-  "updated_at": "2026-05-31 12:37 PM ET",
-  "generated_at": "2026-05-31 12:37 PM ET",
-  "generated_utc": "2026-05-31T16:37:14.131996+00:00",
+  "updated_at": "2026-05-31 02:18 PM ET",
+  "generated_at": "2026-05-31 02:18 PM ET",
+  "generated_utc": "2026-05-31T18:18:05.669809+00:00",
   "source_mode": "odds-market interpretation engine with line movement, futures watch, weather context, and newsroom-ready betting explanation",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "",
@@ -61,8 +61,8 @@
   "live_newsroom": [
     {
       "key": "betting_market_1",
-      "title": "Spurs-Thunder Game 6 Drives Tonight's Betting Board",
-      "headline": "Spurs-Thunder Game 6 Drives Tonight's Betting Board",
+      "title": "NBA board",
+      "headline": "NBA board",
       "snapshot": "San Antonio faces elimination at home in Game 6 of the Western Conference finals, with Victor Wembanyama and Shai Gilgeous-Alexander anchoring the main player context. NBA.com lists the game for 8:30 p.m. ET; FanDuel Research lists Spurs -3.5 with a 219.5 total, so the spread, total and player-prop screen deserve the first betting read.",
       "source": "NBA.com and FanDuel Research",
       "url": "https://www.nba.com/game/0042500316",
@@ -85,8 +85,8 @@
     },
     {
       "key": "betting_market_2",
-      "title": "Futures Board Moves With Roster News",
-      "headline": "Futures Board Moves With Roster News",
+      "title": "Sports Betting Odds | Covers",
+      "headline": "Sports Betting Odds | Covers",
       "snapshot": "Long-range markets can move after injuries, trades, schedule releases and playoff-path changes.",
       "source": "Covers futures board",
       "url": "https://www.covers.com/sports",
@@ -109,8 +109,8 @@
     },
     {
       "key": "betting_market_3",
-      "title": "Late Odds Screen Centers on Verified Game Prices",
-      "headline": "Late Odds Screen Centers on Verified Game Prices",
+      "title": "Sports Betting Odds | Covers",
+      "headline": "Sports Betting Odds | Covers",
       "snapshot": "When live prices are unavailable, the betting page should still start with sourced game context and clear pregame checks.",
       "source": "Covers odds screen",
       "url": "https://www.covers.com/sports",
@@ -133,8 +133,8 @@
     },
     {
       "key": "betting_market_4",
-      "title": "NBA Prices Move With Injury News",
-      "headline": "NBA Prices Move With Injury News",
+      "title": "NBA board",
+      "headline": "NBA board",
       "snapshot": "Basketball markets often change when injury reports, rotations and rest situations update before tipoff.",
       "source": "NBA official schedule",
       "url": "https://www.nba.com/games",
@@ -157,8 +157,8 @@
     },
     {
       "key": "betting_market_5",
-      "title": "NHL Totals Need Goalie Confirmation",
-      "headline": "NHL Totals Need Goalie Confirmation",
+      "title": "NHL Odds | Covers",
+      "headline": "NHL Odds | Covers",
       "snapshot": "Hockey prices depend heavily on confirmed goalies, special teams, travel spots and late injury news.",
       "source": "Covers NHL odds",
       "url": "https://www.covers.com/sport/hockey/nhl/odds",
@@ -181,8 +181,8 @@
     },
     {
       "key": "betting_market_6",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
+      "title": "Betting odds",
+      "headline": "Betting odds",
       "snapshot": "Baseball prices can move quickly after lineups, starting pitchers, bullpen availability and weather become clearer.",
       "source": "OddsTrader MLB odds",
       "url": "https://www.oddstrader.com/mlb/odds/",
@@ -205,8 +205,8 @@
     },
     {
       "key": "betting_market_7",
-      "title": "NFL Futures Watch Roster Movement",
-      "headline": "NFL Futures Watch Roster Movement",
+      "title": "Betting odds",
+      "headline": "Betting odds",
       "snapshot": "Football markets stay active around schedule news, quarterback depth, injuries, win totals and futures positioning.",
       "source": "CBS Sports NFL odds",
       "url": "https://www.cbssports.com/nfl/odds/",
@@ -229,8 +229,8 @@
     },
     {
       "key": "betting_market_8",
-      "title": "College Football Futures Track Transfers",
-      "headline": "College Football Futures Track Transfers",
+      "title": "Betting odds",
+      "headline": "Betting odds",
       "snapshot": "College football prices move around transfers, quarterback battles, coaching changes and schedule strength.",
       "source": "Covers college football odds",
       "url": "https://www.covers.com/sport/football/ncaaf/odds",
@@ -255,8 +255,8 @@
   "editor_signals": [
     {
       "key": "editor_signal_1",
-      "title": "Spurs-Thunder Game 6 Drives Tonight's Betting Board",
-      "headline": "Spurs-Thunder Game 6 Drives Tonight's Betting Board",
+      "title": "NBA board",
+      "headline": "NBA board",
       "snapshot": "MOVEMENT: compare opener to current spread, total, moneyline and props",
       "source": "NBA.com and FanDuel Research",
       "url": "https://www.nba.com/game/0042500316",
@@ -279,8 +279,8 @@
     },
     {
       "key": "editor_signal_2",
-      "title": "Futures Board Moves With Roster News",
-      "headline": "Futures Board Moves With Roster News",
+      "title": "Sports Betting Odds | Covers",
+      "headline": "Sports Betting Odds | Covers",
       "snapshot": "MOVEMENT: watch opener versus current number",
       "source": "Covers futures board",
       "url": "https://www.covers.com/sports",
@@ -303,8 +303,8 @@
     },
     {
       "key": "editor_signal_3",
-      "title": "Late Odds Screen Centers on Verified Game Prices",
-      "headline": "Late Odds Screen Centers on Verified Game Prices",
+      "title": "Sports Betting Odds | Covers",
+      "headline": "Sports Betting Odds | Covers",
       "snapshot": "MOVEMENT: watch opener versus current number",
       "source": "Covers odds screen",
       "url": "https://www.covers.com/sports",
@@ -327,8 +327,8 @@
     },
     {
       "key": "editor_signal_4",
-      "title": "NBA Prices Move With Injury News",
-      "headline": "NBA Prices Move With Injury News",
+      "title": "NBA board",
+      "headline": "NBA board",
       "snapshot": "MOVEMENT: watch opener versus current number",
       "source": "NBA official schedule",
       "url": "https://www.nba.com/games",
@@ -351,8 +351,8 @@
     },
     {
       "key": "editor_signal_5",
-      "title": "NHL Totals Need Goalie Confirmation",
-      "headline": "NHL Totals Need Goalie Confirmation",
+      "title": "NHL Odds | Covers",
+      "headline": "NHL Odds | Covers",
       "snapshot": "MOVEMENT: watch opener versus current number",
       "source": "Covers NHL odds",
       "url": "https://www.covers.com/sport/hockey/nhl/odds",
@@ -375,8 +375,8 @@
     },
     {
       "key": "editor_signal_6",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
+      "title": "Betting odds",
+      "headline": "Betting odds",
       "snapshot": "MOVEMENT: watch opener versus current number",
       "source": "OddsTrader MLB odds",
       "url": "https://www.oddstrader.com/mlb/odds/",
@@ -436,8 +436,8 @@
       "cards": [
         {
           "league": "NBA",
-          "title": "Spurs-Thunder Game 6 Drives Tonight's Betting Board",
-          "headline": "Spurs-Thunder Game 6 Drives Tonight's Betting Board",
+          "title": "Oklahoma City Thunder at San Antonio Spurs",
+          "headline": "Oklahoma City Thunder at San Antonio Spurs",
           "matchup": "Oklahoma City Thunder at San Antonio Spurs",
           "source": "NBA.com and FanDuel Research",
           "url": "https://www.nba.com/game/0042500316",
@@ -459,12 +459,14 @@
           "line_movement": "MOVEMENT: compare opener to current spread, total, moneyline and props",
           "weather": null,
           "commence_time": "2026-05-29T00:30:00Z",
-          "priority_score": 500
+          "priority_score": 500,
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         },
         {
           "league": "Futures Watch",
-          "title": "Futures Board Moves With Roster News",
-          "headline": "Futures Board Moves With Roster News",
+          "title": "Sports Betting Odds | Covers",
+          "headline": "Sports Betting Odds | Covers",
           "matchup": "Long-range market board",
           "source": "Covers futures board",
           "url": "https://www.covers.com/sports",
@@ -484,12 +486,14 @@
             "Matchup context",
             "Public perception",
             "Injury, lineup or weather timing"
-          ]
+          ],
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         },
         {
           "league": "Betting Markets",
-          "title": "Late Odds Screen Centers on Verified Game Prices",
-          "headline": "Late Odds Screen Centers on Verified Game Prices",
+          "title": "Sports Betting Odds | Covers",
+          "headline": "Sports Betting Odds | Covers",
           "matchup": "Market watch",
           "source": "Covers odds screen",
           "url": "https://www.covers.com/sports",
@@ -509,12 +513,14 @@
             "Matchup context",
             "Public perception",
             "Injury, lineup or weather timing"
-          ]
+          ],
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         },
         {
           "league": "NBA",
-          "title": "NBA Prices Move With Injury News",
-          "headline": "NBA Prices Move With Injury News",
+          "title": "NBA board",
+          "headline": "NBA board",
           "matchup": "NBA board",
           "source": "NBA official schedule",
           "url": "https://www.nba.com/games",
@@ -534,12 +540,14 @@
             "Matchup context",
             "Public perception",
             "Injury, lineup or weather timing"
-          ]
+          ],
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         },
         {
           "league": "NHL",
-          "title": "NHL Totals Need Goalie Confirmation",
-          "headline": "NHL Totals Need Goalie Confirmation",
+          "title": "NHL Odds | Covers",
+          "headline": "NHL Odds | Covers",
           "matchup": "NHL board",
           "source": "Covers NHL odds",
           "url": "https://www.covers.com/sport/hockey/nhl/odds",
@@ -559,12 +567,14 @@
             "Matchup context",
             "Public perception",
             "Injury, lineup or weather timing"
-          ]
+          ],
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         },
         {
           "league": "MLB",
-          "title": "MLB Moneylines Need Lineup Check",
-          "headline": "MLB Moneylines Need Lineup Check",
+          "title": "MLB odds",
+          "headline": "MLB odds",
           "matchup": "MLB board",
           "source": "OddsTrader MLB odds",
           "url": "https://www.oddstrader.com/mlb/odds/",
@@ -584,12 +594,14 @@
             "Matchup context",
             "Public perception",
             "Injury, lineup or weather timing"
-          ]
+          ],
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         },
         {
           "league": "NFL",
-          "title": "NFL Futures Watch Roster Movement",
-          "headline": "NFL Futures Watch Roster Movement",
+          "title": "NFL odds",
+          "headline": "NFL odds",
           "matchup": "NFL board",
           "source": "CBS Sports NFL odds",
           "url": "https://www.cbssports.com/nfl/odds/",
@@ -609,12 +621,14 @@
             "Matchup context",
             "Public perception",
             "Injury, lineup or weather timing"
-          ]
+          ],
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         },
         {
           "league": "College Football",
-          "title": "College Football Futures Track Transfers",
-          "headline": "College Football Futures Track Transfers",
+          "title": "College Football odds",
+          "headline": "College Football odds",
           "matchup": "College football board",
           "source": "Covers college football odds",
           "url": "https://www.covers.com/sport/football/ncaaf/odds",
@@ -634,12 +648,14 @@
             "Matchup context",
             "Public perception",
             "Injury, lineup or weather timing"
-          ]
+          ],
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         },
         {
           "league": "Weather Impact",
-          "title": "MLB Totals Need Weather Check",
-          "headline": "MLB Totals Need Weather Check",
+          "title": "Weather Impact odds",
+          "headline": "Weather Impact odds",
           "matchup": "MLB weather board",
           "source": "OddsTrader weather reference",
           "url": "https://www.oddstrader.com/mlb/weather/",
@@ -659,7 +675,9 @@
             "Matchup context",
             "Public perception",
             "Injury, lineup or weather timing"
-          ]
+          ],
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         }
       ],
       "headline": "Game Breakdowns",
@@ -670,8 +688,8 @@
       "title": "Weather Impact",
       "cards": [
         {
-          "title": "Weather and total: MLB board",
-          "headline": "Weather and total: MLB board",
+          "title": "Betting odds",
+          "headline": "Betting odds",
           "source": "Global Betting Report",
           "url": "https://www.oddstrader.com/mlb/weather/",
           "key_data": [
@@ -680,7 +698,9 @@
             "Outdoor parks can create meaningful total movement."
           ],
           "why_it_matters": "Wind is working against carry, which can matter for totals and home-run props.",
-          "what_to_watch": "Compare the current total to updated weather before publishing betting context."
+          "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         }
       ],
       "headline": "Weather Impact",
@@ -735,7 +755,7 @@
   "homepage_cards": [
     {
       "league": "NBA",
-      "headline": "Spurs-Thunder Game 6 Drives Tonight's Betting Board",
+      "headline": "Oklahoma City Thunder at San Antonio Spurs",
       "url": "https://www.nba.com/game/0042500316",
       "matchup": "Oklahoma City Thunder at San Antonio Spurs",
       "market_context": "Spurs -3.5; total 219.5; moneyline and props need a final pre-tip check.",
@@ -751,11 +771,14 @@
       ],
       "why_it_matters": "San Antonio faces elimination at home in Game 6 of the Western Conference finals, with Victor Wembanyama and Shai Gilgeous-Alexander anchoring the main player context. NBA.com lists the game for 8:30 p.m. ET; FanDuel Research lists Spurs -3.5 with a 219.5 total, so the spread, total and player-prop screen deserve the first betting read.",
       "what_to_watch": "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage.",
-      "market": "Total"
+      "market": "Total",
+      "title": "Oklahoma City Thunder at San Antonio Spurs",
+      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
     },
     {
       "league": "Futures Watch",
-      "headline": "Futures Board Moves With Roster News",
+      "headline": "Sports Betting Odds | Covers",
       "url": "https://www.covers.com/sports",
       "matchup": "Long-range market board",
       "market_context": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
@@ -772,11 +795,14 @@
         "Matchup context",
         "Public perception",
         "Injury, lineup or weather timing"
-      ]
+      ],
+      "title": "Sports Betting Odds | Covers",
+      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
     },
     {
       "league": "Betting Markets",
-      "headline": "Late Odds Screen Centers on Verified Game Prices",
+      "headline": "Sports Betting Odds | Covers",
       "url": "https://www.covers.com/sports",
       "matchup": "Market watch",
       "market_context": "Moneylines, spreads and totals watch",
@@ -793,11 +819,14 @@
         "Matchup context",
         "Public perception",
         "Injury, lineup or weather timing"
-      ]
+      ],
+      "title": "Sports Betting Odds | Covers",
+      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
     },
     {
       "league": "NBA",
-      "headline": "NBA Prices Move With Injury News",
+      "headline": "NBA board",
       "url": "https://www.nba.com/games",
       "matchup": "NBA board",
       "market_context": "Moneyline, spread and total",
@@ -814,11 +843,14 @@
         "Matchup context",
         "Public perception",
         "Injury, lineup or weather timing"
-      ]
+      ],
+      "title": "NBA board",
+      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
     },
     {
       "league": "NHL",
-      "headline": "NHL Goalie Confirmation Shapes Market Watch",
+      "headline": "NHL Odds | Covers",
       "url": "https://www.covers.com/sport/hockey/nhl/odds",
       "matchup": "NHL board",
       "market_context": "Moneyline, puck line and total",
@@ -836,11 +868,13 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "title": "NHL Goalie Confirmation Shapes Market Watch"
+      "title": "NHL Odds | Covers",
+      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
     },
     {
       "league": "MLB",
-      "headline": "MLB Totals Watch Starts With Weather and Bullpens",
+      "headline": "MLB odds",
       "url": "https://www.oddstrader.com/mlb/odds/",
       "matchup": "MLB board",
       "market_context": "Moneyline, run line and total",
@@ -858,11 +892,13 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "title": "MLB Totals Watch Starts With Weather and Bullpens"
+      "title": "MLB odds",
+      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
     },
     {
       "league": "NFL",
-      "headline": "NFL Futures Watch Roster Movement",
+      "headline": "NFL odds",
       "url": "https://www.cbssports.com/nfl/odds/",
       "matchup": "NFL board",
       "market_context": "Futures, win totals, spreads and game prices",
@@ -879,11 +915,14 @@
         "Matchup context",
         "Public perception",
         "Injury, lineup or weather timing"
-      ]
+      ],
+      "title": "NFL odds",
+      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
     },
     {
       "league": "College Football",
-      "headline": "College Football Futures Track Transfers",
+      "headline": "College Football odds",
       "url": "https://www.covers.com/sport/football/ncaaf/odds",
       "matchup": "College football board",
       "market_context": "Futures, win totals and game prices",
@@ -900,11 +939,14 @@
         "Matchup context",
         "Public perception",
         "Injury, lineup or weather timing"
-      ]
+      ],
+      "title": "College Football odds",
+      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
     },
     {
       "league": "Weather Impact",
-      "headline": "MLB Totals Need Weather Check",
+      "headline": "Weather Impact odds",
       "url": "https://www.oddstrader.com/mlb/weather/",
       "matchup": "MLB weather board",
       "market_context": "Baseball totals and live-betting volatility",
@@ -921,7 +963,10 @@
         "Matchup context",
         "Public perception",
         "Injury, lineup or weather timing"
-      ]
+      ],
+      "title": "Weather Impact odds",
+      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
     }
   ],
   "editorial_standard": {
