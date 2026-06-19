@@ -65,6 +65,48 @@ const BAD_CONTENT_PHRASES = [
   "could not load odds",
 ];
 
+const GENERIC_BETTING_HEADLINE_PHRASES = [
+  "late lineup news puts betting markets on watch",
+  "futures board tracks roster, injury and schedule news",
+  "futures board moves with roster news",
+  "markets on watch",
+  "futures board tracks",
+  "late lineup news",
+];
+
+function isNbaSeasonComplete(date = new Date()): boolean {
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  return month === 7 || month === 8 || month === 9 || (month === 6 && day >= 17);
+}
+
+function isStaleNbaBettingContent(value: unknown): boolean {
+  if (!isNbaSeasonComplete()) return false;
+
+  const text = normalizeText(value);
+  const staleMarkers = [
+    "nba finals",
+    "western conference finals",
+    "eastern conference finals",
+    "game 6",
+    "game 7",
+    "thunder-spurs",
+    "spurs-thunder",
+    "oklahoma city thunder at san antonio spurs",
+    "san antonio spurs",
+    "nba board",
+    "nba playoff",
+    "nba prices move with injury news",
+  ];
+
+  return text.includes("nba") || staleMarkers.some((marker) => text.includes(marker));
+}
+
+function isGenericBettingHeadline(value: unknown): boolean {
+  const text = normalizeText(value);
+  return GENERIC_BETTING_HEADLINE_PHRASES.some((phrase) => text.includes(phrase));
+}
+
 const SPORT_LABELS: Record<string, string> = {
   mlb: "MLB",
   baseball: "MLB",
@@ -121,6 +163,7 @@ function normalizeText(value: unknown): string {
 function isBadContent(value: unknown): boolean {
   const text = normalizeText(value);
   if (!text) return true;
+  if (isStaleNbaBettingContent(value)) return true;
   return BAD_CONTENT_PHRASES.some((phrase) => text.includes(phrase));
 }
 
@@ -466,8 +509,49 @@ function isPublishableStory(story: AnyObj): boolean {
 
   if (!title) return false;
   if (isBadContent(text)) return false;
+  if (isGenericBettingHeadline(title)) return false;
 
   return true;
+}
+
+function storyPriority(story: AnyObj): number {
+  const text = normalizeText([
+    story.league,
+    story.headline,
+    story.title,
+    story.game,
+    story.snapshot,
+    story.market,
+  ]);
+
+  if (isStaleNbaBettingContent(text)) return -100;
+  if (text.includes("world cup")) return 100;
+  if (text.includes("mlb") || text.includes("baseball")) return 90;
+  if (text.includes("nfl")) return 30;
+  if (text.includes("partner") || text.includes("oddstrader")) return 20;
+  return 10;
+}
+
+function cleanFallbackStory(updated: string): AnyObj {
+  return {
+    league: "Betting Watch",
+    headline: "OddsTrader MLB weather board gives bettors a cleaner totals read",
+    summary:
+      "A clean partner and data-tool headline is being used because no strong MLB or World Cup betting story is available.",
+    snapshot:
+      "A clean partner and data-tool headline is being used because no strong MLB or World Cup betting story is available.",
+    url: WEATHER_URL,
+    key_data: ["Partner/tool angle: MLB weather and totals context."],
+    why_it_matters: [
+      "Weather is context, not a pick; the betting read still needs current prices and game-day confirmation.",
+    ],
+    what_to_watch: [
+      "Wind, rain risk, temperature, humidity, starting pitchers and late total movement.",
+    ],
+    story_angles: ["Frame the market through weather, pitching, totals and current sportsbook prices."],
+    story_type: "partner_context",
+    updated_at: updated,
+  };
 }
 
 function cleanSignals(items: string[]): string[] {
@@ -508,6 +592,37 @@ function Block({ title, children }: { title: string; children: React.ReactNode }
       </h2>
       {children}
     </section>
+  );
+}
+
+function EditorsBookshelf() {
+  const books = [
+    ["Sharp Sports Betting", "Stanford Wong"],
+    ["The Logic of Sports Betting", "Ed Miller & Matthew Davidow"],
+    ["Trading Bases", "Joe Peta"],
+  ];
+
+  return (
+    <Block title="Editor's Bookshelf">
+      <div className="space-y-2">
+        {books.map(([title, author]) => (
+          // TODO: Replace this Amazon search URL with the final Amazon Associates URL.
+          <a
+            key={title}
+            href={`https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=gsrbetting-20`}
+            target="_blank"
+            rel="sponsored noopener noreferrer"
+            className="block rounded-xl border border-lime-300/30 bg-black/40 px-4 py-3 hover:border-lime-200"
+          >
+            <span className="block text-sm font-bold text-lime-200">{title}</span>
+            <span className="mt-1 block text-xs text-slate-400">{author}</span>
+          </a>
+        ))}
+      </div>
+      <p className="mt-3 text-xs leading-5 text-slate-400">
+        As an Amazon Associate, GSR Network earns from qualifying purchases.
+      </p>
+    </Block>
   );
 }
 
@@ -717,7 +832,9 @@ function AdvertiseWithGsrBlock() {
 export default function Page() {
   const report = readReport();
 
-  let stories = getStories(report).filter(isPublishableStory);
+  let stories = getStories(report)
+    .filter(isPublishableStory)
+    .sort((a, b) => storyPriority(b) - storyPriority(a));
 
   const liveNewsroomStories = getSpotlightStories(report, "live_newsroom");
   const editorSignalStories = getSpotlightStories(report, "editor_signals");
@@ -730,18 +847,6 @@ export default function Page() {
       report.takeaways
   );
 
-  const fallbackHeadline = "Global Betting Report: Live Betting Newsroom Board";
-
-  const headline =
-    cleanText(report.headline) && !isBadContent(report.headline)
-      ? removeDoubleLeaguePrefix(cleanText(report.headline))
-      : fallbackHeadline;
-
-  const snapshot =
-    cleanText(report.snapshot) && !isBadContent(report.snapshot)
-      ? cleanText(report.snapshot)
-      : "A live betting briefing built for bettors tracking odds, implied probability, line movement, injuries, weather and market context.";
-
   const updated =
     cleanText(report.updated_at) ||
     cleanText(report.generated_at) ||
@@ -749,22 +854,26 @@ export default function Page() {
     "Update time unavailable";
 
   if (!stories.length) {
-    stories = [
-      {
-        league: "Betting Watch",
-        headline,
-        summary: snapshot,
-        url: DEFAULT_URL,
-        key_data: ["Latest betting report generated from the current verified market board."],
-        why_it_matters: ["Editors and bettors need quick clarity across odds, totals, spreads and movement."],
-        what_to_watch: ["Next verified injury note, weather shift, lineup update or market movement."],
-        story_angles: ["Follow the strongest price, injury, weather, matchup or market-movement angle."],
-        story_type: "analysis",
-      },
-    ];
+    stories = [cleanFallbackStory(updated)];
   }
 
   const leadStories = stories.slice(0, 12);
+  const leadStory = leadStories[0] || cleanFallbackStory(updated);
+  const fallbackHeadline = "Global Betting Report: Live Betting Newsroom Board";
+
+  const headline = removeDoubleLeaguePrefix(
+    cleanText(storyTitle(leadStory, 0)) ||
+      (cleanText(report.headline) && !isBadContent(report.headline)
+        ? cleanText(report.headline)
+        : fallbackHeadline)
+  );
+
+  const snapshot =
+    cleanText(leadStory.snapshot || leadStory.summary) && !isBadContent(leadStory.snapshot || leadStory.summary)
+      ? cleanText(leadStory.snapshot || leadStory.summary)
+      : cleanText(report.snapshot) && !isBadContent(report.snapshot)
+        ? cleanText(report.snapshot)
+        : "A live betting briefing built for bettors tracking odds, implied probability, line movement, injuries, weather and market context.";
 
   const liveBriefingItems = liveNewsroomStories.length
     ? spotlightItemsFromStories(liveNewsroomStories)
@@ -898,6 +1007,8 @@ export default function Page() {
               ))}
             </div>
           </Block>
+
+          <EditorsBookshelf />
 
           <Block title="Coverage Lens">
             <LineList
