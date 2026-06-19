@@ -1,0 +1,25 @@
+﻿{
+  "sources": [
+    {
+      "name": "Action Network",
+      "url": "https://www.actionnetwork.com"
+    },
+    {
+      "name": "Covers",
+      "url": "https://www.covers.com"
+    },
+    {
+      "name": "VSiN",
+      "url": "https://www.vsin.com"
+    },
+    {
+      "name": "Yahoo Sports Betting",
+      "url": "https://sports.yahoo.com/betting/"
+    },
+    {
+      "name": "ESPN Betting",
+      "url": "https://www.espn.com/espn/betting/"
+    }
+  ],
+  "headline_rule": "Use the original source headline. Do not rewrite betting headlines."
+}

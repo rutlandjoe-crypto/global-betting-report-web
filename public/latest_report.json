@@ -3,974 +3,126 @@
   "site_name": "Global Betting Report",
   "vertical": "Betting",
   "title": "Global Betting Report",
-  "tagline": "Built for journalists, by a journalist.",
-  "headline": "Thunder-Spurs Total Hinges on Injury News",
-  "snapshot": "Fast odds context for moneylines, spreads, totals, implied probability, fantasy angles, weather and late price movement.",
-  "updated_at": "2026-06-19 12:15 PM ET",
-  "generated_at": "2026-06-19 12:15 PM ET",
-  "generated_utc": "2026-06-19T16:15:33.467357+00:00",
-  "source_mode": "odds-market interpretation engine with line movement, futures watch, weather context, and newsroom-ready betting explanation",
-  "x_handle": "@GlobalSportsRp",
-  "substack_url": "",
-  "theme": {
-    "name": "Global Betting Report",
-    "colors": {
-      "primary": "#7f1d1d",
-      "primary_name": "deep betting red",
-      "secondary": "#111827",
-      "secondary_name": "charcoal black",
-      "accent": "#facc15",
-      "accent_name": "odds-ticket gold",
-      "background": "#f5f5f4",
-      "background_name": "warm newsroom neutral"
-    },
-    "style": "black, deep red, white, warm neutral, and odds-ticket gold accents"
-  },
-  "network_links": [
+  "headline": "Books wait on prices as the board takes shape, with moneylines, spreads, totals and late market movement giving bettors the first real read.",
+  "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
+  "updated_at": "2026-06-19 12:20:58 PM ET",
+  "generated_at": "2026-06-19 12:20:58 PM ET",
+  "generated_utc": "2026-06-19T16:20:58.825874+00:00",
+  "source_mode": "public_betting_market_report",
+  "homepage_cards": [
     {
-      "label": "Sports",
-      "url": "https://globalsportsreport.com"
+      "league": "Source Headline Watch",
+      "headline": "Books wait on prices as the board takes shape, with moneylines, spreads, totals and late market movement giving bettors the first real read.",
+      "snapshot": "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored for betting-market movement.",
+      "source_label": "Market context",
+      "story_type": "market_context",
+      "key_data": [
+        "Market board is active across available leagues."
+      ],
+      "why_it_matters": [
+        "Line movement matters most when it connects to injuries, weather, roster news, or sportsbook adjustment."
+      ],
+      "what_to_watch": [
+        "Track favorites getting more expensive or underdogs drawing late money.",
+        "Watch totals in weather-sensitive games.",
+        "Compare sportsbook movement before treating one number as the full market."
+      ],
+      "url": "https://www.globalbettingreport.com"
     },
     {
-      "label": "AI",
-      "url": "https://globalaireport.news"
-    },
-    {
-      "label": "Politics",
-      "url": "https://globalpoliticsreport.com"
-    },
-    {
-      "label": "Entertainment",
-      "url": "https://globalentertainmentreport.com"
-    },
-    {
-      "label": "Betting",
-      "url": "https://globalbettingreport.com"
+      "league": "Betting Reporting Context",
+      "headline": "Books wait on prices as the board takes shape, with moneylines, spreads, totals and late market movement giving bettors the first real read.",
+      "snapshot": "Track line movement, injury news, starting lineup changes, pitching confirmations, weather, rest advantages, and late market steam before making any betting decision.",
+      "source_label": "Market context",
+      "story_type": "market_context",
+      "key_data": [
+        "Betting context requires line movement plus supporting news."
+      ],
+      "why_it_matters": [
+        "A number alone is not a recommendation. Context explains why the market may be moving."
+      ],
+      "what_to_watch": [
+        "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
+      ],
+      "url": "https://www.globalbettingreport.com"
     }
-  ],
-  "key_storylines": [
-    "NBA: Spurs-Thunder Game 6 Drives Tonight's Betting Board",
-    "Futures Watch: Futures Board Moves With Roster News",
-    "Betting Markets: Late Odds Screen Centers on Verified Game Prices",
-    "NBA: NBA Prices Move With Injury News",
-    "NHL: NHL Totals Need Goalie Confirmation",
-    "MLB: MLB Moneylines Need Lineup Check",
-    "NFL: NFL Futures Watch Roster Movement",
-    "College Football: College Football Futures Track Transfers"
   ],
   "live_newsroom": [
     {
-      "key": "betting_market_1",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "San Antonio faces elimination at home in Game 6 of the Western Conference finals, with Victor Wembanyama and Shai Gilgeous-Alexander anchoring the main player context. NBA.com lists the game for 8:30 p.m. ET; FanDuel Research lists Spurs -3.5 with a 219.5 total, so the spread, total and player-prop screen deserve the first betting read.",
-      "source": "NBA.com and FanDuel Research",
-      "url": "https://www.nba.com/game/0042500316",
-      "key_data": [],
-      "why_it_matters": "San Antonio faces elimination at home in Game 6 of the Western Conference finals, with Victor Wembanyama and Shai Gilgeous-Alexander anchoring the main player context. NBA.com lists the game for 8:30 p.m. ET; FanDuel Research lists Spurs -3.5 with a 219.5 total, so the spread, total and player-prop screen deserve the first betting read.",
-      "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement.",
-      "matchup": "NBA board",
-      "game": "NBA board",
-      "market_context": "Moneyline, spread and total",
-      "market": "Moneyline, spread and total",
-      "line_odds": "Check current NBA board before publication",
-      "implied_probability": "Compare moneyline price to win chance",
-      "line_movement": "Injury reports and rotation news can reshape the spread",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
+      "league": "Source Headline Watch",
+      "headline": "Books wait on prices as the board takes shape, with moneylines, spreads, totals and late market movement giving bettors the first real read.",
+      "snapshot": "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored for betting-market movement.",
+      "source_label": "Market context",
+      "story_type": "market_context",
+      "key_data": [
+        "Market board is active across available leagues."
+      ],
+      "why_it_matters": [
+        "Line movement matters most when it connects to injuries, weather, roster news, or sportsbook adjustment."
+      ],
+      "what_to_watch": [
+        "Track favorites getting more expensive or underdogs drawing late money.",
+        "Watch totals in weather-sensitive games.",
+        "Compare sportsbook movement before treating one number as the full market."
+      ],
+      "url": "https://www.globalbettingreport.com"
     },
     {
-      "key": "betting_market_2",
-      "title": "Futures Board Tracks Roster, Injury and Schedule News",
-      "headline": "Futures Board Tracks Roster, Injury and Schedule News",
-      "snapshot": "Long-range markets can move after injuries, trades, schedule releases and playoff-path changes.",
-      "source": "Covers futures board",
-      "url": "https://www.covers.com/sports",
-      "key_data": [],
-      "why_it_matters": "Long-range markets can move after injuries, trades, schedule releases and playoff-path changes.",
-      "what_to_watch": "Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws.",
-      "matchup": "Long-range market board",
-      "game": "Long-range market board",
-      "market_context": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-      "market": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-      "line_odds": "Futures prices change after roster, schedule and injury news",
-      "implied_probability": "Compare futures prices before and after major news",
-      "line_movement": "Shortening prices show support; drifting prices show resistance",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "betting_market_3",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "When live prices are unavailable, the betting page should still start with sourced game context and clear pregame checks.",
-      "source": "Covers odds screen",
-      "url": "https://www.covers.com/sports",
-      "key_data": [],
-      "why_it_matters": "When live prices are unavailable, the betting page should still start with sourced game context and clear pregame checks.",
-      "what_to_watch": "Watch for odds feed recovery, late injury news, lineup updates and market movement.",
-      "matchup": "Market watch",
-      "game": "Market watch",
-      "market_context": "Moneylines, spreads and totals watch",
-      "market": "Moneylines, spreads and totals watch",
-      "line_odds": "Live odds feed unavailable; check current board",
-      "implied_probability": "Opener pending; implied probability will update once moneylines post",
-      "line_movement": "Watch opener versus current number",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "betting_market_4",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "Basketball markets often change when injury reports, rotations and rest situations update before tipoff.",
-      "source": "NBA official schedule",
-      "url": "https://www.nba.com/games",
-      "key_data": [],
-      "why_it_matters": "Basketball markets often change when injury reports, rotations and rest situations update before tipoff.",
-      "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement.",
-      "matchup": "NBA board",
-      "game": "NBA board",
-      "market_context": "Moneyline, spread and total",
-      "market": "Moneyline, spread and total",
-      "line_odds": "Check current NBA board before publication",
-      "implied_probability": "Compare moneyline price to win chance",
-      "line_movement": "Injury reports and rotation news can reshape the spread",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "betting_market_5",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "Hockey prices depend heavily on confirmed goalies, special teams, travel spots and late injury news.",
-      "source": "Covers NHL odds",
-      "url": "https://www.covers.com/sport/hockey/nhl/odds",
-      "key_data": [],
-      "why_it_matters": "Hockey prices depend heavily on confirmed goalies, special teams, travel spots and late injury news.",
-      "what_to_watch": "Track goalie confirmation, back-to-backs, special teams, injuries and late total movement.",
-      "matchup": "NHL board",
-      "game": "NHL board",
-      "market_context": "Moneyline, puck line and total",
-      "market": "Moneyline, puck line and total",
-      "line_odds": "Check current NHL board before publication",
-      "implied_probability": "Compare goalie news to moneyline price",
-      "line_movement": "Confirmed goalies can move totals and sides",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "betting_market_6",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "Baseball prices can move quickly after lineups, starting pitchers, bullpen availability and weather become clearer.",
-      "source": "OddsTrader MLB odds",
-      "url": "https://www.oddstrader.com/mlb/odds/",
-      "key_data": [],
-      "why_it_matters": "Baseball prices can move quickly after lineups, starting pitchers, bullpen availability and weather become clearer.",
-      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
-      "matchup": "MLB board",
-      "game": "MLB board",
-      "market_context": "Moneyline, run line and total",
-      "market": "Moneyline, run line and total",
-      "line_odds": "Check current MLB board before publication",
-      "implied_probability": "Compare posted moneyline to implied chance",
-      "line_movement": "Lineups, starters, bullpens and weather can move the number",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "betting_market_7",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "Football markets stay active around schedule news, quarterback depth, injuries, win totals and futures positioning.",
-      "source": "CBS Sports NFL odds",
-      "url": "https://www.cbssports.com/nfl/odds/",
-      "key_data": [],
-      "why_it_matters": "Football markets stay active around schedule news, quarterback depth, injuries, win totals and futures positioning.",
-      "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.",
-      "matchup": "NFL board",
-      "game": "NFL board",
-      "market_context": "Futures, win totals, spreads and game prices",
-      "market": "Futures, win totals, spreads and game prices",
-      "line_odds": "Check current NFL board before publication",
-      "implied_probability": "Compare futures price to season outlook",
-      "line_movement": "Quarterback, injury and roster news can move the board",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "betting_market_8",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "College football prices move around transfers, quarterback battles, coaching changes and schedule strength.",
-      "source": "Covers college football odds",
-      "url": "https://www.covers.com/sport/football/ncaaf/odds",
-      "key_data": [],
-      "why_it_matters": "College football prices move around transfers, quarterback battles, coaching changes and schedule strength.",
-      "what_to_watch": "Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength.",
-      "matchup": "College football board",
-      "game": "College football board",
-      "market_context": "Futures, win totals and game prices",
-      "market": "Futures, win totals and game prices",
-      "line_odds": "Check current college football board before publication",
-      "implied_probability": "Compare futures price to roster outlook",
-      "line_movement": "Transfers and quarterback battles can move prices",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
+      "league": "Betting Reporting Context",
+      "headline": "Books wait on prices as the board takes shape, with moneylines, spreads, totals and late market movement giving bettors the first real read.",
+      "snapshot": "Track line movement, injury news, starting lineup changes, pitching confirmations, weather, rest advantages, and late market steam before making any betting decision.",
+      "source_label": "Market context",
+      "story_type": "market_context",
+      "key_data": [
+        "Betting context requires line movement plus supporting news."
+      ],
+      "why_it_matters": [
+        "A number alone is not a recommendation. Context explains why the market may be moving."
+      ],
+      "what_to_watch": [
+        "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
+      ],
+      "url": "https://www.globalbettingreport.com"
     }
   ],
   "editor_signals": [
-    {
-      "key": "editor_signal_1",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "MOVEMENT: compare opener to current spread, total, moneyline and props",
-      "source": "NBA.com and FanDuel Research",
-      "url": "https://www.nba.com/game/0042500316",
-      "key_data": [],
-      "why_it_matters": "San Antonio faces elimination at home in Game 6 of the Western Conference finals, with Victor Wembanyama and Shai Gilgeous-Alexander anchoring the main player context. NBA.com lists the game for 8:30 p.m. ET; FanDuel Research lists Spurs -3.5 with a 219.5 total, so the spread, total and player-prop screen deserve the first betting read.",
-      "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement.",
-      "matchup": "NBA board",
-      "game": "NBA board",
-      "market_context": "Moneyline, spread and total",
-      "market": "Moneyline, spread and total",
-      "line_odds": "Check current NBA board before publication",
-      "implied_probability": "Compare moneyline price to win chance",
-      "line_movement": "Injury reports and rotation news can reshape the spread",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "editor_signal_2",
-      "title": "Futures Board Tracks Roster, Injury and Schedule News",
-      "headline": "Futures Board Tracks Roster, Injury and Schedule News",
-      "snapshot": "MOVEMENT: watch opener versus current number",
-      "source": "Covers futures board",
-      "url": "https://www.covers.com/sports",
-      "key_data": [],
-      "why_it_matters": "Long-range markets can move after injuries, trades, schedule releases and playoff-path changes.",
-      "what_to_watch": "Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws.",
-      "matchup": "Long-range market board",
-      "game": "Long-range market board",
-      "market_context": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-      "market": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-      "line_odds": "Futures prices change after roster, schedule and injury news",
-      "implied_probability": "Compare futures prices before and after major news",
-      "line_movement": "Shortening prices show support; drifting prices show resistance",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "editor_signal_3",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "MOVEMENT: watch opener versus current number",
-      "source": "Covers odds screen",
-      "url": "https://www.covers.com/sports",
-      "key_data": [],
-      "why_it_matters": "When live prices are unavailable, the betting page should still start with sourced game context and clear pregame checks.",
-      "what_to_watch": "Watch for odds feed recovery, late injury news, lineup updates and market movement.",
-      "matchup": "Market watch",
-      "game": "Market watch",
-      "market_context": "Moneylines, spreads and totals watch",
-      "market": "Moneylines, spreads and totals watch",
-      "line_odds": "Live odds feed unavailable; check current board",
-      "implied_probability": "Opener pending; implied probability will update once moneylines post",
-      "line_movement": "Watch opener versus current number",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "editor_signal_4",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "MOVEMENT: watch opener versus current number",
-      "source": "NBA official schedule",
-      "url": "https://www.nba.com/games",
-      "key_data": [],
-      "why_it_matters": "Basketball markets often change when injury reports, rotations and rest situations update before tipoff.",
-      "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement.",
-      "matchup": "NBA board",
-      "game": "NBA board",
-      "market_context": "Moneyline, spread and total",
-      "market": "Moneyline, spread and total",
-      "line_odds": "Check current NBA board before publication",
-      "implied_probability": "Compare moneyline price to win chance",
-      "line_movement": "Injury reports and rotation news can reshape the spread",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "editor_signal_5",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "MOVEMENT: watch opener versus current number",
-      "source": "Covers NHL odds",
-      "url": "https://www.covers.com/sport/hockey/nhl/odds",
-      "key_data": [],
-      "why_it_matters": "Hockey prices depend heavily on confirmed goalies, special teams, travel spots and late injury news.",
-      "what_to_watch": "Track goalie confirmation, back-to-backs, special teams, injuries and late total movement.",
-      "matchup": "NHL board",
-      "game": "NHL board",
-      "market_context": "Moneyline, puck line and total",
-      "market": "Moneyline, puck line and total",
-      "line_odds": "Check current NHL board before publication",
-      "implied_probability": "Compare goalie news to moneyline price",
-      "line_movement": "Confirmed goalies can move totals and sides",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "editor_signal_6",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "MOVEMENT: watch opener versus current number",
-      "source": "OddsTrader MLB odds",
-      "url": "https://www.oddstrader.com/mlb/odds/",
-      "key_data": [],
-      "why_it_matters": "Baseball prices can move quickly after lineups, starting pitchers, bullpen availability and weather become clearer.",
-      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
-      "matchup": "MLB board",
-      "game": "MLB board",
-      "market_context": "Moneyline, run line and total",
-      "market": "Moneyline, run line and total",
-      "line_odds": "Check current MLB board before publication",
-      "implied_probability": "Compare posted moneyline to implied chance",
-      "line_movement": "Lineups, starters, bullpens and weather can move the number",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    }
+    "Books wait on prices as the board takes shape, with moneylines, spreads, totals and late market movement giving bettors the first real read.",
+    "Books wait on prices as the board takes shape, with moneylines, spreads, totals and late market movement giving bettors the first real read."
   ],
   "sections": [
     {
-      "title": "Market Overview",
-      "cards": [
-        "Spurs-Thunder Game 6 Drives Tonight's Betting Board | MARKET: NBA playoff spread, total, moneyline and player props. | IMPLIED PROBABILITY: check posted moneyline before publication. | MOVEMENT: compare opener to current spread, total, moneyline and props",
-        "Futures Board Moves With Roster News | MARKET: NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
-        "Late Odds Screen Centers on Verified Game Prices | MARKET: moneyline, spread and total markets | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
-        "NBA Prices Move With Injury News | MARKET: moneyline, spread and total context | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
-        "NHL Totals Need Goalie Confirmation | MARKET: moneyline, puck line and total context | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
-        "MLB Moneylines Need Lineup Check | MARKET: moneyline, run line and total context | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
-        "NFL Futures Watch Roster Movement | MARKET: futures, win totals, spreads and game prices | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number",
-        "College Football Futures Track Transfers | MARKET: futures, win totals and game prices | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number"
-      ],
-      "headline": "Market Overview",
-      "market": "Market",
-      "market_context": "Market"
-    },
-    {
-      "title": "Line Movement Signals",
-      "cards": [
-        "Oklahoma City Thunder at San Antonio Spurs - MOVEMENT: compare opener to current spread, total, moneyline and props",
-        "Long-range market board - MOVEMENT: watch opener versus current number",
-        "Major-sport odds screen - MOVEMENT: watch opener versus current number",
-        "NBA board - MOVEMENT: watch opener versus current number",
-        "NHL board - MOVEMENT: watch opener versus current number",
-        "MLB board - MOVEMENT: watch opener versus current number",
-        "NFL board - MOVEMENT: watch opener versus current number",
-        "College football board - MOVEMENT: watch opener versus current number"
-      ],
-      "headline": "Line Movement Signals",
-      "market": "Market",
-      "market_context": "Market"
-    },
-    {
-      "title": "Game Breakdowns",
-      "cards": [
-        {
-          "league": "NBA",
-          "title": "Thunder-Spurs Total Hinges on Injury News",
-          "headline": "Thunder-Spurs Total Hinges on Injury News",
-          "matchup": "Oklahoma City Thunder at San Antonio Spurs",
-          "source": "NBA.com and FanDuel Research",
-          "url": "https://www.nba.com/game/0042500316",
-          "key_data": [
-            "GAME: Thunder at Spurs, Game 6, Thursday May 28, 2026, 8:30 p.m. ET.",
-            "MARKET: NBA playoff spread, total, moneyline and player props.",
-            "LINE / ODDS: FanDuel Research lists Spurs -3.5 and total 219.5.",
-            "IMPLIED PROBABILITY: check posted moneyline before publication.",
-            "MOVEMENT: compare the opener with current prices before tipoff.",
-            "SOURCE MIX: NBA.com game page; FanDuel Research odds context."
-          ],
-          "market_context": "Spurs -3.5; total 219.5; moneyline and props need a final pre-tip check.",
-          "implied_probability": "Check posted moneyline before publication",
-          "market": "Spurs -3.5; total 219.5; moneyline and player props",
-          "line_odds": "Spurs -3.5; total 219.5",
-          "movement_direction": "watching",
-          "why_it_matters": "San Antonio faces elimination at home in Game 6 of the Western Conference finals, with Victor Wembanyama and Shai Gilgeous-Alexander anchoring the main player context. NBA.com lists the game for 8:30 p.m. ET; FanDuel Research lists Spurs -3.5 with a 219.5 total, so the spread, total and player-prop screen deserve the first betting read.",
-          "what_to_watch": "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage.",
-          "line_movement": "MOVEMENT: compare opener to current spread, total, moneyline and props",
-          "weather": null,
-          "commence_time": "2026-05-29T00:30:00Z",
-          "priority_score": 500,
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        },
-        {
-          "league": "Futures Watch",
-          "title": "Futures Board Tracks Roster, Injury and Schedule News",
-          "headline": "Futures Board Tracks Roster, Injury and Schedule News",
-          "matchup": "Long-range market board",
-          "source": "Covers futures board",
-          "url": "https://www.covers.com/sports",
-          "key_data": [],
-          "market_context": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-          "implied_probability": "Compare futures prices before and after major news",
-          "market": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-          "line_odds": "Futures prices change after roster, schedule and injury news",
-          "movement_direction": "watching",
-          "why_it_matters": "Long-range markets can move after injuries, trades, schedule releases and playoff-path changes.",
-          "what_to_watch": "Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws.",
-          "line_movement": "Shortening prices show support; drifting prices show resistance",
-          "weather": null,
-          "game": "Long-range market board",
-          "story_angles": [
-            "Price movement",
-            "Matchup context",
-            "Public perception",
-            "Injury, lineup or weather timing"
-          ],
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        },
-        {
-          "league": "Betting Markets",
-          "title": "Late Lineup News Puts Betting Markets on Watch",
-          "headline": "Late Lineup News Puts Betting Markets on Watch",
-          "matchup": "Market watch",
-          "source": "Covers odds screen",
-          "url": "https://www.covers.com/sports",
-          "key_data": [],
-          "market_context": "Moneylines, spreads and totals watch",
-          "implied_probability": "Opener pending; implied probability will update once moneylines post",
-          "market": "Moneylines, spreads and totals watch",
-          "line_odds": "Live odds feed unavailable; check current board",
-          "movement_direction": "watching",
-          "why_it_matters": "When live prices are unavailable, the betting page should still start with sourced game context and clear pregame checks.",
-          "what_to_watch": "Watch for odds feed recovery, late injury news, lineup updates and market movement.",
-          "line_movement": "Watch opener versus current number",
-          "weather": null,
-          "game": "Market watch",
-          "story_angles": [
-            "Price movement",
-            "Matchup context",
-            "Public perception",
-            "Injury, lineup or weather timing"
-          ],
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        },
-        {
-          "league": "NBA",
-          "title": "NBA Injury Report Pushes Late Spread Watch",
-          "headline": "NBA Injury Report Pushes Late Spread Watch",
-          "matchup": "NBA board",
-          "source": "NBA official schedule",
-          "url": "https://www.nba.com/games",
-          "key_data": [],
-          "market_context": "Moneyline, spread and total",
-          "implied_probability": "Compare moneyline price to win chance",
-          "market": "Moneyline, spread and total",
-          "line_odds": "Check current NBA board before publication",
-          "movement_direction": "watching",
-          "why_it_matters": "Basketball markets often change when injury reports, rotations and rest situations update before tipoff.",
-          "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement.",
-          "line_movement": "Injury reports and rotation news can reshape the spread",
-          "weather": null,
-          "game": "NBA board",
-          "story_angles": [
-            "Price movement",
-            "Matchup context",
-            "Public perception",
-            "Injury, lineup or weather timing"
-          ],
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        },
-        {
-          "league": "NHL",
-          "title": "NHL Goalie Confirmation Shapes Market Watch",
-          "headline": "NHL Goalie Confirmation Shapes Market Watch",
-          "matchup": "NHL board",
-          "source": "Covers NHL odds",
-          "url": "https://www.covers.com/sport/hockey/nhl/odds",
-          "key_data": [],
-          "market_context": "Moneyline, puck line and total",
-          "implied_probability": "Compare goalie news to moneyline price",
-          "market": "Moneyline, puck line and total",
-          "line_odds": "Check current NHL board before publication",
-          "movement_direction": "watching",
-          "why_it_matters": "Hockey prices depend heavily on confirmed goalies, special teams, travel spots and late injury news.",
-          "what_to_watch": "Track goalie confirmation, back-to-backs, special teams, injuries and late total movement.",
-          "line_movement": "Confirmed goalies can move totals and sides",
-          "weather": null,
-          "game": "NHL board",
-          "story_angles": [
-            "Price movement",
-            "Matchup context",
-            "Public perception",
-            "Injury, lineup or weather timing"
-          ],
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        },
-        {
-          "league": "MLB",
-          "title": "MLB Totals Watch Starts With Weather and Bullpens",
-          "headline": "MLB Totals Watch Starts With Weather and Bullpens",
-          "matchup": "MLB board",
-          "source": "OddsTrader MLB odds",
-          "url": "https://www.oddstrader.com/mlb/odds/",
-          "key_data": [],
-          "market_context": "Moneyline, run line and total",
-          "implied_probability": "Compare posted moneyline to implied chance",
-          "market": "Moneyline, run line and total",
-          "line_odds": "Check current MLB board before publication",
-          "movement_direction": "watching",
-          "why_it_matters": "Baseball prices can move quickly after lineups, starting pitchers, bullpen availability and weather become clearer.",
-          "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
-          "line_movement": "Lineups, starters, bullpens and weather can move the number",
-          "weather": null,
-          "game": "MLB board",
-          "story_angles": [
-            "Price movement",
-            "Matchup context",
-            "Public perception",
-            "Injury, lineup or weather timing"
-          ],
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        },
-        {
-          "league": "NFL",
-          "title": "NFL Injury Report Shapes Spread and Total Watch",
-          "headline": "NFL Injury Report Shapes Spread and Total Watch",
-          "matchup": "NFL board",
-          "source": "CBS Sports NFL odds",
-          "url": "https://www.cbssports.com/nfl/odds/",
-          "key_data": [],
-          "market_context": "Futures, win totals, spreads and game prices",
-          "implied_probability": "Compare futures price to season outlook",
-          "market": "Futures, win totals, spreads and game prices",
-          "line_odds": "Check current NFL board before publication",
-          "movement_direction": "watching",
-          "why_it_matters": "Football markets stay active around schedule news, quarterback depth, injuries, win totals and futures positioning.",
-          "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.",
-          "line_movement": "Quarterback, injury and roster news can move the board",
-          "weather": null,
-          "game": "NFL board",
-          "story_angles": [
-            "Price movement",
-            "Matchup context",
-            "Public perception",
-            "Injury, lineup or weather timing"
-          ],
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        },
-        {
-          "league": "College Football",
-          "title": "Late Lineup News Puts Betting Markets on Watch",
-          "headline": "Late Lineup News Puts Betting Markets on Watch",
-          "matchup": "College football board",
-          "source": "Covers college football odds",
-          "url": "https://www.covers.com/sport/football/ncaaf/odds",
-          "key_data": [],
-          "market_context": "Futures, win totals and game prices",
-          "implied_probability": "Compare futures price to roster outlook",
-          "market": "Futures, win totals and game prices",
-          "line_odds": "Check current college football board before publication",
-          "movement_direction": "watching",
-          "why_it_matters": "College football prices move around transfers, quarterback battles, coaching changes and schedule strength.",
-          "what_to_watch": "Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength.",
-          "line_movement": "Transfers and quarterback battles can move prices",
-          "weather": null,
-          "game": "College football board",
-          "story_angles": [
-            "Price movement",
-            "Matchup context",
-            "Public perception",
-            "Injury, lineup or weather timing"
-          ],
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        },
-        {
-          "league": "Weather Impact",
-          "title": "Late Lineup News Puts Betting Markets on Watch",
-          "headline": "Late Lineup News Puts Betting Markets on Watch",
-          "matchup": "MLB weather board",
-          "source": "OddsTrader weather reference",
-          "url": "https://www.oddstrader.com/mlb/weather/",
-          "key_data": [],
-          "market_context": "Baseball totals and live-betting volatility",
-          "implied_probability": "Not applicable to weather-only cards",
-          "market": "Baseball totals and live-betting volatility",
-          "line_odds": "Weather can move totals before first pitch",
-          "movement_direction": "watching",
-          "why_it_matters": "Wind, rain, temperature and park shape can change baseball totals before first pitch.",
-          "what_to_watch": "Track wind direction, temperature, precipitation, roof status and park-specific run environment.",
-          "line_movement": "Wind and rain can force total movement",
-          "weather": null,
-          "game": "MLB weather board",
-          "story_angles": [
-            "Price movement",
-            "Matchup context",
-            "Public perception",
-            "Injury, lineup or weather timing"
-          ],
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        }
-      ],
-      "headline": "Game Breakdowns",
-      "market": "Market",
-      "market_context": "Market"
-    },
-    {
-      "title": "Weather Impact",
-      "cards": [
-        {
-          "title": "Late Lineup News Puts Betting Markets on Watch",
-          "headline": "Late Lineup News Puts Betting Markets on Watch",
-          "source": "Global Betting Report",
-          "url": "https://www.oddstrader.com/mlb/weather/",
-          "key_data": [
-            "Weather: 66F, wind in from center at 10 mph, rain risk 28%",
-            "Check wind direction, temperature, and precipitation before first pitch.",
-            "Outdoor parks can create meaningful total movement."
-          ],
-          "why_it_matters": "Wind is working against carry, which can matter for totals and home-run props.",
-          "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        }
-      ],
-      "headline": "Weather Impact",
-      "market": "Market",
-      "market_context": "Market"
-    },
-    {
-      "title": "Futures Watch",
-      "cards": [
-        "College Football Futures: Keep the board visible year-round because bettors track long-range prices months before kickoff.",
-        "NFL Futures: Watch schedule strength, quarterback health, roster movement and divisional prices.",
-        "NBA Futures: Track playoff paths, injury news, rest patterns and championship price movement.",
-        "NHL Futures: Watch goalie health, playoff seeding, travel spots and market adjustment.",
-        "Soccer Futures: Track title races, promotion/relegation pressure, tournament paths and transfer-window movement.",
-        "Tennis/Golf Futures: Draws, form, surface, course fit and injury news can reshape prices quickly."
-      ],
-      "headline": "Futures Watch",
-      "market": "Futures",
-      "market_context": "Futures"
-    },
-    {
-      "title": "Late Market Checks",
-      "cards": [
-        "Oklahoma City Thunder at San Antonio Spurs - Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage.",
-        "Long-range market board - Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws.",
-        "Major-sport odds screen - Monitor updated spread, total, moneyline and player-prop movement before tipoff.",
-        "NBA board - Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement.",
-        "NHL board - Track goalie confirmation, back-to-backs, special teams, injuries and late total movement.",
-        "MLB board - Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
-        "NFL board - Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.",
-        "College football board - Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength."
-      ],
-      "headline": "Late Market Checks",
-      "market": "Market",
-      "market_context": "Market"
-    },
-    {
-      "title": "Betting Toolkit",
-      "cards": [
-        "OddsTrader - betting odds, weather, line context, and matchup boards.",
-        "OddsTrader MLB Weather - wind, temperature and precipitation context for baseball totals.",
-        "The Odds API - structured odds feed for moneylines, spreads, and totals.",
-        "Action Network - market movement, betting splits, and injury context.",
-        "Covers - matchup pages, odds screens, and trend context.",
-        "Sportsbook Review - odds comparison and betting market coverage."
-      ],
-      "headline": "Betting Toolkit",
-      "market": "Market",
-      "market_context": "Market"
-    }
-  ],
-  "homepage_cards": [
-    {
-      "league": "NBA",
-      "headline": "Thunder-Spurs Total Hinges on Injury News",
-      "url": "https://www.nba.com/game/0042500316",
-      "matchup": "Oklahoma City Thunder at San Antonio Spurs",
-      "market_context": "Spurs -3.5; total 219.5; moneyline and props need a final pre-tip check.",
-      "implied_probability": "Check posted moneyline before publication",
-      "line_movement": "MOVEMENT: compare opener to current spread, total, moneyline and props",
+      "title": "Source Headline Watch",
+      "headline": "Books wait on prices as the board takes shape, with moneylines, spreads, totals and late market movement giving bettors the first real read.",
+      "snapshot": "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored for betting-market movement.",
       "key_data": [
-        "GAME: Thunder at Spurs, Game 6, Thursday May 28, 2026, 8:30 p.m. ET.",
-        "MARKET: NBA playoff spread, total, moneyline and player props.",
-        "LINE / ODDS: FanDuel Research lists Spurs -3.5 and total 219.5.",
-        "IMPLIED PROBABILITY: check posted moneyline before publication.",
-        "MOVEMENT: compare the opener with current prices before tipoff.",
-        "SOURCE MIX: NBA.com game page; FanDuel Research odds context."
+        "Market board is active across available leagues."
       ],
-      "why_it_matters": "San Antonio faces elimination at home in Game 6 of the Western Conference finals, with Victor Wembanyama and Shai Gilgeous-Alexander anchoring the main player context. NBA.com lists the game for 8:30 p.m. ET; FanDuel Research lists Spurs -3.5 with a 219.5 total, so the spread, total and player-prop screen deserve the first betting read.",
-      "what_to_watch": "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage.",
-      "market": "Total",
-      "title": "Thunder-Spurs Total Hinges on Injury News",
-      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
+      "what_the_odds_mean": [
+        "Line movement matters most when it connects to injuries, weather, roster news, or sportsbook adjustment."
+      ],
+      "what_to_watch": [
+        "Track favorites getting more expensive or underdogs drawing late money.",
+        "Watch totals in weather-sensitive games.",
+        "Compare sportsbook movement before treating one number as the full market."
+      ],
+      "source": "betting_odds_report.txt",
+      "updated_at": "2026-06-19 12:20:58 PM ET"
     },
     {
-      "league": "Futures Watch",
-      "headline": "Futures Board Tracks Roster, Injury and Schedule News",
-      "url": "https://www.covers.com/sports",
-      "matchup": "Long-range market board",
-      "market_context": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-      "implied_probability": "Compare futures prices before and after major news",
-      "line_movement": "Shortening prices show support; drifting prices show resistance",
-      "key_data": [],
-      "why_it_matters": "Long-range markets can move after injuries, trades, schedule releases and playoff-path changes.",
-      "what_to_watch": "Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws.",
-      "game": "Long-range market board",
-      "market": "NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures",
-      "line_odds": "Futures prices change after roster, schedule and injury news",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
+      "title": "Betting Reporting Context",
+      "headline": "Books wait on prices as the board takes shape, with moneylines, spreads, totals and late market movement giving bettors the first real read.",
+      "snapshot": "Track line movement, injury news, starting lineup changes, pitching confirmations, weather, rest advantages, and late market steam before making any betting decision.",
+      "key_data": [
+        "Betting context requires line movement plus supporting news."
       ],
-      "title": "Futures Board Tracks Roster, Injury and Schedule News",
-      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-    },
-    {
-      "league": "Betting Markets",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "url": "https://www.covers.com/sports",
-      "matchup": "Market watch",
-      "market_context": "Moneylines, spreads and totals watch",
-      "implied_probability": "Opener pending; implied probability will update once moneylines post",
-      "line_movement": "Watch opener versus current number",
-      "key_data": [],
-      "why_it_matters": "When live prices are unavailable, the betting page should still start with sourced game context and clear pregame checks.",
-      "what_to_watch": "Watch for odds feed recovery, late injury news, lineup updates and market movement.",
-      "game": "Market watch",
-      "market": "Moneylines, spreads and totals watch",
-      "line_odds": "Live odds feed unavailable; check current board",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
+      "what_the_odds_mean": [
+        "A number alone is not a recommendation. Context explains why the market may be moving."
       ],
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-    },
-    {
-      "league": "NBA",
-      "headline": "NBA Injury Report Pushes Late Spread Watch",
-      "url": "https://www.nba.com/games",
-      "matchup": "NBA board",
-      "market_context": "Moneyline, spread and total",
-      "implied_probability": "Compare moneyline price to win chance",
-      "line_movement": "Injury reports and rotation news can reshape the spread",
-      "key_data": [],
-      "why_it_matters": "Basketball markets often change when injury reports, rotations and rest situations update before tipoff.",
-      "what_to_watch": "Track official injury reports, minutes limits, rest spots, matchup changes and late spread movement.",
-      "game": "NBA board",
-      "market": "Moneyline, spread and total",
-      "line_odds": "Check current NBA board before publication",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
+      "what_to_watch": [
+        "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
       ],
-      "title": "NBA Injury Report Pushes Late Spread Watch",
-      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-    },
-    {
-      "league": "NHL",
-      "headline": "NHL Goalie Confirmation Shapes Market Watch",
-      "url": "https://www.covers.com/sport/hockey/nhl/odds",
-      "matchup": "NHL board",
-      "market_context": "Moneyline, puck line and total",
-      "implied_probability": "Compare goalie news to moneyline price",
-      "line_movement": "Confirmed goalies can move totals and sides",
-      "key_data": [],
-      "why_it_matters": "Hockey prices depend heavily on confirmed goalies, special teams, travel spots and late injury news.",
-      "what_to_watch": "Track goalie confirmation, back-to-backs, special teams, injuries and late total movement.",
-      "game": "NHL board",
-      "market": "Moneyline, puck line and total",
-      "line_odds": "Check current NHL board before publication",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ],
-      "title": "NHL Goalie Confirmation Shapes Market Watch",
-      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-    },
-    {
-      "league": "MLB",
-      "headline": "MLB Totals Watch Starts With Weather and Bullpens",
-      "url": "https://www.oddstrader.com/mlb/odds/",
-      "matchup": "MLB board",
-      "market_context": "Moneyline, run line and total",
-      "implied_probability": "Compare posted moneyline to implied chance",
-      "line_movement": "Lineups, starters, bullpens and weather can move the number",
-      "key_data": [],
-      "why_it_matters": "Baseball prices can move quickly after lineups, starting pitchers, bullpen availability and weather become clearer.",
-      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
-      "game": "MLB board",
-      "market": "Moneyline, run line and total",
-      "line_odds": "Check current MLB board before publication",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ],
-      "title": "MLB Totals Watch Starts With Weather and Bullpens",
-      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-    },
-    {
-      "league": "NFL",
-      "headline": "NFL Injury Report Shapes Spread and Total Watch",
-      "url": "https://www.cbssports.com/nfl/odds/",
-      "matchup": "NFL board",
-      "market_context": "Futures, win totals, spreads and game prices",
-      "implied_probability": "Compare futures price to season outlook",
-      "line_movement": "Quarterback, injury and roster news can move the board",
-      "key_data": [],
-      "why_it_matters": "Football markets stay active around schedule news, quarterback depth, injuries, win totals and futures positioning.",
-      "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.",
-      "game": "NFL board",
-      "market": "Futures, win totals, spreads and game prices",
-      "line_odds": "Check current NFL board before publication",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ],
-      "title": "NFL Injury Report Shapes Spread and Total Watch",
-      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-    },
-    {
-      "league": "College Football",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "url": "https://www.covers.com/sport/football/ncaaf/odds",
-      "matchup": "College football board",
-      "market_context": "Futures, win totals and game prices",
-      "implied_probability": "Compare futures price to roster outlook",
-      "line_movement": "Transfers and quarterback battles can move prices",
-      "key_data": [],
-      "why_it_matters": "College football prices move around transfers, quarterback battles, coaching changes and schedule strength.",
-      "what_to_watch": "Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength.",
-      "game": "College football board",
-      "market": "Futures, win totals and game prices",
-      "line_odds": "Check current college football board before publication",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ],
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-    },
-    {
-      "league": "Weather Impact",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "url": "https://www.oddstrader.com/mlb/weather/",
-      "matchup": "MLB weather board",
-      "market_context": "Baseball totals and live-betting volatility",
-      "implied_probability": "Not applicable to weather-only cards",
-      "line_movement": "Wind and rain can force total movement",
-      "key_data": [],
-      "why_it_matters": "Wind, rain, temperature and park shape can change baseball totals before first pitch.",
-      "what_to_watch": "Track wind direction, temperature, precipitation, roof status and park-specific run environment.",
-      "game": "MLB weather board",
-      "market": "Baseball totals and live-betting volatility",
-      "line_odds": "Weather can move totals before first pitch",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ],
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
+      "source": "GSR betting desk",
+      "updated_at": "2026-06-19 12:20:58 PM ET"
     }
-  ],
-  "editorial_standard": {
-    "label": "GSR Network Editorial Standard",
-    "text": "No gambling advice or picks. Prices, injuries, lineups, weather and fantasy usage are organized for human betting context."
-  }
+  ]
 }

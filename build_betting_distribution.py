@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 import re
@@ -59,7 +59,7 @@ def clean_line(text: str) -> str:
     text = str(text or "").strip()
     text = clean_team_artifacts(text)
     text = normalize_bookmaker(text)
-    text = text.replace("—", "-")
+    text = text.replace("â€”", "-")
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
@@ -484,7 +484,7 @@ def build_support_cards(text: str, current_stamp: str) -> list[dict]:
 
     return [
         {
-            "title": "Market Watch",
+            "title": "Source Headline Watch",
             "headline": headline,
             "snapshot": (
                 "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored "
@@ -503,8 +503,8 @@ def build_support_cards(text: str, current_stamp: str) -> list[dict]:
             "updated_at": current_stamp,
         },
         {
-            "title": "Betting Context",
-            "headline": "What bettors should monitor today",
+            "title": "Betting Reporting Context",
+            "headline": headline,
             "snapshot": (
                 "Track line movement, injury news, starting lineup changes, pitching confirmations, "
                 "weather, rest advantages, and late market steam before making any betting decision."
@@ -615,3 +615,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
