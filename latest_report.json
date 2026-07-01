@@ -6,9 +6,9 @@
   "tagline": "Built for journalists, by a journalist.",
   "headline": "Thunder-Spurs Total Hinges on Injury News",
   "snapshot": "Fast odds context for moneylines, spreads, totals, implied probability, fantasy angles, weather and late price movement.",
-  "updated_at": "2026-07-01 03:12 PM ET",
-  "generated_at": "2026-07-01 03:12 PM ET",
-  "generated_utc": "2026-07-01T19:12:57.656294+00:00",
+  "updated_at": "2026-07-01 04:56 PM ET",
+  "generated_at": "2026-07-01 04:56 PM ET",
+  "generated_utc": "2026-07-01T20:56:25.498652+00:00",
   "source_mode": "odds-market interpretation engine with line movement, futures watch, weather context, and newsroom-ready betting explanation",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "",
@@ -50,13 +50,13 @@
   ],
   "key_storylines": [
     "NBA: Spurs-Thunder Game 6 Drives Tonight's Betting Board",
-    "MLB: Blue Jays Total Gets Weather Check",
     "MLB: Phillies Total Gets Weather Check",
     "MLB: Braves Total Gets Weather Check",
+    "MLB: Rays Total Gets Weather Check",
+    "MLB: Astros Price Shortens to -144",
     "NFL: Seahawks Price Shortens to -198",
     "NFL: Rams Price Shortens to -180",
-    "NFL: Steelers Price Eases Before Start",
-    "NFL: Ravens Price Eases Before Start"
+    "NFL: Steelers Price Eases Before Start"
   ],
   "live_newsroom": [
     {
@@ -87,30 +87,6 @@
       "key": "betting_market_2",
       "title": "Late Lineup News Puts Betting Markets on Watch",
       "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -115 moneyline implies roughly 53.5% before vig. Toronto Blue Jays is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/mlb/odds/",
-      "key_data": [],
-      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -115 moneyline implies roughly 53.5% before vig. Toronto Blue Jays is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
-      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
-      "matchup": "MLB board",
-      "game": "MLB board",
-      "market_context": "Moneyline, run line and total",
-      "market": "Moneyline, run line and total",
-      "line_odds": "Check current MLB board before publication",
-      "implied_probability": "Compare posted moneyline to implied chance",
-      "line_movement": "Lineups, starters, bullpens and weather can move the number",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "betting_market_3",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
       "snapshot": "The market gives Philadelphia Phillies a modest edge, which makes line movement and book-to-book differences worth checking. A -144 moneyline implies roughly 59.0% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "source": "DraftKings",
       "url": "https://www.cbssports.com/mlb/odds/",
@@ -132,14 +108,38 @@
       ]
     },
     {
-      "key": "betting_market_4",
+      "key": "betting_market_3",
       "title": "Late Lineup News Puts Betting Markets on Watch",
       "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -136 moneyline implies roughly 57.6% before vig. Atlanta Braves is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "snapshot": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -141 moneyline implies roughly 58.5% before vig. Atlanta Braves is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
       "source": "DraftKings",
       "url": "https://www.cbssports.com/mlb/odds/",
       "key_data": [],
-      "why_it_matters": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -136 moneyline implies roughly 57.6% before vig. Atlanta Braves is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "why_it_matters": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -141 moneyline implies roughly 58.5% before vig. Atlanta Braves is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
+      "matchup": "MLB board",
+      "game": "MLB board",
+      "market_context": "Moneyline, run line and total",
+      "market": "Moneyline, run line and total",
+      "line_odds": "Check current MLB board before publication",
+      "implied_probability": "Compare posted moneyline to implied chance",
+      "line_movement": "Lineups, starters, bullpens and weather can move the number",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
+    },
+    {
+      "key": "betting_market_4",
+      "title": "Late Lineup News Puts Betting Markets on Watch",
+      "headline": "Late Lineup News Puts Betting Markets on Watch",
+      "snapshot": "The market gives Tampa Bay Rays a modest edge, which makes line movement and book-to-book differences worth checking. A -143 moneyline implies roughly 58.8% before vig. Tampa Bay Rays is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+      "source": "DraftKings",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "key_data": [],
+      "why_it_matters": "The market gives Tampa Bay Rays a modest edge, which makes line movement and book-to-book differences worth checking. A -143 moneyline implies roughly 58.8% before vig. Tampa Bay Rays is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
       "matchup": "MLB board",
       "game": "MLB board",
@@ -157,6 +157,30 @@
     },
     {
       "key": "betting_market_5",
+      "title": "Late Lineup News Puts Betting Markets on Watch",
+      "headline": "Late Lineup News Puts Betting Markets on Watch",
+      "snapshot": "The market gives Houston Astros a modest edge, which makes line movement and book-to-book differences worth checking. A -144 moneyline implies roughly 59.0% before vig. Houston Astros is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+      "source": "DraftKings",
+      "url": "https://www.oddstrader.com/mlb/odds/",
+      "key_data": [],
+      "why_it_matters": "The market gives Houston Astros a modest edge, which makes line movement and book-to-book differences worth checking. A -144 moneyline implies roughly 59.0% before vig. Houston Astros is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
+      "matchup": "MLB board",
+      "game": "MLB board",
+      "market_context": "Moneyline, run line and total",
+      "market": "Moneyline, run line and total",
+      "line_odds": "Check current MLB board before publication",
+      "implied_probability": "Compare posted moneyline to implied chance",
+      "line_movement": "Lineups, starters, bullpens and weather can move the number",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
+    },
+    {
+      "key": "betting_market_6",
       "title": "Late Lineup News Puts Betting Markets on Watch",
       "headline": "Late Lineup News Puts Betting Markets on Watch",
       "snapshot": "The market leans clearly toward Seattle Seahawks; injury, pitching, weather or lineup news can still move the number. A -198 moneyline implies roughly 66.4% before vig. Seattle Seahawks is getting more expensive, which usually points to stronger support or new information behind the favorite.",
@@ -180,7 +204,7 @@
       ]
     },
     {
-      "key": "betting_market_6",
+      "key": "betting_market_7",
       "title": "Late Lineup News Puts Betting Markets on Watch",
       "headline": "Late Lineup News Puts Betting Markets on Watch",
       "snapshot": "The market leans clearly toward Los Angeles Rams; injury, pitching, weather or lineup news can still move the number. A -180 moneyline implies roughly 64.3% before vig. Los Angeles Rams is getting more expensive, which usually points to stronger support or new information behind the favorite.",
@@ -204,7 +228,7 @@
       ]
     },
     {
-      "key": "betting_market_7",
+      "key": "betting_market_8",
       "title": "Late Lineup News Puts Betting Markets on Watch",
       "headline": "Late Lineup News Puts Betting Markets on Watch",
       "snapshot": "The market leans clearly toward Pittsburgh Steelers; injury, pitching, weather or lineup news can still move the number. A -170 moneyline implies roughly 63.0% before vig. Pittsburgh Steelers is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price.",
@@ -212,30 +236,6 @@
       "url": "https://www.covers.com/sport/football/nfl/odds",
       "key_data": [],
       "why_it_matters": "The market leans clearly toward Pittsburgh Steelers; injury, pitching, weather or lineup news can still move the number. A -170 moneyline implies roughly 63.0% before vig. Pittsburgh Steelers is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price.",
-      "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.",
-      "matchup": "NFL board",
-      "game": "NFL board",
-      "market_context": "Futures, win totals, spreads and game prices",
-      "market": "Futures, win totals, spreads and game prices",
-      "line_odds": "Check current NFL board before publication",
-      "implied_probability": "Compare futures price to season outlook",
-      "line_movement": "Quarterback, injury and roster news can move the board",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "betting_market_8",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "The market leans clearly toward Baltimore Ravens; injury, pitching, weather or lineup news can still move the number. A -192 moneyline implies roughly 65.8% before vig. Baltimore Ravens is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price.",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/nfl/odds/",
-      "key_data": [],
-      "why_it_matters": "The market leans clearly toward Baltimore Ravens; injury, pitching, weather or lineup news can still move the number. A -192 moneyline implies roughly 65.8% before vig. Baltimore Ravens is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price.",
       "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.",
       "matchup": "NFL board",
       "game": "NFL board",
@@ -281,30 +281,6 @@
       "key": "editor_signal_2",
       "title": "Late Lineup News Puts Betting Markets on Watch",
       "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "MOVEMENT: Open -124 -> Current -115 (eased for Toronto Blue Jays)",
-      "source": "DraftKings",
-      "url": "https://www.oddstrader.com/mlb/odds/",
-      "key_data": [],
-      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -115 moneyline implies roughly 53.5% before vig. Toronto Blue Jays is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
-      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
-      "matchup": "MLB board",
-      "game": "MLB board",
-      "market_context": "Moneyline, run line and total",
-      "market": "Moneyline, run line and total",
-      "line_odds": "Check current MLB board before publication",
-      "implied_probability": "Compare posted moneyline to implied chance",
-      "line_movement": "Lineups, starters, bullpens and weather can move the number",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
-    },
-    {
-      "key": "editor_signal_3",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
       "snapshot": "MOVEMENT: Open -159 -> Current -144 (eased for Philadelphia Phillies)",
       "source": "DraftKings",
       "url": "https://www.cbssports.com/mlb/odds/",
@@ -326,14 +302,38 @@
       ]
     },
     {
-      "key": "editor_signal_4",
+      "key": "editor_signal_3",
       "title": "Late Lineup News Puts Betting Markets on Watch",
       "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "MOVEMENT: Open -120 -> Current -136 (shortened for Atlanta Braves)",
+      "snapshot": "MOVEMENT: Open -125 -> Current -141 (shortened for Atlanta Braves)",
       "source": "DraftKings",
       "url": "https://www.cbssports.com/mlb/odds/",
       "key_data": [],
-      "why_it_matters": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -136 moneyline implies roughly 57.6% before vig. Atlanta Braves is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "why_it_matters": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -141 moneyline implies roughly 58.5% before vig. Atlanta Braves is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
+      "matchup": "MLB board",
+      "game": "MLB board",
+      "market_context": "Moneyline, run line and total",
+      "market": "Moneyline, run line and total",
+      "line_odds": "Check current MLB board before publication",
+      "implied_probability": "Compare posted moneyline to implied chance",
+      "line_movement": "Lineups, starters, bullpens and weather can move the number",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
+    },
+    {
+      "key": "editor_signal_4",
+      "title": "Late Lineup News Puts Betting Markets on Watch",
+      "headline": "Late Lineup News Puts Betting Markets on Watch",
+      "snapshot": "MOVEMENT: Open -133 -> Current -143 (shortened for Tampa Bay Rays)",
+      "source": "DraftKings",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "key_data": [],
+      "why_it_matters": "The market gives Tampa Bay Rays a modest edge, which makes line movement and book-to-book differences worth checking. A -143 moneyline implies roughly 58.8% before vig. Tampa Bay Rays is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
       "matchup": "MLB board",
       "game": "MLB board",
@@ -351,6 +351,30 @@
     },
     {
       "key": "editor_signal_5",
+      "title": "Late Lineup News Puts Betting Markets on Watch",
+      "headline": "Late Lineup News Puts Betting Markets on Watch",
+      "snapshot": "MOVEMENT: Open -134 -> Current -144 (shortened for Houston Astros)",
+      "source": "DraftKings",
+      "url": "https://www.oddstrader.com/mlb/odds/",
+      "key_data": [],
+      "why_it_matters": "The market gives Houston Astros a modest edge, which makes line movement and book-to-book differences worth checking. A -144 moneyline implies roughly 59.0% before vig. Houston Astros is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+      "what_to_watch": "Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.",
+      "matchup": "MLB board",
+      "game": "MLB board",
+      "market_context": "Moneyline, run line and total",
+      "market": "Moneyline, run line and total",
+      "line_odds": "Check current MLB board before publication",
+      "implied_probability": "Compare posted moneyline to implied chance",
+      "line_movement": "Lineups, starters, bullpens and weather can move the number",
+      "story_angles": [
+        "Price movement",
+        "Matchup context",
+        "Public perception",
+        "Injury, lineup or weather timing"
+      ]
+    },
+    {
+      "key": "editor_signal_6",
       "title": "Late Lineup News Puts Betting Markets on Watch",
       "headline": "Late Lineup News Puts Betting Markets on Watch",
       "snapshot": "MOVEMENT: Open -192 -> Current -198 (shortened for Seattle Seahawks)",
@@ -372,30 +396,6 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ]
-    },
-    {
-      "key": "editor_signal_6",
-      "title": "Late Lineup News Puts Betting Markets on Watch",
-      "headline": "Late Lineup News Puts Betting Markets on Watch",
-      "snapshot": "MOVEMENT: Open -170 -> Current -180 (shortened for Los Angeles Rams)",
-      "source": "DraftKings",
-      "url": "https://www.covers.com/sport/football/nfl/odds",
-      "key_data": [],
-      "why_it_matters": "The market leans clearly toward Los Angeles Rams; injury, pitching, weather or lineup news can still move the number. A -180 moneyline implies roughly 64.3% before vig. Los Angeles Rams is getting more expensive, which usually points to stronger support or new information behind the favorite.",
-      "what_to_watch": "Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.",
-      "matchup": "NFL board",
-      "game": "NFL board",
-      "market_context": "Futures, win totals, spreads and game prices",
-      "market": "Futures, win totals, spreads and game prices",
-      "line_odds": "Check current NFL board before publication",
-      "implied_probability": "Compare futures price to season outlook",
-      "line_movement": "Quarterback, injury and roster news can move the board",
-      "story_angles": [
-        "Price movement",
-        "Matchup context",
-        "Public perception",
-        "Injury, lineup or weather timing"
-      ]
     }
   ],
   "sections": [
@@ -403,13 +403,13 @@
       "title": "Market Overview",
       "cards": [
         "Spurs-Thunder Game 6 Drives Tonight's Betting Board | MARKET: NBA playoff spread, total, moneyline and player props. | IMPLIED PROBABILITY: check posted moneyline before publication. | MOVEMENT: compare opener to current spread, total, moneyline and props",
-        "Blue Jays Total Gets Weather Check | MARKET: Toronto Blue Jays favored over New York Mets | IMPLIED PROBABILITY: Toronto Blue Jays 53.5% before vig | MOVEMENT: Open -124 -> Current -115 (eased for Toronto Blue Jays)",
         "Phillies Total Gets Weather Check | MARKET: Philadelphia Phillies favored over Pittsburgh Pirates | IMPLIED PROBABILITY: Philadelphia Phillies 59.0% before vig | MOVEMENT: Open -159 -> Current -144 (eased for Philadelphia Phillies)",
-        "Braves Total Gets Weather Check | MARKET: Atlanta Braves favored over St. Louis Cardinals | IMPLIED PROBABILITY: Atlanta Braves 57.6% before vig | MOVEMENT: Open -120 -> Current -136 (shortened for Atlanta Braves)",
+        "Braves Total Gets Weather Check | MARKET: Atlanta Braves favored over St. Louis Cardinals | IMPLIED PROBABILITY: Atlanta Braves 58.5% before vig | MOVEMENT: Open -125 -> Current -141 (shortened for Atlanta Braves)",
+        "Rays Total Gets Weather Check | MARKET: Tampa Bay Rays favored over Kansas City Royals | IMPLIED PROBABILITY: Tampa Bay Rays 58.8% before vig | MOVEMENT: Open -133 -> Current -143 (shortened for Tampa Bay Rays)",
+        "Astros Price Shortens to -144 | MARKET: Houston Astros favored over Minnesota Twins | IMPLIED PROBABILITY: Houston Astros 59.0% before vig | MOVEMENT: Open -134 -> Current -144 (shortened for Houston Astros)",
         "Seahawks Price Shortens to -198 | MARKET: Seattle Seahawks favored over New England Patriots | IMPLIED PROBABILITY: Seattle Seahawks 66.4% before vig | MOVEMENT: Open -192 -> Current -198 (shortened for Seattle Seahawks)",
         "Rams Price Shortens to -180 | MARKET: Los Angeles Rams favored over San Francisco 49ers | IMPLIED PROBABILITY: Los Angeles Rams 64.3% before vig | MOVEMENT: Open -170 -> Current -180 (shortened for Los Angeles Rams)",
-        "Steelers Price Eases Before Start | MARKET: Pittsburgh Steelers favored over Atlanta Falcons | IMPLIED PROBABILITY: Pittsburgh Steelers 63.0% before vig | MOVEMENT: Open -180 -> Current -170 (eased for Pittsburgh Steelers)",
-        "Ravens Price Eases Before Start | MARKET: Baltimore Ravens favored over Indianapolis Colts | IMPLIED PROBABILITY: Baltimore Ravens 65.8% before vig | MOVEMENT: Open -206 -> Current -192 (eased for Baltimore Ravens)"
+        "Steelers Price Eases Before Start | MARKET: Pittsburgh Steelers favored over Atlanta Falcons | IMPLIED PROBABILITY: Pittsburgh Steelers 63.0% before vig | MOVEMENT: Open -180 -> Current -170 (eased for Pittsburgh Steelers)"
       ],
       "headline": "Market Overview",
       "market": "Market",
@@ -419,13 +419,13 @@
       "title": "Line Movement Signals",
       "cards": [
         "Oklahoma City Thunder at San Antonio Spurs - MOVEMENT: compare opener to current spread, total, moneyline and props",
-        "New York Mets at Toronto Blue Jays - MOVEMENT: Open -124 -> Current -115 (eased for Toronto Blue Jays)",
         "Pittsburgh Pirates at Philadelphia Phillies - MOVEMENT: Open -159 -> Current -144 (eased for Philadelphia Phillies)",
-        "St. Louis Cardinals at Atlanta Braves - MOVEMENT: Open -120 -> Current -136 (shortened for Atlanta Braves)",
+        "St. Louis Cardinals at Atlanta Braves - MOVEMENT: Open -125 -> Current -141 (shortened for Atlanta Braves)",
+        "Tampa Bay Rays at Kansas City Royals - MOVEMENT: Open -133 -> Current -143 (shortened for Tampa Bay Rays)",
+        "Minnesota Twins at Houston Astros - MOVEMENT: Open -134 -> Current -144 (shortened for Houston Astros)",
         "New England Patriots at Seattle Seahawks - MOVEMENT: Open -192 -> Current -198 (shortened for Seattle Seahawks)",
         "San Francisco 49ers at Los Angeles Rams - MOVEMENT: Open -170 -> Current -180 (shortened for Los Angeles Rams)",
-        "Atlanta Falcons at Pittsburgh Steelers - MOVEMENT: Open -180 -> Current -170 (eased for Pittsburgh Steelers)",
-        "Baltimore Ravens at Indianapolis Colts - MOVEMENT: Open -206 -> Current -192 (eased for Baltimore Ravens)"
+        "Atlanta Falcons at Pittsburgh Steelers - MOVEMENT: Open -180 -> Current -170 (eased for Pittsburgh Steelers)"
       ],
       "headline": "Line Movement Signals",
       "market": "Market",
@@ -465,40 +465,6 @@
         },
         {
           "league": "MLB",
-          "title": "Mets-Blue Jays Total Starts With Pitching Matchup",
-          "headline": "Mets-Blue Jays Total Starts With Pitching Matchup",
-          "matchup": "New York Mets at Toronto Blue Jays",
-          "source": "DraftKings",
-          "url": "https://www.oddstrader.com/mlb/odds/",
-          "key_data": [
-            "GAME: New York Mets at Toronto Blue Jays",
-            "MARKET: Toronto Blue Jays favored over New York Mets",
-            "LINE / ODDS: Toronto Blue Jays -115 | New York Mets -105",
-            "IMPLIED PROBABILITY: Toronto Blue Jays 53.5% before vig",
-            "MOVEMENT: Open -124 -> Current -115 (eased for Toronto Blue Jays)",
-            "SPREAD: New York Mets -1.5 (+158) | Toronto Blue Jays +1.5 (-193)",
-            "TOTAL: Over 8.5 (-119) | Under 8.5 (-101)",
-            "BOOK: DraftKings",
-            "WEATHER: 72F, wind out to center at 16 mph, rain risk 19%"
-          ],
-          "market_context": "Toronto Blue Jays -115 vs New York Mets -105",
-          "implied_probability": "Toronto Blue Jays 53.5%",
-          "market": "Toronto Blue Jays -115 vs New York Mets -105",
-          "line_odds": "Toronto Blue Jays -115 | New York Mets -105",
-          "movement_direction": "eased",
-          "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -115 moneyline implies roughly 53.5% before vig. Toronto Blue Jays is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
-          "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -124 -> Current -115 (eased for Toronto Blue Jays)",
-          "weather": {
-            "summary": "72F, wind out to center at 16 mph, rain risk 19%",
-            "impact": "Wind is helping carry, so the total deserves a closer look before first pitch."
-          },
-          "commence_time": "2026-07-01T19:25:00Z",
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        },
-        {
-          "league": "MLB",
           "title": "Pirates-Phillies Total Starts With Pitching Matchup",
           "headline": "Pirates-Phillies Total Starts With Pitching Matchup",
           "matchup": "Pittsburgh Pirates at Philadelphia Phillies",
@@ -510,8 +476,8 @@
             "LINE / ODDS: Philadelphia Phillies -144 | Pittsburgh Pirates +119",
             "IMPLIED PROBABILITY: Philadelphia Phillies 59.0% before vig",
             "MOVEMENT: Open -159 -> Current -144 (eased for Philadelphia Phillies)",
-            "SPREAD: Philadelphia Phillies -1.5 (+148) | Pittsburgh Pirates +1.5 (-179)",
-            "TOTAL: Over 8 (-113) | Under 8 (-106)",
+            "SPREAD: Philadelphia Phillies -1.5 (+148) | Pittsburgh Pirates +1.5 (-180)",
+            "TOTAL: Over 8 (-114) | Under 8 (-106)",
             "BOOK: DraftKings",
             "WEATHER: 68F, wind out to right at 12 mph, rain risk 45%"
           ],
@@ -541,27 +507,95 @@
           "key_data": [
             "GAME: St. Louis Cardinals at Atlanta Braves",
             "MARKET: Atlanta Braves favored over St. Louis Cardinals",
-            "LINE / ODDS: Atlanta Braves -136 | St. Louis Cardinals +113",
-            "IMPLIED PROBABILITY: Atlanta Braves 57.6% before vig",
-            "MOVEMENT: Open -120 -> Current -136 (shortened for Atlanta Braves)",
+            "LINE / ODDS: Atlanta Braves -141 | St. Louis Cardinals +117",
+            "IMPLIED PROBABILITY: Atlanta Braves 58.5% before vig",
+            "MOVEMENT: Open -125 -> Current -141 (shortened for Atlanta Braves)",
             "SPREAD: Atlanta Braves -1.5 (+148) | St. Louis Cardinals +1.5 (-179)",
             "TOTAL: Over 9 (-116) | Under 9 (-104)",
             "BOOK: DraftKings",
             "WEATHER: 61F, wind in from center at 9 mph, rain risk 43%"
           ],
-          "market_context": "Atlanta Braves -136 vs St. Louis Cardinals +113",
-          "implied_probability": "Atlanta Braves 57.6%",
-          "market": "Atlanta Braves -136 vs St. Louis Cardinals +113",
-          "line_odds": "Atlanta Braves -136 | St. Louis Cardinals +113",
+          "market_context": "Atlanta Braves -141 vs St. Louis Cardinals +117",
+          "implied_probability": "Atlanta Braves 58.5%",
+          "market": "Atlanta Braves -141 vs St. Louis Cardinals +117",
+          "line_odds": "Atlanta Braves -141 | St. Louis Cardinals +117",
           "movement_direction": "shortened",
-          "why_it_matters": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -136 moneyline implies roughly 57.6% before vig. Atlanta Braves is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+          "why_it_matters": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -141 moneyline implies roughly 58.5% before vig. Atlanta Braves is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
           "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -120 -> Current -136 (shortened for Atlanta Braves)",
+          "line_movement": "MOVEMENT: Open -125 -> Current -141 (shortened for Atlanta Braves)",
           "weather": {
             "summary": "61F, wind in from center at 9 mph, rain risk 43%",
             "impact": "Rain risk can create bullpen stress, delay risk and live-betting volatility."
           },
           "commence_time": "2026-07-01T23:16:00Z",
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
+        },
+        {
+          "league": "MLB",
+          "title": "Rays-Royals Total Starts With Pitching Matchup",
+          "headline": "Rays-Royals Total Starts With Pitching Matchup",
+          "matchup": "Tampa Bay Rays at Kansas City Royals",
+          "source": "DraftKings",
+          "url": "https://www.covers.com/sport/baseball/mlb/odds",
+          "key_data": [
+            "GAME: Tampa Bay Rays at Kansas City Royals",
+            "MARKET: Tampa Bay Rays favored over Kansas City Royals",
+            "LINE / ODDS: Kansas City Royals +119 | Tampa Bay Rays -143",
+            "IMPLIED PROBABILITY: Tampa Bay Rays 58.8% before vig",
+            "MOVEMENT: Open -133 -> Current -143 (shortened for Tampa Bay Rays)",
+            "SPREAD: Kansas City Royals +1.5 (-131) | Tampa Bay Rays -1.5 (+108)",
+            "TOTAL: Over 10.5 (-110) | Under 10.5 (-109)",
+            "BOOK: DraftKings",
+            "WEATHER: 58F, wind out to left at 13 mph, rain risk 38%"
+          ],
+          "market_context": "Tampa Bay Rays -143 vs Kansas City Royals +119",
+          "implied_probability": "Tampa Bay Rays 58.8%",
+          "market": "Tampa Bay Rays -143 vs Kansas City Royals +119",
+          "line_odds": "Kansas City Royals +119 | Tampa Bay Rays -143",
+          "movement_direction": "shortened",
+          "why_it_matters": "The market gives Tampa Bay Rays a modest edge, which makes line movement and book-to-book differences worth checking. A -143 moneyline implies roughly 58.8% before vig. Tampa Bay Rays is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+          "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+          "line_movement": "MOVEMENT: Open -133 -> Current -143 (shortened for Tampa Bay Rays)",
+          "weather": {
+            "summary": "58F, wind out to left at 13 mph, rain risk 38%",
+            "impact": "Wind is helping carry, so the total deserves a closer look before first pitch."
+          },
+          "commence_time": "2026-07-01T23:41:00Z",
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
+        },
+        {
+          "league": "MLB",
+          "title": "Twins-Astros Total Starts With Pitching Matchup",
+          "headline": "Twins-Astros Total Starts With Pitching Matchup",
+          "matchup": "Minnesota Twins at Houston Astros",
+          "source": "DraftKings",
+          "url": "https://www.oddstrader.com/mlb/odds/",
+          "key_data": [
+            "GAME: Minnesota Twins at Houston Astros",
+            "MARKET: Houston Astros favored over Minnesota Twins",
+            "LINE / ODDS: Houston Astros -144 | Minnesota Twins +119",
+            "IMPLIED PROBABILITY: Houston Astros 59.0% before vig",
+            "MOVEMENT: Open -134 -> Current -144 (shortened for Houston Astros)",
+            "SPREAD: Houston Astros -1.5 (+149) | Minnesota Twins +1.5 (-181)",
+            "TOTAL: Over 8.5 (-108) | Under 8.5 (-112)",
+            "BOOK: DraftKings",
+            "WEATHER: 71F, wind out to center at 5 mph, rain risk 21%"
+          ],
+          "market_context": "Houston Astros -144 vs Minnesota Twins +119",
+          "implied_probability": "Houston Astros 59.0%",
+          "market": "Houston Astros -144 vs Minnesota Twins +119",
+          "line_odds": "Houston Astros -144 | Minnesota Twins +119",
+          "movement_direction": "shortened",
+          "why_it_matters": "The market gives Houston Astros a modest edge, which makes line movement and book-to-book differences worth checking. A -144 moneyline implies roughly 59.0% before vig. Houston Astros is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+          "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+          "line_movement": "MOVEMENT: Open -134 -> Current -144 (shortened for Houston Astros)",
+          "weather": {
+            "summary": "71F, wind out to center at 5 mph, rain risk 21%",
+            "impact": "Weather is not extreme, but the total still needs a final check before lineups lock."
+          },
+          "commence_time": "2026-07-02T00:11:00Z",
           "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
           "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         },
@@ -1254,36 +1288,6 @@
           "commence_time": "2026-07-17T02:30:00Z",
           "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
           "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        },
-        {
-          "league": "MLS",
-          "title": "Los Angeles FC-Galaxy Total Gets Weather Check",
-          "headline": "Los Angeles FC-Galaxy Total Gets Weather Check",
-          "matchup": "Los Angeles FC at LA Galaxy",
-          "source": "FanDuel",
-          "url": "https://www.oddstrader.com/soccer/odds/",
-          "key_data": [
-            "GAME: Los Angeles FC at LA Galaxy",
-            "MARKET: Los Angeles FC favored over LA Galaxy",
-            "LINE / ODDS: LA Galaxy +150 | Los Angeles FC +150",
-            "IMPLIED PROBABILITY: Los Angeles FC 40.0% before vig",
-            "MOVEMENT: Open +140 -> Current +150 (shortened for Los Angeles FC)",
-            "SPREAD: Spread unavailable",
-            "TOTAL: Total unavailable",
-            "BOOK: FanDuel"
-          ],
-          "market_context": "Los Angeles FC +150 vs LA Galaxy +150",
-          "implied_probability": "Los Angeles FC 40.0%",
-          "market": "Los Angeles FC +150 vs LA Galaxy +150",
-          "line_odds": "LA Galaxy +150 | Los Angeles FC +150",
-          "movement_direction": "shortened",
-          "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A +150 moneyline implies roughly 40.0% before vig. Los Angeles FC is getting more expensive, which usually points to stronger support or new information behind the favorite.",
-          "what_to_watch": "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful.",
-          "line_movement": "MOVEMENT: Open +140 -> Current +150 (shortened for Los Angeles FC)",
-          "weather": null,
-          "commence_time": "2026-07-18T02:45:00Z",
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         }
       ],
       "headline": "Game Breakdowns",
@@ -1293,21 +1297,6 @@
     {
       "title": "Weather Impact",
       "cards": [
-        {
-          "title": "Late Lineup News Puts Betting Markets on Watch",
-          "headline": "Late Lineup News Puts Betting Markets on Watch",
-          "source": "Global Betting Report",
-          "url": "https://www.oddstrader.com/mlb/weather/",
-          "key_data": [
-            "Weather: 72F, wind out to center at 16 mph, rain risk 19%",
-            "Check wind direction, temperature, and precipitation before first pitch.",
-            "Outdoor parks can create meaningful total movement."
-          ],
-          "why_it_matters": "Wind is helping carry, so the total deserves a closer look before first pitch.",
-          "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
-          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-        },
         {
           "title": "Late Lineup News Puts Betting Markets on Watch",
           "headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -1337,6 +1326,36 @@
           "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
           "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
           "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
+        },
+        {
+          "title": "Late Lineup News Puts Betting Markets on Watch",
+          "headline": "Late Lineup News Puts Betting Markets on Watch",
+          "source": "Global Betting Report",
+          "url": "https://www.oddstrader.com/mlb/weather/",
+          "key_data": [
+            "Weather: 58F, wind out to left at 13 mph, rain risk 38%",
+            "Check wind direction, temperature, and precipitation before first pitch.",
+            "Outdoor parks can create meaningful total movement."
+          ],
+          "why_it_matters": "Wind is helping carry, so the total deserves a closer look before first pitch.",
+          "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
+        },
+        {
+          "title": "Late Lineup News Puts Betting Markets on Watch",
+          "headline": "Late Lineup News Puts Betting Markets on Watch",
+          "source": "Global Betting Report",
+          "url": "https://www.oddstrader.com/mlb/weather/",
+          "key_data": [
+            "Weather: 71F, wind out to center at 5 mph, rain risk 21%",
+            "Check wind direction, temperature, and precipitation before first pitch.",
+            "Outdoor parks can create meaningful total movement."
+          ],
+          "why_it_matters": "Weather is not extreme, but the total still needs a final check before lineups lock.",
+          "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
+          "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+          "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
         }
       ],
       "headline": "Weather Impact",
@@ -1361,13 +1380,13 @@
       "title": "Late Market Checks",
       "cards": [
         "Oklahoma City Thunder at San Antonio Spurs - Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage.",
-        "New York Mets at Toronto Blue Jays - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "Pittsburgh Pirates at Philadelphia Phillies - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "St. Louis Cardinals at Atlanta Braves - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+        "Tampa Bay Rays at Kansas City Royals - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+        "Minnesota Twins at Houston Astros - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "New England Patriots at Seattle Seahawks - Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful.",
         "San Francisco 49ers at Los Angeles Rams - Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful.",
-        "Atlanta Falcons at Pittsburgh Steelers - Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful.",
-        "Baltimore Ravens at Indianapolis Colts - Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
+        "Atlanta Falcons at Pittsburgh Steelers - Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "headline": "Late Market Checks",
       "market": "Market",
@@ -1414,29 +1433,6 @@
     },
     {
       "league": "MLB",
-      "headline": "Mets-Blue Jays Total Starts With Pitching Matchup",
-      "url": "https://www.oddstrader.com/mlb/odds/",
-      "matchup": "New York Mets at Toronto Blue Jays",
-      "market_context": "Toronto Blue Jays -115 vs New York Mets -105",
-      "implied_probability": "Toronto Blue Jays 53.5%",
-      "line_movement": "MOVEMENT: Open -124 -> Current -115 (eased for Toronto Blue Jays)",
-      "key_data": [
-        "GAME: New York Mets at Toronto Blue Jays",
-        "MARKET: Toronto Blue Jays favored over New York Mets",
-        "LINE / ODDS: Toronto Blue Jays -115 | New York Mets -105",
-        "IMPLIED PROBABILITY: Toronto Blue Jays 53.5% before vig",
-        "MOVEMENT: Open -124 -> Current -115 (eased for Toronto Blue Jays)",
-        "SPREAD: New York Mets -1.5 (+158) | Toronto Blue Jays +1.5 (-193)"
-      ],
-      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -115 moneyline implies roughly 53.5% before vig. Toronto Blue Jays is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
-      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-      "market": "Total",
-      "title": "Mets-Blue Jays Total Starts With Pitching Matchup",
-      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-    },
-    {
-      "league": "MLB",
       "headline": "Pirates-Phillies Total Starts With Pitching Matchup",
       "url": "https://www.cbssports.com/mlb/odds/",
       "matchup": "Pittsburgh Pirates at Philadelphia Phillies",
@@ -1449,7 +1445,7 @@
         "LINE / ODDS: Philadelphia Phillies -144 | Pittsburgh Pirates +119",
         "IMPLIED PROBABILITY: Philadelphia Phillies 59.0% before vig",
         "MOVEMENT: Open -159 -> Current -144 (eased for Philadelphia Phillies)",
-        "SPREAD: Philadelphia Phillies -1.5 (+148) | Pittsburgh Pirates +1.5 (-179)"
+        "SPREAD: Philadelphia Phillies -1.5 (+148) | Pittsburgh Pirates +1.5 (-180)"
       ],
       "why_it_matters": "The market gives Philadelphia Phillies a modest edge, which makes line movement and book-to-book differences worth checking. A -144 moneyline implies roughly 59.0% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
@@ -1463,21 +1459,67 @@
       "headline": "Cardinals-Braves Total Starts With Pitching Matchup",
       "url": "https://www.cbssports.com/mlb/odds/",
       "matchup": "St. Louis Cardinals at Atlanta Braves",
-      "market_context": "Atlanta Braves -136 vs St. Louis Cardinals +113",
-      "implied_probability": "Atlanta Braves 57.6%",
-      "line_movement": "MOVEMENT: Open -120 -> Current -136 (shortened for Atlanta Braves)",
+      "market_context": "Atlanta Braves -141 vs St. Louis Cardinals +117",
+      "implied_probability": "Atlanta Braves 58.5%",
+      "line_movement": "MOVEMENT: Open -125 -> Current -141 (shortened for Atlanta Braves)",
       "key_data": [
         "GAME: St. Louis Cardinals at Atlanta Braves",
         "MARKET: Atlanta Braves favored over St. Louis Cardinals",
-        "LINE / ODDS: Atlanta Braves -136 | St. Louis Cardinals +113",
-        "IMPLIED PROBABILITY: Atlanta Braves 57.6% before vig",
-        "MOVEMENT: Open -120 -> Current -136 (shortened for Atlanta Braves)",
+        "LINE / ODDS: Atlanta Braves -141 | St. Louis Cardinals +117",
+        "IMPLIED PROBABILITY: Atlanta Braves 58.5% before vig",
+        "MOVEMENT: Open -125 -> Current -141 (shortened for Atlanta Braves)",
         "SPREAD: Atlanta Braves -1.5 (+148) | St. Louis Cardinals +1.5 (-179)"
       ],
-      "why_it_matters": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -136 moneyline implies roughly 57.6% before vig. Atlanta Braves is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "why_it_matters": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -141 moneyline implies roughly 58.5% before vig. Atlanta Braves is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "market": "Total",
       "title": "Cardinals-Braves Total Starts With Pitching Matchup",
+      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
+    },
+    {
+      "league": "MLB",
+      "headline": "Rays-Royals Total Starts With Pitching Matchup",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "matchup": "Tampa Bay Rays at Kansas City Royals",
+      "market_context": "Tampa Bay Rays -143 vs Kansas City Royals +119",
+      "implied_probability": "Tampa Bay Rays 58.8%",
+      "line_movement": "MOVEMENT: Open -133 -> Current -143 (shortened for Tampa Bay Rays)",
+      "key_data": [
+        "GAME: Tampa Bay Rays at Kansas City Royals",
+        "MARKET: Tampa Bay Rays favored over Kansas City Royals",
+        "LINE / ODDS: Kansas City Royals +119 | Tampa Bay Rays -143",
+        "IMPLIED PROBABILITY: Tampa Bay Rays 58.8% before vig",
+        "MOVEMENT: Open -133 -> Current -143 (shortened for Tampa Bay Rays)",
+        "SPREAD: Kansas City Royals +1.5 (-131) | Tampa Bay Rays -1.5 (+108)"
+      ],
+      "why_it_matters": "The market gives Tampa Bay Rays a modest edge, which makes line movement and book-to-book differences worth checking. A -143 moneyline implies roughly 58.8% before vig. Tampa Bay Rays is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+      "market": "Total",
+      "title": "Rays-Royals Total Starts With Pitching Matchup",
+      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
+      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
+    },
+    {
+      "league": "MLB",
+      "headline": "Twins-Astros Total Starts With Pitching Matchup",
+      "url": "https://www.oddstrader.com/mlb/odds/",
+      "matchup": "Minnesota Twins at Houston Astros",
+      "market_context": "Houston Astros -144 vs Minnesota Twins +119",
+      "implied_probability": "Houston Astros 59.0%",
+      "line_movement": "MOVEMENT: Open -134 -> Current -144 (shortened for Houston Astros)",
+      "key_data": [
+        "GAME: Minnesota Twins at Houston Astros",
+        "MARKET: Houston Astros favored over Minnesota Twins",
+        "LINE / ODDS: Houston Astros -144 | Minnesota Twins +119",
+        "IMPLIED PROBABILITY: Houston Astros 59.0% before vig",
+        "MOVEMENT: Open -134 -> Current -144 (shortened for Houston Astros)",
+        "SPREAD: Houston Astros -1.5 (+149) | Minnesota Twins +1.5 (-181)"
+      ],
+      "why_it_matters": "The market gives Houston Astros a modest edge, which makes line movement and book-to-book differences worth checking. A -144 moneyline implies roughly 59.0% before vig. Houston Astros is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+      "market": "Total",
+      "title": "Twins-Astros Total Starts With Pitching Matchup",
       "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
       "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
     },
@@ -1639,29 +1681,6 @@
       "what_to_watch": "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful.",
       "market": "Spread",
       "title": "Buccaneers-Bengals Spread Hinges on Injury News",
-      "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
-      "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
-    },
-    {
-      "league": "NFL",
-      "headline": "Browns-Jaguars Spread Hinges on Injury News",
-      "url": "https://www.cbssports.com/nfl/odds/",
-      "matchup": "Cleveland Browns at Jacksonville Jaguars",
-      "market_context": "Jacksonville Jaguars -340 vs Cleveland Browns +270",
-      "implied_probability": "Jacksonville Jaguars 77.3%",
-      "line_movement": "MOVEMENT: Open -331 -> Current -340 (shortened for Jacksonville Jaguars)",
-      "key_data": [
-        "GAME: Cleveland Browns at Jacksonville Jaguars",
-        "MARKET: Jacksonville Jaguars favored over Cleveland Browns",
-        "LINE / ODDS: Jacksonville Jaguars -340 | Cleveland Browns +270",
-        "IMPLIED PROBABILITY: Jacksonville Jaguars 77.3% before vig",
-        "MOVEMENT: Open -331 -> Current -340 (shortened for Jacksonville Jaguars)",
-        "SPREAD: Cleveland Browns +7.5 (-110) | Jacksonville Jaguars -7.5 (-110)"
-      ],
-      "why_it_matters": "Jacksonville Jaguars is priced as a heavy favorite, so lineup, injury and matchup news decide whether the premium holds. A -340 moneyline implies roughly 77.3% before vig. Jacksonville Jaguars is getting more expensive, which usually points to stronger support or new information behind the favorite.",
-      "what_to_watch": "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful.",
-      "market": "Spread",
-      "title": "Browns-Jaguars Spread Hinges on Injury News",
       "snapshot": "Betting card uses a linked market or game page; no separate source story headline was available.",
       "summary": "Betting card uses a linked market or game page; no separate source story headline was available."
     }
