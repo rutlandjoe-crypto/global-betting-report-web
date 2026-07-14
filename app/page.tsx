@@ -954,6 +954,7 @@ export default function Page() {
           />
         </div>
       </header>
+      <EditorialStandard />
       <SponsorPlacementBlock />
 
 
@@ -1042,7 +1043,6 @@ export default function Page() {
             {SITE.descriptor}
           </p>
         </div>
-        <EditorialStandard />
       </footer>
     </main>
   );
