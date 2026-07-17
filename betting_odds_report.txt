@@ -17,7 +17,7 @@ BETTOR CONTEXT
 When live prices are unavailable, avoid treating stale lines as current. Use this window to monitor injuries, schedules, lineup confirmations, weather, market movement, and sportsbook-by-sportsbook differences before making decisions.
 
 MLB
-Live odds feed unavailable: ('Connection aborted.', Connection Reset Error(104, 'Connection reset by peer'))
+Live odds feed unavailable because the Odds API usage quota has been reached.
 
 MARKET WATCH
 - Monitor confirmed starting pitchers, bullpen usage, lineup cards, weather, and park factors.
@@ -28,7 +28,7 @@ BETTOR CONTEXT
 When live prices are unavailable, avoid treating stale lines as current. Use this window to monitor injuries, schedules, lineup confirmations, weather, market movement, and sportsbook-by-sportsbook differences before making decisions.
 
 NHL
-Live odds feed unavailable: ('Connection aborted.', Connection Reset Error(104, 'Connection reset by peer'))
+Live odds feed unavailable because the Odds API usage quota has been reached.
 
 MARKET WATCH
 - Monitor confirmed starting goalies, back-to-back spots, special-teams form, and late injury news.
@@ -57,4 +57,4 @@ If live odds are unavailable, Global Betting Report still publishes market-watch
 
 This report is an automated summary intended to support, not replace, human sports journalism.
 
-Generated: 2026-07-17 10:45:50 AM ET
+Generated: 2026-07-17 12:17:38 PM ET
