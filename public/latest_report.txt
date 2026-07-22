@@ -1,60 +1,130 @@
-BETTING ODDS REPORT | 2026-07-22
+Global Betting Report
+NBA futures and roster news
+Fast odds context for moneylines, spreads, totals, implied probability, fantasy angles, weather and late price movement.
+Updated: 2026-07-22 08:19 AM ET
 
-Books wait on prices as the board takes shape, with moneylines, spreads, totals and late market movement giving bettors the first real read.
+## Theme
+- Style: black, deep red, white, warm neutral, and odds-ticket gold accents
+- primary: #7f1d1d
+- primary_name: deep betting red
+- secondary: #111827
+- secondary_name: charcoal black
+- accent: #facc15
+- accent_name: odds-ticket gold
+- background: #f5f5f4
+- background_name: warm newsroom neutral
 
-GLOBAL SNAPSHOT
-Live odds were limited during this report window, so the desk is emphasizing market-watch signals bettors and journalists should monitor.
+## Market Overview
+- NBA futures and roster news | MARKET: futures, roster, injury and offseason price context | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number
+- Championship Futures Odds | MARKET: NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number
+- MLB weather context | MARKET: baseball totals and live-betting volatility | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number
+- Major Sports Betting Markets | MARKET: moneyline, spread and total markets | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number
+- MLB Betting Markets | MARKET: moneyline, run line and total context | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number
+- College Football Futures Odds | MARKET: futures, win totals and game prices | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number
+- NHL Betting Markets | MARKET: moneyline, puck line and total context | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number
+- NFL Futures Odds | MARKET: futures, win totals, spreads and game prices | IMPLIED PROBABILITY: compare posted moneyline to implied chance when available | MOVEMENT: watch opener versus current number
 
-NBA
-Live odds feed unavailable because the Odds API usage quota has been reached.
+## Line Movement Signals
+- NBA futures - MOVEMENT: watch opener versus current number
+- Futures prices - MOVEMENT: watch opener versus current number
+- MLB weather context - MOVEMENT: watch opener versus current number
+- Major-sport odds context - MOVEMENT: watch opener versus current number
+- MLB odds - MOVEMENT: watch opener versus current number
+- College football odds - MOVEMENT: watch opener versus current number
+- NHL odds - MOVEMENT: watch opener versus current number
+- NFL odds - MOVEMENT: watch opener versus current number
 
-MARKET WATCH
-- Monitor injury reports, rest situations, rotation news, and late scratches before tipoff.
-- Watch totals closely when pace, back-to-back scheduling, or defensive absences affect expected scoring.
-- Track spread movement when star-player availability changes close to game time.
+## Game Breakdowns
+- NBA futures and roster news
+  - GAME: NBA futures
+  - MARKET: futures, roster, injury and offseason price context
+  - LINE / ODDS: check current prices before publication
+  - IMPLIED PROBABILITY: compare posted moneyline to implied chance when available
+  - MOVEMENT: watch opener versus current number
+  WHAT THE ODDS MEAN: Basketball markets can still move after trades, injuries, contract news, depth-chart shifts and schedule information.
+  WHAT TO WATCH: Track trades, injuries, roster moves, rest patterns, schedule spots and futures movement.
+- Championship Futures Odds
+  - GAME: Futures prices
+  - MARKET: NFL, college football, NBA, NHL, MLB, soccer, tennis and golf futures
+  - LINE / ODDS: check current prices before publication
+  - IMPLIED PROBABILITY: compare posted moneyline to implied chance when available
+  - MOVEMENT: watch opener versus current number
+  WHAT THE ODDS MEAN: Long-range markets can move after injuries, trades, schedule releases and playoff-path changes.
+  WHAT TO WATCH: Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws.
+- MLB weather context
+  WHAT THE ODDS MEAN: Wind, rain, temperature and park shape can change baseball totals before first pitch.
+  WHAT TO WATCH: Track wind direction, temperature, precipitation, roof status and park-specific run environment.
+- Major Sports Betting Markets
+  - GAME: Major-sport odds context
+  - MARKET: moneyline, spread and total markets
+  - LINE / ODDS: check current prices before publication
+  - IMPLIED PROBABILITY: compare posted moneyline to implied chance when available
+  - MOVEMENT: watch opener versus current number
+  WHAT THE ODDS MEAN: When live prices are unavailable, the betting page should still start with sourced game context and clear pregame checks.
+  WHAT TO WATCH: Monitor updated prices, injury news, roster moves and confirmed event timing before publication.
+- MLB Betting Markets
+  - GAME: MLB odds
+  - MARKET: moneyline, run line and total context
+  - LINE / ODDS: check current prices before publication
+  - IMPLIED PROBABILITY: compare posted moneyline to implied chance when available
+  - MOVEMENT: watch opener versus current number
+  WHAT THE ODDS MEAN: Baseball prices can move quickly after lineups, starting pitchers, bullpen availability and weather become clearer.
+  WHAT TO WATCH: Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.
+- College Football Futures Odds
+  - GAME: College football odds
+  - MARKET: futures, win totals and game prices
+  - LINE / ODDS: check current prices before publication
+  - IMPLIED PROBABILITY: compare posted moneyline to implied chance when available
+  - MOVEMENT: watch opener versus current number
+  WHAT THE ODDS MEAN: College football prices move around transfers, quarterback battles, coaching changes and schedule strength.
+  WHAT TO WATCH: Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength.
+- NHL Betting Markets
+  - GAME: NHL odds
+  - MARKET: moneyline, puck line and total context
+  - LINE / ODDS: check current prices before publication
+  - IMPLIED PROBABILITY: compare posted moneyline to implied chance when available
+  - MOVEMENT: watch opener versus current number
+  WHAT THE ODDS MEAN: Hockey prices depend heavily on confirmed goalies, special teams, travel spots and late injury news.
+  WHAT TO WATCH: Track goalie confirmation, back-to-backs, special teams, injuries and late total movement.
+- NFL Futures Odds
+  - GAME: NFL odds
+  - MARKET: futures, win totals, spreads and game prices
+  - LINE / ODDS: check current prices before publication
+  - IMPLIED PROBABILITY: compare posted moneyline to implied chance when available
+  - MOVEMENT: watch opener versus current number
+  WHAT THE ODDS MEAN: Football markets stay active around schedule news, quarterback depth, injuries, win totals and futures positioning.
+  WHAT TO WATCH: Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.
 
-BETTOR CONTEXT
-When live prices are unavailable, avoid treating stale lines as current. Use this window to monitor injuries, schedules, lineup confirmations, weather, market movement, and sportsbook-by-sportsbook differences before making decisions.
+## Weather Impact
+- Weather context: MLB odds
+  - Weather: 77F, wind crossfield at 15 mph, rain risk 19%
+  - Check wind direction, temperature, and precipitation before first pitch.
+  - Outdoor parks can create meaningful total movement.
+  WHAT THE ODDS MEAN: Weather is not extreme, but the total still needs a final check before lineups lock.
+  WHAT TO WATCH: Compare the current total to updated weather before publishing betting context.
 
-MLB
-Live odds feed unavailable because the Odds API usage quota has been reached.
+## Betting Futures Odds
+- College Football Futures: Bettors track long-range prices months before kickoff.
+- NFL Futures: Watch schedule strength, quarterback health, roster movement and divisional prices.
+- NBA Futures: Track playoff paths, injury news, rest patterns and championship price movement.
+- NHL Futures: Watch goalie health, playoff seeding, travel spots and market adjustment.
+- Soccer Futures: Track title races, promotion/relegation pressure, tournament paths and transfer-window movement.
+- Tennis/Golf Futures: Draws, form, surface, course fit and injury news can reshape prices quickly.
 
-MARKET WATCH
-- Monitor confirmed starting pitchers, bullpen usage, lineup cards, weather, and park factors.
-- Watch totals closely when wind, temperature, or pitching changes affect run-scoring conditions.
-- Track moneyline movement after lineup releases and late pitching updates.
+## Late Market Checks
+- NBA futures - Track trades, injuries, roster moves, rest patterns, schedule spots and futures movement.
+- Futures prices - Track schedule releases, injuries, trades, coaching changes, playoff paths and major tournament draws.
+- MLB weather context - Track wind direction, temperature, precipitation, roof status and park-specific run environment.
+- Major-sport odds context - Monitor updated prices, injury news, roster moves and confirmed event timing before publication.
+- MLB odds - Track starting lineups, pitcher confirmation, bullpen usage, park factors and late total movement.
+- College football odds - Track transfer news, quarterback competitions, injuries, coaching changes and schedule strength.
+- NHL odds - Track goalie confirmation, back-to-backs, special teams, injuries and late total movement.
+- NFL odds - Track injuries, quarterback depth charts, schedule spots, roster moves and futures movement.
 
-BETTOR CONTEXT
-When live prices are unavailable, avoid treating stale lines as current. Use this window to monitor injuries, schedules, lineup confirmations, weather, market movement, and sportsbook-by-sportsbook differences before making decisions.
-
-NHL
-Live odds feed unavailable because the Odds API usage quota has been reached.
-
-MARKET WATCH
-- Monitor confirmed starting goalies, back-to-back spots, special-teams form, and late injury news.
-- Watch totals closely when goalie changes or defensive absences shift expected scoring.
-- Track puck-line and moneyline movement as goalie confirmations arrive.
-
-BETTOR CONTEXT
-When live prices are unavailable, avoid treating stale lines as current. Use this window to monitor injuries, schedules, lineup confirmations, weather, market movement, and sportsbook-by-sportsbook differences before making decisions.
-
-NFL
-Live odds feed unavailable because the Odds API usage quota has been reached.
-
-MARKET WATCH
-- Monitor injury reports, quarterback status, weather, offensive-line availability, and practice trends.
-- Watch totals closely when wind, rain, snow, or tempo expectations affect scoring conditions.
-- Track spread movement around major injury updates and market reaction to public betting pressure.
-
-BETTOR CONTEXT
-When live prices are unavailable, avoid treating stale lines as current. Use this window to monitor injuries, schedules, lineup confirmations, weather, market movement, and sportsbook-by-sportsbook differences before making decisions.
-
-BETTING MARKET NOTE
-This report reflects publicly available odds data at the time of generation. Lines may move and can vary across sportsbooks.
-
-EDITORIAL SAFETY NOTE
-If live odds are unavailable, Global Betting Report still publishes market-watch guidance so readers can monitor the betting board without mistaking stale odds for current prices.
-
-This report is an automated summary intended to support, not replace, human sports journalism.
-
-Generated: 2026-07-22 07:49:31 AM ET
+## Betting Toolkit
+- OddsTrader - betting odds, weather, line context, and matchup boards.
+- OddsTrader MLB Weather - wind, temperature and precipitation context for baseball totals.
+- The Odds API - structured odds feed for moneylines, spreads, and totals.
+- Action Network - market movement, betting splits, and injury context.
+- Covers - matchup pages, odds comparison and market context.
+- Sportsbook Review - odds comparison and betting market coverage.
