@@ -564,7 +564,7 @@ function buildBriefingItems(stories: AnyObj[], rawSignals: string[]): string[] {
   const fromStories = stories.map((story, index) => {
     const label = storyLabel(story);
     const title = storyTitle(story, index);
-    return `${label}: ${title}`;
+    return formatCategoryTitle(label, title);
   });
 
   return cleanSignals([...fromStories, ...rawSignals]);
@@ -575,13 +575,27 @@ function spotlightItemsFromStories(stories: AnyObj[]): string[] {
     stories.map((story, index) => {
       const label = storyLabel(story);
       const title = storyTitle(story, index);
-      return `${label}: ${title}`;
+      return formatCategoryTitle(label, title);
     })
   );
 }
 
 function removeDoubleLeaguePrefix(value: string): string {
-  return value.replace(/^([A-Z][A-Za-z ]+):\s+\1:\s+/i, "$1: ");
+  const cleaned = cleanText(value).replace(/^([^:]+):\s+\1(?::\s*)?$/i, "$1");
+  return cleaned.replace(/^([A-Z][A-Za-z ]+):\s+\1:\s+/i, "$1: ");
+}
+
+function formatCategoryTitle(category: unknown, title: unknown): string {
+  const label = cleanText(category).replace(/:\s*$/, "");
+  const headline = cleanText(title);
+  if (!label) return headline;
+  if (!headline) return label;
+  const normalizedLabel = label.toLocaleLowerCase();
+  const normalizedTitle = headline.replace(/:\s*$/, "").toLocaleLowerCase();
+  if (normalizedLabel === normalizedTitle || normalizedTitle.startsWith(`${normalizedLabel}:`)) {
+    return headline;
+  }
+  return `${label}: ${headline}`;
 }
 
 function Block({ title, children }: { title: string; children: React.ReactNode }) {
