@@ -2,6 +2,8 @@
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
 
 permissions:
   contents: write
@@ -51,29 +53,19 @@ jobs:
             throw "betting_report.py not found in engine repo."
           }
 
+          $started = (Get-Date).ToUniversalTime().ToString("o")
+          "BETTING_RUN_STARTED=$started" | Out-File -FilePath $env:GITHUB_ENV -Append
+          Remove-Item -LiteralPath "latest_betting_report.json" -ErrorAction SilentlyContinue
           python betting_report.py
 
       - name: Copy Betting report into site
         shell: pwsh
         run: |
-          New-Item -ItemType Directory -Force betting-site/public | Out-Null
-
-          $candidates = @(
-            "engine/latest_betting_report.json",
-            "engine/latest_report.json",
-            "engine/public/latest_report.json"
-          )
-
-          $source = $candidates | Where-Object { Test-Path $_ } | Select-Object -First 1
-
-          if (-not $source) {
-            throw "No generated Betting JSON found."
-          }
-
-          Copy-Item $source betting-site/public/latest_report.json -Force
-          Copy-Item $source betting-site/latest_report.json -Force
-
-          Write-Host "Copied Betting report from $source"
+          python betting-site/scripts/promote_betting_report.py `
+            --source engine/latest_betting_report.json `
+            --canonical betting-site/public/latest_report.json `
+            --compatibility betting-site/latest_report.json `
+            --not-before $env:BETTING_RUN_STARTED
 
       - name: Validate Betting Agent output
         shell: pwsh

@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+import hashlib
+import json
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -22,6 +24,7 @@ TIMEZONE = ZoneInfo("America/New_York")
 UTC = ZoneInfo("UTC")
 
 REPORT_FILE = BASE_DIR / "betting_odds_report.txt"
+VERIFICATION_FILE = BASE_DIR / "betting_odds_verification.json"
 
 BASE_URL = "https://api.the-odds-api.com/v4/sports"
 
@@ -323,10 +326,12 @@ def safe_get(url: str, params=None):
             body = exc.response.text[:300] if exc.response is not None else ""
         except Exception:
             body = ""
+        if ODDS_API_KEY:
+            body = body.replace(ODDS_API_KEY, "[REDACTED]")
         return None, f"HTTP {status}: {body}".strip()
 
     except requests.RequestException as exc:
-        return None, str(exc)
+        return None, f"Odds API request failed: {type(exc).__name__}"
 
 
 def fetch_odds(sport_key: str) -> dict:
@@ -508,21 +513,28 @@ def build_sport_section(sport: dict):
     try:
         result = fetch_odds(key)
     except Exception as exc:
-        return build_fallback_section(label, str(exc)), 0, True
+        return build_fallback_section(label, str(exc)), 0, True, str(exc)
 
     if result.get("error"):
         error_text = clean_output_line(result["error"])
 
         if "404" in error_text or "no data" in error_text.lower():
-            return build_no_board_section(label), 0, True
+            return build_no_board_section(label), 0, True, error_text
 
-        return build_fallback_section(label, error_text), 0, True
+        return build_fallback_section(label, error_text), 0, True, error_text
 
-    events = result.get("events", [])
+    events = []
+    for event in result.get("events", []):
+        bookmaker = get_first_bookmaker(event)
+        if bookmaker and any(
+            get_market(bookmaker, market_key)
+            for market_key in ("h2h", "spreads", "totals")
+        ):
+            events.append(event)
     count = len(events)
 
     if not events:
-        return build_no_board_section(label), 0, True
+        return build_no_board_section(label), 0, True, None
 
     lines = [clean_output_line(label), clean_output_line("TOP BOARD"), ""]
 
@@ -530,7 +542,7 @@ def build_sport_section(sport: dict):
         lines.extend(summarize_event(event))
         lines.append("")
 
-    return "\n".join(lines).strip(), count, False
+    return "\n".join(lines).strip(), count, False, None
 
 
 # =========================================================
@@ -558,23 +570,56 @@ def cleanup_report_text(text: str) -> str:
 
 def save_report(report: str) -> None:
     normalized = cleanup_report_text(report)
-    REPORT_FILE.write_text(normalized + "\n", encoding="utf-8")
+    temp_path = REPORT_FILE.with_suffix(REPORT_FILE.suffix + ".tmp")
+    temp_path.write_text(normalized + "\n", encoding="utf-8")
+    temp_path.replace(REPORT_FILE)
+
+
+def save_verification(total_events: int) -> None:
+    receipt = {
+        "status": "verified",
+        "provider": "The Odds API",
+        "verified_at": datetime.now(timezone.utc).isoformat(),
+        "total_verified_events": total_events,
+        "source_sha256": hashlib.sha256(REPORT_FILE.read_bytes()).hexdigest(),
+    }
+    temp_path = VERIFICATION_FILE.with_suffix(VERIFICATION_FILE.suffix + ".tmp")
+    temp_path.write_text(
+        json.dumps(receipt, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    temp_path.replace(VERIFICATION_FILE)
 
 
 # =========================================================
 # REPORT BUILD
 # =========================================================
-def build_report() -> str:
+def build_report() -> tuple[str, int]:
     total_events = 0
     fallback_sections = 0
+    hard_failures: list[str] = []
     all_sections: list[str] = []
 
     for sport in SPORTS:
-        section_text, count, used_fallback = build_sport_section(sport)
+        section_text, count, used_fallback, hard_failure = build_sport_section(sport)
         all_sections.append(section_text)
         total_events += count
         if used_fallback:
             fallback_sections += 1
+        if hard_failure:
+            hard_failures.append(f"{sport['label']}: {hard_failure}")
+
+    if hard_failures:
+        details = "; ".join(hard_failures)
+        raise RuntimeError(
+            "Betting generation failed because The Odds API was not successfully "
+            f"verified for every configured sport: {details}"
+        )
+
+    if total_events <= 0:
+        raise RuntimeError(
+            "Betting generation failed because The Odds API returned zero verified events."
+        )
 
     report_lines = [
         f"BETTING ODDS REPORT | {report_date_string()}",
@@ -597,20 +642,31 @@ def build_report() -> str:
         f"Generated: {format_generated_timestamp()}",
     ]
 
-    return cleanup_report_text("\n".join(report_lines))
+    return cleanup_report_text("\n".join(report_lines)), total_events
 
 
 def generate_betting_odds_report() -> str:
-    report = build_report()
+    VERIFICATION_FILE.unlink(missing_ok=True)
+    report, total_events = build_report()
     save_report(report)
+    save_verification(total_events)
     print(f"[OK] Betting odds report written to: {REPORT_FILE}")
+    print(
+        "[OK] Betting provider verification recorded "
+        f"for {total_events} current events."
+    )
     return report
 
 
-def main():
-    report = generate_betting_odds_report()
+def main() -> int:
+    try:
+        report = generate_betting_odds_report()
+    except Exception as exc:
+        print(f"[ERROR] {exc}")
+        return 1
     print(report)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

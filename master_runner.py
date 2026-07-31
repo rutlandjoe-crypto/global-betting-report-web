@@ -334,14 +334,22 @@ def main() -> int:
     script_timings: dict[str, str] = {}
     required_failures: list[str] = []
 
-    # If upstream content scripts fail, downstream builders can still run,
-    # but their status may be marked degraded.
+    # Never rebuild canonical output after failed or unverified ingestion.
     upstream_report_issue = False
 
     try:
         log("BETTING BLOCK START")
         for script_name, timeout_seconds, required_for_pipeline in SCRIPTS:
             script_path = BASE_DIR / script_name
+
+            if script_name == "build_betting_distribution.py" and upstream_report_issue:
+                log(
+                    "BLOCKED: build_betting_distribution.py will not run because "
+                    "fresh verified Odds API ingestion failed."
+                )
+                blocked_scripts.append(script_name)
+                required_failures.append(script_name)
+                continue
 
             if script_name not in ALWAYS_RUN and not script_path.exists():
                 log(f"BLOCKED: {script_name} does not exist.")
@@ -378,19 +386,17 @@ def main() -> int:
                 log(f"DEGRADED: {script_name} ({script_timings[script_name]})")
                 degraded_scripts.append(script_name)
 
-                if script_name not in ALWAYS_RUN:
-                    upstream_report_issue = True
-                    if required_for_pipeline:
-                        required_failures.append(script_name)
+                upstream_report_issue = True
+                if required_for_pipeline:
+                    required_failures.append(script_name)
 
             else:
                 log(f"FAILED: {script_name} ({script_timings[script_name]})")
                 failed_scripts.append(script_name)
 
-                if script_name not in ALWAYS_RUN:
-                    upstream_report_issue = True
-                    if required_for_pipeline:
-                        required_failures.append(script_name)
+                upstream_report_issue = True
+                if required_for_pipeline:
+                    required_failures.append(script_name)
 
         missing_outputs = [str(path) for path in REQUIRED_OUTPUTS if not path.exists()]
         if missing_outputs:

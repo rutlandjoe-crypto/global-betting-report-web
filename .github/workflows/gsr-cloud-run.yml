@@ -2,6 +2,8 @@
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
 
 permissions:
   contents: write
@@ -59,9 +61,18 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: |
+          echo "BETTING_RUN_STARTED=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_ENV"
           echo "BETTING BLOCK START"
           python master_runner.py
           echo "BETTING BLOCK FINISH"
+
+      - name: Validate current canonical Betting report
+        run: |
+          python scripts/promote_betting_report.py \
+            --source public/latest_report.json \
+            --canonical public/latest_report.json \
+            --not-before "$BETTING_RUN_STARTED"
+          python scripts/check_betting_agent.py
 
       - name: Publish live report to Vercel Blob
         env:
@@ -85,13 +96,12 @@ jobs:
       - name: Guard betting report quality before commit
         shell: pwsh
         run: |
-          Copy-Item ./latest_report.json ./public/latest_report.json -Force
           python scripts/check_betting_agent.py
 
 
       - name: Stage website files
         run: |
-          git add public/latest_report.json public/latest_report.txt latest_report.json latest_report.txt betting_odds_report.json betting_odds_report.txt || true
+          git add public/latest_report.json public/latest_report.txt betting_odds_report.txt
 
       - name: Commit updated site data if changed
         run: |
@@ -106,10 +116,5 @@ jobs:
 
       - name: Push changes
         run: |
-          git pull --rebase origin master || true
-          if git diff --cached --quiet && git diff --quiet; then
-            echo "Nothing to push."
-          else
-            git push origin HEAD:master
-          fi
+          git push origin HEAD:master
 

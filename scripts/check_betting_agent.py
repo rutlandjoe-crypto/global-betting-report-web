@@ -4,8 +4,6 @@ from pathlib import Path
 
 REPORT_PATHS = [
     Path("public/latest_report.json"),
-    Path("latest_report.json"),
-    Path("betting_odds_report.json"),
 ]
 
 BANNED_PHRASES = [

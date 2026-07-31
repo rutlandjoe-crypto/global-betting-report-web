@@ -1,8 +1,9 @@
 ﻿from __future__ import annotations
 
+import hashlib
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -11,6 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent
 PUBLIC_DIR = BASE_DIR / "public"
 
 REPORT_FILE = BASE_DIR / "betting_odds_report.txt"
+VERIFICATION_FILE = BASE_DIR / "betting_odds_verification.json"
 OUTPUT_JSON = PUBLIC_DIR / "latest_report.json"
 OUTPUT_TXT = PUBLIC_DIR / "latest_report.txt"
 
@@ -587,6 +589,47 @@ def build_payload(text: str) -> dict:
     }
 
 
+def load_verification() -> dict:
+    if not VERIFICATION_FILE.exists():
+        raise RuntimeError(
+            "Missing current-run Odds API verification receipt; refusing to build."
+        )
+
+    receipt = json.loads(VERIFICATION_FILE.read_text(encoding="utf-8"))
+    if receipt.get("status") != "verified":
+        raise RuntimeError("Odds API verification receipt is not successful.")
+    if receipt.get("provider") != "The Odds API":
+        raise RuntimeError("Odds API verification receipt has an unexpected provider.")
+
+    total_events = receipt.get("total_verified_events")
+    if not isinstance(total_events, int) or total_events <= 0:
+        raise RuntimeError("Odds API verification receipt has zero verified events.")
+
+    verified_at = datetime.fromisoformat(str(receipt.get("verified_at", "")))
+    if verified_at.tzinfo is None:
+        raise RuntimeError("Odds API verification timestamp has no timezone.")
+    age = datetime.now(timezone.utc) - verified_at.astimezone(timezone.utc)
+    if age < timedelta(minutes=-5) or age > timedelta(minutes=15):
+        raise RuntimeError(
+            "Odds API verification receipt is not from the current generation run."
+        )
+
+    expected_hash = str(receipt.get("source_sha256", ""))
+    actual_hash = hashlib.sha256(REPORT_FILE.read_bytes()).hexdigest()
+    if not expected_hash or expected_hash != actual_hash:
+        raise RuntimeError(
+            "Odds API verification receipt does not match the source report."
+        )
+
+    return receipt
+
+
+def write_atomic(path: Path, content: str) -> None:
+    temp_path = path.with_suffix(path.suffix + ".tmp")
+    temp_path.write_text(content, encoding="utf-8")
+    temp_path.replace(path)
+
+
 def main() -> int:
     print(f"[{stamp()}] BETTING BUILD STARTED")
 
@@ -599,11 +642,26 @@ def main() -> int:
         print(f"[ERROR] Empty source report: {REPORT_FILE}")
         return 1
 
-    PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
-    payload = build_payload(text)
+    try:
+        verification = load_verification()
+    except Exception as exc:
+        print(f"[ERROR] {exc}")
+        return 1
 
-    OUTPUT_JSON.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    OUTPUT_TXT.write_text(clean_team_artifacts(text) + "\n", encoding="utf-8")
+    payload = build_payload(text)
+    payload["verification"] = verification
+
+    cards = payload.get("homepage_cards") or []
+    if len(cards) < 8:
+        print(f"[ERROR] Refusing to publish only {len(cards)} Betting cards.")
+        return 1
+
+    PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
+    write_atomic(
+        OUTPUT_JSON,
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+    )
+    write_atomic(OUTPUT_TXT, clean_team_artifacts(text) + "\n")
 
     print(f"[OK] Wrote {OUTPUT_JSON}")
     print(f"[OK] Wrote {OUTPUT_TXT}")
