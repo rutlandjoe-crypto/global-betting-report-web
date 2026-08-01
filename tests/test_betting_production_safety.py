@@ -12,6 +12,13 @@ import build_betting_distribution
 import get_betting_odds_report as odds_report
 import master_runner
 from scripts.promote_betting_report import promote
+from scripts.run_external_betting_engine import (
+    GOLF_KEY,
+    GOLF_MARKETS,
+    STANDARD_MARKETS,
+    filter_supported_sports,
+    supports_game_card_input,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -68,6 +75,34 @@ class FakeEmpty:
 
 
 class BettingProductionSafetyTests(unittest.TestCase):
+    def test_external_engine_filters_only_unsupported_tennis_keys(self):
+        configured = [
+            ("baseball_mlb", "MLB"),
+            ("basketball_nba", "NBA"),
+            ("tennis_atp", "Tennis"),
+            ("tennis_wta", "Tennis"),
+            (GOLF_KEY, "Golf"),
+        ]
+
+        self.assertEqual(
+            [
+                ("baseball_mlb", "MLB"),
+                ("basketball_nba", "NBA"),
+                (GOLF_KEY, "Golf"),
+            ],
+            filter_supported_sports(configured),
+        )
+        self.assertEqual("h2h,spreads,totals", STANDARD_MARKETS)
+        self.assertEqual("outrights", GOLF_MARKETS)
+        self.assertFalse(
+            supports_game_card_input(
+                "Golf", {"home_team": None, "away_team": None}
+            )
+        )
+        self.assertTrue(
+            supports_game_card_input("MLB", {"home_team": "Home", "away_team": "Away"})
+        )
+
     def test_401_leaves_last_valid_output_byte_for_byte_unchanged(self):
         with tempfile.TemporaryDirectory() as directory:
             temp = Path(directory)
@@ -249,6 +284,7 @@ class BettingProductionSafetyTests(unittest.TestCase):
         self.assertIn('cron: "0 * * * *"', cloud)
         self.assertIn("workflow_dispatch:", hourly)
         self.assertIn("workflow_dispatch:", cloud)
+        self.assertIn("run_external_betting_engine.py", hourly)
         self.assertNotIn("Copy-Item ./latest_report.json ./public/latest_report.json", cloud)
         self.assertLess(
             cloud.index("Validate current canonical Betting report"),

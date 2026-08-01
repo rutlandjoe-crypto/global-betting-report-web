@@ -56,7 +56,7 @@ jobs:
           $started = (Get-Date).ToUniversalTime().ToString("o")
           "BETTING_RUN_STARTED=$started" | Out-File -FilePath $env:GITHUB_ENV -Append
           Remove-Item -LiteralPath "latest_betting_report.json" -ErrorAction SilentlyContinue
-          python betting_report.py
+          python ../betting-site/scripts/run_external_betting_engine.py ./betting_report.py
 
       - name: Copy Betting report into site
         shell: pwsh
