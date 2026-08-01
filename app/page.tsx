@@ -8,6 +8,7 @@ export const fetchCache = "force-no-store";
 
 import EditorialStandard from "@/components/EditorialStandard";
 import SocialIconLinks from "@/app/SocialIconLinks";
+import { formatUpdatedAt } from "@/lib/formatUpdatedAt";
 
 export const metadata: Metadata = {
   title: "Global Betting Report",
@@ -861,11 +862,11 @@ export default function Page() {
       report.takeaways
   );
 
-  const updated =
+  const updated = formatUpdatedAt(
     cleanText(report.updated_at) ||
-    cleanText(report.generated_at) ||
-    cleanText(report.published_at) ||
-    "Update time unavailable";
+      cleanText(report.generated_at) ||
+      cleanText(report.published_at),
+  );
 
   if (!stories.length) {
     stories = [cleanFallbackStory(updated)];
