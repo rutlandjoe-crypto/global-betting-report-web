@@ -6,9 +6,9 @@
   "tagline": "Built for journalists, by a journalist.",
   "headline": "St. Louis Cardinals at New York Yankees: Moneyline, Spread and Total Odds",
   "snapshot": "Fast odds context for moneylines, spreads, totals, implied probability, fantasy angles, weather and late price movement.",
-  "updated_at": "2026-08-02 07:15 PM ET",
-  "generated_at": "2026-08-02 07:15 PM ET",
-  "generated_utc": "2026-08-02T23:15:53.501459+00:00",
+  "updated_at": "2026-08-02 08:17 PM ET",
+  "generated_at": "2026-08-02 08:17 PM ET",
+  "generated_utc": "2026-08-03T00:17:21.124049+00:00",
   "source_mode": "odds-market interpretation engine with line movement, futures watch, weather context, and newsroom-ready betting explanation",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "",
@@ -52,11 +52,11 @@
     "MLB: St. Louis Cardinals at New York Yankees: Moneyline, Spread and Total Odds",
     "MLB: Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
     "MLB: Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds",
-    "MLB: Boston Red Sox at Los Angeles Dodgers: Moneyline, Spread and Total Odds",
     "MLB: Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
     "MLB: Pittsburgh Pirates at Milwaukee Brewers: Moneyline, Spread and Total Odds",
     "MLB: Los Angeles Dodgers at Chicago Cubs: Moneyline and Total Odds",
-    "MLB: San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds"
+    "MLB: San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds",
+    "MLB: San Diego Padres at Arizona Diamondbacks: Moneyline, Spread and Total Odds"
   ],
   "live_newsroom": [
     {
@@ -134,8 +134,8 @@
         "LINE / ODDS: Colorado Rockies +135 | Tampa Bay Rays -163",
         "IMPLIED PROBABILITY: Tampa Bay Rays 62.0% before vig",
         "MOVEMENT: Open -153 -> Current -163 (shortened for Tampa Bay Rays)",
-        "SPREAD: Colorado Rockies +1.5 (-115) | Tampa Bay Rays -1.5 (-105)",
-        "TOTAL: Over 11.5 (-107) | Under 11.5 (-113)",
+        "SPREAD: Colorado Rockies +1.5 (-112) | Tampa Bay Rays -1.5 (-107)",
+        "TOTAL: Over 11.5 (-105) | Under 11.5 (-115)",
         "BOOK: DraftKings",
         "WEATHER: 83F, wind crossfield at 5 mph, rain risk 21%"
       ],
@@ -154,23 +154,23 @@
     },
     {
       "key": "betting_market_4",
-      "title": "Boston Red Sox at Los Angeles Dodgers: Moneyline, Spread and Total Odds",
-      "headline": "Boston Red Sox at Los Angeles Dodgers: Moneyline, Spread and Total Odds",
-      "snapshot": "The market leans clearly toward Los Angeles Dodgers; injury, pitching, weather or lineup news can still move the number. A -182 moneyline implies roughly 64.5% before vig. Los Angeles Dodgers is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
+      "title": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
+      "headline": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
+      "snapshot": "The market leans clearly toward Philadelphia Phillies; injury, pitching, weather or lineup news can still move the number. A -156 moneyline implies roughly 60.9% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
       "source": "DraftKings",
-      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "url": "https://www.cbssports.com/mlb/odds/",
       "key_data": [
-        "GAME: Boston Red Sox at Los Angeles Dodgers",
-        "MARKET: Los Angeles Dodgers favored over Boston Red Sox",
-        "LINE / ODDS: Los Angeles Dodgers -182 | Boston Red Sox +150",
-        "IMPLIED PROBABILITY: Los Angeles Dodgers 64.5% before vig",
-        "MOVEMENT: Open -172 -> Current -182 (shortened for Los Angeles Dodgers)",
-        "SPREAD: Boston Red Sox +1.5 (-137) | Los Angeles Dodgers -1.5 (+114)",
-        "TOTAL: Over 8.5 (-108) | Under 8.5 (-112)",
+        "GAME: Washington Nationals at Philadelphia Phillies",
+        "MARKET: Philadelphia Phillies favored over Washington Nationals",
+        "LINE / ODDS: Philadelphia Phillies -156 | Washington Nationals +129",
+        "IMPLIED PROBABILITY: Philadelphia Phillies 60.9% before vig",
+        "MOVEMENT: Open -169 -> Current -156 (eased for Philadelphia Phillies)",
+        "SPREAD: Philadelphia Phillies -1.5 (+129) | Washington Nationals +1.5 (-156)",
+        "TOTAL: Over 9 (-119) | Under 9 (-101)",
         "BOOK: DraftKings",
-        "WEATHER: 70F, wind in from center at 17 mph, rain risk 9%"
+        "WEATHER: 63F, wind in from center at 9 mph, rain risk 39%"
       ],
-      "why_it_matters": "The market leans clearly toward Los Angeles Dodgers; injury, pitching, weather or lineup news can still move the number. A -182 moneyline implies roughly 64.5% before vig. Los Angeles Dodgers is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
+      "why_it_matters": "The market leans clearly toward Philadelphia Phillies; injury, pitching, weather or lineup news can still move the number. A -156 moneyline implies roughly 60.9% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -185,37 +185,6 @@
     },
     {
       "key": "betting_market_5",
-      "title": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
-      "headline": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
-      "snapshot": "The market gives Philadelphia Phillies a modest edge, which makes line movement and book-to-book differences worth checking. A -149 moneyline implies roughly 59.8% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
-      "source": "DraftKings",
-      "url": "https://www.cbssports.com/mlb/odds/",
-      "key_data": [
-        "GAME: Washington Nationals at Philadelphia Phillies",
-        "MARKET: Philadelphia Phillies favored over Washington Nationals",
-        "LINE / ODDS: Philadelphia Phillies -149 | Washington Nationals +123",
-        "IMPLIED PROBABILITY: Philadelphia Phillies 59.8% before vig",
-        "MOVEMENT: Open -162 -> Current -149 (eased for Philadelphia Phillies)",
-        "SPREAD: Philadelphia Phillies -1.5 (+135) | Washington Nationals +1.5 (-163)",
-        "TOTAL: Over 9 (-119) | Under 9 (-101)",
-        "BOOK: DraftKings",
-        "WEATHER: 63F, wind in from center at 9 mph, rain risk 39%"
-      ],
-      "why_it_matters": "The market gives Philadelphia Phillies a modest edge, which makes line movement and book-to-book differences worth checking. A -149 moneyline implies roughly 59.8% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
-      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-      "headline_origin": "approved_odds_only_generator",
-      "selected_headline_field": "approved_odds_only_generator",
-      "card_type": "odds_only",
-      "verified_markets": [
-        "h2h",
-        "spreads",
-        "totals"
-      ],
-      "market": "Total",
-      "market_context": "Total"
-    },
-    {
-      "key": "betting_market_6",
       "title": "Pittsburgh Pirates at Milwaukee Brewers: Moneyline, Spread and Total Odds",
       "headline": "Pittsburgh Pirates at Milwaukee Brewers: Moneyline, Spread and Total Odds",
       "snapshot": "The market gives Milwaukee Brewers a modest edge, which makes line movement and book-to-book differences worth checking. A -144 moneyline implies roughly 59.0% before vig. Milwaukee Brewers is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
@@ -246,7 +215,7 @@
       "market_context": "Total"
     },
     {
-      "key": "betting_market_7",
+      "key": "betting_market_6",
       "title": "Los Angeles Dodgers at Chicago Cubs: Moneyline and Total Odds",
       "headline": "Los Angeles Dodgers at Chicago Cubs: Moneyline and Total Odds",
       "snapshot": "The market gives Los Angeles Dodgers a modest edge, which makes line movement and book-to-book differences worth checking. A -131 moneyline implies roughly 56.7% before vig. Los Angeles Dodgers is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
@@ -276,7 +245,7 @@
       "market_context": "Total"
     },
     {
-      "key": "betting_market_8",
+      "key": "betting_market_7",
       "title": "San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds",
       "headline": "San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds",
       "snapshot": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -112 moneyline implies roughly 52.8% before vig. San Francisco Giants is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
@@ -294,6 +263,37 @@
         "WEATHER: 84F, wind crossfield at 14 mph, rain risk 34%"
       ],
       "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -112 moneyline implies roughly 52.8% before vig. San Francisco Giants is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+      "headline_origin": "approved_odds_only_generator",
+      "selected_headline_field": "approved_odds_only_generator",
+      "card_type": "odds_only",
+      "verified_markets": [
+        "h2h",
+        "spreads",
+        "totals"
+      ],
+      "market": "Total",
+      "market_context": "Total"
+    },
+    {
+      "key": "betting_market_8",
+      "title": "San Diego Padres at Arizona Diamondbacks: Moneyline, Spread and Total Odds",
+      "headline": "San Diego Padres at Arizona Diamondbacks: Moneyline, Spread and Total Odds",
+      "snapshot": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -112 moneyline implies roughly 52.8% before vig. San Diego Padres is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+      "source": "DraftKings",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "key_data": [
+        "GAME: San Diego Padres at Arizona Diamondbacks",
+        "MARKET: San Diego Padres favored over Arizona Diamondbacks",
+        "LINE / ODDS: Arizona Diamondbacks -107 | San Diego Padres -112",
+        "IMPLIED PROBABILITY: San Diego Padres 52.8% before vig",
+        "MOVEMENT: Open -98 -> Current -112 (shortened for San Diego Padres)",
+        "SPREAD: Arizona Diamondbacks +1.5 (-175) | San Diego Padres -1.5 (+144)",
+        "TOTAL: Over 8.5 (-114) | Under 8.5 (-105)",
+        "BOOK: DraftKings",
+        "WEATHER: 78F, wind out to center at 10 mph, rain risk 40%"
+      ],
+      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -112 moneyline implies roughly 52.8% before vig. San Diego Padres is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -383,8 +383,8 @@
         "LINE / ODDS: Colorado Rockies +135 | Tampa Bay Rays -163",
         "IMPLIED PROBABILITY: Tampa Bay Rays 62.0% before vig",
         "MOVEMENT: Open -153 -> Current -163 (shortened for Tampa Bay Rays)",
-        "SPREAD: Colorado Rockies +1.5 (-115) | Tampa Bay Rays -1.5 (-105)",
-        "TOTAL: Over 11.5 (-107) | Under 11.5 (-113)",
+        "SPREAD: Colorado Rockies +1.5 (-112) | Tampa Bay Rays -1.5 (-107)",
+        "TOTAL: Over 11.5 (-105) | Under 11.5 (-115)",
         "BOOK: DraftKings",
         "WEATHER: 83F, wind crossfield at 5 mph, rain risk 21%"
       ],
@@ -403,23 +403,23 @@
     },
     {
       "key": "editor_signal_4",
-      "title": "Boston Red Sox at Los Angeles Dodgers: Moneyline, Spread and Total Odds",
-      "headline": "Boston Red Sox at Los Angeles Dodgers: Moneyline, Spread and Total Odds",
-      "snapshot": "MOVEMENT: Open -172 -> Current -182 (shortened for Los Angeles Dodgers)",
+      "title": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
+      "headline": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
+      "snapshot": "MOVEMENT: Open -169 -> Current -156 (eased for Philadelphia Phillies)",
       "source": "DraftKings",
-      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "url": "https://www.cbssports.com/mlb/odds/",
       "key_data": [
-        "GAME: Boston Red Sox at Los Angeles Dodgers",
-        "MARKET: Los Angeles Dodgers favored over Boston Red Sox",
-        "LINE / ODDS: Los Angeles Dodgers -182 | Boston Red Sox +150",
-        "IMPLIED PROBABILITY: Los Angeles Dodgers 64.5% before vig",
-        "MOVEMENT: Open -172 -> Current -182 (shortened for Los Angeles Dodgers)",
-        "SPREAD: Boston Red Sox +1.5 (-137) | Los Angeles Dodgers -1.5 (+114)",
-        "TOTAL: Over 8.5 (-108) | Under 8.5 (-112)",
+        "GAME: Washington Nationals at Philadelphia Phillies",
+        "MARKET: Philadelphia Phillies favored over Washington Nationals",
+        "LINE / ODDS: Philadelphia Phillies -156 | Washington Nationals +129",
+        "IMPLIED PROBABILITY: Philadelphia Phillies 60.9% before vig",
+        "MOVEMENT: Open -169 -> Current -156 (eased for Philadelphia Phillies)",
+        "SPREAD: Philadelphia Phillies -1.5 (+129) | Washington Nationals +1.5 (-156)",
+        "TOTAL: Over 9 (-119) | Under 9 (-101)",
         "BOOK: DraftKings",
-        "WEATHER: 70F, wind in from center at 17 mph, rain risk 9%"
+        "WEATHER: 63F, wind in from center at 9 mph, rain risk 39%"
       ],
-      "why_it_matters": "The market leans clearly toward Los Angeles Dodgers; injury, pitching, weather or lineup news can still move the number. A -182 moneyline implies roughly 64.5% before vig. Los Angeles Dodgers is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
+      "why_it_matters": "The market leans clearly toward Philadelphia Phillies; injury, pitching, weather or lineup news can still move the number. A -156 moneyline implies roughly 60.9% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -434,37 +434,6 @@
     },
     {
       "key": "editor_signal_5",
-      "title": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
-      "headline": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
-      "snapshot": "MOVEMENT: Open -162 -> Current -149 (eased for Philadelphia Phillies)",
-      "source": "DraftKings",
-      "url": "https://www.cbssports.com/mlb/odds/",
-      "key_data": [
-        "GAME: Washington Nationals at Philadelphia Phillies",
-        "MARKET: Philadelphia Phillies favored over Washington Nationals",
-        "LINE / ODDS: Philadelphia Phillies -149 | Washington Nationals +123",
-        "IMPLIED PROBABILITY: Philadelphia Phillies 59.8% before vig",
-        "MOVEMENT: Open -162 -> Current -149 (eased for Philadelphia Phillies)",
-        "SPREAD: Philadelphia Phillies -1.5 (+135) | Washington Nationals +1.5 (-163)",
-        "TOTAL: Over 9 (-119) | Under 9 (-101)",
-        "BOOK: DraftKings",
-        "WEATHER: 63F, wind in from center at 9 mph, rain risk 39%"
-      ],
-      "why_it_matters": "The market gives Philadelphia Phillies a modest edge, which makes line movement and book-to-book differences worth checking. A -149 moneyline implies roughly 59.8% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
-      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-      "headline_origin": "approved_odds_only_generator",
-      "selected_headline_field": "approved_odds_only_generator",
-      "card_type": "odds_only",
-      "verified_markets": [
-        "h2h",
-        "spreads",
-        "totals"
-      ],
-      "market": "Total",
-      "market_context": "Total"
-    },
-    {
-      "key": "editor_signal_6",
       "title": "Pittsburgh Pirates at Milwaukee Brewers: Moneyline, Spread and Total Odds",
       "headline": "Pittsburgh Pirates at Milwaukee Brewers: Moneyline, Spread and Total Odds",
       "snapshot": "MOVEMENT: Open -134 -> Current -144 (shortened for Milwaukee Brewers)",
@@ -493,6 +462,36 @@
       ],
       "market": "Total",
       "market_context": "Total"
+    },
+    {
+      "key": "editor_signal_6",
+      "title": "Los Angeles Dodgers at Chicago Cubs: Moneyline and Total Odds",
+      "headline": "Los Angeles Dodgers at Chicago Cubs: Moneyline and Total Odds",
+      "snapshot": "MOVEMENT: Open -121 -> Current -131 (shortened for Los Angeles Dodgers)",
+      "source": "DraftKings",
+      "url": "https://www.cbssports.com/mlb/odds/",
+      "key_data": [
+        "GAME: Los Angeles Dodgers at Chicago Cubs",
+        "MARKET: Los Angeles Dodgers favored over Chicago Cubs",
+        "LINE / ODDS: Chicago Cubs +109 | Los Angeles Dodgers -131",
+        "IMPLIED PROBABILITY: Los Angeles Dodgers 56.7% before vig",
+        "MOVEMENT: Open -121 -> Current -131 (shortened for Los Angeles Dodgers)",
+        "SPREAD: Spread unavailable",
+        "TOTAL: Over 8.5 (+100) | Under 8.5 (-120)",
+        "BOOK: DraftKings",
+        "WEATHER: 76F, wind in from center at 12 mph, rain risk 6%"
+      ],
+      "why_it_matters": "The market gives Los Angeles Dodgers a modest edge, which makes line movement and book-to-book differences worth checking. A -131 moneyline implies roughly 56.7% before vig. Los Angeles Dodgers is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
+      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+      "headline_origin": "approved_odds_only_generator",
+      "selected_headline_field": "approved_odds_only_generator",
+      "card_type": "odds_only",
+      "verified_markets": [
+        "h2h",
+        "totals"
+      ],
+      "market": "Total",
+      "market_context": "Total"
     }
   ],
   "sections": [
@@ -502,11 +501,11 @@
         "St. Louis Cardinals at New York Yankees: Moneyline, Spread and Total Odds | MARKET: New York Yankees favored over St. Louis Cardinals | IMPLIED PROBABILITY: New York Yankees 65.8% before vig | MOVEMENT: Open -203 -> Current -192 (eased for New York Yankees)",
         "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds | MARKET: Houston Astros favored over Toronto Blue Jays | IMPLIED PROBABILITY: Houston Astros 56.9% before vig | MOVEMENT: Open -122 -> Current -132 (shortened for Houston Astros)",
         "Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds | MARKET: Tampa Bay Rays favored over Colorado Rockies | IMPLIED PROBABILITY: Tampa Bay Rays 62.0% before vig | MOVEMENT: Open -153 -> Current -163 (shortened for Tampa Bay Rays)",
-        "Boston Red Sox at Los Angeles Dodgers: Moneyline, Spread and Total Odds | MARKET: Los Angeles Dodgers favored over Boston Red Sox | IMPLIED PROBABILITY: Los Angeles Dodgers 64.5% before vig | MOVEMENT: Open -172 -> Current -182 (shortened for Los Angeles Dodgers)",
-        "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds | MARKET: Philadelphia Phillies favored over Washington Nationals | IMPLIED PROBABILITY: Philadelphia Phillies 59.8% before vig | MOVEMENT: Open -162 -> Current -149 (eased for Philadelphia Phillies)",
+        "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds | MARKET: Philadelphia Phillies favored over Washington Nationals | IMPLIED PROBABILITY: Philadelphia Phillies 60.9% before vig | MOVEMENT: Open -169 -> Current -156 (eased for Philadelphia Phillies)",
         "Pittsburgh Pirates at Milwaukee Brewers: Moneyline, Spread and Total Odds | MARKET: Milwaukee Brewers favored over Pittsburgh Pirates | IMPLIED PROBABILITY: Milwaukee Brewers 59.0% before vig | MOVEMENT: Open -134 -> Current -144 (shortened for Milwaukee Brewers)",
         "Los Angeles Dodgers at Chicago Cubs: Moneyline and Total Odds | MARKET: Los Angeles Dodgers favored over Chicago Cubs | IMPLIED PROBABILITY: Los Angeles Dodgers 56.7% before vig | MOVEMENT: Open -121 -> Current -131 (shortened for Los Angeles Dodgers)",
-        "San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds | MARKET: San Francisco Giants favored over Texas Rangers | IMPLIED PROBABILITY: San Francisco Giants 52.8% before vig | MOVEMENT: Open -103 -> Current -112 (shortened for San Francisco Giants)"
+        "San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds | MARKET: San Francisco Giants favored over Texas Rangers | IMPLIED PROBABILITY: San Francisco Giants 52.8% before vig | MOVEMENT: Open -103 -> Current -112 (shortened for San Francisco Giants)",
+        "San Diego Padres at Arizona Diamondbacks: Moneyline, Spread and Total Odds | MARKET: San Diego Padres favored over Arizona Diamondbacks | IMPLIED PROBABILITY: San Diego Padres 52.8% before vig | MOVEMENT: Open -98 -> Current -112 (shortened for San Diego Padres)"
       ],
       "headline": "Market Overview",
       "market": "Market",
@@ -518,11 +517,11 @@
         "St. Louis Cardinals at New York Yankees - MOVEMENT: Open -203 -> Current -192 (eased for New York Yankees)",
         "Toronto Blue Jays at Houston Astros - MOVEMENT: Open -122 -> Current -132 (shortened for Houston Astros)",
         "Tampa Bay Rays at Colorado Rockies - MOVEMENT: Open -153 -> Current -163 (shortened for Tampa Bay Rays)",
-        "Boston Red Sox at Los Angeles Dodgers - MOVEMENT: Open -172 -> Current -182 (shortened for Los Angeles Dodgers)",
-        "Washington Nationals at Philadelphia Phillies - MOVEMENT: Open -162 -> Current -149 (eased for Philadelphia Phillies)",
+        "Washington Nationals at Philadelphia Phillies - MOVEMENT: Open -169 -> Current -156 (eased for Philadelphia Phillies)",
         "Pittsburgh Pirates at Milwaukee Brewers - MOVEMENT: Open -134 -> Current -144 (shortened for Milwaukee Brewers)",
         "Los Angeles Dodgers at Chicago Cubs - MOVEMENT: Open -121 -> Current -131 (shortened for Los Angeles Dodgers)",
-        "San Francisco Giants at Texas Rangers - MOVEMENT: Open -103 -> Current -112 (shortened for San Francisco Giants)"
+        "San Francisco Giants at Texas Rangers - MOVEMENT: Open -103 -> Current -112 (shortened for San Francisco Giants)",
+        "San Diego Padres at Arizona Diamondbacks - MOVEMENT: Open -98 -> Current -112 (shortened for San Diego Padres)"
       ],
       "headline": "Line Movement Signals",
       "market": "Market",
@@ -630,8 +629,8 @@
             "LINE / ODDS: Colorado Rockies +135 | Tampa Bay Rays -163",
             "IMPLIED PROBABILITY: Tampa Bay Rays 62.0% before vig",
             "MOVEMENT: Open -153 -> Current -163 (shortened for Tampa Bay Rays)",
-            "SPREAD: Colorado Rockies +1.5 (-115) | Tampa Bay Rays -1.5 (-105)",
-            "TOTAL: Over 11.5 (-107) | Under 11.5 (-113)",
+            "SPREAD: Colorado Rockies +1.5 (-112) | Tampa Bay Rays -1.5 (-107)",
+            "TOTAL: Over 11.5 (-105) | Under 11.5 (-115)",
             "BOOK: DraftKings",
             "WEATHER: 83F, wind crossfield at 5 mph, rain risk 21%"
           ],
@@ -662,49 +661,6 @@
         },
         {
           "league": "MLB",
-          "title": "Boston Red Sox at Los Angeles Dodgers: Moneyline, Spread and Total Odds",
-          "headline": "Boston Red Sox at Los Angeles Dodgers: Moneyline, Spread and Total Odds",
-          "matchup": "Boston Red Sox at Los Angeles Dodgers",
-          "source": "DraftKings",
-          "url": "https://www.covers.com/sport/baseball/mlb/odds",
-          "key_data": [
-            "GAME: Boston Red Sox at Los Angeles Dodgers",
-            "MARKET: Los Angeles Dodgers favored over Boston Red Sox",
-            "LINE / ODDS: Los Angeles Dodgers -182 | Boston Red Sox +150",
-            "IMPLIED PROBABILITY: Los Angeles Dodgers 64.5% before vig",
-            "MOVEMENT: Open -172 -> Current -182 (shortened for Los Angeles Dodgers)",
-            "SPREAD: Boston Red Sox +1.5 (-137) | Los Angeles Dodgers -1.5 (+114)",
-            "TOTAL: Over 8.5 (-108) | Under 8.5 (-112)",
-            "BOOK: DraftKings",
-            "WEATHER: 70F, wind in from center at 17 mph, rain risk 9%"
-          ],
-          "market_context": "Los Angeles Dodgers -182 vs Boston Red Sox +150",
-          "implied_probability": "Los Angeles Dodgers 64.5%",
-          "market": "Los Angeles Dodgers -182 vs Boston Red Sox +150",
-          "line_odds": "Los Angeles Dodgers -182 | Boston Red Sox +150",
-          "movement_direction": "shortened",
-          "why_it_matters": "The market leans clearly toward Los Angeles Dodgers; injury, pitching, weather or lineup news can still move the number. A -182 moneyline implies roughly 64.5% before vig. Los Angeles Dodgers is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
-          "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -172 -> Current -182 (shortened for Los Angeles Dodgers)",
-          "weather": {
-            "summary": "70F, wind in from center at 17 mph, rain risk 9%",
-            "impact": "Wind is working against carry, which can matter for totals and home-run props."
-          },
-          "commence_time": "2026-08-02T23:21:00Z",
-          "card_type": "odds_only",
-          "headline_origin": "approved_odds_only_generator",
-          "verified_markets": [
-            "h2h",
-            "spreads",
-            "totals"
-          ],
-          "source_url": "",
-          "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Los Angeles Dodgers -182 vs Boston Red Sox +150",
-          "summary": "Los Angeles Dodgers -182 vs Boston Red Sox +150"
-        },
-        {
-          "league": "MLB",
           "title": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
           "headline": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
           "matchup": "Washington Nationals at Philadelphia Phillies",
@@ -713,22 +669,22 @@
           "key_data": [
             "GAME: Washington Nationals at Philadelphia Phillies",
             "MARKET: Philadelphia Phillies favored over Washington Nationals",
-            "LINE / ODDS: Philadelphia Phillies -149 | Washington Nationals +123",
-            "IMPLIED PROBABILITY: Philadelphia Phillies 59.8% before vig",
-            "MOVEMENT: Open -162 -> Current -149 (eased for Philadelphia Phillies)",
-            "SPREAD: Philadelphia Phillies -1.5 (+135) | Washington Nationals +1.5 (-163)",
+            "LINE / ODDS: Philadelphia Phillies -156 | Washington Nationals +129",
+            "IMPLIED PROBABILITY: Philadelphia Phillies 60.9% before vig",
+            "MOVEMENT: Open -169 -> Current -156 (eased for Philadelphia Phillies)",
+            "SPREAD: Philadelphia Phillies -1.5 (+129) | Washington Nationals +1.5 (-156)",
             "TOTAL: Over 9 (-119) | Under 9 (-101)",
             "BOOK: DraftKings",
             "WEATHER: 63F, wind in from center at 9 mph, rain risk 39%"
           ],
-          "market_context": "Philadelphia Phillies -149 vs Washington Nationals +123",
-          "implied_probability": "Philadelphia Phillies 59.8%",
-          "market": "Philadelphia Phillies -149 vs Washington Nationals +123",
-          "line_odds": "Philadelphia Phillies -149 | Washington Nationals +123",
+          "market_context": "Philadelphia Phillies -156 vs Washington Nationals +129",
+          "implied_probability": "Philadelphia Phillies 60.9%",
+          "market": "Philadelphia Phillies -156 vs Washington Nationals +129",
+          "line_odds": "Philadelphia Phillies -156 | Washington Nationals +129",
           "movement_direction": "eased",
-          "why_it_matters": "The market gives Philadelphia Phillies a modest edge, which makes line movement and book-to-book differences worth checking. A -149 moneyline implies roughly 59.8% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+          "why_it_matters": "The market leans clearly toward Philadelphia Phillies; injury, pitching, weather or lineup news can still move the number. A -156 moneyline implies roughly 60.9% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
           "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -162 -> Current -149 (eased for Philadelphia Phillies)",
+          "line_movement": "MOVEMENT: Open -169 -> Current -156 (eased for Philadelphia Phillies)",
           "weather": {
             "summary": "63F, wind in from center at 9 mph, rain risk 39%",
             "impact": "Rain risk can create bullpen stress, delay risk and live-betting volatility."
@@ -743,8 +699,8 @@
           ],
           "source_url": "",
           "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Philadelphia Phillies -149 vs Washington Nationals +123",
-          "summary": "Philadelphia Phillies -149 vs Washington Nationals +123"
+          "snapshot": "Philadelphia Phillies -156 vs Washington Nationals +129",
+          "summary": "Philadelphia Phillies -156 vs Washington Nationals +129"
         },
         {
           "league": "MLB",
@@ -1001,37 +957,12 @@
           "summary": "Weather: 83F, wind crossfield at 5 mph, rain risk 21% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement."
         },
         {
-          "title": "Boston Red Sox at Los Angeles Dodgers: Moneyline, Spread and Total Odds",
-          "headline": "Boston Red Sox at Los Angeles Dodgers: Moneyline, Spread and Total Odds",
-          "source": "DraftKings",
-          "url": "https://www.covers.com/sport/baseball/mlb/odds",
-          "matchup": "Boston Red Sox at Los Angeles Dodgers",
-          "market": "Los Angeles Dodgers -182 vs Boston Red Sox +150",
-          "card_type": "odds_only",
-          "headline_origin": "approved_odds_only_generator",
-          "selected_headline_field": "approved_odds_only_generator",
-          "verified_markets": [
-            "h2h",
-            "spreads",
-            "totals"
-          ],
-          "key_data": [
-            "Weather: 70F, wind in from center at 17 mph, rain risk 9%",
-            "Check wind direction, temperature, and precipitation before first pitch.",
-            "Outdoor parks can create meaningful total movement."
-          ],
-          "why_it_matters": "Wind is working against carry, which can matter for totals and home-run props.",
-          "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
-          "snapshot": "Weather: 70F, wind in from center at 17 mph, rain risk 9% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement.",
-          "summary": "Weather: 70F, wind in from center at 17 mph, rain risk 9% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement."
-        },
-        {
           "title": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
           "headline": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
           "source": "DraftKings",
           "url": "https://www.cbssports.com/mlb/odds/",
           "matchup": "Washington Nationals at Philadelphia Phillies",
-          "market": "Philadelphia Phillies -149 vs Washington Nationals +123",
+          "market": "Philadelphia Phillies -156 vs Washington Nationals +129",
           "card_type": "odds_only",
           "headline_origin": "approved_odds_only_generator",
           "selected_headline_field": "approved_odds_only_generator",
@@ -1074,6 +1005,30 @@
           "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
           "snapshot": "Weather: 73F, wind in from center at 12 mph, rain risk 25% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement.",
           "summary": "Weather: 73F, wind in from center at 12 mph, rain risk 25% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement."
+        },
+        {
+          "title": "Los Angeles Dodgers at Chicago Cubs: Moneyline and Total Odds",
+          "headline": "Los Angeles Dodgers at Chicago Cubs: Moneyline and Total Odds",
+          "source": "DraftKings",
+          "url": "https://www.cbssports.com/mlb/odds/",
+          "matchup": "Los Angeles Dodgers at Chicago Cubs",
+          "market": "Los Angeles Dodgers -131 vs Chicago Cubs +109",
+          "card_type": "odds_only",
+          "headline_origin": "approved_odds_only_generator",
+          "selected_headline_field": "approved_odds_only_generator",
+          "verified_markets": [
+            "h2h",
+            "totals"
+          ],
+          "key_data": [
+            "Weather: 76F, wind in from center at 12 mph, rain risk 6%",
+            "Check wind direction, temperature, and precipitation before first pitch.",
+            "Outdoor parks can create meaningful total movement."
+          ],
+          "why_it_matters": "Wind is working against carry, which can matter for totals and home-run props.",
+          "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
+          "snapshot": "Weather: 76F, wind in from center at 12 mph, rain risk 6% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement.",
+          "summary": "Weather: 76F, wind in from center at 12 mph, rain risk 6% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement."
         }
       ],
       "headline": "Weather Impact",
@@ -1100,11 +1055,11 @@
         "St. Louis Cardinals at New York Yankees - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "Toronto Blue Jays at Houston Astros - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "Tampa Bay Rays at Colorado Rockies - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-        "Boston Red Sox at Los Angeles Dodgers - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "Washington Nationals at Philadelphia Phillies - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "Pittsburgh Pirates at Milwaukee Brewers - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "Los Angeles Dodgers at Chicago Cubs - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-        "San Francisco Giants at Texas Rangers - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
+        "San Francisco Giants at Texas Rangers - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+        "San Diego Padres at Arizona Diamondbacks - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "headline": "Late Market Checks",
       "market": "Market",
@@ -1205,7 +1160,7 @@
         "LINE / ODDS: Colorado Rockies +135 | Tampa Bay Rays -163",
         "IMPLIED PROBABILITY: Tampa Bay Rays 62.0% before vig",
         "MOVEMENT: Open -153 -> Current -163 (shortened for Tampa Bay Rays)",
-        "SPREAD: Colorado Rockies +1.5 (-115) | Tampa Bay Rays -1.5 (-105)"
+        "SPREAD: Colorado Rockies +1.5 (-112) | Tampa Bay Rays -1.5 (-107)"
       ],
       "why_it_matters": "The market leans clearly toward Tampa Bay Rays; injury, pitching, weather or lineup news can still move the number. A -163 moneyline implies roughly 62.0% before vig. Tampa Bay Rays is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
@@ -1224,54 +1179,22 @@
     },
     {
       "league": "MLB",
-      "headline": "Boston Red Sox at Los Angeles Dodgers: Moneyline, Spread and Total Odds",
-      "source": "DraftKings",
-      "url": "https://www.covers.com/sport/baseball/mlb/odds",
-      "matchup": "Boston Red Sox at Los Angeles Dodgers",
-      "market_context": "Los Angeles Dodgers -182 vs Boston Red Sox +150",
-      "implied_probability": "Los Angeles Dodgers 64.5%",
-      "line_movement": "MOVEMENT: Open -172 -> Current -182 (shortened for Los Angeles Dodgers)",
-      "key_data": [
-        "GAME: Boston Red Sox at Los Angeles Dodgers",
-        "MARKET: Los Angeles Dodgers favored over Boston Red Sox",
-        "LINE / ODDS: Los Angeles Dodgers -182 | Boston Red Sox +150",
-        "IMPLIED PROBABILITY: Los Angeles Dodgers 64.5% before vig",
-        "MOVEMENT: Open -172 -> Current -182 (shortened for Los Angeles Dodgers)",
-        "SPREAD: Boston Red Sox +1.5 (-137) | Los Angeles Dodgers -1.5 (+114)"
-      ],
-      "why_it_matters": "The market leans clearly toward Los Angeles Dodgers; injury, pitching, weather or lineup news can still move the number. A -182 moneyline implies roughly 64.5% before vig. Los Angeles Dodgers is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
-      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-      "headline_origin": "approved_odds_only_generator",
-      "selected_headline_field": "approved_odds_only_generator",
-      "card_type": "odds_only",
-      "verified_markets": [
-        "h2h",
-        "spreads",
-        "totals"
-      ],
-      "title": "Boston Red Sox at Los Angeles Dodgers: Moneyline, Spread and Total Odds",
-      "market": "Total",
-      "snapshot": "Los Angeles Dodgers -182 vs Boston Red Sox +150",
-      "summary": "Los Angeles Dodgers -182 vs Boston Red Sox +150"
-    },
-    {
-      "league": "MLB",
       "headline": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
       "source": "DraftKings",
       "url": "https://www.cbssports.com/mlb/odds/",
       "matchup": "Washington Nationals at Philadelphia Phillies",
-      "market_context": "Philadelphia Phillies -149 vs Washington Nationals +123",
-      "implied_probability": "Philadelphia Phillies 59.8%",
-      "line_movement": "MOVEMENT: Open -162 -> Current -149 (eased for Philadelphia Phillies)",
+      "market_context": "Philadelphia Phillies -156 vs Washington Nationals +129",
+      "implied_probability": "Philadelphia Phillies 60.9%",
+      "line_movement": "MOVEMENT: Open -169 -> Current -156 (eased for Philadelphia Phillies)",
       "key_data": [
         "GAME: Washington Nationals at Philadelphia Phillies",
         "MARKET: Philadelphia Phillies favored over Washington Nationals",
-        "LINE / ODDS: Philadelphia Phillies -149 | Washington Nationals +123",
-        "IMPLIED PROBABILITY: Philadelphia Phillies 59.8% before vig",
-        "MOVEMENT: Open -162 -> Current -149 (eased for Philadelphia Phillies)",
-        "SPREAD: Philadelphia Phillies -1.5 (+135) | Washington Nationals +1.5 (-163)"
+        "LINE / ODDS: Philadelphia Phillies -156 | Washington Nationals +129",
+        "IMPLIED PROBABILITY: Philadelphia Phillies 60.9% before vig",
+        "MOVEMENT: Open -169 -> Current -156 (eased for Philadelphia Phillies)",
+        "SPREAD: Philadelphia Phillies -1.5 (+129) | Washington Nationals +1.5 (-156)"
       ],
-      "why_it_matters": "The market gives Philadelphia Phillies a modest edge, which makes line movement and book-to-book differences worth checking. A -149 moneyline implies roughly 59.8% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "why_it_matters": "The market leans clearly toward Philadelphia Phillies; injury, pitching, weather or lineup news can still move the number. A -156 moneyline implies roughly 60.9% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -1283,8 +1206,8 @@
       ],
       "title": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
       "market": "Total",
-      "snapshot": "Philadelphia Phillies -149 vs Washington Nationals +123",
-      "summary": "Philadelphia Phillies -149 vs Washington Nationals +123"
+      "snapshot": "Philadelphia Phillies -156 vs Washington Nationals +129",
+      "summary": "Philadelphia Phillies -156 vs Washington Nationals +129"
     },
     {
       "league": "MLB",
@@ -1419,10 +1342,10 @@
     "text": "No gambling advice or picks. Prices, injuries, lineups, weather and fantasy usage are organized for human betting context."
   },
   "headline_diagnostic_summary": {
-    "total_candidates": 13,
-    "accepted": 9,
+    "total_candidates": 12,
+    "accepted": 8,
     "rejected_for_headline_failure": 4,
     "source_published": 0,
-    "approved_odds_only_generated": 9
+    "approved_odds_only_generated": 8
   }
 }
