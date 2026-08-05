@@ -4,11 +4,11 @@
   "vertical": "Betting",
   "title": "Global Betting Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
+  "headline": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
   "snapshot": "Fast odds context for moneylines, spreads, totals, implied probability, fantasy angles, weather and late price movement.",
-  "updated_at": "2026-08-05 01:55 PM ET",
-  "generated_at": "2026-08-05 01:55 PM ET",
-  "generated_utc": "2026-08-05T17:55:53.593460+00:00",
+  "updated_at": "2026-08-05 03:57 PM ET",
+  "generated_at": "2026-08-05 03:57 PM ET",
+  "generated_utc": "2026-08-05T19:57:43.404478+00:00",
   "source_mode": "odds-market interpretation engine with line movement, futures watch, weather context, and newsroom-ready betting explanation",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "",
@@ -49,35 +49,35 @@
     }
   ],
   "key_storylines": [
-    "MLB: Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
-    "MLB: Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds",
     "MLB: Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
     "MLB: St. Louis Cardinals at New York Yankees: Moneyline, Spread and Total Odds",
     "MLB: Chicago White Sox at Boston Red Sox: Moneyline, Spread and Total Odds",
     "MLB: Minnesota Twins at Kansas City Royals: Moneyline, Spread and Total Odds",
-    "MLB: Los Angeles Dodgers at Chicago Cubs: Moneyline, Spread and Total Odds",
-    "MLB: San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds"
+    "MLB: Toronto Blue Jays at Chicago Cubs: Moneyline Odds",
+    "MLB: Athletics at Cincinnati Reds: Moneyline, Spread and Total Odds",
+    "MLB: New York Mets at Cleveland Guardians: Moneyline, Spread and Total Odds",
+    "MLB: Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds"
   ],
   "live_newsroom": [
     {
       "key": "betting_market_1",
-      "title": "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
-      "headline": "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
-      "snapshot": "The market leans clearly toward Houston Astros; injury, pitching, weather or lineup news can still move the number. A -208 moneyline implies roughly 67.5% before vig. Houston Astros is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+      "title": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
+      "headline": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
+      "snapshot": "The market gives Baltimore Orioles a modest edge, which makes line movement and book-to-book differences worth checking. A -128 moneyline implies roughly 56.1% before vig. Baltimore Orioles is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
       "source": "DraftKings",
-      "url": "https://www.actionnetwork.com/mlb/odds",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
       "key_data": [
-        "GAME: Toronto Blue Jays at Houston Astros",
-        "MARKET: Houston Astros favored over Toronto Blue Jays",
-        "LINE / ODDS: Houston Astros -208 | Toronto Blue Jays +195",
-        "IMPLIED PROBABILITY: Houston Astros 67.5% before vig",
-        "MOVEMENT: Open -198 -> Current -208 (shortened for Houston Astros)",
-        "SPREAD: Houston Astros -1.5 (-106) | Toronto Blue Jays +1.5 (-114)",
-        "TOTAL: Over 8 (-113) | Under 8 (-107)",
+        "GAME: Los Angeles Angels at Baltimore Orioles",
+        "MARKET: Baltimore Orioles favored over Los Angeles Angels",
+        "LINE / ODDS: Baltimore Orioles -128 | Los Angeles Angels +120",
+        "IMPLIED PROBABILITY: Baltimore Orioles 56.1% before vig",
+        "MOVEMENT: Open -122 -> Current -128 (shortened for Baltimore Orioles)",
+        "SPREAD: Baltimore Orioles -1.5 (+152) | Los Angeles Angels +1.5 (-185)",
+        "TOTAL: Over 8 (-103) | Under 8 (-117)",
         "BOOK: DraftKings",
-        "WEATHER: 80F, wind out to right at 6 mph, rain risk 27%"
+        "WEATHER: 60F, wind in from center at 8 mph, rain risk 13%"
       ],
-      "why_it_matters": "The market leans clearly toward Houston Astros; injury, pitching, weather or lineup news can still move the number. A -208 moneyline implies roughly 67.5% before vig. Houston Astros is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+      "why_it_matters": "The market gives Baltimore Orioles a modest edge, which makes line movement and book-to-book differences worth checking. A -128 moneyline implies roughly 56.1% before vig. Baltimore Orioles is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -92,68 +92,6 @@
     },
     {
       "key": "betting_market_2",
-      "title": "Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds",
-      "headline": "Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds",
-      "snapshot": "The market leans clearly toward Tampa Bay Rays; injury, pitching, weather or lineup news can still move the number. A -153 moneyline implies roughly 60.5% before vig. Tampa Bay Rays is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
-      "source": "DraftKings",
-      "url": "https://www.cbssports.com/mlb/odds/",
-      "key_data": [
-        "GAME: Tampa Bay Rays at Colorado Rockies",
-        "MARKET: Tampa Bay Rays favored over Colorado Rockies",
-        "LINE / ODDS: Colorado Rockies +144 | Tampa Bay Rays -153",
-        "IMPLIED PROBABILITY: Tampa Bay Rays 60.5% before vig",
-        "MOVEMENT: Open -143 -> Current -153 (shortened for Tampa Bay Rays)",
-        "SPREAD: Colorado Rockies +1.5 (-109) | Tampa Bay Rays -1.5 (-110)",
-        "TOTAL: Over 11 (-109) | Under 11 (-110)",
-        "BOOK: DraftKings",
-        "WEATHER: 83F, wind crossfield at 5 mph, rain risk 21%"
-      ],
-      "why_it_matters": "The market leans clearly toward Tampa Bay Rays; injury, pitching, weather or lineup news can still move the number. A -153 moneyline implies roughly 60.5% before vig. Tampa Bay Rays is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
-      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-      "headline_origin": "approved_odds_only_generator",
-      "selected_headline_field": "approved_odds_only_generator",
-      "card_type": "odds_only",
-      "verified_markets": [
-        "h2h",
-        "spreads",
-        "totals"
-      ],
-      "market": "Total",
-      "market_context": "Total"
-    },
-    {
-      "key": "betting_market_3",
-      "title": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
-      "headline": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
-      "snapshot": "The market gives Baltimore Orioles a modest edge, which makes line movement and book-to-book differences worth checking. A -118 moneyline implies roughly 54.1% before vig. Baltimore Orioles is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
-      "source": "DraftKings",
-      "url": "https://www.covers.com/sport/baseball/mlb/odds",
-      "key_data": [
-        "GAME: Los Angeles Angels at Baltimore Orioles",
-        "MARKET: Baltimore Orioles favored over Los Angeles Angels",
-        "LINE / ODDS: Baltimore Orioles -118 | Los Angeles Angels +111",
-        "IMPLIED PROBABILITY: Baltimore Orioles 54.1% before vig",
-        "MOVEMENT: Open -112 -> Current -118 (shortened for Baltimore Orioles)",
-        "SPREAD: Baltimore Orioles -1.5 (+161) | Los Angeles Angels +1.5 (-196)",
-        "TOTAL: Over 8 (-103) | Under 8 (-117)",
-        "BOOK: DraftKings",
-        "WEATHER: 60F, wind in from center at 8 mph, rain risk 13%"
-      ],
-      "why_it_matters": "The market gives Baltimore Orioles a modest edge, which makes line movement and book-to-book differences worth checking. A -118 moneyline implies roughly 54.1% before vig. Baltimore Orioles is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
-      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-      "headline_origin": "approved_odds_only_generator",
-      "selected_headline_field": "approved_odds_only_generator",
-      "card_type": "odds_only",
-      "verified_markets": [
-        "h2h",
-        "spreads",
-        "totals"
-      ],
-      "market": "Total",
-      "market_context": "Total"
-    },
-    {
-      "key": "betting_market_4",
       "title": "St. Louis Cardinals at New York Yankees: Moneyline, Spread and Total Odds",
       "headline": "St. Louis Cardinals at New York Yankees: Moneyline, Spread and Total Odds",
       "snapshot": "The market leans clearly toward New York Yankees; injury, pitching, weather or lineup news can still move the number. A -153 moneyline implies roughly 60.5% before vig. New York Yankees is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Weather is not extreme, but the total still needs a final check before lineups lock.",
@@ -165,8 +103,8 @@
         "LINE / ODDS: New York Yankees -153 | St. Louis Cardinals +144",
         "IMPLIED PROBABILITY: New York Yankees 60.5% before vig",
         "MOVEMENT: Open -164 -> Current -153 (eased for New York Yankees)",
-        "SPREAD: New York Yankees -1.5 (+129) | St. Louis Cardinals +1.5 (-156)",
-        "TOTAL: Over 8.5 (-105) | Under 8.5 (-114)",
+        "SPREAD: New York Yankees -1.5 (+130) | St. Louis Cardinals +1.5 (-157)",
+        "TOTAL: Over 8.5 (-104) | Under 8.5 (-115)",
         "BOOK: DraftKings",
         "WEATHER: 66F, wind in from left at 8 mph, rain risk 23%"
       ],
@@ -184,7 +122,7 @@
       "market_context": "Total"
     },
     {
-      "key": "betting_market_5",
+      "key": "betting_market_3",
       "title": "Chicago White Sox at Boston Red Sox: Moneyline, Spread and Total Odds",
       "headline": "Chicago White Sox at Boston Red Sox: Moneyline, Spread and Total Odds",
       "snapshot": "The market gives Boston Red Sox a modest edge, which makes line movement and book-to-book differences worth checking. A -128 moneyline implies roughly 56.1% before vig. Boston Red Sox is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
@@ -215,7 +153,7 @@
       "market_context": "Total"
     },
     {
-      "key": "betting_market_6",
+      "key": "betting_market_4",
       "title": "Minnesota Twins at Kansas City Royals: Moneyline, Spread and Total Odds",
       "headline": "Minnesota Twins at Kansas City Royals: Moneyline, Spread and Total Odds",
       "snapshot": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -113 moneyline implies roughly 53.1% before vig. Kansas City Royals is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
@@ -227,7 +165,7 @@
         "LINE / ODDS: Kansas City Royals -113 | Minnesota Twins +106",
         "IMPLIED PROBABILITY: Kansas City Royals 53.1% before vig",
         "MOVEMENT: Open -103 -> Current -113 (shortened for Kansas City Royals)",
-        "SPREAD: Kansas City Royals +1.5 (-192) | Minnesota Twins -1.5 (+158)",
+        "SPREAD: Kansas City Royals +1.5 (-196) | Minnesota Twins -1.5 (+160)",
         "TOTAL: Over 8.5 (-118) | Under 8.5 (-102)",
         "BOOK: DraftKings",
         "WEATHER: 69F, wind crossfield at 18 mph, rain risk 6%"
@@ -246,24 +184,84 @@
       "market_context": "Total"
     },
     {
-      "key": "betting_market_7",
-      "title": "Los Angeles Dodgers at Chicago Cubs: Moneyline, Spread and Total Odds",
-      "headline": "Los Angeles Dodgers at Chicago Cubs: Moneyline, Spread and Total Odds",
-      "snapshot": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -108 moneyline implies roughly 51.9% before vig. Chicago Cubs is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
+      "key": "betting_market_5",
+      "title": "Toronto Blue Jays at Chicago Cubs: Moneyline Odds",
+      "headline": "Toronto Blue Jays at Chicago Cubs: Moneyline Odds",
+      "snapshot": "The market gives Toronto Blue Jays a modest edge, which makes line movement and book-to-book differences worth checking. A -119 moneyline implies roughly 54.3% before vig. Toronto Blue Jays is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
       "source": "DraftKings",
-      "url": "https://www.cbssports.com/mlb/odds/",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
       "key_data": [
-        "GAME: Los Angeles Dodgers at Chicago Cubs",
-        "MARKET: Chicago Cubs favored over Los Angeles Dodgers",
-        "LINE / ODDS: Chicago Cubs -108 | Los Angeles Dodgers +102",
-        "IMPLIED PROBABILITY: Chicago Cubs 51.9% before vig",
-        "MOVEMENT: Open -94 -> Current -108 (shortened for Chicago Cubs)",
-        "SPREAD: Chicago Cubs +1.5 (-185) | Los Angeles Dodgers -1.5 (+152)",
-        "TOTAL: Over 10 (-106) | Under 10 (-114)",
+        "GAME: Toronto Blue Jays at Chicago Cubs",
+        "MARKET: Toronto Blue Jays favored over Chicago Cubs",
+        "LINE / ODDS: Chicago Cubs -101 | Toronto Blue Jays -119",
+        "IMPLIED PROBABILITY: Toronto Blue Jays 54.3% before vig",
+        "MOVEMENT: Open -101 -> Current -119 (shortened for Toronto Blue Jays)",
+        "SPREAD: Spread unavailable",
+        "TOTAL: Total unavailable",
         "BOOK: DraftKings",
-        "WEATHER: 76F, wind in from center at 12 mph, rain risk 6%"
+        "WEATHER: 69F, wind out to center at 4 mph, rain risk 21%"
       ],
-      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -108 moneyline implies roughly 51.9% before vig. Chicago Cubs is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
+      "why_it_matters": "The market gives Toronto Blue Jays a modest edge, which makes line movement and book-to-book differences worth checking. A -119 moneyline implies roughly 54.3% before vig. Toronto Blue Jays is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+      "headline_origin": "approved_odds_only_generator",
+      "selected_headline_field": "approved_odds_only_generator",
+      "card_type": "odds_only",
+      "verified_markets": [
+        "h2h"
+      ],
+      "market": "Total",
+      "market_context": "Total"
+    },
+    {
+      "key": "betting_market_6",
+      "title": "Athletics at Cincinnati Reds: Moneyline, Spread and Total Odds",
+      "headline": "Athletics at Cincinnati Reds: Moneyline, Spread and Total Odds",
+      "snapshot": "The market gives Cincinnati Reds a modest edge, which makes line movement and book-to-book differences worth checking. A -147 moneyline implies roughly 59.5% before vig. Cincinnati Reds is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+      "source": "DraftKings",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "key_data": [
+        "GAME: Athletics at Cincinnati Reds",
+        "MARKET: Cincinnati Reds favored over Athletics",
+        "LINE / ODDS: Cincinnati Reds -147 | Athletics +138",
+        "IMPLIED PROBABILITY: Cincinnati Reds 59.5% before vig",
+        "MOVEMENT: Open -136 -> Current -147 (shortened for Cincinnati Reds)",
+        "SPREAD: Athletics +1.5 (-155) | Cincinnati Reds -1.5 (+128)",
+        "TOTAL: Over 9.5 (-102) | Under 9.5 (-119)",
+        "BOOK: DraftKings",
+        "WEATHER: 73F, wind out to left at 12 mph, rain risk 6%"
+      ],
+      "why_it_matters": "The market gives Cincinnati Reds a modest edge, which makes line movement and book-to-book differences worth checking. A -147 moneyline implies roughly 59.5% before vig. Cincinnati Reds is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+      "headline_origin": "approved_odds_only_generator",
+      "selected_headline_field": "approved_odds_only_generator",
+      "card_type": "odds_only",
+      "verified_markets": [
+        "h2h",
+        "spreads",
+        "totals"
+      ],
+      "market": "Total",
+      "market_context": "Total"
+    },
+    {
+      "key": "betting_market_7",
+      "title": "New York Mets at Cleveland Guardians: Moneyline, Spread and Total Odds",
+      "headline": "New York Mets at Cleveland Guardians: Moneyline, Spread and Total Odds",
+      "snapshot": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -107 moneyline implies roughly 51.7% before vig. Cleveland Guardians is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
+      "source": "DraftKings",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "key_data": [
+        "GAME: New York Mets at Cleveland Guardians",
+        "MARKET: Cleveland Guardians favored over New York Mets",
+        "LINE / ODDS: Cleveland Guardians -107 | New York Mets +101",
+        "IMPLIED PROBABILITY: Cleveland Guardians 51.7% before vig",
+        "MOVEMENT: Open -114 -> Current -107 (eased for Cleveland Guardians)",
+        "SPREAD: Cleveland Guardians +1.5 (-188) | New York Mets -1.5 (+154)",
+        "TOTAL: Over 7.5 (-113) | Under 7.5 (-107)",
+        "BOOK: DraftKings",
+        "WEATHER: 62F, wind out to left at 16 mph, rain risk 44%"
+      ],
+      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -107 moneyline implies roughly 51.7% before vig. Cleveland Guardians is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -278,23 +276,23 @@
     },
     {
       "key": "betting_market_8",
-      "title": "San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds",
-      "headline": "San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds",
-      "snapshot": "The market gives Texas Rangers a modest edge, which makes line movement and book-to-book differences worth checking. A -147 moneyline implies roughly 59.5% before vig. Texas Rangers is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "title": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
+      "headline": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
+      "snapshot": "The market leans clearly toward Philadelphia Phillies; injury, pitching, weather or lineup news can still move the number. A -191 moneyline implies roughly 65.6% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
       "source": "DraftKings",
-      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "url": "https://www.cbssports.com/mlb/odds/",
       "key_data": [
-        "GAME: San Francisco Giants at Texas Rangers",
-        "MARKET: Texas Rangers favored over San Francisco Giants",
-        "LINE / ODDS: Texas Rangers -147 | San Francisco Giants +138",
-        "IMPLIED PROBABILITY: Texas Rangers 59.5% before vig",
-        "MOVEMENT: Open -137 -> Current -147 (shortened for Texas Rangers)",
-        "SPREAD: San Francisco Giants +1.5 (-154) | Texas Rangers -1.5 (+128)",
-        "TOTAL: Over 8.5 (-104) | Under 8.5 (-116)",
+        "GAME: Washington Nationals at Philadelphia Phillies",
+        "MARKET: Philadelphia Phillies favored over Washington Nationals",
+        "LINE / ODDS: Philadelphia Phillies -191 | Washington Nationals +179",
+        "IMPLIED PROBABILITY: Philadelphia Phillies 65.6% before vig",
+        "MOVEMENT: Open -204 -> Current -191 (eased for Philadelphia Phillies)",
+        "SPREAD: Philadelphia Phillies -1.5 (+102) | Washington Nationals +1.5 (-123)",
+        "TOTAL: Over 9.5 (-112) | Under 9.5 (-108)",
         "BOOK: DraftKings",
-        "WEATHER: 84F, wind crossfield at 14 mph, rain risk 34%"
+        "WEATHER: 63F, wind in from center at 9 mph, rain risk 39%"
       ],
-      "why_it_matters": "The market gives Texas Rangers a modest edge, which makes line movement and book-to-book differences worth checking. A -147 moneyline implies roughly 59.5% before vig. Texas Rangers is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "why_it_matters": "The market leans clearly toward Philadelphia Phillies; injury, pitching, weather or lineup news can still move the number. A -191 moneyline implies roughly 65.6% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -311,23 +309,23 @@
   "editor_signals": [
     {
       "key": "editor_signal_1",
-      "title": "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
-      "headline": "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
-      "snapshot": "MOVEMENT: Open -198 -> Current -208 (shortened for Houston Astros)",
+      "title": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
+      "headline": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
+      "snapshot": "MOVEMENT: Open -122 -> Current -128 (shortened for Baltimore Orioles)",
       "source": "DraftKings",
-      "url": "https://www.actionnetwork.com/mlb/odds",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
       "key_data": [
-        "GAME: Toronto Blue Jays at Houston Astros",
-        "MARKET: Houston Astros favored over Toronto Blue Jays",
-        "LINE / ODDS: Houston Astros -208 | Toronto Blue Jays +195",
-        "IMPLIED PROBABILITY: Houston Astros 67.5% before vig",
-        "MOVEMENT: Open -198 -> Current -208 (shortened for Houston Astros)",
-        "SPREAD: Houston Astros -1.5 (-106) | Toronto Blue Jays +1.5 (-114)",
-        "TOTAL: Over 8 (-113) | Under 8 (-107)",
+        "GAME: Los Angeles Angels at Baltimore Orioles",
+        "MARKET: Baltimore Orioles favored over Los Angeles Angels",
+        "LINE / ODDS: Baltimore Orioles -128 | Los Angeles Angels +120",
+        "IMPLIED PROBABILITY: Baltimore Orioles 56.1% before vig",
+        "MOVEMENT: Open -122 -> Current -128 (shortened for Baltimore Orioles)",
+        "SPREAD: Baltimore Orioles -1.5 (+152) | Los Angeles Angels +1.5 (-185)",
+        "TOTAL: Over 8 (-103) | Under 8 (-117)",
         "BOOK: DraftKings",
-        "WEATHER: 80F, wind out to right at 6 mph, rain risk 27%"
+        "WEATHER: 60F, wind in from center at 8 mph, rain risk 13%"
       ],
-      "why_it_matters": "The market leans clearly toward Houston Astros; injury, pitching, weather or lineup news can still move the number. A -208 moneyline implies roughly 67.5% before vig. Houston Astros is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+      "why_it_matters": "The market gives Baltimore Orioles a modest edge, which makes line movement and book-to-book differences worth checking. A -128 moneyline implies roughly 56.1% before vig. Baltimore Orioles is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -342,68 +340,6 @@
     },
     {
       "key": "editor_signal_2",
-      "title": "Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds",
-      "headline": "Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds",
-      "snapshot": "MOVEMENT: Open -143 -> Current -153 (shortened for Tampa Bay Rays)",
-      "source": "DraftKings",
-      "url": "https://www.cbssports.com/mlb/odds/",
-      "key_data": [
-        "GAME: Tampa Bay Rays at Colorado Rockies",
-        "MARKET: Tampa Bay Rays favored over Colorado Rockies",
-        "LINE / ODDS: Colorado Rockies +144 | Tampa Bay Rays -153",
-        "IMPLIED PROBABILITY: Tampa Bay Rays 60.5% before vig",
-        "MOVEMENT: Open -143 -> Current -153 (shortened for Tampa Bay Rays)",
-        "SPREAD: Colorado Rockies +1.5 (-109) | Tampa Bay Rays -1.5 (-110)",
-        "TOTAL: Over 11 (-109) | Under 11 (-110)",
-        "BOOK: DraftKings",
-        "WEATHER: 83F, wind crossfield at 5 mph, rain risk 21%"
-      ],
-      "why_it_matters": "The market leans clearly toward Tampa Bay Rays; injury, pitching, weather or lineup news can still move the number. A -153 moneyline implies roughly 60.5% before vig. Tampa Bay Rays is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
-      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-      "headline_origin": "approved_odds_only_generator",
-      "selected_headline_field": "approved_odds_only_generator",
-      "card_type": "odds_only",
-      "verified_markets": [
-        "h2h",
-        "spreads",
-        "totals"
-      ],
-      "market": "Total",
-      "market_context": "Total"
-    },
-    {
-      "key": "editor_signal_3",
-      "title": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
-      "headline": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
-      "snapshot": "MOVEMENT: Open -112 -> Current -118 (shortened for Baltimore Orioles)",
-      "source": "DraftKings",
-      "url": "https://www.covers.com/sport/baseball/mlb/odds",
-      "key_data": [
-        "GAME: Los Angeles Angels at Baltimore Orioles",
-        "MARKET: Baltimore Orioles favored over Los Angeles Angels",
-        "LINE / ODDS: Baltimore Orioles -118 | Los Angeles Angels +111",
-        "IMPLIED PROBABILITY: Baltimore Orioles 54.1% before vig",
-        "MOVEMENT: Open -112 -> Current -118 (shortened for Baltimore Orioles)",
-        "SPREAD: Baltimore Orioles -1.5 (+161) | Los Angeles Angels +1.5 (-196)",
-        "TOTAL: Over 8 (-103) | Under 8 (-117)",
-        "BOOK: DraftKings",
-        "WEATHER: 60F, wind in from center at 8 mph, rain risk 13%"
-      ],
-      "why_it_matters": "The market gives Baltimore Orioles a modest edge, which makes line movement and book-to-book differences worth checking. A -118 moneyline implies roughly 54.1% before vig. Baltimore Orioles is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
-      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-      "headline_origin": "approved_odds_only_generator",
-      "selected_headline_field": "approved_odds_only_generator",
-      "card_type": "odds_only",
-      "verified_markets": [
-        "h2h",
-        "spreads",
-        "totals"
-      ],
-      "market": "Total",
-      "market_context": "Total"
-    },
-    {
-      "key": "editor_signal_4",
       "title": "St. Louis Cardinals at New York Yankees: Moneyline, Spread and Total Odds",
       "headline": "St. Louis Cardinals at New York Yankees: Moneyline, Spread and Total Odds",
       "snapshot": "MOVEMENT: Open -164 -> Current -153 (eased for New York Yankees)",
@@ -415,8 +351,8 @@
         "LINE / ODDS: New York Yankees -153 | St. Louis Cardinals +144",
         "IMPLIED PROBABILITY: New York Yankees 60.5% before vig",
         "MOVEMENT: Open -164 -> Current -153 (eased for New York Yankees)",
-        "SPREAD: New York Yankees -1.5 (+129) | St. Louis Cardinals +1.5 (-156)",
-        "TOTAL: Over 8.5 (-105) | Under 8.5 (-114)",
+        "SPREAD: New York Yankees -1.5 (+130) | St. Louis Cardinals +1.5 (-157)",
+        "TOTAL: Over 8.5 (-104) | Under 8.5 (-115)",
         "BOOK: DraftKings",
         "WEATHER: 66F, wind in from left at 8 mph, rain risk 23%"
       ],
@@ -434,7 +370,7 @@
       "market_context": "Total"
     },
     {
-      "key": "editor_signal_5",
+      "key": "editor_signal_3",
       "title": "Chicago White Sox at Boston Red Sox: Moneyline, Spread and Total Odds",
       "headline": "Chicago White Sox at Boston Red Sox: Moneyline, Spread and Total Odds",
       "snapshot": "MOVEMENT: Open -110 -> Current -128 (shortened for Boston Red Sox)",
@@ -465,7 +401,7 @@
       "market_context": "Total"
     },
     {
-      "key": "editor_signal_6",
+      "key": "editor_signal_4",
       "title": "Minnesota Twins at Kansas City Royals: Moneyline, Spread and Total Odds",
       "headline": "Minnesota Twins at Kansas City Royals: Moneyline, Spread and Total Odds",
       "snapshot": "MOVEMENT: Open -103 -> Current -113 (shortened for Kansas City Royals)",
@@ -477,12 +413,72 @@
         "LINE / ODDS: Kansas City Royals -113 | Minnesota Twins +106",
         "IMPLIED PROBABILITY: Kansas City Royals 53.1% before vig",
         "MOVEMENT: Open -103 -> Current -113 (shortened for Kansas City Royals)",
-        "SPREAD: Kansas City Royals +1.5 (-192) | Minnesota Twins -1.5 (+158)",
+        "SPREAD: Kansas City Royals +1.5 (-196) | Minnesota Twins -1.5 (+160)",
         "TOTAL: Over 8.5 (-118) | Under 8.5 (-102)",
         "BOOK: DraftKings",
         "WEATHER: 69F, wind crossfield at 18 mph, rain risk 6%"
       ],
       "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -113 moneyline implies roughly 53.1% before vig. Kansas City Royals is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+      "headline_origin": "approved_odds_only_generator",
+      "selected_headline_field": "approved_odds_only_generator",
+      "card_type": "odds_only",
+      "verified_markets": [
+        "h2h",
+        "spreads",
+        "totals"
+      ],
+      "market": "Total",
+      "market_context": "Total"
+    },
+    {
+      "key": "editor_signal_5",
+      "title": "Toronto Blue Jays at Chicago Cubs: Moneyline Odds",
+      "headline": "Toronto Blue Jays at Chicago Cubs: Moneyline Odds",
+      "snapshot": "MOVEMENT: Open -101 -> Current -119 (shortened for Toronto Blue Jays)",
+      "source": "DraftKings",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "key_data": [
+        "GAME: Toronto Blue Jays at Chicago Cubs",
+        "MARKET: Toronto Blue Jays favored over Chicago Cubs",
+        "LINE / ODDS: Chicago Cubs -101 | Toronto Blue Jays -119",
+        "IMPLIED PROBABILITY: Toronto Blue Jays 54.3% before vig",
+        "MOVEMENT: Open -101 -> Current -119 (shortened for Toronto Blue Jays)",
+        "SPREAD: Spread unavailable",
+        "TOTAL: Total unavailable",
+        "BOOK: DraftKings",
+        "WEATHER: 69F, wind out to center at 4 mph, rain risk 21%"
+      ],
+      "why_it_matters": "The market gives Toronto Blue Jays a modest edge, which makes line movement and book-to-book differences worth checking. A -119 moneyline implies roughly 54.3% before vig. Toronto Blue Jays is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+      "headline_origin": "approved_odds_only_generator",
+      "selected_headline_field": "approved_odds_only_generator",
+      "card_type": "odds_only",
+      "verified_markets": [
+        "h2h"
+      ],
+      "market": "Total",
+      "market_context": "Total"
+    },
+    {
+      "key": "editor_signal_6",
+      "title": "Athletics at Cincinnati Reds: Moneyline, Spread and Total Odds",
+      "headline": "Athletics at Cincinnati Reds: Moneyline, Spread and Total Odds",
+      "snapshot": "MOVEMENT: Open -136 -> Current -147 (shortened for Cincinnati Reds)",
+      "source": "DraftKings",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "key_data": [
+        "GAME: Athletics at Cincinnati Reds",
+        "MARKET: Cincinnati Reds favored over Athletics",
+        "LINE / ODDS: Cincinnati Reds -147 | Athletics +138",
+        "IMPLIED PROBABILITY: Cincinnati Reds 59.5% before vig",
+        "MOVEMENT: Open -136 -> Current -147 (shortened for Cincinnati Reds)",
+        "SPREAD: Athletics +1.5 (-155) | Cincinnati Reds -1.5 (+128)",
+        "TOTAL: Over 9.5 (-102) | Under 9.5 (-119)",
+        "BOOK: DraftKings",
+        "WEATHER: 73F, wind out to left at 12 mph, rain risk 6%"
+      ],
+      "why_it_matters": "The market gives Cincinnati Reds a modest edge, which makes line movement and book-to-book differences worth checking. A -147 moneyline implies roughly 59.5% before vig. Cincinnati Reds is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -500,14 +496,14 @@
     {
       "title": "Market Overview",
       "cards": [
-        "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds | MARKET: Houston Astros favored over Toronto Blue Jays | IMPLIED PROBABILITY: Houston Astros 67.5% before vig | MOVEMENT: Open -198 -> Current -208 (shortened for Houston Astros)",
-        "Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds | MARKET: Tampa Bay Rays favored over Colorado Rockies | IMPLIED PROBABILITY: Tampa Bay Rays 60.5% before vig | MOVEMENT: Open -143 -> Current -153 (shortened for Tampa Bay Rays)",
-        "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds | MARKET: Baltimore Orioles favored over Los Angeles Angels | IMPLIED PROBABILITY: Baltimore Orioles 54.1% before vig | MOVEMENT: Open -112 -> Current -118 (shortened for Baltimore Orioles)",
+        "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds | MARKET: Baltimore Orioles favored over Los Angeles Angels | IMPLIED PROBABILITY: Baltimore Orioles 56.1% before vig | MOVEMENT: Open -122 -> Current -128 (shortened for Baltimore Orioles)",
         "St. Louis Cardinals at New York Yankees: Moneyline, Spread and Total Odds | MARKET: New York Yankees favored over St. Louis Cardinals | IMPLIED PROBABILITY: New York Yankees 60.5% before vig | MOVEMENT: Open -164 -> Current -153 (eased for New York Yankees)",
         "Chicago White Sox at Boston Red Sox: Moneyline, Spread and Total Odds | MARKET: Boston Red Sox favored over Chicago White Sox | IMPLIED PROBABILITY: Boston Red Sox 56.1% before vig | MOVEMENT: Open -110 -> Current -128 (shortened for Boston Red Sox)",
         "Minnesota Twins at Kansas City Royals: Moneyline, Spread and Total Odds | MARKET: Kansas City Royals favored over Minnesota Twins | IMPLIED PROBABILITY: Kansas City Royals 53.1% before vig | MOVEMENT: Open -103 -> Current -113 (shortened for Kansas City Royals)",
-        "Los Angeles Dodgers at Chicago Cubs: Moneyline, Spread and Total Odds | MARKET: Chicago Cubs favored over Los Angeles Dodgers | IMPLIED PROBABILITY: Chicago Cubs 51.9% before vig | MOVEMENT: Open -94 -> Current -108 (shortened for Chicago Cubs)",
-        "San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds | MARKET: Texas Rangers favored over San Francisco Giants | IMPLIED PROBABILITY: Texas Rangers 59.5% before vig | MOVEMENT: Open -137 -> Current -147 (shortened for Texas Rangers)"
+        "Toronto Blue Jays at Chicago Cubs: Moneyline Odds | MARKET: Toronto Blue Jays favored over Chicago Cubs | IMPLIED PROBABILITY: Toronto Blue Jays 54.3% before vig | MOVEMENT: Open -101 -> Current -119 (shortened for Toronto Blue Jays)",
+        "Athletics at Cincinnati Reds: Moneyline, Spread and Total Odds | MARKET: Cincinnati Reds favored over Athletics | IMPLIED PROBABILITY: Cincinnati Reds 59.5% before vig | MOVEMENT: Open -136 -> Current -147 (shortened for Cincinnati Reds)",
+        "New York Mets at Cleveland Guardians: Moneyline, Spread and Total Odds | MARKET: Cleveland Guardians favored over New York Mets | IMPLIED PROBABILITY: Cleveland Guardians 51.7% before vig | MOVEMENT: Open -114 -> Current -107 (eased for Cleveland Guardians)",
+        "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds | MARKET: Philadelphia Phillies favored over Washington Nationals | IMPLIED PROBABILITY: Philadelphia Phillies 65.6% before vig | MOVEMENT: Open -204 -> Current -191 (eased for Philadelphia Phillies)"
       ],
       "headline": "Market Overview",
       "market": "Market",
@@ -516,14 +512,14 @@
     {
       "title": "Line Movement Signals",
       "cards": [
-        "Toronto Blue Jays at Houston Astros - MOVEMENT: Open -198 -> Current -208 (shortened for Houston Astros)",
-        "Tampa Bay Rays at Colorado Rockies - MOVEMENT: Open -143 -> Current -153 (shortened for Tampa Bay Rays)",
-        "Los Angeles Angels at Baltimore Orioles - MOVEMENT: Open -112 -> Current -118 (shortened for Baltimore Orioles)",
+        "Los Angeles Angels at Baltimore Orioles - MOVEMENT: Open -122 -> Current -128 (shortened for Baltimore Orioles)",
         "St. Louis Cardinals at New York Yankees - MOVEMENT: Open -164 -> Current -153 (eased for New York Yankees)",
         "Chicago White Sox at Boston Red Sox - MOVEMENT: Open -110 -> Current -128 (shortened for Boston Red Sox)",
         "Minnesota Twins at Kansas City Royals - MOVEMENT: Open -103 -> Current -113 (shortened for Kansas City Royals)",
-        "Los Angeles Dodgers at Chicago Cubs - MOVEMENT: Open -94 -> Current -108 (shortened for Chicago Cubs)",
-        "San Francisco Giants at Texas Rangers - MOVEMENT: Open -137 -> Current -147 (shortened for Texas Rangers)"
+        "Toronto Blue Jays at Chicago Cubs - MOVEMENT: Open -101 -> Current -119 (shortened for Toronto Blue Jays)",
+        "Athletics at Cincinnati Reds - MOVEMENT: Open -136 -> Current -147 (shortened for Cincinnati Reds)",
+        "New York Mets at Cleveland Guardians - MOVEMENT: Open -114 -> Current -107 (eased for Cleveland Guardians)",
+        "Washington Nationals at Philadelphia Phillies - MOVEMENT: Open -204 -> Current -191 (eased for Philadelphia Phillies)"
       ],
       "headline": "Line Movement Signals",
       "market": "Market",
@@ -534,92 +530,6 @@
       "cards": [
         {
           "league": "MLB",
-          "title": "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
-          "headline": "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
-          "matchup": "Toronto Blue Jays at Houston Astros",
-          "source": "DraftKings",
-          "url": "https://www.actionnetwork.com/mlb/odds",
-          "key_data": [
-            "GAME: Toronto Blue Jays at Houston Astros",
-            "MARKET: Houston Astros favored over Toronto Blue Jays",
-            "LINE / ODDS: Houston Astros -208 | Toronto Blue Jays +195",
-            "IMPLIED PROBABILITY: Houston Astros 67.5% before vig",
-            "MOVEMENT: Open -198 -> Current -208 (shortened for Houston Astros)",
-            "SPREAD: Houston Astros -1.5 (-106) | Toronto Blue Jays +1.5 (-114)",
-            "TOTAL: Over 8 (-113) | Under 8 (-107)",
-            "BOOK: DraftKings",
-            "WEATHER: 80F, wind out to right at 6 mph, rain risk 27%"
-          ],
-          "market_context": "Houston Astros -208 vs Toronto Blue Jays +195",
-          "implied_probability": "Houston Astros 67.5%",
-          "market": "Houston Astros -208 vs Toronto Blue Jays +195",
-          "line_odds": "Houston Astros -208 | Toronto Blue Jays +195",
-          "movement_direction": "shortened",
-          "why_it_matters": "The market leans clearly toward Houston Astros; injury, pitching, weather or lineup news can still move the number. A -208 moneyline implies roughly 67.5% before vig. Houston Astros is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
-          "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -198 -> Current -208 (shortened for Houston Astros)",
-          "weather": {
-            "summary": "80F, wind out to right at 6 mph, rain risk 27%",
-            "impact": "Weather is not extreme, but the total still needs a final check before lineups lock."
-          },
-          "commence_time": "2026-08-05T18:10:00Z",
-          "card_type": "odds_only",
-          "headline_origin": "approved_odds_only_generator",
-          "verified_markets": [
-            "h2h",
-            "spreads",
-            "totals"
-          ],
-          "source_url": "",
-          "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Houston Astros -208 vs Toronto Blue Jays +195",
-          "summary": "Houston Astros -208 vs Toronto Blue Jays +195"
-        },
-        {
-          "league": "MLB",
-          "title": "Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds",
-          "headline": "Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds",
-          "matchup": "Tampa Bay Rays at Colorado Rockies",
-          "source": "DraftKings",
-          "url": "https://www.cbssports.com/mlb/odds/",
-          "key_data": [
-            "GAME: Tampa Bay Rays at Colorado Rockies",
-            "MARKET: Tampa Bay Rays favored over Colorado Rockies",
-            "LINE / ODDS: Colorado Rockies +144 | Tampa Bay Rays -153",
-            "IMPLIED PROBABILITY: Tampa Bay Rays 60.5% before vig",
-            "MOVEMENT: Open -143 -> Current -153 (shortened for Tampa Bay Rays)",
-            "SPREAD: Colorado Rockies +1.5 (-109) | Tampa Bay Rays -1.5 (-110)",
-            "TOTAL: Over 11 (-109) | Under 11 (-110)",
-            "BOOK: DraftKings",
-            "WEATHER: 83F, wind crossfield at 5 mph, rain risk 21%"
-          ],
-          "market_context": "Tampa Bay Rays -153 vs Colorado Rockies +144",
-          "implied_probability": "Tampa Bay Rays 60.5%",
-          "market": "Tampa Bay Rays -153 vs Colorado Rockies +144",
-          "line_odds": "Colorado Rockies +144 | Tampa Bay Rays -153",
-          "movement_direction": "shortened",
-          "why_it_matters": "The market leans clearly toward Tampa Bay Rays; injury, pitching, weather or lineup news can still move the number. A -153 moneyline implies roughly 60.5% before vig. Tampa Bay Rays is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
-          "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -143 -> Current -153 (shortened for Tampa Bay Rays)",
-          "weather": {
-            "summary": "83F, wind crossfield at 5 mph, rain risk 21%",
-            "impact": "Weather is not extreme, but the total still needs a final check before lineups lock."
-          },
-          "commence_time": "2026-08-05T19:11:00Z",
-          "card_type": "odds_only",
-          "headline_origin": "approved_odds_only_generator",
-          "verified_markets": [
-            "h2h",
-            "spreads",
-            "totals"
-          ],
-          "source_url": "",
-          "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Tampa Bay Rays -153 vs Colorado Rockies +144",
-          "summary": "Tampa Bay Rays -153 vs Colorado Rockies +144"
-        },
-        {
-          "league": "MLB",
           "title": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
           "headline": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
           "matchup": "Los Angeles Angels at Baltimore Orioles",
@@ -628,22 +538,22 @@
           "key_data": [
             "GAME: Los Angeles Angels at Baltimore Orioles",
             "MARKET: Baltimore Orioles favored over Los Angeles Angels",
-            "LINE / ODDS: Baltimore Orioles -118 | Los Angeles Angels +111",
-            "IMPLIED PROBABILITY: Baltimore Orioles 54.1% before vig",
-            "MOVEMENT: Open -112 -> Current -118 (shortened for Baltimore Orioles)",
-            "SPREAD: Baltimore Orioles -1.5 (+161) | Los Angeles Angels +1.5 (-196)",
+            "LINE / ODDS: Baltimore Orioles -128 | Los Angeles Angels +120",
+            "IMPLIED PROBABILITY: Baltimore Orioles 56.1% before vig",
+            "MOVEMENT: Open -122 -> Current -128 (shortened for Baltimore Orioles)",
+            "SPREAD: Baltimore Orioles -1.5 (+152) | Los Angeles Angels +1.5 (-185)",
             "TOTAL: Over 8 (-103) | Under 8 (-117)",
             "BOOK: DraftKings",
             "WEATHER: 60F, wind in from center at 8 mph, rain risk 13%"
           ],
-          "market_context": "Baltimore Orioles -118 vs Los Angeles Angels +111",
-          "implied_probability": "Baltimore Orioles 54.1%",
-          "market": "Baltimore Orioles -118 vs Los Angeles Angels +111",
-          "line_odds": "Baltimore Orioles -118 | Los Angeles Angels +111",
+          "market_context": "Baltimore Orioles -128 vs Los Angeles Angels +120",
+          "implied_probability": "Baltimore Orioles 56.1%",
+          "market": "Baltimore Orioles -128 vs Los Angeles Angels +120",
+          "line_odds": "Baltimore Orioles -128 | Los Angeles Angels +120",
           "movement_direction": "shortened",
-          "why_it_matters": "The market gives Baltimore Orioles a modest edge, which makes line movement and book-to-book differences worth checking. A -118 moneyline implies roughly 54.1% before vig. Baltimore Orioles is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+          "why_it_matters": "The market gives Baltimore Orioles a modest edge, which makes line movement and book-to-book differences worth checking. A -128 moneyline implies roughly 56.1% before vig. Baltimore Orioles is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
           "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -112 -> Current -118 (shortened for Baltimore Orioles)",
+          "line_movement": "MOVEMENT: Open -122 -> Current -128 (shortened for Baltimore Orioles)",
           "weather": {
             "summary": "60F, wind in from center at 8 mph, rain risk 13%",
             "impact": "Weather is not extreme, but the total still needs a final check before lineups lock."
@@ -658,8 +568,8 @@
           ],
           "source_url": "",
           "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Baltimore Orioles -118 vs Los Angeles Angels +111",
-          "summary": "Baltimore Orioles -118 vs Los Angeles Angels +111"
+          "snapshot": "Baltimore Orioles -128 vs Los Angeles Angels +120",
+          "summary": "Baltimore Orioles -128 vs Los Angeles Angels +120"
         },
         {
           "league": "MLB",
@@ -674,8 +584,8 @@
             "LINE / ODDS: New York Yankees -153 | St. Louis Cardinals +144",
             "IMPLIED PROBABILITY: New York Yankees 60.5% before vig",
             "MOVEMENT: Open -164 -> Current -153 (eased for New York Yankees)",
-            "SPREAD: New York Yankees -1.5 (+129) | St. Louis Cardinals +1.5 (-156)",
-            "TOTAL: Over 8.5 (-105) | Under 8.5 (-114)",
+            "SPREAD: New York Yankees -1.5 (+130) | St. Louis Cardinals +1.5 (-157)",
+            "TOTAL: Over 8.5 (-104) | Under 8.5 (-115)",
             "BOOK: DraftKings",
             "WEATHER: 66F, wind in from left at 8 mph, rain risk 23%"
           ],
@@ -760,7 +670,7 @@
             "LINE / ODDS: Kansas City Royals -113 | Minnesota Twins +106",
             "IMPLIED PROBABILITY: Kansas City Royals 53.1% before vig",
             "MOVEMENT: Open -103 -> Current -113 (shortened for Kansas City Royals)",
-            "SPREAD: Kansas City Royals +1.5 (-192) | Minnesota Twins -1.5 (+158)",
+            "SPREAD: Kansas City Royals +1.5 (-196) | Minnesota Twins -1.5 (+160)",
             "TOTAL: Over 8.5 (-118) | Under 8.5 (-102)",
             "BOOK: DraftKings",
             "WEATHER: 69F, wind crossfield at 18 mph, rain risk 6%"
@@ -792,89 +702,44 @@
         },
         {
           "league": "MLB",
-          "title": "Los Angeles Dodgers at Chicago Cubs: Moneyline, Spread and Total Odds",
-          "headline": "Los Angeles Dodgers at Chicago Cubs: Moneyline, Spread and Total Odds",
-          "matchup": "Los Angeles Dodgers at Chicago Cubs",
-          "source": "DraftKings",
-          "url": "https://www.cbssports.com/mlb/odds/",
-          "key_data": [
-            "GAME: Los Angeles Dodgers at Chicago Cubs",
-            "MARKET: Chicago Cubs favored over Los Angeles Dodgers",
-            "LINE / ODDS: Chicago Cubs -108 | Los Angeles Dodgers +102",
-            "IMPLIED PROBABILITY: Chicago Cubs 51.9% before vig",
-            "MOVEMENT: Open -94 -> Current -108 (shortened for Chicago Cubs)",
-            "SPREAD: Chicago Cubs +1.5 (-185) | Los Angeles Dodgers -1.5 (+152)",
-            "TOTAL: Over 10 (-106) | Under 10 (-114)",
-            "BOOK: DraftKings",
-            "WEATHER: 76F, wind in from center at 12 mph, rain risk 6%"
-          ],
-          "market_context": "Chicago Cubs -108 vs Los Angeles Dodgers +102",
-          "implied_probability": "Chicago Cubs 51.9%",
-          "market": "Chicago Cubs -108 vs Los Angeles Dodgers +102",
-          "line_odds": "Chicago Cubs -108 | Los Angeles Dodgers +102",
-          "movement_direction": "shortened",
-          "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -108 moneyline implies roughly 51.9% before vig. Chicago Cubs is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
-          "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -94 -> Current -108 (shortened for Chicago Cubs)",
-          "weather": {
-            "summary": "76F, wind in from center at 12 mph, rain risk 6%",
-            "impact": "Wind is working against carry, which can matter for totals and home-run props."
-          },
-          "commence_time": "2026-08-05T18:21:00Z",
-          "card_type": "odds_only",
-          "headline_origin": "approved_odds_only_generator",
-          "verified_markets": [
-            "h2h",
-            "spreads",
-            "totals"
-          ],
-          "source_url": "",
-          "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Chicago Cubs -108 vs Los Angeles Dodgers +102",
-          "summary": "Chicago Cubs -108 vs Los Angeles Dodgers +102"
-        },
-        {
-          "league": "MLB",
-          "title": "San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds",
-          "headline": "San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds",
-          "matchup": "San Francisco Giants at Texas Rangers",
+          "title": "Toronto Blue Jays at Chicago Cubs: Moneyline Odds",
+          "headline": "Toronto Blue Jays at Chicago Cubs: Moneyline Odds",
+          "matchup": "Toronto Blue Jays at Chicago Cubs",
           "source": "DraftKings",
           "url": "https://www.covers.com/sport/baseball/mlb/odds",
           "key_data": [
-            "GAME: San Francisco Giants at Texas Rangers",
-            "MARKET: Texas Rangers favored over San Francisco Giants",
-            "LINE / ODDS: Texas Rangers -147 | San Francisco Giants +138",
-            "IMPLIED PROBABILITY: Texas Rangers 59.5% before vig",
-            "MOVEMENT: Open -137 -> Current -147 (shortened for Texas Rangers)",
-            "SPREAD: San Francisco Giants +1.5 (-154) | Texas Rangers -1.5 (+128)",
-            "TOTAL: Over 8.5 (-104) | Under 8.5 (-116)",
+            "GAME: Toronto Blue Jays at Chicago Cubs",
+            "MARKET: Toronto Blue Jays favored over Chicago Cubs",
+            "LINE / ODDS: Chicago Cubs -101 | Toronto Blue Jays -119",
+            "IMPLIED PROBABILITY: Toronto Blue Jays 54.3% before vig",
+            "MOVEMENT: Open -101 -> Current -119 (shortened for Toronto Blue Jays)",
+            "SPREAD: Spread unavailable",
+            "TOTAL: Total unavailable",
             "BOOK: DraftKings",
-            "WEATHER: 84F, wind crossfield at 14 mph, rain risk 34%"
+            "WEATHER: 69F, wind out to center at 4 mph, rain risk 21%"
           ],
-          "market_context": "Texas Rangers -147 vs San Francisco Giants +138",
-          "implied_probability": "Texas Rangers 59.5%",
-          "market": "Texas Rangers -147 vs San Francisco Giants +138",
-          "line_odds": "Texas Rangers -147 | San Francisco Giants +138",
+          "market_context": "Toronto Blue Jays -119 vs Chicago Cubs -101",
+          "implied_probability": "Toronto Blue Jays 54.3%",
+          "market": "Toronto Blue Jays -119 vs Chicago Cubs -101",
+          "line_odds": "Chicago Cubs -101 | Toronto Blue Jays -119",
           "movement_direction": "shortened",
-          "why_it_matters": "The market gives Texas Rangers a modest edge, which makes line movement and book-to-book differences worth checking. A -147 moneyline implies roughly 59.5% before vig. Texas Rangers is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+          "why_it_matters": "The market gives Toronto Blue Jays a modest edge, which makes line movement and book-to-book differences worth checking. A -119 moneyline implies roughly 54.3% before vig. Toronto Blue Jays is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
           "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -137 -> Current -147 (shortened for Texas Rangers)",
+          "line_movement": "MOVEMENT: Open -101 -> Current -119 (shortened for Toronto Blue Jays)",
           "weather": {
-            "summary": "84F, wind crossfield at 14 mph, rain risk 34%",
-            "impact": "Rain risk can create bullpen stress, delay risk and live-betting volatility."
+            "summary": "69F, wind out to center at 4 mph, rain risk 21%",
+            "impact": "Weather is not extreme, but the total still needs a final check before lineups lock."
           },
-          "commence_time": "2026-08-05T18:36:00Z",
+          "commence_time": "2026-08-06T18:21:00Z",
           "card_type": "odds_only",
           "headline_origin": "approved_odds_only_generator",
           "verified_markets": [
-            "h2h",
-            "spreads",
-            "totals"
+            "h2h"
           ],
           "source_url": "",
           "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Texas Rangers -147 vs San Francisco Giants +138",
-          "summary": "Texas Rangers -147 vs San Francisco Giants +138"
+          "snapshot": "Toronto Blue Jays -119 vs Chicago Cubs -101",
+          "summary": "Toronto Blue Jays -119 vs Chicago Cubs -101"
         },
         {
           "league": "MLB",
@@ -886,22 +751,22 @@
           "key_data": [
             "GAME: Athletics at Cincinnati Reds",
             "MARKET: Cincinnati Reds favored over Athletics",
-            "LINE / ODDS: Cincinnati Reds -146 | Athletics +137",
-            "IMPLIED PROBABILITY: Cincinnati Reds 59.3% before vig",
-            "MOVEMENT: Open -135 -> Current -146 (shortened for Cincinnati Reds)",
-            "SPREAD: Athletics +1.5 (-156) | Cincinnati Reds -1.5 (+129)",
-            "TOTAL: Over 9.5 (-113) | Under 9.5 (-107)",
+            "LINE / ODDS: Cincinnati Reds -147 | Athletics +138",
+            "IMPLIED PROBABILITY: Cincinnati Reds 59.5% before vig",
+            "MOVEMENT: Open -136 -> Current -147 (shortened for Cincinnati Reds)",
+            "SPREAD: Athletics +1.5 (-155) | Cincinnati Reds -1.5 (+128)",
+            "TOTAL: Over 9.5 (-102) | Under 9.5 (-119)",
             "BOOK: DraftKings",
             "WEATHER: 73F, wind out to left at 12 mph, rain risk 6%"
           ],
-          "market_context": "Cincinnati Reds -146 vs Athletics +137",
-          "implied_probability": "Cincinnati Reds 59.3%",
-          "market": "Cincinnati Reds -146 vs Athletics +137",
-          "line_odds": "Cincinnati Reds -146 | Athletics +137",
+          "market_context": "Cincinnati Reds -147 vs Athletics +138",
+          "implied_probability": "Cincinnati Reds 59.5%",
+          "market": "Cincinnati Reds -147 vs Athletics +138",
+          "line_odds": "Cincinnati Reds -147 | Athletics +138",
           "movement_direction": "shortened",
-          "why_it_matters": "The market gives Cincinnati Reds a modest edge, which makes line movement and book-to-book differences worth checking. A -146 moneyline implies roughly 59.3% before vig. Cincinnati Reds is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+          "why_it_matters": "The market gives Cincinnati Reds a modest edge, which makes line movement and book-to-book differences worth checking. A -147 moneyline implies roughly 59.5% before vig. Cincinnati Reds is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
           "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -135 -> Current -146 (shortened for Cincinnati Reds)",
+          "line_movement": "MOVEMENT: Open -136 -> Current -147 (shortened for Cincinnati Reds)",
           "weather": {
             "summary": "73F, wind out to left at 12 mph, rain risk 6%",
             "impact": "Wind is helping carry, so the total deserves a closer look before first pitch."
@@ -916,8 +781,8 @@
           ],
           "source_url": "",
           "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Cincinnati Reds -146 vs Athletics +137",
-          "summary": "Cincinnati Reds -146 vs Athletics +137"
+          "snapshot": "Cincinnati Reds -147 vs Athletics +138",
+          "summary": "Cincinnati Reds -147 vs Athletics +138"
         },
         {
           "league": "MLB",
@@ -929,22 +794,22 @@
           "key_data": [
             "GAME: New York Mets at Cleveland Guardians",
             "MARKET: Cleveland Guardians favored over New York Mets",
-            "LINE / ODDS: Cleveland Guardians -110 | New York Mets +103",
-            "IMPLIED PROBABILITY: Cleveland Guardians 52.4% before vig",
-            "MOVEMENT: Open -117 -> Current -110 (eased for Cleveland Guardians)",
-            "SPREAD: Cleveland Guardians +1.5 (-197) | New York Mets -1.5 (+161)",
-            "TOTAL: Over 7.5 (-119) | Under 7.5 (-101)",
+            "LINE / ODDS: Cleveland Guardians -107 | New York Mets +101",
+            "IMPLIED PROBABILITY: Cleveland Guardians 51.7% before vig",
+            "MOVEMENT: Open -114 -> Current -107 (eased for Cleveland Guardians)",
+            "SPREAD: Cleveland Guardians +1.5 (-188) | New York Mets -1.5 (+154)",
+            "TOTAL: Over 7.5 (-113) | Under 7.5 (-107)",
             "BOOK: DraftKings",
             "WEATHER: 62F, wind out to left at 16 mph, rain risk 44%"
           ],
-          "market_context": "Cleveland Guardians -110 vs New York Mets +103",
-          "implied_probability": "Cleveland Guardians 52.4%",
-          "market": "Cleveland Guardians -110 vs New York Mets +103",
-          "line_odds": "Cleveland Guardians -110 | New York Mets +103",
+          "market_context": "Cleveland Guardians -107 vs New York Mets +101",
+          "implied_probability": "Cleveland Guardians 51.7%",
+          "market": "Cleveland Guardians -107 vs New York Mets +101",
+          "line_odds": "Cleveland Guardians -107 | New York Mets +101",
           "movement_direction": "eased",
-          "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -110 moneyline implies roughly 52.4% before vig. Cleveland Guardians is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
+          "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -107 moneyline implies roughly 51.7% before vig. Cleveland Guardians is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
           "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -117 -> Current -110 (eased for Cleveland Guardians)",
+          "line_movement": "MOVEMENT: Open -114 -> Current -107 (eased for Cleveland Guardians)",
           "weather": {
             "summary": "62F, wind out to left at 16 mph, rain risk 44%",
             "impact": "Wind is helping carry, so the total deserves a closer look before first pitch."
@@ -959,8 +824,8 @@
           ],
           "source_url": "",
           "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Cleveland Guardians -110 vs New York Mets +103",
-          "summary": "Cleveland Guardians -110 vs New York Mets +103"
+          "snapshot": "Cleveland Guardians -107 vs New York Mets +101",
+          "summary": "Cleveland Guardians -107 vs New York Mets +101"
         },
         {
           "league": "MLB",
@@ -972,22 +837,22 @@
           "key_data": [
             "GAME: Washington Nationals at Philadelphia Phillies",
             "MARKET: Philadelphia Phillies favored over Washington Nationals",
-            "LINE / ODDS: Philadelphia Phillies -186 | Washington Nationals +174",
-            "IMPLIED PROBABILITY: Philadelphia Phillies 65.0% before vig",
-            "MOVEMENT: Open -199 -> Current -186 (eased for Philadelphia Phillies)",
-            "SPREAD: Philadelphia Phillies -1.5 (+105) | Washington Nationals +1.5 (-127)",
-            "TOTAL: Over 9.5 (-111) | Under 9.5 (-109)",
+            "LINE / ODDS: Philadelphia Phillies -191 | Washington Nationals +179",
+            "IMPLIED PROBABILITY: Philadelphia Phillies 65.6% before vig",
+            "MOVEMENT: Open -204 -> Current -191 (eased for Philadelphia Phillies)",
+            "SPREAD: Philadelphia Phillies -1.5 (+102) | Washington Nationals +1.5 (-123)",
+            "TOTAL: Over 9.5 (-112) | Under 9.5 (-108)",
             "BOOK: DraftKings",
             "WEATHER: 63F, wind in from center at 9 mph, rain risk 39%"
           ],
-          "market_context": "Philadelphia Phillies -186 vs Washington Nationals +174",
-          "implied_probability": "Philadelphia Phillies 65.0%",
-          "market": "Philadelphia Phillies -186 vs Washington Nationals +174",
-          "line_odds": "Philadelphia Phillies -186 | Washington Nationals +174",
+          "market_context": "Philadelphia Phillies -191 vs Washington Nationals +179",
+          "implied_probability": "Philadelphia Phillies 65.6%",
+          "market": "Philadelphia Phillies -191 vs Washington Nationals +179",
+          "line_odds": "Philadelphia Phillies -191 | Washington Nationals +179",
           "movement_direction": "eased",
-          "why_it_matters": "The market leans clearly toward Philadelphia Phillies; injury, pitching, weather or lineup news can still move the number. A -186 moneyline implies roughly 65.0% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+          "why_it_matters": "The market leans clearly toward Philadelphia Phillies; injury, pitching, weather or lineup news can still move the number. A -191 moneyline implies roughly 65.6% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
           "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -199 -> Current -186 (eased for Philadelphia Phillies)",
+          "line_movement": "MOVEMENT: Open -204 -> Current -191 (eased for Philadelphia Phillies)",
           "weather": {
             "summary": "63F, wind in from center at 9 mph, rain risk 39%",
             "impact": "Rain risk can create bullpen stress, delay risk and live-betting volatility."
@@ -1002,8 +867,8 @@
           ],
           "source_url": "",
           "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Philadelphia Phillies -186 vs Washington Nationals +174",
-          "summary": "Philadelphia Phillies -186 vs Washington Nationals +174"
+          "snapshot": "Philadelphia Phillies -191 vs Washington Nationals +179",
+          "summary": "Philadelphia Phillies -191 vs Washington Nationals +179"
         },
         {
           "league": "MLB",
@@ -1061,8 +926,8 @@
             "LINE / ODDS: Milwaukee Brewers -127 | Pittsburgh Pirates +119",
             "IMPLIED PROBABILITY: Milwaukee Brewers 55.9% before vig",
             "MOVEMENT: Open -117 -> Current -127 (shortened for Milwaukee Brewers)",
-            "SPREAD: Milwaukee Brewers -1.5 (+163) | Pittsburgh Pirates +1.5 (-199)",
-            "TOTAL: Over 7 (-117) | Under 7 (-103)",
+            "SPREAD: Milwaukee Brewers -1.5 (+168) | Pittsburgh Pirates +1.5 (-205)",
+            "TOTAL: Over 7 (-110) | Under 7 (-110)",
             "BOOK: DraftKings",
             "WEATHER: 73F, wind in from center at 12 mph, rain risk 25%"
           ],
@@ -1101,22 +966,22 @@
           "key_data": [
             "GAME: San Diego Padres at Arizona Diamondbacks",
             "MARKET: San Diego Padres favored over Arizona Diamondbacks",
-            "LINE / ODDS: Arizona Diamondbacks +112 | San Diego Padres -119",
-            "IMPLIED PROBABILITY: San Diego Padres 54.3% before vig",
-            "MOVEMENT: Open -105 -> Current -119 (shortened for San Diego Padres)",
-            "SPREAD: Arizona Diamondbacks +1.5 (-156) | San Diego Padres -1.5 (+129)",
-            "TOTAL: Over 8.5 (-120) | Under 8.5 (+100)",
+            "LINE / ODDS: Arizona Diamondbacks +116 | San Diego Padres -123",
+            "IMPLIED PROBABILITY: San Diego Padres 55.2% before vig",
+            "MOVEMENT: Open -109 -> Current -123 (shortened for San Diego Padres)",
+            "SPREAD: Arizona Diamondbacks +1.5 (-155) | San Diego Padres -1.5 (+128)",
+            "TOTAL: Over 8.5 (-118) | Under 8.5 (-102)",
             "BOOK: DraftKings",
             "WEATHER: 78F, wind out to center at 10 mph, rain risk 40%"
           ],
-          "market_context": "San Diego Padres -119 vs Arizona Diamondbacks +112",
-          "implied_probability": "San Diego Padres 54.3%",
-          "market": "San Diego Padres -119 vs Arizona Diamondbacks +112",
-          "line_odds": "Arizona Diamondbacks +112 | San Diego Padres -119",
+          "market_context": "San Diego Padres -123 vs Arizona Diamondbacks +116",
+          "implied_probability": "San Diego Padres 55.2%",
+          "market": "San Diego Padres -123 vs Arizona Diamondbacks +116",
+          "line_odds": "Arizona Diamondbacks +116 | San Diego Padres -123",
           "movement_direction": "shortened",
-          "why_it_matters": "The market gives San Diego Padres a modest edge, which makes line movement and book-to-book differences worth checking. A -119 moneyline implies roughly 54.3% before vig. San Diego Padres is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+          "why_it_matters": "The market gives San Diego Padres a modest edge, which makes line movement and book-to-book differences worth checking. A -123 moneyline implies roughly 55.2% before vig. San Diego Padres is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
           "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -105 -> Current -119 (shortened for San Diego Padres)",
+          "line_movement": "MOVEMENT: Open -109 -> Current -123 (shortened for San Diego Padres)",
           "weather": {
             "summary": "78F, wind out to center at 10 mph, rain risk 40%",
             "impact": "Wind is helping carry, so the total deserves a closer look before first pitch."
@@ -1131,8 +996,8 @@
           ],
           "source_url": "",
           "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "San Diego Padres -119 vs Arizona Diamondbacks +112",
-          "summary": "San Diego Padres -119 vs Arizona Diamondbacks +112"
+          "snapshot": "San Diego Padres -123 vs Arizona Diamondbacks +116",
+          "summary": "San Diego Padres -123 vs Arizona Diamondbacks +116"
         },
         {
           "league": "MLB",
@@ -1147,7 +1012,7 @@
             "LINE / ODDS: Seattle Mariners -152 | Detroit Tigers +143",
             "IMPLIED PROBABILITY: Seattle Mariners 60.3% before vig",
             "MOVEMENT: Open -162 -> Current -152 (eased for Seattle Mariners)",
-            "SPREAD: Detroit Tigers +1.5 (-168) | Seattle Mariners -1.5 (+139)",
+            "SPREAD: Detroit Tigers +1.5 (-164) | Seattle Mariners -1.5 (+136)",
             "TOTAL: Over 7.5 (-110) | Under 7.5 (-110)",
             "BOOK: DraftKings",
             "WEATHER: 60F, wind in from left at 11 mph, rain risk 43%"
@@ -1186,62 +1051,12 @@
       "title": "Weather Impact",
       "cards": [
         {
-          "title": "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
-          "headline": "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
-          "source": "DraftKings",
-          "url": "https://www.actionnetwork.com/mlb/odds",
-          "matchup": "Toronto Blue Jays at Houston Astros",
-          "market": "Houston Astros -208 vs Toronto Blue Jays +195",
-          "card_type": "odds_only",
-          "headline_origin": "approved_odds_only_generator",
-          "selected_headline_field": "approved_odds_only_generator",
-          "verified_markets": [
-            "h2h",
-            "spreads",
-            "totals"
-          ],
-          "key_data": [
-            "Weather: 80F, wind out to right at 6 mph, rain risk 27%",
-            "Check wind direction, temperature, and precipitation before first pitch.",
-            "Outdoor parks can create meaningful total movement."
-          ],
-          "why_it_matters": "Weather is not extreme, but the total still needs a final check before lineups lock.",
-          "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
-          "snapshot": "Weather: 80F, wind out to right at 6 mph, rain risk 27% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement.",
-          "summary": "Weather: 80F, wind out to right at 6 mph, rain risk 27% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement."
-        },
-        {
-          "title": "Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds",
-          "headline": "Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds",
-          "source": "DraftKings",
-          "url": "https://www.cbssports.com/mlb/odds/",
-          "matchup": "Tampa Bay Rays at Colorado Rockies",
-          "market": "Tampa Bay Rays -153 vs Colorado Rockies +144",
-          "card_type": "odds_only",
-          "headline_origin": "approved_odds_only_generator",
-          "selected_headline_field": "approved_odds_only_generator",
-          "verified_markets": [
-            "h2h",
-            "spreads",
-            "totals"
-          ],
-          "key_data": [
-            "Weather: 83F, wind crossfield at 5 mph, rain risk 21%",
-            "Check wind direction, temperature, and precipitation before first pitch.",
-            "Outdoor parks can create meaningful total movement."
-          ],
-          "why_it_matters": "Weather is not extreme, but the total still needs a final check before lineups lock.",
-          "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
-          "snapshot": "Weather: 83F, wind crossfield at 5 mph, rain risk 21% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement.",
-          "summary": "Weather: 83F, wind crossfield at 5 mph, rain risk 21% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement."
-        },
-        {
           "title": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
           "headline": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
           "source": "DraftKings",
           "url": "https://www.covers.com/sport/baseball/mlb/odds",
           "matchup": "Los Angeles Angels at Baltimore Orioles",
-          "market": "Baltimore Orioles -118 vs Los Angeles Angels +111",
+          "market": "Baltimore Orioles -128 vs Los Angeles Angels +120",
           "card_type": "odds_only",
           "headline_origin": "approved_odds_only_generator",
           "selected_headline_field": "approved_odds_only_generator",
@@ -1334,6 +1149,54 @@
           "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
           "snapshot": "Weather: 69F, wind crossfield at 18 mph, rain risk 6% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement.",
           "summary": "Weather: 69F, wind crossfield at 18 mph, rain risk 6% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement."
+        },
+        {
+          "title": "Toronto Blue Jays at Chicago Cubs: Moneyline Odds",
+          "headline": "Toronto Blue Jays at Chicago Cubs: Moneyline Odds",
+          "source": "DraftKings",
+          "url": "https://www.covers.com/sport/baseball/mlb/odds",
+          "matchup": "Toronto Blue Jays at Chicago Cubs",
+          "market": "Toronto Blue Jays -119 vs Chicago Cubs -101",
+          "card_type": "odds_only",
+          "headline_origin": "approved_odds_only_generator",
+          "selected_headline_field": "approved_odds_only_generator",
+          "verified_markets": [
+            "h2h"
+          ],
+          "key_data": [
+            "Weather: 69F, wind out to center at 4 mph, rain risk 21%",
+            "Check wind direction, temperature, and precipitation before first pitch.",
+            "Outdoor parks can create meaningful total movement."
+          ],
+          "why_it_matters": "Weather is not extreme, but the total still needs a final check before lineups lock.",
+          "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
+          "snapshot": "Weather: 69F, wind out to center at 4 mph, rain risk 21% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement.",
+          "summary": "Weather: 69F, wind out to center at 4 mph, rain risk 21% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement."
+        },
+        {
+          "title": "Athletics at Cincinnati Reds: Moneyline, Spread and Total Odds",
+          "headline": "Athletics at Cincinnati Reds: Moneyline, Spread and Total Odds",
+          "source": "DraftKings",
+          "url": "https://www.covers.com/sport/baseball/mlb/odds",
+          "matchup": "Athletics at Cincinnati Reds",
+          "market": "Cincinnati Reds -147 vs Athletics +138",
+          "card_type": "odds_only",
+          "headline_origin": "approved_odds_only_generator",
+          "selected_headline_field": "approved_odds_only_generator",
+          "verified_markets": [
+            "h2h",
+            "spreads",
+            "totals"
+          ],
+          "key_data": [
+            "Weather: 73F, wind out to left at 12 mph, rain risk 6%",
+            "Check wind direction, temperature, and precipitation before first pitch.",
+            "Outdoor parks can create meaningful total movement."
+          ],
+          "why_it_matters": "Wind is helping carry, so the total deserves a closer look before first pitch.",
+          "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
+          "snapshot": "Weather: 73F, wind out to left at 12 mph, rain risk 6% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement.",
+          "summary": "Weather: 73F, wind out to left at 12 mph, rain risk 6% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement."
         }
       ],
       "headline": "Weather Impact",
@@ -1357,14 +1220,14 @@
     {
       "title": "Late Market Checks",
       "cards": [
-        "Toronto Blue Jays at Houston Astros - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-        "Tampa Bay Rays at Colorado Rockies - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "Los Angeles Angels at Baltimore Orioles - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "St. Louis Cardinals at New York Yankees - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "Chicago White Sox at Boston Red Sox - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "Minnesota Twins at Kansas City Royals - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-        "Los Angeles Dodgers at Chicago Cubs - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-        "San Francisco Giants at Texas Rangers - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
+        "Toronto Blue Jays at Chicago Cubs - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+        "Athletics at Cincinnati Reds - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+        "New York Mets at Cleveland Guardians - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+        "Washington Nationals at Philadelphia Phillies - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "headline": "Late Market Checks",
       "market": "Market",
@@ -1388,86 +1251,22 @@
   "homepage_cards": [
     {
       "league": "MLB",
-      "headline": "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
-      "source": "DraftKings",
-      "url": "https://www.actionnetwork.com/mlb/odds",
-      "matchup": "Toronto Blue Jays at Houston Astros",
-      "market_context": "Houston Astros -208 vs Toronto Blue Jays +195",
-      "implied_probability": "Houston Astros 67.5%",
-      "line_movement": "MOVEMENT: Open -198 -> Current -208 (shortened for Houston Astros)",
-      "key_data": [
-        "GAME: Toronto Blue Jays at Houston Astros",
-        "MARKET: Houston Astros favored over Toronto Blue Jays",
-        "LINE / ODDS: Houston Astros -208 | Toronto Blue Jays +195",
-        "IMPLIED PROBABILITY: Houston Astros 67.5% before vig",
-        "MOVEMENT: Open -198 -> Current -208 (shortened for Houston Astros)",
-        "SPREAD: Houston Astros -1.5 (-106) | Toronto Blue Jays +1.5 (-114)"
-      ],
-      "why_it_matters": "The market leans clearly toward Houston Astros; injury, pitching, weather or lineup news can still move the number. A -208 moneyline implies roughly 67.5% before vig. Houston Astros is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
-      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-      "headline_origin": "approved_odds_only_generator",
-      "selected_headline_field": "approved_odds_only_generator",
-      "card_type": "odds_only",
-      "verified_markets": [
-        "h2h",
-        "spreads",
-        "totals"
-      ],
-      "title": "Toronto Blue Jays at Houston Astros: Moneyline, Spread and Total Odds",
-      "market": "Total",
-      "snapshot": "Houston Astros -208 vs Toronto Blue Jays +195",
-      "summary": "Houston Astros -208 vs Toronto Blue Jays +195"
-    },
-    {
-      "league": "MLB",
-      "headline": "Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds",
-      "source": "DraftKings",
-      "url": "https://www.cbssports.com/mlb/odds/",
-      "matchup": "Tampa Bay Rays at Colorado Rockies",
-      "market_context": "Tampa Bay Rays -153 vs Colorado Rockies +144",
-      "implied_probability": "Tampa Bay Rays 60.5%",
-      "line_movement": "MOVEMENT: Open -143 -> Current -153 (shortened for Tampa Bay Rays)",
-      "key_data": [
-        "GAME: Tampa Bay Rays at Colorado Rockies",
-        "MARKET: Tampa Bay Rays favored over Colorado Rockies",
-        "LINE / ODDS: Colorado Rockies +144 | Tampa Bay Rays -153",
-        "IMPLIED PROBABILITY: Tampa Bay Rays 60.5% before vig",
-        "MOVEMENT: Open -143 -> Current -153 (shortened for Tampa Bay Rays)",
-        "SPREAD: Colorado Rockies +1.5 (-109) | Tampa Bay Rays -1.5 (-110)"
-      ],
-      "why_it_matters": "The market leans clearly toward Tampa Bay Rays; injury, pitching, weather or lineup news can still move the number. A -153 moneyline implies roughly 60.5% before vig. Tampa Bay Rays is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
-      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-      "headline_origin": "approved_odds_only_generator",
-      "selected_headline_field": "approved_odds_only_generator",
-      "card_type": "odds_only",
-      "verified_markets": [
-        "h2h",
-        "spreads",
-        "totals"
-      ],
-      "title": "Tampa Bay Rays at Colorado Rockies: Moneyline, Spread and Total Odds",
-      "market": "Total",
-      "snapshot": "Tampa Bay Rays -153 vs Colorado Rockies +144",
-      "summary": "Tampa Bay Rays -153 vs Colorado Rockies +144"
-    },
-    {
-      "league": "MLB",
       "headline": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
       "source": "DraftKings",
       "url": "https://www.covers.com/sport/baseball/mlb/odds",
       "matchup": "Los Angeles Angels at Baltimore Orioles",
-      "market_context": "Baltimore Orioles -118 vs Los Angeles Angels +111",
-      "implied_probability": "Baltimore Orioles 54.1%",
-      "line_movement": "MOVEMENT: Open -112 -> Current -118 (shortened for Baltimore Orioles)",
+      "market_context": "Baltimore Orioles -128 vs Los Angeles Angels +120",
+      "implied_probability": "Baltimore Orioles 56.1%",
+      "line_movement": "MOVEMENT: Open -122 -> Current -128 (shortened for Baltimore Orioles)",
       "key_data": [
         "GAME: Los Angeles Angels at Baltimore Orioles",
         "MARKET: Baltimore Orioles favored over Los Angeles Angels",
-        "LINE / ODDS: Baltimore Orioles -118 | Los Angeles Angels +111",
-        "IMPLIED PROBABILITY: Baltimore Orioles 54.1% before vig",
-        "MOVEMENT: Open -112 -> Current -118 (shortened for Baltimore Orioles)",
-        "SPREAD: Baltimore Orioles -1.5 (+161) | Los Angeles Angels +1.5 (-196)"
+        "LINE / ODDS: Baltimore Orioles -128 | Los Angeles Angels +120",
+        "IMPLIED PROBABILITY: Baltimore Orioles 56.1% before vig",
+        "MOVEMENT: Open -122 -> Current -128 (shortened for Baltimore Orioles)",
+        "SPREAD: Baltimore Orioles -1.5 (+152) | Los Angeles Angels +1.5 (-185)"
       ],
-      "why_it_matters": "The market gives Baltimore Orioles a modest edge, which makes line movement and book-to-book differences worth checking. A -118 moneyline implies roughly 54.1% before vig. Baltimore Orioles is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
+      "why_it_matters": "The market gives Baltimore Orioles a modest edge, which makes line movement and book-to-book differences worth checking. A -128 moneyline implies roughly 56.1% before vig. Baltimore Orioles is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -1479,8 +1278,8 @@
       ],
       "title": "Los Angeles Angels at Baltimore Orioles: Moneyline, Spread and Total Odds",
       "market": "Total",
-      "snapshot": "Baltimore Orioles -118 vs Los Angeles Angels +111",
-      "summary": "Baltimore Orioles -118 vs Los Angeles Angels +111"
+      "snapshot": "Baltimore Orioles -128 vs Los Angeles Angels +120",
+      "summary": "Baltimore Orioles -128 vs Los Angeles Angels +120"
     },
     {
       "league": "MLB",
@@ -1497,7 +1296,7 @@
         "LINE / ODDS: New York Yankees -153 | St. Louis Cardinals +144",
         "IMPLIED PROBABILITY: New York Yankees 60.5% before vig",
         "MOVEMENT: Open -164 -> Current -153 (eased for New York Yankees)",
-        "SPREAD: New York Yankees -1.5 (+129) | St. Louis Cardinals +1.5 (-156)"
+        "SPREAD: New York Yankees -1.5 (+130) | St. Louis Cardinals +1.5 (-157)"
       ],
       "why_it_matters": "The market leans clearly toward New York Yankees; injury, pitching, weather or lineup news can still move the number. A -153 moneyline implies roughly 60.5% before vig. New York Yankees is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Weather is not extreme, but the total still needs a final check before lineups lock.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
@@ -1561,7 +1360,7 @@
         "LINE / ODDS: Kansas City Royals -113 | Minnesota Twins +106",
         "IMPLIED PROBABILITY: Kansas City Royals 53.1% before vig",
         "MOVEMENT: Open -103 -> Current -113 (shortened for Kansas City Royals)",
-        "SPREAD: Kansas City Royals +1.5 (-192) | Minnesota Twins -1.5 (+158)"
+        "SPREAD: Kansas City Royals +1.5 (-196) | Minnesota Twins -1.5 (+160)"
       ],
       "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -113 moneyline implies roughly 53.1% before vig. Kansas City Royals is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
@@ -1580,67 +1379,33 @@
     },
     {
       "league": "MLB",
-      "headline": "Los Angeles Dodgers at Chicago Cubs: Moneyline, Spread and Total Odds",
-      "source": "DraftKings",
-      "url": "https://www.cbssports.com/mlb/odds/",
-      "matchup": "Los Angeles Dodgers at Chicago Cubs",
-      "market_context": "Chicago Cubs -108 vs Los Angeles Dodgers +102",
-      "implied_probability": "Chicago Cubs 51.9%",
-      "line_movement": "MOVEMENT: Open -94 -> Current -108 (shortened for Chicago Cubs)",
-      "key_data": [
-        "GAME: Los Angeles Dodgers at Chicago Cubs",
-        "MARKET: Chicago Cubs favored over Los Angeles Dodgers",
-        "LINE / ODDS: Chicago Cubs -108 | Los Angeles Dodgers +102",
-        "IMPLIED PROBABILITY: Chicago Cubs 51.9% before vig",
-        "MOVEMENT: Open -94 -> Current -108 (shortened for Chicago Cubs)",
-        "SPREAD: Chicago Cubs +1.5 (-185) | Los Angeles Dodgers -1.5 (+152)"
-      ],
-      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -108 moneyline implies roughly 51.9% before vig. Chicago Cubs is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
-      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-      "headline_origin": "approved_odds_only_generator",
-      "selected_headline_field": "approved_odds_only_generator",
-      "card_type": "odds_only",
-      "verified_markets": [
-        "h2h",
-        "spreads",
-        "totals"
-      ],
-      "title": "Los Angeles Dodgers at Chicago Cubs: Moneyline, Spread and Total Odds",
-      "market": "Total",
-      "snapshot": "Chicago Cubs -108 vs Los Angeles Dodgers +102",
-      "summary": "Chicago Cubs -108 vs Los Angeles Dodgers +102"
-    },
-    {
-      "league": "MLB",
-      "headline": "San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds",
+      "headline": "Toronto Blue Jays at Chicago Cubs: Moneyline Odds",
       "source": "DraftKings",
       "url": "https://www.covers.com/sport/baseball/mlb/odds",
-      "matchup": "San Francisco Giants at Texas Rangers",
-      "market_context": "Texas Rangers -147 vs San Francisco Giants +138",
-      "implied_probability": "Texas Rangers 59.5%",
-      "line_movement": "MOVEMENT: Open -137 -> Current -147 (shortened for Texas Rangers)",
+      "matchup": "Toronto Blue Jays at Chicago Cubs",
+      "market_context": "Toronto Blue Jays -119 vs Chicago Cubs -101",
+      "implied_probability": "Toronto Blue Jays 54.3%",
+      "line_movement": "MOVEMENT: Open -101 -> Current -119 (shortened for Toronto Blue Jays)",
       "key_data": [
-        "GAME: San Francisco Giants at Texas Rangers",
-        "MARKET: Texas Rangers favored over San Francisco Giants",
-        "LINE / ODDS: Texas Rangers -147 | San Francisco Giants +138",
-        "IMPLIED PROBABILITY: Texas Rangers 59.5% before vig",
-        "MOVEMENT: Open -137 -> Current -147 (shortened for Texas Rangers)",
-        "SPREAD: San Francisco Giants +1.5 (-154) | Texas Rangers -1.5 (+128)"
+        "GAME: Toronto Blue Jays at Chicago Cubs",
+        "MARKET: Toronto Blue Jays favored over Chicago Cubs",
+        "LINE / ODDS: Chicago Cubs -101 | Toronto Blue Jays -119",
+        "IMPLIED PROBABILITY: Toronto Blue Jays 54.3% before vig",
+        "MOVEMENT: Open -101 -> Current -119 (shortened for Toronto Blue Jays)",
+        "SPREAD: Spread unavailable"
       ],
-      "why_it_matters": "The market gives Texas Rangers a modest edge, which makes line movement and book-to-book differences worth checking. A -147 moneyline implies roughly 59.5% before vig. Texas Rangers is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "why_it_matters": "The market gives Toronto Blue Jays a modest edge, which makes line movement and book-to-book differences worth checking. A -119 moneyline implies roughly 54.3% before vig. Toronto Blue Jays is getting more expensive, which usually points to stronger support or new information behind the favorite. Weather is not extreme, but the total still needs a final check before lineups lock.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
       "card_type": "odds_only",
       "verified_markets": [
-        "h2h",
-        "spreads",
-        "totals"
+        "h2h"
       ],
-      "title": "San Francisco Giants at Texas Rangers: Moneyline, Spread and Total Odds",
+      "title": "Toronto Blue Jays at Chicago Cubs: Moneyline Odds",
       "market": "Total",
-      "snapshot": "Texas Rangers -147 vs San Francisco Giants +138",
-      "summary": "Texas Rangers -147 vs San Francisco Giants +138"
+      "snapshot": "Toronto Blue Jays -119 vs Chicago Cubs -101",
+      "summary": "Toronto Blue Jays -119 vs Chicago Cubs -101"
     },
     {
       "league": "MLB",
@@ -1648,18 +1413,18 @@
       "source": "DraftKings",
       "url": "https://www.covers.com/sport/baseball/mlb/odds",
       "matchup": "Athletics at Cincinnati Reds",
-      "market_context": "Cincinnati Reds -146 vs Athletics +137",
-      "implied_probability": "Cincinnati Reds 59.3%",
-      "line_movement": "MOVEMENT: Open -135 -> Current -146 (shortened for Cincinnati Reds)",
+      "market_context": "Cincinnati Reds -147 vs Athletics +138",
+      "implied_probability": "Cincinnati Reds 59.5%",
+      "line_movement": "MOVEMENT: Open -136 -> Current -147 (shortened for Cincinnati Reds)",
       "key_data": [
         "GAME: Athletics at Cincinnati Reds",
         "MARKET: Cincinnati Reds favored over Athletics",
-        "LINE / ODDS: Cincinnati Reds -146 | Athletics +137",
-        "IMPLIED PROBABILITY: Cincinnati Reds 59.3% before vig",
-        "MOVEMENT: Open -135 -> Current -146 (shortened for Cincinnati Reds)",
-        "SPREAD: Athletics +1.5 (-156) | Cincinnati Reds -1.5 (+129)"
+        "LINE / ODDS: Cincinnati Reds -147 | Athletics +138",
+        "IMPLIED PROBABILITY: Cincinnati Reds 59.5% before vig",
+        "MOVEMENT: Open -136 -> Current -147 (shortened for Cincinnati Reds)",
+        "SPREAD: Athletics +1.5 (-155) | Cincinnati Reds -1.5 (+128)"
       ],
-      "why_it_matters": "The market gives Cincinnati Reds a modest edge, which makes line movement and book-to-book differences worth checking. A -146 moneyline implies roughly 59.3% before vig. Cincinnati Reds is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+      "why_it_matters": "The market gives Cincinnati Reds a modest edge, which makes line movement and book-to-book differences worth checking. A -147 moneyline implies roughly 59.5% before vig. Cincinnati Reds is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -1671,8 +1436,8 @@
       ],
       "title": "Athletics at Cincinnati Reds: Moneyline, Spread and Total Odds",
       "market": "Total",
-      "snapshot": "Cincinnati Reds -146 vs Athletics +137",
-      "summary": "Cincinnati Reds -146 vs Athletics +137"
+      "snapshot": "Cincinnati Reds -147 vs Athletics +138",
+      "summary": "Cincinnati Reds -147 vs Athletics +138"
     },
     {
       "league": "MLB",
@@ -1680,18 +1445,18 @@
       "source": "DraftKings",
       "url": "https://www.covers.com/sport/baseball/mlb/odds",
       "matchup": "New York Mets at Cleveland Guardians",
-      "market_context": "Cleveland Guardians -110 vs New York Mets +103",
-      "implied_probability": "Cleveland Guardians 52.4%",
-      "line_movement": "MOVEMENT: Open -117 -> Current -110 (eased for Cleveland Guardians)",
+      "market_context": "Cleveland Guardians -107 vs New York Mets +101",
+      "implied_probability": "Cleveland Guardians 51.7%",
+      "line_movement": "MOVEMENT: Open -114 -> Current -107 (eased for Cleveland Guardians)",
       "key_data": [
         "GAME: New York Mets at Cleveland Guardians",
         "MARKET: Cleveland Guardians favored over New York Mets",
-        "LINE / ODDS: Cleveland Guardians -110 | New York Mets +103",
-        "IMPLIED PROBABILITY: Cleveland Guardians 52.4% before vig",
-        "MOVEMENT: Open -117 -> Current -110 (eased for Cleveland Guardians)",
-        "SPREAD: Cleveland Guardians +1.5 (-197) | New York Mets -1.5 (+161)"
+        "LINE / ODDS: Cleveland Guardians -107 | New York Mets +101",
+        "IMPLIED PROBABILITY: Cleveland Guardians 51.7% before vig",
+        "MOVEMENT: Open -114 -> Current -107 (eased for Cleveland Guardians)",
+        "SPREAD: Cleveland Guardians +1.5 (-188) | New York Mets -1.5 (+154)"
       ],
-      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -110 moneyline implies roughly 52.4% before vig. Cleveland Guardians is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
+      "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A -107 moneyline implies roughly 51.7% before vig. Cleveland Guardians is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -1703,8 +1468,8 @@
       ],
       "title": "New York Mets at Cleveland Guardians: Moneyline, Spread and Total Odds",
       "market": "Total",
-      "snapshot": "Cleveland Guardians -110 vs New York Mets +103",
-      "summary": "Cleveland Guardians -110 vs New York Mets +103"
+      "snapshot": "Cleveland Guardians -107 vs New York Mets +101",
+      "summary": "Cleveland Guardians -107 vs New York Mets +101"
     },
     {
       "league": "MLB",
@@ -1712,18 +1477,18 @@
       "source": "DraftKings",
       "url": "https://www.cbssports.com/mlb/odds/",
       "matchup": "Washington Nationals at Philadelphia Phillies",
-      "market_context": "Philadelphia Phillies -186 vs Washington Nationals +174",
-      "implied_probability": "Philadelphia Phillies 65.0%",
-      "line_movement": "MOVEMENT: Open -199 -> Current -186 (eased for Philadelphia Phillies)",
+      "market_context": "Philadelphia Phillies -191 vs Washington Nationals +179",
+      "implied_probability": "Philadelphia Phillies 65.6%",
+      "line_movement": "MOVEMENT: Open -204 -> Current -191 (eased for Philadelphia Phillies)",
       "key_data": [
         "GAME: Washington Nationals at Philadelphia Phillies",
         "MARKET: Philadelphia Phillies favored over Washington Nationals",
-        "LINE / ODDS: Philadelphia Phillies -186 | Washington Nationals +174",
-        "IMPLIED PROBABILITY: Philadelphia Phillies 65.0% before vig",
-        "MOVEMENT: Open -199 -> Current -186 (eased for Philadelphia Phillies)",
-        "SPREAD: Philadelphia Phillies -1.5 (+105) | Washington Nationals +1.5 (-127)"
+        "LINE / ODDS: Philadelphia Phillies -191 | Washington Nationals +179",
+        "IMPLIED PROBABILITY: Philadelphia Phillies 65.6% before vig",
+        "MOVEMENT: Open -204 -> Current -191 (eased for Philadelphia Phillies)",
+        "SPREAD: Philadelphia Phillies -1.5 (+102) | Washington Nationals +1.5 (-123)"
       ],
-      "why_it_matters": "The market leans clearly toward Philadelphia Phillies; injury, pitching, weather or lineup news can still move the number. A -186 moneyline implies roughly 65.0% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "why_it_matters": "The market leans clearly toward Philadelphia Phillies; injury, pitching, weather or lineup news can still move the number. A -191 moneyline implies roughly 65.6% before vig. Philadelphia Phillies is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -1735,8 +1500,8 @@
       ],
       "title": "Washington Nationals at Philadelphia Phillies: Moneyline, Spread and Total Odds",
       "market": "Total",
-      "snapshot": "Philadelphia Phillies -186 vs Washington Nationals +174",
-      "summary": "Philadelphia Phillies -186 vs Washington Nationals +174"
+      "snapshot": "Philadelphia Phillies -191 vs Washington Nationals +179",
+      "summary": "Philadelphia Phillies -191 vs Washington Nationals +179"
     },
     {
       "league": "MLB",
@@ -1769,6 +1534,102 @@
       "market": "Total",
       "snapshot": "Atlanta Braves -122 vs Miami Marlins +115",
       "summary": "Atlanta Braves -122 vs Miami Marlins +115"
+    },
+    {
+      "league": "MLB",
+      "headline": "Pittsburgh Pirates at Milwaukee Brewers: Moneyline, Spread and Total Odds",
+      "source": "DraftKings",
+      "url": "https://www.actionnetwork.com/mlb/odds",
+      "matchup": "Pittsburgh Pirates at Milwaukee Brewers",
+      "market_context": "Milwaukee Brewers -127 vs Pittsburgh Pirates +119",
+      "implied_probability": "Milwaukee Brewers 55.9%",
+      "line_movement": "MOVEMENT: Open -117 -> Current -127 (shortened for Milwaukee Brewers)",
+      "key_data": [
+        "GAME: Pittsburgh Pirates at Milwaukee Brewers",
+        "MARKET: Milwaukee Brewers favored over Pittsburgh Pirates",
+        "LINE / ODDS: Milwaukee Brewers -127 | Pittsburgh Pirates +119",
+        "IMPLIED PROBABILITY: Milwaukee Brewers 55.9% before vig",
+        "MOVEMENT: Open -117 -> Current -127 (shortened for Milwaukee Brewers)",
+        "SPREAD: Milwaukee Brewers -1.5 (+168) | Pittsburgh Pirates +1.5 (-205)"
+      ],
+      "why_it_matters": "The market gives Milwaukee Brewers a modest edge, which makes line movement and book-to-book differences worth checking. A -127 moneyline implies roughly 55.9% before vig. Milwaukee Brewers is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
+      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+      "headline_origin": "approved_odds_only_generator",
+      "selected_headline_field": "approved_odds_only_generator",
+      "card_type": "odds_only",
+      "verified_markets": [
+        "h2h",
+        "spreads",
+        "totals"
+      ],
+      "title": "Pittsburgh Pirates at Milwaukee Brewers: Moneyline, Spread and Total Odds",
+      "market": "Total",
+      "snapshot": "Milwaukee Brewers -127 vs Pittsburgh Pirates +119",
+      "summary": "Milwaukee Brewers -127 vs Pittsburgh Pirates +119"
+    },
+    {
+      "league": "MLB",
+      "headline": "San Diego Padres at Arizona Diamondbacks: Moneyline, Spread and Total Odds",
+      "source": "DraftKings",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "matchup": "San Diego Padres at Arizona Diamondbacks",
+      "market_context": "San Diego Padres -123 vs Arizona Diamondbacks +116",
+      "implied_probability": "San Diego Padres 55.2%",
+      "line_movement": "MOVEMENT: Open -109 -> Current -123 (shortened for San Diego Padres)",
+      "key_data": [
+        "GAME: San Diego Padres at Arizona Diamondbacks",
+        "MARKET: San Diego Padres favored over Arizona Diamondbacks",
+        "LINE / ODDS: Arizona Diamondbacks +116 | San Diego Padres -123",
+        "IMPLIED PROBABILITY: San Diego Padres 55.2% before vig",
+        "MOVEMENT: Open -109 -> Current -123 (shortened for San Diego Padres)",
+        "SPREAD: Arizona Diamondbacks +1.5 (-155) | San Diego Padres -1.5 (+128)"
+      ],
+      "why_it_matters": "The market gives San Diego Padres a modest edge, which makes line movement and book-to-book differences worth checking. A -123 moneyline implies roughly 55.2% before vig. San Diego Padres is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+      "headline_origin": "approved_odds_only_generator",
+      "selected_headline_field": "approved_odds_only_generator",
+      "card_type": "odds_only",
+      "verified_markets": [
+        "h2h",
+        "spreads",
+        "totals"
+      ],
+      "title": "San Diego Padres at Arizona Diamondbacks: Moneyline, Spread and Total Odds",
+      "market": "Total",
+      "snapshot": "San Diego Padres -123 vs Arizona Diamondbacks +116",
+      "summary": "San Diego Padres -123 vs Arizona Diamondbacks +116"
+    },
+    {
+      "league": "MLB",
+      "headline": "Detroit Tigers at Seattle Mariners: Moneyline, Spread and Total Odds",
+      "source": "DraftKings",
+      "url": "https://www.actionnetwork.com/mlb/odds",
+      "matchup": "Detroit Tigers at Seattle Mariners",
+      "market_context": "Seattle Mariners -152 vs Detroit Tigers +143",
+      "implied_probability": "Seattle Mariners 60.3%",
+      "line_movement": "MOVEMENT: Open -162 -> Current -152 (eased for Seattle Mariners)",
+      "key_data": [
+        "GAME: Detroit Tigers at Seattle Mariners",
+        "MARKET: Seattle Mariners favored over Detroit Tigers",
+        "LINE / ODDS: Seattle Mariners -152 | Detroit Tigers +143",
+        "IMPLIED PROBABILITY: Seattle Mariners 60.3% before vig",
+        "MOVEMENT: Open -162 -> Current -152 (eased for Seattle Mariners)",
+        "SPREAD: Detroit Tigers +1.5 (-164) | Seattle Mariners -1.5 (+136)"
+      ],
+      "why_it_matters": "The market leans clearly toward Seattle Mariners; injury, pitching, weather or lineup news can still move the number. A -152 moneyline implies roughly 60.3% before vig. Seattle Mariners is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is working against carry, which can matter for totals and home-run props.",
+      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+      "headline_origin": "approved_odds_only_generator",
+      "selected_headline_field": "approved_odds_only_generator",
+      "card_type": "odds_only",
+      "verified_markets": [
+        "h2h",
+        "spreads",
+        "totals"
+      ],
+      "title": "Detroit Tigers at Seattle Mariners: Moneyline, Spread and Total Odds",
+      "market": "Total",
+      "snapshot": "Seattle Mariners -152 vs Detroit Tigers +143",
+      "summary": "Seattle Mariners -152 vs Detroit Tigers +143"
     }
   ],
   "editorial_standard": {
@@ -1776,10 +1637,10 @@
     "text": "No gambling advice or picks. Prices, injuries, lineups, weather and fantasy usage are organized for human betting context."
   },
   "headline_diagnostic_summary": {
-    "total_candidates": 19,
-    "accepted": 15,
+    "total_candidates": 16,
+    "accepted": 12,
     "rejected_for_headline_failure": 4,
     "source_published": 0,
-    "approved_odds_only_generated": 15
+    "approved_odds_only_generated": 12
   }
 }
