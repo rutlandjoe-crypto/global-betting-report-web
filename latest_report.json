@@ -6,9 +6,9 @@
   "tagline": "Built for journalists, by a journalist.",
   "headline": "Los Angeles Angels at Miami Marlins: Moneyline, Spread and Total Odds",
   "snapshot": "Fast odds context for moneylines, spreads, totals, implied probability, fantasy angles, weather and late price movement.",
-  "updated_at": "2026-08-08 03:01 PM ET",
-  "generated_at": "2026-08-08 03:01 PM ET",
-  "generated_utc": "2026-08-08T19:01:33.214547+00:00",
+  "updated_at": "2026-08-08 03:46 PM ET",
+  "generated_at": "2026-08-08 03:46 PM ET",
+  "generated_utc": "2026-08-08T19:46:48.202190+00:00",
   "source_mode": "odds-market interpretation engine with line movement, futures watch, weather context, and newsroom-ready betting explanation",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "",
@@ -55,8 +55,8 @@
     "MLB: Houston Astros at San Diego Padres: Moneyline, Spread and Total Odds",
     "MLS: Houston Dynamo at New England Revolution: Moneyline Odds",
     "MLB: Los Angeles Dodgers at Arizona Diamondbacks: Moneyline, Spread and Total Odds",
-    "MLB: Atlanta Braves at New York Yankees: Moneyline, Spread and Total Odds",
-    "MLB: Athletics at Boston Red Sox: Moneyline, Spread and Total Odds"
+    "MLB: Athletics at Boston Red Sox: Moneyline, Spread and Total Odds",
+    "MLB: New York Mets at Pittsburgh Pirates: Moneyline, Spread and Total Odds"
   ],
   "live_newsroom": [
     {
@@ -193,7 +193,7 @@
       "key_data": [
         "GAME: Houston Dynamo at New England Revolution",
         "MARKET: New England Revolution favored over Houston Dynamo",
-        "LINE / ODDS: New England Revolution +135 | Houston Dynamo +175",
+        "LINE / ODDS: New England Revolution +135 | Houston Dynamo +170",
         "IMPLIED PROBABILITY: New England Revolution 42.6% before vig",
         "MOVEMENT: Open +125 -> Current +135 (shortened for New England Revolution)",
         "SPREAD: Spread unavailable",
@@ -244,23 +244,23 @@
     },
     {
       "key": "betting_market_7",
-      "title": "Atlanta Braves at New York Yankees: Moneyline, Spread and Total Odds",
-      "headline": "Atlanta Braves at New York Yankees: Moneyline, Spread and Total Odds",
-      "snapshot": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -141 moneyline implies roughly 58.5% before vig. Atlanta Braves is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is working against carry, which can matter for totals and home-run props.",
+      "title": "Athletics at Boston Red Sox: Moneyline, Spread and Total Odds",
+      "headline": "Athletics at Boston Red Sox: Moneyline, Spread and Total Odds",
+      "snapshot": "Boston Red Sox is priced as a heavy favorite, so lineup, injury and matchup news decide whether the premium holds. A -250 moneyline implies roughly 71.4% before vig. Boston Red Sox is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
       "source": "DraftKings",
-      "url": "https://www.covers.com/sport/baseball/mlb/odds",
+      "url": "https://www.cbssports.com/mlb/odds/",
       "key_data": [
-        "GAME: Atlanta Braves at New York Yankees",
-        "MARKET: Atlanta Braves favored over New York Yankees",
-        "LINE / ODDS: New York Yankees +131 | Atlanta Braves -141",
-        "IMPLIED PROBABILITY: Atlanta Braves 58.5% before vig",
-        "MOVEMENT: Open -149 -> Current -141 (eased for Atlanta Braves)",
-        "SPREAD: Atlanta Braves -1.5 (+124) | New York Yankees +1.5 (-149)",
-        "TOTAL: Over 7.5 (-115) | Under 7.5 (-105)",
+        "GAME: Athletics at Boston Red Sox",
+        "MARKET: Boston Red Sox favored over Athletics",
+        "LINE / ODDS: Boston Red Sox -250 | Athletics +230",
+        "IMPLIED PROBABILITY: Boston Red Sox 71.4% before vig",
+        "MOVEMENT: Open -263 -> Current -250 (eased for Boston Red Sox)",
+        "SPREAD: Athletics +1.5 (+109) | Boston Red Sox -1.5 (-131)",
+        "TOTAL: Over 9 (-105) | Under 9 (-115)",
         "BOOK: DraftKings",
-        "WEATHER: 59F, wind in from left at 15 mph, rain risk 24%"
+        "WEATHER: 75F, wind crossfield at 12 mph, rain risk 32%"
       ],
-      "why_it_matters": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -141 moneyline implies roughly 58.5% before vig. Atlanta Braves is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is working against carry, which can matter for totals and home-run props.",
+      "why_it_matters": "Boston Red Sox is priced as a heavy favorite, so lineup, injury and matchup news decide whether the premium holds. A -250 moneyline implies roughly 71.4% before vig. Boston Red Sox is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -275,23 +275,23 @@
     },
     {
       "key": "betting_market_8",
-      "title": "Athletics at Boston Red Sox: Moneyline, Spread and Total Odds",
-      "headline": "Athletics at Boston Red Sox: Moneyline, Spread and Total Odds",
-      "snapshot": "Boston Red Sox is priced as a heavy favorite, so lineup, injury and matchup news decide whether the premium holds. A -250 moneyline implies roughly 71.4% before vig. Boston Red Sox is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "title": "New York Mets at Pittsburgh Pirates: Moneyline, Spread and Total Odds",
+      "headline": "New York Mets at Pittsburgh Pirates: Moneyline, Spread and Total Odds",
+      "snapshot": "The market gives Pittsburgh Pirates a modest edge, which makes line movement and book-to-book differences worth checking. A -119 moneyline implies roughly 54.3% before vig. Pittsburgh Pirates is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "source": "DraftKings",
-      "url": "https://www.cbssports.com/mlb/odds/",
+      "url": "https://www.covers.com/sport/baseball/mlb/odds",
       "key_data": [
-        "GAME: Athletics at Boston Red Sox",
-        "MARKET: Boston Red Sox favored over Athletics",
-        "LINE / ODDS: Boston Red Sox -250 | Athletics +230",
-        "IMPLIED PROBABILITY: Boston Red Sox 71.4% before vig",
-        "MOVEMENT: Open -263 -> Current -250 (eased for Boston Red Sox)",
-        "SPREAD: Athletics +1.5 (+109) | Boston Red Sox -1.5 (-131)",
-        "TOTAL: Over 9 (-103) | Under 9 (-117)",
+        "GAME: New York Mets at Pittsburgh Pirates",
+        "MARKET: Pittsburgh Pirates favored over New York Mets",
+        "LINE / ODDS: Pittsburgh Pirates -119 | New York Mets +111",
+        "IMPLIED PROBABILITY: Pittsburgh Pirates 54.3% before vig",
+        "MOVEMENT: Open -125 -> Current -119 (eased for Pittsburgh Pirates)",
+        "SPREAD: New York Mets +1.5 (-197) | Pittsburgh Pirates -1.5 (+162)",
+        "TOTAL: Over 9 (-110) | Under 9 (-110)",
         "BOOK: DraftKings",
-        "WEATHER: 75F, wind crossfield at 12 mph, rain risk 32%"
+        "WEATHER: 81F, wind out to left at 10 mph, rain risk 18%"
       ],
-      "why_it_matters": "Boston Red Sox is priced as a heavy favorite, so lineup, injury and matchup news decide whether the premium holds. A -250 moneyline implies roughly 71.4% before vig. Boston Red Sox is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "why_it_matters": "The market gives Pittsburgh Pirates a modest edge, which makes line movement and book-to-book differences worth checking. A -119 moneyline implies roughly 54.3% before vig. Pittsburgh Pirates is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -440,7 +440,7 @@
       "key_data": [
         "GAME: Houston Dynamo at New England Revolution",
         "MARKET: New England Revolution favored over Houston Dynamo",
-        "LINE / ODDS: New England Revolution +135 | Houston Dynamo +175",
+        "LINE / ODDS: New England Revolution +135 | Houston Dynamo +170",
         "IMPLIED PROBABILITY: New England Revolution 42.6% before vig",
         "MOVEMENT: Open +125 -> Current +135 (shortened for New England Revolution)",
         "SPREAD: Spread unavailable",
@@ -500,8 +500,8 @@
         "Houston Astros at San Diego Padres: Moneyline, Spread and Total Odds | MARKET: San Diego Padres favored over Houston Astros | IMPLIED PROBABILITY: San Diego Padres 53.5% before vig | MOVEMENT: Open -105 -> Current -115 (shortened for San Diego Padres)",
         "Houston Dynamo at New England Revolution: Moneyline Odds | MARKET: New England Revolution favored over Houston Dynamo | IMPLIED PROBABILITY: New England Revolution 42.6% before vig | MOVEMENT: Open +125 -> Current +135 (shortened for New England Revolution)",
         "Los Angeles Dodgers at Arizona Diamondbacks: Moneyline, Spread and Total Odds | MARKET: Los Angeles Dodgers favored over Arizona Diamondbacks | IMPLIED PROBABILITY: Los Angeles Dodgers 65.9% before vig | MOVEMENT: Open -185 -> Current -193 (shortened for Los Angeles Dodgers)",
-        "Atlanta Braves at New York Yankees: Moneyline, Spread and Total Odds | MARKET: Atlanta Braves favored over New York Yankees | IMPLIED PROBABILITY: Atlanta Braves 58.5% before vig | MOVEMENT: Open -149 -> Current -141 (eased for Atlanta Braves)",
-        "Athletics at Boston Red Sox: Moneyline, Spread and Total Odds | MARKET: Boston Red Sox favored over Athletics | IMPLIED PROBABILITY: Boston Red Sox 71.4% before vig | MOVEMENT: Open -263 -> Current -250 (eased for Boston Red Sox)"
+        "Athletics at Boston Red Sox: Moneyline, Spread and Total Odds | MARKET: Boston Red Sox favored over Athletics | IMPLIED PROBABILITY: Boston Red Sox 71.4% before vig | MOVEMENT: Open -263 -> Current -250 (eased for Boston Red Sox)",
+        "New York Mets at Pittsburgh Pirates: Moneyline, Spread and Total Odds | MARKET: Pittsburgh Pirates favored over New York Mets | IMPLIED PROBABILITY: Pittsburgh Pirates 54.3% before vig | MOVEMENT: Open -125 -> Current -119 (eased for Pittsburgh Pirates)"
       ],
       "headline": "Market Overview",
       "market": "Market",
@@ -516,8 +516,8 @@
         "Houston Astros at San Diego Padres - MOVEMENT: Open -105 -> Current -115 (shortened for San Diego Padres)",
         "Houston Dynamo at New England Revolution - MOVEMENT: Open +125 -> Current +135 (shortened for New England Revolution)",
         "Los Angeles Dodgers at Arizona Diamondbacks - MOVEMENT: Open -185 -> Current -193 (shortened for Los Angeles Dodgers)",
-        "Atlanta Braves at New York Yankees - MOVEMENT: Open -149 -> Current -141 (eased for Atlanta Braves)",
-        "Athletics at Boston Red Sox - MOVEMENT: Open -263 -> Current -250 (eased for Boston Red Sox)"
+        "Athletics at Boston Red Sox - MOVEMENT: Open -263 -> Current -250 (eased for Boston Red Sox)",
+        "New York Mets at Pittsburgh Pirates - MOVEMENT: Open -125 -> Current -119 (eased for Pittsburgh Pirates)"
       ],
       "headline": "Line Movement Signals",
       "market": "Market",
@@ -708,17 +708,17 @@
           "key_data": [
             "GAME: Houston Dynamo at New England Revolution",
             "MARKET: New England Revolution favored over Houston Dynamo",
-            "LINE / ODDS: New England Revolution +135 | Houston Dynamo +175",
+            "LINE / ODDS: New England Revolution +135 | Houston Dynamo +170",
             "IMPLIED PROBABILITY: New England Revolution 42.6% before vig",
             "MOVEMENT: Open +125 -> Current +135 (shortened for New England Revolution)",
             "SPREAD: Spread unavailable",
             "TOTAL: Total unavailable",
             "BOOK: DraftKings"
           ],
-          "market_context": "New England Revolution +135 vs Houston Dynamo +175",
+          "market_context": "New England Revolution +135 vs Houston Dynamo +170",
           "implied_probability": "New England Revolution 42.6%",
-          "market": "New England Revolution +135 vs Houston Dynamo +175",
-          "line_odds": "New England Revolution +135 | Houston Dynamo +175",
+          "market": "New England Revolution +135 vs Houston Dynamo +170",
+          "line_odds": "New England Revolution +135 | Houston Dynamo +170",
           "movement_direction": "shortened",
           "why_it_matters": "This is priced close to a toss-up. Bettors should watch late movement because small shifts can reveal where sharper money may be landing. A +135 moneyline implies roughly 42.6% before vig. New England Revolution is getting more expensive, which usually points to stronger support or new information behind the favorite.",
           "what_to_watch": "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful.",
@@ -732,8 +732,8 @@
           ],
           "source_url": "",
           "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "New England Revolution +135 vs Houston Dynamo +175",
-          "summary": "New England Revolution +135 vs Houston Dynamo +175"
+          "snapshot": "New England Revolution +135 vs Houston Dynamo +170",
+          "summary": "New England Revolution +135 vs Houston Dynamo +170"
         },
         {
           "league": "MLB",
@@ -780,49 +780,6 @@
         },
         {
           "league": "MLB",
-          "title": "Atlanta Braves at New York Yankees: Moneyline, Spread and Total Odds",
-          "headline": "Atlanta Braves at New York Yankees: Moneyline, Spread and Total Odds",
-          "matchup": "Atlanta Braves at New York Yankees",
-          "source": "DraftKings",
-          "url": "https://www.covers.com/sport/baseball/mlb/odds",
-          "key_data": [
-            "GAME: Atlanta Braves at New York Yankees",
-            "MARKET: Atlanta Braves favored over New York Yankees",
-            "LINE / ODDS: New York Yankees +131 | Atlanta Braves -141",
-            "IMPLIED PROBABILITY: Atlanta Braves 58.5% before vig",
-            "MOVEMENT: Open -149 -> Current -141 (eased for Atlanta Braves)",
-            "SPREAD: Atlanta Braves -1.5 (+124) | New York Yankees +1.5 (-149)",
-            "TOTAL: Over 7.5 (-115) | Under 7.5 (-105)",
-            "BOOK: DraftKings",
-            "WEATHER: 59F, wind in from left at 15 mph, rain risk 24%"
-          ],
-          "market_context": "Atlanta Braves -141 vs New York Yankees +131",
-          "implied_probability": "Atlanta Braves 58.5%",
-          "market": "Atlanta Braves -141 vs New York Yankees +131",
-          "line_odds": "New York Yankees +131 | Atlanta Braves -141",
-          "movement_direction": "eased",
-          "why_it_matters": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -141 moneyline implies roughly 58.5% before vig. Atlanta Braves is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is working against carry, which can matter for totals and home-run props.",
-          "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -149 -> Current -141 (eased for Atlanta Braves)",
-          "weather": {
-            "summary": "59F, wind in from left at 15 mph, rain risk 24%",
-            "impact": "Wind is working against carry, which can matter for totals and home-run props."
-          },
-          "commence_time": "2026-08-08T19:10:00Z",
-          "card_type": "odds_only",
-          "headline_origin": "approved_odds_only_generator",
-          "verified_markets": [
-            "h2h",
-            "spreads",
-            "totals"
-          ],
-          "source_url": "",
-          "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Atlanta Braves -141 vs New York Yankees +131",
-          "summary": "Atlanta Braves -141 vs New York Yankees +131"
-        },
-        {
-          "league": "MLB",
           "title": "Athletics at Boston Red Sox: Moneyline, Spread and Total Odds",
           "headline": "Athletics at Boston Red Sox: Moneyline, Spread and Total Odds",
           "matchup": "Athletics at Boston Red Sox",
@@ -835,7 +792,7 @@
             "IMPLIED PROBABILITY: Boston Red Sox 71.4% before vig",
             "MOVEMENT: Open -263 -> Current -250 (eased for Boston Red Sox)",
             "SPREAD: Athletics +1.5 (+109) | Boston Red Sox -1.5 (-131)",
-            "TOTAL: Over 9 (-103) | Under 9 (-117)",
+            "TOTAL: Over 9 (-105) | Under 9 (-115)",
             "BOOK: DraftKings",
             "WEATHER: 75F, wind crossfield at 12 mph, rain risk 32%"
           ],
@@ -874,22 +831,22 @@
           "key_data": [
             "GAME: New York Mets at Pittsburgh Pirates",
             "MARKET: Pittsburgh Pirates favored over New York Mets",
-            "LINE / ODDS: Pittsburgh Pirates -120 | New York Mets +112",
-            "IMPLIED PROBABILITY: Pittsburgh Pirates 54.5% before vig",
-            "MOVEMENT: Open -126 -> Current -120 (eased for Pittsburgh Pirates)",
-            "SPREAD: New York Mets +1.5 (-191) | Pittsburgh Pirates -1.5 (+157)",
+            "LINE / ODDS: Pittsburgh Pirates -119 | New York Mets +111",
+            "IMPLIED PROBABILITY: Pittsburgh Pirates 54.3% before vig",
+            "MOVEMENT: Open -125 -> Current -119 (eased for Pittsburgh Pirates)",
+            "SPREAD: New York Mets +1.5 (-197) | Pittsburgh Pirates -1.5 (+162)",
             "TOTAL: Over 9 (-110) | Under 9 (-110)",
             "BOOK: DraftKings",
             "WEATHER: 81F, wind out to left at 10 mph, rain risk 18%"
           ],
-          "market_context": "Pittsburgh Pirates -120 vs New York Mets +112",
-          "implied_probability": "Pittsburgh Pirates 54.5%",
-          "market": "Pittsburgh Pirates -120 vs New York Mets +112",
-          "line_odds": "Pittsburgh Pirates -120 | New York Mets +112",
+          "market_context": "Pittsburgh Pirates -119 vs New York Mets +111",
+          "implied_probability": "Pittsburgh Pirates 54.3%",
+          "market": "Pittsburgh Pirates -119 vs New York Mets +111",
+          "line_odds": "Pittsburgh Pirates -119 | New York Mets +111",
           "movement_direction": "eased",
-          "why_it_matters": "The market gives Pittsburgh Pirates a modest edge, which makes line movement and book-to-book differences worth checking. A -120 moneyline implies roughly 54.5% before vig. Pittsburgh Pirates is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
+          "why_it_matters": "The market gives Pittsburgh Pirates a modest edge, which makes line movement and book-to-book differences worth checking. A -119 moneyline implies roughly 54.3% before vig. Pittsburgh Pirates is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
           "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -126 -> Current -120 (eased for Pittsburgh Pirates)",
+          "line_movement": "MOVEMENT: Open -125 -> Current -119 (eased for Pittsburgh Pirates)",
           "weather": {
             "summary": "81F, wind out to left at 10 mph, rain risk 18%",
             "impact": "Wind is helping carry, so the total deserves a closer look before first pitch."
@@ -904,8 +861,8 @@
           ],
           "source_url": "",
           "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Pittsburgh Pirates -120 vs New York Mets +112",
-          "summary": "Pittsburgh Pirates -120 vs New York Mets +112"
+          "snapshot": "Pittsburgh Pirates -119 vs New York Mets +111",
+          "summary": "Pittsburgh Pirates -119 vs New York Mets +111"
         },
         {
           "league": "MLB",
@@ -917,22 +874,22 @@
           "key_data": [
             "GAME: Cincinnati Reds at Washington Nationals",
             "MARKET: Cincinnati Reds favored over Washington Nationals",
-            "LINE / ODDS: Washington Nationals +131 | Cincinnati Reds -140",
-            "IMPLIED PROBABILITY: Cincinnati Reds 58.3% before vig",
-            "MOVEMENT: Open -128 -> Current -140 (shortened for Cincinnati Reds)",
-            "SPREAD: Cincinnati Reds -1.5 (+113) | Washington Nationals +1.5 (-136)",
-            "TOTAL: Over 8.5 (-115) | Under 8.5 (-105)",
+            "LINE / ODDS: Washington Nationals +121 | Cincinnati Reds -130",
+            "IMPLIED PROBABILITY: Cincinnati Reds 56.5% before vig",
+            "MOVEMENT: Open -118 -> Current -130 (shortened for Cincinnati Reds)",
+            "SPREAD: Cincinnati Reds -1.5 (+119) | Washington Nationals +1.5 (-143)",
+            "TOTAL: Over 8.5 (-114) | Under 8.5 (-105)",
             "BOOK: DraftKings",
             "WEATHER: 73F, wind out to right at 13 mph, rain risk 26%"
           ],
-          "market_context": "Cincinnati Reds -140 vs Washington Nationals +131",
-          "implied_probability": "Cincinnati Reds 58.3%",
-          "market": "Cincinnati Reds -140 vs Washington Nationals +131",
-          "line_odds": "Washington Nationals +131 | Cincinnati Reds -140",
+          "market_context": "Cincinnati Reds -130 vs Washington Nationals +121",
+          "implied_probability": "Cincinnati Reds 56.5%",
+          "market": "Cincinnati Reds -130 vs Washington Nationals +121",
+          "line_odds": "Washington Nationals +121 | Cincinnati Reds -130",
           "movement_direction": "shortened",
-          "why_it_matters": "The market gives Cincinnati Reds a modest edge, which makes line movement and book-to-book differences worth checking. A -140 moneyline implies roughly 58.3% before vig. Cincinnati Reds is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+          "why_it_matters": "The market gives Cincinnati Reds a modest edge, which makes line movement and book-to-book differences worth checking. A -130 moneyline implies roughly 56.5% before vig. Cincinnati Reds is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
           "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -128 -> Current -140 (shortened for Cincinnati Reds)",
+          "line_movement": "MOVEMENT: Open -118 -> Current -130 (shortened for Cincinnati Reds)",
           "weather": {
             "summary": "73F, wind out to right at 13 mph, rain risk 26%",
             "impact": "Wind is helping carry, so the total deserves a closer look before first pitch."
@@ -947,8 +904,8 @@
           ],
           "source_url": "",
           "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Cincinnati Reds -140 vs Washington Nationals +131",
-          "summary": "Cincinnati Reds -140 vs Washington Nationals +131"
+          "snapshot": "Cincinnati Reds -130 vs Washington Nationals +121",
+          "summary": "Cincinnati Reds -130 vs Washington Nationals +121"
         },
         {
           "league": "MLB",
@@ -960,22 +917,22 @@
           "key_data": [
             "GAME: Chicago Cubs at Kansas City Royals",
             "MARKET: Chicago Cubs favored over Kansas City Royals",
-            "LINE / ODDS: Kansas City Royals +147 | Chicago Cubs -158",
-            "IMPLIED PROBABILITY: Chicago Cubs 61.2% before vig",
-            "MOVEMENT: Open -147 -> Current -158 (shortened for Chicago Cubs)",
+            "LINE / ODDS: Kansas City Royals +143 | Chicago Cubs -154",
+            "IMPLIED PROBABILITY: Chicago Cubs 60.6% before vig",
+            "MOVEMENT: Open -143 -> Current -154 (shortened for Chicago Cubs)",
             "SPREAD: Chicago Cubs -1.5 (-105) | Kansas City Royals +1.5 (-115)",
             "TOTAL: Over 9 (-117) | Under 9 (-103)",
             "BOOK: DraftKings",
             "WEATHER: 61F, wind in from center at 9 mph, rain risk 31%"
           ],
-          "market_context": "Chicago Cubs -158 vs Kansas City Royals +147",
-          "implied_probability": "Chicago Cubs 61.2%",
-          "market": "Chicago Cubs -158 vs Kansas City Royals +147",
-          "line_odds": "Kansas City Royals +147 | Chicago Cubs -158",
+          "market_context": "Chicago Cubs -154 vs Kansas City Royals +143",
+          "implied_probability": "Chicago Cubs 60.6%",
+          "market": "Chicago Cubs -154 vs Kansas City Royals +143",
+          "line_odds": "Kansas City Royals +143 | Chicago Cubs -154",
           "movement_direction": "shortened",
-          "why_it_matters": "The market leans clearly toward Chicago Cubs; injury, pitching, weather or lineup news can still move the number. A -158 moneyline implies roughly 61.2% before vig. Chicago Cubs is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+          "why_it_matters": "The market leans clearly toward Chicago Cubs; injury, pitching, weather or lineup news can still move the number. A -154 moneyline implies roughly 60.6% before vig. Chicago Cubs is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
           "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-          "line_movement": "MOVEMENT: Open -147 -> Current -158 (shortened for Chicago Cubs)",
+          "line_movement": "MOVEMENT: Open -143 -> Current -154 (shortened for Chicago Cubs)",
           "weather": {
             "summary": "61F, wind in from center at 9 mph, rain risk 31%",
             "impact": "Rain risk can create bullpen stress, delay risk and live-betting volatility."
@@ -990,8 +947,8 @@
           ],
           "source_url": "",
           "selected_headline_field": "approved_odds_only_generator",
-          "snapshot": "Chicago Cubs -158 vs Kansas City Royals +147",
-          "summary": "Chicago Cubs -158 vs Kansas City Royals +147"
+          "snapshot": "Chicago Cubs -154 vs Kansas City Royals +143",
+          "summary": "Chicago Cubs -154 vs Kansas City Royals +143"
         },
         {
           "league": "MLB",
@@ -1207,6 +1164,48 @@
           "selected_headline_field": "approved_odds_only_generator",
           "snapshot": "Seattle Mariners -112 vs Tampa Bay Rays +105",
           "summary": "Seattle Mariners -112 vs Tampa Bay Rays +105"
+        },
+        {
+          "league": "MLB",
+          "title": "Atlanta Braves at New York Yankees: Moneyline and Total Odds",
+          "headline": "Atlanta Braves at New York Yankees: Moneyline and Total Odds",
+          "matchup": "Atlanta Braves at New York Yankees",
+          "source": "DraftKings",
+          "url": "https://www.covers.com/sport/baseball/mlb/odds",
+          "key_data": [
+            "GAME: Atlanta Braves at New York Yankees",
+            "MARKET: New York Yankees favored over Atlanta Braves",
+            "LINE / ODDS: New York Yankees -150 | Atlanta Braves +124",
+            "IMPLIED PROBABILITY: New York Yankees 60.0% before vig",
+            "MOVEMENT: Open -137 -> Current -150 (shortened for New York Yankees)",
+            "SPREAD: Spread unavailable",
+            "TOTAL: Over 8.5 (-105) | Under 8.5 (-115)",
+            "BOOK: DraftKings",
+            "WEATHER: 59F, wind in from left at 15 mph, rain risk 24%"
+          ],
+          "market_context": "New York Yankees -150 vs Atlanta Braves +124",
+          "implied_probability": "New York Yankees 60.0%",
+          "market": "New York Yankees -150 vs Atlanta Braves +124",
+          "line_odds": "New York Yankees -150 | Atlanta Braves +124",
+          "movement_direction": "shortened",
+          "why_it_matters": "The market leans clearly toward New York Yankees; injury, pitching, weather or lineup news can still move the number. A -150 moneyline implies roughly 60.0% before vig. New York Yankees is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is working against carry, which can matter for totals and home-run props.",
+          "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+          "line_movement": "MOVEMENT: Open -137 -> Current -150 (shortened for New York Yankees)",
+          "weather": {
+            "summary": "59F, wind in from left at 15 mph, rain risk 24%",
+            "impact": "Wind is working against carry, which can matter for totals and home-run props."
+          },
+          "commence_time": "2026-08-09T17:35:00Z",
+          "card_type": "odds_only",
+          "headline_origin": "approved_odds_only_generator",
+          "verified_markets": [
+            "h2h",
+            "totals"
+          ],
+          "source_url": "",
+          "selected_headline_field": "approved_odds_only_generator",
+          "snapshot": "New York Yankees -150 vs Atlanta Braves +124",
+          "summary": "New York Yankees -150 vs Atlanta Braves +124"
         }
       ],
       "headline": "Game Breakdowns",
@@ -1342,12 +1341,12 @@
           "summary": "Weather: 76F, wind out to center at 4 mph, rain risk 18% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement."
         },
         {
-          "title": "Atlanta Braves at New York Yankees: Moneyline, Spread and Total Odds",
-          "headline": "Atlanta Braves at New York Yankees: Moneyline, Spread and Total Odds",
+          "title": "Athletics at Boston Red Sox: Moneyline, Spread and Total Odds",
+          "headline": "Athletics at Boston Red Sox: Moneyline, Spread and Total Odds",
           "source": "DraftKings",
-          "url": "https://www.covers.com/sport/baseball/mlb/odds",
-          "matchup": "Atlanta Braves at New York Yankees",
-          "market": "Atlanta Braves -141 vs New York Yankees +131",
+          "url": "https://www.cbssports.com/mlb/odds/",
+          "matchup": "Athletics at Boston Red Sox",
+          "market": "Boston Red Sox -250 vs Athletics +230",
           "card_type": "odds_only",
           "headline_origin": "approved_odds_only_generator",
           "selected_headline_field": "approved_odds_only_generator",
@@ -1357,14 +1356,14 @@
             "totals"
           ],
           "key_data": [
-            "Weather: 59F, wind in from left at 15 mph, rain risk 24%",
+            "Weather: 75F, wind crossfield at 12 mph, rain risk 32%",
             "Check wind direction, temperature, and precipitation before first pitch.",
             "Outdoor parks can create meaningful total movement."
           ],
-          "why_it_matters": "Wind is working against carry, which can matter for totals and home-run props.",
+          "why_it_matters": "Rain risk can create bullpen stress, delay risk and live-betting volatility.",
           "what_to_watch": "Compare the current total to updated weather before publishing betting context.",
-          "snapshot": "Weather: 59F, wind in from left at 15 mph, rain risk 24% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement.",
-          "summary": "Weather: 59F, wind in from left at 15 mph, rain risk 24% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement."
+          "snapshot": "Weather: 75F, wind crossfield at 12 mph, rain risk 32% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement.",
+          "summary": "Weather: 75F, wind crossfield at 12 mph, rain risk 32% Check wind direction, temperature, and precipitation before first pitch. Outdoor parks can create meaningful total movement."
         }
       ],
       "headline": "Weather Impact",
@@ -1394,8 +1393,8 @@
         "Houston Astros at San Diego Padres - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
         "Houston Dynamo at New England Revolution - Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful.",
         "Los Angeles Dodgers at Arizona Diamondbacks - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-        "Atlanta Braves at New York Yankees - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-        "Athletics at Boston Red Sox - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
+        "Athletics at Boston Red Sox - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+        "New York Mets at Pittsburgh Pirates - Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "headline": "Late Market Checks",
       "market": "Market",
@@ -1551,13 +1550,13 @@
       "source": "DraftKings",
       "url": "https://www.actionnetwork.com/soccer/odds",
       "matchup": "Houston Dynamo at New England Revolution",
-      "market_context": "New England Revolution +135 vs Houston Dynamo +175",
+      "market_context": "New England Revolution +135 vs Houston Dynamo +170",
       "implied_probability": "New England Revolution 42.6%",
       "line_movement": "MOVEMENT: Open +125 -> Current +135 (shortened for New England Revolution)",
       "key_data": [
         "GAME: Houston Dynamo at New England Revolution",
         "MARKET: New England Revolution favored over Houston Dynamo",
-        "LINE / ODDS: New England Revolution +135 | Houston Dynamo +175",
+        "LINE / ODDS: New England Revolution +135 | Houston Dynamo +170",
         "IMPLIED PROBABILITY: New England Revolution 42.6% before vig",
         "MOVEMENT: Open +125 -> Current +135 (shortened for New England Revolution)",
         "SPREAD: Spread unavailable"
@@ -1572,8 +1571,8 @@
       ],
       "title": "Houston Dynamo at New England Revolution: Moneyline Odds",
       "market": "Spread",
-      "snapshot": "New England Revolution +135 vs Houston Dynamo +175",
-      "summary": "New England Revolution +135 vs Houston Dynamo +175"
+      "snapshot": "New England Revolution +135 vs Houston Dynamo +170",
+      "summary": "New England Revolution +135 vs Houston Dynamo +170"
     },
     {
       "league": "MLB",
@@ -1606,38 +1605,6 @@
       "market": "Total",
       "snapshot": "Los Angeles Dodgers -193 vs Arizona Diamondbacks +179",
       "summary": "Los Angeles Dodgers -193 vs Arizona Diamondbacks +179"
-    },
-    {
-      "league": "MLB",
-      "headline": "Atlanta Braves at New York Yankees: Moneyline, Spread and Total Odds",
-      "source": "DraftKings",
-      "url": "https://www.covers.com/sport/baseball/mlb/odds",
-      "matchup": "Atlanta Braves at New York Yankees",
-      "market_context": "Atlanta Braves -141 vs New York Yankees +131",
-      "implied_probability": "Atlanta Braves 58.5%",
-      "line_movement": "MOVEMENT: Open -149 -> Current -141 (eased for Atlanta Braves)",
-      "key_data": [
-        "GAME: Atlanta Braves at New York Yankees",
-        "MARKET: Atlanta Braves favored over New York Yankees",
-        "LINE / ODDS: New York Yankees +131 | Atlanta Braves -141",
-        "IMPLIED PROBABILITY: Atlanta Braves 58.5% before vig",
-        "MOVEMENT: Open -149 -> Current -141 (eased for Atlanta Braves)",
-        "SPREAD: Atlanta Braves -1.5 (+124) | New York Yankees +1.5 (-149)"
-      ],
-      "why_it_matters": "The market gives Atlanta Braves a modest edge, which makes line movement and book-to-book differences worth checking. A -141 moneyline implies roughly 58.5% before vig. Atlanta Braves is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is working against carry, which can matter for totals and home-run props.",
-      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
-      "headline_origin": "approved_odds_only_generator",
-      "selected_headline_field": "approved_odds_only_generator",
-      "card_type": "odds_only",
-      "verified_markets": [
-        "h2h",
-        "spreads",
-        "totals"
-      ],
-      "title": "Atlanta Braves at New York Yankees: Moneyline, Spread and Total Odds",
-      "market": "Total",
-      "snapshot": "Atlanta Braves -141 vs New York Yankees +131",
-      "summary": "Atlanta Braves -141 vs New York Yankees +131"
     },
     {
       "league": "MLB",
@@ -1677,18 +1644,18 @@
       "source": "DraftKings",
       "url": "https://www.covers.com/sport/baseball/mlb/odds",
       "matchup": "New York Mets at Pittsburgh Pirates",
-      "market_context": "Pittsburgh Pirates -120 vs New York Mets +112",
-      "implied_probability": "Pittsburgh Pirates 54.5%",
-      "line_movement": "MOVEMENT: Open -126 -> Current -120 (eased for Pittsburgh Pirates)",
+      "market_context": "Pittsburgh Pirates -119 vs New York Mets +111",
+      "implied_probability": "Pittsburgh Pirates 54.3%",
+      "line_movement": "MOVEMENT: Open -125 -> Current -119 (eased for Pittsburgh Pirates)",
       "key_data": [
         "GAME: New York Mets at Pittsburgh Pirates",
         "MARKET: Pittsburgh Pirates favored over New York Mets",
-        "LINE / ODDS: Pittsburgh Pirates -120 | New York Mets +112",
-        "IMPLIED PROBABILITY: Pittsburgh Pirates 54.5% before vig",
-        "MOVEMENT: Open -126 -> Current -120 (eased for Pittsburgh Pirates)",
-        "SPREAD: New York Mets +1.5 (-191) | Pittsburgh Pirates -1.5 (+157)"
+        "LINE / ODDS: Pittsburgh Pirates -119 | New York Mets +111",
+        "IMPLIED PROBABILITY: Pittsburgh Pirates 54.3% before vig",
+        "MOVEMENT: Open -125 -> Current -119 (eased for Pittsburgh Pirates)",
+        "SPREAD: New York Mets +1.5 (-197) | Pittsburgh Pirates -1.5 (+162)"
       ],
-      "why_it_matters": "The market gives Pittsburgh Pirates a modest edge, which makes line movement and book-to-book differences worth checking. A -120 moneyline implies roughly 54.5% before vig. Pittsburgh Pirates is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
+      "why_it_matters": "The market gives Pittsburgh Pirates a modest edge, which makes line movement and book-to-book differences worth checking. A -119 moneyline implies roughly 54.3% before vig. Pittsburgh Pirates is getting cheaper, which can point to underdog buyback or resistance to the opening favorite price. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -1700,8 +1667,8 @@
       ],
       "title": "New York Mets at Pittsburgh Pirates: Moneyline, Spread and Total Odds",
       "market": "Total",
-      "snapshot": "Pittsburgh Pirates -120 vs New York Mets +112",
-      "summary": "Pittsburgh Pirates -120 vs New York Mets +112"
+      "snapshot": "Pittsburgh Pirates -119 vs New York Mets +111",
+      "summary": "Pittsburgh Pirates -119 vs New York Mets +111"
     },
     {
       "league": "MLB",
@@ -1709,18 +1676,18 @@
       "source": "DraftKings",
       "url": "https://www.covers.com/sport/baseball/mlb/odds",
       "matchup": "Cincinnati Reds at Washington Nationals",
-      "market_context": "Cincinnati Reds -140 vs Washington Nationals +131",
-      "implied_probability": "Cincinnati Reds 58.3%",
-      "line_movement": "MOVEMENT: Open -128 -> Current -140 (shortened for Cincinnati Reds)",
+      "market_context": "Cincinnati Reds -130 vs Washington Nationals +121",
+      "implied_probability": "Cincinnati Reds 56.5%",
+      "line_movement": "MOVEMENT: Open -118 -> Current -130 (shortened for Cincinnati Reds)",
       "key_data": [
         "GAME: Cincinnati Reds at Washington Nationals",
         "MARKET: Cincinnati Reds favored over Washington Nationals",
-        "LINE / ODDS: Washington Nationals +131 | Cincinnati Reds -140",
-        "IMPLIED PROBABILITY: Cincinnati Reds 58.3% before vig",
-        "MOVEMENT: Open -128 -> Current -140 (shortened for Cincinnati Reds)",
-        "SPREAD: Cincinnati Reds -1.5 (+113) | Washington Nationals +1.5 (-136)"
+        "LINE / ODDS: Washington Nationals +121 | Cincinnati Reds -130",
+        "IMPLIED PROBABILITY: Cincinnati Reds 56.5% before vig",
+        "MOVEMENT: Open -118 -> Current -130 (shortened for Cincinnati Reds)",
+        "SPREAD: Cincinnati Reds -1.5 (+119) | Washington Nationals +1.5 (-143)"
       ],
-      "why_it_matters": "The market gives Cincinnati Reds a modest edge, which makes line movement and book-to-book differences worth checking. A -140 moneyline implies roughly 58.3% before vig. Cincinnati Reds is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+      "why_it_matters": "The market gives Cincinnati Reds a modest edge, which makes line movement and book-to-book differences worth checking. A -130 moneyline implies roughly 56.5% before vig. Cincinnati Reds is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -1732,8 +1699,8 @@
       ],
       "title": "Cincinnati Reds at Washington Nationals: Moneyline, Spread and Total Odds",
       "market": "Total",
-      "snapshot": "Cincinnati Reds -140 vs Washington Nationals +131",
-      "summary": "Cincinnati Reds -140 vs Washington Nationals +131"
+      "snapshot": "Cincinnati Reds -130 vs Washington Nationals +121",
+      "summary": "Cincinnati Reds -130 vs Washington Nationals +121"
     },
     {
       "league": "MLB",
@@ -1741,18 +1708,18 @@
       "source": "DraftKings",
       "url": "https://www.cbssports.com/mlb/odds/",
       "matchup": "Chicago Cubs at Kansas City Royals",
-      "market_context": "Chicago Cubs -158 vs Kansas City Royals +147",
-      "implied_probability": "Chicago Cubs 61.2%",
-      "line_movement": "MOVEMENT: Open -147 -> Current -158 (shortened for Chicago Cubs)",
+      "market_context": "Chicago Cubs -154 vs Kansas City Royals +143",
+      "implied_probability": "Chicago Cubs 60.6%",
+      "line_movement": "MOVEMENT: Open -143 -> Current -154 (shortened for Chicago Cubs)",
       "key_data": [
         "GAME: Chicago Cubs at Kansas City Royals",
         "MARKET: Chicago Cubs favored over Kansas City Royals",
-        "LINE / ODDS: Kansas City Royals +147 | Chicago Cubs -158",
-        "IMPLIED PROBABILITY: Chicago Cubs 61.2% before vig",
-        "MOVEMENT: Open -147 -> Current -158 (shortened for Chicago Cubs)",
+        "LINE / ODDS: Kansas City Royals +143 | Chicago Cubs -154",
+        "IMPLIED PROBABILITY: Chicago Cubs 60.6% before vig",
+        "MOVEMENT: Open -143 -> Current -154 (shortened for Chicago Cubs)",
         "SPREAD: Chicago Cubs -1.5 (-105) | Kansas City Royals +1.5 (-115)"
       ],
-      "why_it_matters": "The market leans clearly toward Chicago Cubs; injury, pitching, weather or lineup news can still move the number. A -158 moneyline implies roughly 61.2% before vig. Chicago Cubs is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
+      "why_it_matters": "The market leans clearly toward Chicago Cubs; injury, pitching, weather or lineup news can still move the number. A -154 moneyline implies roughly 60.6% before vig. Chicago Cubs is getting more expensive, which usually points to stronger support or new information behind the favorite. Rain risk can create bullpen stress, delay risk and live-betting volatility.",
       "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
       "headline_origin": "approved_odds_only_generator",
       "selected_headline_field": "approved_odds_only_generator",
@@ -1764,8 +1731,8 @@
       ],
       "title": "Chicago Cubs at Kansas City Royals: Moneyline, Spread and Total Odds",
       "market": "Total",
-      "snapshot": "Chicago Cubs -158 vs Kansas City Royals +147",
-      "summary": "Chicago Cubs -158 vs Kansas City Royals +147"
+      "snapshot": "Chicago Cubs -154 vs Kansas City Royals +143",
+      "summary": "Chicago Cubs -154 vs Kansas City Royals +143"
     },
     {
       "league": "MLB",
@@ -1798,6 +1765,38 @@
       "market": "Total",
       "snapshot": "Milwaukee Brewers -140 vs Minnesota Twins +131",
       "summary": "Milwaukee Brewers -140 vs Minnesota Twins +131"
+    },
+    {
+      "league": "MLB",
+      "headline": "Baltimore Orioles at Texas Rangers: Moneyline, Spread and Total Odds",
+      "source": "DraftKings",
+      "url": "https://www.actionnetwork.com/mlb/odds",
+      "matchup": "Baltimore Orioles at Texas Rangers",
+      "market_context": "Texas Rangers -146 vs Baltimore Orioles +136",
+      "implied_probability": "Texas Rangers 59.3%",
+      "line_movement": "MOVEMENT: Open -139 -> Current -146 (shortened for Texas Rangers)",
+      "key_data": [
+        "GAME: Baltimore Orioles at Texas Rangers",
+        "MARKET: Texas Rangers favored over Baltimore Orioles",
+        "LINE / ODDS: Texas Rangers -146 | Baltimore Orioles +136",
+        "IMPLIED PROBABILITY: Texas Rangers 59.3% before vig",
+        "MOVEMENT: Open -139 -> Current -146 (shortened for Texas Rangers)",
+        "SPREAD: Baltimore Orioles +1.5 (-175) | Texas Rangers -1.5 (+144)"
+      ],
+      "why_it_matters": "The market gives Texas Rangers a modest edge, which makes line movement and book-to-book differences worth checking. A -146 moneyline implies roughly 59.3% before vig. Texas Rangers is getting more expensive, which usually points to stronger support or new information behind the favorite. Wind is helping carry, so the total deserves a closer look before first pitch.",
+      "what_to_watch": "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable.",
+      "headline_origin": "approved_odds_only_generator",
+      "selected_headline_field": "approved_odds_only_generator",
+      "card_type": "odds_only",
+      "verified_markets": [
+        "h2h",
+        "spreads",
+        "totals"
+      ],
+      "title": "Baltimore Orioles at Texas Rangers: Moneyline, Spread and Total Odds",
+      "market": "Total",
+      "snapshot": "Texas Rangers -146 vs Baltimore Orioles +136",
+      "summary": "Texas Rangers -146 vs Baltimore Orioles +136"
     }
   ],
   "editorial_standard": {
