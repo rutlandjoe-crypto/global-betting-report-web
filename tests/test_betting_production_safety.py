@@ -286,6 +286,17 @@ class BettingProductionSafetyTests(unittest.TestCase):
         )
         self.assertNotIn("continue-on-error", cloud)
 
+    def test_active_text_artifacts_do_not_contain_blocked_fallback_copy(self):
+        blocked = ("books wait on prices", "board takes shape")
+        for relative in ("betting_odds_report.txt", "public/latest_report.txt"):
+            path = ROOT / relative
+            if path.exists():
+                lowered = path.read_text(encoding="utf-8", errors="ignore").lower()
+                self.assertFalse([phrase for phrase in blocked if phrase in lowered])
+
+        runner = (ROOT / "master_runner.py").read_text(encoding="utf-8")
+        self.assertNotIn("verified Odds API ingestion", runner)
+
 
 if __name__ == "__main__":
     unittest.main()

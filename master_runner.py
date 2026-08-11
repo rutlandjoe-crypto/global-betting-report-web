@@ -347,7 +347,7 @@ def main() -> int:
             if script_name == "build_betting_distribution.py" and upstream_report_issue:
                 log(
                     "BLOCKED: build_betting_distribution.py will not run because "
-                    "fresh verified Odds API ingestion failed."
+                    "fresh verified Sportradar ingestion failed."
                 )
                 blocked_scripts.append(script_name)
                 required_failures.append(script_name)
