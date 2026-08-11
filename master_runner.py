@@ -4,6 +4,7 @@ import os
 import subprocess
 import sys
 import traceback
+import uuid
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -311,6 +312,7 @@ def run_script(script_name: str, timeout_seconds: int) -> tuple[str, str, float]
 
 def main() -> int:
     os.chdir(BASE_DIR)
+    os.environ["GBR_RUN_TOKEN"] = uuid.uuid4().hex
 
     log_blank_line()
     write_divider("=")

@@ -1,7 +1,8 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -12,9 +13,65 @@ BASE_DIR = Path(__file__).resolve().parent
 PUBLIC_DIR = BASE_DIR / "public"
 
 REPORT_FILE = BASE_DIR / "betting_odds_report.txt"
-VERIFICATION_FILE = BASE_DIR / "betting_odds_verification.json"
+SUCCESS_MARKER = BASE_DIR / ".gbr_betting_success.json"
 OUTPUT_JSON = PUBLIC_DIR / "latest_report.json"
 OUTPUT_TXT = PUBLIC_DIR / "latest_report.txt"
+MIN_SOURCE_CARDS = 8
+MARKER_MAX_AGE = timedelta(minutes=20)
+SOURCE_MAX_AGE = timedelta(hours=3)
+FORBIDDEN_SOURCE_COPY = (
+    "books wait on prices",
+    "board takes shape",
+    "monitoring window",
+    "market-watch guidance",
+    "fallback",
+    "placeholder",
+)
+
+
+def parse_utc(value: object) -> datetime | None:
+    try:
+        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def validate_current_run_source(text: str) -> dict:
+    run_token = os.getenv("GBR_RUN_TOKEN", "").strip()
+    if not run_token:
+        raise ValueError("GBR_RUN_TOKEN is missing; refusing an unscoped Betting handoff.")
+    if not SUCCESS_MARKER.exists():
+        raise ValueError(f"Current-run Betting marker is missing: {SUCCESS_MARKER}")
+    try:
+        marker = json.loads(SUCCESS_MARKER.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"Current-run Betting marker is invalid: {exc}") from exc
+    if marker.get("run_token") != run_token:
+        raise ValueError("Betting marker run token does not match the current runner token.")
+    if marker.get("source") != "sportradar_oddscomparison_prematch_v2":
+        raise ValueError("Betting marker does not identify the authorized Sportradar source.")
+    expected_hash = hashlib.sha256((text.rstrip() + "\n").encode("utf-8")).hexdigest()
+    if marker.get("report_sha256") != expected_hash:
+        raise ValueError("Betting source report hash does not match its current-run marker.")
+    if int(marker.get("valid_event_count") or 0) < MIN_SOURCE_CARDS:
+        raise ValueError("Betting marker does not contain enough valid sourced events.")
+    if int(marker.get("valid_market_count") or 0) < MIN_SOURCE_CARDS:
+        raise ValueError("Betting marker does not contain enough valid sourced markets.")
+    now = datetime.now(timezone.utc)
+    generated = parse_utc(marker.get("generated_utc"))
+    source_generated = parse_utc(marker.get("source_generated_at"))
+    if generated is None or now - generated > MARKER_MAX_AGE or generated - now > timedelta(minutes=5):
+        raise ValueError("Betting marker is not fresh for the current run.")
+    if source_generated is None or now - source_generated > SOURCE_MAX_AGE or source_generated - now > timedelta(minutes=5):
+        raise ValueError("Sportradar source timestamp is outside the freshness window.")
+    lowered = text.lower()
+    hits = [phrase for phrase in FORBIDDEN_SOURCE_COPY if phrase in lowered]
+    if hits:
+        raise ValueError(f"Betting source contains fallback/placeholder copy: {hits}")
+    return marker
 
 
 def now_et() -> datetime:
@@ -180,7 +237,7 @@ def split_event_blocks(body: str) -> list[list[str]]:
     if current:
         blocks.append(current)
 
-    return blocks[:5]
+    return blocks[:12]
 
 
 def extract_market_read(block: list[str]) -> list[str]:
@@ -481,49 +538,6 @@ def split_sections(text: str) -> list[dict]:
     return interleave_league_cards(cards)
 
 
-def build_support_cards(text: str, current_stamp: str) -> list[dict]:
-    headline = first_real_line(text)
-
-    return [
-        {
-            "title": "Source Headline Watch",
-            "headline": headline,
-            "snapshot": (
-                "Moneylines, spreads, totals, board depth, and sportsbook pricing are being monitored "
-                "for betting-market movement."
-            ),
-            "key_data": ["Market board is active across available leagues."],
-            "what_the_odds_mean": [
-                "Line movement matters most when it connects to injuries, weather, roster news, or sportsbook adjustment."
-            ],
-            "what_to_watch": [
-                "Track favorites getting more expensive or underdogs drawing late money.",
-                "Watch totals in weather-sensitive games.",
-                "Compare sportsbook movement before treating one number as the full market.",
-            ],
-            "source": "betting_odds_report.txt",
-            "updated_at": current_stamp,
-        },
-        {
-            "title": "Betting Reporting Context",
-            "headline": headline,
-            "snapshot": (
-                "Track line movement, injury news, starting lineup changes, pitching confirmations, "
-                "weather, rest advantages, and late market steam before making any betting decision."
-            ),
-            "key_data": ["Betting context requires line movement plus supporting news."],
-            "what_the_odds_mean": [
-                "A number alone is not a recommendation. Context explains why the market may be moving."
-            ],
-            "what_to_watch": [
-                "Injuries, pitching confirmations, weather, public money, and late sportsbook adjustment."
-            ],
-            "source": "GSR betting desk",
-            "updated_at": current_stamp,
-        },
-    ]
-
-
 def build_homepage_cards(sections: list[dict]) -> list[dict]:
     cards = []
 
@@ -551,18 +565,10 @@ def build_payload(text: str) -> dict:
     headline = first_real_line(text)
 
     sections = split_sections(text)
-    sections.extend(build_support_cards(text, current_stamp))
-
-    if not sections:
-        sections = [
-            {
-                "title": "Betting Odds",
-                "headline": headline,
-                "snapshot": build_clean_snapshot(text),
-                "source": "betting_odds_report.txt",
-                "updated_at": current_stamp,
-            }
-        ]
+    if len(sections) < MIN_SOURCE_CARDS:
+        raise ValueError(
+            f"Only {len(sections)} valid sourced Betting cards were parsed; {MIN_SOURCE_CARDS} are required."
+        )
 
     return {
         "site": "Global Betting Report",
@@ -589,47 +595,6 @@ def build_payload(text: str) -> dict:
     }
 
 
-def load_verification() -> dict:
-    if not VERIFICATION_FILE.exists():
-        raise RuntimeError(
-            "Missing current-run Odds API verification receipt; refusing to build."
-        )
-
-    receipt = json.loads(VERIFICATION_FILE.read_text(encoding="utf-8"))
-    if receipt.get("status") != "verified":
-        raise RuntimeError("Odds API verification receipt is not successful.")
-    if receipt.get("provider") != "The Odds API":
-        raise RuntimeError("Odds API verification receipt has an unexpected provider.")
-
-    total_events = receipt.get("total_verified_events")
-    if not isinstance(total_events, int) or total_events <= 0:
-        raise RuntimeError("Odds API verification receipt has zero verified events.")
-
-    verified_at = datetime.fromisoformat(str(receipt.get("verified_at", "")))
-    if verified_at.tzinfo is None:
-        raise RuntimeError("Odds API verification timestamp has no timezone.")
-    age = datetime.now(timezone.utc) - verified_at.astimezone(timezone.utc)
-    if age < timedelta(minutes=-5) or age > timedelta(minutes=15):
-        raise RuntimeError(
-            "Odds API verification receipt is not from the current generation run."
-        )
-
-    expected_hash = str(receipt.get("source_sha256", ""))
-    actual_hash = hashlib.sha256(REPORT_FILE.read_bytes()).hexdigest()
-    if not expected_hash or expected_hash != actual_hash:
-        raise RuntimeError(
-            "Odds API verification receipt does not match the source report."
-        )
-
-    return receipt
-
-
-def write_atomic(path: Path, content: str) -> None:
-    temp_path = path.with_suffix(path.suffix + ".tmp")
-    temp_path.write_text(content, encoding="utf-8")
-    temp_path.replace(path)
-
-
 def main() -> int:
     print(f"[{stamp()}] BETTING BUILD STARTED")
 
@@ -643,34 +608,32 @@ def main() -> int:
         return 1
 
     try:
-        verification = load_verification()
-    except Exception as exc:
-        print(f"[ERROR] {exc}")
+        marker = validate_current_run_source(text)
+        payload = build_payload(text)
+    except ValueError as exc:
+        print(f"[ERROR] Refusing Betting distribution build: {exc}")
         return 1
 
-    payload = build_payload(text)
-    payload["verification"] = verification
-
-    cards = payload.get("homepage_cards") or []
-    if len(cards) < 8:
-        print(f"[ERROR] Refusing to publish only {len(cards)} Betting cards.")
-        return 1
-
+    payload["verification"] = {
+        "status": "verified",
+        "provider": "Sportradar Odds Comparison Prematch v2",
+        "verified_at": marker["generated_utc"],
+        "total_verified_events": marker["valid_event_count"],
+        "source_sha256": marker["report_sha256"],
+    }
     PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
-    write_atomic(
-        OUTPUT_JSON,
-        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
-    )
-    write_atomic(OUTPUT_TXT, clean_team_artifacts(text) + "\n")
+
+    OUTPUT_JSON.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    OUTPUT_TXT.write_text(clean_team_artifacts(text) + "\n", encoding="utf-8")
 
     print(f"[OK] Wrote {OUTPUT_JSON}")
     print(f"[OK] Wrote {OUTPUT_TXT}")
     print(f"[CHECK] Betting sections: {len(payload.get('sections', []))}")
     print(f"[CHECK] Homepage cards: {len(payload.get('homepage_cards', []))}")
+    print(f"[CHECK] Sourced events: {marker.get('valid_event_count')}")
     print(f"[{stamp()}] BETTING BUILD COMPLETE")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

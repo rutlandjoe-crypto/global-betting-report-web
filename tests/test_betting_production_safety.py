@@ -6,8 +6,6 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
 
-import requests
-
 import build_betting_distribution
 import get_betting_odds_report as odds_report
 import master_runner
@@ -50,28 +48,17 @@ def write_report(path: Path, payload: dict) -> bytes:
     return raw
 
 
-class Fake401:
-    status_code = 401
-    headers = {}
-    text = '{"message":"quota exhausted","error_code":"OUT_OF_USAGE_CREDITS"}'
-
-    def raise_for_status(self):
-        raise requests.HTTPError(response=self)
-
-    def json(self):
-        return json.loads(self.text)
+class FailingClient:
+    def competition_markets(self, competition_id):
+        raise odds_report.ProviderError("Sportradar returned HTTP 403: Authentication Error")
 
 
-class FakeEmpty:
-    status_code = 200
-    headers = {}
-    text = "[]"
-
-    def raise_for_status(self):
-        return None
-
-    def json(self):
-        return []
+class EmptyClient:
+    def competition_markets(self, competition_id):
+        return {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "sport_event_markets": [],
+        }
 
 
 class BettingProductionSafetyTests(unittest.TestCase):
@@ -103,11 +90,11 @@ class BettingProductionSafetyTests(unittest.TestCase):
             supports_game_card_input("MLB", {"home_team": "Home", "away_team": "Away"})
         )
 
-    def test_401_leaves_last_valid_output_byte_for_byte_unchanged(self):
+    def test_403_leaves_last_valid_output_byte_for_byte_unchanged(self):
         with tempfile.TemporaryDirectory() as directory:
             temp = Path(directory)
             source = temp / "betting_odds_report.txt"
-            receipt = temp / "betting_odds_verification.json"
+            marker = temp / ".gbr_betting_success.json"
             canonical = temp / "public" / "latest_report.json"
             old_source = b"last valid verified betting report\n"
             old_canonical = b'{"last":"valid"}\n'
@@ -115,36 +102,32 @@ class BettingProductionSafetyTests(unittest.TestCase):
             canonical.parent.mkdir()
             canonical.write_bytes(old_canonical)
 
-            with patch.object(odds_report, "ODDS_API_KEY", "fixture-secret"), patch.object(
-                odds_report, "REPORT_FILE", source
-            ), patch.object(odds_report, "VERIFICATION_FILE", receipt), patch.object(
-                odds_report.requests, "get", return_value=Fake401()
+            with patch.object(odds_report, "REPORT_FILE", source), patch.object(
+                odds_report, "SUCCESS_MARKER", marker
             ):
-                with self.assertRaisesRegex(RuntimeError, "OUT_OF_USAGE_CREDITS"):
-                    odds_report.generate_betting_odds_report()
+                with self.assertRaisesRegex(odds_report.ProviderError, "HTTP 403"):
+                    odds_report.generate_betting_odds_report(FailingClient())
 
             self.assertEqual(old_source, source.read_bytes())
             self.assertEqual(old_canonical, canonical.read_bytes())
-            self.assertFalse(receipt.exists())
+            self.assertFalse(marker.exists())
 
     def test_zero_provider_events_leave_last_valid_source_unchanged(self):
         with tempfile.TemporaryDirectory() as directory:
             temp = Path(directory)
             source = temp / "betting_odds_report.txt"
-            receipt = temp / "betting_odds_verification.json"
+            marker = temp / ".gbr_betting_success.json"
             old_source = b"last valid verified betting report\n"
             source.write_bytes(old_source)
 
-            with patch.object(odds_report, "ODDS_API_KEY", "fixture-secret"), patch.object(
-                odds_report, "REPORT_FILE", source
-            ), patch.object(odds_report, "VERIFICATION_FILE", receipt), patch.object(
-                odds_report.requests, "get", return_value=FakeEmpty()
+            with patch.object(odds_report, "REPORT_FILE", source), patch.object(
+                odds_report, "SUCCESS_MARKER", marker
             ):
-                with self.assertRaisesRegex(RuntimeError, "zero verified events"):
-                    odds_report.generate_betting_odds_report()
+                with self.assertRaisesRegex(odds_report.ProviderError, "Only 0 valid sourced events"):
+                    odds_report.generate_betting_odds_report(EmptyClient())
 
             self.assertEqual(old_source, source.read_bytes())
-            self.assertFalse(receipt.exists())
+            self.assertFalse(marker.exists())
 
     def test_stale_root_cannot_overwrite_fresher_canonical(self):
         now = datetime.now(timezone.utc)
@@ -184,16 +167,19 @@ class BettingProductionSafetyTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             temp = Path(directory)
             source = temp / "betting_odds_report.txt"
-            source.write_bytes((ROOT / "betting_odds_report.txt").read_bytes())
-            receipt = temp / "betting_odds_verification.json"
-            receipt.write_text(
+            source.write_bytes(b"current sourced Sportradar report\n")
+            marker = temp / ".gbr_betting_success.json"
+            run_token = "current-test-run"
+            marker.write_text(
                 json.dumps(
                     {
-                        "status": "verified",
-                        "provider": "The Odds API",
-                        "verified_at": now.isoformat(),
-                        "total_verified_events": 8,
-                        "source_sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
+                        "source": "sportradar_oddscomparison_prematch_v2",
+                        "source_generated_at": now.isoformat(),
+                        "valid_event_count": 8,
+                        "valid_market_count": 8,
+                        "run_token": run_token,
+                        "generated_utc": now.isoformat(),
+                        "report_sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
                     }
                 ),
                 encoding="utf-8",
@@ -205,7 +191,7 @@ class BettingProductionSafetyTests(unittest.TestCase):
             with patch.object(
                 build_betting_distribution, "REPORT_FILE", source
             ), patch.object(
-                build_betting_distribution, "VERIFICATION_FILE", receipt
+                build_betting_distribution, "SUCCESS_MARKER", marker
             ), patch.object(
                 build_betting_distribution, "PUBLIC_DIR", public
             ), patch.object(
@@ -216,11 +202,18 @@ class BettingProductionSafetyTests(unittest.TestCase):
                 build_betting_distribution,
                 "build_payload",
                 return_value=fixture_report(now),
+            ), patch.dict(
+                build_betting_distribution.os.environ,
+                {"GBR_RUN_TOKEN": run_token},
             ):
                 self.assertEqual(0, build_betting_distribution.main())
 
             payload = json.loads(canonical.read_text(encoding="utf-8"))
             self.assertEqual("verified", payload["verification"]["status"])
+            self.assertEqual(
+                "Sportradar Odds Comparison Prematch v2",
+                payload["verification"]["provider"],
+            )
             self.assertGreaterEqual(len(payload["homepage_cards"]), 8)
             self.assertFalse((temp / "latest_report.json").exists())
 
@@ -258,7 +251,7 @@ class BettingProductionSafetyTests(unittest.TestCase):
             ), patch.object(
                 master_runner,
                 "run_script",
-                return_value=("failed", "HTTP 401 OUT_OF_USAGE_CREDITS", 0.1),
+                return_value=("failed", "HTTP 403 Authentication Error", 0.1),
             ) as run_script, patch.object(
                 master_runner, "acquire_lock", return_value=True
             ), patch.object(
@@ -278,13 +271,14 @@ class BettingProductionSafetyTests(unittest.TestCase):
             self.assertEqual(b"last valid canonical report\n", canonical.read_bytes())
 
     def test_workflows_restore_crons_and_validate_before_commit(self):
-        hourly = (ROOT / ".github/workflows/betting-agent-hourly.yml").read_text()
+        hourly = ROOT / ".github/workflows/betting-agent-hourly.yml"
         cloud = (ROOT / ".github/workflows/gsr-cloud-run.yml").read_text()
-        self.assertIn('cron: "17 * * * *"', hourly)
+        self.assertFalse(hourly.exists())
         self.assertIn('cron: "0 * * * *"', cloud)
-        self.assertIn("workflow_dispatch:", hourly)
         self.assertIn("workflow_dispatch:", cloud)
-        self.assertIn("run_external_betting_engine.py", hourly)
+        self.assertIn("SPORTRADAR_API_KEY", cloud)
+        self.assertNotIn("ODDS_API_KEY", cloud)
+        self.assertNotIn("python betting_report.py", cloud)
         self.assertNotIn("Copy-Item ./latest_report.json ./public/latest_report.json", cloud)
         self.assertLess(
             cloud.index("Validate current canonical Betting report"),

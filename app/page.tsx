@@ -29,7 +29,7 @@ const SITE = {
 const TOOLKIT = [
   ["OddsTrader", "https://www.oddstrader.com/"],
   ["OddsTrader MLB Weather", "https://www.oddstrader.com/mlb/weather/"],
-  ["The Odds API", "https://the-odds-api.com/"],
+  ["Sportradar", "https://sportradar.com/"],
   ["Action Network", "https://www.actionnetwork.com/"],
   ["Covers", "https://www.covers.com/"],
   ["Sportsbook Review", "https://www.sportsbookreview.com/"],

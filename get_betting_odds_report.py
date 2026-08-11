@@ -3,669 +3,352 @@ from __future__ import annotations
 import hashlib
 import json
 import os
-import re
-from datetime import datetime, timezone
+import tempfile
+import uuid
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
 from dotenv import load_dotenv
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
-# =========================================================
-# ENV / PATH / CONFIG
-# =========================================================
 BASE_DIR = Path(__file__).resolve().parent
-ENV_PATH = BASE_DIR / ".env"
-load_dotenv(dotenv_path=ENV_PATH, override=True)
-
-ODDS_API_KEY = os.getenv("ODDS_API_KEY", "").strip()
-
-TIMEZONE = ZoneInfo("America/New_York")
-UTC = ZoneInfo("UTC")
-
+load_dotenv(BASE_DIR / ".env", override=False)
 REPORT_FILE = BASE_DIR / "betting_odds_report.txt"
-VERIFICATION_FILE = BASE_DIR / "betting_odds_verification.json"
+SUCCESS_MARKER = BASE_DIR / ".gbr_betting_success.json"
+TIMEZONE = ZoneInfo("America/New_York")
 
-BASE_URL = "https://api.the-odds-api.com/v4/sports"
+API_KEY = os.getenv("SPORTRADAR_API_KEY", "").strip()
+ACCESS_LEVEL = os.getenv("SPORTRADAR_ACCESS_LEVEL", "trial").strip().lower()
+RUN_TOKEN = os.getenv("GBR_RUN_TOKEN", "").strip() or uuid.uuid4().hex
+MIN_VALID_EVENTS = 8
+MAX_EVENTS_PER_LEAGUE = 12
+SOURCE_MAX_AGE = timedelta(hours=3)
+EVENT_WINDOW = timedelta(days=7)
 
-SPORTS = [
-    {"label": "NBA", "key": "basketball_nba"},
-    {"label": "MLB", "key": "baseball_mlb"},
-    {"label": "NHL", "key": "icehockey_nhl"},
-    {"label": "NFL", "key": "americanfootball_nfl"},
-]
-
-MARKETS = "h2h,spreads,totals"
-REGIONS = "us"
-ODDS_FORMAT = "american"
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (GlobalBettingReport Betting Desk)",
-    "Accept": "application/json",
-}
-
-DISCLAIMER = (
-    "This report is an automated summary intended to support, not replace, human sports journalism."
+COMPETITIONS = (
+    ("NBA", "sr:competition:132"),
+    ("MLB", "sr:competition:109"),
+    ("NHL", "sr:competition:234"),
+    ("NFL", "sr:competition:31"),
 )
-
-FALLBACK_MARKET_WATCH = {
-    "NBA": [
-        "Monitor injury reports, rest situations, rotation news, and late scratches before tipoff.",
-        "Watch totals closely when pace, back-to-back scheduling, or defensive absences affect expected scoring.",
-        "Track spread movement when star-player availability changes close to game time.",
-    ],
-    "MLB": [
-        "Monitor confirmed starting pitchers, bullpen usage, lineup cards, weather, and park factors.",
-        "Watch totals closely when wind, temperature, or pitching changes affect run-scoring conditions.",
-        "Track moneyline movement after lineup releases and late pitching updates.",
-    ],
-    "NHL": [
-        "Monitor confirmed starting goalies, back-to-back spots, special-teams form, and late injury news.",
-        "Watch totals closely when goalie changes or defensive absences shift expected scoring.",
-        "Track puck-line and moneyline movement as goalie confirmations arrive.",
-    ],
-    "NFL": [
-        "Monitor injury reports, quarterback status, weather, offensive-line availability, and practice trends.",
-        "Watch totals closely when wind, rain, snow, or tempo expectations affect scoring conditions.",
-        "Track spread movement around major injury updates and market reaction to public betting pressure.",
-    ],
-}
+BOOK_PRIORITY = (
+    "DraftKings", "FanDuel", "ESPNbetCom", "MGM", "Bet365.US.NJ",
+    "WilliamHillNewJersey", "BetRivers", "Consensus",
+)
+MONEYLINE_MARKETS = {"2way", "3way", "moneyline", "money_line"}
+SPREAD_MARKETS = {"handicap", "point_spread", "spread", "run_line", "puck_line"}
+TOTAL_MARKETS = {"total", "totals"}
 
 
-# =========================================================
-# TEXT CLEANING
-# =========================================================
-def fix_team_spacing(text: str) -> str:
-    fixes = {
-        "76 ers": "76ers",
-        "49 ers": "49ers",
-        " Trail Blazers": " Trail Blazers",
+class ProviderError(RuntimeError):
+    pass
+
+
+def utc_now() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def parse_datetime(value: object) -> datetime | None:
+    if not value:
+        return None
+    try:
+        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def format_start(value: object) -> str:
+    parsed = parse_datetime(value)
+    return "TBD ET" if parsed is None else parsed.astimezone(TIMEZONE).strftime("%I:%M %p ET").lstrip("0")
+
+
+def clean(value: object) -> str:
+    return " ".join(str(value or "").split())
+
+
+def atomic_write(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile("w", encoding="utf-8", newline="\n", dir=path.parent, delete=False) as handle:
+        handle.write(text)
+        temporary = Path(handle.name)
+    temporary.replace(path)
+
+
+class SportradarClient:
+    def __init__(self, api_key: str = API_KEY, access_level: str = ACCESS_LEVEL):
+        if not api_key:
+            raise ProviderError("SPORTRADAR_API_KEY is not configured; refusing to generate unsourced odds.")
+        if access_level not in {"trial", "production"}:
+            raise ProviderError("SPORTRADAR_ACCESS_LEVEL must be 'trial' or 'production'.")
+        self.access_level = access_level
+        self.base_url = f"https://api.sportradar.com/oddscomparison-prematch/{access_level}/v2/en"
+        self.session = requests.Session()
+        self.session.headers.update({
+            "Accept": "application/json",
+            "User-Agent": "GlobalBettingReport/1.0",
+            "x-api-key": api_key,
+        })
+        retry = Retry(
+            total=2, connect=2, read=2, status=2, backoff_factor=0.5,
+            status_forcelist=(429, 500, 502, 503, 504),
+            allowed_methods=frozenset({"GET"}), respect_retry_after_header=True,
+        )
+        self.session.mount("https://", HTTPAdapter(max_retries=retry))
+
+    def get_json(self, path: str, params: dict | None = None) -> dict:
+        url = f"{self.base_url}/{path.lstrip('/')}"
+        try:
+            response = self.session.get(url, params=params, timeout=(5, 20), allow_redirects=True)
+        except requests.RequestException as exc:
+            raise ProviderError(f"Sportradar request failed for {url}: {type(exc).__name__}: {exc}") from exc
+        if response.status_code == 403:
+            raise ProviderError(
+                f"Sportradar returned HTTP 403 for {url}. The key is not entitled to Odds Comparison "
+                f"Prematch {self.access_level} v2, or the configured access level is wrong."
+            )
+        if response.status_code in {401, 404}:
+            excerpt = " ".join(response.text.split())[:240]
+            raise ProviderError(f"Sportradar returned HTTP {response.status_code} for {url}: {excerpt}")
+        try:
+            response.raise_for_status()
+        except requests.HTTPError as exc:
+            excerpt = " ".join(response.text.split())[:240]
+            raise ProviderError(f"Sportradar returned HTTP {response.status_code} for {url}: {excerpt}") from exc
+        try:
+            payload = response.json()
+        except ValueError as exc:
+            raise ProviderError(f"Sportradar returned non-JSON data for {url}.") from exc
+        if not isinstance(payload, dict):
+            raise ProviderError(f"Sportradar returned an unexpected payload for {url}.")
+        return payload
+
+    def competition_markets(self, competition_id: str) -> dict:
+        return self.get_json(
+            f"competitions/{competition_id}/sport_event_markets.json",
+            params={"start": 0, "limit": 50},
+        )
+
+
+def market_entries(payload: dict) -> list[dict]:
+    entries = payload.get("sport_event_markets") or []
+    return [entry for entry in entries if isinstance(entry, dict)]
+
+
+def source_generated_at(payload: dict) -> datetime:
+    generated = parse_datetime(payload.get("generated_at"))
+    if generated is None:
+        raise ProviderError("Sportradar response is missing a valid generated_at timestamp.")
+    age = utc_now() - generated
+    if age < timedelta(minutes=-5) or age > SOURCE_MAX_AGE:
+        raise ProviderError("Sportradar response is outside the 3-hour freshness window.")
+    return generated
+
+
+def active_books(market: dict) -> list[dict]:
+    return [
+        book for book in (market.get("books") or [])
+        if isinstance(book, dict)
+        and str(book.get("removed", "false")).lower() != "true"
+        and any(
+            isinstance(outcome, dict)
+            and str(outcome.get("removed", "false")).lower() != "true"
+            and outcome.get("odds_american") not in (None, "")
+            for outcome in (book.get("outcomes") or [])
+        )
+    ]
+
+
+def choose_book(markets: list[dict]) -> str | None:
+    counts: dict[str, int] = {}
+    primary = MONEYLINE_MARKETS | SPREAD_MARKETS | TOTAL_MARKETS
+    for market in markets:
+        if clean(market.get("name")).lower() not in primary:
+            continue
+        for book in active_books(market):
+            name = clean(book.get("name"))
+            if name:
+                counts[name] = counts.get(name, 0) + 1
+    if not counts:
+        return None
+    priority = {name: index for index, name in enumerate(BOOK_PRIORITY)}
+    return min(counts, key=lambda name: (-counts[name], priority.get(name, 999), name))
+
+
+def outcomes_for(markets: list[dict], names: set[str], book_name: str) -> list[dict]:
+    for market in markets:
+        if clean(market.get("name")).lower() not in names:
+            continue
+        book = next((item for item in active_books(market) if clean(item.get("name")) == book_name), None)
+        if book:
+            return [
+                outcome for outcome in (book.get("outcomes") or [])
+                if isinstance(outcome, dict) and str(outcome.get("removed", "false")).lower() != "true"
+            ]
+    return []
+
+
+def competitor_names(event: dict) -> tuple[str, str] | None:
+    by_side = {
+        clean(item.get("qualifier")).lower(): clean(item.get("name"))
+        for item in (event.get("competitors") or []) if isinstance(item, dict)
     }
+    away, home = by_side.get("away", ""), by_side.get("home", "")
+    return (away, home) if away and home else None
 
-    for old, new in fixes.items():
-        text = text.replace(old, new)
 
+def american(value: object) -> str:
+    text = clean(value)
+    if text and not text.startswith(("+", "-")):
+        try:
+            if float(text) > 0:
+                return f"+{text}"
+        except ValueError:
+            pass
     return text
 
 
-def fix_encoding(text: str) -> str:
-    replacements = {
-        "\u2018": "'",
-        "\u2019": "'",
-        "\u201c": '"',
-        "\u201d": '"',
-        "\u2014": "—",
-        "\u2013": "–",
-        "\xa0": " ",
-        "â€™": "'",
-        "â€œ": '"',
-        "â€\x9d": '"',
-        "â€": '"',
-        "â€”": "—",
-        "â€“": "–",
-        "Ã©": "é",
-        "Ã¨": "è",
-        "Ã¡": "á",
-        "Ã­": "í",
-        "Ã³": "ó",
-        "Ãº": "ú",
-        "Ã±": "ñ",
-        "Ã¼": "ü",
-        "MontrÃ©al": "Montréal",
-    }
-
-    for old, new in replacements.items():
-        text = text.replace(old, new)
-
-    return text
+def side_outcome(outcomes: list[dict], side: str) -> dict | None:
+    return next((item for item in outcomes if clean(item.get("type")).lower() == side), None)
 
 
-def fix_spacing(text: str) -> str:
-    if not text:
+def format_moneyline(outcomes: list[dict], away: str, home: str) -> str:
+    away_value, home_value = side_outcome(outcomes, "away"), side_outcome(outcomes, "home")
+    if not away_value or not home_value:
         return ""
+    away_odds, home_odds = american(away_value.get("odds_american")), american(home_value.get("odds_american"))
+    return f"Moneyline: {away} {away_odds} / {home} {home_odds}" if away_odds and home_odds else ""
 
-    text = fix_encoding(text)
 
-    protected_terms = {
-        "76ers": "__TEAM_76ERS__",
-        "49ers": "__TEAM_49ERS__",
-    }
-
-    for term, marker in protected_terms.items():
-        text = text.replace(term, marker)
-
-    text = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", text)
-    text = re.sub(r"(?<=[A-Za-z])(?=[0-9])", " ", text)
-    text = re.sub(r"(?<=[0-9])(?=[A-Za-z])", " ", text)
-    text = re.sub(r"\s+", " ", text)
-
-    for term, marker in protected_terms.items():
-        text = text.replace(marker, term)
-
-    text = fix_team_spacing(text)
-    return text.strip()
-
-
-def clean_text(value, fallback="N/A") -> str:
-    if value is None:
-        return fallback
-
-    text = str(value)
-    text = fix_encoding(text)
-    text = re.sub(r"\s+", " ", text).strip()
-    text = fix_team_spacing(text)
-
-    return text if text else fallback
-
-
-def clean_output_line(text: str) -> str:
-    return fix_spacing(clean_text(text, fallback=""))
-
-
-# =========================================================
-# TIME HELPERS
-# =========================================================
-def now_et() -> datetime:
-    return datetime.now(TIMEZONE)
-
-
-def report_date_string() -> str:
-    return now_et().strftime("%Y-%m-%d")
-
-
-def format_generated_timestamp() -> str:
-    return now_et().strftime("%Y-%m-%d %I:%M:%S %p ET")
-
-
-def parse_commence_time(dt_str: str):
-    if not dt_str:
-        return None
-
-    try:
-        return datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
-    except Exception:
-        try:
-            return datetime.strptime(dt_str, "%Y-%m-%dT%H:%MZ").replace(tzinfo=UTC)
-        except Exception:
-            return None
-
-
-def format_time(dt_str: str) -> str:
-    dt = parse_commence_time(dt_str)
-    if not dt:
-        return "TBD ET"
-    return dt.astimezone(TIMEZONE).strftime("%I:%M %p ET").lstrip("0")
-
-
-# =========================================================
-# FORMAT HELPERS
-# =========================================================
-def format_price(val) -> str:
-    if val is None:
-        return "N/A"
-    try:
-        number = int(val)
-        return f"+{number}" if number > 0 else str(number)
-    except (TypeError, ValueError):
-        return str(val)
-
-
-def format_point(val) -> str:
-    if val is None:
-        return "N/A"
-    try:
-        number = float(val)
-        if number.is_integer():
-            return str(int(number))
-        return f"{number:.1f}"
-    except (TypeError, ValueError):
-        return str(val)
-
-
-# =========================================================
-# REPORT LANGUAGE
-# =========================================================
-def build_lede() -> str:
-    return (
-        "Books wait on prices as the board takes shape, with moneylines, "
-        "spreads, totals and late market movement giving bettors the first real read."
-    )
-
-
-def build_snapshot(event_count: int, fallback_count: int) -> str:
-    if event_count >= 15:
-        return "A full betting board is in place across multiple leagues, offering broad market coverage."
-    if event_count >= 1:
-        return "A focused betting board highlights key matchups across the day's schedule."
-    if fallback_count >= 1:
-        return (
-            "Live odds were limited during this report window, so the desk is emphasizing "
-            "market-watch signals bettors and journalists should monitor."
-        )
-    return "Limited betting data was available during this report window."
-
-
-def build_market_note() -> str:
-    return (
-        "This report reflects publicly available odds data at the time of generation. "
-        "Lines may move and can vary across sportsbooks."
-    )
-
-
-def is_quota_error(error_text: str) -> bool:
-    lowered = error_text.lower()
-    return (
-        "out_of_usage_credits" in lowered
-        or "usage quota" in lowered
-        or "quota has been reached" in lowered
-        or "out of usage credits" in lowered
-    )
-
-
-def is_auth_error(error_text: str) -> bool:
-    lowered = error_text.lower()
-    return "401" in lowered or "unauthorized" in lowered or "invalid api key" in lowered
-
-
-def fallback_reason(error_text: str) -> str:
-    if not error_text:
-        return "Live odds feed unavailable during this report window."
-    if is_quota_error(error_text):
-        return "Live odds feed unavailable because the Odds API usage quota has been reached."
-    if is_auth_error(error_text):
-        return "Live odds feed unavailable because the Odds API request was not authorized."
-    if "missing api key" in error_text.lower():
-        return "Live odds feed unavailable because no Odds API key is configured."
-    return f"Live odds feed unavailable: {clean_output_line(error_text)}"
-
-
-def build_fallback_section(label: str, error_text: str = "") -> str:
-    lines = [
-        clean_output_line(label),
-        clean_output_line(fallback_reason(error_text)),
-        "",
-        clean_output_line("MARKET WATCH"),
-    ]
-
-    for item in FALLBACK_MARKET_WATCH.get(label, []):
-        lines.append(clean_output_line(f"- {item}"))
-
-    lines.extend(
-        [
-            "",
-            clean_output_line("BETTOR CONTEXT"),
-            clean_output_line(
-                "When live prices are unavailable, avoid treating stale lines as current. "
-                "Use this window to monitor injuries, schedules, lineup confirmations, weather, "
-                "market movement, and sportsbook-by-sportsbook differences before making decisions."
-            ),
-        ]
-    )
-
-    return "\n".join(lines).strip()
-
-
-# =========================================================
-# API HELPERS
-# =========================================================
-def safe_get(url: str, params=None):
-    try:
-        response = requests.get(url, params=params, headers=HEADERS, timeout=20)
-
-        remaining = response.headers.get("x-requests-remaining")
-        used = response.headers.get("x-requests-used")
-        if remaining is not None and used is not None:
-            print(f"[ODDS API] requests used={used} remaining={remaining}")
-
-        response.raise_for_status()
-        return response.json(), None
-
-    except requests.HTTPError as exc:
-        status = exc.response.status_code if exc.response is not None else "unknown"
-        try:
-            body = exc.response.text[:300] if exc.response is not None else ""
-        except Exception:
-            body = ""
-        if ODDS_API_KEY:
-            body = body.replace(ODDS_API_KEY, "[REDACTED]")
-        return None, f"HTTP {status}: {body}".strip()
-
-    except requests.RequestException as exc:
-        return None, f"Odds API request failed: {type(exc).__name__}"
-
-
-def fetch_odds(sport_key: str) -> dict:
-    if not ODDS_API_KEY:
-        return {"error": "Missing API key"}
-
-    url = f"{BASE_URL}/{sport_key}/odds"
-    params = {
-        "apiKey": ODDS_API_KEY,
-        "regions": REGIONS,
-        "markets": MARKETS,
-        "oddsFormat": ODDS_FORMAT,
-    }
-
-    data, error = safe_get(url, params=params)
-    if error:
-        return {"error": error}
-
-    if data is None:
-        return {"error": "No data returned"}
-
-    if not isinstance(data, list):
-        return {"error": "Unexpected API response"}
-
-    events = sorted(
-        data,
-        key=lambda event: parse_commence_time(event.get("commence_time"))
-        or datetime.max.replace(tzinfo=UTC),
-    )
-
-    return {"events": events}
-
-
-# =========================================================
-# ODDS PARSING
-# =========================================================
-def get_first_bookmaker(event: dict):
-    bookmakers = event.get("bookmakers", [])
-    return bookmakers[0] if bookmakers else None
-
-
-def get_market(bookmaker: dict, market_key: str):
-    if not bookmaker:
-        return None
-
-    for market in bookmaker.get("markets", []):
-        if market.get("key") == market_key:
-            return market
-
-    return None
-
-
-def get_outcome_by_name(market: dict, outcome_name: str):
-    if not market:
-        return None
-
-    for outcome in market.get("outcomes", []):
-        if outcome.get("name") == outcome_name:
-            return outcome
-
-    return None
-
-
-def get_total_outcome(market: dict, side: str):
-    if not market:
-        return None
-
-    target = str(side).lower()
-    for outcome in market.get("outcomes", []):
-        if str(outcome.get("name", "")).lower() == target:
-            return outcome
-
-    return None
-
-
-def summarize_event(event: dict) -> list[str]:
-    away = clean_text(event.get("away_team"), "Unknown Team")
-    home = clean_text(event.get("home_team"), "Unknown Team")
-    start_time = format_time(event.get("commence_time"))
-
-    lines = [clean_output_line(f"{away} at {home} - {start_time}")]
-
-    bookmaker = get_first_bookmaker(event)
-    if not bookmaker:
-        lines.append(clean_output_line("No bookmaker pricing available."))
-        return lines
-
-    bookmaker_title = clean_text(bookmaker.get("title"), "Sportsbook")
-    lines.append(clean_output_line(f"Bookmaker: {bookmaker_title}"))
-
-    h2h = get_market(bookmaker, "h2h")
-    spreads = get_market(bookmaker, "spreads")
-    totals = get_market(bookmaker, "totals")
-
-    if h2h:
-        away_outcome = get_outcome_by_name(h2h, away)
-        home_outcome = get_outcome_by_name(h2h, home)
-
-        away_price = away_outcome.get("price") if away_outcome else None
-        home_price = home_outcome.get("price") if home_outcome else None
-
-        lines.append(
-            clean_output_line(
-                f"Moneyline: {away} {format_price(away_price)} / {home} {format_price(home_price)}"
-            )
-        )
-
-    if spreads:
-        away_spread = get_outcome_by_name(spreads, away)
-        home_spread = get_outcome_by_name(spreads, home)
-
-        away_point = away_spread.get("point") if away_spread else None
-        away_price = away_spread.get("price") if away_spread else None
-        home_point = home_spread.get("point") if home_spread else None
-        home_price = home_spread.get("price") if home_spread else None
-
-        lines.append(
-            clean_output_line(
-                "Spread: "
-                f"{away} {format_point(away_point)} ({format_price(away_price)}) / "
-                f"{home} {format_point(home_point)} ({format_price(home_price)})"
-            )
-        )
-
-    if totals:
-        over = get_total_outcome(totals, "over")
-        under = get_total_outcome(totals, "under")
-
-        total_point = over.get("point") if over else (under.get("point") if under else None)
-        over_price = over.get("price") if over else None
-        under_price = under.get("price") if under else None
-
-        lines.append(
-            clean_output_line(
-                f"Total: {format_point(total_point)} "
-                f"(Over {format_price(over_price)} / Under {format_price(under_price)})"
-            )
-        )
-
-    if not h2h and not spreads and not totals:
-        lines.append(
-            clean_output_line("Pricing was limited for this matchup during this report window.")
-        )
-
-    return lines
-
-
-# =========================================================
-# SPORT SECTION BUILDER
-# =========================================================
-def no_board_message(label: str) -> str:
-    messages = {
-        "NBA": "No NBA betting board is currently available.",
-        "MLB": "No MLB betting board is currently available.",
-        "NHL": "No NHL betting board is currently available.",
-        "NFL": "No NFL betting board is currently available.",
-    }
-    return messages.get(label, "No betting board is currently available.")
-
-
-def build_no_board_section(label: str) -> str:
-    lines = [
-        clean_output_line(label),
-        clean_output_line(no_board_message(label)),
-        "",
-        clean_output_line("MARKET WATCH"),
-    ]
-
-    for item in FALLBACK_MARKET_WATCH.get(label, []):
-        lines.append(clean_output_line(f"- {item}"))
-
-    return "\n".join(lines).strip()
-
-
-def build_sport_section(sport: dict):
-    label = sport.get("label", "UNKNOWN")
-    key = sport.get("key", "")
-
-    try:
-        result = fetch_odds(key)
-    except Exception as exc:
-        return build_fallback_section(label, str(exc)), 0, True, str(exc)
-
-    if result.get("error"):
-        error_text = clean_output_line(result["error"])
-
-        if "404" in error_text or "no data" in error_text.lower():
-            return build_no_board_section(label), 0, True, error_text
-
-        return build_fallback_section(label, error_text), 0, True, error_text
-
-    events = []
-    for event in result.get("events", []):
-        bookmaker = get_first_bookmaker(event)
-        if bookmaker and any(
-            get_market(bookmaker, market_key)
-            for market_key in ("h2h", "spreads", "totals")
-        ):
-            events.append(event)
-    count = len(events)
-
-    if not events:
-        return build_no_board_section(label), 0, True, None
-
-    lines = [clean_output_line(label), clean_output_line("TOP BOARD"), ""]
-
-    for event in events[:5]:
-        lines.extend(summarize_event(event))
-        lines.append("")
-
-    return "\n".join(lines).strip(), count, False, None
-
-
-# =========================================================
-# CLEANUP / WRITE HELPERS
-# =========================================================
-def cleanup_report_text(text: str) -> str:
-    if not text:
+def format_spread(outcomes: list[dict], away: str, home: str) -> str:
+    away_value, home_value = side_outcome(outcomes, "away"), side_outcome(outcomes, "home")
+    if not away_value or not home_value:
         return ""
-
-    lines = [line.rstrip() for line in text.splitlines()]
-    cleaned: list[str] = []
-    blank_count = 0
-
-    for line in lines:
-        if line.strip():
-            cleaned.append(clean_output_line(line))
-            blank_count = 0
-        else:
-            blank_count += 1
-            if blank_count <= 1:
-                cleaned.append("")
-
-    return "\n".join(cleaned).strip()
-
-
-def save_report(report: str) -> None:
-    normalized = cleanup_report_text(report)
-    temp_path = REPORT_FILE.with_suffix(REPORT_FILE.suffix + ".tmp")
-    temp_path.write_text(normalized + "\n", encoding="utf-8")
-    temp_path.replace(REPORT_FILE)
-
-
-def save_verification(total_events: int) -> None:
-    receipt = {
-        "status": "verified",
-        "provider": "The Odds API",
-        "verified_at": datetime.now(timezone.utc).isoformat(),
-        "total_verified_events": total_events,
-        "source_sha256": hashlib.sha256(REPORT_FILE.read_bytes()).hexdigest(),
-    }
-    temp_path = VERIFICATION_FILE.with_suffix(VERIFICATION_FILE.suffix + ".tmp")
-    temp_path.write_text(
-        json.dumps(receipt, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
+    away_line = clean(away_value.get("spread") or away_value.get("handicap"))
+    home_line = clean(home_value.get("spread") or home_value.get("handicap"))
+    away_odds, home_odds = american(away_value.get("odds_american")), american(home_value.get("odds_american"))
+    return (
+        f"Spread: {away} {away_line} ({away_odds}) / {home} {home_line} ({home_odds})"
+        if all((away_line, home_line, away_odds, home_odds)) else ""
     )
-    temp_path.replace(VERIFICATION_FILE)
 
 
-# =========================================================
-# REPORT BUILD
-# =========================================================
-def build_report() -> tuple[str, int]:
-    total_events = 0
-    fallback_sections = 0
-    hard_failures: list[str] = []
-    all_sections: list[str] = []
+def format_total(outcomes: list[dict]) -> str:
+    over, under = side_outcome(outcomes, "over"), side_outcome(outcomes, "under")
+    if not over or not under:
+        return ""
+    total = clean(over.get("total") or under.get("total"))
+    over_odds, under_odds = american(over.get("odds_american")), american(under.get("odds_american"))
+    return f"Total: {total} (Over {over_odds} / Under {under_odds})" if all((total, over_odds, under_odds)) else ""
 
-    for sport in SPORTS:
-        section_text, count, used_fallback, hard_failure = build_sport_section(sport)
-        all_sections.append(section_text)
-        total_events += count
-        if used_fallback:
-            fallback_sections += 1
-        if hard_failure:
-            hard_failures.append(f"{sport['label']}: {hard_failure}")
 
-    if hard_failures:
-        details = "; ".join(hard_failures)
-        raise RuntimeError(
-            "Betting generation failed because The Odds API was not successfully "
-            f"verified for every configured sport: {details}"
-        )
-
-    if total_events <= 0:
-        raise RuntimeError(
-            "Betting generation failed because The Odds API returned zero verified events."
-        )
-
-    report_lines = [
-        f"BETTING ODDS REPORT | {report_date_string()}",
-        "",
-        build_lede(),
-        "",
-        "GLOBAL SNAPSHOT",
-        build_snapshot(total_events, fallback_sections),
-        "",
-        "\n\n".join(all_sections),
-        "",
-        "BETTING MARKET NOTE",
-        build_market_note(),
-        "",
-        "EDITORIAL SAFETY NOTE",
-        "If live odds are unavailable, Global Betting Report still publishes market-watch guidance so readers can monitor the betting board without mistaking stale odds for current prices.",
-        "",
-        DISCLAIMER,
-        "",
-        f"Generated: {format_generated_timestamp()}",
+def event_lines(entry: dict, now: datetime) -> list[str] | None:
+    event = entry.get("sport_event") or {}
+    start = parse_datetime(event.get("start_time"))
+    if start is None or start < now - timedelta(minutes=5) or start > now + EVENT_WINDOW:
+        return None
+    names = competitor_names(event)
+    if names is None:
+        return None
+    away, home = names
+    markets = [market for market in (entry.get("markets") or []) if isinstance(market, dict)]
+    book_name = choose_book(markets)
+    if not book_name:
+        return None
+    prices = [
+        format_moneyline(outcomes_for(markets, MONEYLINE_MARKETS, book_name), away, home),
+        format_spread(outcomes_for(markets, SPREAD_MARKETS, book_name), away, home),
+        format_total(outcomes_for(markets, TOTAL_MARKETS, book_name)),
     ]
+    prices = [price for price in prices if price]
+    if not prices:
+        return None
+    return [f"{away} at {home} - {format_start(event.get('start_time'))}", f"Bookmaker: {book_name}", *prices]
 
-    return cleanup_report_text("\n".join(report_lines)), total_events
+
+def build_report(client: SportradarClient) -> tuple[str, dict]:
+    now = utc_now()
+    sections: list[str] = []
+    valid_events = 0
+    valid_markets = 0
+    source_times: list[datetime] = []
+    for label, competition_id in COMPETITIONS:
+        payload = client.competition_markets(competition_id)
+        source_times.append(source_generated_at(payload))
+        seen: set[str] = set()
+        games: list[list[str]] = []
+        for entry in market_entries(payload):
+            event_id = clean((entry.get("sport_event") or {}).get("id"))
+            if not event_id or event_id in seen:
+                continue
+            lines = event_lines(entry, now)
+            if lines:
+                seen.add(event_id)
+                games.append(lines)
+            if len(games) >= MAX_EVENTS_PER_LEAGUE:
+                break
+        if games:
+            body = [label, "TOP BOARD", ""]
+            for lines in games:
+                body.extend(lines)
+                body.append("")
+                valid_events += 1
+                valid_markets += len(lines) - 2
+            sections.append("\n".join(body).strip())
+        print(f"[SPORTRADAR] {label}: {len(games)} valid prematch events")
+    if valid_events < MIN_VALID_EVENTS:
+        raise ProviderError(
+            f"Only {valid_events} valid sourced events were available; {MIN_VALID_EVENTS} are required. "
+            "No Betting output was published."
+        )
+    generated_et = now.astimezone(TIMEZONE)
+    report = "\n\n".join([
+        f"BETTING ODDS REPORT | {generated_et:%Y-%m-%d}",
+        "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
+        *sections,
+        "BETTING MARKET NOTE\nLines may move and can vary across sportsbooks.",
+        "This report is an automated summary intended to support, not replace, human sports journalism.",
+        f"Generated: {generated_et:%Y-%m-%d %I:%M:%S %p ET}",
+    ]).strip() + "\n"
+    return report, {
+        "source": "sportradar_oddscomparison_prematch_v2",
+        "source_generated_at": max(source_times).isoformat(),
+        "valid_event_count": valid_events,
+        "valid_market_count": valid_markets,
+    }
 
 
-def generate_betting_odds_report() -> str:
-    VERIFICATION_FILE.unlink(missing_ok=True)
-    report, total_events = build_report()
-    save_report(report)
-    save_verification(total_events)
-    print(f"[OK] Betting odds report written to: {REPORT_FILE}")
-    print(
-        "[OK] Betting provider verification recorded "
-        f"for {total_events} current events."
-    )
+def generate_betting_odds_report(client: SportradarClient | None = None) -> str:
+    SUCCESS_MARKER.unlink(missing_ok=True)
+    report, metadata = build_report(client or SportradarClient())
+    marker = {
+        **metadata,
+        "run_token": RUN_TOKEN,
+        "generated_utc": utc_now().isoformat(),
+        "report_sha256": hashlib.sha256(report.encode("utf-8")).hexdigest(),
+    }
+    atomic_write(REPORT_FILE, report)
+    atomic_write(SUCCESS_MARKER, json.dumps(marker, indent=2, sort_keys=True) + "\n")
+    print(f"[OK] Wrote {REPORT_FILE} with {metadata['valid_event_count']} sourced events")
+    print(f"[OK] Wrote current-run handoff marker {SUCCESS_MARKER.name}")
     return report
 
 
 def main() -> int:
     try:
-        report = generate_betting_odds_report()
-    except Exception as exc:
+        generate_betting_odds_report()
+        return 0
+    except ProviderError as exc:
         print(f"[ERROR] {exc}")
         return 1
-    print(report)
-    return 0
+    except Exception as exc:
+        print(f"[ERROR] Unexpected Betting generator failure: {type(exc).__name__}: {exc}")
+        return 1
 
 
 if __name__ == "__main__":

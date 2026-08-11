@@ -41,7 +41,7 @@ def verified_output_count(data: dict) -> int:
     if isinstance(verification, dict):
         if (
             verification.get("status") == "verified"
-            and verification.get("provider") == "The Odds API"
+            and verification.get("provider") == "Sportradar Odds Comparison Prematch v2"
         ):
             count = verification.get("total_verified_events")
             if isinstance(count, int):
@@ -88,7 +88,7 @@ def load_and_validate(path: Path, not_before: datetime) -> tuple[dict, bytes]:
         )
     if verified_output_count(data) <= 0:
         raise ValueError(
-            "generated Betting report contains zero verified Odds API output"
+            "generated Betting report contains zero verified Sportradar output"
         )
 
     lowered = raw.decode("utf-8", errors="ignore").lower()
