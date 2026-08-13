@@ -1,3 +1,15 @@
+﻿function editorialSlug(value: string, index: number): string {
+  const slug = value
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[^\w\s-]/g, "")
+    .replace(/[\s_]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "")
+    .slice(0, 90);
+
+  return slug || `betting-story-${index + 1}`;
+}
 import fs from "fs";
 import path from "path";
 import type { Metadata } from "next";
@@ -11,6 +23,9 @@ import SocialIconLinks from "@/app/SocialIconLinks";
 import { formatUpdatedAt } from "@/lib/formatUpdatedAt";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.globalbettingreport.com/",
+  },
   title: "Global Betting Report",
   description:
     "Global Betting Report tracks odds, implied probability, line movement, weather angles, and betting market context.",
@@ -147,11 +162,11 @@ function cleanText(value: unknown): string {
   if (value === null || value === undefined) return "";
 
   if (Array.isArray(value)) {
-    return value.map(cleanText).filter(Boolean).join(" • ");
+    return value.map(cleanText).filter(Boolean).join(" â€¢ ");
   }
 
   if (typeof value === "object") {
-    return Object.values(value).map(cleanText).filter(Boolean).join(" • ");
+    return Object.values(value).map(cleanText).filter(Boolean).join(" â€¢ ");
   }
 
   return String(value).replace(/\s+/g, " ").trim();
@@ -195,7 +210,7 @@ function asList(value: unknown): string[] {
 
   return unique(
     String(value)
-      .split(/\r?\n|•|Ã¢â‚¬Â¢|\|/)
+      .split(/\r?\n|â€¢|ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢|\|/)
       .map(cleanText)
       .filter(Boolean)
   );
@@ -293,7 +308,7 @@ function enrichWhy(story: AnyObj): string[] {
 
   return unique([
     ...direct,
-    "Betting readers need more than the number â€” they need context on whether price, public money, injuries, matchup edges or weather may be driving the market.",
+    "Betting readers need more than the number Ã¢â‚¬â€ they need context on whether price, public money, injuries, matchup edges or weather may be driving the market.",
   ]);
 }
 
@@ -762,9 +777,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
       </p>
 
       <h3 className="text-xl font-black leading-tight text-white">
-        <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-lime-300">
-          {title}
-        </a>
+        <a href={`/editorial/${editorialSlug(title, index)}`} className="hover:text-lime-300">{title}</a>
       </h3>
 
       <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
@@ -819,7 +832,7 @@ function SponsorPlacementBlock() {
           Partnership opportunities are available across the GSR Network.
         </h2>
         <p className="mt-2 max-w-3xl text-sm leading-6 text-neutral-700">
-          Reach readers through clean, clearly labeled placements across Sports, Betting, AI, Politics and Entertainment — built around journalistic integrity.
+          Reach readers through clean, clearly labeled placements across Sports, Betting, AI, Politics and Entertainment â€” built around journalistic integrity.
         </p>
       </div>
     </section>
@@ -900,6 +913,11 @@ export default function Page() {
 
   return (
     <main className="min-h-screen bg-slate-950 text-white">
+      <div className="mx-auto max-w-7xl px-5 pt-3 text-right">
+        <a href="/archive" className="text-sm font-bold text-lime-300 hover:text-white">
+          Editorial Archive
+        </a>
+      </div>
       <div className="border-b border-lime-300/30 bg-black text-white">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-3 px-5 py-2 text-xs font-bold uppercase tracking-wide">
           <span className="text-slate-400">GSR Network:</span>
@@ -917,7 +935,7 @@ export default function Page() {
               >
                 {name}
               </a>
-              {index < GSR_NETWORK.length - 1 ? <span className="text-slate-600">•</span> : null}
+              {index < GSR_NETWORK.length - 1 ? <span className="text-slate-600">â€¢</span> : null}
             </span>
           ))}
         </div>
@@ -960,7 +978,7 @@ export default function Page() {
               liveBriefingItems.length
                 ? liveBriefingItems
                 : [
-                    "Track the strongest verified betting development on today’s board.",
+                    "Track the strongest verified betting development on todayâ€™s board.",
                     "Prioritize odds movement, injuries, weather, totals and spreads.",
                     "Watch book-to-book differences and late market movement.",
                     "Monitor league-by-league betting angles for reporters and editors.",
@@ -981,7 +999,7 @@ export default function Page() {
                 editorSignalItems.length
                   ? editorSignalItems
                   : [
-                      "Track the strongest verified betting development on today’s board.",
+                      "Track the strongest verified betting development on todayâ€™s board.",
                       "Prioritize odds movement, injuries, weather, totals and spreads.",
                       "Watch book-to-book differences and late market movement.",
                     ]
@@ -994,7 +1012,7 @@ export default function Page() {
               items={[
                 "Weather matters most for MLB totals, outdoor football totals, wind-sensitive parks and late game-time market movement.",
                 "Watch wind direction, rain risk, temperature, humidity and postponement risk before trusting early totals.",
-                "Use verified weather context as a betting signal â€” not as a standalone pick.",
+                "Use verified weather context as a betting signal Ã¢â‚¬â€ not as a standalone pick.",
               ]}
             />
 
@@ -1052,7 +1070,7 @@ export default function Page() {
       <footer className="border-t border-lime-300/20 bg-black">
         <div className="mx-auto max-w-7xl px-5 py-6">
           <p className="text-sm font-medium text-lime-200">
-            Â© {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
+            Ã‚Â© {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
           </p>
           <p className="mt-2 max-w-4xl text-sm leading-6 text-slate-400">
             {SITE.descriptor}
@@ -1062,4 +1080,5 @@ export default function Page() {
     </main>
   );
 }
+
 
