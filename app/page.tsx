@@ -1,4 +1,4 @@
-﻿function editorialSlug(value: string, index: number): string {
+function editorialSlug(value: string, index: number): string {
   const slug = value
     .toLowerCase()
     .normalize("NFKD")
@@ -13,6 +13,7 @@
 import fs from "fs";
 import path from "path";
 import type { Metadata } from "next";
+import { list } from "@vercel/blob";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -148,7 +149,36 @@ const SPORT_LABELS: Record<string, string> = {
   betting: "Betting Watch",
 };
 
-function readReport(): AnyObj {
+async function readReport(): Promise<AnyObj> {
+  try {
+    const { blobs } = await list({
+      prefix: "reports/latest_report.json",
+      limit: 100,
+    });
+
+    const matching = blobs
+      .filter((blob) => blob.pathname === "reports/latest_report.json")
+      .sort((a, b) => {
+        const aTime = new Date(a.uploadedAt ?? 0).getTime();
+        const bTime = new Date(b.uploadedAt ?? 0).getTime();
+        return bTime - aTime;
+      });
+
+    const latest = matching[0];
+
+    if (latest?.url) {
+      const response = await fetch(latest.url, {
+        cache: "no-store",
+      });
+
+      if (response.ok) {
+        return (await response.json()) as AnyObj;
+      }
+    }
+  } catch (error) {
+    console.error("homepage live report load failed:", error);
+  }
+
   try {
     const file = path.join(process.cwd(), "public", "latest_report.json");
     const raw = fs.readFileSync(file, "utf8");
@@ -857,8 +887,8 @@ function AdvertiseWithGsrBlock() {
   );
 }
 
-export default function Page() {
-  const report = readReport();
+export default async function Page() {
+  const report = await readReport();
 
   let stories = getStories(report)
     .filter(isPublishableStory)
