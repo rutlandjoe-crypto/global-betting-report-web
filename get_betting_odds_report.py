@@ -137,7 +137,12 @@ class SportradarClient:
 
 def market_entries(payload: dict) -> list[dict]:
     entries = payload.get("sport_event_markets") or []
-    return [entry for entry in entries if isinstance(entry, dict)]
+    if isinstance(entries, dict):
+        entries = entries.get("sport_event_market") or entries.get("sport_events") or []
+    parsed = [entry for entry in entries if isinstance(entry, dict)]
+    if not parsed and isinstance(payload.get("sport_event"), dict):
+        parsed = [payload]
+    return parsed
 
 
 def source_generated_at(payload: dict) -> datetime:
@@ -158,7 +163,7 @@ def active_books(market: dict) -> list[dict]:
         and any(
             isinstance(outcome, dict)
             and str(outcome.get("removed", "false")).lower() != "true"
-            and outcome.get("odds_american") not in (None, "")
+            and outcome_price(outcome)
             for outcome in (book.get("outcomes") or [])
         )
     ]
@@ -213,6 +218,26 @@ def american(value: object) -> str:
     return text
 
 
+def decimal_to_american(value: object) -> str:
+    text = clean(value)
+    try:
+        decimal = float(text)
+    except (TypeError, ValueError):
+        return ""
+    if decimal <= 1:
+        return ""
+    converted = (decimal - 1) * 100 if decimal >= 2 else -100 / (decimal - 1)
+    rounded = int(round(converted))
+    return f"+{rounded}" if rounded > 0 else str(rounded)
+
+
+def outcome_price(outcome: dict) -> str:
+    direct = outcome.get("odds_american")
+    if direct not in (None, ""):
+        return american(direct)
+    return decimal_to_american(outcome.get("odds"))
+
+
 def side_outcome(outcomes: list[dict], side: str) -> dict | None:
     return next((item for item in outcomes if clean(item.get("type")).lower() == side), None)
 
@@ -221,7 +246,7 @@ def format_moneyline(outcomes: list[dict], away: str, home: str) -> str:
     away_value, home_value = side_outcome(outcomes, "away"), side_outcome(outcomes, "home")
     if not away_value or not home_value:
         return ""
-    away_odds, home_odds = american(away_value.get("odds_american")), american(home_value.get("odds_american"))
+    away_odds, home_odds = outcome_price(away_value), outcome_price(home_value)
     return f"Moneyline: {away} {away_odds} / {home} {home_odds}" if away_odds and home_odds else ""
 
 
@@ -231,7 +256,7 @@ def format_spread(outcomes: list[dict], away: str, home: str) -> str:
         return ""
     away_line = clean(away_value.get("spread") or away_value.get("handicap"))
     home_line = clean(home_value.get("spread") or home_value.get("handicap"))
-    away_odds, home_odds = american(away_value.get("odds_american")), american(home_value.get("odds_american"))
+    away_odds, home_odds = outcome_price(away_value), outcome_price(home_value)
     return (
         f"Spread: {away} {away_line} ({away_odds}) / {home} {home_line} ({home_odds})"
         if all((away_line, home_line, away_odds, home_odds)) else ""
@@ -243,20 +268,24 @@ def format_total(outcomes: list[dict]) -> str:
     if not over or not under:
         return ""
     total = clean(over.get("total") or under.get("total"))
-    over_odds, under_odds = american(over.get("odds_american")), american(under.get("odds_american"))
+    over_odds, under_odds = outcome_price(over), outcome_price(under)
     return f"Total: {total} (Over {over_odds} / Under {under_odds})" if all((total, over_odds, under_odds)) else ""
 
 
 def event_lines(entry: dict, now: datetime) -> list[str] | None:
     event = entry.get("sport_event") or {}
-    start = parse_datetime(event.get("start_time"))
+    start_value = event.get("start_time") or event.get("scheduled")
+    start = parse_datetime(start_value)
     if start is None or start < now - timedelta(minutes=5) or start > now + EVENT_WINDOW:
         return None
     names = competitor_names(event)
     if names is None:
         return None
     away, home = names
-    markets = [market for market in (entry.get("markets") or []) if isinstance(market, dict)]
+    markets_value = entry.get("markets") or event.get("markets") or []
+    if isinstance(markets_value, dict):
+        markets_value = markets_value.get("market") or []
+    markets = [market for market in markets_value if isinstance(market, dict)]
     book_name = choose_book(markets)
     if not book_name:
         return None
@@ -268,7 +297,7 @@ def event_lines(entry: dict, now: datetime) -> list[str] | None:
     prices = [price for price in prices if price]
     if not prices:
         return None
-    return [f"{away} at {home} - {format_start(event.get('start_time'))}", f"Bookmaker: {book_name}", *prices]
+    return [f"{away} at {home} - {format_start(start_value)}", f"Bookmaker: {book_name}", *prices]
 
 
 def build_report(client: SportradarClient) -> tuple[str, dict]:

@@ -66,6 +66,47 @@ class FakeClient:
 
 
 class BettingPipelineTests(unittest.TestCase):
+    def test_sportradar_native_decimal_market_shape_is_publishable(self):
+        now = generator.utc_now()
+        payload = {
+            "generated_at": now.isoformat(),
+            "sport_event_markets": [
+                {
+                    "sport_event": {
+                        "id": "sr:sport_event:native",
+                        "scheduled": (now + timedelta(hours=2)).isoformat(),
+                        "competitors": [
+                            {"name": "Away Native", "qualifier": "away"},
+                            {"name": "Home Native", "qualifier": "home"},
+                        ],
+                        "markets": [
+                            market("2way", [
+                                {"type": "away", "odds": "2.20"},
+                                {"type": "home", "odds": "1.74"},
+                            ]),
+                            market("handicap", [
+                                {"type": "away", "spread": 1.5, "odds": "1.91"},
+                                {"type": "home", "spread": -1.5, "odds": "1.91"},
+                            ]),
+                            market("total", [
+                                {"type": "over", "total": 8.5, "odds": "1.95"},
+                                {"type": "under", "total": 8.5, "odds": "1.87"},
+                            ]),
+                        ],
+                    }
+                }
+            ],
+        }
+
+        entries = generator.market_entries(payload)
+        self.assertEqual(len(entries), 1)
+        lines = generator.event_lines(entries[0], now)
+        self.assertIsNotNone(lines)
+        rendered = "\n".join(lines or [])
+        self.assertIn("Away Native at Home Native", rendered)
+        self.assertIn("Away Native +120", rendered)
+        self.assertIn("Home Native -135", rendered)
+
     def test_quality_gate_checks_only_authoritative_public_output(self):
         self.assertEqual(check_betting_agent.REPORT_PATHS, [Path("public/latest_report.json")])
 
