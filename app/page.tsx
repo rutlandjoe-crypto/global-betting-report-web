@@ -346,7 +346,7 @@ function enrichWhy(story: AnyObj): string[] {
 
   return unique([
     ...direct,
-    "Betting readers need more than the number ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â they need context on whether price, public money, injuries, matchup edges or weather may be driving the market.",
+    "Betting readers need more than the number - they need context on whether price, public money, injuries, matchup edges or weather may be driving the market.",
   ]);
 }
 
@@ -1108,7 +1108,7 @@ export default async function Page() {
       <footer className="border-t border-lime-300/20 bg-black">
         <div className="mx-auto max-w-7xl px-5 py-6">
           <p className="text-sm font-medium text-lime-200">
-            © {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
+            &copy; {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
           </p>
           <p className="mt-2 max-w-4xl text-sm leading-6 text-slate-400">
             {SITE.descriptor}
