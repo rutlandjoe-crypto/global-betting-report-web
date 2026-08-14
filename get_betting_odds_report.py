@@ -321,6 +321,16 @@ def response_shape(payload: dict, entries: list[dict]) -> str:
     if isinstance(markets, list) and markets:
         market = markets[0]
         parts.append(f"market={sorted(market) if isinstance(market, dict) else type(market).__name__}")
+        books = market.get("books") or [] if isinstance(market, dict) else []
+        parts.append(f"books={len(books) if isinstance(books, list) else type(books).__name__}")
+        if isinstance(books, list) and books:
+            book = books[0]
+            parts.append(f"book={sorted(book) if isinstance(book, dict) else type(book).__name__}")
+            outcomes = book.get("outcomes") or [] if isinstance(book, dict) else []
+            parts.append(f"outcomes={len(outcomes) if isinstance(outcomes, list) else type(outcomes).__name__}")
+            if isinstance(outcomes, list) and outcomes:
+                outcome = outcomes[0]
+                parts.append(f"outcome={sorted(outcome) if isinstance(outcome, dict) else type(outcome).__name__}")
     return " ".join(parts)
 
 
