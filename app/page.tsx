@@ -150,6 +150,14 @@ const SPORT_LABELS: Record<string, string> = {
 };
 
 async function readReport(): Promise<AnyObj> {
+  let bundled: AnyObj = {};
+  try {
+    const file = path.join(process.cwd(), "public", "latest_report.json");
+    bundled = JSON.parse(fs.readFileSync(file, "utf8")) as AnyObj;
+  } catch {
+    bundled = {};
+  }
+
   try {
     const { blobs } = await list({
       prefix: "reports/latest_report.json",
@@ -172,20 +180,20 @@ async function readReport(): Promise<AnyObj> {
       });
 
       if (response.ok) {
-        return (await response.json()) as AnyObj;
+        const live = (await response.json()) as AnyObj;
+        const liveTime = Date.parse(String(live.generated_utc || live.verified_at || ""));
+        const bundledTime = Date.parse(
+          String(bundled.generated_utc || bundled.verified_at || "")
+        );
+        if (!Number.isFinite(bundledTime) || liveTime >= bundledTime) {
+          return live;
+        }
       }
     }
   } catch (error) {
     console.error("homepage live report load failed:", error);
   }
-
-  try {
-    const file = path.join(process.cwd(), "public", "latest_report.json");
-    const raw = fs.readFileSync(file, "utf8");
-    return JSON.parse(raw);
-  } catch {
-    return {};
-  }
+  return bundled;
 }
 
 function cleanText(value: unknown): string {

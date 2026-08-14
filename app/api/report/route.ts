@@ -1,10 +1,28 @@
 import { list } from "@vercel/blob";
 import { NextResponse } from "next/server";
+import fs from "fs";
+import path from "path";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
+type Report = Record<string, unknown>;
+
+function bundledReport(): Report {
+  try {
+    const file = path.join(process.cwd(), "public", "latest_report.json");
+    return JSON.parse(fs.readFileSync(file, "utf8")) as Report;
+  } catch {
+    return {};
+  }
+}
+
+function reportTime(report: Report): number {
+  return Date.parse(String(report.generated_utc || report.verified_at || ""));
+}
+
 export async function GET() {
+  const bundled = bundledReport();
   try {
     const { blobs } = await list({
       prefix: "reports/latest_report.json",
@@ -16,15 +34,11 @@ export async function GET() {
     );
 
     if (!matching.length) {
-      return NextResponse.json(
-        { error: "Live report not found" },
-        {
-          status: 404,
-          headers: {
-            "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
-          },
-        }
-      );
+      return NextResponse.json(bundled, {
+        headers: {
+          "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+        },
+      });
     }
 
     const latest = [...matching].sort((a, b) => {
@@ -38,18 +52,18 @@ export async function GET() {
     });
 
     if (!response.ok) {
-      return NextResponse.json(
-        { error: "Could not fetch live report" },
-        {
-          status: 502,
-          headers: {
-            "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
-          },
-        }
-      );
+      return NextResponse.json(bundled, {
+        headers: {
+          "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+        },
+      });
     }
 
-    const json = await response.json();
+    const live = (await response.json()) as Report;
+    const json =
+      !Number.isFinite(reportTime(bundled)) || reportTime(live) >= reportTime(bundled)
+        ? live
+        : bundled;
 
     return NextResponse.json(json, {
       headers: {
@@ -58,14 +72,10 @@ export async function GET() {
     });
   } catch (error) {
     console.error("report route error:", error);
-    return NextResponse.json(
-      { error: "Failed to load live report" },
-      {
-        status: 500,
-        headers: {
-          "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
-        },
-      }
-    );
+    return NextResponse.json(bundled, {
+      headers: {
+        "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+      },
+    });
   }
 }
