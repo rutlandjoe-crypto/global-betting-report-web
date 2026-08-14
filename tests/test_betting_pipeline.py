@@ -80,15 +80,15 @@ class BettingPipelineTests(unittest.TestCase):
                             {"name": "Home Native", "qualifier": "home"},
                         ],
                         "markets": [
-                            market("2way", [
+                            market("winner (incl. extra innings)", [
                                 {"type": "away", "odds": "2.20"},
                                 {"type": "home", "odds": "1.74"},
                             ]),
-                            market("handicap", [
-                                {"type": "away", "spread": 1.5, "odds": "1.91"},
-                                {"type": "home", "spread": -1.5, "odds": "1.91"},
+                            market("handicap (incl. extra innings)", [
+                                {"type": "away_handicap", "spread": 1.5, "odds": "1.91"},
+                                {"type": "home_handicap", "spread": -1.5, "odds": "1.91"},
                             ]),
-                            market("total", [
+                            market("total (incl. extra innings)", [
                                 {"type": "over", "total": 8.5, "odds": "1.95"},
                                 {"type": "under", "total": 8.5, "odds": "1.87"},
                             ]),

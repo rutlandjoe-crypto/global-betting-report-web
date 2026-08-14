@@ -159,6 +159,19 @@ def source_generated_at(payload: dict) -> datetime:
     return generated
 
 
+def market_matches(name: object, expected: set[str]) -> bool:
+    normalized = clean(name).lower()
+    if normalized in expected:
+        return True
+    if expected is MONEYLINE_MARKETS:
+        return normalized.startswith("winner (incl.")
+    if expected is SPREAD_MARKETS:
+        return normalized.startswith("handicap (incl.")
+    if expected is TOTAL_MARKETS:
+        return normalized.startswith("total (incl.")
+    return False
+
+
 def active_books(market: dict) -> list[dict]:
     return [
         book for book in (market.get("books") or [])
@@ -175,9 +188,11 @@ def active_books(market: dict) -> list[dict]:
 
 def choose_book(markets: list[dict]) -> str | None:
     counts: dict[str, int] = {}
-    primary = MONEYLINE_MARKETS | SPREAD_MARKETS | TOTAL_MARKETS
     for market in markets:
-        if clean(market.get("name")).lower() not in primary:
+        if not any(
+            market_matches(market.get("name"), names)
+            for names in (MONEYLINE_MARKETS, SPREAD_MARKETS, TOTAL_MARKETS)
+        ):
             continue
         for book in active_books(market):
             name = clean(book.get("name"))
@@ -191,7 +206,7 @@ def choose_book(markets: list[dict]) -> str | None:
 
 def outcomes_for(markets: list[dict], names: set[str], book_name: str) -> list[dict]:
     for market in markets:
-        if clean(market.get("name")).lower() not in names:
+        if not market_matches(market.get("name"), names):
             continue
         book = next((item for item in active_books(market) if clean(item.get("name")) == book_name), None)
         if book:
@@ -243,7 +258,11 @@ def outcome_price(outcome: dict) -> str:
 
 
 def side_outcome(outcomes: list[dict], side: str) -> dict | None:
-    return next((item for item in outcomes if clean(item.get("type")).lower() == side), None)
+    accepted = {side, f"{side}_handicap"}
+    return next(
+        (item for item in outcomes if clean(item.get("type")).lower() in accepted),
+        None,
+    )
 
 
 def format_moneyline(outcomes: list[dict], away: str, home: str) -> str:
