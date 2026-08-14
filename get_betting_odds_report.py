@@ -334,6 +334,27 @@ def response_shape(payload: dict, entries: list[dict]) -> str:
     return " ".join(parts)
 
 
+def response_labels(entries: list[dict]) -> str:
+    market_names: set[str] = set()
+    book_names: set[str] = set()
+    outcome_types: set[str] = set()
+    for entry in entries:
+        event = entry.get("sport_event") or {}
+        markets = entry.get("markets") or event.get("markets") or []
+        if isinstance(markets, dict):
+            markets = markets.get("market") or []
+        for market in markets if isinstance(markets, list) else []:
+            market_names.add(clean(market.get("name")))
+            for book in market.get("books") or []:
+                book_names.add(clean(book.get("name")))
+                for outcome in book.get("outcomes") or []:
+                    outcome_types.add(clean(outcome.get("type")))
+    return (
+        f"market_names={sorted(market_names)} "
+        f"book_names={sorted(book_names)} outcome_types={sorted(outcome_types)}"
+    )
+
+
 def build_report(client: SportradarClient) -> tuple[str, dict]:
     now = utc_now()
     sections: list[str] = []
@@ -367,6 +388,7 @@ def build_report(client: SportradarClient) -> tuple[str, dict]:
         print(f"[SPORTRADAR] {label}: {len(games)} valid prematch events")
         if not games:
             print(f"[SPORTRADAR] {label} response shape: {response_shape(payload, entries)}")
+            print(f"[SPORTRADAR] {label} response labels: {response_labels(entries)}")
     if valid_events < MIN_VALID_EVENTS:
         raise ProviderError(
             f"Only {valid_events} valid sourced events were available; {MIN_VALID_EVENTS} are required. "
