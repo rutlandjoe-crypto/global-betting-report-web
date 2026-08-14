@@ -300,6 +300,26 @@ def event_lines(entry: dict, now: datetime) -> list[str] | None:
     return [f"{away} at {home} - {format_start(start_value)}", f"Bookmaker: {book_name}", *prices]
 
 
+def response_shape(payload: dict, entries: list[dict]) -> str:
+    parts = [f"root={sorted(payload)}", f"entries={len(entries)}"]
+    if not entries:
+        return " ".join(parts)
+    entry = entries[0]
+    event = entry.get("sport_event") or {}
+    markets = entry.get("markets") or event.get("markets") or []
+    if isinstance(markets, dict):
+        markets = markets.get("market") or []
+    parts.extend([
+        f"entry={sorted(entry)}",
+        f"event={sorted(event) if isinstance(event, dict) else type(event).__name__}",
+        f"markets={len(markets) if isinstance(markets, list) else type(markets).__name__}",
+    ])
+    if isinstance(markets, list) and markets:
+        market = markets[0]
+        parts.append(f"market={sorted(market) if isinstance(market, dict) else type(market).__name__}")
+    return " ".join(parts)
+
+
 def build_report(client: SportradarClient) -> tuple[str, dict]:
     now = utc_now()
     sections: list[str] = []
@@ -309,9 +329,10 @@ def build_report(client: SportradarClient) -> tuple[str, dict]:
     for label, competition_id in COMPETITIONS:
         payload = client.competition_markets(competition_id)
         source_times.append(source_generated_at(payload))
+        entries = market_entries(payload)
         seen: set[str] = set()
         games: list[list[str]] = []
-        for entry in market_entries(payload):
+        for entry in entries:
             event_id = clean((entry.get("sport_event") or {}).get("id"))
             if not event_id or event_id in seen:
                 continue
@@ -330,6 +351,8 @@ def build_report(client: SportradarClient) -> tuple[str, dict]:
                 valid_markets += len(lines) - 2
             sections.append("\n".join(body).strip())
         print(f"[SPORTRADAR] {label}: {len(games)} valid prematch events")
+        if not games:
+            print(f"[SPORTRADAR] {label} response shape: {response_shape(payload, entries)}")
     if valid_events < MIN_VALID_EVENTS:
         raise ProviderError(
             f"Only {valid_events} valid sourced events were available; {MIN_VALID_EVENTS} are required. "
