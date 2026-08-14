@@ -200,11 +200,11 @@ function cleanText(value: unknown): string {
   if (value === null || value === undefined) return "";
 
   if (Array.isArray(value)) {
-    return value.map(cleanText).filter(Boolean).join(" Ã¢â‚¬Â¢ ");
+    return value.map(cleanText).filter(Boolean).join(" • ");
   }
 
   if (typeof value === "object") {
-    return Object.values(value).map(cleanText).filter(Boolean).join(" Ã¢â‚¬Â¢ ");
+    return Object.values(value).map(cleanText).filter(Boolean).join(" • ");
   }
 
   return String(value).replace(/\s+/g, " ").trim();
@@ -248,7 +248,7 @@ function asList(value: unknown): string[] {
 
   return unique(
     String(value)
-      .split(/\r?\n|Ã¢â‚¬Â¢|ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢|\|/)
+      .split(/\r?\n|\u2022|\|/)
       .map(cleanText)
       .filter(Boolean)
   );
@@ -870,7 +870,7 @@ function SponsorPlacementBlock() {
           Partnership opportunities are available across the GSR Network.
         </h2>
         <p className="mt-2 max-w-3xl text-sm leading-6 text-neutral-700">
-          Reach readers through clean, clearly labeled placements across Sports, Betting, AI, Politics and Entertainment Ã¢â‚¬â€ built around journalistic integrity.
+          Reach readers through clean, clearly labeled placements across Sports, Betting, AI, Politics and Entertainment — built around journalistic integrity.
         </p>
       </div>
     </section>
@@ -973,7 +973,7 @@ export default async function Page() {
               >
                 {name}
               </a>
-              {index < GSR_NETWORK.length - 1 ? <span className="text-slate-600">Ã¢â‚¬Â¢</span> : null}
+              {index < GSR_NETWORK.length - 1 ? <span className="text-slate-600">•</span> : null}
             </span>
           ))}
         </div>
@@ -1016,7 +1016,7 @@ export default async function Page() {
               liveBriefingItems.length
                 ? liveBriefingItems
                 : [
-                    "Track the strongest verified betting development on todayÃ¢â‚¬â„¢s board.",
+                    "Track the strongest verified betting development on today’s board.",
                     "Prioritize odds movement, injuries, weather, totals and spreads.",
                     "Watch book-to-book differences and late market movement.",
                     "Monitor league-by-league betting angles for reporters and editors.",
@@ -1037,7 +1037,7 @@ export default async function Page() {
                 editorSignalItems.length
                   ? editorSignalItems
                   : [
-                      "Track the strongest verified betting development on todayÃ¢â‚¬â„¢s board.",
+                      "Track the strongest verified betting development on today’s board.",
                       "Prioritize odds movement, injuries, weather, totals and spreads.",
                       "Watch book-to-book differences and late market movement.",
                     ]
@@ -1050,7 +1050,7 @@ export default async function Page() {
               items={[
                 "Weather matters most for MLB totals, outdoor football totals, wind-sensitive parks and late game-time market movement.",
                 "Watch wind direction, rain risk, temperature, humidity and postponement risk before trusting early totals.",
-                "Use verified weather context as a betting signal ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â not as a standalone pick.",
+                "Use verified weather context as a betting signal - not as a standalone pick.",
               ]}
             />
 
