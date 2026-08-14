@@ -1108,7 +1108,7 @@ export default async function Page() {
       <footer className="border-t border-lime-300/20 bg-black">
         <div className="mx-auto max-w-7xl px-5 py-6">
           <p className="text-sm font-medium text-lime-200">
-            Ãƒâ€šÃ‚© {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
+            © {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
           </p>
           <p className="mt-2 max-w-4xl text-sm leading-6 text-slate-400">
             {SITE.descriptor}
