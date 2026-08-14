@@ -136,7 +136,11 @@ class SportradarClient:
 
 
 def market_entries(payload: dict) -> list[dict]:
-    entries = payload.get("sport_event_markets") or []
+    entries = (
+        payload.get("competition_sport_event_markets")
+        or payload.get("sport_event_markets")
+        or []
+    )
     if isinstance(entries, dict):
         entries = entries.get("sport_event_market") or entries.get("sport_events") or []
     parsed = [entry for entry in entries if isinstance(entry, dict)]

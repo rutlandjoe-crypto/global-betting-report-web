@@ -70,7 +70,7 @@ class BettingPipelineTests(unittest.TestCase):
         now = generator.utc_now()
         payload = {
             "generated_at": now.isoformat(),
-            "sport_event_markets": [
+            "competition_sport_event_markets": [
                 {
                     "sport_event": {
                         "id": "sr:sport_event:native",
