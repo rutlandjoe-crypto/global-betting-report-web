@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-16 04:24:53 AM ET",
-  "generated_at": "2026-08-16 04:24:53 AM ET",
-  "generated_utc": "2026-08-16T08:24:53.816656+00:00",
+  "updated_at": "2026-08-16 05:24:02 AM ET",
+  "generated_at": "2026-08-16 05:24:02 AM ET",
+  "generated_utc": "2026-08-16T09:24:02.097206+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -36,7 +36,7 @@
     {
       "league": "MLB Betting Board",
       "headline": "Boston Red Sox at Pittsburgh Pirates - 1:35 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Boston Red Sox -114 / Pittsburgh Pirates +106. Spread frames the expected margin: Boston Red Sox -1.5 (+141) / Pittsburgh Pirates 1.5 (-171). Total frames the scoring environment: 8 (Over -117 / Under -103). First listed moneyline implies roughly 53.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Boston Red Sox -114 / Pittsburgh Pirates +106. Spread frames the expected margin: Boston Red Sox -1.5 (+141) / Pittsburgh Pirates 1.5 (-171). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 53.3% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
@@ -82,13 +82,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "New York Yankees at Toronto Blue Jays - 1:37 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees +112 / Toronto Blue Jays -120. Spread frames the expected margin: New York Yankees 1.5 (-215) / Toronto Blue Jays -1.5 (+175). Total frames the scoring environment: 7 (Over -125 / Under +104). First listed moneyline implies roughly 47.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees +116 / Toronto Blue Jays -124. Spread frames the expected margin: New York Yankees 1.5 (-215) / Toronto Blue Jays -1.5 (+175). Total frames the scoring environment: 7 (Over -125 / Under +104). First listed moneyline implies roughly 46.3% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: New York Yankees at Toronto Blue Jays - 1:37 PM ET",
         "Market source: DraftKings",
-        "Moneyline: New York Yankees +112 / Toronto Blue Jays -120",
+        "Moneyline: New York Yankees +116 / Toronto Blue Jays -124",
         "Spread: New York Yankees 1.5 (-215) / Toronto Blue Jays -1.5 (+175)"
       ],
       "why_it_matters": [
@@ -105,14 +105,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Chicago White Sox at Detroit Tigers - 1:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Chicago White Sox -102 / Detroit Tigers -105. Spread frames the expected margin: Chicago White Sox -1.5 (+158) / Detroit Tigers 1.5 (-193). Total frames the scoring environment: 8 (Over -109 / Under -110). First listed moneyline implies roughly 50.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Chicago White Sox -102 / Detroit Tigers -105. Spread frames the expected margin: Chicago White Sox -1.5 (+161) / Detroit Tigers 1.5 (-196). Total frames the scoring environment: 8 (Over -109 / Under -110). First listed moneyline implies roughly 50.5% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Chicago White Sox at Detroit Tigers - 1:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Chicago White Sox -102 / Detroit Tigers -105",
-        "Spread: Chicago White Sox -1.5 (+158) / Detroit Tigers 1.5 (-193)"
+        "Spread: Chicago White Sox -1.5 (+161) / Detroit Tigers 1.5 (-196)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -128,14 +128,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Miami Marlins at Cincinnati Reds - 1:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins -119 / Cincinnati Reds +111. Spread frames the expected margin: Miami Marlins -1.5 (+128) / Cincinnati Reds 1.5 (-155). Total frames the scoring environment: 9 (Over -118 / Under -102). First listed moneyline implies roughly 54.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins -119 / Cincinnati Reds +111. Spread frames the expected margin: Miami Marlins -1.5 (+124) / Cincinnati Reds 1.5 (-149). Total frames the scoring environment: 9 (Over -118 / Under -102). First listed moneyline implies roughly 54.3% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Miami Marlins at Cincinnati Reds - 1:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Miami Marlins -119 / Cincinnati Reds +111",
-        "Spread: Miami Marlins -1.5 (+128) / Cincinnati Reds 1.5 (-155)"
+        "Spread: Miami Marlins -1.5 (+124) / Cincinnati Reds 1.5 (-149)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -222,7 +222,7 @@
     {
       "league": "MLB Betting Board",
       "headline": "Boston Red Sox at Pittsburgh Pirates - 1:35 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Boston Red Sox -114 / Pittsburgh Pirates +106. Spread frames the expected margin: Boston Red Sox -1.5 (+141) / Pittsburgh Pirates 1.5 (-171). Total frames the scoring environment: 8 (Over -117 / Under -103). First listed moneyline implies roughly 53.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Boston Red Sox -114 / Pittsburgh Pirates +106. Spread frames the expected margin: Boston Red Sox -1.5 (+141) / Pittsburgh Pirates 1.5 (-171). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 53.3% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
@@ -268,13 +268,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "New York Yankees at Toronto Blue Jays - 1:37 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees +112 / Toronto Blue Jays -120. Spread frames the expected margin: New York Yankees 1.5 (-215) / Toronto Blue Jays -1.5 (+175). Total frames the scoring environment: 7 (Over -125 / Under +104). First listed moneyline implies roughly 47.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees +116 / Toronto Blue Jays -124. Spread frames the expected margin: New York Yankees 1.5 (-215) / Toronto Blue Jays -1.5 (+175). Total frames the scoring environment: 7 (Over -125 / Under +104). First listed moneyline implies roughly 46.3% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: New York Yankees at Toronto Blue Jays - 1:37 PM ET",
         "Market source: DraftKings",
-        "Moneyline: New York Yankees +112 / Toronto Blue Jays -120",
+        "Moneyline: New York Yankees +116 / Toronto Blue Jays -124",
         "Spread: New York Yankees 1.5 (-215) / Toronto Blue Jays -1.5 (+175)"
       ],
       "why_it_matters": [
@@ -291,14 +291,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Chicago White Sox at Detroit Tigers - 1:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Chicago White Sox -102 / Detroit Tigers -105. Spread frames the expected margin: Chicago White Sox -1.5 (+158) / Detroit Tigers 1.5 (-193). Total frames the scoring environment: 8 (Over -109 / Under -110). First listed moneyline implies roughly 50.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Chicago White Sox -102 / Detroit Tigers -105. Spread frames the expected margin: Chicago White Sox -1.5 (+161) / Detroit Tigers 1.5 (-196). Total frames the scoring environment: 8 (Over -109 / Under -110). First listed moneyline implies roughly 50.5% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Chicago White Sox at Detroit Tigers - 1:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Chicago White Sox -102 / Detroit Tigers -105",
-        "Spread: Chicago White Sox -1.5 (+158) / Detroit Tigers 1.5 (-193)"
+        "Spread: Chicago White Sox -1.5 (+161) / Detroit Tigers 1.5 (-196)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -314,14 +314,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Miami Marlins at Cincinnati Reds - 1:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins -119 / Cincinnati Reds +111. Spread frames the expected margin: Miami Marlins -1.5 (+128) / Cincinnati Reds 1.5 (-155). Total frames the scoring environment: 9 (Over -118 / Under -102). First listed moneyline implies roughly 54.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins -119 / Cincinnati Reds +111. Spread frames the expected margin: Miami Marlins -1.5 (+124) / Cincinnati Reds 1.5 (-149). Total frames the scoring environment: 9 (Over -118 / Under -102). First listed moneyline implies roughly 54.3% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Miami Marlins at Cincinnati Reds - 1:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Miami Marlins -119 / Cincinnati Reds +111",
-        "Spread: Miami Marlins -1.5 (+128) / Cincinnati Reds 1.5 (-155)"
+        "Spread: Miami Marlins -1.5 (+124) / Cincinnati Reds 1.5 (-149)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -424,26 +424,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-16 04:24:53 AM ET"
+      "updated_at": "2026-08-16 05:24:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Boston Red Sox at Pittsburgh Pirates - 1:35 PM ET",
       "game": "Boston Red Sox at Pittsburgh Pirates - 1:35 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Boston Red Sox -114 / Pittsburgh Pirates +106 | Spread: Boston Red Sox -1.5 (+141) / Pittsburgh Pirates 1.5 (-171) | Total: 8 (Over -117 / Under -103)",
+      "market": "Bookmaker: DraftKings | Moneyline: Boston Red Sox -114 / Pittsburgh Pirates +106 | Spread: Boston Red Sox -1.5 (+141) / Pittsburgh Pirates 1.5 (-171) | Total: 8 (Over -118 / Under -102)",
       "bookmaker": "DraftKings",
       "moneyline": "Boston Red Sox -114 / Pittsburgh Pirates +106",
       "spread": "Boston Red Sox -1.5 (+141) / Pittsburgh Pirates 1.5 (-171)",
-      "total": "8 (Over -117 / Under -103)",
+      "total": "8 (Over -118 / Under -102)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Boston Red Sox -114 / Pittsburgh Pirates +106. Spread frames the expected margin: Boston Red Sox -1.5 (+141) / Pittsburgh Pirates 1.5 (-171). Total frames the scoring environment: 8 (Over -117 / Under -103). First listed moneyline implies roughly 53.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Boston Red Sox -114 / Pittsburgh Pirates +106. Spread frames the expected margin: Boston Red Sox -1.5 (+141) / Pittsburgh Pirates 1.5 (-171). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 53.3% win probability.",
       "key_data": [
         "Game: Boston Red Sox at Pittsburgh Pirates - 1:35 PM ET",
         "Market source: DraftKings",
         "Moneyline: Boston Red Sox -114 / Pittsburgh Pirates +106",
         "Spread: Boston Red Sox -1.5 (+141) / Pittsburgh Pirates 1.5 (-171)",
-        "Total: 8 (Over -117 / Under -103)"
+        "Total: 8 (Over -118 / Under -102)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -461,7 +461,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-16 04:24:53 AM ET"
+      "updated_at": "2026-08-16 05:24:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -498,24 +498,24 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-16 04:24:53 AM ET"
+      "updated_at": "2026-08-16 05:24:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "New York Yankees at Toronto Blue Jays - 1:37 PM ET",
       "game": "New York Yankees at Toronto Blue Jays - 1:37 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: New York Yankees +112 / Toronto Blue Jays -120 | Spread: New York Yankees 1.5 (-215) / Toronto Blue Jays -1.5 (+175) | Total: 7 (Over -125 / Under +104)",
+      "market": "Bookmaker: DraftKings | Moneyline: New York Yankees +116 / Toronto Blue Jays -124 | Spread: New York Yankees 1.5 (-215) / Toronto Blue Jays -1.5 (+175) | Total: 7 (Over -125 / Under +104)",
       "bookmaker": "DraftKings",
-      "moneyline": "New York Yankees +112 / Toronto Blue Jays -120",
+      "moneyline": "New York Yankees +116 / Toronto Blue Jays -124",
       "spread": "New York Yankees 1.5 (-215) / Toronto Blue Jays -1.5 (+175)",
       "total": "7 (Over -125 / Under +104)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees +112 / Toronto Blue Jays -120. Spread frames the expected margin: New York Yankees 1.5 (-215) / Toronto Blue Jays -1.5 (+175). Total frames the scoring environment: 7 (Over -125 / Under +104). First listed moneyline implies roughly 47.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees +116 / Toronto Blue Jays -124. Spread frames the expected margin: New York Yankees 1.5 (-215) / Toronto Blue Jays -1.5 (+175). Total frames the scoring environment: 7 (Over -125 / Under +104). First listed moneyline implies roughly 46.3% win probability.",
       "key_data": [
         "Game: New York Yankees at Toronto Blue Jays - 1:37 PM ET",
         "Market source: DraftKings",
-        "Moneyline: New York Yankees +112 / Toronto Blue Jays -120",
+        "Moneyline: New York Yankees +116 / Toronto Blue Jays -124",
         "Spread: New York Yankees 1.5 (-215) / Toronto Blue Jays -1.5 (+175)",
         "Total: 7 (Over -125 / Under +104)"
       ],
@@ -535,25 +535,25 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-16 04:24:53 AM ET"
+      "updated_at": "2026-08-16 05:24:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Chicago White Sox at Detroit Tigers - 1:40 PM ET",
       "game": "Chicago White Sox at Detroit Tigers - 1:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Chicago White Sox -102 / Detroit Tigers -105 | Spread: Chicago White Sox -1.5 (+158) / Detroit Tigers 1.5 (-193) | Total: 8 (Over -109 / Under -110)",
+      "market": "Bookmaker: DraftKings | Moneyline: Chicago White Sox -102 / Detroit Tigers -105 | Spread: Chicago White Sox -1.5 (+161) / Detroit Tigers 1.5 (-196) | Total: 8 (Over -109 / Under -110)",
       "bookmaker": "DraftKings",
       "moneyline": "Chicago White Sox -102 / Detroit Tigers -105",
-      "spread": "Chicago White Sox -1.5 (+158) / Detroit Tigers 1.5 (-193)",
+      "spread": "Chicago White Sox -1.5 (+161) / Detroit Tigers 1.5 (-196)",
       "total": "8 (Over -109 / Under -110)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Chicago White Sox -102 / Detroit Tigers -105. Spread frames the expected margin: Chicago White Sox -1.5 (+158) / Detroit Tigers 1.5 (-193). Total frames the scoring environment: 8 (Over -109 / Under -110). First listed moneyline implies roughly 50.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Chicago White Sox -102 / Detroit Tigers -105. Spread frames the expected margin: Chicago White Sox -1.5 (+161) / Detroit Tigers 1.5 (-196). Total frames the scoring environment: 8 (Over -109 / Under -110). First listed moneyline implies roughly 50.5% win probability.",
       "key_data": [
         "Game: Chicago White Sox at Detroit Tigers - 1:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Chicago White Sox -102 / Detroit Tigers -105",
-        "Spread: Chicago White Sox -1.5 (+158) / Detroit Tigers 1.5 (-193)",
+        "Spread: Chicago White Sox -1.5 (+161) / Detroit Tigers 1.5 (-196)",
         "Total: 8 (Over -109 / Under -110)"
       ],
       "why_it_matters": [
@@ -572,25 +572,25 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-16 04:24:53 AM ET"
+      "updated_at": "2026-08-16 05:24:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Miami Marlins at Cincinnati Reds - 1:40 PM ET",
       "game": "Miami Marlins at Cincinnati Reds - 1:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Miami Marlins -119 / Cincinnati Reds +111 | Spread: Miami Marlins -1.5 (+128) / Cincinnati Reds 1.5 (-155) | Total: 9 (Over -118 / Under -102)",
+      "market": "Bookmaker: DraftKings | Moneyline: Miami Marlins -119 / Cincinnati Reds +111 | Spread: Miami Marlins -1.5 (+124) / Cincinnati Reds 1.5 (-149) | Total: 9 (Over -118 / Under -102)",
       "bookmaker": "DraftKings",
       "moneyline": "Miami Marlins -119 / Cincinnati Reds +111",
-      "spread": "Miami Marlins -1.5 (+128) / Cincinnati Reds 1.5 (-155)",
+      "spread": "Miami Marlins -1.5 (+124) / Cincinnati Reds 1.5 (-149)",
       "total": "9 (Over -118 / Under -102)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins -119 / Cincinnati Reds +111. Spread frames the expected margin: Miami Marlins -1.5 (+128) / Cincinnati Reds 1.5 (-155). Total frames the scoring environment: 9 (Over -118 / Under -102). First listed moneyline implies roughly 54.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins -119 / Cincinnati Reds +111. Spread frames the expected margin: Miami Marlins -1.5 (+124) / Cincinnati Reds 1.5 (-149). Total frames the scoring environment: 9 (Over -118 / Under -102). First listed moneyline implies roughly 54.3% win probability.",
       "key_data": [
         "Game: Miami Marlins at Cincinnati Reds - 1:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Miami Marlins -119 / Cincinnati Reds +111",
-        "Spread: Miami Marlins -1.5 (+128) / Cincinnati Reds 1.5 (-155)",
+        "Spread: Miami Marlins -1.5 (+124) / Cincinnati Reds 1.5 (-149)",
         "Total: 9 (Over -118 / Under -102)"
       ],
       "why_it_matters": [
@@ -609,7 +609,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-16 04:24:53 AM ET"
+      "updated_at": "2026-08-16 05:24:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-16 04:24:53 AM ET"
+      "updated_at": "2026-08-16 05:24:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,7 +683,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-16 04:24:53 AM ET"
+      "updated_at": "2026-08-16 05:24:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -720,7 +720,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-16 04:24:53 AM ET"
+      "updated_at": "2026-08-16 05:24:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -757,26 +757,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-16 04:24:53 AM ET"
+      "updated_at": "2026-08-16 05:24:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Colorado Rockies at San Francisco Giants - 4:05 PM ET",
       "game": "Colorado Rockies at San Francisco Giants - 4:05 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Colorado Rockies +119 / San Francisco Giants -127 | Spread: Colorado Rockies 1.5 (-193) / San Francisco Giants -1.5 (+158) | Total: 8 (Over -112 / Under -107)",
+      "market": "Bookmaker: DraftKings | Moneyline: Colorado Rockies +119 / San Francisco Giants -127 | Spread: Colorado Rockies 1.5 (-193) / San Francisco Giants -1.5 (+158) | Total: 8 (Over -113 / Under -107)",
       "bookmaker": "DraftKings",
       "moneyline": "Colorado Rockies +119 / San Francisco Giants -127",
       "spread": "Colorado Rockies 1.5 (-193) / San Francisco Giants -1.5 (+158)",
-      "total": "8 (Over -112 / Under -107)",
+      "total": "8 (Over -113 / Under -107)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Colorado Rockies +119 / San Francisco Giants -127. Spread frames the expected margin: Colorado Rockies 1.5 (-193) / San Francisco Giants -1.5 (+158). Total frames the scoring environment: 8 (Over -112 / Under -107). First listed moneyline implies roughly 45.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Colorado Rockies +119 / San Francisco Giants -127. Spread frames the expected margin: Colorado Rockies 1.5 (-193) / San Francisco Giants -1.5 (+158). Total frames the scoring environment: 8 (Over -113 / Under -107). First listed moneyline implies roughly 45.7% win probability.",
       "key_data": [
         "Game: Colorado Rockies at San Francisco Giants - 4:05 PM ET",
         "Market source: DraftKings",
         "Moneyline: Colorado Rockies +119 / San Francisco Giants -127",
         "Spread: Colorado Rockies 1.5 (-193) / San Francisco Giants -1.5 (+158)",
-        "Total: 8 (Over -112 / Under -107)"
+        "Total: 8 (Over -113 / Under -107)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -794,7 +794,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-16 04:24:53 AM ET"
+      "updated_at": "2026-08-16 05:24:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -831,14 +831,14 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-16 04:24:53 AM ET"
+      "updated_at": "2026-08-16 05:24:02 AM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-16T08:24:53.762456+00:00",
+    "verified_at": "2026-08-16T09:24:02.043424+00:00",
     "total_verified_events": 12,
-    "source_sha256": "a30500520209017c5e0123ceca64f82144c351f45d0e45f88259aba771049c38"
+    "source_sha256": "65000e3c017a6395ee0afe249914ead43779a20447796d6ac35743c53fe4cbde"
   }
 }
