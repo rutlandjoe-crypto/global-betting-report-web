@@ -12,6 +12,7 @@ function editorialSlug(value: string, index: number): string {
 }
 import fs from "fs";
 import path from "path";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { list } from "@vercel/blob";
 
@@ -989,9 +990,19 @@ export default async function Page() {
       <header className="border-b border-lime-300/20 bg-gradient-to-br from-black via-slate-950 to-emerald-950">
         <div className="mx-auto grid max-w-7xl gap-6 px-5 py-8 lg:grid-cols-[1.2fr_0.8fr]">
           <div>
-            <p className="text-sm font-black uppercase tracking-wide text-lime-300">
-              {SITE.name}
-            </p>
+            <div className="flex items-center gap-4">
+              <Image
+                src="/gsr-logo-betting.png"
+                alt={`${SITE.name} circular GSR logo`}
+                width={96}
+                height={96}
+                priority
+                className="h-20 w-20 shrink-0 rounded-full object-contain md:h-24 md:w-24"
+              />
+              <p className="text-sm font-black uppercase tracking-wide text-lime-300">
+                {SITE.name}
+              </p>
+            </div>
 
             <h1 className="mt-3 text-4xl font-black leading-tight text-white md:text-5xl">
               {headline}
