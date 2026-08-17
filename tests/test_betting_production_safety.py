@@ -285,6 +285,8 @@ class BettingProductionSafetyTests(unittest.TestCase):
             cloud.index("Commit updated site data if changed"),
         )
         self.assertNotIn("continue-on-error", cloud)
+        self.assertIn('BETTING_PUSH_URL="${GSR_PUSH_URL/https:\\/\\/globalbettingreport.com/https:\\/\\/www.globalbettingreport.com}"', cloud)
+        self.assertIn("curl -sS --fail --location", cloud)
 
     def test_active_text_artifacts_do_not_contain_blocked_fallback_copy(self):
         blocked = ("books wait on prices", "board takes shape")

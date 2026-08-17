@@ -93,7 +93,8 @@ jobs:
 
           python -c "import json, pathlib; p=pathlib.Path('public/latest_report.json'); t=p.read_text(encoding='utf-8', errors='ignore'); d=json.loads(t); cards=d.get('homepage_cards') or d.get('cards') or []; bad=['books wait on prices','board takes shape','market takes shape','lines take shape','fallback','generic','placeholder']; hits=[x for x in bad if x in t.lower()]; assert len(cards) >= 8, f'Refusing to publish weak Betting report: only {len(cards)} cards'; assert not hits, f'Refusing to publish weak Betting report: found {hits}'; print('Betting report passed Blob publish gate.')"
 
-          curl -sS --fail --location --post301 --post302 --post303 -X POST "$GSR_PUSH_URL" -H "Authorization: Bearer $GSR_PUSH_TOKEN" -H "Content-Type: application/json" --data-binary @public/latest_report.json
+          BETTING_PUSH_URL="${GSR_PUSH_URL/https:\/\/globalbettingreport.com/https:\/\/www.globalbettingreport.com}"
+          curl -sS --fail --location --post301 --post302 --post303 -X POST "$BETTING_PUSH_URL" -H "Authorization: Bearer $GSR_PUSH_TOKEN" -H "Content-Type: application/json" --data-binary @public/latest_report.json
 
       - name: Guard betting report quality before commit
         shell: pwsh
