@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-17 03:25:07 PM ET",
-  "generated_at": "2026-08-17 03:25:07 PM ET",
-  "generated_utc": "2026-08-17T19:25:07.230660+00:00",
+  "updated_at": "2026-08-17 04:22:49 PM ET",
+  "generated_at": "2026-08-17 04:22:49 PM ET",
+  "generated_utc": "2026-08-17T20:22:49.208164+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -36,13 +36,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "St. Louis Cardinals at Cincinnati Reds - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals -116 / Cincinnati Reds +108. Spread frames the expected margin: St. Louis Cardinals -1.5 (+130) / Cincinnati Reds 1.5 (-157). Total frames the scoring environment: 9 (Over -112 / Under -108). First listed moneyline implies roughly 53.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals -118 / Cincinnati Reds +110. Spread frames the expected margin: St. Louis Cardinals -1.5 (+130) / Cincinnati Reds 1.5 (-157). Total frames the scoring environment: 9 (Over -112 / Under -108). First listed moneyline implies roughly 54.1% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: St. Louis Cardinals at Cincinnati Reds - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: St. Louis Cardinals -116 / Cincinnati Reds +108",
+        "Moneyline: St. Louis Cardinals -118 / Cincinnati Reds +110",
         "Spread: St. Louis Cardinals -1.5 (+130) / Cincinnati Reds 1.5 (-157)"
       ],
       "why_it_matters": [
@@ -59,14 +59,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +224 / Philadelphia Phillies -242. Spread frames the expected margin: Miami Marlins 1.5 (-102) / Philadelphia Phillies -1.5 (-118). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 30.9% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +228 / Philadelphia Phillies -247. Spread frames the expected margin: Miami Marlins 1.5 (-101) / Philadelphia Phillies -1.5 (-119). Total frames the scoring environment: 8.5 (Over -105 / Under -115). First listed moneyline implies roughly 30.5% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Miami Marlins +224 / Philadelphia Phillies -242",
-        "Spread: Miami Marlins 1.5 (-102) / Philadelphia Phillies -1.5 (-118)"
+        "Moneyline: Miami Marlins +228 / Philadelphia Phillies -247",
+        "Spread: Miami Marlins 1.5 (-101) / Philadelphia Phillies -1.5 (-119)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -82,14 +82,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Detroit Tigers at Pittsburgh Pirates - 7:05 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers -103 / Pittsburgh Pirates -105. Spread frames the expected margin: Detroit Tigers -1.5 (+151) / Pittsburgh Pirates 1.5 (-184). Total frames the scoring environment: 8.5 (Over -110 / Under -110). First listed moneyline implies roughly 50.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers -105 / Pittsburgh Pirates -103. Spread frames the expected margin: Detroit Tigers -1.5 (+148) / Pittsburgh Pirates 1.5 (-179). Total frames the scoring environment: 8.5 (Over -110 / Under -110). First listed moneyline implies roughly 51.2% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Detroit Tigers at Pittsburgh Pirates - 7:05 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Detroit Tigers -103 / Pittsburgh Pirates -105",
-        "Spread: Detroit Tigers -1.5 (+151) / Pittsburgh Pirates 1.5 (-184)"
+        "Moneyline: Detroit Tigers -105 / Pittsburgh Pirates -103",
+        "Spread: Detroit Tigers -1.5 (+148) / Pittsburgh Pirates 1.5 (-179)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -151,14 +151,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Athletics at Kansas City Royals - 7:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Athletics +163 / Kansas City Royals -176. Spread frames the expected margin: Athletics 1.5 (-131) / Kansas City Royals -1.5 (+109). Total frames the scoring environment: 9 (Over -103 / Under -117). First listed moneyline implies roughly 38.0% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +165 / Kansas City Royals -177. Spread frames the expected margin: Athletics 1.5 (-130) / Kansas City Royals -1.5 (+108). Total frames the scoring environment: 9 (Over -105 / Under -115). First listed moneyline implies roughly 37.7% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Athletics at Kansas City Royals - 7:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Athletics +163 / Kansas City Royals -176",
-        "Spread: Athletics 1.5 (-131) / Kansas City Royals -1.5 (+109)"
+        "Moneyline: Athletics +165 / Kansas City Royals -177",
+        "Spread: Athletics 1.5 (-130) / Kansas City Royals -1.5 (+108)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -222,13 +222,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "St. Louis Cardinals at Cincinnati Reds - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals -116 / Cincinnati Reds +108. Spread frames the expected margin: St. Louis Cardinals -1.5 (+130) / Cincinnati Reds 1.5 (-157). Total frames the scoring environment: 9 (Over -112 / Under -108). First listed moneyline implies roughly 53.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals -118 / Cincinnati Reds +110. Spread frames the expected margin: St. Louis Cardinals -1.5 (+130) / Cincinnati Reds 1.5 (-157). Total frames the scoring environment: 9 (Over -112 / Under -108). First listed moneyline implies roughly 54.1% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: St. Louis Cardinals at Cincinnati Reds - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: St. Louis Cardinals -116 / Cincinnati Reds +108",
+        "Moneyline: St. Louis Cardinals -118 / Cincinnati Reds +110",
         "Spread: St. Louis Cardinals -1.5 (+130) / Cincinnati Reds 1.5 (-157)"
       ],
       "why_it_matters": [
@@ -245,14 +245,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +224 / Philadelphia Phillies -242. Spread frames the expected margin: Miami Marlins 1.5 (-102) / Philadelphia Phillies -1.5 (-118). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 30.9% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +228 / Philadelphia Phillies -247. Spread frames the expected margin: Miami Marlins 1.5 (-101) / Philadelphia Phillies -1.5 (-119). Total frames the scoring environment: 8.5 (Over -105 / Under -115). First listed moneyline implies roughly 30.5% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Miami Marlins +224 / Philadelphia Phillies -242",
-        "Spread: Miami Marlins 1.5 (-102) / Philadelphia Phillies -1.5 (-118)"
+        "Moneyline: Miami Marlins +228 / Philadelphia Phillies -247",
+        "Spread: Miami Marlins 1.5 (-101) / Philadelphia Phillies -1.5 (-119)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -268,14 +268,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Detroit Tigers at Pittsburgh Pirates - 7:05 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers -103 / Pittsburgh Pirates -105. Spread frames the expected margin: Detroit Tigers -1.5 (+151) / Pittsburgh Pirates 1.5 (-184). Total frames the scoring environment: 8.5 (Over -110 / Under -110). First listed moneyline implies roughly 50.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers -105 / Pittsburgh Pirates -103. Spread frames the expected margin: Detroit Tigers -1.5 (+148) / Pittsburgh Pirates 1.5 (-179). Total frames the scoring environment: 8.5 (Over -110 / Under -110). First listed moneyline implies roughly 51.2% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Detroit Tigers at Pittsburgh Pirates - 7:05 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Detroit Tigers -103 / Pittsburgh Pirates -105",
-        "Spread: Detroit Tigers -1.5 (+151) / Pittsburgh Pirates 1.5 (-184)"
+        "Moneyline: Detroit Tigers -105 / Pittsburgh Pirates -103",
+        "Spread: Detroit Tigers -1.5 (+148) / Pittsburgh Pirates 1.5 (-179)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -337,14 +337,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Athletics at Kansas City Royals - 7:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Athletics +163 / Kansas City Royals -176. Spread frames the expected margin: Athletics 1.5 (-131) / Kansas City Royals -1.5 (+109). Total frames the scoring environment: 9 (Over -103 / Under -117). First listed moneyline implies roughly 38.0% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +165 / Kansas City Royals -177. Spread frames the expected margin: Athletics 1.5 (-130) / Kansas City Royals -1.5 (+108). Total frames the scoring environment: 9 (Over -105 / Under -115). First listed moneyline implies roughly 37.7% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Athletics at Kansas City Royals - 7:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Athletics +163 / Kansas City Royals -176",
-        "Spread: Athletics 1.5 (-131) / Kansas City Royals -1.5 (+109)"
+        "Moneyline: Athletics +165 / Kansas City Royals -177",
+        "Spread: Athletics 1.5 (-130) / Kansas City Royals -1.5 (+108)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -424,24 +424,24 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-17 03:25:07 PM ET"
+      "updated_at": "2026-08-17 04:22:49 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "St. Louis Cardinals at Cincinnati Reds - 6:40 PM ET",
       "game": "St. Louis Cardinals at Cincinnati Reds - 6:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: St. Louis Cardinals -116 / Cincinnati Reds +108 | Spread: St. Louis Cardinals -1.5 (+130) / Cincinnati Reds 1.5 (-157) | Total: 9 (Over -112 / Under -108)",
+      "market": "Bookmaker: DraftKings | Moneyline: St. Louis Cardinals -118 / Cincinnati Reds +110 | Spread: St. Louis Cardinals -1.5 (+130) / Cincinnati Reds 1.5 (-157) | Total: 9 (Over -112 / Under -108)",
       "bookmaker": "DraftKings",
-      "moneyline": "St. Louis Cardinals -116 / Cincinnati Reds +108",
+      "moneyline": "St. Louis Cardinals -118 / Cincinnati Reds +110",
       "spread": "St. Louis Cardinals -1.5 (+130) / Cincinnati Reds 1.5 (-157)",
       "total": "9 (Over -112 / Under -108)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals -116 / Cincinnati Reds +108. Spread frames the expected margin: St. Louis Cardinals -1.5 (+130) / Cincinnati Reds 1.5 (-157). Total frames the scoring environment: 9 (Over -112 / Under -108). First listed moneyline implies roughly 53.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals -118 / Cincinnati Reds +110. Spread frames the expected margin: St. Louis Cardinals -1.5 (+130) / Cincinnati Reds 1.5 (-157). Total frames the scoring environment: 9 (Over -112 / Under -108). First listed moneyline implies roughly 54.1% win probability.",
       "key_data": [
         "Game: St. Louis Cardinals at Cincinnati Reds - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: St. Louis Cardinals -116 / Cincinnati Reds +108",
+        "Moneyline: St. Louis Cardinals -118 / Cincinnati Reds +110",
         "Spread: St. Louis Cardinals -1.5 (+130) / Cincinnati Reds 1.5 (-157)",
         "Total: 9 (Over -112 / Under -108)"
       ],
@@ -461,26 +461,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-17 03:25:07 PM ET"
+      "updated_at": "2026-08-17 04:22:49 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
       "game": "Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Miami Marlins +224 / Philadelphia Phillies -242 | Spread: Miami Marlins 1.5 (-102) / Philadelphia Phillies -1.5 (-118) | Total: 8 (Over -112 / Under -108)",
+      "market": "Bookmaker: DraftKings | Moneyline: Miami Marlins +228 / Philadelphia Phillies -247 | Spread: Miami Marlins 1.5 (-101) / Philadelphia Phillies -1.5 (-119) | Total: 8.5 (Over -105 / Under -115)",
       "bookmaker": "DraftKings",
-      "moneyline": "Miami Marlins +224 / Philadelphia Phillies -242",
-      "spread": "Miami Marlins 1.5 (-102) / Philadelphia Phillies -1.5 (-118)",
-      "total": "8 (Over -112 / Under -108)",
+      "moneyline": "Miami Marlins +228 / Philadelphia Phillies -247",
+      "spread": "Miami Marlins 1.5 (-101) / Philadelphia Phillies -1.5 (-119)",
+      "total": "8.5 (Over -105 / Under -115)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +224 / Philadelphia Phillies -242. Spread frames the expected margin: Miami Marlins 1.5 (-102) / Philadelphia Phillies -1.5 (-118). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 30.9% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +228 / Philadelphia Phillies -247. Spread frames the expected margin: Miami Marlins 1.5 (-101) / Philadelphia Phillies -1.5 (-119). Total frames the scoring environment: 8.5 (Over -105 / Under -115). First listed moneyline implies roughly 30.5% win probability.",
       "key_data": [
         "Game: Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Miami Marlins +224 / Philadelphia Phillies -242",
-        "Spread: Miami Marlins 1.5 (-102) / Philadelphia Phillies -1.5 (-118)",
-        "Total: 8 (Over -112 / Under -108)"
+        "Moneyline: Miami Marlins +228 / Philadelphia Phillies -247",
+        "Spread: Miami Marlins 1.5 (-101) / Philadelphia Phillies -1.5 (-119)",
+        "Total: 8.5 (Over -105 / Under -115)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -498,25 +498,25 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-17 03:25:07 PM ET"
+      "updated_at": "2026-08-17 04:22:49 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Detroit Tigers at Pittsburgh Pirates - 7:05 PM ET",
       "game": "Detroit Tigers at Pittsburgh Pirates - 7:05 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Detroit Tigers -103 / Pittsburgh Pirates -105 | Spread: Detroit Tigers -1.5 (+151) / Pittsburgh Pirates 1.5 (-184) | Total: 8.5 (Over -110 / Under -110)",
+      "market": "Bookmaker: DraftKings | Moneyline: Detroit Tigers -105 / Pittsburgh Pirates -103 | Spread: Detroit Tigers -1.5 (+148) / Pittsburgh Pirates 1.5 (-179) | Total: 8.5 (Over -110 / Under -110)",
       "bookmaker": "DraftKings",
-      "moneyline": "Detroit Tigers -103 / Pittsburgh Pirates -105",
-      "spread": "Detroit Tigers -1.5 (+151) / Pittsburgh Pirates 1.5 (-184)",
+      "moneyline": "Detroit Tigers -105 / Pittsburgh Pirates -103",
+      "spread": "Detroit Tigers -1.5 (+148) / Pittsburgh Pirates 1.5 (-179)",
       "total": "8.5 (Over -110 / Under -110)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers -103 / Pittsburgh Pirates -105. Spread frames the expected margin: Detroit Tigers -1.5 (+151) / Pittsburgh Pirates 1.5 (-184). Total frames the scoring environment: 8.5 (Over -110 / Under -110). First listed moneyline implies roughly 50.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers -105 / Pittsburgh Pirates -103. Spread frames the expected margin: Detroit Tigers -1.5 (+148) / Pittsburgh Pirates 1.5 (-179). Total frames the scoring environment: 8.5 (Over -110 / Under -110). First listed moneyline implies roughly 51.2% win probability.",
       "key_data": [
         "Game: Detroit Tigers at Pittsburgh Pirates - 7:05 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Detroit Tigers -103 / Pittsburgh Pirates -105",
-        "Spread: Detroit Tigers -1.5 (+151) / Pittsburgh Pirates 1.5 (-184)",
+        "Moneyline: Detroit Tigers -105 / Pittsburgh Pirates -103",
+        "Spread: Detroit Tigers -1.5 (+148) / Pittsburgh Pirates 1.5 (-179)",
         "Total: 8.5 (Over -110 / Under -110)"
       ],
       "why_it_matters": [
@@ -535,7 +535,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-17 03:25:07 PM ET"
+      "updated_at": "2026-08-17 04:22:49 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -572,7 +572,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-17 03:25:07 PM ET"
+      "updated_at": "2026-08-17 04:22:49 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -609,26 +609,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-17 03:25:07 PM ET"
+      "updated_at": "2026-08-17 04:22:49 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Athletics at Kansas City Royals - 7:40 PM ET",
       "game": "Athletics at Kansas City Royals - 7:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Athletics +163 / Kansas City Royals -176 | Spread: Athletics 1.5 (-131) / Kansas City Royals -1.5 (+109) | Total: 9 (Over -103 / Under -117)",
+      "market": "Bookmaker: DraftKings | Moneyline: Athletics +165 / Kansas City Royals -177 | Spread: Athletics 1.5 (-130) / Kansas City Royals -1.5 (+108) | Total: 9 (Over -105 / Under -115)",
       "bookmaker": "DraftKings",
-      "moneyline": "Athletics +163 / Kansas City Royals -176",
-      "spread": "Athletics 1.5 (-131) / Kansas City Royals -1.5 (+109)",
-      "total": "9 (Over -103 / Under -117)",
+      "moneyline": "Athletics +165 / Kansas City Royals -177",
+      "spread": "Athletics 1.5 (-130) / Kansas City Royals -1.5 (+108)",
+      "total": "9 (Over -105 / Under -115)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Athletics +163 / Kansas City Royals -176. Spread frames the expected margin: Athletics 1.5 (-131) / Kansas City Royals -1.5 (+109). Total frames the scoring environment: 9 (Over -103 / Under -117). First listed moneyline implies roughly 38.0% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +165 / Kansas City Royals -177. Spread frames the expected margin: Athletics 1.5 (-130) / Kansas City Royals -1.5 (+108). Total frames the scoring environment: 9 (Over -105 / Under -115). First listed moneyline implies roughly 37.7% win probability.",
       "key_data": [
         "Game: Athletics at Kansas City Royals - 7:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Athletics +163 / Kansas City Royals -176",
-        "Spread: Athletics 1.5 (-131) / Kansas City Royals -1.5 (+109)",
-        "Total: 9 (Over -103 / Under -117)"
+        "Moneyline: Athletics +165 / Kansas City Royals -177",
+        "Spread: Athletics 1.5 (-130) / Kansas City Royals -1.5 (+108)",
+        "Total: 9 (Over -105 / Under -115)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-17 03:25:07 PM ET"
+      "updated_at": "2026-08-17 04:22:49 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,26 +683,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-17 03:25:07 PM ET"
+      "updated_at": "2026-08-17 04:22:49 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Chicago White Sox at Chicago Cubs - 8:05 PM ET",
       "game": "Chicago White Sox at Chicago Cubs - 8:05 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Chicago White Sox +150 / Chicago Cubs -161 | Spread: Chicago White Sox 1.5 (-155) / Chicago Cubs -1.5 (+129) | Total: 8 (Over -114 / Under -105)",
+      "market": "Bookmaker: DraftKings | Moneyline: Chicago White Sox +145 / Chicago Cubs -155 | Spread: Chicago White Sox 1.5 (-156) / Chicago Cubs -1.5 (+129) | Total: 8 (Over -114 / Under -106)",
       "bookmaker": "DraftKings",
-      "moneyline": "Chicago White Sox +150 / Chicago Cubs -161",
-      "spread": "Chicago White Sox 1.5 (-155) / Chicago Cubs -1.5 (+129)",
-      "total": "8 (Over -114 / Under -105)",
+      "moneyline": "Chicago White Sox +145 / Chicago Cubs -155",
+      "spread": "Chicago White Sox 1.5 (-156) / Chicago Cubs -1.5 (+129)",
+      "total": "8 (Over -114 / Under -106)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Chicago White Sox +150 / Chicago Cubs -161. Spread frames the expected margin: Chicago White Sox 1.5 (-155) / Chicago Cubs -1.5 (+129). Total frames the scoring environment: 8 (Over -114 / Under -105). First listed moneyline implies roughly 40.0% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Chicago White Sox +145 / Chicago Cubs -155. Spread frames the expected margin: Chicago White Sox 1.5 (-156) / Chicago Cubs -1.5 (+129). Total frames the scoring environment: 8 (Over -114 / Under -106). First listed moneyline implies roughly 40.8% win probability.",
       "key_data": [
         "Game: Chicago White Sox at Chicago Cubs - 8:05 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Chicago White Sox +150 / Chicago Cubs -161",
-        "Spread: Chicago White Sox 1.5 (-155) / Chicago Cubs -1.5 (+129)",
-        "Total: 8 (Over -114 / Under -105)"
+        "Moneyline: Chicago White Sox +145 / Chicago Cubs -155",
+        "Spread: Chicago White Sox 1.5 (-156) / Chicago Cubs -1.5 (+129)",
+        "Total: 8 (Over -114 / Under -106)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -720,25 +720,25 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-17 03:25:07 PM ET"
+      "updated_at": "2026-08-17 04:22:49 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Los Angeles Dodgers at Colorado Rockies - 8:40 PM ET",
       "game": "Los Angeles Dodgers at Colorado Rockies - 8:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Los Angeles Dodgers -265 / Colorado Rockies +244 | Spread: Los Angeles Dodgers -1.5 (-179) / Colorado Rockies 1.5 (+147) | Total: 11 (Over -101 / Under -120)",
+      "market": "Bookmaker: DraftKings | Moneyline: Los Angeles Dodgers -265 / Colorado Rockies +244 | Spread: Los Angeles Dodgers -1.5 (-175) / Colorado Rockies 1.5 (+144) | Total: 11 (Over -101 / Under -120)",
       "bookmaker": "DraftKings",
       "moneyline": "Los Angeles Dodgers -265 / Colorado Rockies +244",
-      "spread": "Los Angeles Dodgers -1.5 (-179) / Colorado Rockies 1.5 (+147)",
+      "spread": "Los Angeles Dodgers -1.5 (-175) / Colorado Rockies 1.5 (+144)",
       "total": "11 (Over -101 / Under -120)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Los Angeles Dodgers -265 / Colorado Rockies +244. Spread frames the expected margin: Los Angeles Dodgers -1.5 (-179) / Colorado Rockies 1.5 (+147). Total frames the scoring environment: 11 (Over -101 / Under -120). First listed moneyline implies roughly 72.6% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Los Angeles Dodgers -265 / Colorado Rockies +244. Spread frames the expected margin: Los Angeles Dodgers -1.5 (-175) / Colorado Rockies 1.5 (+144). Total frames the scoring environment: 11 (Over -101 / Under -120). First listed moneyline implies roughly 72.6% win probability.",
       "key_data": [
         "Game: Los Angeles Dodgers at Colorado Rockies - 8:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Los Angeles Dodgers -265 / Colorado Rockies +244",
-        "Spread: Los Angeles Dodgers -1.5 (-179) / Colorado Rockies 1.5 (+147)",
+        "Spread: Los Angeles Dodgers -1.5 (-175) / Colorado Rockies 1.5 (+144)",
         "Total: 11 (Over -101 / Under -120)"
       ],
       "why_it_matters": [
@@ -757,26 +757,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-17 03:25:07 PM ET"
+      "updated_at": "2026-08-17 04:22:49 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "New York Yankees at Baltimore Orioles - 6:35 PM ET",
       "game": "New York Yankees at Baltimore Orioles - 6:35 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: New York Yankees -110 / Baltimore Orioles -106 | Spread: New York Yankees -1.5 (+146) / Baltimore Orioles 1.5 (-176) | Total: 9 (Over -105 / Under -115)",
-      "bookmaker": "FanDuel",
-      "moneyline": "New York Yankees -110 / Baltimore Orioles -106",
-      "spread": "New York Yankees -1.5 (+146) / Baltimore Orioles 1.5 (-176)",
-      "total": "9 (Over -105 / Under -115)",
+      "market": "Bookmaker: DraftKings | Moneyline: New York Yankees -110 / Baltimore Orioles -110 | Spread: New York Yankees -1.5 (+153) / Baltimore Orioles 1.5 (-186) | Total: 8.5 (Over -120 / Under +100)",
+      "bookmaker": "DraftKings",
+      "moneyline": "New York Yankees -110 / Baltimore Orioles -110",
+      "spread": "New York Yankees -1.5 (+153) / Baltimore Orioles 1.5 (-186)",
+      "total": "8.5 (Over -120 / Under +100)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees -110 / Baltimore Orioles -106. Spread frames the expected margin: New York Yankees -1.5 (+146) / Baltimore Orioles 1.5 (-176). Total frames the scoring environment: 9 (Over -105 / Under -115). First listed moneyline implies roughly 52.4% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees -110 / Baltimore Orioles -110. Spread frames the expected margin: New York Yankees -1.5 (+153) / Baltimore Orioles 1.5 (-186). Total frames the scoring environment: 8.5 (Over -120 / Under +100). First listed moneyline implies roughly 52.4% win probability.",
       "key_data": [
         "Game: New York Yankees at Baltimore Orioles - 6:35 PM ET",
-        "Market source: FanDuel",
-        "Moneyline: New York Yankees -110 / Baltimore Orioles -106",
-        "Spread: New York Yankees -1.5 (+146) / Baltimore Orioles 1.5 (-176)",
-        "Total: 9 (Over -105 / Under -115)"
+        "Market source: DraftKings",
+        "Moneyline: New York Yankees -110 / Baltimore Orioles -110",
+        "Spread: New York Yankees -1.5 (+153) / Baltimore Orioles 1.5 (-186)",
+        "Total: 8.5 (Over -120 / Under +100)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -794,26 +794,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-17 03:25:07 PM ET"
+      "updated_at": "2026-08-17 04:22:49 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
-      "headline": "St. Louis Cardinals at Cincinnati Reds - 6:40 PM ET",
-      "game": "St. Louis Cardinals at Cincinnati Reds - 6:40 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: St. Louis Cardinals -116 / Cincinnati Reds -102 | Spread: St. Louis Cardinals -1.5 (+136) / Cincinnati Reds 1.5 (-164) | Total: 9 (Over -110 / Under -110)",
+      "headline": "Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
+      "game": "Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
+      "market": "Bookmaker: FanDuel | Moneyline: Miami Marlins +198 / Philadelphia Phillies -240 | Spread: Miami Marlins 1.5 (-113) / Philadelphia Phillies -1.5 (-106) | Total: 8 (Over -115 / Under -105)",
       "bookmaker": "FanDuel",
-      "moneyline": "St. Louis Cardinals -116 / Cincinnati Reds -102",
-      "spread": "St. Louis Cardinals -1.5 (+136) / Cincinnati Reds 1.5 (-164)",
-      "total": "9 (Over -110 / Under -110)",
+      "moneyline": "Miami Marlins +198 / Philadelphia Phillies -240",
+      "spread": "Miami Marlins 1.5 (-113) / Philadelphia Phillies -1.5 (-106)",
+      "total": "8 (Over -115 / Under -105)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals -116 / Cincinnati Reds -102. Spread frames the expected margin: St. Louis Cardinals -1.5 (+136) / Cincinnati Reds 1.5 (-164). Total frames the scoring environment: 9 (Over -110 / Under -110). First listed moneyline implies roughly 53.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +198 / Philadelphia Phillies -240. Spread frames the expected margin: Miami Marlins 1.5 (-113) / Philadelphia Phillies -1.5 (-106). Total frames the scoring environment: 8 (Over -115 / Under -105). First listed moneyline implies roughly 33.6% win probability.",
       "key_data": [
-        "Game: St. Louis Cardinals at Cincinnati Reds - 6:40 PM ET",
+        "Game: Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
         "Market source: FanDuel",
-        "Moneyline: St. Louis Cardinals -116 / Cincinnati Reds -102",
-        "Spread: St. Louis Cardinals -1.5 (+136) / Cincinnati Reds 1.5 (-164)",
-        "Total: 9 (Over -110 / Under -110)"
+        "Moneyline: Miami Marlins +198 / Philadelphia Phillies -240",
+        "Spread: Miami Marlins 1.5 (-113) / Philadelphia Phillies -1.5 (-106)",
+        "Total: 8 (Over -115 / Under -105)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -831,14 +831,14 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-17 03:25:07 PM ET"
+      "updated_at": "2026-08-17 04:22:49 PM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-17T19:25:07.186999+00:00",
+    "verified_at": "2026-08-17T20:22:49.164684+00:00",
     "total_verified_events": 12,
-    "source_sha256": "5e08ba66026e0c3843596ee7ac0e9ce65d253e2304385569343eb55869fba48d"
+    "source_sha256": "7429b56b0439526a9038c5a91c200d4bb7486b93d5d42e25c8fb7c87ea9cf4af"
   }
 }
