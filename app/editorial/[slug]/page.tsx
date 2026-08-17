@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { getBettingStory } from "@/app/lib/betting-editorial";
 
 export const dynamic = "force-dynamic";
@@ -48,6 +48,7 @@ export default async function EditorialPage({ params }: Props) {
   const story = getBettingStory(slug);
 
   if (!story) notFound();
+  if (slug !== story.slug) permanentRedirect(`/editorial/${story.slug}`);
 
   return (
     <main className="min-h-screen bg-slate-950 text-white">

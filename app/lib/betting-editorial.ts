@@ -8,6 +8,7 @@ export type BettingStory = {
   summary: string;
   sourceUrl: string;
   updatedAt: string;
+  reportDate: string;
   game: string;
   market: string[];
   impliedProbability: string[];
@@ -41,6 +42,37 @@ function readReport(): AnyObj {
   }
 }
 
+function readArchive(): BettingStory[] {
+  try {
+    const file = path.join(process.cwd(), "public", "editorial_archive.json");
+    const payload = JSON.parse(fs.readFileSync(file, "utf8")) as AnyObj;
+    if (!Array.isArray(payload.stories)) return [];
+    return payload.stories
+      .filter((story) => story && typeof story === "object")
+      .map((story) => {
+        const item = story as AnyObj;
+        return {
+          slug: cleanText(item.slug),
+          title: cleanText(item.title),
+          label: cleanText(item.label) || "Betting",
+          summary: cleanText(item.summary),
+          sourceUrl: cleanText(item.sourceUrl),
+          updatedAt: cleanText(item.publishedAt),
+          reportDate: cleanText(item.reportDate),
+          game: cleanText(item.game),
+          market: asList(item.market),
+          impliedProbability: asList(item.impliedProbability),
+          whyItMatters: asList(item.whyItMatters),
+          whatToWatch: asList(item.whatToWatch),
+          storyAngles: asList(item.storyAngles),
+        };
+      })
+      .filter((story) => story.slug && story.title);
+  } catch {
+    return [];
+  }
+}
+
 function slugify(value: string, index: number): string {
   const slug = value
     .toLowerCase()
@@ -52,6 +84,29 @@ function slugify(value: string, index: number): string {
     .slice(0, 90);
 
   return slug || `betting-story-${index + 1}`;
+}
+
+function reportDate(value: string): string {
+  return value.match(/\d{4}-\d{2}-\d{2}/)?.[0] || "";
+}
+
+function eventName(story: AnyObj, title: string): string {
+  const candidates = [cleanText(story.game), cleanText(story.matchup), title];
+  for (const candidate of candidates) {
+    if (!/\s(?:at|vs\.?|versus)\s/i.test(candidate)) continue;
+    return candidate
+      .split(/\s+-\s+\d{1,2}:\d{2}\s/i, 1)[0]
+      .split(":", 1)[0]
+      .trim();
+  }
+  return "";
+}
+
+export function bettingEditorialSlug(title: string, publishedAt: string, index = 0): string {
+  const date = reportDate(publishedAt);
+  const event = eventName({ headline: title }, title) || title;
+  const slug = slugify(event, index);
+  return date ? `${date}-${slug}` : slug;
 }
 
 function extractUrl(story: AnyObj): string {
@@ -103,13 +158,14 @@ function normalize(story: AnyObj, index: number, updatedAt: string): BettingStor
   ].filter(Boolean);
 
   return {
-    slug: slugify(title, index),
+    slug: bettingEditorialSlug(eventName(story, title) || title, updatedAt, index),
     title,
     label,
     summary,
     sourceUrl: extractUrl(story),
     updatedAt,
-    game: cleanText(story.game) || title,
+    reportDate: reportDate(updatedAt),
+    game: eventName(story, title) || cleanText(story.game) || title,
     market,
     impliedProbability: asList(story.implied_probability || story.impliedProbability),
     whyItMatters: asList(story.why_it_matters || story.whyItMatters || story.why),
@@ -138,20 +194,36 @@ export function getBettingStories(): BettingStory[] {
     report.articles,
   ];
 
+  let current: BettingStory[] = [];
   for (const value of collections) {
     if (Array.isArray(value) && value.length) {
-      return value
+      current = value
         .filter((item) => item && typeof item === "object")
         .map((item, index) => normalize(item as AnyObj, index, updatedAt))
+        .filter(
+          (story) =>
+            story.game &&
+            /\s(?:at|vs\.?|versus)\s/i.test(story.game) &&
+            story.summary.length >= 120 &&
+            story.whyItMatters.length > 0 &&
+            story.whatToWatch.length > 0,
+        )
         .slice(0, 24);
+      break;
     }
   }
 
-  return [];
+  const stories = new Map<string, BettingStory>();
+  for (const story of [...current, ...readArchive()]) stories.set(story.slug, story);
+  return [...stories.values()].sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 
 export function getBettingStory(slug: string) {
-  return getBettingStories().find((story) => story.slug === slug);
+  const stories = getBettingStories();
+  return (
+    stories.find((story) => story.slug === slug) ||
+    stories.find((story) => slugify(story.title, 0) === slug)
+  );
 }
 
 export function getBettingLastModified(): Date {
