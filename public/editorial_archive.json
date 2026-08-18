@@ -1,8 +1,35 @@
 {
   "site": "Global Betting Report",
-  "generatedAt": "2026-08-18T22:19:29.842989+00:00",
-  "storyCount": 74,
+  "generatedAt": "2026-08-18T23:18:30.574475+00:00",
+  "storyCount": 81,
   "stories": [
+    {
+      "slug": "2026-08-18-washington-nationals-at-texas-rangers",
+      "title": "Washington Nationals at Texas Rangers - 8:05 PM ET",
+      "label": "MLB Betting Board",
+      "summary": "Moneyline sets the win-probability baseline: Washington Nationals +131 / Texas Rangers -140. Spread frames the expected margin: Washington Nationals 1.5 (-175) / Texas Rangers -1.5 (+144). Total frames the scoring environment: 7.5 (Over -118 / Under -102). First listed moneyline implies roughly 43.3% win probability.",
+      "sourceUrl": "https://www.globalbettingreport.com",
+      "publishedAt": "2026-08-18T23:18:30.574475+00:00",
+      "reportDate": "2026-08-18",
+      "game": "Washington Nationals at Texas Rangers",
+      "market": [
+        "Game: Washington Nationals at Texas Rangers - 8:05 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: Washington Nationals +131 / Texas Rangers -140",
+        "Spread: Washington Nationals 1.5 (-175) / Texas Rangers -1.5 (+144)"
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "whatToWatch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "storyAngles": []
+    },
     {
       "slug": "2026-08-18-toronto-blue-jays-at-tampa-bay-rays",
       "title": "Toronto Blue Jays at Tampa Bay Rays - 6:40 PM ET",
@@ -44,6 +71,33 @@
         "Market source: DraftKings",
         "Moneyline: St. Louis Cardinals -112 / Cincinnati Reds +104",
         "Spread: St. Louis Cardinals -1.5 (+135) / Cincinnati Reds 1.5 (-163)"
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "whatToWatch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-08-18-seattle-mariners-at-milwaukee-brewers",
+      "title": "Seattle Mariners at Milwaukee Brewers - 7:40 PM ET",
+      "label": "MLB Betting Board",
+      "summary": "Moneyline sets the win-probability baseline: Seattle Mariners +154 / Milwaukee Brewers -165. Spread frames the expected margin: Seattle Mariners 1.5 (-158) / Milwaukee Brewers -1.5 (+131). Total frames the scoring environment: 7.5 (Over -117 / Under -103). First listed moneyline implies roughly 39.4% win probability.",
+      "sourceUrl": "https://www.globalbettingreport.com",
+      "publishedAt": "2026-08-18T23:18:30.574475+00:00",
+      "reportDate": "2026-08-18",
+      "game": "Seattle Mariners at Milwaukee Brewers",
+      "market": [
+        "Game: Seattle Mariners at Milwaukee Brewers - 7:40 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: Seattle Mariners +154 / Milwaukee Brewers -165",
+        "Spread: Seattle Mariners 1.5 (-158) / Milwaukee Brewers -1.5 (+131)"
       ],
       "impliedProbability": [],
       "whyItMatters": [
@@ -166,19 +220,154 @@
       "storyAngles": []
     },
     {
-      "slug": "2026-08-18-detroit-tigers-at-pittsburgh-pirates",
-      "title": "Detroit Tigers at Pittsburgh Pirates - 6:40 PM ET",
+      "slug": "2026-08-18-los-angeles-dodgers-at-colorado-rockies",
+      "title": "Los Angeles Dodgers at Colorado Rockies - 8:40 PM ET",
       "label": "MLB Betting Board",
-      "summary": "Moneyline sets the win-probability baseline: Detroit Tigers +142 / Pittsburgh Pirates -152. Spread frames the expected margin: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138). Total frames the scoring environment: 8 (Over -110 / Under -109). First listed moneyline implies roughly 41.3% win probability.",
+      "summary": "Moneyline sets the win-probability baseline: Los Angeles Dodgers -190 / Colorado Rockies +177. Spread frames the expected margin: Los Angeles Dodgers -1.5 (-135) / Colorado Rockies 1.5 (+112). Total frames the scoring environment: 11.5 (Over -115 / Under -105). First listed moneyline implies roughly 65.5% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-08-18T22:19:29.842989+00:00",
+      "publishedAt": "2026-08-18T23:18:30.574475+00:00",
+      "reportDate": "2026-08-18",
+      "game": "Los Angeles Dodgers at Colorado Rockies",
+      "market": [
+        "Game: Los Angeles Dodgers at Colorado Rockies - 8:40 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: Los Angeles Dodgers -190 / Colorado Rockies +177",
+        "Spread: Los Angeles Dodgers -1.5 (-135) / Colorado Rockies 1.5 (+112)"
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "whatToWatch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-08-18-los-angeles-angels-at-houston-astros",
+      "title": "Los Angeles Angels at Houston Astros - 8:10 PM ET",
+      "label": "MLB Betting Board",
+      "summary": "Moneyline sets the win-probability baseline: Los Angeles Angels +152 / Houston Astros -163. Spread frames the expected margin: Los Angeles Angels 1.5 (-143) / Houston Astros -1.5 (+119). Total frames the scoring environment: 9 (Over -119 / Under -101). First listed moneyline implies roughly 39.7% win probability.",
+      "sourceUrl": "https://www.globalbettingreport.com",
+      "publishedAt": "2026-08-18T23:18:30.574475+00:00",
+      "reportDate": "2026-08-18",
+      "game": "Los Angeles Angels at Houston Astros",
+      "market": [
+        "Game: Los Angeles Angels at Houston Astros - 8:10 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: Los Angeles Angels +152 / Houston Astros -163",
+        "Spread: Los Angeles Angels 1.5 (-143) / Houston Astros -1.5 (+119)"
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "whatToWatch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-08-18-detroit-tigers-at-pittsburgh-pirates",
+      "title": "Detroit Tigers at Pittsburgh Pirates - 12:35 PM ET",
+      "label": "MLB Betting Board",
+      "summary": "Moneyline sets the win-probability baseline: Detroit Tigers +123 / Pittsburgh Pirates -149. Spread frames the expected margin: Detroit Tigers 1.5 (-175) / Pittsburgh Pirates -1.5 (+144). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 44.8% win probability.",
+      "sourceUrl": "https://www.globalbettingreport.com",
+      "publishedAt": "2026-08-18T23:18:30.574475+00:00",
       "reportDate": "2026-08-18",
       "game": "Detroit Tigers at Pittsburgh Pirates",
       "market": [
-        "Game: Detroit Tigers at Pittsburgh Pirates - 6:40 PM ET",
+        "Game: Detroit Tigers at Pittsburgh Pirates - 12:35 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Detroit Tigers +142 / Pittsburgh Pirates -152",
-        "Spread: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138)"
+        "Moneyline: Detroit Tigers +123 / Pittsburgh Pirates -149",
+        "Spread: Detroit Tigers 1.5 (-175) / Pittsburgh Pirates -1.5 (+144)"
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "whatToWatch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-08-18-chicago-white-sox-at-chicago-cubs",
+      "title": "Chicago White Sox at Chicago Cubs - 8:05 PM ET",
+      "label": "MLB Betting Board",
+      "summary": "Moneyline sets the win-probability baseline: Chicago White Sox +158 / Chicago Cubs -170. Spread frames the expected margin: Chicago White Sox 1.5 (-136) / Chicago Cubs -1.5 (+113). Total frames the scoring environment: 9.5 (Over +100 / Under -120). First listed moneyline implies roughly 38.8% win probability.",
+      "sourceUrl": "https://www.globalbettingreport.com",
+      "publishedAt": "2026-08-18T23:18:30.574475+00:00",
+      "reportDate": "2026-08-18",
+      "game": "Chicago White Sox at Chicago Cubs",
+      "market": [
+        "Game: Chicago White Sox at Chicago Cubs - 8:05 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: Chicago White Sox +158 / Chicago Cubs -170",
+        "Spread: Chicago White Sox 1.5 (-136) / Chicago Cubs -1.5 (+113)"
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "whatToWatch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-08-18-atlanta-braves-at-minnesota-twins",
+      "title": "Atlanta Braves at Minnesota Twins - 7:40 PM ET",
+      "label": "MLB Betting Board",
+      "summary": "Moneyline sets the win-probability baseline: Atlanta Braves -140 / Minnesota Twins +131. Spread frames the expected margin: Atlanta Braves -1.5 (+108) / Minnesota Twins 1.5 (-131). Total frames the scoring environment: 9 (Over -105 / Under -115). First listed moneyline implies roughly 58.3% win probability.",
+      "sourceUrl": "https://www.globalbettingreport.com",
+      "publishedAt": "2026-08-18T23:18:30.574475+00:00",
+      "reportDate": "2026-08-18",
+      "game": "Atlanta Braves at Minnesota Twins",
+      "market": [
+        "Game: Atlanta Braves at Minnesota Twins - 7:40 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: Atlanta Braves -140 / Minnesota Twins +131",
+        "Spread: Atlanta Braves -1.5 (+108) / Minnesota Twins 1.5 (-131)"
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "whatToWatch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-08-18-athletics-at-kansas-city-royals",
+      "title": "Athletics at Kansas City Royals - 7:40 PM ET",
+      "label": "MLB Betting Board",
+      "summary": "Moneyline sets the win-probability baseline: Athletics +147 / Kansas City Royals -158. Spread frames the expected margin: Athletics 1.5 (-155) / Kansas City Royals -1.5 (+128). Total frames the scoring environment: 9 (Over -111 / Under -109). First listed moneyline implies roughly 40.5% win probability.",
+      "sourceUrl": "https://www.globalbettingreport.com",
+      "publishedAt": "2026-08-18T23:18:30.574475+00:00",
+      "reportDate": "2026-08-18",
+      "game": "Athletics at Kansas City Royals",
+      "market": [
+        "Game: Athletics at Kansas City Royals - 7:40 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: Athletics +147 / Kansas City Royals -158",
+        "Spread: Athletics 1.5 (-155) / Kansas City Royals -1.5 (+128)"
       ],
       "impliedProbability": [],
       "whyItMatters": [
