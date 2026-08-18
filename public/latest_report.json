@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-18 01:24:53 AM ET",
-  "generated_at": "2026-08-18 01:24:53 AM ET",
-  "generated_utc": "2026-08-18T05:24:53.068459+00:00",
+  "updated_at": "2026-08-18 02:37:17 AM ET",
+  "generated_at": "2026-08-18 02:37:17 AM ET",
+  "generated_utc": "2026-08-18T06:37:17.464568+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -424,7 +424,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 01:24:53 AM ET"
+      "updated_at": "2026-08-18 02:37:17 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -461,7 +461,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 01:24:53 AM ET"
+      "updated_at": "2026-08-18 02:37:17 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -498,7 +498,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 01:24:53 AM ET"
+      "updated_at": "2026-08-18 02:37:17 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -535,7 +535,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 01:24:53 AM ET"
+      "updated_at": "2026-08-18 02:37:17 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -572,7 +572,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 01:24:53 AM ET"
+      "updated_at": "2026-08-18 02:37:17 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -609,7 +609,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 01:24:53 AM ET"
+      "updated_at": "2026-08-18 02:37:17 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 01:24:53 AM ET"
+      "updated_at": "2026-08-18 02:37:17 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,7 +683,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 01:24:53 AM ET"
+      "updated_at": "2026-08-18 02:37:17 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -720,26 +720,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 01:24:53 AM ET"
+      "updated_at": "2026-08-18 02:37:17 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Athletics at Kansas City Royals - 7:40 PM ET",
       "game": "Athletics at Kansas City Royals - 7:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Athletics +119 / Kansas City Royals -143 | Spread: Athletics 1.5 (-175) / Kansas City Royals -1.5 (+144) | Total: 9.5 (Over -114 / Under -105)",
+      "market": "Bookmaker: DraftKings | Moneyline: Athletics +119 / Kansas City Royals -143 | Spread: Athletics 1.5 (-175) / Kansas City Royals -1.5 (+144) | Total: 9.5 (Over -114 / Under -106)",
       "bookmaker": "DraftKings",
       "moneyline": "Athletics +119 / Kansas City Royals -143",
       "spread": "Athletics 1.5 (-175) / Kansas City Royals -1.5 (+144)",
-      "total": "9.5 (Over -114 / Under -105)",
+      "total": "9.5 (Over -114 / Under -106)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Athletics +119 / Kansas City Royals -143. Spread frames the expected margin: Athletics 1.5 (-175) / Kansas City Royals -1.5 (+144). Total frames the scoring environment: 9.5 (Over -114 / Under -105). First listed moneyline implies roughly 45.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +119 / Kansas City Royals -143. Spread frames the expected margin: Athletics 1.5 (-175) / Kansas City Royals -1.5 (+144). Total frames the scoring environment: 9.5 (Over -114 / Under -106). First listed moneyline implies roughly 45.7% win probability.",
       "key_data": [
         "Game: Athletics at Kansas City Royals - 7:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Athletics +119 / Kansas City Royals -143",
         "Spread: Athletics 1.5 (-175) / Kansas City Royals -1.5 (+144)",
-        "Total: 9.5 (Over -114 / Under -105)"
+        "Total: 9.5 (Over -114 / Under -106)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -757,7 +757,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 01:24:53 AM ET"
+      "updated_at": "2026-08-18 02:37:17 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -794,7 +794,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 01:24:53 AM ET"
+      "updated_at": "2026-08-18 02:37:17 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -831,14 +831,14 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 01:24:53 AM ET"
+      "updated_at": "2026-08-18 02:37:17 AM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-18T05:24:53.011595+00:00",
+    "verified_at": "2026-08-18T06:37:17.410884+00:00",
     "total_verified_events": 12,
-    "source_sha256": "a65e14760cc48540ab0104d9075d49a846aee7e96021d32983a65b11c18e7232"
+    "source_sha256": "d7f0bcb1ba292721ba359aafe20dd453e822240a369ba1c2cc8bc0fa0870c127"
   }
 }
