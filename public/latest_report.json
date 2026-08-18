@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-18 05:20:17 PM ET",
-  "generated_at": "2026-08-18 05:20:17 PM ET",
-  "generated_utc": "2026-08-18T21:20:17.383313+00:00",
+  "updated_at": "2026-08-18 06:19:29 PM ET",
+  "generated_at": "2026-08-18 06:19:29 PM ET",
+  "generated_utc": "2026-08-18T22:19:29.842989+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -36,14 +36,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +195 / Philadelphia Phillies -211. Spread frames the expected margin: Miami Marlins 1.5 (-120) / Philadelphia Phillies -1.5 (-101). Total frames the scoring environment: 8 (Over -119 / Under -102). First listed moneyline implies roughly 33.9% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +195 / Philadelphia Phillies -211. Spread frames the expected margin: Miami Marlins 1.5 (-118) / Philadelphia Phillies -1.5 (-102). Total frames the scoring environment: 8.5 (Over -101 / Under -119). First listed moneyline implies roughly 33.9% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Miami Marlins +195 / Philadelphia Phillies -211",
-        "Spread: Miami Marlins 1.5 (-120) / Philadelphia Phillies -1.5 (-101)"
+        "Spread: Miami Marlins 1.5 (-118) / Philadelphia Phillies -1.5 (-102)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -105,13 +105,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "Detroit Tigers at Pittsburgh Pirates - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +141 / Pittsburgh Pirates -151. Spread frames the expected margin: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138). Total frames the scoring environment: 8 (Over -110 / Under -109). First listed moneyline implies roughly 41.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +142 / Pittsburgh Pirates -152. Spread frames the expected margin: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138). Total frames the scoring environment: 8 (Over -110 / Under -109). First listed moneyline implies roughly 41.3% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Detroit Tigers at Pittsburgh Pirates - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Detroit Tigers +141 / Pittsburgh Pirates -151",
+        "Moneyline: Detroit Tigers +142 / Pittsburgh Pirates -152",
         "Spread: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138)"
       ],
       "why_it_matters": [
@@ -222,14 +222,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +195 / Philadelphia Phillies -211. Spread frames the expected margin: Miami Marlins 1.5 (-120) / Philadelphia Phillies -1.5 (-101). Total frames the scoring environment: 8 (Over -119 / Under -102). First listed moneyline implies roughly 33.9% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +195 / Philadelphia Phillies -211. Spread frames the expected margin: Miami Marlins 1.5 (-118) / Philadelphia Phillies -1.5 (-102). Total frames the scoring environment: 8.5 (Over -101 / Under -119). First listed moneyline implies roughly 33.9% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Miami Marlins +195 / Philadelphia Phillies -211",
-        "Spread: Miami Marlins 1.5 (-120) / Philadelphia Phillies -1.5 (-101)"
+        "Spread: Miami Marlins 1.5 (-118) / Philadelphia Phillies -1.5 (-102)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -291,13 +291,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "Detroit Tigers at Pittsburgh Pirates - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +141 / Pittsburgh Pirates -151. Spread frames the expected margin: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138). Total frames the scoring environment: 8 (Over -110 / Under -109). First listed moneyline implies roughly 41.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +142 / Pittsburgh Pirates -152. Spread frames the expected margin: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138). Total frames the scoring environment: 8 (Over -110 / Under -109). First listed moneyline implies roughly 41.3% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Detroit Tigers at Pittsburgh Pirates - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Detroit Tigers +141 / Pittsburgh Pirates -151",
+        "Moneyline: Detroit Tigers +142 / Pittsburgh Pirates -152",
         "Spread: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138)"
       ],
       "why_it_matters": [
@@ -424,26 +424,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 05:20:17 PM ET"
+      "updated_at": "2026-08-18 06:19:29 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
       "game": "Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Miami Marlins +195 / Philadelphia Phillies -211 | Spread: Miami Marlins 1.5 (-120) / Philadelphia Phillies -1.5 (-101) | Total: 8 (Over -119 / Under -102)",
+      "market": "Bookmaker: DraftKings | Moneyline: Miami Marlins +195 / Philadelphia Phillies -211 | Spread: Miami Marlins 1.5 (-118) / Philadelphia Phillies -1.5 (-102) | Total: 8.5 (Over -101 / Under -119)",
       "bookmaker": "DraftKings",
       "moneyline": "Miami Marlins +195 / Philadelphia Phillies -211",
-      "spread": "Miami Marlins 1.5 (-120) / Philadelphia Phillies -1.5 (-101)",
-      "total": "8 (Over -119 / Under -102)",
+      "spread": "Miami Marlins 1.5 (-118) / Philadelphia Phillies -1.5 (-102)",
+      "total": "8.5 (Over -101 / Under -119)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +195 / Philadelphia Phillies -211. Spread frames the expected margin: Miami Marlins 1.5 (-120) / Philadelphia Phillies -1.5 (-101). Total frames the scoring environment: 8 (Over -119 / Under -102). First listed moneyline implies roughly 33.9% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Miami Marlins +195 / Philadelphia Phillies -211. Spread frames the expected margin: Miami Marlins 1.5 (-118) / Philadelphia Phillies -1.5 (-102). Total frames the scoring environment: 8.5 (Over -101 / Under -119). First listed moneyline implies roughly 33.9% win probability.",
       "key_data": [
         "Game: Miami Marlins at Philadelphia Phillies - 6:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Miami Marlins +195 / Philadelphia Phillies -211",
-        "Spread: Miami Marlins 1.5 (-120) / Philadelphia Phillies -1.5 (-101)",
-        "Total: 8 (Over -119 / Under -102)"
+        "Spread: Miami Marlins 1.5 (-118) / Philadelphia Phillies -1.5 (-102)",
+        "Total: 8.5 (Over -101 / Under -119)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -461,7 +461,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 05:20:17 PM ET"
+      "updated_at": "2026-08-18 06:19:29 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -498,7 +498,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 05:20:17 PM ET"
+      "updated_at": "2026-08-18 06:19:29 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -535,24 +535,24 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 05:20:17 PM ET"
+      "updated_at": "2026-08-18 06:19:29 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Detroit Tigers at Pittsburgh Pirates - 6:40 PM ET",
       "game": "Detroit Tigers at Pittsburgh Pirates - 6:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Detroit Tigers +141 / Pittsburgh Pirates -151 | Spread: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138) | Total: 8 (Over -110 / Under -109)",
+      "market": "Bookmaker: DraftKings | Moneyline: Detroit Tigers +142 / Pittsburgh Pirates -152 | Spread: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138) | Total: 8 (Over -110 / Under -109)",
       "bookmaker": "DraftKings",
-      "moneyline": "Detroit Tigers +141 / Pittsburgh Pirates -151",
+      "moneyline": "Detroit Tigers +142 / Pittsburgh Pirates -152",
       "spread": "Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138)",
       "total": "8 (Over -110 / Under -109)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +141 / Pittsburgh Pirates -151. Spread frames the expected margin: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138). Total frames the scoring environment: 8 (Over -110 / Under -109). First listed moneyline implies roughly 41.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +142 / Pittsburgh Pirates -152. Spread frames the expected margin: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138). Total frames the scoring environment: 8 (Over -110 / Under -109). First listed moneyline implies roughly 41.3% win probability.",
       "key_data": [
         "Game: Detroit Tigers at Pittsburgh Pirates - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Detroit Tigers +141 / Pittsburgh Pirates -151",
+        "Moneyline: Detroit Tigers +142 / Pittsburgh Pirates -152",
         "Spread: Detroit Tigers 1.5 (-168) / Pittsburgh Pirates -1.5 (+138)",
         "Total: 8 (Over -110 / Under -109)"
       ],
@@ -572,7 +572,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 05:20:17 PM ET"
+      "updated_at": "2026-08-18 06:19:29 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -609,7 +609,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 05:20:17 PM ET"
+      "updated_at": "2026-08-18 06:19:29 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 05:20:17 PM ET"
+      "updated_at": "2026-08-18 06:19:29 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,26 +683,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 05:20:17 PM ET"
+      "updated_at": "2026-08-18 06:19:29 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Atlanta Braves at Minnesota Twins - 7:40 PM ET",
       "game": "Atlanta Braves at Minnesota Twins - 7:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Atlanta Braves -136 / Minnesota Twins +127 | Spread: Atlanta Braves -1.5 (+108) / Minnesota Twins 1.5 (-131) | Total: 8.5 (Over -122 / Under +101)",
+      "market": "Bookmaker: DraftKings | Moneyline: Atlanta Braves -140 / Minnesota Twins +131 | Spread: Atlanta Braves -1.5 (+108) / Minnesota Twins 1.5 (-131) | Total: 9 (Over +100 / Under -120)",
       "bookmaker": "DraftKings",
-      "moneyline": "Atlanta Braves -136 / Minnesota Twins +127",
+      "moneyline": "Atlanta Braves -140 / Minnesota Twins +131",
       "spread": "Atlanta Braves -1.5 (+108) / Minnesota Twins 1.5 (-131)",
-      "total": "8.5 (Over -122 / Under +101)",
+      "total": "9 (Over +100 / Under -120)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Braves -136 / Minnesota Twins +127. Spread frames the expected margin: Atlanta Braves -1.5 (+108) / Minnesota Twins 1.5 (-131). Total frames the scoring environment: 8.5 (Over -122 / Under +101). First listed moneyline implies roughly 57.6% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Braves -140 / Minnesota Twins +131. Spread frames the expected margin: Atlanta Braves -1.5 (+108) / Minnesota Twins 1.5 (-131). Total frames the scoring environment: 9 (Over +100 / Under -120). First listed moneyline implies roughly 58.3% win probability.",
       "key_data": [
         "Game: Atlanta Braves at Minnesota Twins - 7:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Atlanta Braves -136 / Minnesota Twins +127",
+        "Moneyline: Atlanta Braves -140 / Minnesota Twins +131",
         "Spread: Atlanta Braves -1.5 (+108) / Minnesota Twins 1.5 (-131)",
-        "Total: 8.5 (Over -122 / Under +101)"
+        "Total: 9 (Over +100 / Under -120)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -720,26 +720,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 05:20:17 PM ET"
+      "updated_at": "2026-08-18 06:19:29 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Athletics at Kansas City Royals - 7:40 PM ET",
       "game": "Athletics at Kansas City Royals - 7:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Athletics +147 / Kansas City Royals -158 | Spread: Athletics 1.5 (-155) / Kansas City Royals -1.5 (+128) | Total: 9 (Over -108 / Under -112)",
+      "market": "Bookmaker: DraftKings | Moneyline: Athletics +147 / Kansas City Royals -158 | Spread: Athletics 1.5 (-155) / Kansas City Royals -1.5 (+128) | Total: 9 (Over -111 / Under -109)",
       "bookmaker": "DraftKings",
       "moneyline": "Athletics +147 / Kansas City Royals -158",
       "spread": "Athletics 1.5 (-155) / Kansas City Royals -1.5 (+128)",
-      "total": "9 (Over -108 / Under -112)",
+      "total": "9 (Over -111 / Under -109)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Athletics +147 / Kansas City Royals -158. Spread frames the expected margin: Athletics 1.5 (-155) / Kansas City Royals -1.5 (+128). Total frames the scoring environment: 9 (Over -108 / Under -112). First listed moneyline implies roughly 40.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +147 / Kansas City Royals -158. Spread frames the expected margin: Athletics 1.5 (-155) / Kansas City Royals -1.5 (+128). Total frames the scoring environment: 9 (Over -111 / Under -109). First listed moneyline implies roughly 40.5% win probability.",
       "key_data": [
         "Game: Athletics at Kansas City Royals - 7:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Athletics +147 / Kansas City Royals -158",
         "Spread: Athletics 1.5 (-155) / Kansas City Royals -1.5 (+128)",
-        "Total: 9 (Over -108 / Under -112)"
+        "Total: 9 (Over -111 / Under -109)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -757,7 +757,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 05:20:17 PM ET"
+      "updated_at": "2026-08-18 06:19:29 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -794,26 +794,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 05:20:17 PM ET"
+      "updated_at": "2026-08-18 06:19:29 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Washington Nationals at Texas Rangers - 8:05 PM ET",
       "game": "Washington Nationals at Texas Rangers - 8:05 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Washington Nationals +137 / Texas Rangers -147 | Spread: Washington Nationals 1.5 (-168) / Texas Rangers -1.5 (+139) | Total: 8 (Over -101 / Under -119)",
+      "market": "Bookmaker: DraftKings | Moneyline: Washington Nationals +131 / Texas Rangers -141 | Spread: Washington Nationals 1.5 (-168) / Texas Rangers -1.5 (+139) | Total: 7.5 (Over -118 / Under -102)",
       "bookmaker": "DraftKings",
-      "moneyline": "Washington Nationals +137 / Texas Rangers -147",
+      "moneyline": "Washington Nationals +131 / Texas Rangers -141",
       "spread": "Washington Nationals 1.5 (-168) / Texas Rangers -1.5 (+139)",
-      "total": "8 (Over -101 / Under -119)",
+      "total": "7.5 (Over -118 / Under -102)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +137 / Texas Rangers -147. Spread frames the expected margin: Washington Nationals 1.5 (-168) / Texas Rangers -1.5 (+139). Total frames the scoring environment: 8 (Over -101 / Under -119). First listed moneyline implies roughly 42.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +131 / Texas Rangers -141. Spread frames the expected margin: Washington Nationals 1.5 (-168) / Texas Rangers -1.5 (+139). Total frames the scoring environment: 7.5 (Over -118 / Under -102). First listed moneyline implies roughly 43.3% win probability.",
       "key_data": [
         "Game: Washington Nationals at Texas Rangers - 8:05 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Washington Nationals +137 / Texas Rangers -147",
+        "Moneyline: Washington Nationals +131 / Texas Rangers -141",
         "Spread: Washington Nationals 1.5 (-168) / Texas Rangers -1.5 (+139)",
-        "Total: 8 (Over -101 / Under -119)"
+        "Total: 7.5 (Over -118 / Under -102)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -831,14 +831,14 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-18 05:20:17 PM ET"
+      "updated_at": "2026-08-18 06:19:29 PM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-18T21:20:17.329870+00:00",
+    "verified_at": "2026-08-18T22:19:29.788153+00:00",
     "total_verified_events": 12,
-    "source_sha256": "d6b392e2958904956b6fa8ed9db664844a1336ad2516b8d829ae103497a17f55"
+    "source_sha256": "5fc54cfa986282db8f5b54ad350c2016ccf1ce10fabc721591dac6a85bb6ad34"
   }
 }
