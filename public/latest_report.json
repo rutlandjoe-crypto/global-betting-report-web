@@ -5,22 +5,22 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-19 04:33:02 AM ET",
-  "generated_at": "2026-08-19 04:33:02 AM ET",
-  "generated_utc": "2026-08-19T08:33:02.719208+00:00",
+  "updated_at": "2026-08-19 05:30:08 AM ET",
+  "generated_at": "2026-08-19 05:30:08 AM ET",
+  "generated_utc": "2026-08-19T09:30:08.123458+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
       "league": "MLB Betting Board",
       "headline": "Detroit Tigers at Pittsburgh Pirates - 12:35 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +142 / Pittsburgh Pirates -153. Spread frames the expected margin: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+137). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 41.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +139 / Pittsburgh Pirates -149. Spread frames the expected margin: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+138). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 41.8% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Detroit Tigers at Pittsburgh Pirates - 12:35 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Detroit Tigers +142 / Pittsburgh Pirates -153",
-        "Spread: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+137)"
+        "Moneyline: Detroit Tigers +139 / Pittsburgh Pirates -149",
+        "Spread: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+138)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -199,14 +199,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Detroit Tigers at Pittsburgh Pirates - 12:35 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +142 / Pittsburgh Pirates -153. Spread frames the expected margin: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+137). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 41.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +139 / Pittsburgh Pirates -149. Spread frames the expected margin: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+138). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 41.8% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Detroit Tigers at Pittsburgh Pirates - 12:35 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Detroit Tigers +142 / Pittsburgh Pirates -153",
-        "Spread: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+137)"
+        "Moneyline: Detroit Tigers +139 / Pittsburgh Pirates -149",
+        "Spread: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+138)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -394,18 +394,18 @@
       "league": "MLB Betting Board",
       "headline": "Detroit Tigers at Pittsburgh Pirates - 12:35 PM ET",
       "game": "Detroit Tigers at Pittsburgh Pirates - 12:35 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Detroit Tigers +142 / Pittsburgh Pirates -153 | Spread: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+137) | Total: 8 (Over -112 / Under -108)",
+      "market": "Bookmaker: DraftKings | Moneyline: Detroit Tigers +139 / Pittsburgh Pirates -149 | Spread: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+138) | Total: 8 (Over -112 / Under -108)",
       "bookmaker": "DraftKings",
-      "moneyline": "Detroit Tigers +142 / Pittsburgh Pirates -153",
-      "spread": "Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+137)",
+      "moneyline": "Detroit Tigers +139 / Pittsburgh Pirates -149",
+      "spread": "Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+138)",
       "total": "8 (Over -112 / Under -108)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +142 / Pittsburgh Pirates -153. Spread frames the expected margin: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+137). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 41.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +139 / Pittsburgh Pirates -149. Spread frames the expected margin: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+138). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 41.8% win probability.",
       "key_data": [
         "Game: Detroit Tigers at Pittsburgh Pirates - 12:35 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Detroit Tigers +142 / Pittsburgh Pirates -153",
-        "Spread: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+137)",
+        "Moneyline: Detroit Tigers +139 / Pittsburgh Pirates -149",
+        "Spread: Detroit Tigers 1.5 (-167) / Pittsburgh Pirates -1.5 (+138)",
         "Total: 8 (Over -112 / Under -108)"
       ],
       "why_it_matters": [
@@ -424,7 +424,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 04:33:02 AM ET"
+      "updated_at": "2026-08-19 05:30:08 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -461,7 +461,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 04:33:02 AM ET"
+      "updated_at": "2026-08-19 05:30:08 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -498,7 +498,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 04:33:02 AM ET"
+      "updated_at": "2026-08-19 05:30:08 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -535,7 +535,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 04:33:02 AM ET"
+      "updated_at": "2026-08-19 05:30:08 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -572,7 +572,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 04:33:02 AM ET"
+      "updated_at": "2026-08-19 05:30:08 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -609,7 +609,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 04:33:02 AM ET"
+      "updated_at": "2026-08-19 05:30:08 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 04:33:02 AM ET"
+      "updated_at": "2026-08-19 05:30:08 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,7 +683,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 04:33:02 AM ET"
+      "updated_at": "2026-08-19 05:30:08 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -720,7 +720,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 04:33:02 AM ET"
+      "updated_at": "2026-08-19 05:30:08 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -757,7 +757,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 04:33:02 AM ET"
+      "updated_at": "2026-08-19 05:30:08 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -794,7 +794,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 04:33:02 AM ET"
+      "updated_at": "2026-08-19 05:30:08 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -831,14 +831,14 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 04:33:02 AM ET"
+      "updated_at": "2026-08-19 05:30:08 AM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-19T08:33:02.663583+00:00",
+    "verified_at": "2026-08-19T09:30:08.071481+00:00",
     "total_verified_events": 12,
-    "source_sha256": "f5cc9070e8414cfd6b7d6326970f23096374df3be89dd817835427f402591704"
+    "source_sha256": "513b10fd40641d82c47266490cc6044ae9ff3d4227c11ff32bd16c817cb88905"
   }
 }
