@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-19 03:34:50 AM ET",
-  "generated_at": "2026-08-19 03:34:50 AM ET",
-  "generated_utc": "2026-08-19T07:34:50.414491+00:00",
+  "updated_at": "2026-08-19 04:33:02 AM ET",
+  "generated_at": "2026-08-19 04:33:02 AM ET",
+  "generated_utc": "2026-08-19T08:33:02.719208+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -105,13 +105,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "Arizona Diamondbacks at Boston Red Sox - 4:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Arizona Diamondbacks +123 / Boston Red Sox -149. Spread frames the expected margin: Arizona Diamondbacks 1.5 (-174) / Boston Red Sox -1.5 (+143). Total frames the scoring environment: 8.5 (Over -103 / Under -117). First listed moneyline implies roughly 44.8% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Arizona Diamondbacks +131 / Boston Red Sox -140. Spread frames the expected margin: Arizona Diamondbacks 1.5 (-174) / Boston Red Sox -1.5 (+143). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 43.3% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Arizona Diamondbacks at Boston Red Sox - 4:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Arizona Diamondbacks +123 / Boston Red Sox -149",
+        "Moneyline: Arizona Diamondbacks +131 / Boston Red Sox -140",
         "Spread: Arizona Diamondbacks 1.5 (-174) / Boston Red Sox -1.5 (+143)"
       ],
       "why_it_matters": [
@@ -291,13 +291,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "Arizona Diamondbacks at Boston Red Sox - 4:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Arizona Diamondbacks +123 / Boston Red Sox -149. Spread frames the expected margin: Arizona Diamondbacks 1.5 (-174) / Boston Red Sox -1.5 (+143). Total frames the scoring environment: 8.5 (Over -103 / Under -117). First listed moneyline implies roughly 44.8% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Arizona Diamondbacks +131 / Boston Red Sox -140. Spread frames the expected margin: Arizona Diamondbacks 1.5 (-174) / Boston Red Sox -1.5 (+143). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 43.3% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Arizona Diamondbacks at Boston Red Sox - 4:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Arizona Diamondbacks +123 / Boston Red Sox -149",
+        "Moneyline: Arizona Diamondbacks +131 / Boston Red Sox -140",
         "Spread: Arizona Diamondbacks 1.5 (-174) / Boston Red Sox -1.5 (+143)"
       ],
       "why_it_matters": [
@@ -424,7 +424,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 03:34:50 AM ET"
+      "updated_at": "2026-08-19 04:33:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -461,7 +461,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 03:34:50 AM ET"
+      "updated_at": "2026-08-19 04:33:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -498,7 +498,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 03:34:50 AM ET"
+      "updated_at": "2026-08-19 04:33:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -535,26 +535,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 03:34:50 AM ET"
+      "updated_at": "2026-08-19 04:33:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Arizona Diamondbacks at Boston Red Sox - 4:10 PM ET",
       "game": "Arizona Diamondbacks at Boston Red Sox - 4:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Arizona Diamondbacks +123 / Boston Red Sox -149 | Spread: Arizona Diamondbacks 1.5 (-174) / Boston Red Sox -1.5 (+143) | Total: 8.5 (Over -103 / Under -117)",
+      "market": "Bookmaker: DraftKings | Moneyline: Arizona Diamondbacks +131 / Boston Red Sox -140 | Spread: Arizona Diamondbacks 1.5 (-174) / Boston Red Sox -1.5 (+143) | Total: 8 (Over -118 / Under -102)",
       "bookmaker": "DraftKings",
-      "moneyline": "Arizona Diamondbacks +123 / Boston Red Sox -149",
+      "moneyline": "Arizona Diamondbacks +131 / Boston Red Sox -140",
       "spread": "Arizona Diamondbacks 1.5 (-174) / Boston Red Sox -1.5 (+143)",
-      "total": "8.5 (Over -103 / Under -117)",
+      "total": "8 (Over -118 / Under -102)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Arizona Diamondbacks +123 / Boston Red Sox -149. Spread frames the expected margin: Arizona Diamondbacks 1.5 (-174) / Boston Red Sox -1.5 (+143). Total frames the scoring environment: 8.5 (Over -103 / Under -117). First listed moneyline implies roughly 44.8% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Arizona Diamondbacks +131 / Boston Red Sox -140. Spread frames the expected margin: Arizona Diamondbacks 1.5 (-174) / Boston Red Sox -1.5 (+143). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 43.3% win probability.",
       "key_data": [
         "Game: Arizona Diamondbacks at Boston Red Sox - 4:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Arizona Diamondbacks +123 / Boston Red Sox -149",
+        "Moneyline: Arizona Diamondbacks +131 / Boston Red Sox -140",
         "Spread: Arizona Diamondbacks 1.5 (-174) / Boston Red Sox -1.5 (+143)",
-        "Total: 8.5 (Over -103 / Under -117)"
+        "Total: 8 (Over -118 / Under -102)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -572,7 +572,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 03:34:50 AM ET"
+      "updated_at": "2026-08-19 04:33:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -609,7 +609,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 03:34:50 AM ET"
+      "updated_at": "2026-08-19 04:33:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 03:34:50 AM ET"
+      "updated_at": "2026-08-19 04:33:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,7 +683,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 03:34:50 AM ET"
+      "updated_at": "2026-08-19 04:33:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -720,7 +720,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 03:34:50 AM ET"
+      "updated_at": "2026-08-19 04:33:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -757,26 +757,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 03:34:50 AM ET"
+      "updated_at": "2026-08-19 04:33:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Athletics at Kansas City Royals - 7:40 PM ET",
       "game": "Athletics at Kansas City Royals - 7:40 PM ET",
-      "market": "Bookmaker: Bet365.US.NJ | Moneyline: Athletics +115 / Kansas City Royals -139 | Spread: Athletics 1.5 (-208) / Kansas City Royals -1.5 (+155) | Total: 8.5 (Over +101 / Under -132)",
-      "bookmaker": "Bet365.US.NJ",
-      "moneyline": "Athletics +115 / Kansas City Royals -139",
-      "spread": "Athletics 1.5 (-208) / Kansas City Royals -1.5 (+155)",
-      "total": "8.5 (Over +101 / Under -132)",
+      "market": "Bookmaker: DraftKings | Moneyline: Athletics +113 / Kansas City Royals -136 | Spread: Athletics 1.5 (-194) / Kansas City Royals -1.5 (+159) | Total: 8.5 (Over -105 / Under -115)",
+      "bookmaker": "DraftKings",
+      "moneyline": "Athletics +113 / Kansas City Royals -136",
+      "spread": "Athletics 1.5 (-194) / Kansas City Royals -1.5 (+159)",
+      "total": "8.5 (Over -105 / Under -115)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Athletics +115 / Kansas City Royals -139. Spread frames the expected margin: Athletics 1.5 (-208) / Kansas City Royals -1.5 (+155). Total frames the scoring environment: 8.5 (Over +101 / Under -132). First listed moneyline implies roughly 46.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +113 / Kansas City Royals -136. Spread frames the expected margin: Athletics 1.5 (-194) / Kansas City Royals -1.5 (+159). Total frames the scoring environment: 8.5 (Over -105 / Under -115). First listed moneyline implies roughly 46.9% win probability.",
       "key_data": [
         "Game: Athletics at Kansas City Royals - 7:40 PM ET",
-        "Market source: Bet365.US.NJ",
-        "Moneyline: Athletics +115 / Kansas City Royals -139",
-        "Spread: Athletics 1.5 (-208) / Kansas City Royals -1.5 (+155)",
-        "Total: 8.5 (Over +101 / Under -132)"
+        "Market source: DraftKings",
+        "Moneyline: Athletics +113 / Kansas City Royals -136",
+        "Spread: Athletics 1.5 (-194) / Kansas City Royals -1.5 (+159)",
+        "Total: 8.5 (Over -105 / Under -115)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -794,7 +794,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 03:34:50 AM ET"
+      "updated_at": "2026-08-19 04:33:02 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -831,14 +831,14 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 03:34:50 AM ET"
+      "updated_at": "2026-08-19 04:33:02 AM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-19T07:34:50.361195+00:00",
+    "verified_at": "2026-08-19T08:33:02.663583+00:00",
     "total_verified_events": 12,
-    "source_sha256": "059792cb36b3c5d6f995aacfbc4e00fcc6fad7ccef9e52bf18cf57e4fda5e1e4"
+    "source_sha256": "f5cc9070e8414cfd6b7d6326970f23096374df3be89dd817835427f402591704"
   }
 }
