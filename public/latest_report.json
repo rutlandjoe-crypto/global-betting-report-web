@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-20 04:33:34 AM ET",
-  "generated_at": "2026-08-20 04:33:34 AM ET",
-  "generated_utc": "2026-08-20T08:33:34.594879+00:00",
+  "updated_at": "2026-08-20 05:30:41 AM ET",
+  "generated_at": "2026-08-20 05:30:41 AM ET",
+  "generated_utc": "2026-08-20T09:30:41.341376+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -82,7 +82,7 @@
     {
       "league": "MLB Betting Board",
       "headline": "Athletics at Kansas City Royals - 2:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Athletics +126 / Kansas City Royals -136. Spread frames the expected margin: Athletics 1.5 (-181) / Kansas City Royals -1.5 (+149). Total frames the scoring environment: 8.5 (Over -122 / Under +101). First listed moneyline implies roughly 44.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +126 / Kansas City Royals -136. Spread frames the expected margin: Athletics 1.5 (-181) / Kansas City Royals -1.5 (+149). Total frames the scoring environment: 8.5 (Over -120 / Under +100). First listed moneyline implies roughly 44.2% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
@@ -151,7 +151,7 @@
     {
       "league": "MLB Betting Board",
       "headline": "New York Yankees at Baltimore Orioles - 6:35 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees -131 / Baltimore Orioles +109. Spread frames the expected margin: New York Yankees -1.5 (+137) / Baltimore Orioles 1.5 (-167). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 56.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees -131 / Baltimore Orioles +109. Spread frames the expected margin: New York Yankees -1.5 (+137) / Baltimore Orioles 1.5 (-167). Total frames the scoring environment: 8 (Over -109 / Under -111). First listed moneyline implies roughly 56.7% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
@@ -268,7 +268,7 @@
     {
       "league": "MLB Betting Board",
       "headline": "Athletics at Kansas City Royals - 2:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Athletics +126 / Kansas City Royals -136. Spread frames the expected margin: Athletics 1.5 (-181) / Kansas City Royals -1.5 (+149). Total frames the scoring environment: 8.5 (Over -122 / Under +101). First listed moneyline implies roughly 44.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +126 / Kansas City Royals -136. Spread frames the expected margin: Athletics 1.5 (-181) / Kansas City Royals -1.5 (+149). Total frames the scoring environment: 8.5 (Over -120 / Under +100). First listed moneyline implies roughly 44.2% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
@@ -337,7 +337,7 @@
     {
       "league": "MLB Betting Board",
       "headline": "New York Yankees at Baltimore Orioles - 6:35 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees -131 / Baltimore Orioles +109. Spread frames the expected margin: New York Yankees -1.5 (+137) / Baltimore Orioles 1.5 (-167). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 56.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees -131 / Baltimore Orioles +109. Spread frames the expected margin: New York Yankees -1.5 (+137) / Baltimore Orioles 1.5 (-167). Total frames the scoring environment: 8 (Over -109 / Under -111). First listed moneyline implies roughly 56.7% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
@@ -424,7 +424,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 04:33:34 AM ET"
+      "updated_at": "2026-08-20 05:30:41 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -461,7 +461,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 04:33:34 AM ET"
+      "updated_at": "2026-08-20 05:30:41 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -498,26 +498,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 04:33:34 AM ET"
+      "updated_at": "2026-08-20 05:30:41 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Athletics at Kansas City Royals - 2:10 PM ET",
       "game": "Athletics at Kansas City Royals - 2:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Athletics +126 / Kansas City Royals -136 | Spread: Athletics 1.5 (-181) / Kansas City Royals -1.5 (+149) | Total: 8.5 (Over -122 / Under +101)",
+      "market": "Bookmaker: DraftKings | Moneyline: Athletics +126 / Kansas City Royals -136 | Spread: Athletics 1.5 (-181) / Kansas City Royals -1.5 (+149) | Total: 8.5 (Over -120 / Under +100)",
       "bookmaker": "DraftKings",
       "moneyline": "Athletics +126 / Kansas City Royals -136",
       "spread": "Athletics 1.5 (-181) / Kansas City Royals -1.5 (+149)",
-      "total": "8.5 (Over -122 / Under +101)",
+      "total": "8.5 (Over -120 / Under +100)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Athletics +126 / Kansas City Royals -136. Spread frames the expected margin: Athletics 1.5 (-181) / Kansas City Royals -1.5 (+149). Total frames the scoring environment: 8.5 (Over -122 / Under +101). First listed moneyline implies roughly 44.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +126 / Kansas City Royals -136. Spread frames the expected margin: Athletics 1.5 (-181) / Kansas City Royals -1.5 (+149). Total frames the scoring environment: 8.5 (Over -120 / Under +100). First listed moneyline implies roughly 44.2% win probability.",
       "key_data": [
         "Game: Athletics at Kansas City Royals - 2:10 PM ET",
         "Market source: DraftKings",
         "Moneyline: Athletics +126 / Kansas City Royals -136",
         "Spread: Athletics 1.5 (-181) / Kansas City Royals -1.5 (+149)",
-        "Total: 8.5 (Over -122 / Under +101)"
+        "Total: 8.5 (Over -120 / Under +100)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -535,7 +535,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 04:33:34 AM ET"
+      "updated_at": "2026-08-20 05:30:41 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -572,7 +572,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 04:33:34 AM ET"
+      "updated_at": "2026-08-20 05:30:41 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -609,26 +609,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 04:33:34 AM ET"
+      "updated_at": "2026-08-20 05:30:41 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "New York Yankees at Baltimore Orioles - 6:35 PM ET",
       "game": "New York Yankees at Baltimore Orioles - 6:35 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: New York Yankees -131 / Baltimore Orioles +109 | Spread: New York Yankees -1.5 (+137) / Baltimore Orioles 1.5 (-167) | Total: 8 (Over -112 / Under -108)",
+      "market": "Bookmaker: DraftKings | Moneyline: New York Yankees -131 / Baltimore Orioles +109 | Spread: New York Yankees -1.5 (+137) / Baltimore Orioles 1.5 (-167) | Total: 8 (Over -109 / Under -111)",
       "bookmaker": "DraftKings",
       "moneyline": "New York Yankees -131 / Baltimore Orioles +109",
       "spread": "New York Yankees -1.5 (+137) / Baltimore Orioles 1.5 (-167)",
-      "total": "8 (Over -112 / Under -108)",
+      "total": "8 (Over -109 / Under -111)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees -131 / Baltimore Orioles +109. Spread frames the expected margin: New York Yankees -1.5 (+137) / Baltimore Orioles 1.5 (-167). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 56.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees -131 / Baltimore Orioles +109. Spread frames the expected margin: New York Yankees -1.5 (+137) / Baltimore Orioles 1.5 (-167). Total frames the scoring environment: 8 (Over -109 / Under -111). First listed moneyline implies roughly 56.7% win probability.",
       "key_data": [
         "Game: New York Yankees at Baltimore Orioles - 6:35 PM ET",
         "Market source: DraftKings",
         "Moneyline: New York Yankees -131 / Baltimore Orioles +109",
         "Spread: New York Yankees -1.5 (+137) / Baltimore Orioles 1.5 (-167)",
-        "Total: 8 (Over -112 / Under -108)"
+        "Total: 8 (Over -109 / Under -111)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 04:33:34 AM ET"
+      "updated_at": "2026-08-20 05:30:41 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,7 +683,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 04:33:34 AM ET"
+      "updated_at": "2026-08-20 05:30:41 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -720,14 +720,14 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 04:33:34 AM ET"
+      "updated_at": "2026-08-20 05:30:41 AM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-20T08:33:34.538106+00:00",
+    "verified_at": "2026-08-20T09:30:41.285095+00:00",
     "total_verified_events": 9,
-    "source_sha256": "1309450db0685e29332c5a05b35b7ea20b47a100a04fb95a5c2d31d7e729626a"
+    "source_sha256": "b9a86bf86b1f61ab1920fe7940235ecaee57bcad776b45178d48852bcedddbb2"
   }
 }
