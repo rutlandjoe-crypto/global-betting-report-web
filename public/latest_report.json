@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-20 02:33:56 PM ET",
-  "generated_at": "2026-08-20 02:33:56 PM ET",
-  "generated_utc": "2026-08-20T18:33:56.235708+00:00",
+  "updated_at": "2026-08-20 03:27:59 PM ET",
+  "generated_at": "2026-08-20 03:27:59 PM ET",
+  "generated_utc": "2026-08-20T19:27:59.828576+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -424,7 +424,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 02:33:56 PM ET"
+      "updated_at": "2026-08-20 03:27:59 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -461,7 +461,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 02:33:56 PM ET"
+      "updated_at": "2026-08-20 03:27:59 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -498,7 +498,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 02:33:56 PM ET"
+      "updated_at": "2026-08-20 03:27:59 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -535,7 +535,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 02:33:56 PM ET"
+      "updated_at": "2026-08-20 03:27:59 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -572,7 +572,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 02:33:56 PM ET"
+      "updated_at": "2026-08-20 03:27:59 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -609,7 +609,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 02:33:56 PM ET"
+      "updated_at": "2026-08-20 03:27:59 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 02:33:56 PM ET"
+      "updated_at": "2026-08-20 03:27:59 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,26 +683,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 02:33:56 PM ET"
+      "updated_at": "2026-08-20 03:27:59 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Detroit Tigers at Kansas City Royals - 8:10 PM ET",
       "game": "Detroit Tigers at Kansas City Royals - 8:10 PM ET",
-      "market": "Bookmaker: FanDuel | Moneyline: Detroit Tigers -120 / Kansas City Royals +102 | Spread: Detroit Tigers -1.5 (+140) / Kansas City Royals 1.5 (-170) | Total: 8.5 (Over -124 / Under +102)",
+      "market": "Bookmaker: FanDuel | Moneyline: Detroit Tigers -120 / Kansas City Royals +102 | Spread: Detroit Tigers -1.5 (+140) / Kansas City Royals 1.5 (-170) | Total: 8.5 (Over -115 / Under -105)",
       "bookmaker": "FanDuel",
       "moneyline": "Detroit Tigers -120 / Kansas City Royals +102",
       "spread": "Detroit Tigers -1.5 (+140) / Kansas City Royals 1.5 (-170)",
-      "total": "8.5 (Over -124 / Under +102)",
+      "total": "8.5 (Over -115 / Under -105)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers -120 / Kansas City Royals +102. Spread frames the expected margin: Detroit Tigers -1.5 (+140) / Kansas City Royals 1.5 (-170). Total frames the scoring environment: 8.5 (Over -124 / Under +102). First listed moneyline implies roughly 54.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers -120 / Kansas City Royals +102. Spread frames the expected margin: Detroit Tigers -1.5 (+140) / Kansas City Royals 1.5 (-170). Total frames the scoring environment: 8.5 (Over -115 / Under -105). First listed moneyline implies roughly 54.5% win probability.",
       "key_data": [
         "Game: Detroit Tigers at Kansas City Royals - 8:10 PM ET",
         "Market source: FanDuel",
         "Moneyline: Detroit Tigers -120 / Kansas City Royals +102",
         "Spread: Detroit Tigers -1.5 (+140) / Kansas City Royals 1.5 (-170)",
-        "Total: 8.5 (Over -124 / Under +102)"
+        "Total: 8.5 (Over -115 / Under -105)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -720,7 +720,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 02:33:56 PM ET"
+      "updated_at": "2026-08-20 03:27:59 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -757,14 +757,88 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 02:33:56 PM ET"
+      "updated_at": "2026-08-20 03:27:59 PM ET"
+    },
+    {
+      "title": "MLB Betting Board",
+      "league": "MLB Betting Board",
+      "headline": "Cincinnati Reds at Arizona Diamondbacks - 9:40 PM ET",
+      "game": "Cincinnati Reds at Arizona Diamondbacks - 9:40 PM ET",
+      "market": "Bookmaker: FanDuel | Moneyline: Cincinnati Reds +122 / Arizona Diamondbacks -144 | Spread: Cincinnati Reds 1.5 (-192) / Arizona Diamondbacks -1.5 (+158) | Total: 8.5 (Over -110 / Under -110)",
+      "bookmaker": "FanDuel",
+      "moneyline": "Cincinnati Reds +122 / Arizona Diamondbacks -144",
+      "spread": "Cincinnati Reds 1.5 (-192) / Arizona Diamondbacks -1.5 (+158)",
+      "total": "8.5 (Over -110 / Under -110)",
+      "implied_probability": "",
+      "snapshot": "Moneyline sets the win-probability baseline: Cincinnati Reds +122 / Arizona Diamondbacks -144. Spread frames the expected margin: Cincinnati Reds 1.5 (-192) / Arizona Diamondbacks -1.5 (+158). Total frames the scoring environment: 8.5 (Over -110 / Under -110). First listed moneyline implies roughly 45.0% win probability.",
+      "key_data": [
+        "Game: Cincinnati Reds at Arizona Diamondbacks - 9:40 PM ET",
+        "Market source: FanDuel",
+        "Moneyline: Cincinnati Reds +122 / Arizona Diamondbacks -144",
+        "Spread: Cincinnati Reds 1.5 (-192) / Arizona Diamondbacks -1.5 (+158)",
+        "Total: 8.5 (Over -110 / Under -110)"
+      ],
+      "why_it_matters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_the_odds_mean": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_to_watch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "source_label": "Betting market read",
+      "story_type": "market_context",
+      "source": "betting_odds_report.txt",
+      "updated_at": "2026-08-20 03:27:59 PM ET"
+    },
+    {
+      "title": "MLB Betting Board",
+      "league": "MLB Betting Board",
+      "headline": "Pittsburgh Pirates at Los Angeles Dodgers - 10:10 PM ET",
+      "game": "Pittsburgh Pirates at Los Angeles Dodgers - 10:10 PM ET",
+      "market": "Bookmaker: FanDuel | Moneyline: Pittsburgh Pirates +190 / Los Angeles Dodgers -230 | Spread: Pittsburgh Pirates 1.5 (-115) / Los Angeles Dodgers -1.5 (-102) | Total: 8 (Over -114 / Under -106)",
+      "bookmaker": "FanDuel",
+      "moneyline": "Pittsburgh Pirates +190 / Los Angeles Dodgers -230",
+      "spread": "Pittsburgh Pirates 1.5 (-115) / Los Angeles Dodgers -1.5 (-102)",
+      "total": "8 (Over -114 / Under -106)",
+      "implied_probability": "",
+      "snapshot": "Moneyline sets the win-probability baseline: Pittsburgh Pirates +190 / Los Angeles Dodgers -230. Spread frames the expected margin: Pittsburgh Pirates 1.5 (-115) / Los Angeles Dodgers -1.5 (-102). Total frames the scoring environment: 8 (Over -114 / Under -106). First listed moneyline implies roughly 34.5% win probability.",
+      "key_data": [
+        "Game: Pittsburgh Pirates at Los Angeles Dodgers - 10:10 PM ET",
+        "Market source: FanDuel",
+        "Moneyline: Pittsburgh Pirates +190 / Los Angeles Dodgers -230",
+        "Spread: Pittsburgh Pirates 1.5 (-115) / Los Angeles Dodgers -1.5 (-102)",
+        "Total: 8 (Over -114 / Under -106)"
+      ],
+      "why_it_matters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_the_odds_mean": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_to_watch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "source_label": "Betting market read",
+      "story_type": "market_context",
+      "source": "betting_odds_report.txt",
+      "updated_at": "2026-08-20 03:27:59 PM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-20T18:33:56.175226+00:00",
-    "total_verified_events": 10,
-    "source_sha256": "7c6b752af4569cc19493083055f5cc170f7da181691492a9f14459314289cabf"
+    "verified_at": "2026-08-20T19:27:59.768535+00:00",
+    "total_verified_events": 12,
+    "source_sha256": "dd90c13c4c19d752c32e50d5f0403b264085306b15508d435218819e6a8eb80d"
   }
 }
