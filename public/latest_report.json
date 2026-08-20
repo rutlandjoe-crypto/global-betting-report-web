@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-19 11:42:42 PM ET",
-  "generated_at": "2026-08-19 11:42:42 PM ET",
-  "generated_utc": "2026-08-20T03:42:42.524866+00:00",
+  "updated_at": "2026-08-20 12:33:22 AM ET",
+  "generated_at": "2026-08-20 12:33:22 AM ET",
+  "generated_utc": "2026-08-20T04:33:22.123296+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -59,13 +59,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "Toronto Blue Jays at Tampa Bay Rays - 1:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays +142 / Tampa Bay Rays -172. Spread frames the expected margin: Toronto Blue Jays 1.5 (-157) / Tampa Bay Rays -1.5 (+130). Total frames the scoring environment: 7.5 (Over -118 / Under -102). First listed moneyline implies roughly 41.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays +137 / Tampa Bay Rays -166. Spread frames the expected margin: Toronto Blue Jays 1.5 (-157) / Tampa Bay Rays -1.5 (+130). Total frames the scoring environment: 7.5 (Over -118 / Under -102). First listed moneyline implies roughly 42.2% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Toronto Blue Jays at Tampa Bay Rays - 1:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Toronto Blue Jays +142 / Tampa Bay Rays -172",
+        "Moneyline: Toronto Blue Jays +137 / Tampa Bay Rays -166",
         "Spread: Toronto Blue Jays 1.5 (-157) / Tampa Bay Rays -1.5 (+130)"
       ],
       "why_it_matters": [
@@ -245,13 +245,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "Toronto Blue Jays at Tampa Bay Rays - 1:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays +142 / Tampa Bay Rays -172. Spread frames the expected margin: Toronto Blue Jays 1.5 (-157) / Tampa Bay Rays -1.5 (+130). Total frames the scoring environment: 7.5 (Over -118 / Under -102). First listed moneyline implies roughly 41.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays +137 / Tampa Bay Rays -166. Spread frames the expected margin: Toronto Blue Jays 1.5 (-157) / Tampa Bay Rays -1.5 (+130). Total frames the scoring environment: 7.5 (Over -118 / Under -102). First listed moneyline implies roughly 42.2% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Toronto Blue Jays at Tampa Bay Rays - 1:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Toronto Blue Jays +142 / Tampa Bay Rays -172",
+        "Moneyline: Toronto Blue Jays +137 / Tampa Bay Rays -166",
         "Spread: Toronto Blue Jays 1.5 (-157) / Tampa Bay Rays -1.5 (+130)"
       ],
       "why_it_matters": [
@@ -424,7 +424,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 11:42:42 PM ET"
+      "updated_at": "2026-08-20 12:33:22 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -461,24 +461,24 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 11:42:42 PM ET"
+      "updated_at": "2026-08-20 12:33:22 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Toronto Blue Jays at Tampa Bay Rays - 1:10 PM ET",
       "game": "Toronto Blue Jays at Tampa Bay Rays - 1:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Toronto Blue Jays +142 / Tampa Bay Rays -172 | Spread: Toronto Blue Jays 1.5 (-157) / Tampa Bay Rays -1.5 (+130) | Total: 7.5 (Over -118 / Under -102)",
+      "market": "Bookmaker: DraftKings | Moneyline: Toronto Blue Jays +137 / Tampa Bay Rays -166 | Spread: Toronto Blue Jays 1.5 (-157) / Tampa Bay Rays -1.5 (+130) | Total: 7.5 (Over -118 / Under -102)",
       "bookmaker": "DraftKings",
-      "moneyline": "Toronto Blue Jays +142 / Tampa Bay Rays -172",
+      "moneyline": "Toronto Blue Jays +137 / Tampa Bay Rays -166",
       "spread": "Toronto Blue Jays 1.5 (-157) / Tampa Bay Rays -1.5 (+130)",
       "total": "7.5 (Over -118 / Under -102)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays +142 / Tampa Bay Rays -172. Spread frames the expected margin: Toronto Blue Jays 1.5 (-157) / Tampa Bay Rays -1.5 (+130). Total frames the scoring environment: 7.5 (Over -118 / Under -102). First listed moneyline implies roughly 41.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays +137 / Tampa Bay Rays -166. Spread frames the expected margin: Toronto Blue Jays 1.5 (-157) / Tampa Bay Rays -1.5 (+130). Total frames the scoring environment: 7.5 (Over -118 / Under -102). First listed moneyline implies roughly 42.2% win probability.",
       "key_data": [
         "Game: Toronto Blue Jays at Tampa Bay Rays - 1:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Toronto Blue Jays +142 / Tampa Bay Rays -172",
+        "Moneyline: Toronto Blue Jays +137 / Tampa Bay Rays -166",
         "Spread: Toronto Blue Jays 1.5 (-157) / Tampa Bay Rays -1.5 (+130)",
         "Total: 7.5 (Over -118 / Under -102)"
       ],
@@ -498,7 +498,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 11:42:42 PM ET"
+      "updated_at": "2026-08-20 12:33:22 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -535,7 +535,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 11:42:42 PM ET"
+      "updated_at": "2026-08-20 12:33:22 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -572,7 +572,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 11:42:42 PM ET"
+      "updated_at": "2026-08-20 12:33:22 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -609,7 +609,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 11:42:42 PM ET"
+      "updated_at": "2026-08-20 12:33:22 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 11:42:42 PM ET"
+      "updated_at": "2026-08-20 12:33:22 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,7 +683,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 11:42:42 PM ET"
+      "updated_at": "2026-08-20 12:33:22 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -720,14 +720,14 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-19 11:42:42 PM ET"
+      "updated_at": "2026-08-20 12:33:22 AM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-20T03:42:42.469145+00:00",
+    "verified_at": "2026-08-20T04:33:22.070064+00:00",
     "total_verified_events": 9,
-    "source_sha256": "556743485a4a508885fc9bf54c8b53727549a03c9c88c44f3d6573f873b148db"
+    "source_sha256": "d1c0a134b83c8584d628213137e187ccff7d3ae5b62fc3ac4d23ce6ebf8a9e1f"
   }
 }
