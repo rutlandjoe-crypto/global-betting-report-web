@@ -5,15 +5,15 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-21 11:28:56 AM ET",
-  "generated_at": "2026-08-21 11:28:56 AM ET",
-  "generated_utc": "2026-08-21T15:28:56.348992+00:00",
+  "updated_at": "2026-08-21 12:29:10 PM ET",
+  "generated_at": "2026-08-21 12:29:10 PM ET",
+  "generated_utc": "2026-08-21T16:29:10.658263+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
       "league": "MLB Betting Board",
       "headline": "Atlanta Braves at Milwaukee Brewers - 4:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Braves +127 / Milwaukee Brewers -137. Spread frames the expected margin: Atlanta Braves 1.5 (-198) / Milwaukee Brewers -1.5 (+162). Total frames the scoring environment: 5.5 (Over -121 / Under +100). First listed moneyline implies roughly 44.1% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Braves +127 / Milwaukee Brewers -137. Spread frames the expected margin: Atlanta Braves 1.5 (-198) / Milwaukee Brewers -1.5 (+162). Total frames the scoring environment: 6 (Over -101 / Under -119). First listed moneyline implies roughly 44.1% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
@@ -36,14 +36,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals +228 / Philadelphia Phillies -247. Spread frames the expected margin: St. Louis Cardinals 1.5 (+100) / Philadelphia Phillies -1.5 (-120). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 30.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals +234 / Philadelphia Phillies -254. Spread frames the expected margin: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 29.9% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: St. Louis Cardinals +228 / Philadelphia Phillies -247",
-        "Spread: St. Louis Cardinals 1.5 (+100) / Philadelphia Phillies -1.5 (-120)"
+        "Moneyline: St. Louis Cardinals +234 / Philadelphia Phillies -254",
+        "Spread: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -59,13 +59,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "Toronto Blue Jays at New York Yankees - 7:05 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays +180 / New York Yankees -194. Spread frames the expected margin: Toronto Blue Jays 1.5 (-136) / New York Yankees -1.5 (+113). Total frames the scoring environment: 7 (Over -116 / Under -104). First listed moneyline implies roughly 35.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays +179 / New York Yankees -193. Spread frames the expected margin: Toronto Blue Jays 1.5 (-136) / New York Yankees -1.5 (+113). Total frames the scoring environment: 7 (Over -114 / Under -106). First listed moneyline implies roughly 35.8% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Toronto Blue Jays at New York Yankees - 7:05 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Toronto Blue Jays +180 / New York Yankees -194",
+        "Moneyline: Toronto Blue Jays +179 / New York Yankees -193",
         "Spread: Toronto Blue Jays 1.5 (-136) / New York Yankees -1.5 (+113)"
       ],
       "why_it_matters": [
@@ -82,14 +82,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Washington Nationals at Miami Marlins - 7:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +137 / Miami Marlins -147. Spread frames the expected margin: Washington Nationals 1.5 (-171) / Miami Marlins -1.5 (+141). Total frames the scoring environment: 7.5 (Over -117 / Under -103). First listed moneyline implies roughly 42.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +130 / Miami Marlins -140. Spread frames the expected margin: Washington Nationals 1.5 (-181) / Miami Marlins -1.5 (+149). Total frames the scoring environment: 7.5 (Over -117 / Under -103). First listed moneyline implies roughly 43.5% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Washington Nationals at Miami Marlins - 7:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Washington Nationals +137 / Miami Marlins -147",
-        "Spread: Washington Nationals 1.5 (-171) / Miami Marlins -1.5 (+141)"
+        "Moneyline: Washington Nationals +130 / Miami Marlins -140",
+        "Spread: Washington Nationals 1.5 (-181) / Miami Marlins -1.5 (+149)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -199,7 +199,7 @@
     {
       "league": "MLB Betting Board",
       "headline": "Atlanta Braves at Milwaukee Brewers - 4:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Braves +127 / Milwaukee Brewers -137. Spread frames the expected margin: Atlanta Braves 1.5 (-198) / Milwaukee Brewers -1.5 (+162). Total frames the scoring environment: 5.5 (Over -121 / Under +100). First listed moneyline implies roughly 44.1% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Braves +127 / Milwaukee Brewers -137. Spread frames the expected margin: Atlanta Braves 1.5 (-198) / Milwaukee Brewers -1.5 (+162). Total frames the scoring environment: 6 (Over -101 / Under -119). First listed moneyline implies roughly 44.1% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
@@ -222,14 +222,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals +228 / Philadelphia Phillies -247. Spread frames the expected margin: St. Louis Cardinals 1.5 (+100) / Philadelphia Phillies -1.5 (-120). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 30.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals +234 / Philadelphia Phillies -254. Spread frames the expected margin: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 29.9% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: St. Louis Cardinals +228 / Philadelphia Phillies -247",
-        "Spread: St. Louis Cardinals 1.5 (+100) / Philadelphia Phillies -1.5 (-120)"
+        "Moneyline: St. Louis Cardinals +234 / Philadelphia Phillies -254",
+        "Spread: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -245,13 +245,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "Toronto Blue Jays at New York Yankees - 7:05 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays +180 / New York Yankees -194. Spread frames the expected margin: Toronto Blue Jays 1.5 (-136) / New York Yankees -1.5 (+113). Total frames the scoring environment: 7 (Over -116 / Under -104). First listed moneyline implies roughly 35.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays +179 / New York Yankees -193. Spread frames the expected margin: Toronto Blue Jays 1.5 (-136) / New York Yankees -1.5 (+113). Total frames the scoring environment: 7 (Over -114 / Under -106). First listed moneyline implies roughly 35.8% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Toronto Blue Jays at New York Yankees - 7:05 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Toronto Blue Jays +180 / New York Yankees -194",
+        "Moneyline: Toronto Blue Jays +179 / New York Yankees -193",
         "Spread: Toronto Blue Jays 1.5 (-136) / New York Yankees -1.5 (+113)"
       ],
       "why_it_matters": [
@@ -268,14 +268,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Washington Nationals at Miami Marlins - 7:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +137 / Miami Marlins -147. Spread frames the expected margin: Washington Nationals 1.5 (-171) / Miami Marlins -1.5 (+141). Total frames the scoring environment: 7.5 (Over -117 / Under -103). First listed moneyline implies roughly 42.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +130 / Miami Marlins -140. Spread frames the expected margin: Washington Nationals 1.5 (-181) / Miami Marlins -1.5 (+149). Total frames the scoring environment: 7.5 (Over -117 / Under -103). First listed moneyline implies roughly 43.5% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Washington Nationals at Miami Marlins - 7:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Washington Nationals +137 / Miami Marlins -147",
-        "Spread: Washington Nationals 1.5 (-171) / Miami Marlins -1.5 (+141)"
+        "Moneyline: Washington Nationals +130 / Miami Marlins -140",
+        "Spread: Washington Nationals 1.5 (-181) / Miami Marlins -1.5 (+149)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -394,19 +394,19 @@
       "league": "MLB Betting Board",
       "headline": "Atlanta Braves at Milwaukee Brewers - 4:10 PM ET",
       "game": "Atlanta Braves at Milwaukee Brewers - 4:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Atlanta Braves +127 / Milwaukee Brewers -137 | Spread: Atlanta Braves 1.5 (-198) / Milwaukee Brewers -1.5 (+162) | Total: 5.5 (Over -121 / Under +100)",
+      "market": "Bookmaker: DraftKings | Moneyline: Atlanta Braves +127 / Milwaukee Brewers -137 | Spread: Atlanta Braves 1.5 (-198) / Milwaukee Brewers -1.5 (+162) | Total: 6 (Over -101 / Under -119)",
       "bookmaker": "DraftKings",
       "moneyline": "Atlanta Braves +127 / Milwaukee Brewers -137",
       "spread": "Atlanta Braves 1.5 (-198) / Milwaukee Brewers -1.5 (+162)",
-      "total": "5.5 (Over -121 / Under +100)",
+      "total": "6 (Over -101 / Under -119)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Braves +127 / Milwaukee Brewers -137. Spread frames the expected margin: Atlanta Braves 1.5 (-198) / Milwaukee Brewers -1.5 (+162). Total frames the scoring environment: 5.5 (Over -121 / Under +100). First listed moneyline implies roughly 44.1% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Braves +127 / Milwaukee Brewers -137. Spread frames the expected margin: Atlanta Braves 1.5 (-198) / Milwaukee Brewers -1.5 (+162). Total frames the scoring environment: 6 (Over -101 / Under -119). First listed moneyline implies roughly 44.1% win probability.",
       "key_data": [
         "Game: Atlanta Braves at Milwaukee Brewers - 4:10 PM ET",
         "Market source: DraftKings",
         "Moneyline: Atlanta Braves +127 / Milwaukee Brewers -137",
         "Spread: Atlanta Braves 1.5 (-198) / Milwaukee Brewers -1.5 (+162)",
-        "Total: 5.5 (Over -121 / Under +100)"
+        "Total: 6 (Over -101 / Under -119)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -424,25 +424,25 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 11:28:56 AM ET"
+      "updated_at": "2026-08-21 12:29:10 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
       "game": "St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: St. Louis Cardinals +228 / Philadelphia Phillies -247 | Spread: St. Louis Cardinals 1.5 (+100) / Philadelphia Phillies -1.5 (-120) | Total: 8 (Over -112 / Under -108)",
+      "market": "Bookmaker: DraftKings | Moneyline: St. Louis Cardinals +234 / Philadelphia Phillies -254 | Spread: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126) | Total: 8 (Over -112 / Under -108)",
       "bookmaker": "DraftKings",
-      "moneyline": "St. Louis Cardinals +228 / Philadelphia Phillies -247",
-      "spread": "St. Louis Cardinals 1.5 (+100) / Philadelphia Phillies -1.5 (-120)",
+      "moneyline": "St. Louis Cardinals +234 / Philadelphia Phillies -254",
+      "spread": "St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126)",
       "total": "8 (Over -112 / Under -108)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals +228 / Philadelphia Phillies -247. Spread frames the expected margin: St. Louis Cardinals 1.5 (+100) / Philadelphia Phillies -1.5 (-120). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 30.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals +234 / Philadelphia Phillies -254. Spread frames the expected margin: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 29.9% win probability.",
       "key_data": [
         "Game: St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: St. Louis Cardinals +228 / Philadelphia Phillies -247",
-        "Spread: St. Louis Cardinals 1.5 (+100) / Philadelphia Phillies -1.5 (-120)",
+        "Moneyline: St. Louis Cardinals +234 / Philadelphia Phillies -254",
+        "Spread: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126)",
         "Total: 8 (Over -112 / Under -108)"
       ],
       "why_it_matters": [
@@ -461,26 +461,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 11:28:56 AM ET"
+      "updated_at": "2026-08-21 12:29:10 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Toronto Blue Jays at New York Yankees - 7:05 PM ET",
       "game": "Toronto Blue Jays at New York Yankees - 7:05 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Toronto Blue Jays +180 / New York Yankees -194 | Spread: Toronto Blue Jays 1.5 (-136) / New York Yankees -1.5 (+113) | Total: 7 (Over -116 / Under -104)",
+      "market": "Bookmaker: DraftKings | Moneyline: Toronto Blue Jays +179 / New York Yankees -193 | Spread: Toronto Blue Jays 1.5 (-136) / New York Yankees -1.5 (+113) | Total: 7 (Over -114 / Under -106)",
       "bookmaker": "DraftKings",
-      "moneyline": "Toronto Blue Jays +180 / New York Yankees -194",
+      "moneyline": "Toronto Blue Jays +179 / New York Yankees -193",
       "spread": "Toronto Blue Jays 1.5 (-136) / New York Yankees -1.5 (+113)",
-      "total": "7 (Over -116 / Under -104)",
+      "total": "7 (Over -114 / Under -106)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays +180 / New York Yankees -194. Spread frames the expected margin: Toronto Blue Jays 1.5 (-136) / New York Yankees -1.5 (+113). Total frames the scoring environment: 7 (Over -116 / Under -104). First listed moneyline implies roughly 35.7% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays +179 / New York Yankees -193. Spread frames the expected margin: Toronto Blue Jays 1.5 (-136) / New York Yankees -1.5 (+113). Total frames the scoring environment: 7 (Over -114 / Under -106). First listed moneyline implies roughly 35.8% win probability.",
       "key_data": [
         "Game: Toronto Blue Jays at New York Yankees - 7:05 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Toronto Blue Jays +180 / New York Yankees -194",
+        "Moneyline: Toronto Blue Jays +179 / New York Yankees -193",
         "Spread: Toronto Blue Jays 1.5 (-136) / New York Yankees -1.5 (+113)",
-        "Total: 7 (Over -116 / Under -104)"
+        "Total: 7 (Over -114 / Under -106)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -498,25 +498,25 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 11:28:56 AM ET"
+      "updated_at": "2026-08-21 12:29:10 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Washington Nationals at Miami Marlins - 7:10 PM ET",
       "game": "Washington Nationals at Miami Marlins - 7:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Washington Nationals +137 / Miami Marlins -147 | Spread: Washington Nationals 1.5 (-171) / Miami Marlins -1.5 (+141) | Total: 7.5 (Over -117 / Under -103)",
+      "market": "Bookmaker: DraftKings | Moneyline: Washington Nationals +130 / Miami Marlins -140 | Spread: Washington Nationals 1.5 (-181) / Miami Marlins -1.5 (+149) | Total: 7.5 (Over -117 / Under -103)",
       "bookmaker": "DraftKings",
-      "moneyline": "Washington Nationals +137 / Miami Marlins -147",
-      "spread": "Washington Nationals 1.5 (-171) / Miami Marlins -1.5 (+141)",
+      "moneyline": "Washington Nationals +130 / Miami Marlins -140",
+      "spread": "Washington Nationals 1.5 (-181) / Miami Marlins -1.5 (+149)",
       "total": "7.5 (Over -117 / Under -103)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +137 / Miami Marlins -147. Spread frames the expected margin: Washington Nationals 1.5 (-171) / Miami Marlins -1.5 (+141). Total frames the scoring environment: 7.5 (Over -117 / Under -103). First listed moneyline implies roughly 42.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +130 / Miami Marlins -140. Spread frames the expected margin: Washington Nationals 1.5 (-181) / Miami Marlins -1.5 (+149). Total frames the scoring environment: 7.5 (Over -117 / Under -103). First listed moneyline implies roughly 43.5% win probability.",
       "key_data": [
         "Game: Washington Nationals at Miami Marlins - 7:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Washington Nationals +137 / Miami Marlins -147",
-        "Spread: Washington Nationals 1.5 (-171) / Miami Marlins -1.5 (+141)",
+        "Moneyline: Washington Nationals +130 / Miami Marlins -140",
+        "Spread: Washington Nationals 1.5 (-181) / Miami Marlins -1.5 (+149)",
         "Total: 7.5 (Over -117 / Under -103)"
       ],
       "why_it_matters": [
@@ -535,7 +535,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 11:28:56 AM ET"
+      "updated_at": "2026-08-21 12:29:10 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -572,7 +572,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 11:28:56 AM ET"
+      "updated_at": "2026-08-21 12:29:10 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -609,7 +609,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 11:28:56 AM ET"
+      "updated_at": "2026-08-21 12:29:10 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 11:28:56 AM ET"
+      "updated_at": "2026-08-21 12:29:10 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,26 +683,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 11:28:56 AM ET"
+      "updated_at": "2026-08-21 12:29:10 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Detroit Tigers at Kansas City Royals - 8:10 PM ET",
       "game": "Detroit Tigers at Kansas City Royals - 8:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Detroit Tigers -113 / Kansas City Royals +105 | Spread: Detroit Tigers -1.5 (+136) / Kansas City Royals 1.5 (-164) | Total: 8.5 (Over -102 / Under -119)",
+      "market": "Bookmaker: DraftKings | Moneyline: Detroit Tigers -113 / Kansas City Royals +105 | Spread: Detroit Tigers -1.5 (+136) / Kansas City Royals 1.5 (-164) | Total: 8.5 (Over -101 / Under -119)",
       "bookmaker": "DraftKings",
       "moneyline": "Detroit Tigers -113 / Kansas City Royals +105",
       "spread": "Detroit Tigers -1.5 (+136) / Kansas City Royals 1.5 (-164)",
-      "total": "8.5 (Over -102 / Under -119)",
+      "total": "8.5 (Over -101 / Under -119)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers -113 / Kansas City Royals +105. Spread frames the expected margin: Detroit Tigers -1.5 (+136) / Kansas City Royals 1.5 (-164). Total frames the scoring environment: 8.5 (Over -102 / Under -119). First listed moneyline implies roughly 53.1% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers -113 / Kansas City Royals +105. Spread frames the expected margin: Detroit Tigers -1.5 (+136) / Kansas City Royals 1.5 (-164). Total frames the scoring environment: 8.5 (Over -101 / Under -119). First listed moneyline implies roughly 53.1% win probability.",
       "key_data": [
         "Game: Detroit Tigers at Kansas City Royals - 8:10 PM ET",
         "Market source: DraftKings",
         "Moneyline: Detroit Tigers -113 / Kansas City Royals +105",
         "Spread: Detroit Tigers -1.5 (+136) / Kansas City Royals 1.5 (-164)",
-        "Total: 8.5 (Over -102 / Under -119)"
+        "Total: 8.5 (Over -101 / Under -119)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -720,7 +720,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 11:28:56 AM ET"
+      "updated_at": "2026-08-21 12:29:10 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -757,7 +757,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 11:28:56 AM ET"
+      "updated_at": "2026-08-21 12:29:10 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -794,7 +794,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 11:28:56 AM ET"
+      "updated_at": "2026-08-21 12:29:10 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -831,14 +831,14 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 11:28:56 AM ET"
+      "updated_at": "2026-08-21 12:29:10 PM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-21T15:28:56.295707+00:00",
+    "verified_at": "2026-08-21T16:29:10.598947+00:00",
     "total_verified_events": 12,
-    "source_sha256": "8ce4912867032472af71f284df15490ef5c64b3913e16fb07f19a8e17ebdcd16"
+    "source_sha256": "66dab6fd030198fc0ca68c2ba59b94fb7343eeb2ac27c6cbb02dd2fe968e2335"
   }
 }
