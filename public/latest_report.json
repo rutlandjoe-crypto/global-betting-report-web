@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-21 12:34:12 AM ET",
-  "generated_at": "2026-08-21 12:34:12 AM ET",
-  "generated_utc": "2026-08-21T04:34:12.070032+00:00",
+  "updated_at": "2026-08-21 01:29:03 AM ET",
+  "generated_at": "2026-08-21 01:29:03 AM ET",
+  "generated_utc": "2026-08-21T05:29:03.885030+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -59,14 +59,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Washington Nationals at Miami Marlins - 7:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +123 / Miami Marlins -149. Spread frames the expected margin: Washington Nationals 1.5 (-175) / Miami Marlins -1.5 (+144). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 44.8% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +124 / Miami Marlins -150. Spread frames the expected margin: Washington Nationals 1.5 (-174) / Miami Marlins -1.5 (+143). Total frames the scoring environment: 8.5 (Over -102 / Under -118). First listed moneyline implies roughly 44.6% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Washington Nationals at Miami Marlins - 7:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Washington Nationals +123 / Miami Marlins -149",
-        "Spread: Washington Nationals 1.5 (-175) / Miami Marlins -1.5 (+144)"
+        "Moneyline: Washington Nationals +124 / Miami Marlins -150",
+        "Spread: Washington Nationals 1.5 (-174) / Miami Marlins -1.5 (+143)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -151,14 +151,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Athletics at Houston Astros - 8:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Athletics +163 / Houston Astros -198. Spread frames the expected margin: Athletics 1.5 (-136) / Houston Astros -1.5 (+113). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 38.0% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +159 / Houston Astros -194. Spread frames the expected margin: Athletics 1.5 (-135) / Houston Astros -1.5 (+112). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 38.6% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Athletics at Houston Astros - 8:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Athletics +163 / Houston Astros -198",
-        "Spread: Athletics 1.5 (-136) / Houston Astros -1.5 (+113)"
+        "Moneyline: Athletics +159 / Houston Astros -194",
+        "Spread: Athletics 1.5 (-135) / Houston Astros -1.5 (+112)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -245,14 +245,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Washington Nationals at Miami Marlins - 7:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +123 / Miami Marlins -149. Spread frames the expected margin: Washington Nationals 1.5 (-175) / Miami Marlins -1.5 (+144). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 44.8% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +124 / Miami Marlins -150. Spread frames the expected margin: Washington Nationals 1.5 (-174) / Miami Marlins -1.5 (+143). Total frames the scoring environment: 8.5 (Over -102 / Under -118). First listed moneyline implies roughly 44.6% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Washington Nationals at Miami Marlins - 7:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Washington Nationals +123 / Miami Marlins -149",
-        "Spread: Washington Nationals 1.5 (-175) / Miami Marlins -1.5 (+144)"
+        "Moneyline: Washington Nationals +124 / Miami Marlins -150",
+        "Spread: Washington Nationals 1.5 (-174) / Miami Marlins -1.5 (+143)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -337,14 +337,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "Athletics at Houston Astros - 8:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Athletics +163 / Houston Astros -198. Spread frames the expected margin: Athletics 1.5 (-136) / Houston Astros -1.5 (+113). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 38.0% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +159 / Houston Astros -194. Spread frames the expected margin: Athletics 1.5 (-135) / Houston Astros -1.5 (+112). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 38.6% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Athletics at Houston Astros - 8:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Athletics +163 / Houston Astros -198",
-        "Spread: Athletics 1.5 (-136) / Houston Astros -1.5 (+113)"
+        "Moneyline: Athletics +159 / Houston Astros -194",
+        "Spread: Athletics 1.5 (-135) / Houston Astros -1.5 (+112)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -424,7 +424,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:34:12 AM ET"
+      "updated_at": "2026-08-21 01:29:03 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -461,26 +461,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:34:12 AM ET"
+      "updated_at": "2026-08-21 01:29:03 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Washington Nationals at Miami Marlins - 7:10 PM ET",
       "game": "Washington Nationals at Miami Marlins - 7:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Washington Nationals +123 / Miami Marlins -149 | Spread: Washington Nationals 1.5 (-175) / Miami Marlins -1.5 (+144) | Total: 8 (Over -118 / Under -102)",
+      "market": "Bookmaker: DraftKings | Moneyline: Washington Nationals +124 / Miami Marlins -150 | Spread: Washington Nationals 1.5 (-174) / Miami Marlins -1.5 (+143) | Total: 8.5 (Over -102 / Under -118)",
       "bookmaker": "DraftKings",
-      "moneyline": "Washington Nationals +123 / Miami Marlins -149",
-      "spread": "Washington Nationals 1.5 (-175) / Miami Marlins -1.5 (+144)",
-      "total": "8 (Over -118 / Under -102)",
+      "moneyline": "Washington Nationals +124 / Miami Marlins -150",
+      "spread": "Washington Nationals 1.5 (-174) / Miami Marlins -1.5 (+143)",
+      "total": "8.5 (Over -102 / Under -118)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +123 / Miami Marlins -149. Spread frames the expected margin: Washington Nationals 1.5 (-175) / Miami Marlins -1.5 (+144). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 44.8% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +124 / Miami Marlins -150. Spread frames the expected margin: Washington Nationals 1.5 (-174) / Miami Marlins -1.5 (+143). Total frames the scoring environment: 8.5 (Over -102 / Under -118). First listed moneyline implies roughly 44.6% win probability.",
       "key_data": [
         "Game: Washington Nationals at Miami Marlins - 7:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Washington Nationals +123 / Miami Marlins -149",
-        "Spread: Washington Nationals 1.5 (-175) / Miami Marlins -1.5 (+144)",
-        "Total: 8 (Over -118 / Under -102)"
+        "Moneyline: Washington Nationals +124 / Miami Marlins -150",
+        "Spread: Washington Nationals 1.5 (-174) / Miami Marlins -1.5 (+143)",
+        "Total: 8.5 (Over -102 / Under -118)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -498,7 +498,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:34:12 AM ET"
+      "updated_at": "2026-08-21 01:29:03 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -535,7 +535,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:34:12 AM ET"
+      "updated_at": "2026-08-21 01:29:03 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -572,7 +572,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:34:12 AM ET"
+      "updated_at": "2026-08-21 01:29:03 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -609,25 +609,25 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:34:12 AM ET"
+      "updated_at": "2026-08-21 01:29:03 AM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Athletics at Houston Astros - 8:10 PM ET",
       "game": "Athletics at Houston Astros - 8:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Athletics +163 / Houston Astros -198 | Spread: Athletics 1.5 (-136) / Houston Astros -1.5 (+113) | Total: 8 (Over -118 / Under -102)",
+      "market": "Bookmaker: DraftKings | Moneyline: Athletics +159 / Houston Astros -194 | Spread: Athletics 1.5 (-135) / Houston Astros -1.5 (+112) | Total: 8 (Over -118 / Under -102)",
       "bookmaker": "DraftKings",
-      "moneyline": "Athletics +163 / Houston Astros -198",
-      "spread": "Athletics 1.5 (-136) / Houston Astros -1.5 (+113)",
+      "moneyline": "Athletics +159 / Houston Astros -194",
+      "spread": "Athletics 1.5 (-135) / Houston Astros -1.5 (+112)",
       "total": "8 (Over -118 / Under -102)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Athletics +163 / Houston Astros -198. Spread frames the expected margin: Athletics 1.5 (-136) / Houston Astros -1.5 (+113). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 38.0% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +159 / Houston Astros -194. Spread frames the expected margin: Athletics 1.5 (-135) / Houston Astros -1.5 (+112). Total frames the scoring environment: 8 (Over -118 / Under -102). First listed moneyline implies roughly 38.6% win probability.",
       "key_data": [
         "Game: Athletics at Houston Astros - 8:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Athletics +163 / Houston Astros -198",
-        "Spread: Athletics 1.5 (-136) / Houston Astros -1.5 (+113)",
+        "Moneyline: Athletics +159 / Houston Astros -194",
+        "Spread: Athletics 1.5 (-135) / Houston Astros -1.5 (+112)",
         "Total: 8 (Over -118 / Under -102)"
       ],
       "why_it_matters": [
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:34:12 AM ET"
+      "updated_at": "2026-08-21 01:29:03 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,7 +683,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:34:12 AM ET"
+      "updated_at": "2026-08-21 01:29:03 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -720,7 +720,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:34:12 AM ET"
+      "updated_at": "2026-08-21 01:29:03 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -757,7 +757,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:34:12 AM ET"
+      "updated_at": "2026-08-21 01:29:03 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -794,7 +794,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:34:12 AM ET"
+      "updated_at": "2026-08-21 01:29:03 AM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -831,14 +831,14 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:34:12 AM ET"
+      "updated_at": "2026-08-21 01:29:03 AM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-21T04:34:12.025413+00:00",
+    "verified_at": "2026-08-21T05:29:03.739677+00:00",
     "total_verified_events": 12,
-    "source_sha256": "940c854beab98244b37703bb342b03a9c88fea142942ec2cf3dc4bee66fd9e90"
+    "source_sha256": "f66a08da4bf2078ff46d391b6bf391bdd9adb957efa8470af245ffa506168b50"
   }
 }
