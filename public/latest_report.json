@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-21 12:29:10 PM ET",
-  "generated_at": "2026-08-21 12:29:10 PM ET",
-  "generated_utc": "2026-08-21T16:29:10.658263+00:00",
+  "updated_at": "2026-08-21 01:24:54 PM ET",
+  "generated_at": "2026-08-21 01:24:54 PM ET",
+  "generated_utc": "2026-08-21T17:24:54.826347+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -36,14 +36,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals +234 / Philadelphia Phillies -254. Spread frames the expected margin: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 29.9% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals +240 / Philadelphia Phillies -261. Spread frames the expected margin: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-127). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 29.4% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: St. Louis Cardinals +234 / Philadelphia Phillies -254",
-        "Spread: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126)"
+        "Moneyline: St. Louis Cardinals +240 / Philadelphia Phillies -261",
+        "Spread: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-127)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -128,13 +128,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "Tampa Bay Rays at Baltimore Orioles - 7:15 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays +116 / Baltimore Orioles -124. Spread frames the expected margin: Tampa Bay Rays 1.5 (-198) / Baltimore Orioles -1.5 (+162). Total frames the scoring environment: 7.5 (Over -119 / Under -101). First listed moneyline implies roughly 46.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays +111 / Baltimore Orioles -119. Spread frames the expected margin: Tampa Bay Rays 1.5 (-198) / Baltimore Orioles -1.5 (+162). Total frames the scoring environment: 8 (Over -102 / Under -118). First listed moneyline implies roughly 47.4% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Tampa Bay Rays at Baltimore Orioles - 7:15 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Tampa Bay Rays +116 / Baltimore Orioles -124",
+        "Moneyline: Tampa Bay Rays +111 / Baltimore Orioles -119",
         "Spread: Tampa Bay Rays 1.5 (-198) / Baltimore Orioles -1.5 (+162)"
       ],
       "why_it_matters": [
@@ -222,14 +222,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals +234 / Philadelphia Phillies -254. Spread frames the expected margin: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 29.9% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals +240 / Philadelphia Phillies -261. Spread frames the expected margin: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-127). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 29.4% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: St. Louis Cardinals +234 / Philadelphia Phillies -254",
-        "Spread: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126)"
+        "Moneyline: St. Louis Cardinals +240 / Philadelphia Phillies -261",
+        "Spread: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-127)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -314,13 +314,13 @@
     {
       "league": "MLB Betting Board",
       "headline": "Tampa Bay Rays at Baltimore Orioles - 7:15 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays +116 / Baltimore Orioles -124. Spread frames the expected margin: Tampa Bay Rays 1.5 (-198) / Baltimore Orioles -1.5 (+162). Total frames the scoring environment: 7.5 (Over -119 / Under -101). First listed moneyline implies roughly 46.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays +111 / Baltimore Orioles -119. Spread frames the expected margin: Tampa Bay Rays 1.5 (-198) / Baltimore Orioles -1.5 (+162). Total frames the scoring environment: 8 (Over -102 / Under -118). First listed moneyline implies roughly 47.4% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: Tampa Bay Rays at Baltimore Orioles - 7:15 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Tampa Bay Rays +116 / Baltimore Orioles -124",
+        "Moneyline: Tampa Bay Rays +111 / Baltimore Orioles -119",
         "Spread: Tampa Bay Rays 1.5 (-198) / Baltimore Orioles -1.5 (+162)"
       ],
       "why_it_matters": [
@@ -424,25 +424,25 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:29:10 PM ET"
+      "updated_at": "2026-08-21 01:24:54 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
       "game": "St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: St. Louis Cardinals +234 / Philadelphia Phillies -254 | Spread: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126) | Total: 8 (Over -112 / Under -108)",
+      "market": "Bookmaker: DraftKings | Moneyline: St. Louis Cardinals +240 / Philadelphia Phillies -261 | Spread: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-127) | Total: 8 (Over -112 / Under -108)",
       "bookmaker": "DraftKings",
-      "moneyline": "St. Louis Cardinals +234 / Philadelphia Phillies -254",
-      "spread": "St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126)",
+      "moneyline": "St. Louis Cardinals +240 / Philadelphia Phillies -261",
+      "spread": "St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-127)",
       "total": "8 (Over -112 / Under -108)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals +234 / Philadelphia Phillies -254. Spread frames the expected margin: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 29.9% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals +240 / Philadelphia Phillies -261. Spread frames the expected margin: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-127). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 29.4% win probability.",
       "key_data": [
         "Game: St. Louis Cardinals at Philadelphia Phillies - 6:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: St. Louis Cardinals +234 / Philadelphia Phillies -254",
-        "Spread: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-126)",
+        "Moneyline: St. Louis Cardinals +240 / Philadelphia Phillies -261",
+        "Spread: St. Louis Cardinals 1.5 (+105) / Philadelphia Phillies -1.5 (-127)",
         "Total: 8 (Over -112 / Under -108)"
       ],
       "why_it_matters": [
@@ -461,7 +461,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:29:10 PM ET"
+      "updated_at": "2026-08-21 01:24:54 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -498,7 +498,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:29:10 PM ET"
+      "updated_at": "2026-08-21 01:24:54 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -535,7 +535,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:29:10 PM ET"
+      "updated_at": "2026-08-21 01:24:54 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -572,26 +572,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:29:10 PM ET"
+      "updated_at": "2026-08-21 01:24:54 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Tampa Bay Rays at Baltimore Orioles - 7:15 PM ET",
       "game": "Tampa Bay Rays at Baltimore Orioles - 7:15 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Tampa Bay Rays +116 / Baltimore Orioles -124 | Spread: Tampa Bay Rays 1.5 (-198) / Baltimore Orioles -1.5 (+162) | Total: 7.5 (Over -119 / Under -101)",
+      "market": "Bookmaker: DraftKings | Moneyline: Tampa Bay Rays +111 / Baltimore Orioles -119 | Spread: Tampa Bay Rays 1.5 (-198) / Baltimore Orioles -1.5 (+162) | Total: 8 (Over -102 / Under -118)",
       "bookmaker": "DraftKings",
-      "moneyline": "Tampa Bay Rays +116 / Baltimore Orioles -124",
+      "moneyline": "Tampa Bay Rays +111 / Baltimore Orioles -119",
       "spread": "Tampa Bay Rays 1.5 (-198) / Baltimore Orioles -1.5 (+162)",
-      "total": "7.5 (Over -119 / Under -101)",
+      "total": "8 (Over -102 / Under -118)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays +116 / Baltimore Orioles -124. Spread frames the expected margin: Tampa Bay Rays 1.5 (-198) / Baltimore Orioles -1.5 (+162). Total frames the scoring environment: 7.5 (Over -119 / Under -101). First listed moneyline implies roughly 46.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays +111 / Baltimore Orioles -119. Spread frames the expected margin: Tampa Bay Rays 1.5 (-198) / Baltimore Orioles -1.5 (+162). Total frames the scoring environment: 8 (Over -102 / Under -118). First listed moneyline implies roughly 47.4% win probability.",
       "key_data": [
         "Game: Tampa Bay Rays at Baltimore Orioles - 7:15 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Tampa Bay Rays +116 / Baltimore Orioles -124",
+        "Moneyline: Tampa Bay Rays +111 / Baltimore Orioles -119",
         "Spread: Tampa Bay Rays 1.5 (-198) / Baltimore Orioles -1.5 (+162)",
-        "Total: 7.5 (Over -119 / Under -101)"
+        "Total: 8 (Over -102 / Under -118)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -609,7 +609,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:29:10 PM ET"
+      "updated_at": "2026-08-21 01:24:54 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:29:10 PM ET"
+      "updated_at": "2026-08-21 01:24:54 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,7 +683,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:29:10 PM ET"
+      "updated_at": "2026-08-21 01:24:54 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -720,7 +720,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:29:10 PM ET"
+      "updated_at": "2026-08-21 01:24:54 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -757,7 +757,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:29:10 PM ET"
+      "updated_at": "2026-08-21 01:24:54 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -794,26 +794,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:29:10 PM ET"
+      "updated_at": "2026-08-21 01:24:54 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Minnesota Twins at San Diego Padres - 9:40 PM ET",
       "game": "Minnesota Twins at San Diego Padres - 9:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Minnesota Twins +107 / San Diego Padres -115 | Spread: Minnesota Twins 1.5 (-199) / San Diego Padres -1.5 (+163) | Total: 8 (Over -117 / Under -103)",
+      "market": "Bookmaker: DraftKings | Moneyline: Minnesota Twins +107 / San Diego Padres -115 | Spread: Minnesota Twins 1.5 (-199) / San Diego Padres -1.5 (+163) | Total: 8 (Over -111 / Under -109)",
       "bookmaker": "DraftKings",
       "moneyline": "Minnesota Twins +107 / San Diego Padres -115",
       "spread": "Minnesota Twins 1.5 (-199) / San Diego Padres -1.5 (+163)",
-      "total": "8 (Over -117 / Under -103)",
+      "total": "8 (Over -111 / Under -109)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Minnesota Twins +107 / San Diego Padres -115. Spread frames the expected margin: Minnesota Twins 1.5 (-199) / San Diego Padres -1.5 (+163). Total frames the scoring environment: 8 (Over -117 / Under -103). First listed moneyline implies roughly 48.3% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Minnesota Twins +107 / San Diego Padres -115. Spread frames the expected margin: Minnesota Twins 1.5 (-199) / San Diego Padres -1.5 (+163). Total frames the scoring environment: 8 (Over -111 / Under -109). First listed moneyline implies roughly 48.3% win probability.",
       "key_data": [
         "Game: Minnesota Twins at San Diego Padres - 9:40 PM ET",
         "Market source: DraftKings",
         "Moneyline: Minnesota Twins +107 / San Diego Padres -115",
         "Spread: Minnesota Twins 1.5 (-199) / San Diego Padres -1.5 (+163)",
-        "Total: 8 (Over -117 / Under -103)"
+        "Total: 8 (Over -111 / Under -109)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -831,14 +831,14 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-21 12:29:10 PM ET"
+      "updated_at": "2026-08-21 01:24:54 PM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-21T16:29:10.598947+00:00",
+    "verified_at": "2026-08-21T17:24:54.777566+00:00",
     "total_verified_events": 12,
-    "source_sha256": "66dab6fd030198fc0ca68c2ba59b94fb7343eeb2ac27c6cbb02dd2fe968e2335"
+    "source_sha256": "6e2f2535ab9c9646caa972fd426acc726e4a7875c4f069543e0148b3b7e5231e"
   }
 }
