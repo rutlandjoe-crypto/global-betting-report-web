@@ -5,9 +5,9 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-08-20 10:59:01 PM ET",
-  "generated_at": "2026-08-20 10:59:01 PM ET",
-  "generated_utc": "2026-08-21T02:59:01.317746+00:00",
+  "updated_at": "2026-08-20 11:55:07 PM ET",
+  "generated_at": "2026-08-20 11:55:07 PM ET",
+  "generated_utc": "2026-08-21T03:55:07.421519+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
@@ -82,14 +82,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "San Francisco Giants at Boston Red Sox - 7:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: San Francisco Giants +149 / Boston Red Sox -181. Spread frames the expected margin: San Francisco Giants 1.5 (-147) / Boston Red Sox -1.5 (+122). Total frames the scoring environment: 8 (Over -104 / Under -115). First listed moneyline implies roughly 40.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: San Francisco Giants +153 / Boston Red Sox -186. Spread frames the expected margin: San Francisco Giants 1.5 (-143) / Boston Red Sox -1.5 (+119). Total frames the scoring environment: 8 (Over -102 / Under -119). First listed moneyline implies roughly 39.5% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: San Francisco Giants at Boston Red Sox - 7:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: San Francisco Giants +149 / Boston Red Sox -181",
-        "Spread: San Francisco Giants 1.5 (-147) / Boston Red Sox -1.5 (+122)"
+        "Moneyline: San Francisco Giants +153 / Boston Red Sox -186",
+        "Spread: San Francisco Giants 1.5 (-143) / Boston Red Sox -1.5 (+119)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -268,14 +268,14 @@
     {
       "league": "MLB Betting Board",
       "headline": "San Francisco Giants at Boston Red Sox - 7:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: San Francisco Giants +149 / Boston Red Sox -181. Spread frames the expected margin: San Francisco Giants 1.5 (-147) / Boston Red Sox -1.5 (+122). Total frames the scoring environment: 8 (Over -104 / Under -115). First listed moneyline implies roughly 40.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: San Francisco Giants +153 / Boston Red Sox -186. Spread frames the expected margin: San Francisco Giants 1.5 (-143) / Boston Red Sox -1.5 (+119). Total frames the scoring environment: 8 (Over -102 / Under -119). First listed moneyline implies roughly 39.5% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
         "Game: San Francisco Giants at Boston Red Sox - 7:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: San Francisco Giants +149 / Boston Red Sox -181",
-        "Spread: San Francisco Giants 1.5 (-147) / Boston Red Sox -1.5 (+122)"
+        "Moneyline: San Francisco Giants +153 / Boston Red Sox -186",
+        "Spread: San Francisco Giants 1.5 (-143) / Boston Red Sox -1.5 (+119)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -424,7 +424,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 10:59:01 PM ET"
+      "updated_at": "2026-08-20 11:55:07 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -461,7 +461,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 10:59:01 PM ET"
+      "updated_at": "2026-08-20 11:55:07 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -498,26 +498,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 10:59:01 PM ET"
+      "updated_at": "2026-08-20 11:55:07 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "San Francisco Giants at Boston Red Sox - 7:10 PM ET",
       "game": "San Francisco Giants at Boston Red Sox - 7:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: San Francisco Giants +149 / Boston Red Sox -181 | Spread: San Francisco Giants 1.5 (-147) / Boston Red Sox -1.5 (+122) | Total: 8 (Over -104 / Under -115)",
+      "market": "Bookmaker: DraftKings | Moneyline: San Francisco Giants +153 / Boston Red Sox -186 | Spread: San Francisco Giants 1.5 (-143) / Boston Red Sox -1.5 (+119) | Total: 8 (Over -102 / Under -119)",
       "bookmaker": "DraftKings",
-      "moneyline": "San Francisco Giants +149 / Boston Red Sox -181",
-      "spread": "San Francisco Giants 1.5 (-147) / Boston Red Sox -1.5 (+122)",
-      "total": "8 (Over -104 / Under -115)",
+      "moneyline": "San Francisco Giants +153 / Boston Red Sox -186",
+      "spread": "San Francisco Giants 1.5 (-143) / Boston Red Sox -1.5 (+119)",
+      "total": "8 (Over -102 / Under -119)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: San Francisco Giants +149 / Boston Red Sox -181. Spread frames the expected margin: San Francisco Giants 1.5 (-147) / Boston Red Sox -1.5 (+122). Total frames the scoring environment: 8 (Over -104 / Under -115). First listed moneyline implies roughly 40.2% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: San Francisco Giants +153 / Boston Red Sox -186. Spread frames the expected margin: San Francisco Giants 1.5 (-143) / Boston Red Sox -1.5 (+119). Total frames the scoring environment: 8 (Over -102 / Under -119). First listed moneyline implies roughly 39.5% win probability.",
       "key_data": [
         "Game: San Francisco Giants at Boston Red Sox - 7:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: San Francisco Giants +149 / Boston Red Sox -181",
-        "Spread: San Francisco Giants 1.5 (-147) / Boston Red Sox -1.5 (+122)",
-        "Total: 8 (Over -104 / Under -115)"
+        "Moneyline: San Francisco Giants +153 / Boston Red Sox -186",
+        "Spread: San Francisco Giants 1.5 (-143) / Boston Red Sox -1.5 (+119)",
+        "Total: 8 (Over -102 / Under -119)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -535,7 +535,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 10:59:01 PM ET"
+      "updated_at": "2026-08-20 11:55:07 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -572,7 +572,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 10:59:01 PM ET"
+      "updated_at": "2026-08-20 11:55:07 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -609,7 +609,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 10:59:01 PM ET"
+      "updated_at": "2026-08-20 11:55:07 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -646,7 +646,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 10:59:01 PM ET"
+      "updated_at": "2026-08-20 11:55:07 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -683,26 +683,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 10:59:01 PM ET"
+      "updated_at": "2026-08-20 11:55:07 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Los Angeles Angels at Texas Rangers - 8:15 PM ET",
       "game": "Los Angeles Angels at Texas Rangers - 8:15 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Los Angeles Angels +123 / Texas Rangers -149 | Spread: Los Angeles Angels 1.5 (-186) / Texas Rangers -1.5 (+153) | Total: 7.5 (Over -103 / Under -117)",
+      "market": "Bookmaker: DraftKings | Moneyline: Los Angeles Angels +123 / Texas Rangers -149 | Spread: Los Angeles Angels 1.5 (-186) / Texas Rangers -1.5 (+153) | Total: 7.5 (Over -105 / Under -114)",
       "bookmaker": "DraftKings",
       "moneyline": "Los Angeles Angels +123 / Texas Rangers -149",
       "spread": "Los Angeles Angels 1.5 (-186) / Texas Rangers -1.5 (+153)",
-      "total": "7.5 (Over -103 / Under -117)",
+      "total": "7.5 (Over -105 / Under -114)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Los Angeles Angels +123 / Texas Rangers -149. Spread frames the expected margin: Los Angeles Angels 1.5 (-186) / Texas Rangers -1.5 (+153). Total frames the scoring environment: 7.5 (Over -103 / Under -117). First listed moneyline implies roughly 44.8% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Los Angeles Angels +123 / Texas Rangers -149. Spread frames the expected margin: Los Angeles Angels 1.5 (-186) / Texas Rangers -1.5 (+153). Total frames the scoring environment: 7.5 (Over -105 / Under -114). First listed moneyline implies roughly 44.8% win probability.",
       "key_data": [
         "Game: Los Angeles Angels at Texas Rangers - 8:15 PM ET",
         "Market source: DraftKings",
         "Moneyline: Los Angeles Angels +123 / Texas Rangers -149",
         "Spread: Los Angeles Angels 1.5 (-186) / Texas Rangers -1.5 (+153)",
-        "Total: 7.5 (Over -103 / Under -117)"
+        "Total: 7.5 (Over -105 / Under -114)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -720,7 +720,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 10:59:01 PM ET"
+      "updated_at": "2026-08-20 11:55:07 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -757,7 +757,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 10:59:01 PM ET"
+      "updated_at": "2026-08-20 11:55:07 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -794,26 +794,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 10:59:01 PM ET"
+      "updated_at": "2026-08-20 11:55:07 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Pittsburgh Pirates at Los Angeles Dodgers - 10:10 PM ET",
       "game": "Pittsburgh Pirates at Los Angeles Dodgers - 10:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Pittsburgh Pirates +194 / Los Angeles Dodgers -239 | Spread: Pittsburgh Pirates 1.5 (-114) / Los Angeles Dodgers -1.5 (-105) | Total: 8 (Over -112 / Under -108)",
+      "market": "Bookmaker: DraftKings | Moneyline: Pittsburgh Pirates +198 / Los Angeles Dodgers -245 | Spread: Pittsburgh Pirates 1.5 (-112) / Los Angeles Dodgers -1.5 (-107) | Total: 8 (Over -113 / Under -106)",
       "bookmaker": "DraftKings",
-      "moneyline": "Pittsburgh Pirates +194 / Los Angeles Dodgers -239",
-      "spread": "Pittsburgh Pirates 1.5 (-114) / Los Angeles Dodgers -1.5 (-105)",
-      "total": "8 (Over -112 / Under -108)",
+      "moneyline": "Pittsburgh Pirates +198 / Los Angeles Dodgers -245",
+      "spread": "Pittsburgh Pirates 1.5 (-112) / Los Angeles Dodgers -1.5 (-107)",
+      "total": "8 (Over -113 / Under -106)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Pittsburgh Pirates +194 / Los Angeles Dodgers -239. Spread frames the expected margin: Pittsburgh Pirates 1.5 (-114) / Los Angeles Dodgers -1.5 (-105). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 34.0% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Pittsburgh Pirates +198 / Los Angeles Dodgers -245. Spread frames the expected margin: Pittsburgh Pirates 1.5 (-112) / Los Angeles Dodgers -1.5 (-107). Total frames the scoring environment: 8 (Over -113 / Under -106). First listed moneyline implies roughly 33.6% win probability.",
       "key_data": [
         "Game: Pittsburgh Pirates at Los Angeles Dodgers - 10:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Pittsburgh Pirates +194 / Los Angeles Dodgers -239",
-        "Spread: Pittsburgh Pirates 1.5 (-114) / Los Angeles Dodgers -1.5 (-105)",
-        "Total: 8 (Over -112 / Under -108)"
+        "Moneyline: Pittsburgh Pirates +198 / Los Angeles Dodgers -245",
+        "Spread: Pittsburgh Pirates 1.5 (-112) / Los Angeles Dodgers -1.5 (-107)",
+        "Total: 8 (Over -113 / Under -106)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -831,14 +831,14 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-08-20 10:59:01 PM ET"
+      "updated_at": "2026-08-20 11:55:07 PM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-08-21T02:59:01.264282+00:00",
+    "verified_at": "2026-08-21T03:55:07.368523+00:00",
     "total_verified_events": 12,
-    "source_sha256": "01962e0a4306c5d251d070331c39f9479dc6e1670475a1bb875ca5369a2c8dfa"
+    "source_sha256": "7ebdf2e658fab02b9e9ebf5432718acde5c809846f83011e1abfdd73759855e9"
   }
 }
