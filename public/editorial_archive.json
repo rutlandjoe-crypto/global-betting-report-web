@@ -1,7 +1,7 @@
 {
   "site": "Global Betting Report",
   "generatedAt": "2026-09-01T20:29:59.084372+00:00",
-  "storyCount": 159,
+  "storyCount": 160,
   "stories": [
     {
       "slug": "2026-09-01-toronto-blue-jays-at-cleveland-guardians",
@@ -31,19 +31,46 @@
       "storyAngles": []
     },
     {
-      "slug": "2026-09-01-seattle-mariners-at-boston-red-sox",
-      "title": "Seattle Mariners at Boston Red Sox - 6:45 PM ET",
+      "slug": "2026-09-01-st-louis-cardinals-at-los-angeles-dodgers",
+      "title": "St. Louis Cardinals at Los Angeles Dodgers - 10:10 PM ET",
       "label": "MLB Betting Board",
-      "summary": "Moneyline sets the win-probability baseline: Seattle Mariners -101 / Boston Red Sox -120. Spread frames the expected margin: Seattle Mariners -1.5 (+170) / Boston Red Sox 1.5 (-208). Total frames the scoring environment: 7 (Over -123 / Under +102). First listed moneyline implies roughly 50.2% win probability.",
+      "summary": "Moneyline sets the win-probability baseline: St. Louis Cardinals +167 / Los Angeles Dodgers -204. Spread frames the expected margin: St. Louis Cardinals 1.5 (-126) / Los Angeles Dodgers -1.5 (+104). Total frames the scoring environment: 9 (Over -102 / Under -118). First listed moneyline implies roughly 37.5% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-01T20:29:59.084372+00:00",
+      "publishedAt": "2026-09-02T00:56:26.999541+00:00",
+      "reportDate": "2026-09-01",
+      "game": "St. Louis Cardinals at Los Angeles Dodgers",
+      "market": [
+        "Game: St. Louis Cardinals at Los Angeles Dodgers - 10:10 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: St. Louis Cardinals +167 / Los Angeles Dodgers -204",
+        "Spread: St. Louis Cardinals 1.5 (-126) / Los Angeles Dodgers -1.5 (+104)"
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "whatToWatch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-09-01-seattle-mariners-at-boston-red-sox",
+      "title": "Seattle Mariners at Boston Red Sox - 4:10 PM ET",
+      "label": "MLB Betting Board",
+      "summary": "Moneyline sets the win-probability baseline: Seattle Mariners +116 / Boston Red Sox -134. Spread frames the expected margin: Seattle Mariners 1.5 (-188) / Boston Red Sox -1.5 (+155). Total frames the scoring environment: 8.5 (Over -112 / Under -108). First listed moneyline implies roughly 46.3% win probability.",
+      "sourceUrl": "https://www.globalbettingreport.com",
+      "publishedAt": "2026-09-02T00:56:26.999541+00:00",
       "reportDate": "2026-09-01",
       "game": "Seattle Mariners at Boston Red Sox",
       "market": [
-        "Game: Seattle Mariners at Boston Red Sox - 6:45 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Seattle Mariners -101 / Boston Red Sox -120",
-        "Spread: Seattle Mariners -1.5 (+170) / Boston Red Sox 1.5 (-208)"
+        "Game: Seattle Mariners at Boston Red Sox - 4:10 PM ET",
+        "Market source: FanDuel",
+        "Moneyline: Seattle Mariners +116 / Boston Red Sox -134",
+        "Spread: Seattle Mariners 1.5 (-188) / Boston Red Sox -1.5 (+155)"
       ],
       "impliedProbability": [],
       "whyItMatters": [
@@ -86,17 +113,17 @@
     },
     {
       "slug": "2026-09-01-san-diego-padres-at-cincinnati-reds",
-      "title": "San Diego Padres at Cincinnati Reds - 6:40 PM ET",
+      "title": "San Diego Padres at Cincinnati Reds - 12:40 PM ET",
       "label": "MLB Betting Board",
-      "summary": "Moneyline sets the win-probability baseline: San Diego Padres -137 / Cincinnati Reds +114. Spread frames the expected margin: San Diego Padres -1.5 (+113) / Cincinnati Reds 1.5 (-136). Total frames the scoring environment: 9 (Over -117 / Under -103). First listed moneyline implies roughly 57.8% win probability.",
+      "summary": "Moneyline sets the win-probability baseline: San Diego Padres -144 / Cincinnati Reds +119. Spread frames the expected margin: San Diego Padres -1.5 (+113) / Cincinnati Reds 1.5 (-136). Total frames the scoring environment: 9.5 (Over -109 / Under -111). First listed moneyline implies roughly 59.0% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-01T20:29:59.084372+00:00",
+      "publishedAt": "2026-09-02T00:56:26.999541+00:00",
       "reportDate": "2026-09-01",
       "game": "San Diego Padres at Cincinnati Reds",
       "market": [
-        "Game: San Diego Padres at Cincinnati Reds - 6:40 PM ET",
+        "Game: San Diego Padres at Cincinnati Reds - 12:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: San Diego Padres -137 / Cincinnati Reds +114",
+        "Moneyline: San Diego Padres -144 / Cincinnati Reds +119",
         "Spread: San Diego Padres -1.5 (+113) / Cincinnati Reds 1.5 (-136)"
       ],
       "impliedProbability": [],
@@ -117,7 +144,7 @@
       "label": "MLB Betting Board",
       "summary": "Moneyline sets the win-probability baseline: Philadelphia Phillies -137 / Arizona Diamondbacks +114. Spread frames the expected margin: Philadelphia Phillies -1.5 (+130) / Arizona Diamondbacks 1.5 (-157). Total frames the scoring environment: 7.5 (Over -102 / Under -118). First listed moneyline implies roughly 57.8% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-01T22:59:05.621958+00:00",
+      "publishedAt": "2026-09-02T00:56:26.999541+00:00",
       "reportDate": "2026-09-01",
       "game": "Philadelphia Phillies at Arizona Diamondbacks",
       "market": [
@@ -142,16 +169,16 @@
       "slug": "2026-09-01-new-york-yankees-at-los-angeles-angels",
       "title": "New York Yankees at Los Angeles Angels - 9:38 PM ET",
       "label": "MLB Betting Board",
-      "summary": "Moneyline sets the win-probability baseline: New York Yankees -192 / Los Angeles Angels +157. Spread frames the expected margin: New York Yankees -1.5 (-110) / Los Angeles Angels 1.5 (-110). Total frames the scoring environment: 7.5 (Over +104 / Under -126). First listed moneyline implies roughly 65.8% win probability.",
+      "summary": "Moneyline sets the win-probability baseline: New York Yankees -180 / Los Angeles Angels +148. Spread frames the expected margin: New York Yankees -1.5 (-103) / Los Angeles Angels 1.5 (-117). Total frames the scoring environment: 7.5 (Over +104 / Under -126). First listed moneyline implies roughly 64.3% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-01T22:59:05.621958+00:00",
+      "publishedAt": "2026-09-02T00:56:26.999541+00:00",
       "reportDate": "2026-09-01",
       "game": "New York Yankees at Los Angeles Angels",
       "market": [
         "Game: New York Yankees at Los Angeles Angels - 9:38 PM ET",
         "Market source: DraftKings",
-        "Moneyline: New York Yankees -192 / Los Angeles Angels +157",
-        "Spread: New York Yankees -1.5 (-110) / Los Angeles Angels 1.5 (-110)"
+        "Moneyline: New York Yankees -180 / Los Angeles Angels +148",
+        "Spread: New York Yankees -1.5 (-103) / Los Angeles Angels 1.5 (-117)"
       ],
       "impliedProbability": [],
       "whyItMatters": [
@@ -302,18 +329,18 @@
     },
     {
       "slug": "2026-09-01-baltimore-orioles-at-colorado-rockies",
-      "title": "Baltimore Orioles at Colorado Rockies - 8:40 PM ET",
+      "title": "Baltimore Orioles at Colorado Rockies - 3:10 PM ET",
       "label": "MLB Betting Board",
-      "summary": "Moneyline sets the win-probability baseline: Baltimore Orioles -156 / Colorado Rockies +129. Spread frames the expected margin: Baltimore Orioles -1.5 (+100) / Colorado Rockies 1.5 (-121). Total frames the scoring environment: 11 (Over -121 / Under +100). First listed moneyline implies roughly 60.9% win probability.",
+      "summary": "Moneyline sets the win-probability baseline: Baltimore Orioles -162 / Colorado Rockies +134. Spread frames the expected margin: Baltimore Orioles -1.5 (-105) / Colorado Rockies 1.5 (-115). Total frames the scoring environment: 11.5 (Over -105 / Under -115). First listed moneyline implies roughly 61.8% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-01T22:59:05.621958+00:00",
+      "publishedAt": "2026-09-02T00:56:26.999541+00:00",
       "reportDate": "2026-09-01",
       "game": "Baltimore Orioles at Colorado Rockies",
       "market": [
-        "Game: Baltimore Orioles at Colorado Rockies - 8:40 PM ET",
+        "Game: Baltimore Orioles at Colorado Rockies - 3:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Baltimore Orioles -156 / Colorado Rockies +129",
-        "Spread: Baltimore Orioles -1.5 (+100) / Colorado Rockies 1.5 (-121)"
+        "Moneyline: Baltimore Orioles -162 / Colorado Rockies +134",
+        "Spread: Baltimore Orioles -1.5 (-105) / Colorado Rockies 1.5 (-115)"
       ],
       "impliedProbability": [],
       "whyItMatters": [
@@ -329,18 +356,18 @@
     },
     {
       "slug": "2026-09-01-atlanta-braves-at-washington-nationals",
-      "title": "Atlanta Braves at Washington Nationals - 6:45 PM ET",
+      "title": "Atlanta Braves at Washington Nationals - 1:05 PM ET",
       "label": "MLB Betting Board",
-      "summary": "Moneyline sets the win-probability baseline: Atlanta Braves -157 / Washington Nationals +130. Spread frames the expected margin: Atlanta Braves -1.5 (+103) / Washington Nationals 1.5 (-125). Total frames the scoring environment: 9.5 (Over -118 / Under -102). First listed moneyline implies roughly 61.1% win probability.",
+      "summary": "Moneyline sets the win-probability baseline: Atlanta Braves -154 / Washington Nationals +130. Spread frames the expected margin: Atlanta Braves -1.5 (+108) / Washington Nationals 1.5 (-130). Total frames the scoring environment: 9 (Over -110 / Under -110). First listed moneyline implies roughly 60.6% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-01T20:29:59.084372+00:00",
+      "publishedAt": "2026-09-02T00:56:26.999541+00:00",
       "reportDate": "2026-09-01",
       "game": "Atlanta Braves at Washington Nationals",
       "market": [
-        "Game: Atlanta Braves at Washington Nationals - 6:45 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Atlanta Braves -157 / Washington Nationals +130",
-        "Spread: Atlanta Braves -1.5 (+103) / Washington Nationals 1.5 (-125)"
+        "Game: Atlanta Braves at Washington Nationals - 1:05 PM ET",
+        "Market source: FanDuel",
+        "Moneyline: Atlanta Braves -154 / Washington Nationals +130",
+        "Spread: Atlanta Braves -1.5 (+108) / Washington Nationals 1.5 (-130)"
       ],
       "impliedProbability": [],
       "whyItMatters": [
@@ -356,18 +383,18 @@
     },
     {
       "slug": "2026-09-01-athletics-at-texas-rangers",
-      "title": "Athletics at Texas Rangers - 8:05 PM ET",
+      "title": "Athletics at Texas Rangers - 2:35 PM ET",
       "label": "MLB Betting Board",
-      "summary": "Moneyline sets the win-probability baseline: Athletics +183 / Texas Rangers -225. Spread frames the expected margin: Athletics 1.5 (-120) / Texas Rangers -1.5 (+100). Total frames the scoring environment: 7.5 (Over -110 / Under -110). First listed moneyline implies roughly 35.3% win probability.",
+      "summary": "Moneyline sets the win-probability baseline: Athletics +139 / Texas Rangers -169. Spread frames the expected margin: Athletics 1.5 (-150) / Texas Rangers -1.5 (+124). Total frames the scoring environment: 7.5 (Over -117 / Under -103). First listed moneyline implies roughly 41.8% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-01T22:59:05.621958+00:00",
+      "publishedAt": "2026-09-02T00:56:26.999541+00:00",
       "reportDate": "2026-09-01",
       "game": "Athletics at Texas Rangers",
       "market": [
-        "Game: Athletics at Texas Rangers - 8:05 PM ET",
+        "Game: Athletics at Texas Rangers - 2:35 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Athletics +183 / Texas Rangers -225",
-        "Spread: Athletics 1.5 (-120) / Texas Rangers -1.5 (+100)"
+        "Moneyline: Athletics +139 / Texas Rangers -169",
+        "Spread: Athletics 1.5 (-150) / Texas Rangers -1.5 (+124)"
       ],
       "impliedProbability": [],
       "whyItMatters": [
