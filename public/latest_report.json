@@ -5,22 +5,22 @@
   "title": "Global Betting Report",
   "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
   "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-09-04 05:12:55 PM ET",
-  "generated_at": "2026-09-04 05:12:55 PM ET",
-  "generated_utc": "2026-09-04T21:12:55.571688+00:00",
+  "updated_at": "2026-09-04 07:41:32 PM ET",
+  "generated_at": "2026-09-04 07:41:32 PM ET",
+  "generated_utc": "2026-09-04T23:41:32.357014+00:00",
   "source_mode": "public_betting_market_report",
   "homepage_cards": [
     {
       "league": "MLB Betting Board",
-      "headline": "Milwaukee Brewers at Cincinnati Reds - 6:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Milwaukee Brewers -157 / Cincinnati Reds +130. Spread frames the expected margin: Milwaukee Brewers -1.5 (-101) / Cincinnati Reds 1.5 (-119). Total frames the scoring environment: 9.5 (Over -110 / Under -110). First listed moneyline implies roughly 61.1% win probability.",
+      "headline": "Minnesota Twins at Chicago White Sox - 7:40 PM ET",
+      "snapshot": "Moneyline sets the win-probability baseline: Minnesota Twins +109 / Chicago White Sox -131. Spread frames the expected margin: Minnesota Twins 1.5 (-189) / Chicago White Sox -1.5 (+155). Total frames the scoring environment: 9 (Over -118 / Under -102). First listed moneyline implies roughly 47.8% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
-        "Game: Milwaukee Brewers at Cincinnati Reds - 6:10 PM ET",
+        "Game: Minnesota Twins at Chicago White Sox - 7:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Milwaukee Brewers -157 / Cincinnati Reds +130",
-        "Spread: Milwaukee Brewers -1.5 (-101) / Cincinnati Reds 1.5 (-119)"
+        "Moneyline: Minnesota Twins +109 / Chicago White Sox -131",
+        "Spread: Minnesota Twins 1.5 (-189) / Chicago White Sox -1.5 (+155)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -58,15 +58,15 @@
     },
     {
       "league": "MLB Betting Board",
-      "headline": "Atlanta Braves at Philadelphia Phillies - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Braves -106 / Philadelphia Phillies -114. Spread frames the expected margin: Atlanta Braves -1.5 (+167) / Philadelphia Phillies 1.5 (-204). Total frames the scoring environment: 7 (Over -102 / Under -118). First listed moneyline implies roughly 51.5% win probability.",
+      "headline": "Tampa Bay Rays at Texas Rangers - 8:05 PM ET",
+      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays +102 / Texas Rangers -123. Spread frames the expected margin: Tampa Bay Rays -1.5 (+169) / Texas Rangers 1.5 (-207). Total frames the scoring environment: 8.5 (Over -112 / Under -108). First listed moneyline implies roughly 49.5% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
-        "Game: Atlanta Braves at Philadelphia Phillies - 6:40 PM ET",
+        "Game: Tampa Bay Rays at Texas Rangers - 8:05 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Atlanta Braves -106 / Philadelphia Phillies -114",
-        "Spread: Atlanta Braves -1.5 (+167) / Philadelphia Phillies 1.5 (-204)"
+        "Moneyline: Tampa Bay Rays +102 / Texas Rangers -123",
+        "Spread: Tampa Bay Rays -1.5 (+169) / Texas Rangers 1.5 (-207)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -104,15 +104,15 @@
     },
     {
       "league": "MLB Betting Board",
-      "headline": "Los Angeles Angels at Pittsburgh Pirates - 6:45 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Los Angeles Angels +163 / Pittsburgh Pirates -198. Spread frames the expected margin: Los Angeles Angels 1.5 (-127) / Pittsburgh Pirates -1.5 (+105). Total frames the scoring environment: 8.5 (Over -120 / Under -101). First listed moneyline implies roughly 38.0% win probability.",
+      "headline": "Toronto Blue Jays at Kansas City Royals - 8:10 PM ET",
+      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays -102 / Kansas City Royals -119. Spread frames the expected margin: Toronto Blue Jays -1.5 (+155) / Kansas City Royals 1.5 (-188). Total frames the scoring environment: 10 (Over -105 / Under -114). First listed moneyline implies roughly 50.5% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
-        "Game: Los Angeles Angels at Pittsburgh Pirates - 6:45 PM ET",
+        "Game: Toronto Blue Jays at Kansas City Royals - 8:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Los Angeles Angels +163 / Pittsburgh Pirates -198",
-        "Spread: Los Angeles Angels 1.5 (-127) / Pittsburgh Pirates -1.5 (+105)"
+        "Moneyline: Toronto Blue Jays -102 / Kansas City Royals -119",
+        "Spread: Toronto Blue Jays -1.5 (+155) / Kansas City Royals 1.5 (-188)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -127,15 +127,15 @@
     },
     {
       "league": "MLB Betting Board",
-      "headline": "Boston Red Sox at Baltimore Orioles - 7:05 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Boston Red Sox -118 / Baltimore Orioles -102. Spread frames the expected margin: Boston Red Sox -1.5 (+140) / Baltimore Orioles 1.5 (-170). Total frames the scoring environment: 8 (Over -117 / Under -103). First listed moneyline implies roughly 54.1% win probability.",
+      "headline": "Arizona Diamondbacks at Houston Astros - 8:10 PM ET",
+      "snapshot": "Moneyline sets the win-probability baseline: Arizona Diamondbacks +109 / Houston Astros -131. Spread frames the expected margin: Arizona Diamondbacks 1.5 (-191) / Houston Astros -1.5 (+157). Total frames the scoring environment: 9 (Over +100 / Under -120). First listed moneyline implies roughly 47.8% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
-        "Game: Boston Red Sox at Baltimore Orioles - 7:05 PM ET",
+        "Game: Arizona Diamondbacks at Houston Astros - 8:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Boston Red Sox -118 / Baltimore Orioles -102",
-        "Spread: Boston Red Sox -1.5 (+140) / Baltimore Orioles 1.5 (-170)"
+        "Moneyline: Arizona Diamondbacks +109 / Houston Astros -131",
+        "Spread: Arizona Diamondbacks 1.5 (-191) / Houston Astros -1.5 (+157)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -150,15 +150,15 @@
     },
     {
       "league": "MLB Betting Board",
-      "headline": "San Francisco Giants at New York Mets - 7:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: San Francisco Giants +168 / New York Mets -205. Spread frames the expected margin: San Francisco Giants 1.5 (-132) / New York Mets -1.5 (+109). Total frames the scoring environment: 7.5 (Over -113 / Under -107). First listed moneyline implies roughly 37.3% win probability.",
+      "headline": "St. Louis Cardinals at Colorado Rockies - 8:40 PM ET",
+      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals -133 / Colorado Rockies +110. Spread frames the expected margin: St. Louis Cardinals -1.5 (+114) / Colorado Rockies 1.5 (-137). Total frames the scoring environment: 11 (Over -108 / Under -112). First listed moneyline implies roughly 57.1% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
-        "Game: San Francisco Giants at New York Mets - 7:10 PM ET",
+        "Game: St. Louis Cardinals at Colorado Rockies - 8:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: San Francisco Giants +168 / New York Mets -205",
-        "Spread: San Francisco Giants 1.5 (-132) / New York Mets -1.5 (+109)"
+        "Moneyline: St. Louis Cardinals -133 / Colorado Rockies +110",
+        "Spread: St. Louis Cardinals -1.5 (+114) / Colorado Rockies 1.5 (-137)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -173,15 +173,15 @@
     },
     {
       "league": "MLB Betting Board",
-      "headline": "Chicago Cubs at Miami Marlins - 7:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Chicago Cubs -161 / Miami Marlins +133. Spread frames the expected margin: Chicago Cubs -1.5 (+108) / Miami Marlins 1.5 (-130). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 61.7% win probability.",
+      "headline": "New York Yankees at San Diego Padres - 9:40 PM ET",
+      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees -114 / San Diego Padres -105. Spread frames the expected margin: New York Yankees -1.5 (+149) / San Diego Padres 1.5 (-181). Total frames the scoring environment: 7.5 (Over +102 / Under -122). First listed moneyline implies roughly 53.3% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
-        "Game: Chicago Cubs at Miami Marlins - 7:10 PM ET",
+        "Game: New York Yankees at San Diego Padres - 9:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Chicago Cubs -161 / Miami Marlins +133",
-        "Spread: Chicago Cubs -1.5 (+108) / Miami Marlins 1.5 (-130)"
+        "Moneyline: New York Yankees -114 / San Diego Padres -105",
+        "Spread: New York Yankees -1.5 (+149) / San Diego Padres 1.5 (-181)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -198,15 +198,15 @@
   "live_newsroom": [
     {
       "league": "MLB Betting Board",
-      "headline": "Milwaukee Brewers at Cincinnati Reds - 6:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Milwaukee Brewers -157 / Cincinnati Reds +130. Spread frames the expected margin: Milwaukee Brewers -1.5 (-101) / Cincinnati Reds 1.5 (-119). Total frames the scoring environment: 9.5 (Over -110 / Under -110). First listed moneyline implies roughly 61.1% win probability.",
+      "headline": "Minnesota Twins at Chicago White Sox - 7:40 PM ET",
+      "snapshot": "Moneyline sets the win-probability baseline: Minnesota Twins +109 / Chicago White Sox -131. Spread frames the expected margin: Minnesota Twins 1.5 (-189) / Chicago White Sox -1.5 (+155). Total frames the scoring environment: 9 (Over -118 / Under -102). First listed moneyline implies roughly 47.8% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
-        "Game: Milwaukee Brewers at Cincinnati Reds - 6:10 PM ET",
+        "Game: Minnesota Twins at Chicago White Sox - 7:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Milwaukee Brewers -157 / Cincinnati Reds +130",
-        "Spread: Milwaukee Brewers -1.5 (-101) / Cincinnati Reds 1.5 (-119)"
+        "Moneyline: Minnesota Twins +109 / Chicago White Sox -131",
+        "Spread: Minnesota Twins 1.5 (-189) / Chicago White Sox -1.5 (+155)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -244,15 +244,15 @@
     },
     {
       "league": "MLB Betting Board",
-      "headline": "Atlanta Braves at Philadelphia Phillies - 6:40 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Braves -106 / Philadelphia Phillies -114. Spread frames the expected margin: Atlanta Braves -1.5 (+167) / Philadelphia Phillies 1.5 (-204). Total frames the scoring environment: 7 (Over -102 / Under -118). First listed moneyline implies roughly 51.5% win probability.",
+      "headline": "Tampa Bay Rays at Texas Rangers - 8:05 PM ET",
+      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays +102 / Texas Rangers -123. Spread frames the expected margin: Tampa Bay Rays -1.5 (+169) / Texas Rangers 1.5 (-207). Total frames the scoring environment: 8.5 (Over -112 / Under -108). First listed moneyline implies roughly 49.5% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
-        "Game: Atlanta Braves at Philadelphia Phillies - 6:40 PM ET",
+        "Game: Tampa Bay Rays at Texas Rangers - 8:05 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Atlanta Braves -106 / Philadelphia Phillies -114",
-        "Spread: Atlanta Braves -1.5 (+167) / Philadelphia Phillies 1.5 (-204)"
+        "Moneyline: Tampa Bay Rays +102 / Texas Rangers -123",
+        "Spread: Tampa Bay Rays -1.5 (+169) / Texas Rangers 1.5 (-207)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -290,15 +290,15 @@
     },
     {
       "league": "MLB Betting Board",
-      "headline": "Los Angeles Angels at Pittsburgh Pirates - 6:45 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Los Angeles Angels +163 / Pittsburgh Pirates -198. Spread frames the expected margin: Los Angeles Angels 1.5 (-127) / Pittsburgh Pirates -1.5 (+105). Total frames the scoring environment: 8.5 (Over -120 / Under -101). First listed moneyline implies roughly 38.0% win probability.",
+      "headline": "Toronto Blue Jays at Kansas City Royals - 8:10 PM ET",
+      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays -102 / Kansas City Royals -119. Spread frames the expected margin: Toronto Blue Jays -1.5 (+155) / Kansas City Royals 1.5 (-188). Total frames the scoring environment: 10 (Over -105 / Under -114). First listed moneyline implies roughly 50.5% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
-        "Game: Los Angeles Angels at Pittsburgh Pirates - 6:45 PM ET",
+        "Game: Toronto Blue Jays at Kansas City Royals - 8:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Los Angeles Angels +163 / Pittsburgh Pirates -198",
-        "Spread: Los Angeles Angels 1.5 (-127) / Pittsburgh Pirates -1.5 (+105)"
+        "Moneyline: Toronto Blue Jays -102 / Kansas City Royals -119",
+        "Spread: Toronto Blue Jays -1.5 (+155) / Kansas City Royals 1.5 (-188)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -313,15 +313,15 @@
     },
     {
       "league": "MLB Betting Board",
-      "headline": "Boston Red Sox at Baltimore Orioles - 7:05 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Boston Red Sox -118 / Baltimore Orioles -102. Spread frames the expected margin: Boston Red Sox -1.5 (+140) / Baltimore Orioles 1.5 (-170). Total frames the scoring environment: 8 (Over -117 / Under -103). First listed moneyline implies roughly 54.1% win probability.",
+      "headline": "Arizona Diamondbacks at Houston Astros - 8:10 PM ET",
+      "snapshot": "Moneyline sets the win-probability baseline: Arizona Diamondbacks +109 / Houston Astros -131. Spread frames the expected margin: Arizona Diamondbacks 1.5 (-191) / Houston Astros -1.5 (+157). Total frames the scoring environment: 9 (Over +100 / Under -120). First listed moneyline implies roughly 47.8% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
-        "Game: Boston Red Sox at Baltimore Orioles - 7:05 PM ET",
+        "Game: Arizona Diamondbacks at Houston Astros - 8:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Boston Red Sox -118 / Baltimore Orioles -102",
-        "Spread: Boston Red Sox -1.5 (+140) / Baltimore Orioles 1.5 (-170)"
+        "Moneyline: Arizona Diamondbacks +109 / Houston Astros -131",
+        "Spread: Arizona Diamondbacks 1.5 (-191) / Houston Astros -1.5 (+157)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -336,15 +336,15 @@
     },
     {
       "league": "MLB Betting Board",
-      "headline": "San Francisco Giants at New York Mets - 7:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: San Francisco Giants +168 / New York Mets -205. Spread frames the expected margin: San Francisco Giants 1.5 (-132) / New York Mets -1.5 (+109). Total frames the scoring environment: 7.5 (Over -113 / Under -107). First listed moneyline implies roughly 37.3% win probability.",
+      "headline": "St. Louis Cardinals at Colorado Rockies - 8:40 PM ET",
+      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals -133 / Colorado Rockies +110. Spread frames the expected margin: St. Louis Cardinals -1.5 (+114) / Colorado Rockies 1.5 (-137). Total frames the scoring environment: 11 (Over -108 / Under -112). First listed moneyline implies roughly 57.1% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
-        "Game: San Francisco Giants at New York Mets - 7:10 PM ET",
+        "Game: St. Louis Cardinals at Colorado Rockies - 8:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: San Francisco Giants +168 / New York Mets -205",
-        "Spread: San Francisco Giants 1.5 (-132) / New York Mets -1.5 (+109)"
+        "Moneyline: St. Louis Cardinals -133 / Colorado Rockies +110",
+        "Spread: St. Louis Cardinals -1.5 (+114) / Colorado Rockies 1.5 (-137)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -359,15 +359,15 @@
     },
     {
       "league": "MLB Betting Board",
-      "headline": "Chicago Cubs at Miami Marlins - 7:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Chicago Cubs -161 / Miami Marlins +133. Spread frames the expected margin: Chicago Cubs -1.5 (+108) / Miami Marlins 1.5 (-130). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 61.7% win probability.",
+      "headline": "New York Yankees at San Diego Padres - 9:40 PM ET",
+      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees -114 / San Diego Padres -105. Spread frames the expected margin: New York Yankees -1.5 (+149) / San Diego Padres 1.5 (-181). Total frames the scoring environment: 7.5 (Over +102 / Under -122). First listed moneyline implies roughly 53.3% win probability.",
       "source_label": "Betting market read",
       "story_type": "market_context",
       "key_data": [
-        "Game: Chicago Cubs at Miami Marlins - 7:10 PM ET",
+        "Game: New York Yankees at San Diego Padres - 9:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Chicago Cubs -161 / Miami Marlins +133",
-        "Spread: Chicago Cubs -1.5 (+108) / Miami Marlins 1.5 (-130)"
+        "Moneyline: New York Yankees -114 / San Diego Padres -105",
+        "Spread: New York Yankees -1.5 (+149) / San Diego Padres 1.5 (-181)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -382,31 +382,31 @@
     }
   ],
   "editor_signals": [
-    "Milwaukee Brewers at Cincinnati Reds - 6:10 PM ET",
+    "Minnesota Twins at Chicago White Sox - 7:40 PM ET",
     "New England Patriots at Seattle Seahawks - 8:20 PM ET",
-    "Atlanta Braves at Philadelphia Phillies - 6:40 PM ET",
+    "Tampa Bay Rays at Texas Rangers - 8:05 PM ET",
     "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-    "Los Angeles Angels at Pittsburgh Pirates - 6:45 PM ET"
+    "Toronto Blue Jays at Kansas City Royals - 8:10 PM ET"
   ],
   "sections": [
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
-      "headline": "Milwaukee Brewers at Cincinnati Reds - 6:10 PM ET",
-      "game": "Milwaukee Brewers at Cincinnati Reds - 6:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Milwaukee Brewers -157 / Cincinnati Reds +130 | Spread: Milwaukee Brewers -1.5 (-101) / Cincinnati Reds 1.5 (-119) | Total: 9.5 (Over -110 / Under -110)",
+      "headline": "Minnesota Twins at Chicago White Sox - 7:40 PM ET",
+      "game": "Minnesota Twins at Chicago White Sox - 7:40 PM ET",
+      "market": "Bookmaker: DraftKings | Moneyline: Minnesota Twins +109 / Chicago White Sox -131 | Spread: Minnesota Twins 1.5 (-189) / Chicago White Sox -1.5 (+155) | Total: 9 (Over -118 / Under -102)",
       "bookmaker": "DraftKings",
-      "moneyline": "Milwaukee Brewers -157 / Cincinnati Reds +130",
-      "spread": "Milwaukee Brewers -1.5 (-101) / Cincinnati Reds 1.5 (-119)",
-      "total": "9.5 (Over -110 / Under -110)",
+      "moneyline": "Minnesota Twins +109 / Chicago White Sox -131",
+      "spread": "Minnesota Twins 1.5 (-189) / Chicago White Sox -1.5 (+155)",
+      "total": "9 (Over -118 / Under -102)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Milwaukee Brewers -157 / Cincinnati Reds +130. Spread frames the expected margin: Milwaukee Brewers -1.5 (-101) / Cincinnati Reds 1.5 (-119). Total frames the scoring environment: 9.5 (Over -110 / Under -110). First listed moneyline implies roughly 61.1% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Minnesota Twins +109 / Chicago White Sox -131. Spread frames the expected margin: Minnesota Twins 1.5 (-189) / Chicago White Sox -1.5 (+155). Total frames the scoring environment: 9 (Over -118 / Under -102). First listed moneyline implies roughly 47.8% win probability.",
       "key_data": [
-        "Game: Milwaukee Brewers at Cincinnati Reds - 6:10 PM ET",
+        "Game: Minnesota Twins at Chicago White Sox - 7:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Milwaukee Brewers -157 / Cincinnati Reds +130",
-        "Spread: Milwaukee Brewers -1.5 (-101) / Cincinnati Reds 1.5 (-119)",
-        "Total: 9.5 (Over -110 / Under -110)"
+        "Moneyline: Minnesota Twins +109 / Chicago White Sox -131",
+        "Spread: Minnesota Twins 1.5 (-189) / Chicago White Sox -1.5 (+155)",
+        "Total: 9 (Over -118 / Under -102)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -424,7 +424,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
+      "updated_at": "2026-09-04 07:41:32 PM ET"
     },
     {
       "title": "NFL Betting Board",
@@ -461,26 +461,26 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
+      "updated_at": "2026-09-04 07:41:32 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
-      "headline": "Atlanta Braves at Philadelphia Phillies - 6:40 PM ET",
-      "game": "Atlanta Braves at Philadelphia Phillies - 6:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Atlanta Braves -106 / Philadelphia Phillies -114 | Spread: Atlanta Braves -1.5 (+167) / Philadelphia Phillies 1.5 (-204) | Total: 7 (Over -102 / Under -118)",
+      "headline": "Tampa Bay Rays at Texas Rangers - 8:05 PM ET",
+      "game": "Tampa Bay Rays at Texas Rangers - 8:05 PM ET",
+      "market": "Bookmaker: DraftKings | Moneyline: Tampa Bay Rays +102 / Texas Rangers -123 | Spread: Tampa Bay Rays -1.5 (+169) / Texas Rangers 1.5 (-207) | Total: 8.5 (Over -112 / Under -108)",
       "bookmaker": "DraftKings",
-      "moneyline": "Atlanta Braves -106 / Philadelphia Phillies -114",
-      "spread": "Atlanta Braves -1.5 (+167) / Philadelphia Phillies 1.5 (-204)",
-      "total": "7 (Over -102 / Under -118)",
+      "moneyline": "Tampa Bay Rays +102 / Texas Rangers -123",
+      "spread": "Tampa Bay Rays -1.5 (+169) / Texas Rangers 1.5 (-207)",
+      "total": "8.5 (Over -112 / Under -108)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Braves -106 / Philadelphia Phillies -114. Spread frames the expected margin: Atlanta Braves -1.5 (+167) / Philadelphia Phillies 1.5 (-204). Total frames the scoring environment: 7 (Over -102 / Under -118). First listed moneyline implies roughly 51.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays +102 / Texas Rangers -123. Spread frames the expected margin: Tampa Bay Rays -1.5 (+169) / Texas Rangers 1.5 (-207). Total frames the scoring environment: 8.5 (Over -112 / Under -108). First listed moneyline implies roughly 49.5% win probability.",
       "key_data": [
-        "Game: Atlanta Braves at Philadelphia Phillies - 6:40 PM ET",
+        "Game: Tampa Bay Rays at Texas Rangers - 8:05 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Atlanta Braves -106 / Philadelphia Phillies -114",
-        "Spread: Atlanta Braves -1.5 (+167) / Philadelphia Phillies 1.5 (-204)",
-        "Total: 7 (Over -102 / Under -118)"
+        "Moneyline: Tampa Bay Rays +102 / Texas Rangers -123",
+        "Spread: Tampa Bay Rays -1.5 (+169) / Texas Rangers 1.5 (-207)",
+        "Total: 8.5 (Over -112 / Under -108)"
       ],
       "why_it_matters": [
         "Pitching confirmations and weather can move MLB totals quickly.",
@@ -498,7 +498,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
+      "updated_at": "2026-09-04 07:41:32 PM ET"
     },
     {
       "title": "NFL Betting Board",
@@ -535,284 +535,25 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
-    },
-    {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Los Angeles Angels at Pittsburgh Pirates - 6:45 PM ET",
-      "game": "Los Angeles Angels at Pittsburgh Pirates - 6:45 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Los Angeles Angels +163 / Pittsburgh Pirates -198 | Spread: Los Angeles Angels 1.5 (-127) / Pittsburgh Pirates -1.5 (+105) | Total: 8.5 (Over -120 / Under -101)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Los Angeles Angels +163 / Pittsburgh Pirates -198",
-      "spread": "Los Angeles Angels 1.5 (-127) / Pittsburgh Pirates -1.5 (+105)",
-      "total": "8.5 (Over -120 / Under -101)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Los Angeles Angels +163 / Pittsburgh Pirates -198. Spread frames the expected margin: Los Angeles Angels 1.5 (-127) / Pittsburgh Pirates -1.5 (+105). Total frames the scoring environment: 8.5 (Over -120 / Under -101). First listed moneyline implies roughly 38.0% win probability.",
-      "key_data": [
-        "Game: Los Angeles Angels at Pittsburgh Pirates - 6:45 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Los Angeles Angels +163 / Pittsburgh Pirates -198",
-        "Spread: Los Angeles Angels 1.5 (-127) / Pittsburgh Pirates -1.5 (+105)",
-        "Total: 8.5 (Over -120 / Under -101)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
-    },
-    {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Boston Red Sox at Baltimore Orioles - 7:05 PM ET",
-      "game": "Boston Red Sox at Baltimore Orioles - 7:05 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Boston Red Sox -118 / Baltimore Orioles -102 | Spread: Boston Red Sox -1.5 (+140) / Baltimore Orioles 1.5 (-170) | Total: 8 (Over -117 / Under -103)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Boston Red Sox -118 / Baltimore Orioles -102",
-      "spread": "Boston Red Sox -1.5 (+140) / Baltimore Orioles 1.5 (-170)",
-      "total": "8 (Over -117 / Under -103)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Boston Red Sox -118 / Baltimore Orioles -102. Spread frames the expected margin: Boston Red Sox -1.5 (+140) / Baltimore Orioles 1.5 (-170). Total frames the scoring environment: 8 (Over -117 / Under -103). First listed moneyline implies roughly 54.1% win probability.",
-      "key_data": [
-        "Game: Boston Red Sox at Baltimore Orioles - 7:05 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Boston Red Sox -118 / Baltimore Orioles -102",
-        "Spread: Boston Red Sox -1.5 (+140) / Baltimore Orioles 1.5 (-170)",
-        "Total: 8 (Over -117 / Under -103)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
-    },
-    {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "San Francisco Giants at New York Mets - 7:10 PM ET",
-      "game": "San Francisco Giants at New York Mets - 7:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: San Francisco Giants +168 / New York Mets -205 | Spread: San Francisco Giants 1.5 (-132) / New York Mets -1.5 (+109) | Total: 7.5 (Over -113 / Under -107)",
-      "bookmaker": "DraftKings",
-      "moneyline": "San Francisco Giants +168 / New York Mets -205",
-      "spread": "San Francisco Giants 1.5 (-132) / New York Mets -1.5 (+109)",
-      "total": "7.5 (Over -113 / Under -107)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: San Francisco Giants +168 / New York Mets -205. Spread frames the expected margin: San Francisco Giants 1.5 (-132) / New York Mets -1.5 (+109). Total frames the scoring environment: 7.5 (Over -113 / Under -107). First listed moneyline implies roughly 37.3% win probability.",
-      "key_data": [
-        "Game: San Francisco Giants at New York Mets - 7:10 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: San Francisco Giants +168 / New York Mets -205",
-        "Spread: San Francisco Giants 1.5 (-132) / New York Mets -1.5 (+109)",
-        "Total: 7.5 (Over -113 / Under -107)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
-    },
-    {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Chicago Cubs at Miami Marlins - 7:10 PM ET",
-      "game": "Chicago Cubs at Miami Marlins - 7:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Chicago Cubs -161 / Miami Marlins +133 | Spread: Chicago Cubs -1.5 (+108) / Miami Marlins 1.5 (-130) | Total: 8 (Over -112 / Under -108)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Chicago Cubs -161 / Miami Marlins +133",
-      "spread": "Chicago Cubs -1.5 (+108) / Miami Marlins 1.5 (-130)",
-      "total": "8 (Over -112 / Under -108)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Chicago Cubs -161 / Miami Marlins +133. Spread frames the expected margin: Chicago Cubs -1.5 (+108) / Miami Marlins 1.5 (-130). Total frames the scoring environment: 8 (Over -112 / Under -108). First listed moneyline implies roughly 61.7% win probability.",
-      "key_data": [
-        "Game: Chicago Cubs at Miami Marlins - 7:10 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Chicago Cubs -161 / Miami Marlins +133",
-        "Spread: Chicago Cubs -1.5 (+108) / Miami Marlins 1.5 (-130)",
-        "Total: 8 (Over -112 / Under -108)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
-    },
-    {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Detroit Tigers at Cleveland Guardians - 7:15 PM ET",
-      "game": "Detroit Tigers at Cleveland Guardians - 7:15 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Detroit Tigers +119 / Cleveland Guardians -143 | Spread: Detroit Tigers 1.5 (-181) / Cleveland Guardians -1.5 (+149) | Total: 8 (Over -107 / Under -112)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Detroit Tigers +119 / Cleveland Guardians -143",
-      "spread": "Detroit Tigers 1.5 (-181) / Cleveland Guardians -1.5 (+149)",
-      "total": "8 (Over -107 / Under -112)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +119 / Cleveland Guardians -143. Spread frames the expected margin: Detroit Tigers 1.5 (-181) / Cleveland Guardians -1.5 (+149). Total frames the scoring environment: 8 (Over -107 / Under -112). First listed moneyline implies roughly 45.7% win probability.",
-      "key_data": [
-        "Game: Detroit Tigers at Cleveland Guardians - 7:15 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Detroit Tigers +119 / Cleveland Guardians -143",
-        "Spread: Detroit Tigers 1.5 (-181) / Cleveland Guardians -1.5 (+149)",
-        "Total: 8 (Over -107 / Under -112)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
-    },
-    {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Minnesota Twins at Chicago White Sox - 7:40 PM ET",
-      "game": "Minnesota Twins at Chicago White Sox - 7:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Minnesota Twins +104 / Chicago White Sox -126 | Spread: Minnesota Twins 1.5 (-191) / Chicago White Sox -1.5 (+157) | Total: 9 (Over -119 / Under -102)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Minnesota Twins +104 / Chicago White Sox -126",
-      "spread": "Minnesota Twins 1.5 (-191) / Chicago White Sox -1.5 (+157)",
-      "total": "9 (Over -119 / Under -102)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Minnesota Twins +104 / Chicago White Sox -126. Spread frames the expected margin: Minnesota Twins 1.5 (-191) / Chicago White Sox -1.5 (+157). Total frames the scoring environment: 9 (Over -119 / Under -102). First listed moneyline implies roughly 49.0% win probability.",
-      "key_data": [
-        "Game: Minnesota Twins at Chicago White Sox - 7:40 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Minnesota Twins +104 / Chicago White Sox -126",
-        "Spread: Minnesota Twins 1.5 (-191) / Chicago White Sox -1.5 (+157)",
-        "Total: 9 (Over -119 / Under -102)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
-    },
-    {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Tampa Bay Rays at Texas Rangers - 8:05 PM ET",
-      "game": "Tampa Bay Rays at Texas Rangers - 8:05 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Tampa Bay Rays -105 / Texas Rangers -114 | Spread: Tampa Bay Rays -1.5 (+157) / Texas Rangers 1.5 (-191) | Total: 8.5 (Over -106 / Under -114)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Tampa Bay Rays -105 / Texas Rangers -114",
-      "spread": "Tampa Bay Rays -1.5 (+157) / Texas Rangers 1.5 (-191)",
-      "total": "8.5 (Over -106 / Under -114)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays -105 / Texas Rangers -114. Spread frames the expected margin: Tampa Bay Rays -1.5 (+157) / Texas Rangers 1.5 (-191). Total frames the scoring environment: 8.5 (Over -106 / Under -114). First listed moneyline implies roughly 51.2% win probability.",
-      "key_data": [
-        "Game: Tampa Bay Rays at Texas Rangers - 8:05 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Tampa Bay Rays -105 / Texas Rangers -114",
-        "Spread: Tampa Bay Rays -1.5 (+157) / Texas Rangers 1.5 (-191)",
-        "Total: 8.5 (Over -106 / Under -114)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
+      "updated_at": "2026-09-04 07:41:32 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "Toronto Blue Jays at Kansas City Royals - 8:10 PM ET",
       "game": "Toronto Blue Jays at Kansas City Royals - 8:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Toronto Blue Jays -102 / Kansas City Royals -119 | Spread: Toronto Blue Jays -1.5 (+156) / Kansas City Royals 1.5 (-190) | Total: 10 (Over -105 / Under -114)",
+      "market": "Bookmaker: DraftKings | Moneyline: Toronto Blue Jays -102 / Kansas City Royals -119 | Spread: Toronto Blue Jays -1.5 (+155) / Kansas City Royals 1.5 (-188) | Total: 10 (Over -105 / Under -114)",
       "bookmaker": "DraftKings",
       "moneyline": "Toronto Blue Jays -102 / Kansas City Royals -119",
-      "spread": "Toronto Blue Jays -1.5 (+156) / Kansas City Royals 1.5 (-190)",
+      "spread": "Toronto Blue Jays -1.5 (+155) / Kansas City Royals 1.5 (-188)",
       "total": "10 (Over -105 / Under -114)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays -102 / Kansas City Royals -119. Spread frames the expected margin: Toronto Blue Jays -1.5 (+156) / Kansas City Royals 1.5 (-190). Total frames the scoring environment: 10 (Over -105 / Under -114). First listed moneyline implies roughly 50.5% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: Toronto Blue Jays -102 / Kansas City Royals -119. Spread frames the expected margin: Toronto Blue Jays -1.5 (+155) / Kansas City Royals 1.5 (-188). Total frames the scoring environment: 10 (Over -105 / Under -114). First listed moneyline implies roughly 50.5% win probability.",
       "key_data": [
         "Game: Toronto Blue Jays at Kansas City Royals - 8:10 PM ET",
         "Market source: DraftKings",
         "Moneyline: Toronto Blue Jays -102 / Kansas City Royals -119",
-        "Spread: Toronto Blue Jays -1.5 (+156) / Kansas City Royals 1.5 (-190)",
+        "Spread: Toronto Blue Jays -1.5 (+155) / Kansas City Royals 1.5 (-188)",
         "Total: 10 (Over -105 / Under -114)"
       ],
       "why_it_matters": [
@@ -831,7 +572,7 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
+      "updated_at": "2026-09-04 07:41:32 PM ET"
     },
     {
       "title": "MLB Betting Board",
@@ -868,25 +609,25 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
+      "updated_at": "2026-09-04 07:41:32 PM ET"
     },
     {
       "title": "MLB Betting Board",
       "league": "MLB Betting Board",
       "headline": "St. Louis Cardinals at Colorado Rockies - 8:40 PM ET",
       "game": "St. Louis Cardinals at Colorado Rockies - 8:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: St. Louis Cardinals -127 / Colorado Rockies +105 | Spread: St. Louis Cardinals -1.5 (+118) / Colorado Rockies 1.5 (-142) | Total: 11 (Over -108 / Under -112)",
+      "market": "Bookmaker: DraftKings | Moneyline: St. Louis Cardinals -133 / Colorado Rockies +110 | Spread: St. Louis Cardinals -1.5 (+114) / Colorado Rockies 1.5 (-137) | Total: 11 (Over -108 / Under -112)",
       "bookmaker": "DraftKings",
-      "moneyline": "St. Louis Cardinals -127 / Colorado Rockies +105",
-      "spread": "St. Louis Cardinals -1.5 (+118) / Colorado Rockies 1.5 (-142)",
+      "moneyline": "St. Louis Cardinals -133 / Colorado Rockies +110",
+      "spread": "St. Louis Cardinals -1.5 (+114) / Colorado Rockies 1.5 (-137)",
       "total": "11 (Over -108 / Under -112)",
       "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals -127 / Colorado Rockies +105. Spread frames the expected margin: St. Louis Cardinals -1.5 (+118) / Colorado Rockies 1.5 (-142). Total frames the scoring environment: 11 (Over -108 / Under -112). First listed moneyline implies roughly 55.9% win probability.",
+      "snapshot": "Moneyline sets the win-probability baseline: St. Louis Cardinals -133 / Colorado Rockies +110. Spread frames the expected margin: St. Louis Cardinals -1.5 (+114) / Colorado Rockies 1.5 (-137). Total frames the scoring environment: 11 (Over -108 / Under -112). First listed moneyline implies roughly 57.1% win probability.",
       "key_data": [
         "Game: St. Louis Cardinals at Colorado Rockies - 8:40 PM ET",
         "Market source: DraftKings",
-        "Moneyline: St. Louis Cardinals -127 / Colorado Rockies +105",
-        "Spread: St. Louis Cardinals -1.5 (+118) / Colorado Rockies 1.5 (-142)",
+        "Moneyline: St. Louis Cardinals -133 / Colorado Rockies +110",
+        "Spread: St. Louis Cardinals -1.5 (+114) / Colorado Rockies 1.5 (-137)",
         "Total: 11 (Over -108 / Under -112)"
       ],
       "why_it_matters": [
@@ -905,14 +646,273 @@
       "source_label": "Betting market read",
       "story_type": "market_context",
       "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-04 05:12:55 PM ET"
+      "updated_at": "2026-09-04 07:41:32 PM ET"
+    },
+    {
+      "title": "MLB Betting Board",
+      "league": "MLB Betting Board",
+      "headline": "New York Yankees at San Diego Padres - 9:40 PM ET",
+      "game": "New York Yankees at San Diego Padres - 9:40 PM ET",
+      "market": "Bookmaker: DraftKings | Moneyline: New York Yankees -114 / San Diego Padres -105 | Spread: New York Yankees -1.5 (+149) / San Diego Padres 1.5 (-181) | Total: 7.5 (Over +102 / Under -122)",
+      "bookmaker": "DraftKings",
+      "moneyline": "New York Yankees -114 / San Diego Padres -105",
+      "spread": "New York Yankees -1.5 (+149) / San Diego Padres 1.5 (-181)",
+      "total": "7.5 (Over +102 / Under -122)",
+      "implied_probability": "",
+      "snapshot": "Moneyline sets the win-probability baseline: New York Yankees -114 / San Diego Padres -105. Spread frames the expected margin: New York Yankees -1.5 (+149) / San Diego Padres 1.5 (-181). Total frames the scoring environment: 7.5 (Over +102 / Under -122). First listed moneyline implies roughly 53.3% win probability.",
+      "key_data": [
+        "Game: New York Yankees at San Diego Padres - 9:40 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: New York Yankees -114 / San Diego Padres -105",
+        "Spread: New York Yankees -1.5 (+149) / San Diego Padres 1.5 (-181)",
+        "Total: 7.5 (Over +102 / Under -122)"
+      ],
+      "why_it_matters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_the_odds_mean": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_to_watch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "source_label": "Betting market read",
+      "story_type": "market_context",
+      "source": "betting_odds_report.txt",
+      "updated_at": "2026-09-04 07:41:32 PM ET"
+    },
+    {
+      "title": "MLB Betting Board",
+      "league": "MLB Betting Board",
+      "headline": "Athletics at Seattle Mariners - 10:10 PM ET",
+      "game": "Athletics at Seattle Mariners - 10:10 PM ET",
+      "market": "Bookmaker: DraftKings | Moneyline: Athletics +192 / Seattle Mariners -237 | Spread: Athletics 1.5 (-118) / Seattle Mariners -1.5 (-102) | Total: 7 (Over -120 / Under -101)",
+      "bookmaker": "DraftKings",
+      "moneyline": "Athletics +192 / Seattle Mariners -237",
+      "spread": "Athletics 1.5 (-118) / Seattle Mariners -1.5 (-102)",
+      "total": "7 (Over -120 / Under -101)",
+      "implied_probability": "",
+      "snapshot": "Moneyline sets the win-probability baseline: Athletics +192 / Seattle Mariners -237. Spread frames the expected margin: Athletics 1.5 (-118) / Seattle Mariners -1.5 (-102). Total frames the scoring environment: 7 (Over -120 / Under -101). First listed moneyline implies roughly 34.2% win probability.",
+      "key_data": [
+        "Game: Athletics at Seattle Mariners - 10:10 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: Athletics +192 / Seattle Mariners -237",
+        "Spread: Athletics 1.5 (-118) / Seattle Mariners -1.5 (-102)",
+        "Total: 7 (Over -120 / Under -101)"
+      ],
+      "why_it_matters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_the_odds_mean": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_to_watch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "source_label": "Betting market read",
+      "story_type": "market_context",
+      "source": "betting_odds_report.txt",
+      "updated_at": "2026-09-04 07:41:32 PM ET"
+    },
+    {
+      "title": "MLB Betting Board",
+      "league": "MLB Betting Board",
+      "headline": "Washington Nationals at Los Angeles Dodgers - 10:10 PM ET",
+      "game": "Washington Nationals at Los Angeles Dodgers - 10:10 PM ET",
+      "market": "Bookmaker: DraftKings | Moneyline: Washington Nationals +224 / Los Angeles Dodgers -280 | Spread: Washington Nationals 1.5 (+102) / Los Angeles Dodgers -1.5 (-123) | Total: 8 (Over -109 / Under -110)",
+      "bookmaker": "DraftKings",
+      "moneyline": "Washington Nationals +224 / Los Angeles Dodgers -280",
+      "spread": "Washington Nationals 1.5 (+102) / Los Angeles Dodgers -1.5 (-123)",
+      "total": "8 (Over -109 / Under -110)",
+      "implied_probability": "",
+      "snapshot": "Moneyline sets the win-probability baseline: Washington Nationals +224 / Los Angeles Dodgers -280. Spread frames the expected margin: Washington Nationals 1.5 (+102) / Los Angeles Dodgers -1.5 (-123). Total frames the scoring environment: 8 (Over -109 / Under -110). First listed moneyline implies roughly 30.9% win probability.",
+      "key_data": [
+        "Game: Washington Nationals at Los Angeles Dodgers - 10:10 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: Washington Nationals +224 / Los Angeles Dodgers -280",
+        "Spread: Washington Nationals 1.5 (+102) / Los Angeles Dodgers -1.5 (-123)",
+        "Total: 8 (Over -109 / Under -110)"
+      ],
+      "why_it_matters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_the_odds_mean": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_to_watch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "source_label": "Betting market read",
+      "story_type": "market_context",
+      "source": "betting_odds_report.txt",
+      "updated_at": "2026-09-04 07:41:32 PM ET"
+    },
+    {
+      "title": "MLB Betting Board",
+      "league": "MLB Betting Board",
+      "headline": "San Francisco Giants at New York Mets - 4:10 PM ET",
+      "game": "San Francisco Giants at New York Mets - 4:10 PM ET",
+      "market": "Bookmaker: DraftKings | Moneyline: San Francisco Giants +153 / New York Mets -186 | Spread: San Francisco Giants 1.5 (-143) / New York Mets -1.5 (+119) | Total: 8 (Over -105 / Under -115)",
+      "bookmaker": "DraftKings",
+      "moneyline": "San Francisco Giants +153 / New York Mets -186",
+      "spread": "San Francisco Giants 1.5 (-143) / New York Mets -1.5 (+119)",
+      "total": "8 (Over -105 / Under -115)",
+      "implied_probability": "",
+      "snapshot": "Moneyline sets the win-probability baseline: San Francisco Giants +153 / New York Mets -186. Spread frames the expected margin: San Francisco Giants 1.5 (-143) / New York Mets -1.5 (+119). Total frames the scoring environment: 8 (Over -105 / Under -115). First listed moneyline implies roughly 39.5% win probability.",
+      "key_data": [
+        "Game: San Francisco Giants at New York Mets - 4:10 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: San Francisco Giants +153 / New York Mets -186",
+        "Spread: San Francisco Giants 1.5 (-143) / New York Mets -1.5 (+119)",
+        "Total: 8 (Over -105 / Under -115)"
+      ],
+      "why_it_matters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_the_odds_mean": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_to_watch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "source_label": "Betting market read",
+      "story_type": "market_context",
+      "source": "betting_odds_report.txt",
+      "updated_at": "2026-09-04 07:41:32 PM ET"
+    },
+    {
+      "title": "MLB Betting Board",
+      "league": "MLB Betting Board",
+      "headline": "Atlanta Braves at Philadelphia Phillies - 6:05 PM ET",
+      "game": "Atlanta Braves at Philadelphia Phillies - 6:05 PM ET",
+      "market": "Bookmaker: DraftKings | Moneyline: Atlanta Braves +135 / Philadelphia Phillies -163 | Spread: Atlanta Braves 1.5 (-156) / Philadelphia Phillies -1.5 (+129) | Total: 8 (Over -115 / Under -105)",
+      "bookmaker": "DraftKings",
+      "moneyline": "Atlanta Braves +135 / Philadelphia Phillies -163",
+      "spread": "Atlanta Braves 1.5 (-156) / Philadelphia Phillies -1.5 (+129)",
+      "total": "8 (Over -115 / Under -105)",
+      "implied_probability": "",
+      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Braves +135 / Philadelphia Phillies -163. Spread frames the expected margin: Atlanta Braves 1.5 (-156) / Philadelphia Phillies -1.5 (+129). Total frames the scoring environment: 8 (Over -115 / Under -105). First listed moneyline implies roughly 42.6% win probability.",
+      "key_data": [
+        "Game: Atlanta Braves at Philadelphia Phillies - 6:05 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: Atlanta Braves +135 / Philadelphia Phillies -163",
+        "Spread: Atlanta Braves 1.5 (-156) / Philadelphia Phillies -1.5 (+129)",
+        "Total: 8 (Over -115 / Under -105)"
+      ],
+      "why_it_matters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_the_odds_mean": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_to_watch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "source_label": "Betting market read",
+      "story_type": "market_context",
+      "source": "betting_odds_report.txt",
+      "updated_at": "2026-09-04 07:41:32 PM ET"
+    },
+    {
+      "title": "MLB Betting Board",
+      "league": "MLB Betting Board",
+      "headline": "Detroit Tigers at Cleveland Guardians - 6:10 PM ET",
+      "game": "Detroit Tigers at Cleveland Guardians - 6:10 PM ET",
+      "market": "Bookmaker: FanDuel | Moneyline: Detroit Tigers +130 / Cleveland Guardians -154 | Spread: Detroit Tigers 1.5 (-178) / Cleveland Guardians -1.5 (+146) | Total: 7.5 (Over +100 / Under -122)",
+      "bookmaker": "FanDuel",
+      "moneyline": "Detroit Tigers +130 / Cleveland Guardians -154",
+      "spread": "Detroit Tigers 1.5 (-178) / Cleveland Guardians -1.5 (+146)",
+      "total": "7.5 (Over +100 / Under -122)",
+      "implied_probability": "",
+      "snapshot": "Moneyline sets the win-probability baseline: Detroit Tigers +130 / Cleveland Guardians -154. Spread frames the expected margin: Detroit Tigers 1.5 (-178) / Cleveland Guardians -1.5 (+146). Total frames the scoring environment: 7.5 (Over +100 / Under -122). First listed moneyline implies roughly 43.5% win probability.",
+      "key_data": [
+        "Game: Detroit Tigers at Cleveland Guardians - 6:10 PM ET",
+        "Market source: FanDuel",
+        "Moneyline: Detroit Tigers +130 / Cleveland Guardians -154",
+        "Spread: Detroit Tigers 1.5 (-178) / Cleveland Guardians -1.5 (+146)",
+        "Total: 7.5 (Over +100 / Under -122)"
+      ],
+      "why_it_matters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_the_odds_mean": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_to_watch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "source_label": "Betting market read",
+      "story_type": "market_context",
+      "source": "betting_odds_report.txt",
+      "updated_at": "2026-09-04 07:41:32 PM ET"
+    },
+    {
+      "title": "MLB Betting Board",
+      "league": "MLB Betting Board",
+      "headline": "Milwaukee Brewers at Cincinnati Reds - 6:40 PM ET",
+      "game": "Milwaukee Brewers at Cincinnati Reds - 6:40 PM ET",
+      "market": "Bookmaker: DraftKings | Moneyline: Milwaukee Brewers -163 / Cincinnati Reds +135 | Spread: Milwaukee Brewers -1.5 (-102) / Cincinnati Reds 1.5 (-118) | Total: 9 (Over -120 / Under -101)",
+      "bookmaker": "DraftKings",
+      "moneyline": "Milwaukee Brewers -163 / Cincinnati Reds +135",
+      "spread": "Milwaukee Brewers -1.5 (-102) / Cincinnati Reds 1.5 (-118)",
+      "total": "9 (Over -120 / Under -101)",
+      "implied_probability": "",
+      "snapshot": "Moneyline sets the win-probability baseline: Milwaukee Brewers -163 / Cincinnati Reds +135. Spread frames the expected margin: Milwaukee Brewers -1.5 (-102) / Cincinnati Reds 1.5 (-118). Total frames the scoring environment: 9 (Over -120 / Under -101). First listed moneyline implies roughly 62.0% win probability.",
+      "key_data": [
+        "Game: Milwaukee Brewers at Cincinnati Reds - 6:40 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: Milwaukee Brewers -163 / Cincinnati Reds +135",
+        "Spread: Milwaukee Brewers -1.5 (-102) / Cincinnati Reds 1.5 (-118)",
+        "Total: 9 (Over -120 / Under -101)"
+      ],
+      "why_it_matters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_the_odds_mean": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "what_to_watch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "source_label": "Betting market read",
+      "story_type": "market_context",
+      "source": "betting_odds_report.txt",
+      "updated_at": "2026-09-04 07:41:32 PM ET"
     }
   ],
   "verification": {
     "status": "verified",
     "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-09-04T21:12:55.514289+00:00",
+    "verified_at": "2026-09-04T23:41:32.302094+00:00",
     "total_verified_events": 14,
-    "source_sha256": "c6d35185fa464b14e7f102d26a03f4e9838ffba1906034b822c6ec52d54c5e33"
+    "source_sha256": "858d782c06d9fd08765bcf815c3f82c614af6b121b772a9f9ba3cb7f30f9b033"
   }
 }
