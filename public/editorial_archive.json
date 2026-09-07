@@ -1,7 +1,7 @@
 {
   "site": "Global Betting Report",
   "generatedAt": "2026-09-06T23:43:49.315548+00:00",
-  "storyCount": 237,
+  "storyCount": 238,
   "stories": [
     {
       "slug": "2026-09-06-washington-nationals-at-los-angeles-dodgers",
@@ -36,7 +36,7 @@
       "label": "NFL Betting Board",
       "summary": "Moneyline sets the win-probability baseline: Tampa Bay Buccaneers +170 / Cincinnati Bengals -205. Spread frames the expected margin: Tampa Bay Buccaneers 3.5 (-105) / Cincinnati Bengals -3.5 (-115). Total frames the scoring environment: 50.5 (Over -120 / Under +100). First listed moneyline implies roughly 37.0% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-06T23:43:49.315548+00:00",
+      "publishedAt": "2026-09-07T02:45:05.997872+00:00",
       "reportDate": "2026-09-06",
       "game": "Tampa Bay Buccaneers at Cincinnati Bengals",
       "market": [
@@ -90,7 +90,7 @@
       "label": "NFL Betting Board",
       "summary": "Moneyline sets the win-probability baseline: San Francisco 49ers +160 / Los Angeles Rams -192. Spread frames the expected margin: San Francisco 49ers 3.5 (-112) / Los Angeles Rams -3.5 (-108). Total frames the scoring environment: 48.5 (Over -105 / Under -115). First listed moneyline implies roughly 38.5% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-06T23:43:49.315548+00:00",
+      "publishedAt": "2026-09-07T02:45:05.997872+00:00",
       "reportDate": "2026-09-06",
       "game": "San Francisco 49ers at Los Angeles Rams",
       "market": [
@@ -142,16 +142,16 @@
       "slug": "2026-09-06-new-york-mets-at-miami-marlins",
       "title": "New York Mets at Miami Marlins - 1:10 PM ET",
       "label": "MLB Betting Board",
-      "summary": "Moneyline sets the win-probability baseline: New York Mets -105 / Miami Marlins -114. Spread frames the expected margin: New York Mets -1.5 (+159) / Miami Marlins 1.5 (-194). Total frames the scoring environment: 8 (Over -105 / Under -115). First listed moneyline implies roughly 51.2% win probability.",
+      "summary": "Moneyline sets the win-probability baseline: New York Mets -102 / Miami Marlins -118. Spread frames the expected margin: New York Mets -1.5 (+164) / Miami Marlins 1.5 (-200). Total frames the scoring environment: 8 (Over -107 / Under -113). First listed moneyline implies roughly 50.5% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-06T23:43:49.315548+00:00",
+      "publishedAt": "2026-09-07T02:45:05.997872+00:00",
       "reportDate": "2026-09-06",
       "game": "New York Mets at Miami Marlins",
       "market": [
         "Game: New York Mets at Miami Marlins - 1:10 PM ET",
         "Market source: DraftKings",
-        "Moneyline: New York Mets -105 / Miami Marlins -114",
-        "Spread: New York Mets -1.5 (+159) / Miami Marlins 1.5 (-194)"
+        "Moneyline: New York Mets -102 / Miami Marlins -118",
+        "Spread: New York Mets -1.5 (+164) / Miami Marlins 1.5 (-200)"
       ],
       "impliedProbability": [],
       "whyItMatters": [
@@ -171,7 +171,7 @@
       "label": "NFL Betting Board",
       "summary": "Moneyline sets the win-probability baseline: New England Patriots +150 / Seattle Seahawks -180. Spread frames the expected margin: New England Patriots 3.5 (-115) / Seattle Seahawks -3.5 (-105). Total frames the scoring environment: 44.5 (Over -105 / Under -115). First listed moneyline implies roughly 40.0% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-06T23:43:49.315548+00:00",
+      "publishedAt": "2026-09-07T02:45:05.997872+00:00",
       "reportDate": "2026-09-06",
       "game": "New England Patriots at Seattle Seahawks",
       "market": [
@@ -274,6 +274,33 @@
       "storyAngles": []
     },
     {
+      "slug": "2026-09-06-los-angeles-angels-at-boston-red-sox",
+      "title": "Los Angeles Angels at Boston Red Sox - 1:35 PM ET",
+      "label": "MLB Betting Board",
+      "summary": "Moneyline sets the win-probability baseline: Los Angeles Angels +149 / Boston Red Sox -181. Spread frames the expected margin: Los Angeles Angels 1.5 (-149) / Boston Red Sox -1.5 (+123). Total frames the scoring environment: 8.5 (Over -112 / Under -108). First listed moneyline implies roughly 40.2% win probability.",
+      "sourceUrl": "https://www.globalbettingreport.com",
+      "publishedAt": "2026-09-07T02:45:05.997872+00:00",
+      "reportDate": "2026-09-06",
+      "game": "Los Angeles Angels at Boston Red Sox",
+      "market": [
+        "Game: Los Angeles Angels at Boston Red Sox - 1:35 PM ET",
+        "Market source: DraftKings",
+        "Moneyline: Los Angeles Angels +149 / Boston Red Sox -181",
+        "Spread: Los Angeles Angels 1.5 (-149) / Boston Red Sox -1.5 (+123)"
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "Pitching confirmations and weather can move MLB totals quickly.",
+        "Moneyline gaps show market confidence, but late lineup news still matters."
+      ],
+      "whatToWatch": [
+        "Starting pitcher confirmations.",
+        "Weather, wind, humidity, and postponement risk.",
+        "Bullpen usage and lineup scratches before first pitch."
+      ],
+      "storyAngles": []
+    },
+    {
       "slug": "2026-09-06-detroit-tigers-at-cleveland-guardians",
       "title": "Detroit Tigers at Cleveland Guardians - 1:40 PM ET",
       "label": "MLB Betting Board",
@@ -306,7 +333,7 @@
       "label": "MLB Betting Board",
       "summary": "Moneyline sets the win-probability baseline: Cleveland Guardians +104 / Baltimore Orioles -126. Spread frames the expected margin: Cleveland Guardians 1.5 (-199) / Baltimore Orioles -1.5 (+163). Total frames the scoring environment: 8.5 (Over -102 / Under -118). First listed moneyline implies roughly 49.0% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-06T23:43:49.315548+00:00",
+      "publishedAt": "2026-09-07T02:45:05.997872+00:00",
       "reportDate": "2026-09-06",
       "game": "Cleveland Guardians at Baltimore Orioles",
       "market": [
@@ -331,15 +358,15 @@
       "slug": "2026-09-06-chicago-bears-at-carolina-panthers",
       "title": "Chicago Bears at Carolina Panthers - 1:00 PM ET",
       "label": "NFL Betting Board",
-      "summary": "Moneyline sets the win-probability baseline: Chicago Bears -148 / Carolina Panthers +124. Spread frames the expected margin: Chicago Bears -2.5 (-118) / Carolina Panthers 2.5 (-102). Total frames the scoring environment: 47.5 (Over -110 / Under -110). First listed moneyline implies roughly 59.7% win probability.",
+      "summary": "Moneyline sets the win-probability baseline: Chicago Bears -155 / Carolina Panthers +130. Spread frames the expected margin: Chicago Bears -2.5 (-118) / Carolina Panthers 2.5 (-102). Total frames the scoring environment: 47.5 (Over -110 / Under -110). First listed moneyline implies roughly 60.8% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-06T23:43:49.315548+00:00",
+      "publishedAt": "2026-09-07T02:45:05.997872+00:00",
       "reportDate": "2026-09-06",
       "game": "Chicago Bears at Carolina Panthers",
       "market": [
         "Game: Chicago Bears at Carolina Panthers - 1:00 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Chicago Bears -148 / Carolina Panthers +124",
+        "Moneyline: Chicago Bears -155 / Carolina Panthers +130",
         "Spread: Chicago Bears -2.5 (-118) / Carolina Panthers 2.5 (-102)"
       ],
       "impliedProbability": [],
@@ -385,16 +412,16 @@
       "slug": "2026-09-06-atlanta-braves-at-philadelphia-phillies",
       "title": "Atlanta Braves at Philadelphia Phillies - 1:05 PM ET",
       "label": "MLB Betting Board",
-      "summary": "Moneyline sets the win-probability baseline: Atlanta Braves +139 / Philadelphia Phillies -168. Spread frames the expected margin: Atlanta Braves 1.5 (-156) / Philadelphia Phillies -1.5 (+129). Total frames the scoring environment: 8 (Over -110 / Under -110). First listed moneyline implies roughly 41.8% win probability.",
+      "summary": "Moneyline sets the win-probability baseline: Atlanta Braves +141 / Philadelphia Phillies -171. Spread frames the expected margin: Atlanta Braves 1.5 (-150) / Philadelphia Phillies -1.5 (+125). Total frames the scoring environment: 8 (Over -110 / Under -110). First listed moneyline implies roughly 41.5% win probability.",
       "sourceUrl": "https://www.globalbettingreport.com",
-      "publishedAt": "2026-09-06T23:43:49.315548+00:00",
+      "publishedAt": "2026-09-07T02:45:05.997872+00:00",
       "reportDate": "2026-09-06",
       "game": "Atlanta Braves at Philadelphia Phillies",
       "market": [
         "Game: Atlanta Braves at Philadelphia Phillies - 1:05 PM ET",
         "Market source: DraftKings",
-        "Moneyline: Atlanta Braves +139 / Philadelphia Phillies -168",
-        "Spread: Atlanta Braves 1.5 (-156) / Philadelphia Phillies -1.5 (+129)"
+        "Moneyline: Atlanta Braves +141 / Philadelphia Phillies -171",
+        "Spread: Atlanta Braves 1.5 (-150) / Philadelphia Phillies -1.5 (+125)"
       ],
       "impliedProbability": [],
       "whyItMatters": [
