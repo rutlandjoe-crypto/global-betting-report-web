@@ -1,1029 +1,1603 @@
 {
   "site": "Global Betting Report",
-  "site_name": "Global Betting Report",
   "vertical": "Betting",
   "title": "Global Betting Report",
-  "headline": "Current prematch prices sourced from Sportradar Odds Comparison Prematch v2.",
-  "snapshot": "Odds, implied probability, line movement, market context, and what bettors should monitor across the sports world.",
-  "updated_at": "2026-09-10 01:33:41 AM ET",
-  "generated_at": "2026-09-10 01:33:41 AM ET",
-  "generated_utc": "2026-09-10T05:33:41.183152+00:00",
-  "source_mode": "public_betting_market_report",
-  "homepage_cards": [
-    {
-      "league": "MLB Betting Board",
-      "headline": "Tampa Bay Rays at Atlanta Braves - 12:15 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays +104 / Atlanta Braves -125. Spread frames the expected margin: Tampa Bay Rays 1.5 (-205) / Atlanta Braves -1.5 (+168). Total frames the scoring environment: 8.5 (Over -103 / Under -117). First listed moneyline implies roughly 49.0% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "key_data": [
-        "Game: Tampa Bay Rays at Atlanta Braves - 12:15 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Tampa Bay Rays +104 / Atlanta Braves -125",
-        "Spread: Tampa Bay Rays 1.5 (-205) / Atlanta Braves -1.5 (+168)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "NFL Betting Board",
-      "headline": "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: San Francisco 49ers +164 / Los Angeles Rams -198. Spread frames the expected margin: San Francisco 49ers 3.5 (-102) / Los Angeles Rams -3.5 (-118). Total frames the scoring environment: 48.5 (Over -105 / Under -115). First listed moneyline implies roughly 37.9% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "key_data": [
-        "Game: San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: San Francisco 49ers +164 / Los Angeles Rams -198",
-        "Spread: San Francisco 49ers 3.5 (-102) / Los Angeles Rams -3.5 (-118)"
-      ],
-      "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
-      ],
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "MLB Betting Board",
-      "headline": "Houston Astros at Philadelphia Phillies - 1:05 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Houston Astros +157 / Philadelphia Phillies -191. Spread frames the expected margin: Houston Astros 1.5 (-136) / Philadelphia Phillies -1.5 (+113). Total frames the scoring environment: 8.5 (Over -112 / Under -107). First listed moneyline implies roughly 38.9% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "key_data": [
-        "Game: Houston Astros at Philadelphia Phillies - 1:05 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Houston Astros +157 / Philadelphia Phillies -191",
-        "Spread: Houston Astros 1.5 (-136) / Philadelphia Phillies -1.5 (+113)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "NFL Betting Board",
-      "headline": "Chicago Bears at Carolina Panthers - 1:00 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Chicago Bears -162 / Carolina Panthers +136. Spread frames the expected margin: Chicago Bears -3 (-118) / Carolina Panthers 3 (-102). Total frames the scoring environment: 46.5 (Over -115 / Under -105). First listed moneyline implies roughly 61.8% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "key_data": [
-        "Game: Chicago Bears at Carolina Panthers - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Chicago Bears -162 / Carolina Panthers +136",
-        "Spread: Chicago Bears -3 (-118) / Carolina Panthers 3 (-102)"
-      ],
-      "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
-      ],
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "MLB Betting Board",
-      "headline": "Texas Rangers at Seattle Mariners - 4:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Texas Rangers +109 / Seattle Mariners -131. Spread frames the expected margin: Texas Rangers 1.5 (-207) / Seattle Mariners -1.5 (+169). Total frames the scoring environment: 7 (Over +103 / Under -124). First listed moneyline implies roughly 47.8% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "key_data": [
-        "Game: Texas Rangers at Seattle Mariners - 4:10 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Texas Rangers +109 / Seattle Mariners -131",
-        "Spread: Texas Rangers 1.5 (-207) / Seattle Mariners -1.5 (+169)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "NFL Betting Board",
-      "headline": "Tampa Bay Buccaneers at Cincinnati Bengals - 1:00 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Buccaneers +164 / Cincinnati Bengals -198. Spread frames the expected margin: Tampa Bay Buccaneers 3.5 (-108) / Cincinnati Bengals -3.5 (-112). Total frames the scoring environment: 50.5 (Over -108 / Under -112). First listed moneyline implies roughly 37.9% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "key_data": [
-        "Game: Tampa Bay Buccaneers at Cincinnati Bengals - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Tampa Bay Buccaneers +164 / Cincinnati Bengals -198",
-        "Spread: Tampa Bay Buccaneers 3.5 (-108) / Cincinnati Bengals -3.5 (-112)"
-      ],
-      "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
-      ],
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "MLB Betting Board",
-      "headline": "Colorado Rockies at New York Yankees - 7:05 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Colorado Rockies +270 / New York Yankees -344. Spread frames the expected margin: Colorado Rockies 1.5 (+123) / New York Yankees -1.5 (-149). Total frames the scoring environment: 9 (Over +100 / Under -120). First listed moneyline implies roughly 27.0% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "key_data": [
-        "Game: Colorado Rockies at New York Yankees - 7:05 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Colorado Rockies +270 / New York Yankees -344",
-        "Spread: Colorado Rockies 1.5 (+123) / New York Yankees -1.5 (-149)"
-      ],
-      "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
-      ],
-      "url": "https://www.globalbettingreport.com"
-    },
-    {
-      "league": "NFL Betting Board",
-      "headline": "New Orleans Saints at Detroit Lions - 1:00 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: New Orleans Saints +250 / Detroit Lions -310. Spread frames the expected margin: New Orleans Saints 7 (-112) / Detroit Lions -7 (-108). Total frames the scoring environment: 49.5 (Over -118 / Under -102). First listed moneyline implies roughly 28.6% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "key_data": [
-        "Game: New Orleans Saints at Detroit Lions - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: New Orleans Saints +250 / Detroit Lions -310",
-        "Spread: New Orleans Saints 7 (-112) / Detroit Lions -7 (-108)"
-      ],
-      "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
-      ],
-      "url": "https://www.globalbettingreport.com"
-    }
-  ],
+  "headline": "NFL: Green Bay Packers priced as heavy favorite vs Atlanta Falcons (-340)",
+  "snapshot": "A full multi-league betting board is live, giving the desk enough volume to compare favorites, totals and matchup pricing.",
+  "updated_at": "2026-09-21T18:12:13.593227Z",
+  "generated_at": "2026-09-21T18:12:13.593227Z",
+  "freshness": {
+    "last_checked": "2026-09-21 02:12:13 PM ET",
+    "sports_checked": [
+      "NFL",
+      "College Football",
+      "MLB"
+    ],
+    "total_games_checked": 91,
+    "total_market_cards": 12,
+    "odds_api_key_found": true,
+    "source": "The Odds API v4"
+  },
+  "editorial_brain": {
+    "status": "active",
+    "version": "2026-05-08-betting-market-context-v2",
+    "focus": [
+      "Implied probability",
+      "Favorite and underdog context",
+      "Spread pressure",
+      "Total environment",
+      "Injury, lineup and weather monitoring",
+      "Journalist-facing betting interpretation"
+    ],
+    "safety": "Descriptive market context only; no wagering instructions."
+  },
   "live_newsroom": [
     {
-      "league": "MLB Betting Board",
-      "headline": "Tampa Bay Rays at Atlanta Braves - 12:15 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays +104 / Atlanta Braves -125. Spread frames the expected margin: Tampa Bay Rays 1.5 (-205) / Atlanta Braves -1.5 (+168). Total frames the scoring environment: 8.5 (Over -103 / Under -117). First listed moneyline implies roughly 49.0% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
+      "headline": "NFL: Green Bay Packers priced as heavy favorite vs Atlanta Falcons (-340)",
+      "snapshot": "Green Bay Packers carries an implied win probability of approximately 77.3% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "league": "NFL",
       "key_data": [
-        "Game: Tampa Bay Rays at Atlanta Braves - 12:15 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Tampa Bay Rays +104 / Atlanta Braves -125",
-        "Spread: Tampa Bay Rays 1.5 (-205) / Atlanta Braves -1.5 (+168)"
+        "Favorite: Green Bay Packers -340 (77.3% implied).",
+        "Spread: Atlanta Falcons +7 (-115) / Green Bay Packers -7 (-105).",
+        "Total: +43.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
+        "The moneyline shows how strongly the market is leaning toward Green Bay Packers before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "url": "https://www.globalbettingreport.com"
+      "updated_at": "2026-09-21 02:12:13 PM ET"
     },
     {
-      "league": "NFL Betting Board",
-      "headline": "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: San Francisco 49ers +164 / Los Angeles Rams -198. Spread frames the expected margin: San Francisco 49ers 3.5 (-102) / Los Angeles Rams -3.5 (-118). Total frames the scoring environment: 48.5 (Over -105 / Under -115). First listed moneyline implies roughly 37.9% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
+      "headline": "NFL: Buffalo Bills priced as heavy favorite vs Los Angeles Chargers (-310)",
+      "snapshot": "Buffalo Bills carries an implied win probability of approximately 75.6% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "league": "NFL",
       "key_data": [
-        "Game: San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: San Francisco 49ers +164 / Los Angeles Rams -198",
-        "Spread: San Francisco 49ers 3.5 (-102) / Los Angeles Rams -3.5 (-118)"
+        "Favorite: Buffalo Bills -310 (75.6% implied).",
+        "Spread: Los Angeles Chargers +7 (-108) / Buffalo Bills -7 (-112).",
+        "Total: +50.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
+        "The moneyline shows how strongly the market is leaning toward Buffalo Bills before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "url": "https://www.globalbettingreport.com"
+      "updated_at": "2026-09-21 02:12:13 PM ET"
     },
     {
-      "league": "MLB Betting Board",
-      "headline": "Houston Astros at Philadelphia Phillies - 1:05 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Houston Astros +157 / Philadelphia Phillies -191. Spread frames the expected margin: Houston Astros 1.5 (-136) / Philadelphia Phillies -1.5 (+113). Total frames the scoring environment: 8.5 (Over -112 / Under -107). First listed moneyline implies roughly 38.9% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
+      "headline": "College Football: Navy Midshipmen priced as heavy favorite vs UAB Blazers (-280)",
+      "snapshot": "Navy Midshipmen carries an implied win probability of approximately 73.7% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.espn.com/college-football/scoreboard",
+      "league": "College Football",
       "key_data": [
-        "Game: Houston Astros at Philadelphia Phillies - 1:05 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Houston Astros +157 / Philadelphia Phillies -191",
-        "Spread: Houston Astros 1.5 (-136) / Philadelphia Phillies -1.5 (+113)"
+        "Favorite: Navy Midshipmen -280 (73.7% implied).",
+        "Spread: Navy Midshipmen -7.5 (-102) / UAB Blazers +7.5 (-120).",
+        "Total: +51.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
+        "The moneyline shows how strongly the market is leaning toward Navy Midshipmen before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "url": "https://www.globalbettingreport.com"
+      "updated_at": "2026-09-21 02:12:13 PM ET"
     },
     {
-      "league": "NFL Betting Board",
-      "headline": "Chicago Bears at Carolina Panthers - 1:00 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Chicago Bears -162 / Carolina Panthers +136. Spread frames the expected margin: Chicago Bears -3 (-118) / Carolina Panthers 3 (-102). Total frames the scoring environment: 46.5 (Over -115 / Under -105). First listed moneyline implies roughly 61.8% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
+      "headline": "College Football: Indiana Hoosiers priced as heavy favorite vs Northwestern Wildcats (-2000)",
+      "snapshot": "Indiana Hoosiers carries an implied win probability of approximately 95.2% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.espn.com/college-football/scoreboard",
+      "league": "College Football",
       "key_data": [
-        "Game: Chicago Bears at Carolina Panthers - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Chicago Bears -162 / Carolina Panthers +136",
-        "Spread: Chicago Bears -3 (-118) / Carolina Panthers 3 (-102)"
+        "Favorite: Indiana Hoosiers -2000 (95.2% implied).",
+        "Spread: Northwestern Wildcats +20.5 (-102) / Indiana Hoosiers -20.5 (-120).",
+        "Total: +49.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
+        "The moneyline shows how strongly the market is leaning toward Indiana Hoosiers before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "url": "https://www.globalbettingreport.com"
+      "updated_at": "2026-09-21 02:12:13 PM ET"
     },
     {
-      "league": "MLB Betting Board",
-      "headline": "Texas Rangers at Seattle Mariners - 4:10 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Texas Rangers +109 / Seattle Mariners -131. Spread frames the expected margin: Texas Rangers 1.5 (-207) / Seattle Mariners -1.5 (+169). Total frames the scoring environment: 7 (Over +103 / Under -124). First listed moneyline implies roughly 47.8% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
+      "headline": "College Football: UNLV Rebels priced as heavy favorite vs Akron Zips (-690)",
+      "snapshot": "UNLV Rebels carries an implied win probability of approximately 87.3% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.espn.com/college-football/scoreboard",
+      "league": "College Football",
       "key_data": [
-        "Game: Texas Rangers at Seattle Mariners - 4:10 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Texas Rangers +109 / Seattle Mariners -131",
-        "Spread: Texas Rangers 1.5 (-207) / Seattle Mariners -1.5 (+169)"
+        "Favorite: UNLV Rebels -690 (87.3% implied).",
+        "Spread: UNLV Rebels -13.5 (-115) / Akron Zips +13.5 (-105).",
+        "Total: +50.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
+        "The moneyline shows how strongly the market is leaning toward UNLV Rebels before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "url": "https://www.globalbettingreport.com"
+      "updated_at": "2026-09-21 02:12:13 PM ET"
     },
     {
-      "league": "NFL Betting Board",
-      "headline": "Tampa Bay Buccaneers at Cincinnati Bengals - 1:00 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Buccaneers +164 / Cincinnati Bengals -198. Spread frames the expected margin: Tampa Bay Buccaneers 3.5 (-108) / Cincinnati Bengals -3.5 (-112). Total frames the scoring environment: 50.5 (Over -108 / Under -112). First listed moneyline implies roughly 37.9% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
+      "headline": "College Football: Baylor Bears priced as heavy favorite vs Colorado Buffaloes (-385)",
+      "snapshot": "Baylor Bears carries an implied win probability of approximately 79.4% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.espn.com/college-football/scoreboard",
+      "league": "College Football",
       "key_data": [
-        "Game: Tampa Bay Buccaneers at Cincinnati Bengals - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Tampa Bay Buccaneers +164 / Cincinnati Bengals -198",
-        "Spread: Tampa Bay Buccaneers 3.5 (-108) / Cincinnati Bengals -3.5 (-112)"
+        "Favorite: Baylor Bears -385 (79.4% implied).",
+        "Spread: Colorado Buffaloes +9.5 (-104) / Baylor Bears -9.5 (-118).",
+        "Total: +55.5 (Over -102 / Under -120); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
+        "The moneyline shows how strongly the market is leaning toward Baylor Bears before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "url": "https://www.globalbettingreport.com"
+      "updated_at": "2026-09-21 02:12:13 PM ET"
     },
     {
-      "league": "MLB Betting Board",
-      "headline": "Colorado Rockies at New York Yankees - 7:05 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: Colorado Rockies +270 / New York Yankees -344. Spread frames the expected margin: Colorado Rockies 1.5 (+123) / New York Yankees -1.5 (-149). Total frames the scoring environment: 9 (Over +100 / Under -120). First listed moneyline implies roughly 27.0% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
+      "headline": "NFL: Los Angeles Rams priced as heavy favorite vs New York Giants (-298)",
+      "snapshot": "Los Angeles Rams carries an implied win probability of approximately 74.9% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "league": "NFL",
       "key_data": [
-        "Game: Colorado Rockies at New York Yankees - 7:05 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Colorado Rockies +270 / New York Yankees -344",
-        "Spread: Colorado Rockies 1.5 (+123) / New York Yankees -1.5 (-149)"
+        "Favorite: Los Angeles Rams -298 (74.9% implied).",
+        "Spread: New York Giants +6.5 (-105) / Los Angeles Rams -6.5 (-115).",
+        "Total: +47.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
+        "The moneyline shows how strongly the market is leaning toward Los Angeles Rams before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "url": "https://www.globalbettingreport.com"
+      "updated_at": "2026-09-21 02:12:13 PM ET"
     },
     {
-      "league": "NFL Betting Board",
-      "headline": "New Orleans Saints at Detroit Lions - 1:00 PM ET",
-      "snapshot": "Moneyline sets the win-probability baseline: New Orleans Saints +250 / Detroit Lions -310. Spread frames the expected margin: New Orleans Saints 7 (-112) / Detroit Lions -7 (-108). Total frames the scoring environment: 49.5 (Over -118 / Under -102). First listed moneyline implies roughly 28.6% win probability.",
-      "source_label": "Betting market read",
-      "story_type": "market_context",
+      "headline": "NFL: Cincinnati Bengals priced as clear favorite vs Pittsburgh Steelers (-185)",
+      "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 64.9% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "league": "NFL",
       "key_data": [
-        "Game: New Orleans Saints at Detroit Lions - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: New Orleans Saints +250 / Detroit Lions -310",
-        "Spread: New Orleans Saints 7 (-112) / Detroit Lions -7 (-108)"
+        "Favorite: Cincinnati Bengals -185 (64.9% implied).",
+        "Spread: Cincinnati Bengals -3.5 (-115) / Pittsburgh Steelers +3.5 (-105).",
+        "Total: +42.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
+        "The moneyline shows how strongly the market is leaning toward Cincinnati Bengals before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "url": "https://www.globalbettingreport.com"
+      "updated_at": "2026-09-21 02:12:13 PM ET"
+    },
+    {
+      "headline": "NFL: Detroit Lions priced as heavy favorite vs New York Jets (-278)",
+      "snapshot": "Detroit Lions carries an implied win probability of approximately 73.5% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "league": "NFL",
+      "key_data": [
+        "Favorite: Detroit Lions -278 (73.5% implied).",
+        "Spread: New York Jets +6.5 (-110) / Detroit Lions -6.5 (-110).",
+        "Total: +48.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+      ],
+      "why_it_matters": [
+        "The moneyline shows how strongly the market is leaning toward Detroit Lions before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "what_to_watch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "updated_at": "2026-09-21 02:12:13 PM ET"
+    },
+    {
+      "headline": "College Football: Army Black Knights priced as clear favorite vs Temple Owls (-160)",
+      "snapshot": "Army Black Knights carries an implied win probability of approximately 61.5% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.espn.com/college-football/scoreboard",
+      "league": "College Football",
+      "key_data": [
+        "Favorite: Army Black Knights -160 (61.5% implied).",
+        "Spread: Army Black Knights -3.5 (-102) / Temple Owls +3.5 (-120).",
+        "Total: +48.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+      ],
+      "why_it_matters": [
+        "The moneyline shows how strongly the market is leaning toward Army Black Knights before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "what_to_watch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "updated_at": "2026-09-21 02:12:13 PM ET"
     }
   ],
   "editor_signals": [
-    "Tampa Bay Rays at Atlanta Braves - 12:15 PM ET",
-    "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-    "Houston Astros at Philadelphia Phillies - 1:05 PM ET",
-    "Chicago Bears at Carolina Panthers - 1:00 PM ET",
-    "Texas Rangers at Seattle Mariners - 4:10 PM ET"
+    "Lead market: NFL: Green Bay Packers priced as heavy favorite vs Atlanta Falcons (-340)",
+    "Total games checked: 91.",
+    "Cards prioritize implied probability, expected margin and scoring environment instead of raw odds alone.",
+    "Betting context should remain descriptive and journalist-facing, not prescriptive wagering advice.",
+    "Active sports on board: College Football, MLB, NFL."
   ],
-  "sections": [
+  "homepage_cards": [
     {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Tampa Bay Rays at Atlanta Braves - 12:15 PM ET",
-      "game": "Tampa Bay Rays at Atlanta Braves - 12:15 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Tampa Bay Rays +104 / Atlanta Braves -125 | Spread: Tampa Bay Rays 1.5 (-205) / Atlanta Braves -1.5 (+168) | Total: 8.5 (Over -103 / Under -117)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Tampa Bay Rays +104 / Atlanta Braves -125",
-      "spread": "Tampa Bay Rays 1.5 (-205) / Atlanta Braves -1.5 (+168)",
-      "total": "8.5 (Over -103 / Under -117)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Rays +104 / Atlanta Braves -125. Spread frames the expected margin: Tampa Bay Rays 1.5 (-205) / Atlanta Braves -1.5 (+168). Total frames the scoring environment: 8.5 (Over -103 / Under -117). First listed moneyline implies roughly 49.0% win probability.",
+      "league": "NFL",
+      "title": "NFL Betting Market",
+      "headline": "NFL: Green Bay Packers priced as heavy favorite vs Atlanta Falcons (-340)",
+      "snapshot": "Green Bay Packers carries an implied win probability of approximately 77.3% based on the listed moneyline.",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "source_label": "The Odds API v4",
       "key_data": [
-        "Game: Tampa Bay Rays at Atlanta Braves - 12:15 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Tampa Bay Rays +104 / Atlanta Braves -125",
-        "Spread: Tampa Bay Rays 1.5 (-205) / Atlanta Braves -1.5 (+168)",
-        "Total: 8.5 (Over -103 / Under -117)"
+        "Favorite: Green Bay Packers -340 (77.3% implied).",
+        "Spread: Atlanta Falcons +7 (-115) / Green Bay Packers -7 (-105).",
+        "Total: +43.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
+        "The moneyline shows how strongly the market is leaning toward Green Bay Packers before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
+      "priority_score": 126,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-21 02:12:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "DraftKings",
+      "matchup": "Atlanta Falcons at Green Bay Packers",
+      "start_time": "8:15 PM ET"
     },
     {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-      "game": "San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: San Francisco 49ers +164 / Los Angeles Rams -198 | Spread: San Francisco 49ers 3.5 (-102) / Los Angeles Rams -3.5 (-118) | Total: 48.5 (Over -105 / Under -115)",
-      "bookmaker": "DraftKings",
-      "moneyline": "San Francisco 49ers +164 / Los Angeles Rams -198",
-      "spread": "San Francisco 49ers 3.5 (-102) / Los Angeles Rams -3.5 (-118)",
-      "total": "48.5 (Over -105 / Under -115)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: San Francisco 49ers +164 / Los Angeles Rams -198. Spread frames the expected margin: San Francisco 49ers 3.5 (-102) / Los Angeles Rams -3.5 (-118). Total frames the scoring environment: 48.5 (Over -105 / Under -115). First listed moneyline implies roughly 37.9% win probability.",
+      "league": "NFL",
+      "title": "NFL Betting Market",
+      "headline": "NFL: Buffalo Bills priced as heavy favorite vs Los Angeles Chargers (-310)",
+      "snapshot": "Buffalo Bills carries an implied win probability of approximately 75.6% based on the listed moneyline.",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "source_label": "The Odds API v4",
       "key_data": [
-        "Game: San Francisco 49ers at Los Angeles Rams - 8:35 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: San Francisco 49ers +164 / Los Angeles Rams -198",
-        "Spread: San Francisco 49ers 3.5 (-102) / Los Angeles Rams -3.5 (-118)",
-        "Total: 48.5 (Over -105 / Under -115)"
+        "Favorite: Buffalo Bills -310 (75.6% implied).",
+        "Spread: Los Angeles Chargers +7 (-108) / Buffalo Bills -7 (-112).",
+        "Total: +50.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
+        "The moneyline shows how strongly the market is leaning toward Buffalo Bills before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
+      "priority_score": 126,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-21 02:12:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "DraftKings",
+      "matchup": "Los Angeles Chargers at Buffalo Bills",
+      "start_time": "1:00 PM ET"
     },
     {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Houston Astros at Philadelphia Phillies - 1:05 PM ET",
-      "game": "Houston Astros at Philadelphia Phillies - 1:05 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Houston Astros +157 / Philadelphia Phillies -191 | Spread: Houston Astros 1.5 (-136) / Philadelphia Phillies -1.5 (+113) | Total: 8.5 (Over -112 / Under -107)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Houston Astros +157 / Philadelphia Phillies -191",
-      "spread": "Houston Astros 1.5 (-136) / Philadelphia Phillies -1.5 (+113)",
-      "total": "8.5 (Over -112 / Under -107)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Houston Astros +157 / Philadelphia Phillies -191. Spread frames the expected margin: Houston Astros 1.5 (-136) / Philadelphia Phillies -1.5 (+113). Total frames the scoring environment: 8.5 (Over -112 / Under -107). First listed moneyline implies roughly 38.9% win probability.",
+      "league": "College Football",
+      "title": "College Football Betting Market",
+      "headline": "College Football: Navy Midshipmen priced as heavy favorite vs UAB Blazers (-280)",
+      "snapshot": "Navy Midshipmen carries an implied win probability of approximately 73.7% based on the listed moneyline.",
+      "url": "https://www.espn.com/college-football/scoreboard",
+      "source_label": "The Odds API v4",
       "key_data": [
-        "Game: Houston Astros at Philadelphia Phillies - 1:05 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Houston Astros +157 / Philadelphia Phillies -191",
-        "Spread: Houston Astros 1.5 (-136) / Philadelphia Phillies -1.5 (+113)",
-        "Total: 8.5 (Over -112 / Under -107)"
+        "Favorite: Navy Midshipmen -280 (73.7% implied).",
+        "Spread: Navy Midshipmen -7.5 (-102) / UAB Blazers +7.5 (-120).",
+        "Total: +51.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
+        "The moneyline shows how strongly the market is leaning toward Navy Midshipmen before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
+      "priority_score": 126,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-21 02:12:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "FanDuel",
+      "matchup": "Navy Midshipmen at UAB Blazers",
+      "start_time": "7:00 PM ET"
     },
     {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "Chicago Bears at Carolina Panthers - 1:00 PM ET",
-      "game": "Chicago Bears at Carolina Panthers - 1:00 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Chicago Bears -162 / Carolina Panthers +136 | Spread: Chicago Bears -3 (-118) / Carolina Panthers 3 (-102) | Total: 46.5 (Over -115 / Under -105)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Chicago Bears -162 / Carolina Panthers +136",
-      "spread": "Chicago Bears -3 (-118) / Carolina Panthers 3 (-102)",
-      "total": "46.5 (Over -115 / Under -105)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Chicago Bears -162 / Carolina Panthers +136. Spread frames the expected margin: Chicago Bears -3 (-118) / Carolina Panthers 3 (-102). Total frames the scoring environment: 46.5 (Over -115 / Under -105). First listed moneyline implies roughly 61.8% win probability.",
+      "league": "College Football",
+      "title": "College Football Betting Market",
+      "headline": "College Football: Indiana Hoosiers priced as heavy favorite vs Northwestern Wildcats (-2000)",
+      "snapshot": "Indiana Hoosiers carries an implied win probability of approximately 95.2% based on the listed moneyline.",
+      "url": "https://www.espn.com/college-football/scoreboard",
+      "source_label": "The Odds API v4",
       "key_data": [
-        "Game: Chicago Bears at Carolina Panthers - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Chicago Bears -162 / Carolina Panthers +136",
-        "Spread: Chicago Bears -3 (-118) / Carolina Panthers 3 (-102)",
-        "Total: 46.5 (Over -115 / Under -105)"
+        "Favorite: Indiana Hoosiers -2000 (95.2% implied).",
+        "Spread: Northwestern Wildcats +20.5 (-102) / Indiana Hoosiers -20.5 (-120).",
+        "Total: +49.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
+        "The moneyline shows how strongly the market is leaning toward Indiana Hoosiers before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
+      "priority_score": 126,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-21 02:12:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "FanDuel",
+      "matchup": "Northwestern Wildcats at Indiana Hoosiers",
+      "start_time": "8:00 PM ET"
     },
     {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Texas Rangers at Seattle Mariners - 4:10 PM ET",
-      "game": "Texas Rangers at Seattle Mariners - 4:10 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Texas Rangers +109 / Seattle Mariners -131 | Spread: Texas Rangers 1.5 (-207) / Seattle Mariners -1.5 (+169) | Total: 7 (Over +103 / Under -124)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Texas Rangers +109 / Seattle Mariners -131",
-      "spread": "Texas Rangers 1.5 (-207) / Seattle Mariners -1.5 (+169)",
-      "total": "7 (Over +103 / Under -124)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Texas Rangers +109 / Seattle Mariners -131. Spread frames the expected margin: Texas Rangers 1.5 (-207) / Seattle Mariners -1.5 (+169). Total frames the scoring environment: 7 (Over +103 / Under -124). First listed moneyline implies roughly 47.8% win probability.",
+      "league": "College Football",
+      "title": "College Football Betting Market",
+      "headline": "College Football: UNLV Rebels priced as heavy favorite vs Akron Zips (-690)",
+      "snapshot": "UNLV Rebels carries an implied win probability of approximately 87.3% based on the listed moneyline.",
+      "url": "https://www.espn.com/college-football/scoreboard",
+      "source_label": "The Odds API v4",
       "key_data": [
-        "Game: Texas Rangers at Seattle Mariners - 4:10 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Texas Rangers +109 / Seattle Mariners -131",
-        "Spread: Texas Rangers 1.5 (-207) / Seattle Mariners -1.5 (+169)",
-        "Total: 7 (Over +103 / Under -124)"
+        "Favorite: UNLV Rebels -690 (87.3% implied).",
+        "Spread: UNLV Rebels -13.5 (-115) / Akron Zips +13.5 (-105).",
+        "Total: +50.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
+        "The moneyline shows how strongly the market is leaning toward UNLV Rebels before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
+      "priority_score": 126,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-21 02:12:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "FanDuel",
+      "matchup": "UNLV Rebels at Akron Zips",
+      "start_time": "12:00 PM ET"
     },
     {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "Tampa Bay Buccaneers at Cincinnati Bengals - 1:00 PM ET",
-      "game": "Tampa Bay Buccaneers at Cincinnati Bengals - 1:00 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Tampa Bay Buccaneers +164 / Cincinnati Bengals -198 | Spread: Tampa Bay Buccaneers 3.5 (-108) / Cincinnati Bengals -3.5 (-112) | Total: 50.5 (Over -108 / Under -112)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Tampa Bay Buccaneers +164 / Cincinnati Bengals -198",
-      "spread": "Tampa Bay Buccaneers 3.5 (-108) / Cincinnati Bengals -3.5 (-112)",
-      "total": "50.5 (Over -108 / Under -112)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Tampa Bay Buccaneers +164 / Cincinnati Bengals -198. Spread frames the expected margin: Tampa Bay Buccaneers 3.5 (-108) / Cincinnati Bengals -3.5 (-112). Total frames the scoring environment: 50.5 (Over -108 / Under -112). First listed moneyline implies roughly 37.9% win probability.",
+      "league": "College Football",
+      "title": "College Football Betting Market",
+      "headline": "College Football: Baylor Bears priced as heavy favorite vs Colorado Buffaloes (-385)",
+      "snapshot": "Baylor Bears carries an implied win probability of approximately 79.4% based on the listed moneyline.",
+      "url": "https://www.espn.com/college-football/scoreboard",
+      "source_label": "The Odds API v4",
       "key_data": [
-        "Game: Tampa Bay Buccaneers at Cincinnati Bengals - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Tampa Bay Buccaneers +164 / Cincinnati Bengals -198",
-        "Spread: Tampa Bay Buccaneers 3.5 (-108) / Cincinnati Bengals -3.5 (-112)",
-        "Total: 50.5 (Over -108 / Under -112)"
+        "Favorite: Baylor Bears -385 (79.4% implied).",
+        "Spread: Colorado Buffaloes +9.5 (-104) / Baylor Bears -9.5 (-118).",
+        "Total: +55.5 (Over -102 / Under -120); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
+        "The moneyline shows how strongly the market is leaning toward Baylor Bears before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
+      "priority_score": 126,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-21 02:12:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "FanDuel",
+      "matchup": "Colorado Buffaloes at Baylor Bears",
+      "start_time": "12:00 PM ET"
     },
     {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Colorado Rockies at New York Yankees - 7:05 PM ET",
-      "game": "Colorado Rockies at New York Yankees - 7:05 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Colorado Rockies +270 / New York Yankees -344 | Spread: Colorado Rockies 1.5 (+123) / New York Yankees -1.5 (-149) | Total: 9 (Over +100 / Under -120)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Colorado Rockies +270 / New York Yankees -344",
-      "spread": "Colorado Rockies 1.5 (+123) / New York Yankees -1.5 (-149)",
-      "total": "9 (Over +100 / Under -120)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Colorado Rockies +270 / New York Yankees -344. Spread frames the expected margin: Colorado Rockies 1.5 (+123) / New York Yankees -1.5 (-149). Total frames the scoring environment: 9 (Over +100 / Under -120). First listed moneyline implies roughly 27.0% win probability.",
+      "league": "NFL",
+      "title": "NFL Betting Market",
+      "headline": "NFL: Los Angeles Rams priced as heavy favorite vs New York Giants (-298)",
+      "snapshot": "Los Angeles Rams carries an implied win probability of approximately 74.9% based on the listed moneyline.",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "source_label": "The Odds API v4",
       "key_data": [
-        "Game: Colorado Rockies at New York Yankees - 7:05 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Colorado Rockies +270 / New York Yankees -344",
-        "Spread: Colorado Rockies 1.5 (+123) / New York Yankees -1.5 (-149)",
-        "Total: 9 (Over +100 / Under -120)"
+        "Favorite: Los Angeles Rams -298 (74.9% implied).",
+        "Spread: New York Giants +6.5 (-105) / Los Angeles Rams -6.5 (-115).",
+        "Total: +47.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
+        "The moneyline shows how strongly the market is leaning toward Los Angeles Rams before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
+      "priority_score": 120,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-21 02:12:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "DraftKings",
+      "matchup": "New York Giants at Los Angeles Rams",
+      "start_time": "8:15 PM ET"
     },
     {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "New Orleans Saints at Detroit Lions - 1:00 PM ET",
-      "game": "New Orleans Saints at Detroit Lions - 1:00 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: New Orleans Saints +250 / Detroit Lions -310 | Spread: New Orleans Saints 7 (-112) / Detroit Lions -7 (-108) | Total: 49.5 (Over -118 / Under -102)",
-      "bookmaker": "DraftKings",
-      "moneyline": "New Orleans Saints +250 / Detroit Lions -310",
-      "spread": "New Orleans Saints 7 (-112) / Detroit Lions -7 (-108)",
-      "total": "49.5 (Over -118 / Under -102)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: New Orleans Saints +250 / Detroit Lions -310. Spread frames the expected margin: New Orleans Saints 7 (-112) / Detroit Lions -7 (-108). Total frames the scoring environment: 49.5 (Over -118 / Under -102). First listed moneyline implies roughly 28.6% win probability.",
+      "league": "NFL",
+      "title": "NFL Betting Market",
+      "headline": "NFL: Cincinnati Bengals priced as clear favorite vs Pittsburgh Steelers (-185)",
+      "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 64.9% based on the listed moneyline.",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "source_label": "The Odds API v4",
       "key_data": [
-        "Game: New Orleans Saints at Detroit Lions - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: New Orleans Saints +250 / Detroit Lions -310",
-        "Spread: New Orleans Saints 7 (-112) / Detroit Lions -7 (-108)",
-        "Total: 49.5 (Over -118 / Under -102)"
+        "Favorite: Cincinnati Bengals -185 (64.9% implied).",
+        "Spread: Cincinnati Bengals -3.5 (-115) / Pittsburgh Steelers +3.5 (-105).",
+        "Total: +42.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
+        "The moneyline shows how strongly the market is leaning toward Cincinnati Bengals before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
+      "priority_score": 120,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-21 02:12:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "DraftKings",
+      "matchup": "Cincinnati Bengals at Pittsburgh Steelers",
+      "start_time": "1:00 PM ET"
     },
     {
-      "title": "MLB Betting Board",
-      "league": "MLB Betting Board",
-      "headline": "Pittsburgh Pirates at Chicago White Sox - 7:40 PM ET",
-      "game": "Pittsburgh Pirates at Chicago White Sox - 7:40 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Pittsburgh Pirates -110 / Chicago White Sox -110 | Spread: Pittsburgh Pirates -1.5 (+159) / Chicago White Sox 1.5 (-194) | Total: 7.5 (Over -118 / Under -102)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Pittsburgh Pirates -110 / Chicago White Sox -110",
-      "spread": "Pittsburgh Pirates -1.5 (+159) / Chicago White Sox 1.5 (-194)",
-      "total": "7.5 (Over -118 / Under -102)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Pittsburgh Pirates -110 / Chicago White Sox -110. Spread frames the expected margin: Pittsburgh Pirates -1.5 (+159) / Chicago White Sox 1.5 (-194). Total frames the scoring environment: 7.5 (Over -118 / Under -102). First listed moneyline implies roughly 52.4% win probability.",
+      "league": "NFL",
+      "title": "NFL Betting Market",
+      "headline": "NFL: Detroit Lions priced as heavy favorite vs New York Jets (-278)",
+      "snapshot": "Detroit Lions carries an implied win probability of approximately 73.5% based on the listed moneyline.",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "source_label": "The Odds API v4",
       "key_data": [
-        "Game: Pittsburgh Pirates at Chicago White Sox - 7:40 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Pittsburgh Pirates -110 / Chicago White Sox -110",
-        "Spread: Pittsburgh Pirates -1.5 (+159) / Chicago White Sox 1.5 (-194)",
-        "Total: 7.5 (Over -118 / Under -102)"
+        "Favorite: Detroit Lions -278 (73.5% implied).",
+        "Spread: New York Jets +6.5 (-110) / Detroit Lions -6.5 (-110).",
+        "Total: +48.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
-      ],
-      "what_the_odds_mean": [
-        "Pitching confirmations and weather can move MLB totals quickly.",
-        "Moneyline gaps show market confidence, but late lineup news still matters."
+        "The moneyline shows how strongly the market is leaning toward Detroit Lions before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Starting pitcher confirmations.",
-        "Weather, wind, humidity, and postponement risk.",
-        "Bullpen usage and lineup scratches before first pitch."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
+      "priority_score": 120,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-21 02:12:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "DraftKings",
+      "matchup": "New York Jets at Detroit Lions",
+      "start_time": "1:00 PM ET"
     },
     {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "Buffalo Bills at Houston Texans - 1:00 PM ET",
-      "game": "Buffalo Bills at Houston Texans - 1:00 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Buffalo Bills -118 / Houston Texans -102 | Spread: Buffalo Bills -1.5 (-102) / Houston Texans 1.5 (-118) | Total: 44.5 (Over -115 / Under -105)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Buffalo Bills -118 / Houston Texans -102",
-      "spread": "Buffalo Bills -1.5 (-102) / Houston Texans 1.5 (-118)",
-      "total": "44.5 (Over -115 / Under -105)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Buffalo Bills -118 / Houston Texans -102. Spread frames the expected margin: Buffalo Bills -1.5 (-102) / Houston Texans 1.5 (-118). Total frames the scoring environment: 44.5 (Over -115 / Under -105). First listed moneyline implies roughly 54.1% win probability.",
+      "league": "College Football",
+      "title": "College Football Betting Market",
+      "headline": "College Football: Army Black Knights priced as clear favorite vs Temple Owls (-160)",
+      "snapshot": "Army Black Knights carries an implied win probability of approximately 61.5% based on the listed moneyline.",
+      "url": "https://www.espn.com/college-football/scoreboard",
+      "source_label": "The Odds API v4",
       "key_data": [
-        "Game: Buffalo Bills at Houston Texans - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Buffalo Bills -118 / Houston Texans -102",
-        "Spread: Buffalo Bills -1.5 (-102) / Houston Texans 1.5 (-118)",
-        "Total: 44.5 (Over -115 / Under -105)"
+        "Favorite: Army Black Knights -160 (61.5% implied).",
+        "Spread: Army Black Knights -3.5 (-102) / Temple Owls +3.5 (-120).",
+        "Total: +48.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
+        "The moneyline shows how strongly the market is leaning toward Army Black Knights before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
+      "priority_score": 113,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-21 02:12:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "FanDuel",
+      "matchup": "Army Black Knights at Temple Owls",
+      "start_time": "4:00 PM ET"
     },
     {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "Baltimore Ravens at Indianapolis Colts - 1:00 PM ET",
-      "game": "Baltimore Ravens at Indianapolis Colts - 1:00 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Baltimore Ravens -175 / Indianapolis Colts +145 | Spread: Baltimore Ravens -3.5 (-105) / Indianapolis Colts 3.5 (-115) | Total: 47.5 (Over -115 / Under -105)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Baltimore Ravens -175 / Indianapolis Colts +145",
-      "spread": "Baltimore Ravens -3.5 (-105) / Indianapolis Colts 3.5 (-115)",
-      "total": "47.5 (Over -115 / Under -105)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Baltimore Ravens -175 / Indianapolis Colts +145. Spread frames the expected margin: Baltimore Ravens -3.5 (-105) / Indianapolis Colts 3.5 (-115). Total frames the scoring environment: 47.5 (Over -115 / Under -105). First listed moneyline implies roughly 63.6% win probability.",
+      "league": "MLB",
+      "title": "MLB Betting Market",
+      "headline": "MLB: Detroit Tigers priced as clear favorite vs Washington Nationals (-164)",
+      "snapshot": "Detroit Tigers carries an implied win probability of approximately 62.1% based on the listed moneyline.",
+      "url": "https://www.espn.com/mlb/scoreboard",
+      "source_label": "The Odds API v4",
       "key_data": [
-        "Game: Baltimore Ravens at Indianapolis Colts - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Baltimore Ravens -175 / Indianapolis Colts +145",
-        "Spread: Baltimore Ravens -3.5 (-105) / Indianapolis Colts 3.5 (-115)",
-        "Total: 47.5 (Over -115 / Under -105)"
+        "Favorite: Detroit Tigers -164 (62.1% implied).",
+        "Spread: Washington Nationals +1.5 (-176) / Detroit Tigers -1.5 (+146).",
+        "Total: +8.5 (Over -104 / Under -118); higher-scoring hockey environment."
       ],
       "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
+        "The moneyline shows how strongly the market is leaning toward Detroit Tigers before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
+      "priority_score": 97,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-21 02:12:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "FanDuel",
+      "matchup": "Washington Nationals at Detroit Tigers",
+      "start_time": "6:41 PM ET"
     },
     {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "Cleveland Browns at Jacksonville Jaguars - 1:00 PM ET",
-      "game": "Cleveland Browns at Jacksonville Jaguars - 1:00 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Cleveland Browns +360 / Jacksonville Jaguars -469 | Spread: Cleveland Browns 8.5 (-110) / Jacksonville Jaguars -8.5 (-110) | Total: 40.5 (Over -110 / Under -110)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Cleveland Browns +360 / Jacksonville Jaguars -469",
-      "spread": "Cleveland Browns 8.5 (-110) / Jacksonville Jaguars -8.5 (-110)",
-      "total": "40.5 (Over -110 / Under -110)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Cleveland Browns +360 / Jacksonville Jaguars -469. Spread frames the expected margin: Cleveland Browns 8.5 (-110) / Jacksonville Jaguars -8.5 (-110). Total frames the scoring environment: 40.5 (Over -110 / Under -110). First listed moneyline implies roughly 21.7% win probability.",
+      "league": "MLB",
+      "title": "MLB Betting Market",
+      "headline": "MLB: Philadelphia Phillies priced as slight favorite vs Milwaukee Brewers (-142)",
+      "snapshot": "Philadelphia Phillies carries an implied win probability of approximately 58.7% based on the listed moneyline.",
+      "url": "https://www.espn.com/mlb/scoreboard",
+      "source_label": "The Odds API v4",
       "key_data": [
-        "Game: Cleveland Browns at Jacksonville Jaguars - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Cleveland Browns +360 / Jacksonville Jaguars -469",
-        "Spread: Cleveland Browns 8.5 (-110) / Jacksonville Jaguars -8.5 (-110)",
-        "Total: 40.5 (Over -110 / Under -110)"
+        "Favorite: Philadelphia Phillies -142 (58.7% implied).",
+        "Spread: Milwaukee Brewers +1.5 (-200) / Philadelphia Phillies -1.5 (+164).",
+        "Total: +7.5 (Over +102 / Under -124); higher-scoring hockey environment."
       ],
       "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
+        "The moneyline shows how strongly the market is leaning toward Philadelphia Phillies before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
       "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
       ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
-    },
-    {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "Atlanta Falcons at Pittsburgh Steelers - 1:00 PM ET",
-      "game": "Atlanta Falcons at Pittsburgh Steelers - 1:00 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Atlanta Falcons +154 / Pittsburgh Steelers -185 | Spread: Atlanta Falcons 3.5 (-108) / Pittsburgh Steelers -3.5 (-112) | Total: 42.5 (Over -105 / Under -115)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Atlanta Falcons +154 / Pittsburgh Steelers -185",
-      "spread": "Atlanta Falcons 3.5 (-108) / Pittsburgh Steelers -3.5 (-112)",
-      "total": "42.5 (Over -105 / Under -115)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Atlanta Falcons +154 / Pittsburgh Steelers -185. Spread frames the expected margin: Atlanta Falcons 3.5 (-108) / Pittsburgh Steelers -3.5 (-112). Total frames the scoring environment: 42.5 (Over -105 / Under -115). First listed moneyline implies roughly 39.4% win probability.",
-      "key_data": [
-        "Game: Atlanta Falcons at Pittsburgh Steelers - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Atlanta Falcons +154 / Pittsburgh Steelers -185",
-        "Spread: Atlanta Falcons 3.5 (-108) / Pittsburgh Steelers -3.5 (-112)",
-        "Total: 42.5 (Over -105 / Under -115)"
+      "priority_score": 97,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-21 02:12:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
       ],
-      "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
-      ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
-    },
-    {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "New York Jets at Tennessee Titans - 1:00 PM ET",
-      "game": "New York Jets at Tennessee Titans - 1:00 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: New York Jets +105 / Tennessee Titans -125 | Spread: New York Jets 1.5 (-110) / Tennessee Titans -1.5 (-110) | Total: 38.5 (Over -112 / Under -108)",
-      "bookmaker": "DraftKings",
-      "moneyline": "New York Jets +105 / Tennessee Titans -125",
-      "spread": "New York Jets 1.5 (-110) / Tennessee Titans -1.5 (-110)",
-      "total": "38.5 (Over -112 / Under -108)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: New York Jets +105 / Tennessee Titans -125. Spread frames the expected margin: New York Jets 1.5 (-110) / Tennessee Titans -1.5 (-110). Total frames the scoring environment: 38.5 (Over -112 / Under -108). First listed moneyline implies roughly 48.8% win probability.",
-      "key_data": [
-        "Game: New York Jets at Tennessee Titans - 1:00 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: New York Jets +105 / Tennessee Titans -125",
-        "Spread: New York Jets 1.5 (-110) / Tennessee Titans -1.5 (-110)",
-        "Total: 38.5 (Over -112 / Under -108)"
-      ],
-      "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
-      ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
-    },
-    {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "Arizona Cardinals at Los Angeles Chargers - 4:25 PM ET",
-      "game": "Arizona Cardinals at Los Angeles Chargers - 4:25 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Arizona Cardinals +380 / Los Angeles Chargers -500 | Spread: Arizona Cardinals 9.5 (-105) / Los Angeles Chargers -9.5 (-115) | Total: 47.5 (Over -102 / Under -118)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Arizona Cardinals +380 / Los Angeles Chargers -500",
-      "spread": "Arizona Cardinals 9.5 (-105) / Los Angeles Chargers -9.5 (-115)",
-      "total": "47.5 (Over -102 / Under -118)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Arizona Cardinals +380 / Los Angeles Chargers -500. Spread frames the expected margin: Arizona Cardinals 9.5 (-105) / Los Angeles Chargers -9.5 (-115). Total frames the scoring environment: 47.5 (Over -102 / Under -118). First listed moneyline implies roughly 20.8% win probability.",
-      "key_data": [
-        "Game: Arizona Cardinals at Los Angeles Chargers - 4:25 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Arizona Cardinals +380 / Los Angeles Chargers -500",
-        "Spread: Arizona Cardinals 9.5 (-105) / Los Angeles Chargers -9.5 (-115)",
-        "Total: 47.5 (Over -102 / Under -118)"
-      ],
-      "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
-      ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
-    },
-    {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "Miami Dolphins at Las Vegas Raiders - 4:25 PM ET",
-      "game": "Miami Dolphins at Las Vegas Raiders - 4:25 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Miami Dolphins +140 / Las Vegas Raiders -166 | Spread: Miami Dolphins 3 (-108) / Las Vegas Raiders -3 (-112) | Total: 40.5 (Over -112 / Under -108)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Miami Dolphins +140 / Las Vegas Raiders -166",
-      "spread": "Miami Dolphins 3 (-108) / Las Vegas Raiders -3 (-112)",
-      "total": "40.5 (Over -112 / Under -108)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Miami Dolphins +140 / Las Vegas Raiders -166. Spread frames the expected margin: Miami Dolphins 3 (-108) / Las Vegas Raiders -3 (-112). Total frames the scoring environment: 40.5 (Over -112 / Under -108). First listed moneyline implies roughly 41.7% win probability.",
-      "key_data": [
-        "Game: Miami Dolphins at Las Vegas Raiders - 4:25 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Miami Dolphins +140 / Las Vegas Raiders -166",
-        "Spread: Miami Dolphins 3 (-108) / Las Vegas Raiders -3 (-112)",
-        "Total: 40.5 (Over -112 / Under -108)"
-      ],
-      "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
-      ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
-    },
-    {
-      "title": "NFL Betting Board",
-      "league": "NFL Betting Board",
-      "headline": "Green Bay Packers at Minnesota Vikings - 4:25 PM ET",
-      "game": "Green Bay Packers at Minnesota Vikings - 4:25 PM ET",
-      "market": "Bookmaker: DraftKings | Moneyline: Green Bay Packers +100 / Minnesota Vikings -120 | Spread: Green Bay Packers 1.5 (-112) / Minnesota Vikings -1.5 (-108) | Total: 46.5 (Over -108 / Under -112)",
-      "bookmaker": "DraftKings",
-      "moneyline": "Green Bay Packers +100 / Minnesota Vikings -120",
-      "spread": "Green Bay Packers 1.5 (-112) / Minnesota Vikings -1.5 (-108)",
-      "total": "46.5 (Over -108 / Under -112)",
-      "implied_probability": "",
-      "snapshot": "Moneyline sets the win-probability baseline: Green Bay Packers +100 / Minnesota Vikings -120. Spread frames the expected margin: Green Bay Packers 1.5 (-112) / Minnesota Vikings -1.5 (-108). Total frames the scoring environment: 46.5 (Over -108 / Under -112). First listed moneyline implies roughly 50.0% win probability.",
-      "key_data": [
-        "Game: Green Bay Packers at Minnesota Vikings - 4:25 PM ET",
-        "Market source: DraftKings",
-        "Moneyline: Green Bay Packers +100 / Minnesota Vikings -120",
-        "Spread: Green Bay Packers 1.5 (-112) / Minnesota Vikings -1.5 (-108)",
-        "Total: 46.5 (Over -108 / Under -112)"
-      ],
-      "why_it_matters": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_the_odds_mean": [
-        "NFL spreads often reflect quarterback, injury, and rest information quickly.",
-        "Prime-time markets can move late as public money arrives."
-      ],
-      "what_to_watch": [
-        "Quarterback and injury report movement.",
-        "Weather for outdoor games.",
-        "Prime-time public money and late spread movement."
-      ],
-      "source_label": "Betting market read",
-      "story_type": "market_context",
-      "source": "betting_odds_report.txt",
-      "updated_at": "2026-09-10 01:33:41 AM ET"
+      "bookmaker": "FanDuel",
+      "matchup": "Milwaukee Brewers at Philadelphia Phillies",
+      "start_time": "6:41 PM ET"
     }
   ],
+  "sections": {
+    "nfl": {
+      "title": "NFL Betting Market",
+      "headline": "NFL: Green Bay Packers priced as heavy favorite vs Atlanta Falcons (-340)",
+      "snapshot": "Green Bay Packers carries an implied win probability of approximately 77.3% based on the listed moneyline.",
+      "cards": [
+        {
+          "id": "nfl-atlanta-falcons-at-green-bay-packers",
+          "sport": "NFL",
+          "title": "NFL Betting Market",
+          "headline": "NFL: Green Bay Packers priced as heavy favorite vs Atlanta Falcons (-340)",
+          "snapshot": "Green Bay Packers carries an implied win probability of approximately 77.3% based on the listed moneyline.",
+          "matchup": "Atlanta Falcons at Green Bay Packers",
+          "start_time": "8:15 PM ET",
+          "bookmaker": "DraftKings",
+          "key_data": [
+            "Favorite: Green Bay Packers -340 (77.3% implied).",
+            "Spread: Atlanta Falcons +7 (-115) / Green Bay Packers -7 (-105).",
+            "Total: +43.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Green Bay Packers before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 126,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/nfl/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "NFL",
+            "away_team": "Atlanta Falcons",
+            "home_team": "Green Bay Packers",
+            "matchup": "Atlanta Falcons at Green Bay Packers",
+            "start_time": "8:15 PM ET",
+            "bookmaker": "DraftKings",
+            "moneyline": {
+              "away_price": 270,
+              "home_price": -340,
+              "away_price_text": "+270",
+              "home_price_text": "-340",
+              "away_implied_probability": 0.2702702702702703,
+              "home_implied_probability": 0.7727272727272727
+            },
+            "spread": {
+              "away_point": 7.0,
+              "home_point": -7.0,
+              "away_point_text": "+7",
+              "home_point_text": "-7",
+              "away_price": -115,
+              "home_price": -105,
+              "away_price_text": "-115",
+              "home_price_text": "-105"
+            },
+            "total": {
+              "point": 43.5,
+              "point_text": "+43.5",
+              "over_price": -115,
+              "under_price": -105,
+              "over_price_text": "-115",
+              "under_price_text": "-105",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/nfl/scoreboard"
+          },
+          "updated_at": "2026-09-21 02:12:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        },
+        {
+          "id": "nfl-los-angeles-chargers-at-buffalo-bills",
+          "sport": "NFL",
+          "title": "NFL Betting Market",
+          "headline": "NFL: Buffalo Bills priced as heavy favorite vs Los Angeles Chargers (-310)",
+          "snapshot": "Buffalo Bills carries an implied win probability of approximately 75.6% based on the listed moneyline.",
+          "matchup": "Los Angeles Chargers at Buffalo Bills",
+          "start_time": "1:00 PM ET",
+          "bookmaker": "DraftKings",
+          "key_data": [
+            "Favorite: Buffalo Bills -310 (75.6% implied).",
+            "Spread: Los Angeles Chargers +7 (-108) / Buffalo Bills -7 (-112).",
+            "Total: +50.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Buffalo Bills before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 126,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/nfl/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "NFL",
+            "away_team": "Los Angeles Chargers",
+            "home_team": "Buffalo Bills",
+            "matchup": "Los Angeles Chargers at Buffalo Bills",
+            "start_time": "1:00 PM ET",
+            "bookmaker": "DraftKings",
+            "moneyline": {
+              "away_price": 250,
+              "home_price": -310,
+              "away_price_text": "+250",
+              "home_price_text": "-310",
+              "away_implied_probability": 0.2857142857142857,
+              "home_implied_probability": 0.7560975609756098
+            },
+            "spread": {
+              "away_point": 7.0,
+              "home_point": -7.0,
+              "away_point_text": "+7",
+              "home_point_text": "-7",
+              "away_price": -108,
+              "home_price": -112,
+              "away_price_text": "-108",
+              "home_price_text": "-112"
+            },
+            "total": {
+              "point": 50.5,
+              "point_text": "+50.5",
+              "over_price": -105,
+              "under_price": -115,
+              "over_price_text": "-105",
+              "under_price_text": "-115",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/nfl/scoreboard"
+          },
+          "updated_at": "2026-09-21 02:12:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        },
+        {
+          "id": "nfl-new-york-giants-at-los-angeles-rams",
+          "sport": "NFL",
+          "title": "NFL Betting Market",
+          "headline": "NFL: Los Angeles Rams priced as heavy favorite vs New York Giants (-298)",
+          "snapshot": "Los Angeles Rams carries an implied win probability of approximately 74.9% based on the listed moneyline.",
+          "matchup": "New York Giants at Los Angeles Rams",
+          "start_time": "8:15 PM ET",
+          "bookmaker": "DraftKings",
+          "key_data": [
+            "Favorite: Los Angeles Rams -298 (74.9% implied).",
+            "Spread: New York Giants +6.5 (-105) / Los Angeles Rams -6.5 (-115).",
+            "Total: +47.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Los Angeles Rams before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 120,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/nfl/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "NFL",
+            "away_team": "New York Giants",
+            "home_team": "Los Angeles Rams",
+            "matchup": "New York Giants at Los Angeles Rams",
+            "start_time": "8:15 PM ET",
+            "bookmaker": "DraftKings",
+            "moneyline": {
+              "away_price": 240,
+              "home_price": -298,
+              "away_price_text": "+240",
+              "home_price_text": "-298",
+              "away_implied_probability": 0.29411764705882354,
+              "home_implied_probability": 0.7487437185929648
+            },
+            "spread": {
+              "away_point": 6.5,
+              "home_point": -6.5,
+              "away_point_text": "+6.5",
+              "home_point_text": "-6.5",
+              "away_price": -105,
+              "home_price": -115,
+              "away_price_text": "-105",
+              "home_price_text": "-115"
+            },
+            "total": {
+              "point": 47.5,
+              "point_text": "+47.5",
+              "over_price": -110,
+              "under_price": -110,
+              "over_price_text": "-110",
+              "under_price_text": "-110",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/nfl/scoreboard"
+          },
+          "updated_at": "2026-09-21 02:12:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        },
+        {
+          "id": "nfl-cincinnati-bengals-at-pittsburgh-steelers",
+          "sport": "NFL",
+          "title": "NFL Betting Market",
+          "headline": "NFL: Cincinnati Bengals priced as clear favorite vs Pittsburgh Steelers (-185)",
+          "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 64.9% based on the listed moneyline.",
+          "matchup": "Cincinnati Bengals at Pittsburgh Steelers",
+          "start_time": "1:00 PM ET",
+          "bookmaker": "DraftKings",
+          "key_data": [
+            "Favorite: Cincinnati Bengals -185 (64.9% implied).",
+            "Spread: Cincinnati Bengals -3.5 (-115) / Pittsburgh Steelers +3.5 (-105).",
+            "Total: +42.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Cincinnati Bengals before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 120,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/nfl/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "NFL",
+            "away_team": "Cincinnati Bengals",
+            "home_team": "Pittsburgh Steelers",
+            "matchup": "Cincinnati Bengals at Pittsburgh Steelers",
+            "start_time": "1:00 PM ET",
+            "bookmaker": "DraftKings",
+            "moneyline": {
+              "away_price": -185,
+              "home_price": 154,
+              "away_price_text": "-185",
+              "home_price_text": "+154",
+              "away_implied_probability": 0.6491228070175439,
+              "home_implied_probability": 0.3937007874015748
+            },
+            "spread": {
+              "away_point": -3.5,
+              "home_point": 3.5,
+              "away_point_text": "-3.5",
+              "home_point_text": "+3.5",
+              "away_price": -115,
+              "home_price": -105,
+              "away_price_text": "-115",
+              "home_price_text": "-105"
+            },
+            "total": {
+              "point": 42.5,
+              "point_text": "+42.5",
+              "over_price": -110,
+              "under_price": -110,
+              "over_price_text": "-110",
+              "under_price_text": "-110",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/nfl/scoreboard"
+          },
+          "updated_at": "2026-09-21 02:12:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        },
+        {
+          "id": "nfl-new-york-jets-at-detroit-lions",
+          "sport": "NFL",
+          "title": "NFL Betting Market",
+          "headline": "NFL: Detroit Lions priced as heavy favorite vs New York Jets (-278)",
+          "snapshot": "Detroit Lions carries an implied win probability of approximately 73.5% based on the listed moneyline.",
+          "matchup": "New York Jets at Detroit Lions",
+          "start_time": "1:00 PM ET",
+          "bookmaker": "DraftKings",
+          "key_data": [
+            "Favorite: Detroit Lions -278 (73.5% implied).",
+            "Spread: New York Jets +6.5 (-110) / Detroit Lions -6.5 (-110).",
+            "Total: +48.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Detroit Lions before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 120,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/nfl/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "NFL",
+            "away_team": "New York Jets",
+            "home_team": "Detroit Lions",
+            "matchup": "New York Jets at Detroit Lions",
+            "start_time": "1:00 PM ET",
+            "bookmaker": "DraftKings",
+            "moneyline": {
+              "away_price": 225,
+              "home_price": -278,
+              "away_price_text": "+225",
+              "home_price_text": "-278",
+              "away_implied_probability": 0.3076923076923077,
+              "home_implied_probability": 0.7354497354497355
+            },
+            "spread": {
+              "away_point": 6.5,
+              "home_point": -6.5,
+              "away_point_text": "+6.5",
+              "home_point_text": "-6.5",
+              "away_price": -110,
+              "home_price": -110,
+              "away_price_text": "-110",
+              "home_price_text": "-110"
+            },
+            "total": {
+              "point": 48.5,
+              "point_text": "+48.5",
+              "over_price": -105,
+              "under_price": -115,
+              "over_price_text": "-105",
+              "under_price_text": "-115",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/nfl/scoreboard"
+          },
+          "updated_at": "2026-09-21 02:12:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        }
+      ],
+      "source_label": "The Odds API v4",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "updated_at": "2026-09-21T18:12:13.593227Z"
+    },
+    "college_football": {
+      "title": "College Football Betting Market",
+      "headline": "College Football: Navy Midshipmen priced as heavy favorite vs UAB Blazers (-280)",
+      "snapshot": "Navy Midshipmen carries an implied win probability of approximately 73.7% based on the listed moneyline.",
+      "cards": [
+        {
+          "id": "college-football-navy-midshipmen-at-uab-blazers",
+          "sport": "College Football",
+          "title": "College Football Betting Market",
+          "headline": "College Football: Navy Midshipmen priced as heavy favorite vs UAB Blazers (-280)",
+          "snapshot": "Navy Midshipmen carries an implied win probability of approximately 73.7% based on the listed moneyline.",
+          "matchup": "Navy Midshipmen at UAB Blazers",
+          "start_time": "7:00 PM ET",
+          "bookmaker": "FanDuel",
+          "key_data": [
+            "Favorite: Navy Midshipmen -280 (73.7% implied).",
+            "Spread: Navy Midshipmen -7.5 (-102) / UAB Blazers +7.5 (-120).",
+            "Total: +51.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Navy Midshipmen before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 126,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/college-football/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "College Football",
+            "away_team": "Navy Midshipmen",
+            "home_team": "UAB Blazers",
+            "matchup": "Navy Midshipmen at UAB Blazers",
+            "start_time": "7:00 PM ET",
+            "bookmaker": "FanDuel",
+            "moneyline": {
+              "away_price": -280,
+              "home_price": 225,
+              "away_price_text": "-280",
+              "home_price_text": "+225",
+              "away_implied_probability": 0.7368421052631579,
+              "home_implied_probability": 0.3076923076923077
+            },
+            "spread": {
+              "away_point": -7.5,
+              "home_point": 7.5,
+              "away_point_text": "-7.5",
+              "home_point_text": "+7.5",
+              "away_price": -102,
+              "home_price": -120,
+              "away_price_text": "-102",
+              "home_price_text": "-120"
+            },
+            "total": {
+              "point": 51.5,
+              "point_text": "+51.5",
+              "over_price": -105,
+              "under_price": -115,
+              "over_price_text": "-105",
+              "under_price_text": "-115",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/college-football/scoreboard"
+          },
+          "updated_at": "2026-09-21 02:12:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        },
+        {
+          "id": "college-football-northwestern-wildcats-at-indiana-hoosiers",
+          "sport": "College Football",
+          "title": "College Football Betting Market",
+          "headline": "College Football: Indiana Hoosiers priced as heavy favorite vs Northwestern Wildcats (-2000)",
+          "snapshot": "Indiana Hoosiers carries an implied win probability of approximately 95.2% based on the listed moneyline.",
+          "matchup": "Northwestern Wildcats at Indiana Hoosiers",
+          "start_time": "8:00 PM ET",
+          "bookmaker": "FanDuel",
+          "key_data": [
+            "Favorite: Indiana Hoosiers -2000 (95.2% implied).",
+            "Spread: Northwestern Wildcats +20.5 (-102) / Indiana Hoosiers -20.5 (-120).",
+            "Total: +49.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Indiana Hoosiers before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 126,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/college-football/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "College Football",
+            "away_team": "Northwestern Wildcats",
+            "home_team": "Indiana Hoosiers",
+            "matchup": "Northwestern Wildcats at Indiana Hoosiers",
+            "start_time": "8:00 PM ET",
+            "bookmaker": "FanDuel",
+            "moneyline": {
+              "away_price": 980,
+              "home_price": -2000,
+              "away_price_text": "+980",
+              "home_price_text": "-2000",
+              "away_implied_probability": 0.09259259259259259,
+              "home_implied_probability": 0.9523809523809523
+            },
+            "spread": {
+              "away_point": 20.5,
+              "home_point": -20.5,
+              "away_point_text": "+20.5",
+              "home_point_text": "-20.5",
+              "away_price": -102,
+              "home_price": -120,
+              "away_price_text": "-102",
+              "home_price_text": "-120"
+            },
+            "total": {
+              "point": 49.5,
+              "point_text": "+49.5",
+              "over_price": -105,
+              "under_price": -115,
+              "over_price_text": "-105",
+              "under_price_text": "-115",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/college-football/scoreboard"
+          },
+          "updated_at": "2026-09-21 02:12:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        },
+        {
+          "id": "college-football-unlv-rebels-at-akron-zips",
+          "sport": "College Football",
+          "title": "College Football Betting Market",
+          "headline": "College Football: UNLV Rebels priced as heavy favorite vs Akron Zips (-690)",
+          "snapshot": "UNLV Rebels carries an implied win probability of approximately 87.3% based on the listed moneyline.",
+          "matchup": "UNLV Rebels at Akron Zips",
+          "start_time": "12:00 PM ET",
+          "bookmaker": "FanDuel",
+          "key_data": [
+            "Favorite: UNLV Rebels -690 (87.3% implied).",
+            "Spread: UNLV Rebels -13.5 (-115) / Akron Zips +13.5 (-105).",
+            "Total: +50.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward UNLV Rebels before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 126,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/college-football/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "College Football",
+            "away_team": "UNLV Rebels",
+            "home_team": "Akron Zips",
+            "matchup": "UNLV Rebels at Akron Zips",
+            "start_time": "12:00 PM ET",
+            "bookmaker": "FanDuel",
+            "moneyline": {
+              "away_price": -690,
+              "home_price": 480,
+              "away_price_text": "-690",
+              "home_price_text": "+480",
+              "away_implied_probability": 0.8734177215189873,
+              "home_implied_probability": 0.1724137931034483
+            },
+            "spread": {
+              "away_point": -13.5,
+              "home_point": 13.5,
+              "away_point_text": "-13.5",
+              "home_point_text": "+13.5",
+              "away_price": -115,
+              "home_price": -105,
+              "away_price_text": "-115",
+              "home_price_text": "-105"
+            },
+            "total": {
+              "point": 50.5,
+              "point_text": "+50.5",
+              "over_price": -115,
+              "under_price": -105,
+              "over_price_text": "-115",
+              "under_price_text": "-105",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/college-football/scoreboard"
+          },
+          "updated_at": "2026-09-21 02:12:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        },
+        {
+          "id": "college-football-colorado-buffaloes-at-baylor-bears",
+          "sport": "College Football",
+          "title": "College Football Betting Market",
+          "headline": "College Football: Baylor Bears priced as heavy favorite vs Colorado Buffaloes (-385)",
+          "snapshot": "Baylor Bears carries an implied win probability of approximately 79.4% based on the listed moneyline.",
+          "matchup": "Colorado Buffaloes at Baylor Bears",
+          "start_time": "12:00 PM ET",
+          "bookmaker": "FanDuel",
+          "key_data": [
+            "Favorite: Baylor Bears -385 (79.4% implied).",
+            "Spread: Colorado Buffaloes +9.5 (-104) / Baylor Bears -9.5 (-118).",
+            "Total: +55.5 (Over -102 / Under -120); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Baylor Bears before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 126,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/college-football/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "College Football",
+            "away_team": "Colorado Buffaloes",
+            "home_team": "Baylor Bears",
+            "matchup": "Colorado Buffaloes at Baylor Bears",
+            "start_time": "12:00 PM ET",
+            "bookmaker": "FanDuel",
+            "moneyline": {
+              "away_price": 300,
+              "home_price": -385,
+              "away_price_text": "+300",
+              "home_price_text": "-385",
+              "away_implied_probability": 0.25,
+              "home_implied_probability": 0.7938144329896907
+            },
+            "spread": {
+              "away_point": 9.5,
+              "home_point": -9.5,
+              "away_point_text": "+9.5",
+              "home_point_text": "-9.5",
+              "away_price": -104,
+              "home_price": -118,
+              "away_price_text": "-104",
+              "home_price_text": "-118"
+            },
+            "total": {
+              "point": 55.5,
+              "point_text": "+55.5",
+              "over_price": -102,
+              "under_price": -120,
+              "over_price_text": "-102",
+              "under_price_text": "-120",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/college-football/scoreboard"
+          },
+          "updated_at": "2026-09-21 02:12:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        },
+        {
+          "id": "college-football-army-black-knights-at-temple-owls",
+          "sport": "College Football",
+          "title": "College Football Betting Market",
+          "headline": "College Football: Army Black Knights priced as clear favorite vs Temple Owls (-160)",
+          "snapshot": "Army Black Knights carries an implied win probability of approximately 61.5% based on the listed moneyline.",
+          "matchup": "Army Black Knights at Temple Owls",
+          "start_time": "4:00 PM ET",
+          "bookmaker": "FanDuel",
+          "key_data": [
+            "Favorite: Army Black Knights -160 (61.5% implied).",
+            "Spread: Army Black Knights -3.5 (-102) / Temple Owls +3.5 (-120).",
+            "Total: +48.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Army Black Knights before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 113,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/college-football/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "College Football",
+            "away_team": "Army Black Knights",
+            "home_team": "Temple Owls",
+            "matchup": "Army Black Knights at Temple Owls",
+            "start_time": "4:00 PM ET",
+            "bookmaker": "FanDuel",
+            "moneyline": {
+              "away_price": -160,
+              "home_price": 132,
+              "away_price_text": "-160",
+              "home_price_text": "+132",
+              "away_implied_probability": 0.6153846153846154,
+              "home_implied_probability": 0.43103448275862066
+            },
+            "spread": {
+              "away_point": -3.5,
+              "home_point": 3.5,
+              "away_point_text": "-3.5",
+              "home_point_text": "+3.5",
+              "away_price": -102,
+              "home_price": -120,
+              "away_price_text": "-102",
+              "home_price_text": "-120"
+            },
+            "total": {
+              "point": 48.5,
+              "point_text": "+48.5",
+              "over_price": -110,
+              "under_price": -110,
+              "over_price_text": "-110",
+              "under_price_text": "-110",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/college-football/scoreboard"
+          },
+          "updated_at": "2026-09-21 02:12:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        }
+      ],
+      "source_label": "The Odds API v4",
+      "url": "https://www.espn.com/college-football/scoreboard",
+      "updated_at": "2026-09-21T18:12:13.593227Z"
+    },
+    "mlb": {
+      "title": "MLB Betting Market",
+      "headline": "MLB: Detroit Tigers priced as clear favorite vs Washington Nationals (-164)",
+      "snapshot": "Detroit Tigers carries an implied win probability of approximately 62.1% based on the listed moneyline.",
+      "cards": [
+        {
+          "id": "mlb-washington-nationals-at-detroit-tigers",
+          "sport": "MLB",
+          "title": "MLB Betting Market",
+          "headline": "MLB: Detroit Tigers priced as clear favorite vs Washington Nationals (-164)",
+          "snapshot": "Detroit Tigers carries an implied win probability of approximately 62.1% based on the listed moneyline.",
+          "matchup": "Washington Nationals at Detroit Tigers",
+          "start_time": "6:41 PM ET",
+          "bookmaker": "FanDuel",
+          "key_data": [
+            "Favorite: Detroit Tigers -164 (62.1% implied).",
+            "Spread: Washington Nationals +1.5 (-176) / Detroit Tigers -1.5 (+146).",
+            "Total: +8.5 (Over -104 / Under -118); higher-scoring hockey environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Detroit Tigers before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 97,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/mlb/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "MLB",
+            "away_team": "Washington Nationals",
+            "home_team": "Detroit Tigers",
+            "matchup": "Washington Nationals at Detroit Tigers",
+            "start_time": "6:41 PM ET",
+            "bookmaker": "FanDuel",
+            "moneyline": {
+              "away_price": 138,
+              "home_price": -164,
+              "away_price_text": "+138",
+              "home_price_text": "-164",
+              "away_implied_probability": 0.42016806722689076,
+              "home_implied_probability": 0.6212121212121212
+            },
+            "spread": {
+              "away_point": 1.5,
+              "home_point": -1.5,
+              "away_point_text": "+1.5",
+              "home_point_text": "-1.5",
+              "away_price": -176,
+              "home_price": 146,
+              "away_price_text": "-176",
+              "home_price_text": "+146"
+            },
+            "total": {
+              "point": 8.5,
+              "point_text": "+8.5",
+              "over_price": -104,
+              "under_price": -118,
+              "over_price_text": "-104",
+              "under_price_text": "-118",
+              "environment": "higher-scoring hockey environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/mlb/scoreboard"
+          },
+          "updated_at": "2026-09-21 02:12:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        },
+        {
+          "id": "mlb-milwaukee-brewers-at-philadelphia-phillies",
+          "sport": "MLB",
+          "title": "MLB Betting Market",
+          "headline": "MLB: Philadelphia Phillies priced as slight favorite vs Milwaukee Brewers (-142)",
+          "snapshot": "Philadelphia Phillies carries an implied win probability of approximately 58.7% based on the listed moneyline.",
+          "matchup": "Milwaukee Brewers at Philadelphia Phillies",
+          "start_time": "6:41 PM ET",
+          "bookmaker": "FanDuel",
+          "key_data": [
+            "Favorite: Philadelphia Phillies -142 (58.7% implied).",
+            "Spread: Milwaukee Brewers +1.5 (-200) / Philadelphia Phillies -1.5 (+164).",
+            "Total: +7.5 (Over +102 / Under -124); higher-scoring hockey environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Philadelphia Phillies before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 97,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/mlb/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "MLB",
+            "away_team": "Milwaukee Brewers",
+            "home_team": "Philadelphia Phillies",
+            "matchup": "Milwaukee Brewers at Philadelphia Phillies",
+            "start_time": "6:41 PM ET",
+            "bookmaker": "FanDuel",
+            "moneyline": {
+              "away_price": 120,
+              "home_price": -142,
+              "away_price_text": "+120",
+              "home_price_text": "-142",
+              "away_implied_probability": 0.45454545454545453,
+              "home_implied_probability": 0.5867768595041323
+            },
+            "spread": {
+              "away_point": 1.5,
+              "home_point": -1.5,
+              "away_point_text": "+1.5",
+              "home_point_text": "-1.5",
+              "away_price": -200,
+              "home_price": 164,
+              "away_price_text": "-200",
+              "home_price_text": "+164"
+            },
+            "total": {
+              "point": 7.5,
+              "point_text": "+7.5",
+              "over_price": 102,
+              "under_price": -124,
+              "over_price_text": "+102",
+              "under_price_text": "-124",
+              "environment": "higher-scoring hockey environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/mlb/scoreboard"
+          },
+          "updated_at": "2026-09-21 02:12:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        }
+      ],
+      "source_label": "The Odds API v4",
+      "url": "https://www.espn.com/mlb/scoreboard",
+      "updated_at": "2026-09-21T18:12:13.593227Z"
+    }
+  },
+  "disclaimer": "This report is an automated betting-market summary intended to support, not replace, human sports journalism. It is not betting advice.",
+  "site_name": "Global Betting Report",
+  "generated_utc": "2026-09-21T18:12:13.593227Z",
+  "verified_at": "2026-09-21T18:12:13.593227Z",
+  "source_mode": "the_odds_api_v4_daily",
   "verification": {
     "status": "verified",
-    "provider": "Sportradar Odds Comparison Prematch v2",
-    "verified_at": "2026-09-10T05:33:41.130729+00:00",
-    "total_verified_events": 17,
-    "source_sha256": "53566a675b3426cbc4e4cc0909281d877058729ba013a0661f63436ceacf8418"
+    "provider": "The Odds API v4",
+    "verified_at": "2026-09-21T18:12:13.593227Z",
+    "sports": [
+      "NFL",
+      "College Football",
+      "MLB"
+    ],
+    "markets": [
+      "moneyline",
+      "spread",
+      "total"
+    ],
+    "region": "us",
+    "total_verified_events": 12,
+    "credits_before_run": 500,
+    "estimated_credits_used": 9
   }
 }
