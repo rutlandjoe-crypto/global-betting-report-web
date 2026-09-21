@@ -24,12 +24,11 @@ PYTHON_EXE = sys.executable
 
 # script_name, timeout_seconds, required_for_pipeline
 SCRIPTS = [
-    ("get_betting_odds_report.py", 300, True),
-    ("build_betting_distribution.py", 180, True),
+    ("scripts/build_odds_api_publication.py", 300, True),
 ]
 
-ALWAYS_RUN = {"get_betting_odds_report.py", "build_betting_distribution.py"}
-CRITICAL_SCRIPTS = {"get_betting_odds_report.py", "build_betting_distribution.py"}
+ALWAYS_RUN = {"scripts/build_odds_api_publication.py"}
+CRITICAL_SCRIPTS = {"scripts/build_odds_api_publication.py"}
 NON_CRITICAL_FAILURES = {
     "get_mlb_advanced_report.py",
     "get_nba_advanced_report.py",
@@ -343,15 +342,6 @@ def main() -> int:
         log("BETTING BLOCK START")
         for script_name, timeout_seconds, required_for_pipeline in SCRIPTS:
             script_path = BASE_DIR / script_name
-
-            if script_name == "build_betting_distribution.py" and upstream_report_issue:
-                log(
-                    "BLOCKED: build_betting_distribution.py will not run because "
-                    "fresh verified Sportradar ingestion failed."
-                )
-                blocked_scripts.append(script_name)
-                required_failures.append(script_name)
-                continue
 
             if script_name not in ALWAYS_RUN and not script_path.exists():
                 log(f"BLOCKED: {script_name} does not exist.")

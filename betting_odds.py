@@ -37,10 +37,9 @@ JSON_REPORT_FILE = Path(
 BASE_URL = "https://api.the-odds-api.com/v4/sports"
 
 SPORTS = [
-    {"label": "NBA", "key": "basketball_nba"},
-    {"label": "MLB", "key": "baseball_mlb"},
-    {"label": "NHL", "key": "icehockey_nhl"},
     {"label": "NFL", "key": "americanfootball_nfl"},
+    {"label": "College Football", "key": "americanfootball_ncaaf"},
+    {"label": "MLB", "key": "baseball_mlb"},
 ]
 
 MARKETS = "h2h,spreads,totals"
@@ -218,6 +217,7 @@ def build_game_url(sport_label: str) -> str:
         "MLB": "https://www.espn.com/mlb/scoreboard",
         "NHL": "https://www.espn.com/nhl/scoreboard",
         "NFL": "https://www.espn.com/nfl/scoreboard",
+        "College Football": "https://www.espn.com/college-football/scoreboard",
     }
     return urls.get(sport_label, "https://www.espn.com")
 
@@ -653,7 +653,7 @@ def summarize_event(event: dict, sport_label: str = "Sports") -> tuple[list[str]
         "priority_score": interpretation["priority_score"],
         "story_type": interpretation["story_type"],
         "url": market["url"],
-        "source_label": "ESPN Scoreboard",
+        "source_label": "The Odds API",
         "market": market,
         "updated_at": format_generated_timestamp(),
     }

@@ -18,6 +18,11 @@ BANNED_PHRASES = (
     "placeholder",
 )
 
+VERIFIED_PROVIDERS = {
+    "Sportradar Odds Comparison Prematch v2",
+    "The Odds API v4",
+}
+
 
 def parse_timestamp(value: object) -> datetime:
     text = str(value or "").strip()
@@ -41,7 +46,7 @@ def verified_output_count(data: dict) -> int:
     if isinstance(verification, dict):
         if (
             verification.get("status") == "verified"
-            and verification.get("provider") == "Sportradar Odds Comparison Prematch v2"
+            and verification.get("provider") in VERIFIED_PROVIDERS
         ):
             count = verification.get("total_verified_events")
             if isinstance(count, int):
@@ -88,7 +93,7 @@ def load_and_validate(path: Path, not_before: datetime) -> tuple[dict, bytes]:
         )
     if verified_output_count(data) <= 0:
         raise ValueError(
-            "generated Betting report contains zero verified Sportradar output"
+            "generated Betting report contains zero verified provider output"
         )
 
     lowered = raw.decode("utf-8", errors="ignore").lower()
