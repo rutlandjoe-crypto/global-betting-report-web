@@ -4,10 +4,10 @@
   "title": "Global Betting Report",
   "headline": "NFL: Buffalo Bills priced as heavy favorite vs Los Angeles Chargers (-345)",
   "snapshot": "A full multi-league betting board is live, giving the desk enough volume to compare favorites, totals and matchup pricing.",
-  "updated_at": "2026-09-24T15:39:10.629512Z",
-  "generated_at": "2026-09-24T15:39:10.629512Z",
+  "updated_at": "2026-09-24T17:10:20.560243Z",
+  "generated_at": "2026-09-24T17:10:20.560243Z",
   "freshness": {
-    "last_checked": "2026-09-24 11:39:10 AM ET",
+    "last_checked": "2026-09-24 01:10:20 PM ET",
     "sports_checked": [
       "NFL",
       "College Football",
@@ -53,7 +53,7 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-24 11:39:10 AM ET"
+      "updated_at": "2026-09-24 01:10:20 PM ET"
     },
     {
       "headline": "NFL: Kansas City Chiefs priced as heavy favorite vs Miami Dolphins (-650)",
@@ -64,7 +64,7 @@
       "key_data": [
         "Favorite: Kansas City Chiefs -650 (86.7% implied).",
         "Spread: Kansas City Chiefs -10.5 (-115) / Miami Dolphins +10.5 (-105).",
-        "Total: +46.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+        "Total: +45.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Kansas City Chiefs before lineup, injury and late-news adjustments.",
@@ -76,16 +76,16 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-24 11:39:10 AM ET"
+      "updated_at": "2026-09-24 01:10:20 PM ET"
     },
     {
-      "headline": "College Football: Indiana Hoosiers priced as heavy favorite vs Northwestern Wildcats (-2500)",
-      "snapshot": "Indiana Hoosiers carries an implied win probability of approximately 96.2% based on the listed moneyline.",
+      "headline": "College Football: Indiana Hoosiers priced as heavy favorite vs Northwestern Wildcats (-2100)",
+      "snapshot": "Indiana Hoosiers carries an implied win probability of approximately 95.5% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
       "league": "College Football",
       "key_data": [
-        "Favorite: Indiana Hoosiers -2500 (96.2% implied).",
+        "Favorite: Indiana Hoosiers -2100 (95.5% implied).",
         "Spread: Northwestern Wildcats +20.5 (+100) / Indiana Hoosiers -20.5 (-122).",
         "Total: +49.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
@@ -99,7 +99,7 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-24 11:39:10 AM ET"
+      "updated_at": "2026-09-24 01:10:20 PM ET"
     },
     {
       "headline": "College Football: UNLV Rebels priced as heavy favorite vs Akron Zips (-580)",
@@ -122,7 +122,7 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-24 11:39:10 AM ET"
+      "updated_at": "2026-09-24 01:10:20 PM ET"
     },
     {
       "headline": "NFL: Green Bay Packers priced as heavy favorite vs Atlanta Falcons (-245)",
@@ -145,16 +145,16 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-24 11:39:10 AM ET"
+      "updated_at": "2026-09-24 01:10:20 PM ET"
     },
     {
-      "headline": "NFL: Cincinnati Bengals priced as clear favorite vs Pittsburgh Steelers (-185)",
-      "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 64.9% based on the listed moneyline.",
+      "headline": "NFL: Cincinnati Bengals priced as clear favorite vs Pittsburgh Steelers (-192)",
+      "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 65.8% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/nfl/scoreboard",
       "league": "NFL",
       "key_data": [
-        "Favorite: Cincinnati Bengals -185 (64.9% implied).",
+        "Favorite: Cincinnati Bengals -192 (65.8% implied).",
         "Spread: Cincinnati Bengals -3.5 (-115) / Pittsburgh Steelers +3.5 (-105).",
         "Total: +42.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
@@ -168,16 +168,16 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-24 11:39:10 AM ET"
+      "updated_at": "2026-09-24 01:10:20 PM ET"
     },
     {
-      "headline": "NFL: Detroit Lions priced as heavy favorite vs New York Jets (-305)",
-      "snapshot": "Detroit Lions carries an implied win probability of approximately 75.3% based on the listed moneyline.",
+      "headline": "NFL: Detroit Lions priced as heavy favorite vs New York Jets (-298)",
+      "snapshot": "Detroit Lions carries an implied win probability of approximately 74.9% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/nfl/scoreboard",
       "league": "NFL",
       "key_data": [
-        "Favorite: Detroit Lions -305 (75.3% implied).",
+        "Favorite: Detroit Lions -298 (74.9% implied).",
         "Spread: New York Jets +6.5 (-105) / Detroit Lions -6.5 (-115).",
         "Total: +47.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
       ],
@@ -191,16 +191,16 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-24 11:39:10 AM ET"
+      "updated_at": "2026-09-24 01:10:20 PM ET"
     },
     {
-      "headline": "College Football: Navy Midshipmen priced as heavy favorite vs UAB Blazers (-250)",
-      "snapshot": "Navy Midshipmen carries an implied win probability of approximately 71.4% based on the listed moneyline.",
+      "headline": "College Football: Navy Midshipmen priced as heavy favorite vs UAB Blazers (-260)",
+      "snapshot": "Navy Midshipmen carries an implied win probability of approximately 72.2% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
       "league": "College Football",
       "key_data": [
-        "Favorite: Navy Midshipmen -250 (71.4% implied).",
+        "Favorite: Navy Midshipmen -260 (72.2% implied).",
         "Spread: Navy Midshipmen -6.5 (-122) / UAB Blazers +6.5 (+100).",
         "Total: +51.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
@@ -214,7 +214,7 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-24 11:39:10 AM ET"
+      "updated_at": "2026-09-24 01:10:20 PM ET"
     },
     {
       "headline": "College Football: Army Black Knights priced as clear favorite vs Temple Owls (-156)",
@@ -237,17 +237,17 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-24 11:39:10 AM ET"
+      "updated_at": "2026-09-24 01:10:20 PM ET"
     },
     {
-      "headline": "College Football: Kent State Golden Flashes priced as clear favorite vs Ball State Cardinals (-162)",
-      "snapshot": "Kent State Golden Flashes carries an implied win probability of approximately 61.8% based on the listed moneyline.",
+      "headline": "College Football: Kent State Golden Flashes priced as slight favorite vs Ball State Cardinals (-144)",
+      "snapshot": "Kent State Golden Flashes carries an implied win probability of approximately 59.0% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
       "league": "College Football",
       "key_data": [
-        "Favorite: Kent State Golden Flashes -162 (61.8% implied).",
-        "Spread: Ball State Cardinals +3.5 (-118) / Kent State Golden Flashes -3.5 (-104).",
+        "Favorite: Kent State Golden Flashes -144 (59.0% implied).",
+        "Spread: Ball State Cardinals +3.5 (-132) / Kent State Golden Flashes -3.5 (+108).",
         "Total: +51.5 (Over -102 / Under -120); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -260,7 +260,7 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-24 11:39:10 AM ET"
+      "updated_at": "2026-09-24 01:10:20 PM ET"
     }
   ],
   "editor_signals": [
@@ -295,7 +295,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-09-24 11:39:10 AM ET",
+      "updated_at": "2026-09-24 01:10:20 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -315,7 +315,7 @@
       "key_data": [
         "Favorite: Kansas City Chiefs -650 (86.7% implied).",
         "Spread: Kansas City Chiefs -10.5 (-115) / Miami Dolphins +10.5 (-105).",
-        "Total: +46.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+        "Total: +45.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Kansas City Chiefs before lineup, injury and late-news adjustments.",
@@ -329,7 +329,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-09-24 11:39:10 AM ET",
+      "updated_at": "2026-09-24 01:10:20 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -342,12 +342,12 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: Indiana Hoosiers priced as heavy favorite vs Northwestern Wildcats (-2500)",
-      "snapshot": "Indiana Hoosiers carries an implied win probability of approximately 96.2% based on the listed moneyline.",
+      "headline": "College Football: Indiana Hoosiers priced as heavy favorite vs Northwestern Wildcats (-2100)",
+      "snapshot": "Indiana Hoosiers carries an implied win probability of approximately 95.5% based on the listed moneyline.",
       "url": "https://www.espn.com/college-football/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Indiana Hoosiers -2500 (96.2% implied).",
+        "Favorite: Indiana Hoosiers -2100 (95.5% implied).",
         "Spread: Northwestern Wildcats +20.5 (+100) / Indiana Hoosiers -20.5 (-122).",
         "Total: +49.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
@@ -363,7 +363,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-09-24 11:39:10 AM ET",
+      "updated_at": "2026-09-24 01:10:20 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -397,7 +397,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-09-24 11:39:10 AM ET",
+      "updated_at": "2026-09-24 01:10:20 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -431,7 +431,7 @@
       ],
       "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-09-24 11:39:10 AM ET",
+      "updated_at": "2026-09-24 01:10:20 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -444,12 +444,12 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Cincinnati Bengals priced as clear favorite vs Pittsburgh Steelers (-185)",
-      "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 64.9% based on the listed moneyline.",
+      "headline": "NFL: Cincinnati Bengals priced as clear favorite vs Pittsburgh Steelers (-192)",
+      "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 65.8% based on the listed moneyline.",
       "url": "https://www.espn.com/nfl/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Cincinnati Bengals -185 (64.9% implied).",
+        "Favorite: Cincinnati Bengals -192 (65.8% implied).",
         "Spread: Cincinnati Bengals -3.5 (-115) / Pittsburgh Steelers +3.5 (-105).",
         "Total: +42.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
@@ -465,7 +465,7 @@
       ],
       "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-09-24 11:39:10 AM ET",
+      "updated_at": "2026-09-24 01:10:20 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -478,12 +478,12 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Detroit Lions priced as heavy favorite vs New York Jets (-305)",
-      "snapshot": "Detroit Lions carries an implied win probability of approximately 75.3% based on the listed moneyline.",
+      "headline": "NFL: Detroit Lions priced as heavy favorite vs New York Jets (-298)",
+      "snapshot": "Detroit Lions carries an implied win probability of approximately 74.9% based on the listed moneyline.",
       "url": "https://www.espn.com/nfl/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Detroit Lions -305 (75.3% implied).",
+        "Favorite: Detroit Lions -298 (74.9% implied).",
         "Spread: New York Jets +6.5 (-105) / Detroit Lions -6.5 (-115).",
         "Total: +47.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
       ],
@@ -499,7 +499,7 @@
       ],
       "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-09-24 11:39:10 AM ET",
+      "updated_at": "2026-09-24 01:10:20 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -512,12 +512,12 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: Navy Midshipmen priced as heavy favorite vs UAB Blazers (-250)",
-      "snapshot": "Navy Midshipmen carries an implied win probability of approximately 71.4% based on the listed moneyline.",
+      "headline": "College Football: Navy Midshipmen priced as heavy favorite vs UAB Blazers (-260)",
+      "snapshot": "Navy Midshipmen carries an implied win probability of approximately 72.2% based on the listed moneyline.",
       "url": "https://www.espn.com/college-football/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Navy Midshipmen -250 (71.4% implied).",
+        "Favorite: Navy Midshipmen -260 (72.2% implied).",
         "Spread: Navy Midshipmen -6.5 (-122) / UAB Blazers +6.5 (+100).",
         "Total: +51.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
@@ -533,7 +533,7 @@
       ],
       "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-09-24 11:39:10 AM ET",
+      "updated_at": "2026-09-24 01:10:20 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -567,7 +567,7 @@
       ],
       "priority_score": 113,
       "story_type": "market_signal",
-      "updated_at": "2026-09-24 11:39:10 AM ET",
+      "updated_at": "2026-09-24 01:10:20 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -580,13 +580,13 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: Kent State Golden Flashes priced as clear favorite vs Ball State Cardinals (-162)",
-      "snapshot": "Kent State Golden Flashes carries an implied win probability of approximately 61.8% based on the listed moneyline.",
+      "headline": "College Football: Kent State Golden Flashes priced as slight favorite vs Ball State Cardinals (-144)",
+      "snapshot": "Kent State Golden Flashes carries an implied win probability of approximately 59.0% based on the listed moneyline.",
       "url": "https://www.espn.com/college-football/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Kent State Golden Flashes -162 (61.8% implied).",
-        "Spread: Ball State Cardinals +3.5 (-118) / Kent State Golden Flashes -3.5 (-104).",
+        "Favorite: Kent State Golden Flashes -144 (59.0% implied).",
+        "Spread: Ball State Cardinals +3.5 (-132) / Kent State Golden Flashes -3.5 (+108).",
         "Total: +51.5 (Over -102 / Under -120); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -601,7 +601,7 @@
       ],
       "priority_score": 113,
       "story_type": "market_signal",
-      "updated_at": "2026-09-24 11:39:10 AM ET",
+      "updated_at": "2026-09-24 01:10:20 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -635,7 +635,7 @@
       ],
       "priority_score": 112,
       "story_type": "market_signal",
-      "updated_at": "2026-09-24 11:39:10 AM ET",
+      "updated_at": "2026-09-24 01:10:20 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -654,7 +654,7 @@
       "source_label": "The Odds API v4",
       "key_data": [
         "Favorite: Chicago Cubs -200 (66.7% implied).",
-        "Spread: Miami Marlins +1.5 (-130) / Chicago Cubs -1.5 (+108).",
+        "Spread: Miami Marlins +1.5 (-132) / Chicago Cubs -1.5 (+110).",
         "Total: +7.5 (Over +116 / Under -142); higher-scoring hockey environment."
       ],
       "why_it_matters": [
@@ -669,7 +669,7 @@
       ],
       "priority_score": 104,
       "story_type": "market_signal",
-      "updated_at": "2026-09-24 11:39:10 AM ET",
+      "updated_at": "2026-09-24 01:10:20 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -751,7 +751,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-09-24 11:39:10 AM ET",
+          "updated_at": "2026-09-24 01:10:20 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -770,7 +770,7 @@
           "key_data": [
             "Favorite: Kansas City Chiefs -650 (86.7% implied).",
             "Spread: Kansas City Chiefs -10.5 (-115) / Miami Dolphins +10.5 (-105).",
-            "Total: +46.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+            "Total: +45.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward Kansas City Chiefs before lineup, injury and late-news adjustments.",
@@ -812,18 +812,18 @@
               "home_price_text": "-105"
             },
             "total": {
-              "point": 46.5,
-              "point_text": "+46.5",
-              "over_price": -105,
-              "under_price": -115,
-              "over_price_text": "-105",
-              "under_price_text": "-115",
+              "point": 45.5,
+              "point_text": "+45.5",
+              "over_price": -115,
+              "under_price": -105,
+              "over_price_text": "-115",
+              "under_price_text": "-105",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-09-24 11:39:10 AM ET",
+          "updated_at": "2026-09-24 01:10:20 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -895,7 +895,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-09-24 11:39:10 AM ET",
+          "updated_at": "2026-09-24 01:10:20 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -906,13 +906,13 @@
           "id": "nfl-cincinnati-bengals-at-pittsburgh-steelers",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Cincinnati Bengals priced as clear favorite vs Pittsburgh Steelers (-185)",
-          "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 64.9% based on the listed moneyline.",
+          "headline": "NFL: Cincinnati Bengals priced as clear favorite vs Pittsburgh Steelers (-192)",
+          "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 65.8% based on the listed moneyline.",
           "matchup": "Cincinnati Bengals at Pittsburgh Steelers",
           "start_time": "1:00 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Cincinnati Bengals -185 (64.9% implied).",
+            "Favorite: Cincinnati Bengals -192 (65.8% implied).",
             "Spread: Cincinnati Bengals -3.5 (-115) / Pittsburgh Steelers +3.5 (-105).",
             "Total: +42.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
@@ -938,12 +938,12 @@
             "start_time": "1:00 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": -185,
-              "home_price": 154,
-              "away_price_text": "-185",
-              "home_price_text": "+154",
-              "away_implied_probability": 0.6491228070175439,
-              "home_implied_probability": 0.3937007874015748
+              "away_price": -192,
+              "home_price": 160,
+              "away_price_text": "-192",
+              "home_price_text": "+160",
+              "away_implied_probability": 0.6575342465753424,
+              "home_implied_probability": 0.38461538461538464
             },
             "spread": {
               "away_point": -3.5,
@@ -967,7 +967,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-09-24 11:39:10 AM ET",
+          "updated_at": "2026-09-24 01:10:20 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -978,13 +978,13 @@
           "id": "nfl-new-york-jets-at-detroit-lions",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Detroit Lions priced as heavy favorite vs New York Jets (-305)",
-          "snapshot": "Detroit Lions carries an implied win probability of approximately 75.3% based on the listed moneyline.",
+          "headline": "NFL: Detroit Lions priced as heavy favorite vs New York Jets (-298)",
+          "snapshot": "Detroit Lions carries an implied win probability of approximately 74.9% based on the listed moneyline.",
           "matchup": "New York Jets at Detroit Lions",
           "start_time": "1:00 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Detroit Lions -305 (75.3% implied).",
+            "Favorite: Detroit Lions -298 (74.9% implied).",
             "Spread: New York Jets +6.5 (-105) / Detroit Lions -6.5 (-115).",
             "Total: +47.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
           ],
@@ -1010,12 +1010,12 @@
             "start_time": "1:00 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 245,
-              "home_price": -305,
-              "away_price_text": "+245",
-              "home_price_text": "-305",
-              "away_implied_probability": 0.2898550724637681,
-              "home_implied_probability": 0.7530864197530864
+              "away_price": 240,
+              "home_price": -298,
+              "away_price_text": "+240",
+              "home_price_text": "-298",
+              "away_implied_probability": 0.29411764705882354,
+              "home_implied_probability": 0.7487437185929648
             },
             "spread": {
               "away_point": 6.5,
@@ -1039,7 +1039,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-09-24 11:39:10 AM ET",
+          "updated_at": "2026-09-24 01:10:20 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1049,24 +1049,24 @@
       ],
       "source_label": "The Odds API v4",
       "url": "https://www.espn.com/nfl/scoreboard",
-      "updated_at": "2026-09-24T15:39:10.629512Z"
+      "updated_at": "2026-09-24T17:10:20.560243Z"
     },
     "college_football": {
       "title": "College Football Betting Market",
-      "headline": "College Football: Indiana Hoosiers priced as heavy favorite vs Northwestern Wildcats (-2500)",
-      "snapshot": "Indiana Hoosiers carries an implied win probability of approximately 96.2% based on the listed moneyline.",
+      "headline": "College Football: Indiana Hoosiers priced as heavy favorite vs Northwestern Wildcats (-2100)",
+      "snapshot": "Indiana Hoosiers carries an implied win probability of approximately 95.5% based on the listed moneyline.",
       "cards": [
         {
           "id": "college-football-northwestern-wildcats-at-indiana-hoosiers",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: Indiana Hoosiers priced as heavy favorite vs Northwestern Wildcats (-2500)",
-          "snapshot": "Indiana Hoosiers carries an implied win probability of approximately 96.2% based on the listed moneyline.",
+          "headline": "College Football: Indiana Hoosiers priced as heavy favorite vs Northwestern Wildcats (-2100)",
+          "snapshot": "Indiana Hoosiers carries an implied win probability of approximately 95.5% based on the listed moneyline.",
           "matchup": "Northwestern Wildcats at Indiana Hoosiers",
           "start_time": "8:00 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Indiana Hoosiers -2500 (96.2% implied).",
+            "Favorite: Indiana Hoosiers -2100 (95.5% implied).",
             "Spread: Northwestern Wildcats +20.5 (+100) / Indiana Hoosiers -20.5 (-122).",
             "Total: +49.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
@@ -1092,12 +1092,12 @@
             "start_time": "8:00 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": 1100,
-              "home_price": -2500,
-              "away_price_text": "+1100",
-              "home_price_text": "-2500",
-              "away_implied_probability": 0.08333333333333333,
-              "home_implied_probability": 0.9615384615384616
+              "away_price": 1000,
+              "home_price": -2100,
+              "away_price_text": "+1000",
+              "home_price_text": "-2100",
+              "away_implied_probability": 0.09090909090909091,
+              "home_implied_probability": 0.9545454545454546
             },
             "spread": {
               "away_point": 20.5,
@@ -1121,7 +1121,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-09-24 11:39:10 AM ET",
+          "updated_at": "2026-09-24 01:10:20 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1193,7 +1193,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-09-24 11:39:10 AM ET",
+          "updated_at": "2026-09-24 01:10:20 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1204,13 +1204,13 @@
           "id": "college-football-navy-midshipmen-at-uab-blazers",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: Navy Midshipmen priced as heavy favorite vs UAB Blazers (-250)",
-          "snapshot": "Navy Midshipmen carries an implied win probability of approximately 71.4% based on the listed moneyline.",
+          "headline": "College Football: Navy Midshipmen priced as heavy favorite vs UAB Blazers (-260)",
+          "snapshot": "Navy Midshipmen carries an implied win probability of approximately 72.2% based on the listed moneyline.",
           "matchup": "Navy Midshipmen at UAB Blazers",
           "start_time": "7:00 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Navy Midshipmen -250 (71.4% implied).",
+            "Favorite: Navy Midshipmen -260 (72.2% implied).",
             "Spread: Navy Midshipmen -6.5 (-122) / UAB Blazers +6.5 (+100).",
             "Total: +51.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
           ],
@@ -1236,12 +1236,12 @@
             "start_time": "7:00 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": -250,
-              "home_price": 202,
-              "away_price_text": "-250",
-              "home_price_text": "+202",
-              "away_implied_probability": 0.7142857142857143,
-              "home_implied_probability": 0.33112582781456956
+              "away_price": -260,
+              "home_price": 210,
+              "away_price_text": "-260",
+              "home_price_text": "+210",
+              "away_implied_probability": 0.7222222222222222,
+              "home_implied_probability": 0.3225806451612903
             },
             "spread": {
               "away_point": -6.5,
@@ -1265,7 +1265,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-09-24 11:39:10 AM ET",
+          "updated_at": "2026-09-24 01:10:20 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1337,7 +1337,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-09-24 11:39:10 AM ET",
+          "updated_at": "2026-09-24 01:10:20 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1348,14 +1348,14 @@
           "id": "college-football-ball-state-cardinals-at-kent-state-golden-flashes",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: Kent State Golden Flashes priced as clear favorite vs Ball State Cardinals (-162)",
-          "snapshot": "Kent State Golden Flashes carries an implied win probability of approximately 61.8% based on the listed moneyline.",
+          "headline": "College Football: Kent State Golden Flashes priced as slight favorite vs Ball State Cardinals (-144)",
+          "snapshot": "Kent State Golden Flashes carries an implied win probability of approximately 59.0% based on the listed moneyline.",
           "matchup": "Ball State Cardinals at Kent State Golden Flashes",
           "start_time": "12:00 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Kent State Golden Flashes -162 (61.8% implied).",
-            "Spread: Ball State Cardinals +3.5 (-118) / Kent State Golden Flashes -3.5 (-104).",
+            "Favorite: Kent State Golden Flashes -144 (59.0% implied).",
+            "Spread: Ball State Cardinals +3.5 (-132) / Kent State Golden Flashes -3.5 (+108).",
             "Total: +51.5 (Over -102 / Under -120); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
@@ -1380,22 +1380,22 @@
             "start_time": "12:00 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": 134,
-              "home_price": -162,
-              "away_price_text": "+134",
-              "home_price_text": "-162",
-              "away_implied_probability": 0.42735042735042733,
-              "home_implied_probability": 0.6183206106870229
+              "away_price": 120,
+              "home_price": -144,
+              "away_price_text": "+120",
+              "home_price_text": "-144",
+              "away_implied_probability": 0.45454545454545453,
+              "home_implied_probability": 0.5901639344262295
             },
             "spread": {
               "away_point": 3.5,
               "home_point": -3.5,
               "away_point_text": "+3.5",
               "home_point_text": "-3.5",
-              "away_price": -118,
-              "home_price": -104,
-              "away_price_text": "-118",
-              "home_price_text": "-104"
+              "away_price": -132,
+              "home_price": 108,
+              "away_price_text": "-132",
+              "home_price_text": "+108"
             },
             "total": {
               "point": 51.5,
@@ -1409,7 +1409,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-09-24 11:39:10 AM ET",
+          "updated_at": "2026-09-24 01:10:20 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1419,7 +1419,7 @@
       ],
       "source_label": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
-      "updated_at": "2026-09-24T15:39:10.629512Z"
+      "updated_at": "2026-09-24T17:10:20.560243Z"
     },
     "mlb": {
       "title": "MLB Betting Market",
@@ -1491,7 +1491,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/mlb/scoreboard"
           },
-          "updated_at": "2026-09-24 11:39:10 AM ET",
+          "updated_at": "2026-09-24 01:10:20 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1509,7 +1509,7 @@
           "bookmaker": "FanDuel",
           "key_data": [
             "Favorite: Chicago Cubs -200 (66.7% implied).",
-            "Spread: Miami Marlins +1.5 (-130) / Chicago Cubs -1.5 (+108).",
+            "Spread: Miami Marlins +1.5 (-132) / Chicago Cubs -1.5 (+110).",
             "Total: +7.5 (Over +116 / Under -142); higher-scoring hockey environment."
           ],
           "why_it_matters": [
@@ -1546,10 +1546,10 @@
               "home_point": -1.5,
               "away_point_text": "+1.5",
               "home_point_text": "-1.5",
-              "away_price": -130,
-              "home_price": 108,
-              "away_price_text": "-130",
-              "home_price_text": "+108"
+              "away_price": -132,
+              "home_price": 110,
+              "away_price_text": "-132",
+              "home_price_text": "+110"
             },
             "total": {
               "point": 7.5,
@@ -1563,7 +1563,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/mlb/scoreboard"
           },
-          "updated_at": "2026-09-24 11:39:10 AM ET",
+          "updated_at": "2026-09-24 01:10:20 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1573,18 +1573,18 @@
       ],
       "source_label": "The Odds API v4",
       "url": "https://www.espn.com/mlb/scoreboard",
-      "updated_at": "2026-09-24T15:39:10.629512Z"
+      "updated_at": "2026-09-24T17:10:20.560243Z"
     }
   },
   "disclaimer": "This report is an automated betting-market summary intended to support, not replace, human sports journalism. It is not betting advice.",
   "site_name": "Global Betting Report",
-  "generated_utc": "2026-09-24T15:39:10.629512Z",
-  "verified_at": "2026-09-24T15:39:10.629512Z",
+  "generated_utc": "2026-09-24T17:10:20.560243Z",
+  "verified_at": "2026-09-24T17:10:20.560243Z",
   "source_mode": "the_odds_api_v4_daily",
   "verification": {
     "status": "verified",
     "provider": "The Odds API v4",
-    "verified_at": "2026-09-24T15:39:10.629512Z",
+    "verified_at": "2026-09-24T17:10:20.560243Z",
     "sports": [
       "NFL",
       "College Football",
@@ -1597,7 +1597,7 @@
     ],
     "region": "us",
     "total_verified_events": 12,
-    "credits_before_run": 473,
+    "credits_before_run": 464,
     "estimated_credits_used": 9
   }
 }
