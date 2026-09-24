@@ -1,4 +1,4 @@
-BETTING ODDS REPORT | 2026-09-23
+BETTING ODDS REPORT | 2026-09-24
 
 HEADLINE
 NFL: Buffalo Bills priced as heavy favorite vs Los Angeles Chargers (-345)
@@ -7,13 +7,13 @@ SNAPSHOT
 A full multi-league betting board is live, giving the desk enough volume to compare favorites, totals and matchup pricing.
 
 KEY DATA
-- Total games checked: 119
+- Total games checked: 129
 - Market cards generated: 15
 - Odds API key found: True
 
 EDITORIAL SIGNALS
 - Lead market: NFL: Buffalo Bills priced as heavy favorite vs Los Angeles Chargers (-345)
-- Total games checked: 119.
+- Total games checked: 129.
 - Cards prioritize implied probability, expected margin and scoring environment instead of raw odds alone.
 - Betting context should remain descriptive and journalist-facing, not prescriptive wagering advice.
 - Active sports on board: College Football, MLB, NFL.
@@ -28,11 +28,11 @@ TOP BOARD
 
 Atlanta Falcons at Green Bay Packers — 8:15 PM ET
 Bookmaker: DraftKings
-Moneyline: Atlanta Falcons +210 / Green Bay Packers -258
-Spread: Atlanta Falcons +5.5 (-115) / Green Bay Packers -5.5 (-105)
+Moneyline: Atlanta Falcons +200 / Green Bay Packers -245
+Spread: Atlanta Falcons +4.5 (-105) / Green Bay Packers -4.5 (-115)
 Total: +42.5 (Over -118 / Under -102)
 Market read:
-- Green Bay Packers carries an implied win probability of approximately 72.1% based on the listed moneyline.
+- Green Bay Packers carries an implied win probability of approximately 71.0% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Green Bay Packers before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
@@ -48,29 +48,29 @@ Market read:
 
 Carolina Panthers at Cleveland Browns — 1:00 PM ET
 Bookmaker: DraftKings
-Moneyline: Carolina Panthers -148 / Cleveland Browns +124
-Spread: Carolina Panthers -2.5 (-120) / Cleveland Browns +2.5 (+100)
+Moneyline: Carolina Panthers -155 / Cleveland Browns +130
+Spread: Carolina Panthers -3 (-102) / Cleveland Browns +3 (-118)
 Total: +42.5 (Over -108 / Under -112)
 Market read:
-- Carolina Panthers carries an implied win probability of approximately 59.7% based on the listed moneyline.
+- Carolina Panthers carries an implied win probability of approximately 60.8% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Carolina Panthers before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 Cincinnati Bengals at Pittsburgh Steelers — 1:00 PM ET
 Bookmaker: DraftKings
-Moneyline: Cincinnati Bengals -192 / Pittsburgh Steelers +160
+Moneyline: Cincinnati Bengals -185 / Pittsburgh Steelers +154
 Spread: Cincinnati Bengals -3.5 (-115) / Pittsburgh Steelers +3.5 (-105)
 Total: +42.5 (Over -110 / Under -110)
 Market read:
-- Cincinnati Bengals carries an implied win probability of approximately 65.8% based on the listed moneyline.
+- Cincinnati Bengals carries an implied win probability of approximately 64.9% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Cincinnati Bengals before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 New York Jets at Detroit Lions — 1:00 PM ET
 Bookmaker: DraftKings
 Moneyline: New York Jets +245 / Detroit Lions -305
-Spread: New York Jets +6.5 (-110) / Detroit Lions -6.5 (-110)
-Total: +47.5 (Over -110 / Under -110)
+Spread: New York Jets +6.5 (-105) / Detroit Lions -6.5 (-115)
+Total: +47.5 (Over -108 / Under -112)
 Market read:
 - Detroit Lions carries an implied win probability of approximately 75.3% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Detroit Lions before lineup, injury and late-news adjustments.
@@ -78,11 +78,11 @@ Market read:
 
 Houston Texans at Indianapolis Colts — 1:00 PM ET
 Bookmaker: DraftKings
-Moneyline: Houston Texans -148 / Indianapolis Colts +124
-Spread: Houston Texans -3 (-102) / Indianapolis Colts +3 (-118)
+Moneyline: Houston Texans -130 / Indianapolis Colts +110
+Spread: Houston Texans -1.5 (-118) / Indianapolis Colts +1.5 (-102)
 Total: +42.5 (Over -112 / Under -108)
 Market read:
-- Houston Texans carries an implied win probability of approximately 59.7% based on the listed moneyline.
+- Houston Texans carries an implied win probability of approximately 56.5% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Houston Texans before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
@@ -90,7 +90,7 @@ New England Patriots at Jacksonville Jaguars — 1:00 PM ET
 Bookmaker: DraftKings
 Moneyline: New England Patriots +130 / Jacksonville Jaguars -155
 Spread: New England Patriots +3 (-115) / Jacksonville Jaguars -3 (-105)
-Total: +45.5 (Over -110 / Under -110)
+Total: +45.5 (Over -115 / Under -105)
 Market read:
 - Jacksonville Jaguars carries an implied win probability of approximately 60.8% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Jacksonville Jaguars before lineup, injury and late-news adjustments.
@@ -98,11 +98,11 @@ Market read:
 
 Kansas City Chiefs at Miami Dolphins — 1:00 PM ET
 Bookmaker: DraftKings
-Moneyline: Kansas City Chiefs -900 / Miami Dolphins +600
-Spread: Kansas City Chiefs -11.5 (-108) / Miami Dolphins +11.5 (-112)
-Total: +46.5 (Over -110 / Under -110)
+Moneyline: Kansas City Chiefs -650 / Miami Dolphins +470
+Spread: Kansas City Chiefs -10.5 (-115) / Miami Dolphins +10.5 (-105)
+Total: +46.5 (Over -105 / Under -115)
 Market read:
-- Kansas City Chiefs carries an implied win probability of approximately 90.0% based on the listed moneyline.
+- Kansas City Chiefs carries an implied win probability of approximately 86.7% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Kansas City Chiefs before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
@@ -111,71 +111,70 @@ TOP BOARD
 
 Liberty Flames at Coastal Carolina Chanticleers — 7:30 PM ET
 Bookmaker: FanDuel
-Moneyline: Liberty Flames -134 / Coastal Carolina Chanticleers +112
+Moneyline: Liberty Flames -132 / Coastal Carolina Chanticleers +110
 Spread: Liberty Flames -2.5 (-110) / Coastal Carolina Chanticleers +2.5 (-110)
-Total: +50.5 (Over -115 / Under -105)
+Total: +50.5 (Over -110 / Under -110)
 Market read:
-- Liberty Flames carries an implied win probability of approximately 57.3% based on the listed moneyline.
+- Liberty Flames carries an implied win probability of approximately 56.9% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Liberty Flames before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 Army Black Knights at Temple Owls — 4:00 PM ET
 Bookmaker: FanDuel
-Moneyline: Army Black Knights -160 / Temple Owls +132
+Moneyline: Army Black Knights -156 / Temple Owls +130
 Spread: Army Black Knights -3.5 (-102) / Temple Owls +3.5 (-120)
 Total: +48.5 (Over -105 / Under -115)
 Market read:
-- Army Black Knights carries an implied win probability of approximately 61.5% based on the listed moneyline.
+- Army Black Knights carries an implied win probability of approximately 60.9% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Army Black Knights before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 Howard Bison at Rutgers Scarlet Knights — 7:00 PM ET
 Bookmaker: FanDuel
-Moneyline: Howard Bison +3500 / Rutgers Scarlet Knights -20000
-Spread: Howard Bison +43.5 (-110) / Rutgers Scarlet Knights -43.5 (-110)
-Total: +55.5 (Over -105 / Under -115)
+Spread: Howard Bison +44.5 (-114) / Rutgers Scarlet Knights -44.5 (-108)
+Total: +55.5 (Over -110 / Under -110)
 Market read:
-- Rutgers Scarlet Knights carries an implied win probability of approximately 99.5% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Rutgers Scarlet Knights before lineup, injury and late-news adjustments.
+- The market card is active, but sportsbook pricing was incomplete when the report generated.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+- The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage.
 
 Navy Midshipmen at UAB Blazers — 7:00 PM ET
 Bookmaker: FanDuel
-Moneyline: Navy Midshipmen -265 / UAB Blazers +215
+Moneyline: Navy Midshipmen -250 / UAB Blazers +202
 Spread: Navy Midshipmen -6.5 (-122) / UAB Blazers +6.5 (+100)
 Total: +51.5 (Over -105 / Under -115)
 Market read:
-- Navy Midshipmen carries an implied win probability of approximately 72.6% based on the listed moneyline.
+- Navy Midshipmen carries an implied win probability of approximately 71.4% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Navy Midshipmen before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 Northwestern Wildcats at Indiana Hoosiers — 8:00 PM ET
 Bookmaker: FanDuel
-Moneyline: Northwestern Wildcats +1060 / Indiana Hoosiers -2300
+Moneyline: Northwestern Wildcats +1100 / Indiana Hoosiers -2500
 Spread: Northwestern Wildcats +20.5 (+100) / Indiana Hoosiers -20.5 (-122)
 Total: +49.5 (Over -110 / Under -110)
 Market read:
-- Indiana Hoosiers carries an implied win probability of approximately 95.8% based on the listed moneyline.
+- Indiana Hoosiers carries an implied win probability of approximately 96.2% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Indiana Hoosiers before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 Clemson Tigers at California Golden Bears — 10:30 PM ET
 Bookmaker: FanDuel
-Moneyline: Clemson Tigers -110 / California Golden Bears -110
-Spread: Clemson Tigers -1.5 (-102) / California Golden Bears +1.5 (-120)
+Moneyline: Clemson Tigers -113 / California Golden Bears -106
+Spread: Clemson Tigers -1.5 (-105) / California Golden Bears +1.5 (-115)
 Total: +50.5 (Over -110 / Under -110)
 Market read:
-- California Golden Bears carries an implied win probability of approximately 52.4% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward California Golden Bears before lineup, injury and late-news adjustments.
+- Clemson Tigers carries an implied win probability of approximately 53.1% based on the listed moneyline.
+- The moneyline shows how strongly the market is leaning toward Clemson Tigers before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 UNLV Rebels at Akron Zips — 12:00 PM ET
 Bookmaker: FanDuel
-Moneyline: UNLV Rebels -610 / Akron Zips +440
+Moneyline: UNLV Rebels -580 / Akron Zips +420
 Spread: UNLV Rebels -13.5 (-115) / Akron Zips +13.5 (-105)
 Total: +52.5 (Over -110 / Under -110)
 Market read:
-- UNLV Rebels carries an implied win probability of approximately 85.9% based on the listed moneyline.
+- UNLV Rebels carries an implied win probability of approximately 85.3% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward UNLV Rebels before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
@@ -192,88 +191,88 @@ Market read:
 MLB
 TOP BOARD
 
-Washington Nationals at Detroit Tigers — 1:11 PM ET
+St. Louis Cardinals at Pittsburgh Pirates — 12:36 PM ET
 Bookmaker: FanDuel
-Moneyline: Washington Nationals +144 / Detroit Tigers -172
-Spread: Washington Nationals +1.5 (-162) / Detroit Tigers -1.5 (+134)
-Total: +7.5 (Over -115 / Under -105)
+Moneyline: St. Louis Cardinals +136 / Pittsburgh Pirates -162
+Spread: St. Louis Cardinals +1.5 (-184) / Pittsburgh Pirates -1.5 (+152)
+Total: +6.5 (Over -138 / Under +112)
 Market read:
-- Detroit Tigers carries an implied win probability of approximately 63.2% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Detroit Tigers before lineup, injury and late-news adjustments.
+- Pittsburgh Pirates carries an implied win probability of approximately 61.8% based on the listed moneyline.
+- The moneyline shows how strongly the market is leaning toward Pittsburgh Pirates before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
-Toronto Blue Jays at Baltimore Orioles — 1:36 PM ET
+Chicago White Sox at Kansas City Royals — 2:11 PM ET
 Bookmaker: FanDuel
-Moneyline: Toronto Blue Jays +108 / Baltimore Orioles -126
-Spread: Toronto Blue Jays +1.5 (-210) / Baltimore Orioles -1.5 (+172)
+Moneyline: Chicago White Sox -132 / Kansas City Royals +112
+Spread: Chicago White Sox -1.5 (+126) / Kansas City Royals +1.5 (-152)
+Total: +8.5 (Over -122 / Under +100)
+Market read:
+- Chicago White Sox carries an implied win probability of approximately 56.9% based on the listed moneyline.
+- The moneyline shows how strongly the market is leaning toward Chicago White Sox before lineup, injury and late-news adjustments.
+- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+
+Miami Marlins at Chicago Cubs — 2:21 PM ET
+Bookmaker: FanDuel
+Moneyline: Miami Marlins +168 / Chicago Cubs -200
+Spread: Miami Marlins +1.5 (-130) / Chicago Cubs -1.5 (+108)
 Total: +7.5 (Over +116 / Under -142)
 Market read:
-- Baltimore Orioles carries an implied win probability of approximately 55.8% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Baltimore Orioles before lineup, injury and late-news adjustments.
+- Chicago Cubs carries an implied win probability of approximately 66.7% based on the listed moneyline.
+- The moneyline shows how strongly the market is leaning toward Chicago Cubs before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
-Minnesota Twins at San Francisco Giants — 3:46 PM ET
+New York Mets at Texas Rangers — 2:36 PM ET
 Bookmaker: FanDuel
-Moneyline: Minnesota Twins -154 / San Francisco Giants +130
-Spread: Minnesota Twins -1.5 (+114) / San Francisco Giants +1.5 (-137)
-Total: +7.5 (Over -128 / Under +104)
+Moneyline: New York Mets +112 / Texas Rangers -132
+Spread: New York Mets +1.5 (-205) / Texas Rangers -1.5 (+168)
+Total: +8.5 (Over +100 / Under -122)
 Market read:
-- Minnesota Twins carries an implied win probability of approximately 60.6% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Minnesota Twins before lineup, injury and late-news adjustments.
+- Texas Rangers carries an implied win probability of approximately 56.9% based on the listed moneyline.
+- The moneyline shows how strongly the market is leaning toward Texas Rangers before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
-Toronto Blue Jays at Baltimore Orioles — 6:36 PM ET
+Arizona Diamondbacks at Colorado Rockies — 3:11 PM ET
 Bookmaker: FanDuel
-Moneyline: Toronto Blue Jays +102 / Baltimore Orioles -120
-Spread: Toronto Blue Jays -1.5 (+168) / Baltimore Orioles +1.5 (-205)
-Total: +7.5 (Over -134 / Under +110)
+Moneyline: Arizona Diamondbacks -194 / Colorado Rockies +162
+Spread: Arizona Diamondbacks -1.5 (-125) / Colorado Rockies +1.5 (+104)
+Total: +10.5 (Over +108 / Under -132)
 Market read:
-- Baltimore Orioles carries an implied win probability of approximately 54.5% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Baltimore Orioles before lineup, injury and late-news adjustments.
+- Arizona Diamondbacks carries an implied win probability of approximately 66.0% based on the listed moneyline.
+- The moneyline shows how strongly the market is leaning toward Arizona Diamondbacks before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
-Milwaukee Brewers at Philadelphia Phillies — 6:41 PM ET
+Milwaukee Brewers at Philadelphia Phillies — 6:06 PM ET
 Bookmaker: FanDuel
-Moneyline: Milwaukee Brewers -126 / Philadelphia Phillies +108
-Spread: Milwaukee Brewers -1.5 (+140) / Philadelphia Phillies +1.5 (-170)
-Total: +7.5 (Over +112 / Under -138)
+Moneyline: Milwaukee Brewers +116 / Philadelphia Phillies -134
+Spread: Milwaukee Brewers +1.5 (-188) / Philadelphia Phillies -1.5 (+155)
+Total: +7.5 (Over -120 / Under -102)
 Market read:
-- Milwaukee Brewers carries an implied win probability of approximately 55.8% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Milwaukee Brewers before lineup, injury and late-news adjustments.
+- Philadelphia Phillies carries an implied win probability of approximately 57.3% based on the listed moneyline.
+- The moneyline shows how strongly the market is leaning toward Philadelphia Phillies before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
-St. Louis Cardinals at Pittsburgh Pirates — 6:41 PM ET
+Cleveland Guardians at Boston Red Sox — 6:46 PM ET
 Bookmaker: FanDuel
-Moneyline: St. Louis Cardinals +116 / Pittsburgh Pirates -134
-Spread: St. Louis Cardinals +1.5 (-184) / Pittsburgh Pirates -1.5 (+152)
-Total: +7.5 (Over +104 / Under -128)
+Moneyline: Cleveland Guardians +108 / Boston Red Sox -126
+Spread: Cleveland Guardians +1.5 (-205) / Boston Red Sox -1.5 (+168)
+Total: +6.5 (Over -122 / Under +100)
 Market read:
-- Pittsburgh Pirates carries an implied win probability of approximately 57.3% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Pittsburgh Pirates before lineup, injury and late-news adjustments.
+- Boston Red Sox carries an implied win probability of approximately 55.8% based on the listed moneyline.
+- The moneyline shows how strongly the market is leaning toward Boston Red Sox before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 Tampa Bay Rays at New York Yankees — 7:06 PM ET
 Bookmaker: FanDuel
-Moneyline: Tampa Bay Rays +118 / New York Yankees -138
-Spread: Tampa Bay Rays +1.5 (-205) / New York Yankees -1.5 (+168)
-Total: +6.5 (Over -110 / Under -110)
+Moneyline: Tampa Bay Rays +128 / New York Yankees -152
+Spread: Tampa Bay Rays +1.5 (-188) / New York Yankees -1.5 (+155)
+Total: +6.5 (Over +114 / Under -140)
 Market read:
-- New York Yankees carries an implied win probability of approximately 58.0% based on the listed moneyline.
+- New York Yankees carries an implied win probability of approximately 60.3% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward New York Yankees before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
-
-Cleveland Guardians at Boston Red Sox — 7:11 PM ET
-Bookmaker: FanDuel
-Moneyline: Cleveland Guardians +114 / Boston Red Sox -134
-Spread: Cleveland Guardians +1.5 (-210) / Boston Red Sox -1.5 (+172)
-Total: +6.5 (Over -122 / Under +100)
-Market read:
-- Boston Red Sox carries an implied win probability of approximately 57.3% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Boston Red Sox before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 BETTING MARKET NOTE
 Odds are a market signal, not a prediction guarantee. Moneylines show implied win probability, spreads show expected margin, and totals frame the scoring environment. Lines may move quickly and can vary by sportsbook.
 
 This report is an automated betting-market summary intended to support, not replace, human sports journalism. It is not betting advice.
-Generated: 2026-09-23 12:57:27 PM ET
+Generated: 2026-09-24 11:39:10 AM ET
