@@ -2,18 +2,18 @@
   "site": "Global Betting Report",
   "vertical": "Betting",
   "title": "Global Betting Report",
-  "headline": "NFL: Baltimore Ravens priced as heavy favorite vs Tennessee Titans (-700)",
+  "headline": "NFL: Baltimore Ravens priced as heavy favorite vs Tennessee Titans (-750)",
   "snapshot": "A full multi-league betting board is live, giving the desk enough volume to compare favorites, totals and matchup pricing.",
-  "updated_at": "2026-09-28T19:40:36.277480Z",
-  "generated_at": "2026-09-28T19:40:36.277480Z",
+  "updated_at": "2026-09-29T18:04:48.593817Z",
+  "generated_at": "2026-09-29T18:04:48.593817Z",
   "freshness": {
-    "last_checked": "2026-09-28 03:40:36 PM ET",
+    "last_checked": "2026-09-29 02:04:48 PM ET",
     "sports_checked": [
       "NFL",
       "College Football",
       "MLB"
     ],
-    "total_games_checked": 77,
+    "total_games_checked": 78,
     "total_market_cards": 12,
     "odds_api_key_found": true,
     "source": "The Odds API v4"
@@ -33,13 +33,13 @@
   },
   "live_newsroom": [
     {
-      "headline": "NFL: Baltimore Ravens priced as heavy favorite vs Tennessee Titans (-700)",
-      "snapshot": "Baltimore Ravens carries an implied win probability of approximately 87.5% based on the listed moneyline.",
+      "headline": "NFL: Baltimore Ravens priced as heavy favorite vs Tennessee Titans (-750)",
+      "snapshot": "Baltimore Ravens carries an implied win probability of approximately 88.2% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/nfl/scoreboard",
       "league": "NFL",
       "key_data": [
-        "Favorite: Baltimore Ravens -700 (87.5% implied).",
+        "Favorite: Baltimore Ravens -750 (88.2% implied).",
         "Spread: Tennessee Titans +11.5 (-112) / Baltimore Ravens -11.5 (-108).",
         "Total: +43.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
@@ -53,16 +53,16 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-28 03:40:35 PM ET"
+      "updated_at": "2026-09-29 02:04:48 PM ET"
     },
     {
-      "headline": "NFL: Buffalo Bills priced as heavy favorite vs New England Patriots (-310)",
-      "snapshot": "Buffalo Bills carries an implied win probability of approximately 75.6% based on the listed moneyline.",
+      "headline": "NFL: Buffalo Bills priced as heavy favorite vs New England Patriots (-290)",
+      "snapshot": "Buffalo Bills carries an implied win probability of approximately 74.4% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/nfl/scoreboard",
       "league": "NFL",
       "key_data": [
-        "Favorite: Buffalo Bills -310 (75.6% implied).",
+        "Favorite: Buffalo Bills -290 (74.4% implied).",
         "Spread: New England Patriots +7 (-115) / Buffalo Bills -7 (-105).",
         "Total: +48.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
@@ -76,7 +76,7 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-28 03:40:35 PM ET"
+      "updated_at": "2026-09-29 02:04:48 PM ET"
     },
     {
       "headline": "College Football: Liberty Flames priced as heavy favorite vs Delaware Blue Hens (-280)",
@@ -87,7 +87,7 @@
       "key_data": [
         "Favorite: Liberty Flames -280 (73.7% implied).",
         "Spread: Liberty Flames -7.5 (+100) / Delaware Blue Hens +7.5 (-122).",
-        "Total: +50.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+        "Total: +49.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Liberty Flames before lineup, injury and late-news adjustments.",
@@ -99,18 +99,18 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-28 03:40:36 PM ET"
+      "updated_at": "2026-09-29 02:04:48 PM ET"
     },
     {
-      "headline": "College Football: SMU Mustangs priced as heavy favorite vs Boston College Eagles (-2000)",
-      "snapshot": "SMU Mustangs carries an implied win probability of approximately 95.2% based on the listed moneyline.",
+      "headline": "College Football: SMU Mustangs priced as heavy favorite vs Boston College Eagles (-1800)",
+      "snapshot": "SMU Mustangs carries an implied win probability of approximately 94.7% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
       "league": "College Football",
       "key_data": [
-        "Favorite: SMU Mustangs -2000 (95.2% implied).",
-        "Spread: Boston College Eagles +21.5 (-118) / SMU Mustangs -21.5 (-104).",
-        "Total: +56.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
+        "Favorite: SMU Mustangs -1800 (94.7% implied).",
+        "Spread: Boston College Eagles +20.5 (-105) / SMU Mustangs -20.5 (-115).",
+        "Total: +55.5 (Over -106 / Under -114); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward SMU Mustangs before lineup, injury and late-news adjustments.",
@@ -122,30 +122,7 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-28 03:40:36 PM ET"
-    },
-    {
-      "headline": "NFL: Philadelphia Eagles priced as clear favorite vs Chicago Bears (-185)",
-      "snapshot": "Philadelphia Eagles carries an implied win probability of approximately 64.9% based on the listed moneyline.",
-      "source": "The Odds API v4",
-      "url": "https://www.espn.com/nfl/scoreboard",
-      "league": "NFL",
-      "key_data": [
-        "Favorite: Philadelphia Eagles -185 (64.9% implied).",
-        "Spread: Philadelphia Eagles -3.5 (-110) / Chicago Bears +3.5 (-110).",
-        "Total: +41.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
-      ],
-      "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Philadelphia Eagles before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-      ],
-      "what_to_watch": [
-        "Line movement after injury, lineup, weather or starting-goalie news.",
-        "Whether the favorite price gets shorter or drifts back toward the underdog.",
-        "Whether the total moves enough to change the expected game environment."
-      ],
-      "updated_at": "2026-09-28 03:40:35 PM ET"
+      "updated_at": "2026-09-29 02:04:48 PM ET"
     },
     {
       "headline": "NFL: Indianapolis Colts priced as clear favorite vs Washington Commanders (-180)",
@@ -155,7 +132,7 @@
       "league": "NFL",
       "key_data": [
         "Favorite: Indianapolis Colts -180 (64.3% implied).",
-        "Spread: Indianapolis Colts -3.5 (-102) / Washington Commanders +3.5 (-118).",
+        "Spread: Indianapolis Colts -3.5 (-108) / Washington Commanders +3.5 (-112).",
         "Total: +47.5 (Over -102 / Under -118); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -168,7 +145,7 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-28 03:40:35 PM ET"
+      "updated_at": "2026-09-29 02:04:48 PM ET"
     },
     {
       "headline": "College Football: Alabama Crimson Tide priced as heavy favorite vs Mississippi State Bulldogs (-225)",
@@ -178,8 +155,8 @@
       "league": "College Football",
       "key_data": [
         "Favorite: Alabama Crimson Tide -225 (69.2% implied).",
-        "Spread: Alabama Crimson Tide -6 (-105) / Mississippi State Bulldogs +6 (-115).",
-        "Total: +60.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+        "Spread: Alabama Crimson Tide -6 (-108) / Mississippi State Bulldogs +6 (-112).",
+        "Total: +59.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Alabama Crimson Tide before lineup, injury and late-news adjustments.",
@@ -191,7 +168,30 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-28 03:40:36 PM ET"
+      "updated_at": "2026-09-29 02:04:48 PM ET"
+    },
+    {
+      "headline": "NFL: Chicago Bears priced as clear favorite vs New York Jets (-170)",
+      "snapshot": "Chicago Bears carries an implied win probability of approximately 63.0% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "league": "NFL",
+      "key_data": [
+        "Favorite: Chicago Bears -170 (63.0% implied).",
+        "Spread: New York Jets +3.5 (-118) / Chicago Bears -3.5 (-102).",
+        "Total: +42.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
+      ],
+      "why_it_matters": [
+        "The moneyline shows how strongly the market is leaning toward Chicago Bears before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "what_to_watch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "updated_at": "2026-09-29 02:04:48 PM ET"
     },
     {
       "headline": "College Football: Virginia Tech Hokies priced as clear favorite vs Pittsburgh Panthers (-162)",
@@ -201,8 +201,8 @@
       "league": "College Football",
       "key_data": [
         "Favorite: Virginia Tech Hokies -162 (61.8% implied).",
-        "Spread: Pittsburgh Panthers +3.5 (-115) / Virginia Tech Hokies -3.5 (-105).",
-        "Total: +53.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+        "Spread: Pittsburgh Panthers +3.5 (-118) / Virginia Tech Hokies -3.5 (-102).",
+        "Total: +54.5 (Over -118 / Under -102); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Virginia Tech Hokies before lineup, injury and late-news adjustments.",
@@ -214,17 +214,17 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-28 03:40:36 PM ET"
+      "updated_at": "2026-09-29 02:04:48 PM ET"
     },
     {
-      "headline": "College Football: Air Force Falcons priced as clear favorite vs Navy Midshipmen (-164)",
-      "snapshot": "Air Force Falcons carries an implied win probability of approximately 62.1% based on the listed moneyline.",
+      "headline": "College Football: Air Force Falcons priced as clear favorite vs Navy Midshipmen (-152)",
+      "snapshot": "Air Force Falcons carries an implied win probability of approximately 60.3% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
       "league": "College Football",
       "key_data": [
-        "Favorite: Air Force Falcons -164 (62.1% implied).",
-        "Spread: Navy Midshipmen +3.5 (-115) / Air Force Falcons -3.5 (-105).",
+        "Favorite: Air Force Falcons -152 (60.3% implied).",
+        "Spread: Navy Midshipmen +3.5 (-124) / Air Force Falcons -3.5 (+102).",
         "Total: +46.5 (Over -106 / Under -114); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -237,18 +237,18 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-28 03:40:36 PM ET"
+      "updated_at": "2026-09-29 02:04:48 PM ET"
     },
     {
-      "headline": "NFL: Pittsburgh Steelers priced as clear favorite vs Cleveland Browns (-155)",
-      "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 60.8% based on the listed moneyline.",
+      "headline": "NFL: Pittsburgh Steelers priced as slight favorite vs Cleveland Browns (-148)",
+      "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 59.7% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/nfl/scoreboard",
       "league": "NFL",
       "key_data": [
-        "Favorite: Pittsburgh Steelers -155 (60.8% implied).",
-        "Spread: Pittsburgh Steelers -3 (+100) / Cleveland Browns +3 (-120).",
-        "Total: +38.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+        "Favorite: Pittsburgh Steelers -148 (59.7% implied).",
+        "Spread: Pittsburgh Steelers -2.5 (-120) / Cleveland Browns +2.5 (+100).",
+        "Total: +38.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Pittsburgh Steelers before lineup, injury and late-news adjustments.",
@@ -260,12 +260,12 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-09-28 03:40:35 PM ET"
+      "updated_at": "2026-09-29 02:04:48 PM ET"
     }
   ],
   "editor_signals": [
-    "Lead market: NFL: Baltimore Ravens priced as heavy favorite vs Tennessee Titans (-700)",
-    "Total games checked: 77.",
+    "Lead market: NFL: Baltimore Ravens priced as heavy favorite vs Tennessee Titans (-750)",
+    "Total games checked: 78.",
     "Cards prioritize implied probability, expected margin and scoring environment instead of raw odds alone.",
     "Betting context should remain descriptive and journalist-facing, not prescriptive wagering advice.",
     "Active sports on board: College Football, MLB, NFL."
@@ -274,12 +274,12 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Baltimore Ravens priced as heavy favorite vs Tennessee Titans (-700)",
-      "snapshot": "Baltimore Ravens carries an implied win probability of approximately 87.5% based on the listed moneyline.",
+      "headline": "NFL: Baltimore Ravens priced as heavy favorite vs Tennessee Titans (-750)",
+      "snapshot": "Baltimore Ravens carries an implied win probability of approximately 88.2% based on the listed moneyline.",
       "url": "https://www.espn.com/nfl/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Baltimore Ravens -700 (87.5% implied).",
+        "Favorite: Baltimore Ravens -750 (88.2% implied).",
         "Spread: Tennessee Titans +11.5 (-112) / Baltimore Ravens -11.5 (-108).",
         "Total: +43.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
@@ -295,7 +295,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-09-28 03:40:35 PM ET",
+      "updated_at": "2026-09-29 02:04:48 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -308,12 +308,12 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Buffalo Bills priced as heavy favorite vs New England Patriots (-310)",
-      "snapshot": "Buffalo Bills carries an implied win probability of approximately 75.6% based on the listed moneyline.",
+      "headline": "NFL: Buffalo Bills priced as heavy favorite vs New England Patriots (-290)",
+      "snapshot": "Buffalo Bills carries an implied win probability of approximately 74.4% based on the listed moneyline.",
       "url": "https://www.espn.com/nfl/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Buffalo Bills -310 (75.6% implied).",
+        "Favorite: Buffalo Bills -290 (74.4% implied).",
         "Spread: New England Patriots +7 (-115) / Buffalo Bills -7 (-105).",
         "Total: +48.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
@@ -329,7 +329,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-09-28 03:40:35 PM ET",
+      "updated_at": "2026-09-29 02:04:48 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -349,7 +349,7 @@
       "key_data": [
         "Favorite: Liberty Flames -280 (73.7% implied).",
         "Spread: Liberty Flames -7.5 (+100) / Delaware Blue Hens +7.5 (-122).",
-        "Total: +50.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+        "Total: +49.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Liberty Flames before lineup, injury and late-news adjustments.",
@@ -363,7 +363,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-09-28 03:40:36 PM ET",
+      "updated_at": "2026-09-29 02:04:48 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -376,14 +376,14 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: SMU Mustangs priced as heavy favorite vs Boston College Eagles (-2000)",
-      "snapshot": "SMU Mustangs carries an implied win probability of approximately 95.2% based on the listed moneyline.",
+      "headline": "College Football: SMU Mustangs priced as heavy favorite vs Boston College Eagles (-1800)",
+      "snapshot": "SMU Mustangs carries an implied win probability of approximately 94.7% based on the listed moneyline.",
       "url": "https://www.espn.com/college-football/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: SMU Mustangs -2000 (95.2% implied).",
-        "Spread: Boston College Eagles +21.5 (-118) / SMU Mustangs -21.5 (-104).",
-        "Total: +56.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
+        "Favorite: SMU Mustangs -1800 (94.7% implied).",
+        "Spread: Boston College Eagles +20.5 (-105) / SMU Mustangs -20.5 (-115).",
+        "Total: +55.5 (Over -106 / Under -114); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward SMU Mustangs before lineup, injury and late-news adjustments.",
@@ -397,7 +397,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-09-28 03:40:36 PM ET",
+      "updated_at": "2026-09-29 02:04:48 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -410,47 +410,13 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Philadelphia Eagles priced as clear favorite vs Chicago Bears (-185)",
-      "snapshot": "Philadelphia Eagles carries an implied win probability of approximately 64.9% based on the listed moneyline.",
-      "url": "https://www.espn.com/nfl/scoreboard",
-      "source_label": "The Odds API v4",
-      "key_data": [
-        "Favorite: Philadelphia Eagles -185 (64.9% implied).",
-        "Spread: Philadelphia Eagles -3.5 (-110) / Chicago Bears +3.5 (-110).",
-        "Total: +41.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
-      ],
-      "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Philadelphia Eagles before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-      ],
-      "what_to_watch": [
-        "Line movement after injury, lineup, weather or starting-goalie news.",
-        "Whether the favorite price gets shorter or drifts back toward the underdog.",
-        "Whether the total moves enough to change the expected game environment."
-      ],
-      "priority_score": 120,
-      "story_type": "market_signal",
-      "updated_at": "2026-09-28 03:40:35 PM ET",
-      "verified_markets": [
-        "moneyline",
-        "spread",
-        "total"
-      ],
-      "bookmaker": "DraftKings",
-      "matchup": "Philadelphia Eagles at Chicago Bears",
-      "start_time": "8:15 PM ET"
-    },
-    {
-      "league": "NFL",
-      "title": "NFL Betting Market",
       "headline": "NFL: Indianapolis Colts priced as clear favorite vs Washington Commanders (-180)",
       "snapshot": "Indianapolis Colts carries an implied win probability of approximately 64.3% based on the listed moneyline.",
       "url": "https://www.espn.com/nfl/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
         "Favorite: Indianapolis Colts -180 (64.3% implied).",
-        "Spread: Indianapolis Colts -3.5 (-102) / Washington Commanders +3.5 (-118).",
+        "Spread: Indianapolis Colts -3.5 (-108) / Washington Commanders +3.5 (-112).",
         "Total: +47.5 (Over -102 / Under -118); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -465,7 +431,7 @@
       ],
       "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-09-28 03:40:35 PM ET",
+      "updated_at": "2026-09-29 02:04:48 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -484,8 +450,8 @@
       "source_label": "The Odds API v4",
       "key_data": [
         "Favorite: Alabama Crimson Tide -225 (69.2% implied).",
-        "Spread: Alabama Crimson Tide -6 (-105) / Mississippi State Bulldogs +6 (-115).",
-        "Total: +60.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+        "Spread: Alabama Crimson Tide -6 (-108) / Mississippi State Bulldogs +6 (-112).",
+        "Total: +59.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Alabama Crimson Tide before lineup, injury and late-news adjustments.",
@@ -499,7 +465,7 @@
       ],
       "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-09-28 03:40:36 PM ET",
+      "updated_at": "2026-09-29 02:04:48 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -510,6 +476,40 @@
       "start_time": "12:00 PM ET"
     },
     {
+      "league": "NFL",
+      "title": "NFL Betting Market",
+      "headline": "NFL: Chicago Bears priced as clear favorite vs New York Jets (-170)",
+      "snapshot": "Chicago Bears carries an implied win probability of approximately 63.0% based on the listed moneyline.",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "source_label": "The Odds API v4",
+      "key_data": [
+        "Favorite: Chicago Bears -170 (63.0% implied).",
+        "Spread: New York Jets +3.5 (-118) / Chicago Bears -3.5 (-102).",
+        "Total: +42.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
+      ],
+      "why_it_matters": [
+        "The moneyline shows how strongly the market is leaning toward Chicago Bears before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "what_to_watch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "priority_score": 113,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-29 02:04:48 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "DraftKings",
+      "matchup": "New York Jets at Chicago Bears",
+      "start_time": "1:00 PM ET"
+    },
+    {
       "league": "College Football",
       "title": "College Football Betting Market",
       "headline": "College Football: Virginia Tech Hokies priced as clear favorite vs Pittsburgh Panthers (-162)",
@@ -518,8 +518,8 @@
       "source_label": "The Odds API v4",
       "key_data": [
         "Favorite: Virginia Tech Hokies -162 (61.8% implied).",
-        "Spread: Pittsburgh Panthers +3.5 (-115) / Virginia Tech Hokies -3.5 (-105).",
-        "Total: +53.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+        "Spread: Pittsburgh Panthers +3.5 (-118) / Virginia Tech Hokies -3.5 (-102).",
+        "Total: +54.5 (Over -118 / Under -102); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Virginia Tech Hokies before lineup, injury and late-news adjustments.",
@@ -533,7 +533,7 @@
       ],
       "priority_score": 113,
       "story_type": "market_signal",
-      "updated_at": "2026-09-28 03:40:36 PM ET",
+      "updated_at": "2026-09-29 02:04:48 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -546,13 +546,13 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: Air Force Falcons priced as clear favorite vs Navy Midshipmen (-164)",
-      "snapshot": "Air Force Falcons carries an implied win probability of approximately 62.1% based on the listed moneyline.",
+      "headline": "College Football: Air Force Falcons priced as clear favorite vs Navy Midshipmen (-152)",
+      "snapshot": "Air Force Falcons carries an implied win probability of approximately 60.3% based on the listed moneyline.",
       "url": "https://www.espn.com/college-football/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Air Force Falcons -164 (62.1% implied).",
-        "Spread: Navy Midshipmen +3.5 (-115) / Air Force Falcons -3.5 (-105).",
+        "Favorite: Air Force Falcons -152 (60.3% implied).",
+        "Spread: Navy Midshipmen +3.5 (-124) / Air Force Falcons -3.5 (+102).",
         "Total: +46.5 (Over -106 / Under -114); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -567,7 +567,7 @@
       ],
       "priority_score": 113,
       "story_type": "market_signal",
-      "updated_at": "2026-09-28 03:40:36 PM ET",
+      "updated_at": "2026-09-29 02:04:48 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -580,14 +580,14 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Pittsburgh Steelers priced as clear favorite vs Cleveland Browns (-155)",
-      "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 60.8% based on the listed moneyline.",
+      "headline": "NFL: Pittsburgh Steelers priced as slight favorite vs Cleveland Browns (-148)",
+      "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 59.7% based on the listed moneyline.",
       "url": "https://www.espn.com/nfl/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Pittsburgh Steelers -155 (60.8% implied).",
-        "Spread: Pittsburgh Steelers -3 (+100) / Cleveland Browns +3 (-120).",
-        "Total: +38.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+        "Favorite: Pittsburgh Steelers -148 (59.7% implied).",
+        "Spread: Pittsburgh Steelers -2.5 (-120) / Cleveland Browns +2.5 (+100).",
+        "Total: +38.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Pittsburgh Steelers before lineup, injury and late-news adjustments.",
@@ -601,7 +601,7 @@
       ],
       "priority_score": 105,
       "story_type": "market_signal",
-      "updated_at": "2026-09-28 03:40:35 PM ET",
+      "updated_at": "2026-09-29 02:04:48 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -614,14 +614,48 @@
     {
       "league": "MLB",
       "title": "MLB Betting Market",
-      "headline": "MLB: Atlanta Braves priced as clear favorite vs Philadelphia Phillies (-198)",
-      "snapshot": "Atlanta Braves carries an implied win probability of approximately 66.4% based on the listed moneyline.",
+      "headline": "MLB: New York Yankees priced as slight favorite vs Boston Red Sox (-140)",
+      "snapshot": "New York Yankees carries an implied win probability of approximately 58.3% based on the listed moneyline.",
       "url": "https://www.espn.com/mlb/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Atlanta Braves -198 (66.4% implied).",
-        "Spread: Philadelphia Phillies +1.5 (-142) / Atlanta Braves -1.5 (+118).",
-        "Total: +6.5 (Over -122 / Under +102); higher-scoring hockey environment."
+        "Favorite: New York Yankees -140 (58.3% implied).",
+        "Spread: Boston Red Sox +1.5 (-193) / New York Yankees -1.5 (+159).",
+        "Total: +6 (Over -116 / Under -104); lower run-scoring baseball environment."
+      ],
+      "why_it_matters": [
+        "The moneyline shows how strongly the market is leaning toward New York Yankees before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "what_to_watch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "priority_score": 105,
+      "story_type": "market_signal",
+      "updated_at": "2026-09-29 02:04:48 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "DraftKings",
+      "matchup": "Boston Red Sox at New York Yankees",
+      "start_time": "8:10 PM ET"
+    },
+    {
+      "league": "MLB",
+      "title": "MLB Betting Market",
+      "headline": "MLB: Atlanta Braves priced as clear favorite vs Philadelphia Phillies (-192)",
+      "snapshot": "Atlanta Braves carries an implied win probability of approximately 65.8% based on the listed moneyline.",
+      "url": "https://www.espn.com/mlb/scoreboard",
+      "source_label": "The Odds API v4",
+      "key_data": [
+        "Favorite: Atlanta Braves -192 (65.8% implied).",
+        "Spread: Philadelphia Phillies +1.5 (-143) / Atlanta Braves -1.5 (+118).",
+        "Total: +6.5 (Over -121 / Under +100); higher-scoring hockey environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Atlanta Braves before lineup, injury and late-news adjustments.",
@@ -635,7 +669,7 @@
       ],
       "priority_score": 104,
       "story_type": "market_signal",
-      "updated_at": "2026-09-28 03:40:36 PM ET",
+      "updated_at": "2026-09-29 02:04:48 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -643,60 +677,26 @@
       ],
       "bookmaker": "DraftKings",
       "matchup": "Philadelphia Phillies at Atlanta Braves",
-      "start_time": "2:00 PM ET"
-    },
-    {
-      "league": "MLB",
-      "title": "MLB Betting Market",
-      "headline": "MLB: New York Yankees priced as slight favorite vs Boston Red Sox (-142)",
-      "snapshot": "New York Yankees carries an implied win probability of approximately 58.7% based on the listed moneyline.",
-      "url": "https://www.espn.com/mlb/scoreboard",
-      "source_label": "The Odds API v4",
-      "key_data": [
-        "Favorite: New York Yankees -142 (58.7% implied).",
-        "Spread: Boston Red Sox +1.5 (-197) / New York Yankees -1.5 (+162).",
-        "Total: +6.5 (Over -103 / Under -117); higher-scoring hockey environment."
-      ],
-      "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward New York Yankees before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-      ],
-      "what_to_watch": [
-        "Line movement after injury, lineup, weather or starting-goalie news.",
-        "Whether the favorite price gets shorter or drifts back toward the underdog.",
-        "Whether the total moves enough to change the expected game environment."
-      ],
-      "priority_score": 97,
-      "story_type": "market_signal",
-      "updated_at": "2026-09-28 03:40:36 PM ET",
-      "verified_markets": [
-        "moneyline",
-        "spread",
-        "total"
-      ],
-      "bookmaker": "DraftKings",
-      "matchup": "Boston Red Sox at New York Yankees",
-      "start_time": "8:10 PM ET"
+      "start_time": "2:10 PM ET"
     }
   ],
   "sections": {
     "nfl": {
       "title": "NFL Betting Market",
-      "headline": "NFL: Baltimore Ravens priced as heavy favorite vs Tennessee Titans (-700)",
-      "snapshot": "Baltimore Ravens carries an implied win probability of approximately 87.5% based on the listed moneyline.",
+      "headline": "NFL: Baltimore Ravens priced as heavy favorite vs Tennessee Titans (-750)",
+      "snapshot": "Baltimore Ravens carries an implied win probability of approximately 88.2% based on the listed moneyline.",
       "cards": [
         {
           "id": "nfl-tennessee-titans-at-baltimore-ravens",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Baltimore Ravens priced as heavy favorite vs Tennessee Titans (-700)",
-          "snapshot": "Baltimore Ravens carries an implied win probability of approximately 87.5% based on the listed moneyline.",
+          "headline": "NFL: Baltimore Ravens priced as heavy favorite vs Tennessee Titans (-750)",
+          "snapshot": "Baltimore Ravens carries an implied win probability of approximately 88.2% based on the listed moneyline.",
           "matchup": "Tennessee Titans at Baltimore Ravens",
           "start_time": "1:00 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Baltimore Ravens -700 (87.5% implied).",
+            "Favorite: Baltimore Ravens -750 (88.2% implied).",
             "Spread: Tennessee Titans +11.5 (-112) / Baltimore Ravens -11.5 (-108).",
             "Total: +43.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
@@ -722,12 +722,12 @@
             "start_time": "1:00 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 500,
-              "home_price": -700,
-              "away_price_text": "+500",
-              "home_price_text": "-700",
-              "away_implied_probability": 0.16666666666666666,
-              "home_implied_probability": 0.875
+              "away_price": 525,
+              "home_price": -750,
+              "away_price_text": "+525",
+              "home_price_text": "-750",
+              "away_implied_probability": 0.16,
+              "home_implied_probability": 0.8823529411764706
             },
             "spread": {
               "away_point": 11.5,
@@ -751,7 +751,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-09-28 03:40:35 PM ET",
+          "updated_at": "2026-09-29 02:04:48 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -762,13 +762,13 @@
           "id": "nfl-new-england-patriots-at-buffalo-bills",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Buffalo Bills priced as heavy favorite vs New England Patriots (-310)",
-          "snapshot": "Buffalo Bills carries an implied win probability of approximately 75.6% based on the listed moneyline.",
+          "headline": "NFL: Buffalo Bills priced as heavy favorite vs New England Patriots (-290)",
+          "snapshot": "Buffalo Bills carries an implied win probability of approximately 74.4% based on the listed moneyline.",
           "matchup": "New England Patriots at Buffalo Bills",
           "start_time": "1:00 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Buffalo Bills -310 (75.6% implied).",
+            "Favorite: Buffalo Bills -290 (74.4% implied).",
             "Spread: New England Patriots +7 (-115) / Buffalo Bills -7 (-105).",
             "Total: +48.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
@@ -794,12 +794,12 @@
             "start_time": "1:00 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 250,
-              "home_price": -310,
-              "away_price_text": "+250",
-              "home_price_text": "-310",
-              "away_implied_probability": 0.2857142857142857,
-              "home_implied_probability": 0.7560975609756098
+              "away_price": 235,
+              "home_price": -290,
+              "away_price_text": "+235",
+              "home_price_text": "-290",
+              "away_implied_probability": 0.29850746268656714,
+              "home_implied_probability": 0.7435897435897436
             },
             "spread": {
               "away_point": 7.0,
@@ -823,79 +823,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-09-28 03:40:35 PM ET",
-          "verified_markets": [
-            "moneyline",
-            "spread",
-            "total"
-          ]
-        },
-        {
-          "id": "nfl-philadelphia-eagles-at-chicago-bears",
-          "sport": "NFL",
-          "title": "NFL Betting Market",
-          "headline": "NFL: Philadelphia Eagles priced as clear favorite vs Chicago Bears (-185)",
-          "snapshot": "Philadelphia Eagles carries an implied win probability of approximately 64.9% based on the listed moneyline.",
-          "matchup": "Philadelphia Eagles at Chicago Bears",
-          "start_time": "8:15 PM ET",
-          "bookmaker": "DraftKings",
-          "key_data": [
-            "Favorite: Philadelphia Eagles -185 (64.9% implied).",
-            "Spread: Philadelphia Eagles -3.5 (-110) / Chicago Bears +3.5 (-110).",
-            "Total: +41.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
-          ],
-          "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Philadelphia Eagles before lineup, injury and late-news adjustments.",
-            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-          ],
-          "what_to_watch": [
-            "Line movement after injury, lineup, weather or starting-goalie news.",
-            "Whether the favorite price gets shorter or drifts back toward the underdog.",
-            "Whether the total moves enough to change the expected game environment."
-          ],
-          "priority_score": 120,
-          "story_type": "market_signal",
-          "url": "https://www.espn.com/nfl/scoreboard",
-          "source_label": "The Odds API v4",
-          "market": {
-            "sport": "NFL",
-            "away_team": "Philadelphia Eagles",
-            "home_team": "Chicago Bears",
-            "matchup": "Philadelphia Eagles at Chicago Bears",
-            "start_time": "8:15 PM ET",
-            "bookmaker": "DraftKings",
-            "moneyline": {
-              "away_price": -185,
-              "home_price": 154,
-              "away_price_text": "-185",
-              "home_price_text": "+154",
-              "away_implied_probability": 0.6491228070175439,
-              "home_implied_probability": 0.3937007874015748
-            },
-            "spread": {
-              "away_point": -3.5,
-              "home_point": 3.5,
-              "away_point_text": "-3.5",
-              "home_point_text": "+3.5",
-              "away_price": -110,
-              "home_price": -110,
-              "away_price_text": "-110",
-              "home_price_text": "-110"
-            },
-            "total": {
-              "point": 41.5,
-              "point_text": "+41.5",
-              "over_price": -115,
-              "under_price": -105,
-              "over_price_text": "-115",
-              "under_price_text": "-105",
-              "environment": "elevated run-scoring baseball environment"
-            },
-            "has_pricing": true,
-            "url": "https://www.espn.com/nfl/scoreboard"
-          },
-          "updated_at": "2026-09-28 03:40:35 PM ET",
+          "updated_at": "2026-09-29 02:04:48 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -913,7 +841,7 @@
           "bookmaker": "DraftKings",
           "key_data": [
             "Favorite: Indianapolis Colts -180 (64.3% implied).",
-            "Spread: Indianapolis Colts -3.5 (-102) / Washington Commanders +3.5 (-118).",
+            "Spread: Indianapolis Colts -3.5 (-108) / Washington Commanders +3.5 (-112).",
             "Total: +47.5 (Over -102 / Under -118); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
@@ -950,10 +878,10 @@
               "home_point": 3.5,
               "away_point_text": "-3.5",
               "home_point_text": "+3.5",
-              "away_price": -102,
-              "home_price": -118,
-              "away_price_text": "-102",
-              "home_price_text": "-118"
+              "away_price": -108,
+              "home_price": -112,
+              "away_price_text": "-108",
+              "home_price_text": "-112"
             },
             "total": {
               "point": 47.5,
@@ -967,7 +895,79 @@
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-09-28 03:40:35 PM ET",
+          "updated_at": "2026-09-29 02:04:48 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        },
+        {
+          "id": "nfl-new-york-jets-at-chicago-bears",
+          "sport": "NFL",
+          "title": "NFL Betting Market",
+          "headline": "NFL: Chicago Bears priced as clear favorite vs New York Jets (-170)",
+          "snapshot": "Chicago Bears carries an implied win probability of approximately 63.0% based on the listed moneyline.",
+          "matchup": "New York Jets at Chicago Bears",
+          "start_time": "1:00 PM ET",
+          "bookmaker": "DraftKings",
+          "key_data": [
+            "Favorite: Chicago Bears -170 (63.0% implied).",
+            "Spread: New York Jets +3.5 (-118) / Chicago Bears -3.5 (-102).",
+            "Total: +42.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Chicago Bears before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 113,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/nfl/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "NFL",
+            "away_team": "New York Jets",
+            "home_team": "Chicago Bears",
+            "matchup": "New York Jets at Chicago Bears",
+            "start_time": "1:00 PM ET",
+            "bookmaker": "DraftKings",
+            "moneyline": {
+              "away_price": 142,
+              "home_price": -170,
+              "away_price_text": "+142",
+              "home_price_text": "-170",
+              "away_implied_probability": 0.4132231404958678,
+              "home_implied_probability": 0.6296296296296297
+            },
+            "spread": {
+              "away_point": 3.5,
+              "home_point": -3.5,
+              "away_point_text": "+3.5",
+              "home_point_text": "-3.5",
+              "away_price": -118,
+              "home_price": -102,
+              "away_price_text": "-118",
+              "home_price_text": "-102"
+            },
+            "total": {
+              "point": 42.5,
+              "point_text": "+42.5",
+              "over_price": -115,
+              "under_price": -105,
+              "over_price_text": "-115",
+              "under_price_text": "-105",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/nfl/scoreboard"
+          },
+          "updated_at": "2026-09-29 02:04:48 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -978,15 +978,15 @@
           "id": "nfl-pittsburgh-steelers-at-cleveland-browns",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Pittsburgh Steelers priced as clear favorite vs Cleveland Browns (-155)",
-          "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 60.8% based on the listed moneyline.",
+          "headline": "NFL: Pittsburgh Steelers priced as slight favorite vs Cleveland Browns (-148)",
+          "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 59.7% based on the listed moneyline.",
           "matchup": "Pittsburgh Steelers at Cleveland Browns",
           "start_time": "8:15 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Pittsburgh Steelers -155 (60.8% implied).",
-            "Spread: Pittsburgh Steelers -3 (+100) / Cleveland Browns +3 (-120).",
-            "Total: +38.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+            "Favorite: Pittsburgh Steelers -148 (59.7% implied).",
+            "Spread: Pittsburgh Steelers -2.5 (-120) / Cleveland Browns +2.5 (+100).",
+            "Total: +38.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward Pittsburgh Steelers before lineup, injury and late-news adjustments.",
@@ -1010,36 +1010,36 @@
             "start_time": "8:15 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": -155,
-              "home_price": 130,
-              "away_price_text": "-155",
-              "home_price_text": "+130",
-              "away_implied_probability": 0.6078431372549019,
-              "home_implied_probability": 0.43478260869565216
+              "away_price": -148,
+              "home_price": 124,
+              "away_price_text": "-148",
+              "home_price_text": "+124",
+              "away_implied_probability": 0.5967741935483871,
+              "home_implied_probability": 0.44642857142857145
             },
             "spread": {
-              "away_point": -3.0,
-              "home_point": 3.0,
-              "away_point_text": "-3",
-              "home_point_text": "+3",
-              "away_price": 100,
-              "home_price": -120,
-              "away_price_text": "+100",
-              "home_price_text": "-120"
+              "away_point": -2.5,
+              "home_point": 2.5,
+              "away_point_text": "-2.5",
+              "home_point_text": "+2.5",
+              "away_price": -120,
+              "home_price": 100,
+              "away_price_text": "-120",
+              "home_price_text": "+100"
             },
             "total": {
               "point": 38.5,
               "point_text": "+38.5",
-              "over_price": -110,
-              "under_price": -110,
-              "over_price_text": "-110",
-              "under_price_text": "-110",
+              "over_price": -105,
+              "under_price": -115,
+              "over_price_text": "-105",
+              "under_price_text": "-115",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-09-28 03:40:35 PM ET",
+          "updated_at": "2026-09-29 02:04:48 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1049,7 +1049,7 @@
       ],
       "source_label": "The Odds API v4",
       "url": "https://www.espn.com/nfl/scoreboard",
-      "updated_at": "2026-09-28T19:40:36.277480Z"
+      "updated_at": "2026-09-29T18:04:48.593817Z"
     },
     "college_football": {
       "title": "College Football Betting Market",
@@ -1068,7 +1068,7 @@
           "key_data": [
             "Favorite: Liberty Flames -280 (73.7% implied).",
             "Spread: Liberty Flames -7.5 (+100) / Delaware Blue Hens +7.5 (-122).",
-            "Total: +50.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+            "Total: +49.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward Liberty Flames before lineup, injury and late-news adjustments.",
@@ -1110,18 +1110,18 @@
               "home_price_text": "-122"
             },
             "total": {
-              "point": 50.5,
-              "point_text": "+50.5",
-              "over_price": -105,
-              "under_price": -115,
-              "over_price_text": "-105",
-              "under_price_text": "-115",
+              "point": 49.5,
+              "point_text": "+49.5",
+              "over_price": -114,
+              "under_price": -106,
+              "over_price_text": "-114",
+              "under_price_text": "-106",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-09-28 03:40:36 PM ET",
+          "updated_at": "2026-09-29 02:04:48 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1132,15 +1132,15 @@
           "id": "college-football-boston-college-eagles-at-smu-mustangs",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: SMU Mustangs priced as heavy favorite vs Boston College Eagles (-2000)",
-          "snapshot": "SMU Mustangs carries an implied win probability of approximately 95.2% based on the listed moneyline.",
+          "headline": "College Football: SMU Mustangs priced as heavy favorite vs Boston College Eagles (-1800)",
+          "snapshot": "SMU Mustangs carries an implied win probability of approximately 94.7% based on the listed moneyline.",
           "matchup": "Boston College Eagles at SMU Mustangs",
           "start_time": "12:00 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: SMU Mustangs -2000 (95.2% implied).",
-            "Spread: Boston College Eagles +21.5 (-118) / SMU Mustangs -21.5 (-104).",
-            "Total: +56.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
+            "Favorite: SMU Mustangs -1800 (94.7% implied).",
+            "Spread: Boston College Eagles +20.5 (-105) / SMU Mustangs -20.5 (-115).",
+            "Total: +55.5 (Over -106 / Under -114); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward SMU Mustangs before lineup, injury and late-news adjustments.",
@@ -1164,36 +1164,36 @@
             "start_time": "12:00 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": 980,
-              "home_price": -2000,
-              "away_price_text": "+980",
-              "home_price_text": "-2000",
-              "away_implied_probability": 0.09259259259259259,
-              "home_implied_probability": 0.9523809523809523
+              "away_price": 920,
+              "home_price": -1800,
+              "away_price_text": "+920",
+              "home_price_text": "-1800",
+              "away_implied_probability": 0.09803921568627451,
+              "home_implied_probability": 0.9473684210526315
             },
             "spread": {
-              "away_point": 21.5,
-              "home_point": -21.5,
-              "away_point_text": "+21.5",
-              "home_point_text": "-21.5",
-              "away_price": -118,
-              "home_price": -104,
-              "away_price_text": "-118",
-              "home_price_text": "-104"
+              "away_point": 20.5,
+              "home_point": -20.5,
+              "away_point_text": "+20.5",
+              "home_point_text": "-20.5",
+              "away_price": -105,
+              "home_price": -115,
+              "away_price_text": "-105",
+              "home_price_text": "-115"
             },
             "total": {
-              "point": 56.5,
-              "point_text": "+56.5",
-              "over_price": -114,
-              "under_price": -106,
-              "over_price_text": "-114",
-              "under_price_text": "-106",
+              "point": 55.5,
+              "point_text": "+55.5",
+              "over_price": -106,
+              "under_price": -114,
+              "over_price_text": "-106",
+              "under_price_text": "-114",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-09-28 03:40:36 PM ET",
+          "updated_at": "2026-09-29 02:04:48 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1211,8 +1211,8 @@
           "bookmaker": "DraftKings",
           "key_data": [
             "Favorite: Alabama Crimson Tide -225 (69.2% implied).",
-            "Spread: Alabama Crimson Tide -6 (-105) / Mississippi State Bulldogs +6 (-115).",
-            "Total: +60.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+            "Spread: Alabama Crimson Tide -6 (-108) / Mississippi State Bulldogs +6 (-112).",
+            "Total: +59.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward Alabama Crimson Tide before lineup, injury and late-news adjustments.",
@@ -1248,24 +1248,24 @@
               "home_point": 6.0,
               "away_point_text": "-6",
               "home_point_text": "+6",
-              "away_price": -105,
-              "home_price": -115,
-              "away_price_text": "-105",
-              "home_price_text": "-115"
+              "away_price": -108,
+              "home_price": -112,
+              "away_price_text": "-108",
+              "home_price_text": "-112"
             },
             "total": {
-              "point": 60.5,
-              "point_text": "+60.5",
-              "over_price": -108,
-              "under_price": -112,
-              "over_price_text": "-108",
-              "under_price_text": "-112",
+              "point": 59.5,
+              "point_text": "+59.5",
+              "over_price": -112,
+              "under_price": -108,
+              "over_price_text": "-112",
+              "under_price_text": "-108",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-09-28 03:40:36 PM ET",
+          "updated_at": "2026-09-29 02:04:48 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1283,8 +1283,8 @@
           "bookmaker": "DraftKings",
           "key_data": [
             "Favorite: Virginia Tech Hokies -162 (61.8% implied).",
-            "Spread: Pittsburgh Panthers +3.5 (-115) / Virginia Tech Hokies -3.5 (-105).",
-            "Total: +53.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+            "Spread: Pittsburgh Panthers +3.5 (-118) / Virginia Tech Hokies -3.5 (-102).",
+            "Total: +54.5 (Over -118 / Under -102); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward Virginia Tech Hokies before lineup, injury and late-news adjustments.",
@@ -1320,24 +1320,24 @@
               "home_point": -3.5,
               "away_point_text": "+3.5",
               "home_point_text": "-3.5",
-              "away_price": -115,
-              "home_price": -105,
-              "away_price_text": "-115",
-              "home_price_text": "-105"
+              "away_price": -118,
+              "home_price": -102,
+              "away_price_text": "-118",
+              "home_price_text": "-102"
             },
             "total": {
-              "point": 53.5,
-              "point_text": "+53.5",
-              "over_price": -108,
-              "under_price": -112,
-              "over_price_text": "-108",
-              "under_price_text": "-112",
+              "point": 54.5,
+              "point_text": "+54.5",
+              "over_price": -118,
+              "under_price": -102,
+              "over_price_text": "-118",
+              "under_price_text": "-102",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-09-28 03:40:36 PM ET",
+          "updated_at": "2026-09-29 02:04:48 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1348,14 +1348,14 @@
           "id": "college-football-navy-midshipmen-at-air-force-falcons",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: Air Force Falcons priced as clear favorite vs Navy Midshipmen (-164)",
-          "snapshot": "Air Force Falcons carries an implied win probability of approximately 62.1% based on the listed moneyline.",
+          "headline": "College Football: Air Force Falcons priced as clear favorite vs Navy Midshipmen (-152)",
+          "snapshot": "Air Force Falcons carries an implied win probability of approximately 60.3% based on the listed moneyline.",
           "matchup": "Navy Midshipmen at Air Force Falcons",
           "start_time": "12:00 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Air Force Falcons -164 (62.1% implied).",
-            "Spread: Navy Midshipmen +3.5 (-115) / Air Force Falcons -3.5 (-105).",
+            "Favorite: Air Force Falcons -152 (60.3% implied).",
+            "Spread: Navy Midshipmen +3.5 (-124) / Air Force Falcons -3.5 (+102).",
             "Total: +46.5 (Over -106 / Under -114); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
@@ -1380,22 +1380,22 @@
             "start_time": "12:00 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": 136,
-              "home_price": -164,
-              "away_price_text": "+136",
-              "home_price_text": "-164",
-              "away_implied_probability": 0.423728813559322,
-              "home_implied_probability": 0.6212121212121212
+              "away_price": 126,
+              "home_price": -152,
+              "away_price_text": "+126",
+              "home_price_text": "-152",
+              "away_implied_probability": 0.4424778761061947,
+              "home_implied_probability": 0.6031746031746031
             },
             "spread": {
               "away_point": 3.5,
               "home_point": -3.5,
               "away_point_text": "+3.5",
               "home_point_text": "-3.5",
-              "away_price": -115,
-              "home_price": -105,
-              "away_price_text": "-115",
-              "home_price_text": "-105"
+              "away_price": -124,
+              "home_price": 102,
+              "away_price_text": "-124",
+              "home_price_text": "+102"
             },
             "total": {
               "point": 46.5,
@@ -1409,7 +1409,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-09-28 03:40:36 PM ET",
+          "updated_at": "2026-09-29 02:04:48 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1419,26 +1419,98 @@
       ],
       "source_label": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
-      "updated_at": "2026-09-28T19:40:36.277480Z"
+      "updated_at": "2026-09-29T18:04:48.593817Z"
     },
     "mlb": {
       "title": "MLB Betting Market",
-      "headline": "MLB: Atlanta Braves priced as clear favorite vs Philadelphia Phillies (-198)",
-      "snapshot": "Atlanta Braves carries an implied win probability of approximately 66.4% based on the listed moneyline.",
+      "headline": "MLB: New York Yankees priced as slight favorite vs Boston Red Sox (-140)",
+      "snapshot": "New York Yankees carries an implied win probability of approximately 58.3% based on the listed moneyline.",
       "cards": [
+        {
+          "id": "mlb-boston-red-sox-at-new-york-yankees",
+          "sport": "MLB",
+          "title": "MLB Betting Market",
+          "headline": "MLB: New York Yankees priced as slight favorite vs Boston Red Sox (-140)",
+          "snapshot": "New York Yankees carries an implied win probability of approximately 58.3% based on the listed moneyline.",
+          "matchup": "Boston Red Sox at New York Yankees",
+          "start_time": "8:10 PM ET",
+          "bookmaker": "DraftKings",
+          "key_data": [
+            "Favorite: New York Yankees -140 (58.3% implied).",
+            "Spread: Boston Red Sox +1.5 (-193) / New York Yankees -1.5 (+159).",
+            "Total: +6 (Over -116 / Under -104); lower run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward New York Yankees before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 105,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/mlb/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "MLB",
+            "away_team": "Boston Red Sox",
+            "home_team": "New York Yankees",
+            "matchup": "Boston Red Sox at New York Yankees",
+            "start_time": "8:10 PM ET",
+            "bookmaker": "DraftKings",
+            "moneyline": {
+              "away_price": 116,
+              "home_price": -140,
+              "away_price_text": "+116",
+              "home_price_text": "-140",
+              "away_implied_probability": 0.46296296296296297,
+              "home_implied_probability": 0.5833333333333334
+            },
+            "spread": {
+              "away_point": 1.5,
+              "home_point": -1.5,
+              "away_point_text": "+1.5",
+              "home_point_text": "-1.5",
+              "away_price": -193,
+              "home_price": 159,
+              "away_price_text": "-193",
+              "home_price_text": "+159"
+            },
+            "total": {
+              "point": 6.0,
+              "point_text": "+6",
+              "over_price": -116,
+              "under_price": -104,
+              "over_price_text": "-116",
+              "under_price_text": "-104",
+              "environment": "lower run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/mlb/scoreboard"
+          },
+          "updated_at": "2026-09-29 02:04:48 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        },
         {
           "id": "mlb-philadelphia-phillies-at-atlanta-braves",
           "sport": "MLB",
           "title": "MLB Betting Market",
-          "headline": "MLB: Atlanta Braves priced as clear favorite vs Philadelphia Phillies (-198)",
-          "snapshot": "Atlanta Braves carries an implied win probability of approximately 66.4% based on the listed moneyline.",
+          "headline": "MLB: Atlanta Braves priced as clear favorite vs Philadelphia Phillies (-192)",
+          "snapshot": "Atlanta Braves carries an implied win probability of approximately 65.8% based on the listed moneyline.",
           "matchup": "Philadelphia Phillies at Atlanta Braves",
-          "start_time": "2:00 PM ET",
+          "start_time": "2:10 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Atlanta Braves -198 (66.4% implied).",
-            "Spread: Philadelphia Phillies +1.5 (-142) / Atlanta Braves -1.5 (+118).",
-            "Total: +6.5 (Over -122 / Under +102); higher-scoring hockey environment."
+            "Favorite: Atlanta Braves -192 (65.8% implied).",
+            "Spread: Philadelphia Phillies +1.5 (-143) / Atlanta Braves -1.5 (+118).",
+            "Total: +6.5 (Over -121 / Under +100); higher-scoring hockey environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward Atlanta Braves before lineup, injury and late-news adjustments.",
@@ -1459,111 +1531,39 @@
             "away_team": "Philadelphia Phillies",
             "home_team": "Atlanta Braves",
             "matchup": "Philadelphia Phillies at Atlanta Braves",
-            "start_time": "2:00 PM ET",
+            "start_time": "2:10 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 163,
-              "home_price": -198,
-              "away_price_text": "+163",
-              "home_price_text": "-198",
-              "away_implied_probability": 0.38022813688212925,
-              "home_implied_probability": 0.6644295302013423
+              "away_price": 158,
+              "home_price": -192,
+              "away_price_text": "+158",
+              "home_price_text": "-192",
+              "away_implied_probability": 0.3875968992248062,
+              "home_implied_probability": 0.6575342465753424
             },
             "spread": {
               "away_point": 1.5,
               "home_point": -1.5,
               "away_point_text": "+1.5",
               "home_point_text": "-1.5",
-              "away_price": -142,
+              "away_price": -143,
               "home_price": 118,
-              "away_price_text": "-142",
+              "away_price_text": "-143",
               "home_price_text": "+118"
             },
             "total": {
               "point": 6.5,
               "point_text": "+6.5",
-              "over_price": -122,
-              "under_price": 102,
-              "over_price_text": "-122",
-              "under_price_text": "+102",
+              "over_price": -121,
+              "under_price": 100,
+              "over_price_text": "-121",
+              "under_price_text": "+100",
               "environment": "higher-scoring hockey environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/mlb/scoreboard"
           },
-          "updated_at": "2026-09-28 03:40:36 PM ET",
-          "verified_markets": [
-            "moneyline",
-            "spread",
-            "total"
-          ]
-        },
-        {
-          "id": "mlb-boston-red-sox-at-new-york-yankees",
-          "sport": "MLB",
-          "title": "MLB Betting Market",
-          "headline": "MLB: New York Yankees priced as slight favorite vs Boston Red Sox (-142)",
-          "snapshot": "New York Yankees carries an implied win probability of approximately 58.7% based on the listed moneyline.",
-          "matchup": "Boston Red Sox at New York Yankees",
-          "start_time": "8:10 PM ET",
-          "bookmaker": "DraftKings",
-          "key_data": [
-            "Favorite: New York Yankees -142 (58.7% implied).",
-            "Spread: Boston Red Sox +1.5 (-197) / New York Yankees -1.5 (+162).",
-            "Total: +6.5 (Over -103 / Under -117); higher-scoring hockey environment."
-          ],
-          "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward New York Yankees before lineup, injury and late-news adjustments.",
-            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-          ],
-          "what_to_watch": [
-            "Line movement after injury, lineup, weather or starting-goalie news.",
-            "Whether the favorite price gets shorter or drifts back toward the underdog.",
-            "Whether the total moves enough to change the expected game environment."
-          ],
-          "priority_score": 97,
-          "story_type": "market_signal",
-          "url": "https://www.espn.com/mlb/scoreboard",
-          "source_label": "The Odds API v4",
-          "market": {
-            "sport": "MLB",
-            "away_team": "Boston Red Sox",
-            "home_team": "New York Yankees",
-            "matchup": "Boston Red Sox at New York Yankees",
-            "start_time": "8:10 PM ET",
-            "bookmaker": "DraftKings",
-            "moneyline": {
-              "away_price": 118,
-              "home_price": -142,
-              "away_price_text": "+118",
-              "home_price_text": "-142",
-              "away_implied_probability": 0.45871559633027525,
-              "home_implied_probability": 0.5867768595041323
-            },
-            "spread": {
-              "away_point": 1.5,
-              "home_point": -1.5,
-              "away_point_text": "+1.5",
-              "home_point_text": "-1.5",
-              "away_price": -197,
-              "home_price": 162,
-              "away_price_text": "-197",
-              "home_price_text": "+162"
-            },
-            "total": {
-              "point": 6.5,
-              "point_text": "+6.5",
-              "over_price": -103,
-              "under_price": -117,
-              "over_price_text": "-103",
-              "under_price_text": "-117",
-              "environment": "higher-scoring hockey environment"
-            },
-            "has_pricing": true,
-            "url": "https://www.espn.com/mlb/scoreboard"
-          },
-          "updated_at": "2026-09-28 03:40:36 PM ET",
+          "updated_at": "2026-09-29 02:04:48 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1573,18 +1573,18 @@
       ],
       "source_label": "The Odds API v4",
       "url": "https://www.espn.com/mlb/scoreboard",
-      "updated_at": "2026-09-28T19:40:36.277480Z"
+      "updated_at": "2026-09-29T18:04:48.593817Z"
     }
   },
   "disclaimer": "This report is an automated betting-market summary intended to support, not replace, human sports journalism. It is not betting advice.",
   "site_name": "Global Betting Report",
-  "generated_utc": "2026-09-28T19:40:36.277480Z",
-  "verified_at": "2026-09-28T19:40:36.277480Z",
+  "generated_utc": "2026-09-29T18:04:48.593817Z",
+  "verified_at": "2026-09-29T18:04:48.593817Z",
   "source_mode": "the_odds_api_v4_daily",
   "verification": {
     "status": "verified",
     "provider": "The Odds API v4",
-    "verified_at": "2026-09-28T19:40:36.277480Z",
+    "verified_at": "2026-09-29T18:04:48.593817Z",
     "sports": [
       "NFL",
       "College Football",
@@ -1597,7 +1597,7 @@
     ],
     "region": "us",
     "total_verified_events": 12,
-    "credits_before_run": 428,
+    "credits_before_run": 419,
     "estimated_credits_used": 9
   }
 }
