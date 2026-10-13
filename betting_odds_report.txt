@@ -1,19 +1,19 @@
-BETTING ODDS REPORT | 2026-10-12
+BETTING ODDS REPORT | 2026-10-13
 
 HEADLINE
-NFL: Indianapolis Colts priced as heavy favorite vs Tennessee Titans (-340)
+NFL: Indianapolis Colts priced as heavy favorite vs Tennessee Titans (-325)
 
 SNAPSHOT
 A full multi-league betting board is live, giving the desk enough volume to compare favorites, totals and matchup pricing.
 
 KEY DATA
-- Total games checked: 76
+- Total games checked: 78
 - Market cards generated: 12
 - Odds API key found: True
 
 EDITORIAL SIGNALS
-- Lead market: NFL: Indianapolis Colts priced as heavy favorite vs Tennessee Titans (-340)
-- Total games checked: 76.
+- Lead market: NFL: Indianapolis Colts priced as heavy favorite vs Tennessee Titans (-325)
+- Total games checked: 78.
 - Cards prioritize implied probability, expected margin and scoring environment instead of raw odds alone.
 - Betting context should remain descriptive and journalist-facing, not prescriptive wagering advice.
 - Active sports on board: College Football, MLB, NFL.
@@ -26,21 +26,11 @@ A full multi-league betting board is live, giving the desk enough volume to comp
 NFL
 TOP BOARD
 
-Buffalo Bills at Los Angeles Rams — 8:15 PM ET
-Bookmaker: DraftKings
-Moneyline: Buffalo Bills +145 / Los Angeles Rams -175
-Spread: Buffalo Bills +3.5 (-118) / Los Angeles Rams -3.5 (-102)
-Total: +54.5 (Over -118 / Under -102)
-Market read:
-- Los Angeles Rams carries an implied win probability of approximately 63.6% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Los Angeles Rams before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
-
 Seattle Seahawks at Denver Broncos — 8:15 PM ET
 Bookmaker: DraftKings
 Moneyline: Seattle Seahawks -148 / Denver Broncos +124
-Spread: Seattle Seahawks -3 (-105) / Denver Broncos +3 (-115)
-Total: +40.5 (Over -118 / Under -102)
+Spread: Seattle Seahawks -2.5 (-115) / Denver Broncos +2.5 (-105)
+Total: +40.5 (Over -112 / Under -108)
 Market read:
 - Seattle Seahawks carries an implied win probability of approximately 59.7% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Seattle Seahawks before lineup, injury and late-news adjustments.
@@ -58,21 +48,21 @@ Market read:
 
 Chicago Bears at Atlanta Falcons — 1:00 PM ET
 Bookmaker: DraftKings
-Moneyline: Chicago Bears -175 / Atlanta Falcons +145
+Moneyline: Chicago Bears -180 / Atlanta Falcons +150
 Spread: Chicago Bears -3 (-120) / Atlanta Falcons +3 (+100)
-Total: +48.5 (Over -112 / Under -108)
+Total: +49.5 (Over -108 / Under -112)
 Market read:
-- Chicago Bears carries an implied win probability of approximately 63.6% based on the listed moneyline.
+- Chicago Bears carries an implied win probability of approximately 64.3% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Chicago Bears before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 Baltimore Ravens at Cleveland Browns — 1:00 PM ET
 Bookmaker: DraftKings
-Moneyline: Baltimore Ravens -238 / Cleveland Browns +195
-Spread: Baltimore Ravens -4.5 (-105) / Cleveland Browns +4.5 (-115)
-Total: +40.5 (Over -115 / Under -105)
+Moneyline: Baltimore Ravens -245 / Cleveland Browns +200
+Spread: Baltimore Ravens -4.5 (-112) / Cleveland Browns +4.5 (-108)
+Total: +41.5 (Over -108 / Under -112)
 Market read:
-- Baltimore Ravens carries an implied win probability of approximately 70.4% based on the listed moneyline.
+- Baltimore Ravens carries an implied win probability of approximately 71.0% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Baltimore Ravens before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
@@ -80,7 +70,7 @@ Carolina Panthers at Philadelphia Eagles — 1:00 PM ET
 Bookmaker: DraftKings
 Moneyline: Carolina Panthers -105 / Philadelphia Eagles -115
 Spread: Carolina Panthers +1.5 (-115) / Philadelphia Eagles -1.5 (-105)
-Total: +41.5 (Over -115 / Under -105)
+Total: +40.5 (Over -110 / Under -110)
 Market read:
 - Philadelphia Eagles carries an implied win probability of approximately 53.5% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Philadelphia Eagles before lineup, injury and late-news adjustments.
@@ -88,22 +78,32 @@ Market read:
 
 Tennessee Titans at Indianapolis Colts — 1:00 PM ET
 Bookmaker: DraftKings
-Moneyline: Tennessee Titans +270 / Indianapolis Colts -340
+Moneyline: Tennessee Titans +260 / Indianapolis Colts -325
 Spread: Tennessee Titans +7 (-112) / Indianapolis Colts -7 (-108)
 Total: +44.5 (Over -102 / Under -118)
 Market read:
-- Indianapolis Colts carries an implied win probability of approximately 77.3% based on the listed moneyline.
+- Indianapolis Colts carries an implied win probability of approximately 76.5% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Indianapolis Colts before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 New York Jets at New England Patriots — 1:00 PM ET
 Bookmaker: DraftKings
-Moneyline: New York Jets +260 / New England Patriots -325
-Spread: New York Jets +7 (-108) / New England Patriots -7 (-112)
+Moneyline: New York Jets +300 / New England Patriots -380
+Spread: New York Jets +7.5 (-115) / New England Patriots -7.5 (-105)
 Total: +43.5 (Over -115 / Under -105)
 Market read:
-- New England Patriots carries an implied win probability of approximately 76.5% based on the listed moneyline.
+- New England Patriots carries an implied win probability of approximately 79.2% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward New England Patriots before lineup, injury and late-news adjustments.
+- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+
+New Orleans Saints at New York Giants — 1:00 PM ET
+Bookmaker: DraftKings
+Moneyline: New Orleans Saints -115 / New York Giants -105
+Spread: New Orleans Saints -1.5 (+105) / New York Giants +1.5 (-125)
+Total: +45.5 (Over -108 / Under -112)
+Market read:
+- New Orleans Saints carries an implied win probability of approximately 53.5% based on the listed moneyline.
+- The moneyline shows how strongly the market is leaning toward New Orleans Saints before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 College Football
@@ -111,21 +111,21 @@ TOP BOARD
 
 Delaware Blue Hens at Middle Tennessee Blue Raiders — 7:00 PM ET
 Bookmaker: FanDuel
-Moneyline: Delaware Blue Hens -120 / Middle Tennessee Blue Raiders +100
-Spread: Delaware Blue Hens -1.5 (-110) / Middle Tennessee Blue Raiders +1.5 (-110)
-Total: +47.5 (Over -110 / Under -110)
+Moneyline: Delaware Blue Hens -114 / Middle Tennessee Blue Raiders -105
+Spread: Delaware Blue Hens -1.5 (-106) / Middle Tennessee Blue Raiders +1.5 (-114)
+Total: +48.5 (Over -114 / Under -106)
 Market read:
-- Delaware Blue Hens carries an implied win probability of approximately 54.5% based on the listed moneyline.
+- Delaware Blue Hens carries an implied win probability of approximately 53.3% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Delaware Blue Hens before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 Florida International Panthers at Jacksonville State Gamecocks — 8:00 PM ET
 Bookmaker: FanDuel
-Moneyline: Florida International Panthers +122 / Jacksonville State Gamecocks -146
-Spread: Florida International Panthers +2.5 (+100) / Jacksonville State Gamecocks -2.5 (-122)
-Total: +43.5 (Over -108 / Under -112)
+Moneyline: Florida International Panthers +128 / Jacksonville State Gamecocks -154
+Spread: Florida International Panthers +2.5 (+102) / Jacksonville State Gamecocks -2.5 (-124)
+Total: +43.5 (Over -110 / Under -110)
 Market read:
-- Jacksonville State Gamecocks carries an implied win probability of approximately 59.3% based on the listed moneyline.
+- Jacksonville State Gamecocks carries an implied win probability of approximately 60.6% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Jacksonville State Gamecocks before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
@@ -133,7 +133,7 @@ Kennesaw State Owls at Missouri State Bears — 7:30 PM ET
 Bookmaker: FanDuel
 Moneyline: Kennesaw State Owls -152 / Missouri State Bears +126
 Spread: Kennesaw State Owls -3.5 (+100) / Missouri State Bears +3.5 (-122)
-Total: +51.5 (Over -104 / Under -118)
+Total: +51.5 (Over -110 / Under -110)
 Market read:
 - Kennesaw State Owls carries an implied win probability of approximately 60.3% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Kennesaw State Owls before lineup, injury and late-news adjustments.
@@ -141,79 +141,79 @@ Market read:
 
 Western Kentucky Hilltoppers at Sam Houston State Bearkats — 8:00 PM ET
 Bookmaker: FanDuel
-Moneyline: Western Kentucky Hilltoppers -114 / Sam Houston State Bearkats -105
-Spread: Western Kentucky Hilltoppers -1.5 (-106) / Sam Houston State Bearkats +1.5 (-114)
-Total: +52.5 (Over -112 / Under -108)
+Moneyline: Western Kentucky Hilltoppers -111 / Sam Houston State Bearkats -108
+Spread: Western Kentucky Hilltoppers +1.5 (-120) / Sam Houston State Bearkats -1.5 (-102)
+Total: +52.5 (Over -120 / Under -102)
 Market read:
-- Western Kentucky Hilltoppers carries an implied win probability of approximately 53.3% based on the listed moneyline.
+- Western Kentucky Hilltoppers carries an implied win probability of approximately 52.6% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Western Kentucky Hilltoppers before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 East Carolina Pirates at UAB Blazers — 7:30 PM ET
 Bookmaker: FanDuel
-Moneyline: East Carolina Pirates -194 / UAB Blazers +158
-Spread: East Carolina Pirates -4.5 (-110) / UAB Blazers +4.5 (-110)
+Moneyline: East Carolina Pirates -182 / UAB Blazers +150
+Spread: East Carolina Pirates -4.5 (-105) / UAB Blazers +4.5 (-115)
 Total: +47.5 (Over -112 / Under -108)
 Market read:
-- East Carolina Pirates carries an implied win probability of approximately 66.0% based on the listed moneyline.
+- East Carolina Pirates carries an implied win probability of approximately 64.5% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward East Carolina Pirates before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 Georgia Southern Eagles at Old Dominion Monarchs — 7:30 PM ET
 Bookmaker: FanDuel
-Moneyline: Georgia Southern Eagles -176 / Old Dominion Monarchs +146
+Moneyline: Georgia Southern Eagles -182 / Old Dominion Monarchs +150
 Spread: Georgia Southern Eagles -3.5 (-110) / Old Dominion Monarchs +3.5 (-110)
-Total: +48.5 (Over -106 / Under -114)
+Total: +47.5 (Over -110 / Under -110)
 Market read:
-- Georgia Southern Eagles carries an implied win probability of approximately 63.8% based on the listed moneyline.
+- Georgia Southern Eagles carries an implied win probability of approximately 64.5% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Georgia Southern Eagles before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 Colorado State Rams at Texas State Bobcats — 8:00 PM ET
 Bookmaker: FanDuel
-Moneyline: Colorado State Rams +450 / Texas State Bobcats -630
-Spread: Colorado State Rams +13.5 (+100) / Texas State Bobcats -13.5 (-122)
-Total: +70.5 (Over -115 / Under -105)
+Moneyline: Colorado State Rams +460 / Texas State Bobcats -650
+Spread: Colorado State Rams +14.5 (-115) / Texas State Bobcats -14.5 (-105)
+Total: +69.5 (Over -112 / Under -108)
 Market read:
-- Texas State Bobcats carries an implied win probability of approximately 86.3% based on the listed moneyline.
+- Texas State Bobcats carries an implied win probability of approximately 86.7% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Texas State Bobcats before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 Memphis Tigers at Tulane Green Wave — 7:30 PM ET
 Bookmaker: FanDuel
-Moneyline: Memphis Tigers -260 / Tulane Green Wave +210
-Spread: Memphis Tigers -6.5 (-120) / Tulane Green Wave +6.5 (-102)
-Total: +53.5 (Over -110 / Under -110)
+Moneyline: Memphis Tigers -275 / Tulane Green Wave +220
+Spread: Memphis Tigers -7.5 (+100) / Tulane Green Wave +7.5 (-122)
+Total: +55.5 (Over -108 / Under -112)
 Market read:
-- Memphis Tigers carries an implied win probability of approximately 72.2% based on the listed moneyline.
+- Memphis Tigers carries an implied win probability of approximately 73.3% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Memphis Tigers before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 MLB
 TOP BOARD
 
-Los Angeles Dodgers at Milwaukee Brewers — 5:10 PM ET
-Bookmaker: FanDuel
-Moneyline: Los Angeles Dodgers -192 / Milwaukee Brewers +148
-Spread: Los Angeles Dodgers -1.5 (-102) / Milwaukee Brewers +1.5 (-130)
-Total: +7.5 (Over +108 / Under -144)
-Market read:
-- Los Angeles Dodgers carries an implied win probability of approximately 65.8% based on the listed moneyline.
-- The moneyline shows how strongly the market is leaning toward Los Angeles Dodgers before lineup, injury and late-news adjustments.
-- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
-
 Cleveland Guardians at Tampa Bay Rays — 8:00 PM ET
 Bookmaker: FanDuel
-Moneyline: Cleveland Guardians +144 / Tampa Bay Rays -172
-Spread: Cleveland Guardians +1.5 (-156) / Tampa Bay Rays -1.5 (+130)
-Total: +6.5 (Over -122 / Under +100)
+Moneyline: Cleveland Guardians +112 / Tampa Bay Rays -132
+Spread: Cleveland Guardians +1.5 (-200) / Tampa Bay Rays -1.5 (+164)
+Total: +6.5 (Over -132 / Under +108)
 Market read:
-- Tampa Bay Rays carries an implied win probability of approximately 63.2% based on the listed moneyline.
+- Tampa Bay Rays carries an implied win probability of approximately 56.9% based on the listed moneyline.
 - The moneyline shows how strongly the market is leaning toward Tampa Bay Rays before lineup, injury and late-news adjustments.
+- The spread gives reporters a cleaner read on expected margin than the moneyline alone.
+
+Milwaukee Brewers at Los Angeles Dodgers — 8:00 PM ET
+Bookmaker: FanDuel
+Moneyline: Milwaukee Brewers +150 / Los Angeles Dodgers -178
+Spread: Milwaukee Brewers +1.5 (-152) / Los Angeles Dodgers -1.5 (+126)
+Total: +7.5 (Over -104 / Under -118)
+Market read:
+- Los Angeles Dodgers carries an implied win probability of approximately 64.0% based on the listed moneyline.
+- The moneyline shows how strongly the market is leaning toward Los Angeles Dodgers before lineup, injury and late-news adjustments.
 - The spread gives reporters a cleaner read on expected margin than the moneyline alone.
 
 BETTING MARKET NOTE
 Odds are a market signal, not a prediction guarantee. Moneylines show implied win probability, spreads show expected margin, and totals frame the scoring environment. Lines may move quickly and can vary by sportsbook.
 
 This report is an automated betting-market summary intended to support, not replace, human sports journalism. It is not betting advice.
-Generated: 2026-10-12 05:16:07 PM ET
+Generated: 2026-10-13 03:16:49 PM ET
