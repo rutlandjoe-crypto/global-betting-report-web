@@ -2,18 +2,18 @@
   "site": "Global Betting Report",
   "vertical": "Betting",
   "title": "Global Betting Report",
-  "headline": "NFL: Houston Texans priced as heavy favorite vs New York Giants (-535)",
+  "headline": "NFL: Houston Texans priced as heavy favorite vs New York Giants (-520)",
   "snapshot": "A full multi-league betting board is live, giving the desk enough volume to compare favorites, totals and matchup pricing.",
-  "updated_at": "2026-10-21T17:11:18.852618Z",
-  "generated_at": "2026-10-21T17:11:18.852618Z",
+  "updated_at": "2026-10-22T17:09:41.715525Z",
+  "generated_at": "2026-10-22T17:09:41.715525Z",
   "freshness": {
-    "last_checked": "2026-10-21 01:11:18 PM ET",
+    "last_checked": "2026-10-22 01:09:41 PM ET",
     "sports_checked": [
       "NFL",
       "College Football",
       "MLB"
     ],
-    "total_games_checked": 83,
+    "total_games_checked": 93,
     "total_market_cards": 11,
     "odds_api_key_found": true,
     "source": "The Odds API v4"
@@ -33,15 +33,15 @@
   },
   "live_newsroom": [
     {
-      "headline": "NFL: Houston Texans priced as heavy favorite vs New York Giants (-535)",
-      "snapshot": "Houston Texans carries an implied win probability of approximately 84.3% based on the listed moneyline.",
+      "headline": "NFL: Houston Texans priced as heavy favorite vs New York Giants (-520)",
+      "snapshot": "Houston Texans carries an implied win probability of approximately 83.9% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/nfl/scoreboard",
       "league": "NFL",
       "key_data": [
-        "Favorite: Houston Texans -535 (84.3% implied).",
-        "Spread: New York Giants +10 (-108) / Houston Texans -10 (-112).",
-        "Total: +42.5 (Over -118 / Under -102); elevated run-scoring baseball environment."
+        "Favorite: Houston Texans -520 (83.9% implied).",
+        "Spread: New York Giants +10.5 (-112) / Houston Texans -10.5 (-108).",
+        "Total: +42.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Houston Texans before lineup, injury and late-news adjustments.",
@@ -53,17 +53,17 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-21 01:11:18 PM ET"
+      "updated_at": "2026-10-22 01:09:41 PM ET"
     },
     {
-      "headline": "College Football: James Madison Dukes priced as heavy favorite vs Appalachian State Mountaineers (-410)",
-      "snapshot": "James Madison Dukes carries an implied win probability of approximately 80.4% based on the listed moneyline.",
+      "headline": "College Football: James Madison Dukes priced as heavy favorite vs Appalachian State Mountaineers (-465)",
+      "snapshot": "James Madison Dukes carries an implied win probability of approximately 82.3% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
       "league": "College Football",
       "key_data": [
-        "Favorite: James Madison Dukes -410 (80.4% implied).",
-        "Spread: James Madison Dukes -10.5 (-108) / Appalachian State Mountaineers +10.5 (-112).",
+        "Favorite: James Madison Dukes -465 (82.3% implied).",
+        "Spread: James Madison Dukes -11.5 (-112) / Appalachian State Mountaineers +11.5 (-108).",
         "Total: +56.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -76,17 +76,17 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-21 01:11:18 PM ET"
+      "updated_at": "2026-10-22 01:09:41 PM ET"
     },
     {
-      "headline": "College Football: Liberty Flames priced as heavy favorite vs Kennesaw State Owls (-385)",
-      "snapshot": "Liberty Flames carries an implied win probability of approximately 79.4% based on the listed moneyline.",
+      "headline": "College Football: Liberty Flames priced as heavy favorite vs Kennesaw State Owls (-365)",
+      "snapshot": "Liberty Flames carries an implied win probability of approximately 78.5% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
       "league": "College Football",
       "key_data": [
-        "Favorite: Liberty Flames -385 (79.4% implied).",
-        "Spread: Liberty Flames -10.5 (+100) / Kennesaw State Owls +10.5 (-122).",
+        "Favorite: Liberty Flames -365 (78.5% implied).",
+        "Spread: Liberty Flames -9.5 (-110) / Kennesaw State Owls +9.5 (-110).",
         "Total: +50.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -99,17 +99,17 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-21 01:11:18 PM ET"
+      "updated_at": "2026-10-22 01:09:41 PM ET"
     },
     {
-      "headline": "College Football: Memphis Tigers priced as heavy favorite vs East Carolina Pirates (-365)",
-      "snapshot": "Memphis Tigers carries an implied win probability of approximately 78.5% based on the listed moneyline.",
+      "headline": "College Football: Memphis Tigers priced as heavy favorite vs East Carolina Pirates (-430)",
+      "snapshot": "Memphis Tigers carries an implied win probability of approximately 81.1% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
       "league": "College Football",
       "key_data": [
-        "Favorite: Memphis Tigers -365 (78.5% implied).",
-        "Spread: East Carolina Pirates +10.5 (-122) / Memphis Tigers -10.5 (+100).",
+        "Favorite: Memphis Tigers -430 (81.1% implied).",
+        "Spread: East Carolina Pirates +10.5 (-112) / Memphis Tigers -10.5 (-108).",
         "Total: +54.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -122,18 +122,18 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-21 01:11:18 PM ET"
+      "updated_at": "2026-10-22 01:09:41 PM ET"
     },
     {
-      "headline": "College Football: UConn Huskies priced as heavy favorite vs UMass Minutemen (-720)",
-      "snapshot": "UConn Huskies carries an implied win probability of approximately 87.8% based on the listed moneyline.",
+      "headline": "College Football: UConn Huskies priced as heavy favorite vs UMass Minutemen (-780)",
+      "snapshot": "UConn Huskies carries an implied win probability of approximately 88.6% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
       "league": "College Football",
       "key_data": [
-        "Favorite: UConn Huskies -720 (87.8% implied).",
+        "Favorite: UConn Huskies -780 (88.6% implied).",
         "Spread: UMass Minutemen +14.5 (-110) / UConn Huskies -14.5 (-110).",
-        "Total: +50.5 (Over -106 / Under -114); elevated run-scoring baseball environment."
+        "Total: +50.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward UConn Huskies before lineup, injury and late-news adjustments.",
@@ -145,39 +145,16 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-21 01:11:18 PM ET"
+      "updated_at": "2026-10-22 01:09:41 PM ET"
     },
     {
-      "headline": "NFL: Pittsburgh Steelers priced as clear favorite vs New Orleans Saints (-185)",
-      "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 64.9% based on the listed moneyline.",
+      "headline": "NFL: Minnesota Vikings priced as heavy favorite vs Indianapolis Colts (-278)",
+      "snapshot": "Minnesota Vikings carries an implied win probability of approximately 73.5% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/nfl/scoreboard",
       "league": "NFL",
       "key_data": [
-        "Favorite: Pittsburgh Steelers -185 (64.9% implied).",
-        "Spread: Pittsburgh Steelers -3.5 (-102) / New Orleans Saints +3.5 (-118).",
-        "Total: +44.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
-      ],
-      "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Pittsburgh Steelers before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-      ],
-      "what_to_watch": [
-        "Line movement after injury, lineup, weather or starting-goalie news.",
-        "Whether the favorite price gets shorter or drifts back toward the underdog.",
-        "Whether the total moves enough to change the expected game environment."
-      ],
-      "updated_at": "2026-10-21 01:11:18 PM ET"
-    },
-    {
-      "headline": "NFL: Minnesota Vikings priced as heavy favorite vs Indianapolis Colts (-290)",
-      "snapshot": "Minnesota Vikings carries an implied win probability of approximately 74.4% based on the listed moneyline.",
-      "source": "The Odds API v4",
-      "url": "https://www.espn.com/nfl/scoreboard",
-      "league": "NFL",
-      "key_data": [
-        "Favorite: Minnesota Vikings -290 (74.4% implied).",
+        "Favorite: Minnesota Vikings -278 (73.5% implied).",
         "Spread: Indianapolis Colts +6.5 (-112) / Minnesota Vikings -6.5 (-108).",
         "Total: +41.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
@@ -191,18 +168,18 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-21 01:11:18 PM ET"
+      "updated_at": "2026-10-22 01:09:41 PM ET"
     },
     {
-      "headline": "College Football: Air Force Falcons priced as clear favorite vs Wyoming Cowboys (-194)",
-      "snapshot": "Air Force Falcons carries an implied win probability of approximately 66.0% based on the listed moneyline.",
+      "headline": "College Football: Air Force Falcons priced as heavy favorite vs Wyoming Cowboys (-220)",
+      "snapshot": "Air Force Falcons carries an implied win probability of approximately 68.8% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
       "league": "College Football",
       "key_data": [
-        "Favorite: Air Force Falcons -194 (66.0% implied).",
-        "Spread: Air Force Falcons -4.5 (-110) / Wyoming Cowboys +4.5 (-110).",
-        "Total: +44.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+        "Favorite: Air Force Falcons -220 (68.8% implied).",
+        "Spread: Air Force Falcons -5.5 (-110) / Wyoming Cowboys +5.5 (-110).",
+        "Total: +45.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Air Force Falcons before lineup, injury and late-news adjustments.",
@@ -214,21 +191,21 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-21 01:11:18 PM ET"
+      "updated_at": "2026-10-22 01:09:41 PM ET"
     },
     {
-      "headline": "NFL: Carolina Panthers priced as clear favorite vs Tampa Bay Buccaneers (-175)",
-      "snapshot": "Carolina Panthers carries an implied win probability of approximately 63.6% based on the listed moneyline.",
+      "headline": "NFL: Pittsburgh Steelers priced as clear favorite vs New Orleans Saints (-175)",
+      "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 63.6% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/nfl/scoreboard",
       "league": "NFL",
       "key_data": [
-        "Favorite: Carolina Panthers -175 (63.6% implied).",
-        "Spread: Tampa Bay Buccaneers +3.5 (-115) / Carolina Panthers -3.5 (-105).",
+        "Favorite: Pittsburgh Steelers -175 (63.6% implied).",
+        "Spread: Pittsburgh Steelers -3.5 (-102) / New Orleans Saints +3.5 (-118).",
         "Total: +44.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Carolina Panthers before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Pittsburgh Steelers before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -237,18 +214,41 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-21 01:11:18 PM ET"
+      "updated_at": "2026-10-22 01:09:41 PM ET"
     },
     {
-      "headline": "NFL: San Francisco 49ers priced as clear favorite vs Atlanta Falcons (-180)",
-      "snapshot": "San Francisco 49ers carries an implied win probability of approximately 64.3% based on the listed moneyline.",
+      "headline": "NFL: Chicago Bears priced as clear favorite vs New England Patriots (-155)",
+      "snapshot": "Chicago Bears carries an implied win probability of approximately 60.8% based on the listed moneyline.",
       "source": "The Odds API v4",
       "url": "https://www.espn.com/nfl/scoreboard",
       "league": "NFL",
       "key_data": [
-        "Favorite: San Francisco 49ers -180 (64.3% implied).",
-        "Spread: San Francisco 49ers -3 (-118) / Atlanta Falcons +3 (-102).",
-        "Total: +50.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+        "Favorite: Chicago Bears -155 (60.8% implied).",
+        "Spread: New England Patriots +3 (-118) / Chicago Bears -3 (-102).",
+        "Total: +50.5 (Over -118 / Under -102); elevated run-scoring baseball environment."
+      ],
+      "why_it_matters": [
+        "The moneyline shows how strongly the market is leaning toward Chicago Bears before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "what_to_watch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "updated_at": "2026-10-22 01:09:41 PM ET"
+    },
+    {
+      "headline": "NFL: San Francisco 49ers priced as slight favorite vs Atlanta Falcons (-148)",
+      "snapshot": "San Francisco 49ers carries an implied win probability of approximately 59.7% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "league": "NFL",
+      "key_data": [
+        "Favorite: San Francisco 49ers -148 (59.7% implied).",
+        "Spread: San Francisco 49ers -2.5 (-118) / Atlanta Falcons +2.5 (-102).",
+        "Total: +49.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward San Francisco 49ers before lineup, injury and late-news adjustments.",
@@ -260,12 +260,12 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-21 01:11:18 PM ET"
+      "updated_at": "2026-10-22 01:09:41 PM ET"
     }
   ],
   "editor_signals": [
-    "Lead market: NFL: Houston Texans priced as heavy favorite vs New York Giants (-535)",
-    "Total games checked: 83.",
+    "Lead market: NFL: Houston Texans priced as heavy favorite vs New York Giants (-520)",
+    "Total games checked: 93.",
     "Cards prioritize implied probability, expected margin and scoring environment instead of raw odds alone.",
     "Betting context should remain descriptive and journalist-facing, not prescriptive wagering advice.",
     "Active sports on board: College Football, MLB, NFL."
@@ -274,14 +274,14 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Houston Texans priced as heavy favorite vs New York Giants (-535)",
-      "snapshot": "Houston Texans carries an implied win probability of approximately 84.3% based on the listed moneyline.",
+      "headline": "NFL: Houston Texans priced as heavy favorite vs New York Giants (-520)",
+      "snapshot": "Houston Texans carries an implied win probability of approximately 83.9% based on the listed moneyline.",
       "url": "https://www.espn.com/nfl/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Houston Texans -535 (84.3% implied).",
-        "Spread: New York Giants +10 (-108) / Houston Texans -10 (-112).",
-        "Total: +42.5 (Over -118 / Under -102); elevated run-scoring baseball environment."
+        "Favorite: Houston Texans -520 (83.9% implied).",
+        "Spread: New York Giants +10.5 (-112) / Houston Texans -10.5 (-108).",
+        "Total: +42.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Houston Texans before lineup, injury and late-news adjustments.",
@@ -295,7 +295,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-10-21 01:11:18 PM ET",
+      "updated_at": "2026-10-22 01:09:41 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -308,13 +308,13 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: James Madison Dukes priced as heavy favorite vs Appalachian State Mountaineers (-410)",
-      "snapshot": "James Madison Dukes carries an implied win probability of approximately 80.4% based on the listed moneyline.",
+      "headline": "College Football: James Madison Dukes priced as heavy favorite vs Appalachian State Mountaineers (-465)",
+      "snapshot": "James Madison Dukes carries an implied win probability of approximately 82.3% based on the listed moneyline.",
       "url": "https://www.espn.com/college-football/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: James Madison Dukes -410 (80.4% implied).",
-        "Spread: James Madison Dukes -10.5 (-108) / Appalachian State Mountaineers +10.5 (-112).",
+        "Favorite: James Madison Dukes -465 (82.3% implied).",
+        "Spread: James Madison Dukes -11.5 (-112) / Appalachian State Mountaineers +11.5 (-108).",
         "Total: +56.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -329,7 +329,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-10-21 01:11:18 PM ET",
+      "updated_at": "2026-10-22 01:09:41 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -342,13 +342,13 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: Liberty Flames priced as heavy favorite vs Kennesaw State Owls (-385)",
-      "snapshot": "Liberty Flames carries an implied win probability of approximately 79.4% based on the listed moneyline.",
+      "headline": "College Football: Liberty Flames priced as heavy favorite vs Kennesaw State Owls (-365)",
+      "snapshot": "Liberty Flames carries an implied win probability of approximately 78.5% based on the listed moneyline.",
       "url": "https://www.espn.com/college-football/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Liberty Flames -385 (79.4% implied).",
-        "Spread: Liberty Flames -10.5 (+100) / Kennesaw State Owls +10.5 (-122).",
+        "Favorite: Liberty Flames -365 (78.5% implied).",
+        "Spread: Liberty Flames -9.5 (-110) / Kennesaw State Owls +9.5 (-110).",
         "Total: +50.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -363,7 +363,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-10-21 01:11:18 PM ET",
+      "updated_at": "2026-10-22 01:09:41 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -376,13 +376,13 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: Memphis Tigers priced as heavy favorite vs East Carolina Pirates (-365)",
-      "snapshot": "Memphis Tigers carries an implied win probability of approximately 78.5% based on the listed moneyline.",
+      "headline": "College Football: Memphis Tigers priced as heavy favorite vs East Carolina Pirates (-430)",
+      "snapshot": "Memphis Tigers carries an implied win probability of approximately 81.1% based on the listed moneyline.",
       "url": "https://www.espn.com/college-football/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Memphis Tigers -365 (78.5% implied).",
-        "Spread: East Carolina Pirates +10.5 (-122) / Memphis Tigers -10.5 (+100).",
+        "Favorite: Memphis Tigers -430 (81.1% implied).",
+        "Spread: East Carolina Pirates +10.5 (-112) / Memphis Tigers -10.5 (-108).",
         "Total: +54.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -397,7 +397,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-10-21 01:11:18 PM ET",
+      "updated_at": "2026-10-22 01:09:41 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -410,14 +410,14 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: UConn Huskies priced as heavy favorite vs UMass Minutemen (-720)",
-      "snapshot": "UConn Huskies carries an implied win probability of approximately 87.8% based on the listed moneyline.",
+      "headline": "College Football: UConn Huskies priced as heavy favorite vs UMass Minutemen (-780)",
+      "snapshot": "UConn Huskies carries an implied win probability of approximately 88.6% based on the listed moneyline.",
       "url": "https://www.espn.com/college-football/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: UConn Huskies -720 (87.8% implied).",
+        "Favorite: UConn Huskies -780 (88.6% implied).",
         "Spread: UMass Minutemen +14.5 (-110) / UConn Huskies -14.5 (-110).",
-        "Total: +50.5 (Over -106 / Under -114); elevated run-scoring baseball environment."
+        "Total: +50.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward UConn Huskies before lineup, injury and late-news adjustments.",
@@ -431,7 +431,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-10-21 01:11:18 PM ET",
+      "updated_at": "2026-10-22 01:09:41 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -444,46 +444,12 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Pittsburgh Steelers priced as clear favorite vs New Orleans Saints (-185)",
-      "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 64.9% based on the listed moneyline.",
+      "headline": "NFL: Minnesota Vikings priced as heavy favorite vs Indianapolis Colts (-278)",
+      "snapshot": "Minnesota Vikings carries an implied win probability of approximately 73.5% based on the listed moneyline.",
       "url": "https://www.espn.com/nfl/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Pittsburgh Steelers -185 (64.9% implied).",
-        "Spread: Pittsburgh Steelers -3.5 (-102) / New Orleans Saints +3.5 (-118).",
-        "Total: +44.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
-      ],
-      "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Pittsburgh Steelers before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-      ],
-      "what_to_watch": [
-        "Line movement after injury, lineup, weather or starting-goalie news.",
-        "Whether the favorite price gets shorter or drifts back toward the underdog.",
-        "Whether the total moves enough to change the expected game environment."
-      ],
-      "priority_score": 120,
-      "story_type": "market_signal",
-      "updated_at": "2026-10-21 01:11:18 PM ET",
-      "verified_markets": [
-        "moneyline",
-        "spread",
-        "total"
-      ],
-      "bookmaker": "DraftKings",
-      "matchup": "Pittsburgh Steelers at New Orleans Saints",
-      "start_time": "9:30 AM ET"
-    },
-    {
-      "league": "NFL",
-      "title": "NFL Betting Market",
-      "headline": "NFL: Minnesota Vikings priced as heavy favorite vs Indianapolis Colts (-290)",
-      "snapshot": "Minnesota Vikings carries an implied win probability of approximately 74.4% based on the listed moneyline.",
-      "url": "https://www.espn.com/nfl/scoreboard",
-      "source_label": "The Odds API v4",
-      "key_data": [
-        "Favorite: Minnesota Vikings -290 (74.4% implied).",
+        "Favorite: Minnesota Vikings -278 (73.5% implied).",
         "Spread: Indianapolis Colts +6.5 (-112) / Minnesota Vikings -6.5 (-108).",
         "Total: +41.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
@@ -499,7 +465,7 @@
       ],
       "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-10-21 01:11:18 PM ET",
+      "updated_at": "2026-10-22 01:09:41 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -512,14 +478,14 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: Air Force Falcons priced as clear favorite vs Wyoming Cowboys (-194)",
-      "snapshot": "Air Force Falcons carries an implied win probability of approximately 66.0% based on the listed moneyline.",
+      "headline": "College Football: Air Force Falcons priced as heavy favorite vs Wyoming Cowboys (-220)",
+      "snapshot": "Air Force Falcons carries an implied win probability of approximately 68.8% based on the listed moneyline.",
       "url": "https://www.espn.com/college-football/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Air Force Falcons -194 (66.0% implied).",
-        "Spread: Air Force Falcons -4.5 (-110) / Wyoming Cowboys +4.5 (-110).",
-        "Total: +44.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+        "Favorite: Air Force Falcons -220 (68.8% implied).",
+        "Spread: Air Force Falcons -5.5 (-110) / Wyoming Cowboys +5.5 (-110).",
+        "Total: +45.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Air Force Falcons before lineup, injury and late-news adjustments.",
@@ -533,7 +499,7 @@
       ],
       "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-10-21 01:11:18 PM ET",
+      "updated_at": "2026-10-22 01:09:41 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -546,17 +512,17 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Carolina Panthers priced as clear favorite vs Tampa Bay Buccaneers (-175)",
-      "snapshot": "Carolina Panthers carries an implied win probability of approximately 63.6% based on the listed moneyline.",
+      "headline": "NFL: Pittsburgh Steelers priced as clear favorite vs New Orleans Saints (-175)",
+      "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 63.6% based on the listed moneyline.",
       "url": "https://www.espn.com/nfl/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Carolina Panthers -175 (63.6% implied).",
-        "Spread: Tampa Bay Buccaneers +3.5 (-115) / Carolina Panthers -3.5 (-105).",
+        "Favorite: Pittsburgh Steelers -175 (63.6% implied).",
+        "Spread: Pittsburgh Steelers -3.5 (-102) / New Orleans Saints +3.5 (-118).",
         "Total: +44.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Carolina Panthers before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Pittsburgh Steelers before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -567,27 +533,61 @@
       ],
       "priority_score": 113,
       "story_type": "market_signal",
-      "updated_at": "2026-10-21 01:11:18 PM ET",
+      "updated_at": "2026-10-22 01:09:41 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
         "total"
       ],
       "bookmaker": "DraftKings",
-      "matchup": "Tampa Bay Buccaneers at Carolina Panthers",
-      "start_time": "1:00 PM ET"
+      "matchup": "Pittsburgh Steelers at New Orleans Saints",
+      "start_time": "9:30 AM ET"
     },
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: San Francisco 49ers priced as clear favorite vs Atlanta Falcons (-180)",
-      "snapshot": "San Francisco 49ers carries an implied win probability of approximately 64.3% based on the listed moneyline.",
+      "headline": "NFL: Chicago Bears priced as clear favorite vs New England Patriots (-155)",
+      "snapshot": "Chicago Bears carries an implied win probability of approximately 60.8% based on the listed moneyline.",
       "url": "https://www.espn.com/nfl/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: San Francisco 49ers -180 (64.3% implied).",
-        "Spread: San Francisco 49ers -3 (-118) / Atlanta Falcons +3 (-102).",
-        "Total: +50.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+        "Favorite: Chicago Bears -155 (60.8% implied).",
+        "Spread: New England Patriots +3 (-118) / Chicago Bears -3 (-102).",
+        "Total: +50.5 (Over -118 / Under -102); elevated run-scoring baseball environment."
+      ],
+      "why_it_matters": [
+        "The moneyline shows how strongly the market is leaning toward Chicago Bears before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "what_to_watch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "priority_score": 105,
+      "story_type": "market_signal",
+      "updated_at": "2026-10-22 01:09:41 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "DraftKings",
+      "matchup": "New England Patriots at Chicago Bears",
+      "start_time": "8:15 PM ET"
+    },
+    {
+      "league": "NFL",
+      "title": "NFL Betting Market",
+      "headline": "NFL: San Francisco 49ers priced as slight favorite vs Atlanta Falcons (-148)",
+      "snapshot": "San Francisco 49ers carries an implied win probability of approximately 59.7% based on the listed moneyline.",
+      "url": "https://www.espn.com/nfl/scoreboard",
+      "source_label": "The Odds API v4",
+      "key_data": [
+        "Favorite: San Francisco 49ers -148 (59.7% implied).",
+        "Spread: San Francisco 49ers -2.5 (-118) / Atlanta Falcons +2.5 (-102).",
+        "Total: +49.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward San Francisco 49ers before lineup, injury and late-news adjustments.",
@@ -599,9 +599,9 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "priority_score": 112,
+      "priority_score": 105,
       "story_type": "market_signal",
-      "updated_at": "2026-10-21 01:11:18 PM ET",
+      "updated_at": "2026-10-22 01:09:41 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -614,13 +614,13 @@
     {
       "league": "MLB",
       "title": "MLB Betting Market",
-      "headline": "MLB: Milwaukee Brewers priced as clear favorite vs Tampa Bay Rays (-158)",
-      "snapshot": "Milwaukee Brewers carries an implied win probability of approximately 61.2% based on the listed moneyline.",
+      "headline": "MLB: Milwaukee Brewers priced as clear favorite vs Tampa Bay Rays (-166)",
+      "snapshot": "Milwaukee Brewers carries an implied win probability of approximately 62.4% based on the listed moneyline.",
       "url": "https://www.espn.com/mlb/scoreboard",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Milwaukee Brewers -158 (61.2% implied).",
-        "Spread: Tampa Bay Rays +1.5 (-172) / Milwaukee Brewers -1.5 (+142).",
+        "Favorite: Milwaukee Brewers -166 (62.4% implied).",
+        "Spread: Tampa Bay Rays +1.5 (-170) / Milwaukee Brewers -1.5 (+140).",
         "Total: +6.5 (Over +106 / Under -130); higher-scoring hockey environment."
       ],
       "why_it_matters": [
@@ -635,7 +635,7 @@
       ],
       "priority_score": 97,
       "story_type": "market_signal",
-      "updated_at": "2026-10-21 01:11:18 PM ET",
+      "updated_at": "2026-10-22 01:09:41 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -649,22 +649,22 @@
   "sections": {
     "nfl": {
       "title": "NFL Betting Market",
-      "headline": "NFL: Houston Texans priced as heavy favorite vs New York Giants (-535)",
-      "snapshot": "Houston Texans carries an implied win probability of approximately 84.3% based on the listed moneyline.",
+      "headline": "NFL: Houston Texans priced as heavy favorite vs New York Giants (-520)",
+      "snapshot": "Houston Texans carries an implied win probability of approximately 83.9% based on the listed moneyline.",
       "cards": [
         {
           "id": "nfl-new-york-giants-at-houston-texans",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Houston Texans priced as heavy favorite vs New York Giants (-535)",
-          "snapshot": "Houston Texans carries an implied win probability of approximately 84.3% based on the listed moneyline.",
+          "headline": "NFL: Houston Texans priced as heavy favorite vs New York Giants (-520)",
+          "snapshot": "Houston Texans carries an implied win probability of approximately 83.9% based on the listed moneyline.",
           "matchup": "New York Giants at Houston Texans",
           "start_time": "1:00 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Houston Texans -535 (84.3% implied).",
-            "Spread: New York Giants +10 (-108) / Houston Texans -10 (-112).",
-            "Total: +42.5 (Over -118 / Under -102); elevated run-scoring baseball environment."
+            "Favorite: Houston Texans -520 (83.9% implied).",
+            "Spread: New York Giants +10.5 (-112) / Houston Texans -10.5 (-108).",
+            "Total: +42.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward Houston Texans before lineup, injury and late-news adjustments.",
@@ -688,108 +688,36 @@
             "start_time": "1:00 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 400,
-              "home_price": -535,
-              "away_price_text": "+400",
-              "home_price_text": "-535",
-              "away_implied_probability": 0.2,
-              "home_implied_probability": 0.84251968503937
+              "away_price": 390,
+              "home_price": -520,
+              "away_price_text": "+390",
+              "home_price_text": "-520",
+              "away_implied_probability": 0.20408163265306123,
+              "home_implied_probability": 0.8387096774193549
             },
             "spread": {
-              "away_point": 10.0,
-              "home_point": -10.0,
-              "away_point_text": "+10",
-              "home_point_text": "-10",
-              "away_price": -108,
-              "home_price": -112,
-              "away_price_text": "-108",
-              "home_price_text": "-112"
+              "away_point": 10.5,
+              "home_point": -10.5,
+              "away_point_text": "+10.5",
+              "home_point_text": "-10.5",
+              "away_price": -112,
+              "home_price": -108,
+              "away_price_text": "-112",
+              "home_price_text": "-108"
             },
             "total": {
               "point": 42.5,
               "point_text": "+42.5",
-              "over_price": -118,
-              "under_price": -102,
-              "over_price_text": "-118",
-              "under_price_text": "-102",
+              "over_price": -112,
+              "under_price": -108,
+              "over_price_text": "-112",
+              "under_price_text": "-108",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-10-21 01:11:18 PM ET",
-          "verified_markets": [
-            "moneyline",
-            "spread",
-            "total"
-          ]
-        },
-        {
-          "id": "nfl-pittsburgh-steelers-at-new-orleans-saints",
-          "sport": "NFL",
-          "title": "NFL Betting Market",
-          "headline": "NFL: Pittsburgh Steelers priced as clear favorite vs New Orleans Saints (-185)",
-          "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 64.9% based on the listed moneyline.",
-          "matchup": "Pittsburgh Steelers at New Orleans Saints",
-          "start_time": "9:30 AM ET",
-          "bookmaker": "DraftKings",
-          "key_data": [
-            "Favorite: Pittsburgh Steelers -185 (64.9% implied).",
-            "Spread: Pittsburgh Steelers -3.5 (-102) / New Orleans Saints +3.5 (-118).",
-            "Total: +44.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
-          ],
-          "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Pittsburgh Steelers before lineup, injury and late-news adjustments.",
-            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-          ],
-          "what_to_watch": [
-            "Line movement after injury, lineup, weather or starting-goalie news.",
-            "Whether the favorite price gets shorter or drifts back toward the underdog.",
-            "Whether the total moves enough to change the expected game environment."
-          ],
-          "priority_score": 120,
-          "story_type": "market_signal",
-          "url": "https://www.espn.com/nfl/scoreboard",
-          "source_label": "The Odds API v4",
-          "market": {
-            "sport": "NFL",
-            "away_team": "Pittsburgh Steelers",
-            "home_team": "New Orleans Saints",
-            "matchup": "Pittsburgh Steelers at New Orleans Saints",
-            "start_time": "9:30 AM ET",
-            "bookmaker": "DraftKings",
-            "moneyline": {
-              "away_price": -185,
-              "home_price": 154,
-              "away_price_text": "-185",
-              "home_price_text": "+154",
-              "away_implied_probability": 0.6491228070175439,
-              "home_implied_probability": 0.3937007874015748
-            },
-            "spread": {
-              "away_point": -3.5,
-              "home_point": 3.5,
-              "away_point_text": "-3.5",
-              "home_point_text": "+3.5",
-              "away_price": -102,
-              "home_price": -118,
-              "away_price_text": "-102",
-              "home_price_text": "-118"
-            },
-            "total": {
-              "point": 44.5,
-              "point_text": "+44.5",
-              "over_price": -110,
-              "under_price": -110,
-              "over_price_text": "-110",
-              "under_price_text": "-110",
-              "environment": "elevated run-scoring baseball environment"
-            },
-            "has_pricing": true,
-            "url": "https://www.espn.com/nfl/scoreboard"
-          },
-          "updated_at": "2026-10-21 01:11:18 PM ET",
+          "updated_at": "2026-10-22 01:09:41 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -800,13 +728,13 @@
           "id": "nfl-indianapolis-colts-at-minnesota-vikings",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Minnesota Vikings priced as heavy favorite vs Indianapolis Colts (-290)",
-          "snapshot": "Minnesota Vikings carries an implied win probability of approximately 74.4% based on the listed moneyline.",
+          "headline": "NFL: Minnesota Vikings priced as heavy favorite vs Indianapolis Colts (-278)",
+          "snapshot": "Minnesota Vikings carries an implied win probability of approximately 73.5% based on the listed moneyline.",
           "matchup": "Indianapolis Colts at Minnesota Vikings",
           "start_time": "1:00 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Minnesota Vikings -290 (74.4% implied).",
+            "Favorite: Minnesota Vikings -278 (73.5% implied).",
             "Spread: Indianapolis Colts +6.5 (-112) / Minnesota Vikings -6.5 (-108).",
             "Total: +41.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
@@ -832,12 +760,12 @@
             "start_time": "1:00 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 235,
-              "home_price": -290,
-              "away_price_text": "+235",
-              "home_price_text": "-290",
-              "away_implied_probability": 0.29850746268656714,
-              "home_implied_probability": 0.7435897435897436
+              "away_price": 225,
+              "home_price": -278,
+              "away_price_text": "+225",
+              "home_price_text": "-278",
+              "away_implied_probability": 0.3076923076923077,
+              "home_implied_probability": 0.7354497354497355
             },
             "spread": {
               "away_point": 6.5,
@@ -861,7 +789,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-10-21 01:11:18 PM ET",
+          "updated_at": "2026-10-22 01:09:41 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -869,21 +797,21 @@
           ]
         },
         {
-          "id": "nfl-tampa-bay-buccaneers-at-carolina-panthers",
+          "id": "nfl-pittsburgh-steelers-at-new-orleans-saints",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Carolina Panthers priced as clear favorite vs Tampa Bay Buccaneers (-175)",
-          "snapshot": "Carolina Panthers carries an implied win probability of approximately 63.6% based on the listed moneyline.",
-          "matchup": "Tampa Bay Buccaneers at Carolina Panthers",
-          "start_time": "1:00 PM ET",
+          "headline": "NFL: Pittsburgh Steelers priced as clear favorite vs New Orleans Saints (-175)",
+          "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 63.6% based on the listed moneyline.",
+          "matchup": "Pittsburgh Steelers at New Orleans Saints",
+          "start_time": "9:30 AM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Carolina Panthers -175 (63.6% implied).",
-            "Spread: Tampa Bay Buccaneers +3.5 (-115) / Carolina Panthers -3.5 (-105).",
+            "Favorite: Pittsburgh Steelers -175 (63.6% implied).",
+            "Spread: Pittsburgh Steelers -3.5 (-102) / New Orleans Saints +3.5 (-118).",
             "Total: +44.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Carolina Panthers before lineup, injury and late-news adjustments.",
+            "The moneyline shows how strongly the market is leaning toward Pittsburgh Steelers before lineup, injury and late-news adjustments.",
             "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
             "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
           ],
@@ -898,28 +826,28 @@
           "source_label": "The Odds API v4",
           "market": {
             "sport": "NFL",
-            "away_team": "Tampa Bay Buccaneers",
-            "home_team": "Carolina Panthers",
-            "matchup": "Tampa Bay Buccaneers at Carolina Panthers",
-            "start_time": "1:00 PM ET",
+            "away_team": "Pittsburgh Steelers",
+            "home_team": "New Orleans Saints",
+            "matchup": "Pittsburgh Steelers at New Orleans Saints",
+            "start_time": "9:30 AM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 145,
-              "home_price": -175,
-              "away_price_text": "+145",
-              "home_price_text": "-175",
-              "away_implied_probability": 0.40816326530612246,
-              "home_implied_probability": 0.6363636363636364
+              "away_price": -175,
+              "home_price": 145,
+              "away_price_text": "-175",
+              "home_price_text": "+145",
+              "away_implied_probability": 0.6363636363636364,
+              "home_implied_probability": 0.40816326530612246
             },
             "spread": {
-              "away_point": 3.5,
-              "home_point": -3.5,
-              "away_point_text": "+3.5",
-              "home_point_text": "-3.5",
-              "away_price": -115,
-              "home_price": -105,
-              "away_price_text": "-115",
-              "home_price_text": "-105"
+              "away_point": -3.5,
+              "home_point": 3.5,
+              "away_point_text": "-3.5",
+              "home_point_text": "+3.5",
+              "away_price": -102,
+              "home_price": -118,
+              "away_price_text": "-102",
+              "home_price_text": "-118"
             },
             "total": {
               "point": 44.5,
@@ -933,7 +861,79 @@
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-10-21 01:11:18 PM ET",
+          "updated_at": "2026-10-22 01:09:41 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ]
+        },
+        {
+          "id": "nfl-new-england-patriots-at-chicago-bears",
+          "sport": "NFL",
+          "title": "NFL Betting Market",
+          "headline": "NFL: Chicago Bears priced as clear favorite vs New England Patriots (-155)",
+          "snapshot": "Chicago Bears carries an implied win probability of approximately 60.8% based on the listed moneyline.",
+          "matchup": "New England Patriots at Chicago Bears",
+          "start_time": "8:15 PM ET",
+          "bookmaker": "DraftKings",
+          "key_data": [
+            "Favorite: Chicago Bears -155 (60.8% implied).",
+            "Spread: New England Patriots +3 (-118) / Chicago Bears -3 (-102).",
+            "Total: +50.5 (Over -118 / Under -102); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Chicago Bears before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 105,
+          "story_type": "market_signal",
+          "url": "https://www.espn.com/nfl/scoreboard",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "NFL",
+            "away_team": "New England Patriots",
+            "home_team": "Chicago Bears",
+            "matchup": "New England Patriots at Chicago Bears",
+            "start_time": "8:15 PM ET",
+            "bookmaker": "DraftKings",
+            "moneyline": {
+              "away_price": 130,
+              "home_price": -155,
+              "away_price_text": "+130",
+              "home_price_text": "-155",
+              "away_implied_probability": 0.43478260869565216,
+              "home_implied_probability": 0.6078431372549019
+            },
+            "spread": {
+              "away_point": 3.0,
+              "home_point": -3.0,
+              "away_point_text": "+3",
+              "home_point_text": "-3",
+              "away_price": -118,
+              "home_price": -102,
+              "away_price_text": "-118",
+              "home_price_text": "-102"
+            },
+            "total": {
+              "point": 50.5,
+              "point_text": "+50.5",
+              "over_price": -118,
+              "under_price": -102,
+              "over_price_text": "-118",
+              "under_price_text": "-102",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/nfl/scoreboard"
+          },
+          "updated_at": "2026-10-22 01:09:41 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -944,15 +944,15 @@
           "id": "nfl-san-francisco-49ers-at-atlanta-falcons",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: San Francisco 49ers priced as clear favorite vs Atlanta Falcons (-180)",
-          "snapshot": "San Francisco 49ers carries an implied win probability of approximately 64.3% based on the listed moneyline.",
+          "headline": "NFL: San Francisco 49ers priced as slight favorite vs Atlanta Falcons (-148)",
+          "snapshot": "San Francisco 49ers carries an implied win probability of approximately 59.7% based on the listed moneyline.",
           "matchup": "San Francisco 49ers at Atlanta Falcons",
           "start_time": "1:00 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: San Francisco 49ers -180 (64.3% implied).",
-            "Spread: San Francisco 49ers -3 (-118) / Atlanta Falcons +3 (-102).",
-            "Total: +50.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+            "Favorite: San Francisco 49ers -148 (59.7% implied).",
+            "Spread: San Francisco 49ers -2.5 (-118) / Atlanta Falcons +2.5 (-102).",
+            "Total: +49.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward San Francisco 49ers before lineup, injury and late-news adjustments.",
@@ -964,7 +964,7 @@
             "Whether the favorite price gets shorter or drifts back toward the underdog.",
             "Whether the total moves enough to change the expected game environment."
           ],
-          "priority_score": 112,
+          "priority_score": 105,
           "story_type": "market_signal",
           "url": "https://www.espn.com/nfl/scoreboard",
           "source_label": "The Odds API v4",
@@ -976,36 +976,36 @@
             "start_time": "1:00 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": -180,
-              "home_price": 150,
-              "away_price_text": "-180",
-              "home_price_text": "+150",
-              "away_implied_probability": 0.6428571428571429,
-              "home_implied_probability": 0.4
+              "away_price": -148,
+              "home_price": 124,
+              "away_price_text": "-148",
+              "home_price_text": "+124",
+              "away_implied_probability": 0.5967741935483871,
+              "home_implied_probability": 0.44642857142857145
             },
             "spread": {
-              "away_point": -3.0,
-              "home_point": 3.0,
-              "away_point_text": "-3",
-              "home_point_text": "+3",
+              "away_point": -2.5,
+              "home_point": 2.5,
+              "away_point_text": "-2.5",
+              "home_point_text": "+2.5",
               "away_price": -118,
               "home_price": -102,
               "away_price_text": "-118",
               "home_price_text": "-102"
             },
             "total": {
-              "point": 50.5,
-              "point_text": "+50.5",
-              "over_price": -105,
-              "under_price": -115,
-              "over_price_text": "-105",
-              "under_price_text": "-115",
+              "point": 49.5,
+              "point_text": "+49.5",
+              "over_price": -115,
+              "under_price": -105,
+              "over_price_text": "-115",
+              "under_price_text": "-105",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-10-21 01:11:18 PM ET",
+          "updated_at": "2026-10-22 01:09:41 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1015,25 +1015,25 @@
       ],
       "source_label": "The Odds API v4",
       "url": "https://www.espn.com/nfl/scoreboard",
-      "updated_at": "2026-10-21T17:11:18.852618Z"
+      "updated_at": "2026-10-22T17:09:41.715525Z"
     },
     "college_football": {
       "title": "College Football Betting Market",
-      "headline": "College Football: James Madison Dukes priced as heavy favorite vs Appalachian State Mountaineers (-410)",
-      "snapshot": "James Madison Dukes carries an implied win probability of approximately 80.4% based on the listed moneyline.",
+      "headline": "College Football: James Madison Dukes priced as heavy favorite vs Appalachian State Mountaineers (-465)",
+      "snapshot": "James Madison Dukes carries an implied win probability of approximately 82.3% based on the listed moneyline.",
       "cards": [
         {
           "id": "college-football-james-madison-dukes-at-appalachian-state-mountaineers",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: James Madison Dukes priced as heavy favorite vs Appalachian State Mountaineers (-410)",
-          "snapshot": "James Madison Dukes carries an implied win probability of approximately 80.4% based on the listed moneyline.",
+          "headline": "College Football: James Madison Dukes priced as heavy favorite vs Appalachian State Mountaineers (-465)",
+          "snapshot": "James Madison Dukes carries an implied win probability of approximately 82.3% based on the listed moneyline.",
           "matchup": "James Madison Dukes at Appalachian State Mountaineers",
           "start_time": "7:00 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: James Madison Dukes -410 (80.4% implied).",
-            "Spread: James Madison Dukes -10.5 (-108) / Appalachian State Mountaineers +10.5 (-112).",
+            "Favorite: James Madison Dukes -465 (82.3% implied).",
+            "Spread: James Madison Dukes -11.5 (-112) / Appalachian State Mountaineers +11.5 (-108).",
             "Total: +56.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
@@ -1058,22 +1058,22 @@
             "start_time": "7:00 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": -410,
-              "home_price": 315,
-              "away_price_text": "-410",
-              "home_price_text": "+315",
-              "away_implied_probability": 0.803921568627451,
-              "home_implied_probability": 0.24096385542168675
+              "away_price": -465,
+              "home_price": 350,
+              "away_price_text": "-465",
+              "home_price_text": "+350",
+              "away_implied_probability": 0.8230088495575221,
+              "home_implied_probability": 0.2222222222222222
             },
             "spread": {
-              "away_point": -10.5,
-              "home_point": 10.5,
-              "away_point_text": "-10.5",
-              "home_point_text": "+10.5",
-              "away_price": -108,
-              "home_price": -112,
-              "away_price_text": "-108",
-              "home_price_text": "-112"
+              "away_point": -11.5,
+              "home_point": 11.5,
+              "away_point_text": "-11.5",
+              "home_point_text": "+11.5",
+              "away_price": -112,
+              "home_price": -108,
+              "away_price_text": "-112",
+              "home_price_text": "-108"
             },
             "total": {
               "point": 56.5,
@@ -1087,7 +1087,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-10-21 01:11:18 PM ET",
+          "updated_at": "2026-10-22 01:09:41 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1098,14 +1098,14 @@
           "id": "college-football-liberty-flames-at-kennesaw-state-owls",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: Liberty Flames priced as heavy favorite vs Kennesaw State Owls (-385)",
-          "snapshot": "Liberty Flames carries an implied win probability of approximately 79.4% based on the listed moneyline.",
+          "headline": "College Football: Liberty Flames priced as heavy favorite vs Kennesaw State Owls (-365)",
+          "snapshot": "Liberty Flames carries an implied win probability of approximately 78.5% based on the listed moneyline.",
           "matchup": "Liberty Flames at Kennesaw State Owls",
           "start_time": "7:00 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Liberty Flames -385 (79.4% implied).",
-            "Spread: Liberty Flames -10.5 (+100) / Kennesaw State Owls +10.5 (-122).",
+            "Favorite: Liberty Flames -365 (78.5% implied).",
+            "Spread: Liberty Flames -9.5 (-110) / Kennesaw State Owls +9.5 (-110).",
             "Total: +50.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
@@ -1130,22 +1130,22 @@
             "start_time": "7:00 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": -385,
-              "home_price": 300,
-              "away_price_text": "-385",
-              "home_price_text": "+300",
-              "away_implied_probability": 0.7938144329896907,
-              "home_implied_probability": 0.25
+              "away_price": -365,
+              "home_price": 285,
+              "away_price_text": "-365",
+              "home_price_text": "+285",
+              "away_implied_probability": 0.7849462365591398,
+              "home_implied_probability": 0.2597402597402597
             },
             "spread": {
-              "away_point": -10.5,
-              "home_point": 10.5,
-              "away_point_text": "-10.5",
-              "home_point_text": "+10.5",
-              "away_price": 100,
-              "home_price": -122,
-              "away_price_text": "+100",
-              "home_price_text": "-122"
+              "away_point": -9.5,
+              "home_point": 9.5,
+              "away_point_text": "-9.5",
+              "home_point_text": "+9.5",
+              "away_price": -110,
+              "home_price": -110,
+              "away_price_text": "-110",
+              "home_price_text": "-110"
             },
             "total": {
               "point": 50.5,
@@ -1159,7 +1159,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-10-21 01:11:18 PM ET",
+          "updated_at": "2026-10-22 01:09:41 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1170,14 +1170,14 @@
           "id": "college-football-east-carolina-pirates-at-memphis-tigers",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: Memphis Tigers priced as heavy favorite vs East Carolina Pirates (-365)",
-          "snapshot": "Memphis Tigers carries an implied win probability of approximately 78.5% based on the listed moneyline.",
+          "headline": "College Football: Memphis Tigers priced as heavy favorite vs East Carolina Pirates (-430)",
+          "snapshot": "Memphis Tigers carries an implied win probability of approximately 81.1% based on the listed moneyline.",
           "matchup": "East Carolina Pirates at Memphis Tigers",
           "start_time": "7:30 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Memphis Tigers -365 (78.5% implied).",
-            "Spread: East Carolina Pirates +10.5 (-122) / Memphis Tigers -10.5 (+100).",
+            "Favorite: Memphis Tigers -430 (81.1% implied).",
+            "Spread: East Carolina Pirates +10.5 (-112) / Memphis Tigers -10.5 (-108).",
             "Total: +54.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
@@ -1202,22 +1202,22 @@
             "start_time": "7:30 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": 285,
-              "home_price": -365,
-              "away_price_text": "+285",
-              "home_price_text": "-365",
-              "away_implied_probability": 0.2597402597402597,
-              "home_implied_probability": 0.7849462365591398
+              "away_price": 330,
+              "home_price": -430,
+              "away_price_text": "+330",
+              "home_price_text": "-430",
+              "away_implied_probability": 0.23255813953488372,
+              "home_implied_probability": 0.8113207547169812
             },
             "spread": {
               "away_point": 10.5,
               "home_point": -10.5,
               "away_point_text": "+10.5",
               "home_point_text": "-10.5",
-              "away_price": -122,
-              "home_price": 100,
-              "away_price_text": "-122",
-              "home_price_text": "+100"
+              "away_price": -112,
+              "home_price": -108,
+              "away_price_text": "-112",
+              "home_price_text": "-108"
             },
             "total": {
               "point": 54.5,
@@ -1231,7 +1231,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-10-21 01:11:18 PM ET",
+          "updated_at": "2026-10-22 01:09:41 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1242,15 +1242,15 @@
           "id": "college-football-umass-minutemen-at-uconn-huskies",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: UConn Huskies priced as heavy favorite vs UMass Minutemen (-720)",
-          "snapshot": "UConn Huskies carries an implied win probability of approximately 87.8% based on the listed moneyline.",
+          "headline": "College Football: UConn Huskies priced as heavy favorite vs UMass Minutemen (-780)",
+          "snapshot": "UConn Huskies carries an implied win probability of approximately 88.6% based on the listed moneyline.",
           "matchup": "UMass Minutemen at UConn Huskies",
           "start_time": "7:00 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: UConn Huskies -720 (87.8% implied).",
+            "Favorite: UConn Huskies -780 (88.6% implied).",
             "Spread: UMass Minutemen +14.5 (-110) / UConn Huskies -14.5 (-110).",
-            "Total: +50.5 (Over -106 / Under -114); elevated run-scoring baseball environment."
+            "Total: +50.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward UConn Huskies before lineup, injury and late-news adjustments.",
@@ -1274,12 +1274,12 @@
             "start_time": "7:00 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": 490,
-              "home_price": -720,
-              "away_price_text": "+490",
-              "home_price_text": "-720",
-              "away_implied_probability": 0.1694915254237288,
-              "home_implied_probability": 0.8780487804878049
+              "away_price": 530,
+              "home_price": -780,
+              "away_price_text": "+530",
+              "home_price_text": "-780",
+              "away_implied_probability": 0.15873015873015872,
+              "home_implied_probability": 0.8863636363636364
             },
             "spread": {
               "away_point": 14.5,
@@ -1294,16 +1294,16 @@
             "total": {
               "point": 50.5,
               "point_text": "+50.5",
-              "over_price": -106,
-              "under_price": -114,
-              "over_price_text": "-106",
-              "under_price_text": "-114",
+              "over_price": -110,
+              "under_price": -110,
+              "over_price_text": "-110",
+              "under_price_text": "-110",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-10-21 01:11:18 PM ET",
+          "updated_at": "2026-10-22 01:09:41 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1314,15 +1314,15 @@
           "id": "college-football-air-force-falcons-at-wyoming-cowboys",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: Air Force Falcons priced as clear favorite vs Wyoming Cowboys (-194)",
-          "snapshot": "Air Force Falcons carries an implied win probability of approximately 66.0% based on the listed moneyline.",
+          "headline": "College Football: Air Force Falcons priced as heavy favorite vs Wyoming Cowboys (-220)",
+          "snapshot": "Air Force Falcons carries an implied win probability of approximately 68.8% based on the listed moneyline.",
           "matchup": "Air Force Falcons at Wyoming Cowboys",
           "start_time": "9:00 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Air Force Falcons -194 (66.0% implied).",
-            "Spread: Air Force Falcons -4.5 (-110) / Wyoming Cowboys +4.5 (-110).",
-            "Total: +44.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+            "Favorite: Air Force Falcons -220 (68.8% implied).",
+            "Spread: Air Force Falcons -5.5 (-110) / Wyoming Cowboys +5.5 (-110).",
+            "Total: +45.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward Air Force Falcons before lineup, injury and late-news adjustments.",
@@ -1346,36 +1346,36 @@
             "start_time": "9:00 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": -194,
-              "home_price": 160,
-              "away_price_text": "-194",
-              "home_price_text": "+160",
-              "away_implied_probability": 0.6598639455782312,
-              "home_implied_probability": 0.38461538461538464
+              "away_price": -220,
+              "home_price": 180,
+              "away_price_text": "-220",
+              "home_price_text": "+180",
+              "away_implied_probability": 0.6875,
+              "home_implied_probability": 0.35714285714285715
             },
             "spread": {
-              "away_point": -4.5,
-              "home_point": 4.5,
-              "away_point_text": "-4.5",
-              "home_point_text": "+4.5",
+              "away_point": -5.5,
+              "home_point": 5.5,
+              "away_point_text": "-5.5",
+              "home_point_text": "+5.5",
               "away_price": -110,
               "home_price": -110,
               "away_price_text": "-110",
               "home_price_text": "-110"
             },
             "total": {
-              "point": 44.5,
-              "point_text": "+44.5",
-              "over_price": -110,
-              "under_price": -110,
-              "over_price_text": "-110",
-              "under_price_text": "-110",
+              "point": 45.5,
+              "point_text": "+45.5",
+              "over_price": -105,
+              "under_price": -115,
+              "over_price_text": "-105",
+              "under_price_text": "-115",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-10-21 01:11:18 PM ET",
+          "updated_at": "2026-10-22 01:09:41 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1385,25 +1385,25 @@
       ],
       "source_label": "The Odds API v4",
       "url": "https://www.espn.com/college-football/scoreboard",
-      "updated_at": "2026-10-21T17:11:18.852618Z"
+      "updated_at": "2026-10-22T17:09:41.715525Z"
     },
     "mlb": {
       "title": "MLB Betting Market",
-      "headline": "MLB: Milwaukee Brewers priced as clear favorite vs Tampa Bay Rays (-158)",
-      "snapshot": "Milwaukee Brewers carries an implied win probability of approximately 61.2% based on the listed moneyline.",
+      "headline": "MLB: Milwaukee Brewers priced as clear favorite vs Tampa Bay Rays (-166)",
+      "snapshot": "Milwaukee Brewers carries an implied win probability of approximately 62.4% based on the listed moneyline.",
       "cards": [
         {
           "id": "mlb-tampa-bay-rays-at-milwaukee-brewers",
           "sport": "MLB",
           "title": "MLB Betting Market",
-          "headline": "MLB: Milwaukee Brewers priced as clear favorite vs Tampa Bay Rays (-158)",
-          "snapshot": "Milwaukee Brewers carries an implied win probability of approximately 61.2% based on the listed moneyline.",
+          "headline": "MLB: Milwaukee Brewers priced as clear favorite vs Tampa Bay Rays (-166)",
+          "snapshot": "Milwaukee Brewers carries an implied win probability of approximately 62.4% based on the listed moneyline.",
           "matchup": "Tampa Bay Rays at Milwaukee Brewers",
           "start_time": "8:00 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Milwaukee Brewers -158 (61.2% implied).",
-            "Spread: Tampa Bay Rays +1.5 (-172) / Milwaukee Brewers -1.5 (+142).",
+            "Favorite: Milwaukee Brewers -166 (62.4% implied).",
+            "Spread: Tampa Bay Rays +1.5 (-170) / Milwaukee Brewers -1.5 (+140).",
             "Total: +6.5 (Over +106 / Under -130); higher-scoring hockey environment."
           ],
           "why_it_matters": [
@@ -1428,22 +1428,22 @@
             "start_time": "8:00 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": 134,
-              "home_price": -158,
-              "away_price_text": "+134",
-              "home_price_text": "-158",
-              "away_implied_probability": 0.42735042735042733,
-              "home_implied_probability": 0.6124031007751938
+              "away_price": 140,
+              "home_price": -166,
+              "away_price_text": "+140",
+              "home_price_text": "-166",
+              "away_implied_probability": 0.4166666666666667,
+              "home_implied_probability": 0.6240601503759399
             },
             "spread": {
               "away_point": 1.5,
               "home_point": -1.5,
               "away_point_text": "+1.5",
               "home_point_text": "-1.5",
-              "away_price": -172,
-              "home_price": 142,
-              "away_price_text": "-172",
-              "home_price_text": "+142"
+              "away_price": -170,
+              "home_price": 140,
+              "away_price_text": "-170",
+              "home_price_text": "+140"
             },
             "total": {
               "point": 6.5,
@@ -1457,7 +1457,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/mlb/scoreboard"
           },
-          "updated_at": "2026-10-21 01:11:18 PM ET",
+          "updated_at": "2026-10-22 01:09:41 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1467,18 +1467,18 @@
       ],
       "source_label": "The Odds API v4",
       "url": "https://www.espn.com/mlb/scoreboard",
-      "updated_at": "2026-10-21T17:11:18.852618Z"
+      "updated_at": "2026-10-22T17:09:41.715525Z"
     }
   },
   "disclaimer": "This report is an automated betting-market summary intended to support, not replace, human sports journalism. It is not betting advice.",
   "site_name": "Global Betting Report",
-  "generated_utc": "2026-10-21T17:11:18.852618Z",
-  "verified_at": "2026-10-21T17:11:18.852618Z",
+  "generated_utc": "2026-10-22T17:09:41.715525Z",
+  "verified_at": "2026-10-22T17:09:41.715525Z",
   "source_mode": "the_odds_api_v4_daily",
   "verification": {
     "status": "verified",
     "provider": "The Odds API v4",
-    "verified_at": "2026-10-21T17:11:18.852618Z",
+    "verified_at": "2026-10-22T17:09:41.715525Z",
     "sports": [
       "NFL",
       "College Football",
@@ -1491,7 +1491,7 @@
     ],
     "region": "us",
     "total_verified_events": 11,
-    "credits_before_run": 302,
+    "credits_before_run": 293,
     "estimated_credits_used": 9
   }
 }
