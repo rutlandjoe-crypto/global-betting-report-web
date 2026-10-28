@@ -1,8 +1,9 @@
-﻿import json
+import json
+import html as html_module
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 
 import requests
 
@@ -34,7 +35,7 @@ BAD_HEADLINE_PATTERNS = [
 BAD_URL_PATTERNS = [
     "privacy", "terms", "login", "signup", "subscribe",
     "bonus", "promo", "reviews", "bonuses",
-    "online-sports-betting", "/guides/", "/betting/canada/",
+    "online-sports-betting", "/guides/", "/betting/canada/", "/sportsbooks/",
     "/betting/best-betting-apps",
 ]
 
@@ -46,7 +47,7 @@ def now_stamp():
 def clean_text(value):
     if not value:
         return ""
-    text = re.sub(r"\s+", " ", str(value))
+    text = re.sub(r"\s+", " ", html_module.unescape(str(value)))
     text = text.replace("&amp;", "&")
     text = text.replace("&#8217;", "'")
     text = text.replace("&#x27;", "'")
@@ -66,7 +67,13 @@ def is_good_headline(headline):
 
 def is_good_url(url):
     lower = str(url).lower()
-    if not lower.startswith("http"):
+    parsed = urlsplit(lower)
+    if parsed.scheme != "https" or not parsed.netloc:
+        return False
+    leaf = parsed.path.rstrip("/").rsplit("/", 1)[-1]
+    if leaf in {"", "news", "odds", "picks", "predictions", "betting", "sports", "nfl", "nba", "mlb", "nhl", "ncaaf", "ncaab", "college-football", "scores", "scoreboard"}:
+        return False
+    if leaf.count("-") < 2:
         return False
     return not any(bad in lower for bad in BAD_URL_PATTERNS)
 
@@ -81,6 +88,9 @@ def extract_article_links(html, base_url):
     ):
         headline = clean_text(re.sub(r"<[^>]+>", "", text))
         url = urljoin(base_url, href)
+
+        if urlsplit(url).hostname != urlsplit(base_url).hostname:
+            continue
 
         if is_good_headline(headline) and is_good_url(url):
             links.append({"headline": headline, "url": url})
@@ -180,3 +190,4 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

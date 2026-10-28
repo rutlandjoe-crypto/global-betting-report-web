@@ -86,15 +86,21 @@ def is_durable_editorial(story: dict) -> bool:
     watch = as_list(story.get("what_to_watch") or story.get("whatToWatch"))
     story_type = clean_text(story.get("story_type") or story.get("type")).lower()
 
-    # Betting reports also contain raw odds rows and live-score/fallback cards. Only
-    # named matchup reports with their own context survive as editorial inventory.
+    verified_market = (
+        story_type == "market_signal"
+        and bool(story.get("verified_markets"))
+        and bool(as_list(story.get("key_data")))
+        and len(summary + " ".join(as_list(story.get("key_data")))) >= 120
+    )
+    # Verified market reports have substantial detail beyond their short summary.
+    # Bare odds rows and provider-status cards still do not qualify.
     return bool(
         title
         and event_name(story)
-        and len(summary) >= 120
+        and (len(summary) >= 120 or verified_market)
         and why
         and watch
-        and story_type in {"", "market_context"}
+        and (story_type in {"", "market_context"} or verified_market)
     )
 
 
@@ -103,9 +109,9 @@ def normalize_story(story: dict, report: dict) -> dict:
     event = event_name(story)
     title = clean_text(story.get("headline") or story.get("title"))
     source_url = clean_text(
-        story.get("url")
+        story.get("source_url")
+        or story.get("url")
         or story.get("link")
-        or story.get("source_url")
         or story.get("sourceUrl")
     )
     market = [
@@ -122,7 +128,7 @@ def normalize_story(story: dict, report: dict) -> dict:
             or story.get("description")
             or story.get("body")
         ),
-        "sourceUrl": source_url if source_url.startswith(("http://", "https://")) else "",
+        "sourceUrl": source_url if source_url.startswith(("http://", "https://")) and "/scoreboard" not in source_url and "/editorial/" not in source_url else "",
         "publishedAt": publication_time(report),
         "reportDate": date,
         "game": event,
@@ -226,3 +232,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

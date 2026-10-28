@@ -14,6 +14,10 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 import betting_odds
+import get_betting_news_report as betting_news
+from concurrent.futures import ThreadPoolExecutor
+from scripts.build_betting_editorial_archive import DEFAULT_ARCHIVE, read_archive
+from scripts.link_betting_app_report import link_report
 
 
 PUBLIC_JSON = ROOT / "public" / "latest_report.json"
@@ -69,6 +73,17 @@ def verified_markets(card: dict) -> list[str]:
     if market.get("total"):
         found.append("total")
     return found
+
+
+def collect_source_news() -> list[dict]:
+    try:
+        config = json.loads(betting_news.SOURCE_FILE.read_text(encoding="utf-8-sig"))
+        sources = config.get("sources", [])
+        with ThreadPoolExecutor(max_workers=5) as pool:
+            return [item for items in pool.map(betting_news.fetch_source, sources) for item in items]
+    except Exception as exc:
+        print(f"Betting source articles unavailable: {type(exc).__name__}; keeping verified market reports.")
+        return []
 
 
 def main() -> int:
@@ -157,6 +172,11 @@ def main() -> int:
     draft["freshness"]["source"] = PROVIDER
     draft["freshness"]["total_market_cards"] = len(genuine_cards)
 
+    draft, archive = link_report(draft, read_archive(DEFAULT_ARCHIVE), collect_source_news())
+    write_atomic(DEFAULT_ARCHIVE, json.dumps({
+        "site": "Global Betting Report", "generatedAt": generated,
+        "storyCount": len(archive), "stories": archive,
+    }, ensure_ascii=False, indent=2) + "\n")
     encoded = json.dumps(draft, ensure_ascii=False, indent=2) + "\n"
     write_atomic(ROOT_JSON, encoded)
     write_atomic(PUBLIC_JSON, encoded)
@@ -175,3 +195,4 @@ if __name__ == "__main__":
     except Exception as exc:
         print(f"BETTING GENERATION FAILED: {exc}")
         raise SystemExit(1)
+
