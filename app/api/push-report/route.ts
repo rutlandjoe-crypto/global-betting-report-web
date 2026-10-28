@@ -1,7 +1,20 @@
 import { put } from "@vercel/blob";
 import { NextRequest, NextResponse } from "next/server";
+import { GET as getReport } from "../report/route";
+import { getBettingStories } from "../../lib/betting-editorial";
+import { bettingAppReport } from "../../lib/betting-app-report";
 
 export const dynamic = "force-dynamic";
+
+// The Android app already reads this address before its static-file backup.
+// Its public read path is separate from the authenticated publication handler.
+export async function GET() {
+  const response = await getReport();
+  const report = await response.json();
+  return NextResponse.json(bettingAppReport(report, getBettingStories()), {
+    headers: { "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0" },
+  });
+}
 
 export async function POST(request: NextRequest) {
   try {

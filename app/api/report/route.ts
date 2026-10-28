@@ -61,7 +61,7 @@ export async function GET() {
 
     const live = (await response.json()) as Report;
     const json =
-      !Number.isFinite(reportTime(bundled)) || reportTime(live) >= reportTime(bundled)
+      !Number.isFinite(reportTime(bundled)) || reportTime(live) > reportTime(bundled)
         ? live
         : bundled;
 
@@ -79,3 +79,4 @@ export async function GET() {
     });
   }
 }
+

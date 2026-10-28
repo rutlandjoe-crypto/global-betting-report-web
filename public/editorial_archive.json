@@ -1,8 +1,305 @@
 {
   "site": "Global Betting Report",
   "generatedAt": "2026-09-10T05:33:41.183152+00:00",
-  "storyCount": 293,
+  "storyCount": 304,
   "stories": [
+    {
+      "slug": "2026-10-27-tulane-green-wave-at-charlotte-49ers",
+      "title": "College Football: Tulane Green Wave priced as heavy favorite vs Charlotte 49ers (-395)",
+      "label": "College Football",
+      "summary": "Tulane Green Wave carries an implied win probability of approximately 79.8% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-10-27T18:00:11.562737Z",
+      "reportDate": "2026-10-27",
+      "game": "Tulane Green Wave at Charlotte 49ers",
+      "market": [
+        "Favorite: Tulane Green Wave -395 (79.8% implied).",
+        "Spread: Tulane Green Wave -10 (-112) / Charlotte 49ers +10 (-108).",
+        "Total: +46.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Tulane Green Wave before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-10-27-troy-trojans-at-james-madison-dukes",
+      "title": "College Football: James Madison Dukes priced as heavy favorite vs Troy Trojans (-2000)",
+      "label": "College Football",
+      "summary": "James Madison Dukes carries an implied win probability of approximately 95.2% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-10-27T18:00:11.562737Z",
+      "reportDate": "2026-10-27",
+      "game": "Troy Trojans at James Madison Dukes",
+      "market": [
+        "Favorite: James Madison Dukes -2000 (95.2% implied).",
+        "Spread: Troy Trojans +20.5 (-105) / James Madison Dukes -20.5 (-115).",
+        "Total: +49.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward James Madison Dukes before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-10-27-tennessee-titans-at-cincinnati-bengals",
+      "title": "NFL: Cincinnati Bengals priced as heavy favorite vs Tennessee Titans (-650)",
+      "label": "NFL",
+      "summary": "Cincinnati Bengals carries an implied win probability of approximately 86.7% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-10-27T18:00:11.562737Z",
+      "reportDate": "2026-10-27",
+      "game": "Tennessee Titans at Cincinnati Bengals",
+      "market": [
+        "Favorite: Cincinnati Bengals -650 (86.7% implied).",
+        "Spread: Tennessee Titans +10 (-108) / Cincinnati Bengals -10 (-112).",
+        "Total: +46.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Cincinnati Bengals before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-10-27-sam-houston-state-bearkats-at-missouri-state-bears",
+      "title": "College Football: Missouri State Bears priced as heavy favorite vs Sam Houston State Bearkats (-220)",
+      "label": "College Football",
+      "summary": "Missouri State Bears carries an implied win probability of approximately 68.8% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-10-27T18:00:11.562737Z",
+      "reportDate": "2026-10-27",
+      "game": "Sam Houston State Bearkats at Missouri State Bears",
+      "market": [
+        "Favorite: Missouri State Bears -220 (68.8% implied).",
+        "Spread: Sam Houston State Bearkats +5.5 (-105) / Missouri State Bears -5.5 (-115).",
+        "Total: +51.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Missouri State Bears before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-10-27-milwaukee-brewers-at-tampa-bay-rays",
+      "title": "MLB: Milwaukee Brewers priced as slight favorite vs Tampa Bay Rays (-124)",
+      "label": "MLB",
+      "summary": "Milwaukee Brewers carries an implied win probability of approximately 55.4% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-10-27T18:00:11.562737Z",
+      "reportDate": "2026-10-27",
+      "game": "Milwaukee Brewers at Tampa Bay Rays",
+      "market": [
+        "Favorite: Milwaukee Brewers -124 (55.4% implied).",
+        "Spread: Milwaukee Brewers -1.5 (+136) / Tampa Bay Rays +1.5 (-164).",
+        "Total: +7.5 (Over +110 / Under -134); higher-scoring hockey environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Milwaukee Brewers before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-10-27-jacksonville-state-gamecocks-at-new-mexico-state-aggies",
+      "title": "College Football: Jacksonville State Gamecocks priced as clear favorite vs New Mexico State Aggies (-160)",
+      "label": "College Football",
+      "summary": "Jacksonville State Gamecocks carries an implied win probability of approximately 61.5% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-10-27T18:00:11.562737Z",
+      "reportDate": "2026-10-27",
+      "game": "Jacksonville State Gamecocks at New Mexico State Aggies",
+      "market": [
+        "Favorite: Jacksonville State Gamecocks -160 (61.5% implied).",
+        "Spread: Jacksonville State Gamecocks -3.5 (-105) / New Mexico State Aggies +3.5 (-115).",
+        "Total: +49.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Jacksonville State Gamecocks before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-10-27-indianapolis-colts-at-jacksonville-jaguars",
+      "title": "NFL: Jacksonville Jaguars priced as heavy favorite vs Indianapolis Colts (-425)",
+      "label": "NFL",
+      "summary": "Jacksonville Jaguars carries an implied win probability of approximately 81.0% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-10-27T18:00:11.562737Z",
+      "reportDate": "2026-10-27",
+      "game": "Indianapolis Colts at Jacksonville Jaguars",
+      "market": [
+        "Favorite: Jacksonville Jaguars -425 (81.0% implied).",
+        "Spread: Indianapolis Colts +8.5 (-115) / Jacksonville Jaguars -8.5 (-105).",
+        "Total: +46.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Jacksonville Jaguars before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-10-27-florida-atlantic-owls-at-north-texas-mean-green",
+      "title": "College Football: North Texas Mean Green priced as heavy favorite vs Florida Atlantic Owls (-520)",
+      "label": "College Football",
+      "summary": "North Texas Mean Green carries an implied win probability of approximately 83.9% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-10-27T18:00:11.562737Z",
+      "reportDate": "2026-10-27",
+      "game": "Florida Atlantic Owls at North Texas Mean Green",
+      "market": [
+        "Favorite: North Texas Mean Green -520 (83.9% implied).",
+        "Spread: Florida Atlantic Owls +13.5 (-110) / North Texas Mean Green -13.5 (-110).",
+        "Total: +77.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward North Texas Mean Green before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-10-27-carolina-panthers-at-green-bay-packers",
+      "title": "NFL: Green Bay Packers priced as clear favorite vs Carolina Panthers (-185)",
+      "label": "NFL",
+      "summary": "Green Bay Packers carries an implied win probability of approximately 64.9% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-10-27T18:00:11.562737Z",
+      "reportDate": "2026-10-27",
+      "game": "Carolina Panthers at Green Bay Packers",
+      "market": [
+        "Favorite: Green Bay Packers -185 (64.9% implied).",
+        "Spread: Carolina Panthers +3.5 (-110) / Green Bay Packers -3.5 (-110).",
+        "Total: +48.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Green Bay Packers before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-10-27-baltimore-ravens-at-buffalo-bills",
+      "title": "NFL: Buffalo Bills priced as clear favorite vs Baltimore Ravens (-185)",
+      "label": "NFL",
+      "summary": "Buffalo Bills carries an implied win probability of approximately 64.9% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-10-27T18:00:11.562737Z",
+      "reportDate": "2026-10-27",
+      "game": "Baltimore Ravens at Buffalo Bills",
+      "market": [
+        "Favorite: Buffalo Bills -185 (64.9% implied).",
+        "Spread: Baltimore Ravens +3.5 (-120) / Buffalo Bills -3.5 (+100).",
+        "Total: +53.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Buffalo Bills before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-10-27-arizona-cardinals-at-dallas-cowboys",
+      "title": "NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-325)",
+      "label": "NFL",
+      "summary": "Dallas Cowboys carries an implied win probability of approximately 76.5% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-10-27T18:00:11.562737Z",
+      "reportDate": "2026-10-27",
+      "game": "Arizona Cardinals at Dallas Cowboys",
+      "market": [
+        "Favorite: Dallas Cowboys -325 (76.5% implied).",
+        "Spread: Arizona Cardinals +6.5 (-105) / Dallas Cowboys -6.5 (-115).",
+        "Total: +54.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Dallas Cowboys before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
     {
       "slug": "2026-09-10-texas-rangers-at-seattle-mariners",
       "title": "Texas Rangers at Seattle Mariners - 4:10 PM ET",
