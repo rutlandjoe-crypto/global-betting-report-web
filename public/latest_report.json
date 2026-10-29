@@ -2,19 +2,19 @@
   "site": "Global Betting Report",
   "vertical": "Betting",
   "title": "Global Betting Report",
-  "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-355)",
+  "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-325)",
   "snapshot": "A full multi-league betting board is live, giving the desk enough volume to compare favorites, totals and matchup pricing.",
-  "updated_at": "2026-10-28T18:20:33.324475Z",
-  "generated_at": "2026-10-28T18:20:33.324475Z",
+  "updated_at": "2026-10-29T18:28:08.944380Z",
+  "generated_at": "2026-10-29T18:28:08.944380Z",
   "freshness": {
-    "last_checked": "2026-10-28 02:20:33 PM ET",
+    "last_checked": "2026-10-29 02:28:08 PM ET",
     "sports_checked": [
       "NFL",
       "College Football",
       "MLB"
     ],
-    "total_games_checked": 90,
-    "total_market_cards": 11,
+    "total_games_checked": 98,
+    "total_market_cards": 10,
     "odds_api_key_found": true,
     "source": "The Odds API v4"
   },
@@ -33,8 +33,8 @@
   },
   "live_newsroom": [
     {
-      "headline": "Brewers vs Rays Predictions",
-      "url": "https://www.covers.com/mlb/brewers-vs-rays-prediction-picks-odds-wednesday-10-28-2026",
+      "headline": "Panthers vs Packers TNF Predictions",
+      "url": "https://www.covers.com/nfl/panthers-vs-packers-prediction-picks-oct-29-2026",
       "snapshot": "Betting coverage from Covers.",
       "source_name": "Covers",
       "story_type": "betting_news",
@@ -43,8 +43,8 @@
       "what_to_watch": []
     },
     {
-      "headline": "Brewers vs Rays Home Run Picks",
-      "url": "https://www.covers.com/mlb/brewers-vs-rays-home-run-picks-wednesday-10-28-2026",
+      "headline": "Panthers vs Packers Prop Picks",
+      "url": "https://www.covers.com/nfl/panthers-vs-packers-props-best-bets-week-8-2026",
       "snapshot": "Betting coverage from Covers.",
       "source_name": "Covers",
       "story_type": "betting_news",
@@ -53,8 +53,8 @@
       "what_to_watch": []
     },
     {
-      "headline": "Brewers vs Rays Prop Picks",
-      "url": "https://www.covers.com/mlb/brewers-vs-rays-props-best-bets-wednesday-10-28-2026",
+      "headline": "Panthers vs Packers Touchdown Picks",
+      "url": "https://www.covers.com/nfl/panthers-vs-packers-anytime-touchdown-props-week-8-2026",
       "snapshot": "Betting coverage from Covers.",
       "source_name": "Covers",
       "story_type": "betting_news",
@@ -63,8 +63,8 @@
       "what_to_watch": []
     },
     {
-      "headline": "Jacksonville State vs New Mexico State Predictions",
-      "url": "https://www.covers.com/ncaaf/jacksonville-state-vs-new-mexico-state-prediction-picks-odds-oct-28-2026",
+      "headline": "Troy vs James Madison Predictions",
+      "url": "https://www.covers.com/ncaaf/troy-vs-james-madison-prediction-picks-odds-oct-29-2026",
       "snapshot": "Betting coverage from Covers.",
       "source_name": "Covers",
       "story_type": "betting_news",
@@ -73,8 +73,8 @@
       "what_to_watch": []
     },
     {
-      "headline": "Liverpool vs Chelsea Carabao Cup Picks",
-      "url": "https://www.covers.com/soccer/liverpool-vs-chelsea-prediction-picks-oct-28-2026",
+      "headline": "NBA Moneyline Picks for Today",
+      "url": "https://www.covers.com/nba/moneyline-predictions-picks-thursday-10-29-2026",
       "snapshot": "Betting coverage from Covers.",
       "source_name": "Covers",
       "story_type": "betting_news",
@@ -113,14 +113,14 @@
       "what_to_watch": []
     },
     {
-      "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-355)",
-      "snapshot": "Dallas Cowboys carries an implied win probability of approximately 78.0% based on the listed moneyline.",
+      "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-325)",
+      "snapshot": "Dallas Cowboys carries an implied win probability of approximately 76.5% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-arizona-cardinals-at-dallas-cowboys",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-arizona-cardinals-at-dallas-cowboys",
       "league": "NFL",
       "key_data": [
-        "Favorite: Dallas Cowboys -355 (78.0% implied).",
-        "Spread: Arizona Cardinals +7 (-112) / Dallas Cowboys -7 (-108).",
+        "Favorite: Dallas Cowboys -325 (76.5% implied).",
+        "Spread: Arizona Cardinals +7 (-108) / Dallas Cowboys -7 (-112).",
         "Total: +54.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -133,19 +133,19 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-28 02:20:32 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "NFL: Cincinnati Bengals priced as heavy favorite vs Tennessee Titans (-500)",
-      "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 83.3% based on the listed moneyline.",
+      "headline": "NFL: Cincinnati Bengals priced as heavy favorite vs Tennessee Titans (-625)",
+      "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 86.2% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-tennessee-titans-at-cincinnati-bengals",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-tennessee-titans-at-cincinnati-bengals",
       "league": "NFL",
       "key_data": [
-        "Favorite: Cincinnati Bengals -500 (83.3% implied).",
-        "Spread: Tennessee Titans +10.5 (-115) / Cincinnati Bengals -10.5 (-105).",
+        "Favorite: Cincinnati Bengals -625 (86.2% implied).",
+        "Spread: Tennessee Titans +11.5 (-112) / Cincinnati Bengals -11.5 (-108).",
         "Total: +46.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -158,7 +158,7 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-28 02:20:32 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     },
@@ -166,11 +166,11 @@
       "headline": "NFL: Jacksonville Jaguars priced as heavy favorite vs Indianapolis Colts (-500)",
       "snapshot": "Jacksonville Jaguars carries an implied win probability of approximately 83.3% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-indianapolis-colts-at-jacksonville-jaguars",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-indianapolis-colts-at-jacksonville-jaguars",
       "league": "NFL",
       "key_data": [
         "Favorite: Jacksonville Jaguars -500 (83.3% implied).",
-        "Spread: Indianapolis Colts +10 (-115) / Jacksonville Jaguars -10 (-105).",
+        "Spread: Indianapolis Colts +10 (-112) / Jacksonville Jaguars -10 (-108).",
         "Total: +46.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -183,20 +183,20 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-28 02:20:32 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "College Football: North Texas Mean Green priced as heavy favorite vs Florida Atlantic Owls (-520)",
-      "snapshot": "North Texas Mean Green carries an implied win probability of approximately 83.9% based on the listed moneyline.",
+      "headline": "College Football: North Texas Mean Green priced as heavy favorite vs Florida Atlantic Owls (-550)",
+      "snapshot": "North Texas Mean Green carries an implied win probability of approximately 84.6% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-florida-atlantic-owls-at-north-texas-mean-green",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-florida-atlantic-owls-at-north-texas-mean-green",
       "league": "College Football",
       "key_data": [
-        "Favorite: North Texas Mean Green -520 (83.9% implied).",
-        "Spread: Florida Atlantic Owls +13.5 (-105) / North Texas Mean Green -13.5 (-115).",
-        "Total: +76.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
+        "Favorite: North Texas Mean Green -550 (84.6% implied).",
+        "Spread: Florida Atlantic Owls +14.5 (-120) / North Texas Mean Green -14.5 (-102).",
+        "Total: +77.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward North Texas Mean Green before lineup, injury and late-news adjustments.",
@@ -208,20 +208,20 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-28 02:20:33 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "source_url": "https://www.espn.com/college-football/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "College Football: James Madison Dukes priced as heavy favorite vs Troy Trojans (-1400)",
-      "snapshot": "James Madison Dukes carries an implied win probability of approximately 93.3% based on the listed moneyline.",
+      "headline": "College Football: James Madison Dukes priced as heavy favorite vs Troy Trojans (-1200)",
+      "snapshot": "James Madison Dukes carries an implied win probability of approximately 92.3% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-troy-trojans-at-james-madison-dukes",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-troy-trojans-at-james-madison-dukes",
       "league": "College Football",
       "key_data": [
-        "Favorite: James Madison Dukes -1400 (93.3% implied).",
-        "Spread: Troy Trojans +20.5 (-105) / James Madison Dukes -20.5 (-115).",
-        "Total: +49.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+        "Favorite: James Madison Dukes -1200 (92.3% implied).",
+        "Spread: Troy Trojans +18.5 (-110) / James Madison Dukes -18.5 (-110).",
+        "Total: +50.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward James Madison Dukes before lineup, injury and late-news adjustments.",
@@ -233,19 +233,19 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-28 02:20:33 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "source_url": "https://www.espn.com/college-football/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "College Football: Tulane Green Wave priced as heavy favorite vs Charlotte 49ers (-395)",
-      "snapshot": "Tulane Green Wave carries an implied win probability of approximately 79.8% based on the listed moneyline.",
+      "headline": "College Football: Tulane Green Wave priced as heavy favorite vs Charlotte 49ers (-345)",
+      "snapshot": "Tulane Green Wave carries an implied win probability of approximately 77.5% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-tulane-green-wave-at-charlotte-49ers",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-tulane-green-wave-at-charlotte-49ers",
       "league": "College Football",
       "key_data": [
-        "Favorite: Tulane Green Wave -395 (79.8% implied).",
-        "Spread: Tulane Green Wave -10 (-110) / Charlotte 49ers +10 (-110).",
+        "Favorite: Tulane Green Wave -345 (77.5% implied).",
+        "Spread: Tulane Green Wave -8.5 (-110) / Charlotte 49ers +8.5 (-110).",
         "Total: +47.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -258,19 +258,19 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-28 02:20:33 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "source_url": "https://www.espn.com/college-football/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "College Football: Kent State Golden Flashes priced as heavy favorite vs Sacramento State Hornets (-335)",
-      "snapshot": "Kent State Golden Flashes carries an implied win probability of approximately 77.0% based on the listed moneyline.",
+      "headline": "College Football: Kent State Golden Flashes priced as heavy favorite vs Sacramento State Hornets (-310)",
+      "snapshot": "Kent State Golden Flashes carries an implied win probability of approximately 75.6% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-kent-state-golden-flashes-at-sacramento-state-hornets",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-kent-state-golden-flashes-at-sacramento-state-hornets",
       "league": "College Football",
       "key_data": [
-        "Favorite: Kent State Golden Flashes -335 (77.0% implied).",
-        "Spread: Kent State Golden Flashes -9.5 (-110) / Sacramento State Hornets +9.5 (-110).",
+        "Favorite: Kent State Golden Flashes -310 (75.6% implied).",
+        "Spread: Kent State Golden Flashes -7.5 (-112) / Sacramento State Hornets +7.5 (-108).",
         "Total: +46.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -283,20 +283,45 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-28 02:20:33 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "source_url": "https://www.espn.com/college-football/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "NFL: Green Bay Packers priced as clear favorite vs Carolina Panthers (-192)",
-      "snapshot": "Green Bay Packers carries an implied win probability of approximately 65.8% based on the listed moneyline.",
+      "headline": "College Football: Duke Blue Devils priced as heavy favorite vs Boston College Eagles (-295)",
+      "snapshot": "Duke Blue Devils carries an implied win probability of approximately 74.7% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-carolina-panthers-at-green-bay-packers",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-boston-college-eagles-at-duke-blue-devils",
+      "league": "College Football",
+      "key_data": [
+        "Favorite: Duke Blue Devils -295 (74.7% implied).",
+        "Spread: Boston College Eagles +7.5 (-114) / Duke Blue Devils -7.5 (-106).",
+        "Total: +48.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+      ],
+      "why_it_matters": [
+        "The moneyline shows how strongly the market is leaning toward Duke Blue Devils before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "what_to_watch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "updated_at": "2026-10-29 02:28:08 PM ET",
+      "source_url": "https://www.espn.com/college-football/scoreboard",
+      "source_name": "The Odds API v4"
+    },
+    {
+      "headline": "NFL: Green Bay Packers priced as clear favorite vs Carolina Panthers (-185)",
+      "snapshot": "Green Bay Packers carries an implied win probability of approximately 64.9% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-carolina-panthers-at-green-bay-packers",
       "league": "NFL",
       "key_data": [
-        "Favorite: Green Bay Packers -192 (65.8% implied).",
+        "Favorite: Green Bay Packers -185 (64.9% implied).",
         "Spread: Carolina Panthers +3.5 (-108) / Green Bay Packers -3.5 (-112).",
-        "Total: +47.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
+        "Total: +46.5 (Over -120 / Under +100); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Green Bay Packers before lineup, injury and late-news adjustments.",
@@ -308,7 +333,7 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-28 02:20:32 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     },
@@ -316,12 +341,12 @@
       "headline": "NFL: Pittsburgh Steelers priced as clear favorite vs Cleveland Browns (-192)",
       "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 65.8% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-cleveland-browns-at-pittsburgh-steelers",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-cleveland-browns-at-pittsburgh-steelers",
       "league": "NFL",
       "key_data": [
         "Favorite: Pittsburgh Steelers -192 (65.8% implied).",
         "Spread: Cleveland Browns +3.5 (-110) / Pittsburgh Steelers -3.5 (-110).",
-        "Total: +39.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+        "Total: +39.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Pittsburgh Steelers before lineup, injury and late-news adjustments.",
@@ -333,39 +358,14 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-10-28 02:20:32 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "source_url": "https://www.espn.com/nfl/scoreboard",
-      "source_name": "The Odds API v4"
-    },
-    {
-      "headline": "College Football: Jacksonville State Gamecocks priced as clear favorite vs New Mexico State Aggies (-156)",
-      "snapshot": "Jacksonville State Gamecocks carries an implied win probability of approximately 60.9% based on the listed moneyline.",
-      "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-jacksonville-state-gamecocks-at-new-mexico-state-aggies",
-      "league": "College Football",
-      "key_data": [
-        "Favorite: Jacksonville State Gamecocks -156 (60.9% implied).",
-        "Spread: Jacksonville State Gamecocks -3.5 (+100) / New Mexico State Aggies +3.5 (-122).",
-        "Total: +49.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
-      ],
-      "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Jacksonville State Gamecocks before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-      ],
-      "what_to_watch": [
-        "Line movement after injury, lineup, weather or starting-goalie news.",
-        "Whether the favorite price gets shorter or drifts back toward the underdog.",
-        "Whether the total moves enough to change the expected game environment."
-      ],
-      "updated_at": "2026-10-28 02:20:33 PM ET",
-      "source_url": "https://www.espn.com/college-football/scoreboard",
       "source_name": "The Odds API v4"
     }
   ],
   "editor_signals": [
-    "Lead market: NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-355)",
-    "Total games checked: 90.",
+    "Lead market: NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-325)",
+    "Total games checked: 98.",
     "Cards prioritize implied probability, expected margin and scoring environment instead of raw odds alone.",
     "Betting context should remain descriptive and journalist-facing, not prescriptive wagering advice.",
     "Active sports on board: College Football, MLB, NFL."
@@ -374,13 +374,13 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-355)",
-      "snapshot": "Dallas Cowboys carries an implied win probability of approximately 78.0% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-arizona-cardinals-at-dallas-cowboys",
+      "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-325)",
+      "snapshot": "Dallas Cowboys carries an implied win probability of approximately 76.5% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-arizona-cardinals-at-dallas-cowboys",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Dallas Cowboys -355 (78.0% implied).",
-        "Spread: Arizona Cardinals +7 (-112) / Dallas Cowboys -7 (-108).",
+        "Favorite: Dallas Cowboys -325 (76.5% implied).",
+        "Spread: Arizona Cardinals +7 (-108) / Dallas Cowboys -7 (-112).",
         "Total: +54.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -395,7 +395,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-10-28 02:20:32 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -410,13 +410,13 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Cincinnati Bengals priced as heavy favorite vs Tennessee Titans (-500)",
-      "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 83.3% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-tennessee-titans-at-cincinnati-bengals",
+      "headline": "NFL: Cincinnati Bengals priced as heavy favorite vs Tennessee Titans (-625)",
+      "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 86.2% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-tennessee-titans-at-cincinnati-bengals",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Cincinnati Bengals -500 (83.3% implied).",
-        "Spread: Tennessee Titans +10.5 (-115) / Cincinnati Bengals -10.5 (-105).",
+        "Favorite: Cincinnati Bengals -625 (86.2% implied).",
+        "Spread: Tennessee Titans +11.5 (-112) / Cincinnati Bengals -11.5 (-108).",
         "Total: +46.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -431,7 +431,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-10-28 02:20:32 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -448,11 +448,11 @@
       "title": "NFL Betting Market",
       "headline": "NFL: Jacksonville Jaguars priced as heavy favorite vs Indianapolis Colts (-500)",
       "snapshot": "Jacksonville Jaguars carries an implied win probability of approximately 83.3% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-indianapolis-colts-at-jacksonville-jaguars",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-indianapolis-colts-at-jacksonville-jaguars",
       "source_label": "The Odds API v4",
       "key_data": [
         "Favorite: Jacksonville Jaguars -500 (83.3% implied).",
-        "Spread: Indianapolis Colts +10 (-115) / Jacksonville Jaguars -10 (-105).",
+        "Spread: Indianapolis Colts +10 (-112) / Jacksonville Jaguars -10 (-108).",
         "Total: +46.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -467,7 +467,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-10-28 02:20:32 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -482,14 +482,14 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: North Texas Mean Green priced as heavy favorite vs Florida Atlantic Owls (-520)",
-      "snapshot": "North Texas Mean Green carries an implied win probability of approximately 83.9% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-florida-atlantic-owls-at-north-texas-mean-green",
+      "headline": "College Football: North Texas Mean Green priced as heavy favorite vs Florida Atlantic Owls (-550)",
+      "snapshot": "North Texas Mean Green carries an implied win probability of approximately 84.6% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-florida-atlantic-owls-at-north-texas-mean-green",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: North Texas Mean Green -520 (83.9% implied).",
-        "Spread: Florida Atlantic Owls +13.5 (-105) / North Texas Mean Green -13.5 (-115).",
-        "Total: +76.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
+        "Favorite: North Texas Mean Green -550 (84.6% implied).",
+        "Spread: Florida Atlantic Owls +14.5 (-120) / North Texas Mean Green -14.5 (-102).",
+        "Total: +77.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward North Texas Mean Green before lineup, injury and late-news adjustments.",
@@ -503,7 +503,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-10-28 02:20:33 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -518,14 +518,14 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: James Madison Dukes priced as heavy favorite vs Troy Trojans (-1400)",
-      "snapshot": "James Madison Dukes carries an implied win probability of approximately 93.3% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-troy-trojans-at-james-madison-dukes",
+      "headline": "College Football: James Madison Dukes priced as heavy favorite vs Troy Trojans (-1200)",
+      "snapshot": "James Madison Dukes carries an implied win probability of approximately 92.3% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-troy-trojans-at-james-madison-dukes",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: James Madison Dukes -1400 (93.3% implied).",
-        "Spread: Troy Trojans +20.5 (-105) / James Madison Dukes -20.5 (-115).",
-        "Total: +49.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+        "Favorite: James Madison Dukes -1200 (92.3% implied).",
+        "Spread: Troy Trojans +18.5 (-110) / James Madison Dukes -18.5 (-110).",
+        "Total: +50.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward James Madison Dukes before lineup, injury and late-news adjustments.",
@@ -539,7 +539,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-10-28 02:20:33 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -554,13 +554,13 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: Tulane Green Wave priced as heavy favorite vs Charlotte 49ers (-395)",
-      "snapshot": "Tulane Green Wave carries an implied win probability of approximately 79.8% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-tulane-green-wave-at-charlotte-49ers",
+      "headline": "College Football: Tulane Green Wave priced as heavy favorite vs Charlotte 49ers (-345)",
+      "snapshot": "Tulane Green Wave carries an implied win probability of approximately 77.5% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-tulane-green-wave-at-charlotte-49ers",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Tulane Green Wave -395 (79.8% implied).",
-        "Spread: Tulane Green Wave -10 (-110) / Charlotte 49ers +10 (-110).",
+        "Favorite: Tulane Green Wave -345 (77.5% implied).",
+        "Spread: Tulane Green Wave -8.5 (-110) / Charlotte 49ers +8.5 (-110).",
         "Total: +47.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -575,7 +575,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-10-28 02:20:33 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -590,13 +590,13 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: Kent State Golden Flashes priced as heavy favorite vs Sacramento State Hornets (-335)",
-      "snapshot": "Kent State Golden Flashes carries an implied win probability of approximately 77.0% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-kent-state-golden-flashes-at-sacramento-state-hornets",
+      "headline": "College Football: Kent State Golden Flashes priced as heavy favorite vs Sacramento State Hornets (-310)",
+      "snapshot": "Kent State Golden Flashes carries an implied win probability of approximately 75.6% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-kent-state-golden-flashes-at-sacramento-state-hornets",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Kent State Golden Flashes -335 (77.0% implied).",
-        "Spread: Kent State Golden Flashes -9.5 (-110) / Sacramento State Hornets +9.5 (-110).",
+        "Favorite: Kent State Golden Flashes -310 (75.6% implied).",
+        "Spread: Kent State Golden Flashes -7.5 (-112) / Sacramento State Hornets +7.5 (-108).",
         "Total: +46.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -611,7 +611,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-10-28 02:20:33 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -624,16 +624,52 @@
       "source_name": "The Odds API v4"
     },
     {
-      "league": "NFL",
-      "title": "NFL Betting Market",
-      "headline": "NFL: Green Bay Packers priced as clear favorite vs Carolina Panthers (-192)",
-      "snapshot": "Green Bay Packers carries an implied win probability of approximately 65.8% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-carolina-panthers-at-green-bay-packers",
+      "league": "College Football",
+      "title": "College Football Betting Market",
+      "headline": "College Football: Duke Blue Devils priced as heavy favorite vs Boston College Eagles (-295)",
+      "snapshot": "Duke Blue Devils carries an implied win probability of approximately 74.7% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-boston-college-eagles-at-duke-blue-devils",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Green Bay Packers -192 (65.8% implied).",
+        "Favorite: Duke Blue Devils -295 (74.7% implied).",
+        "Spread: Boston College Eagles +7.5 (-114) / Duke Blue Devils -7.5 (-106).",
+        "Total: +48.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+      ],
+      "why_it_matters": [
+        "The moneyline shows how strongly the market is leaning toward Duke Blue Devils before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "what_to_watch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "priority_score": 126,
+      "story_type": "market_signal",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "FanDuel",
+      "matchup": "Boston College Eagles at Duke Blue Devils",
+      "start_time": "12:00 PM ET",
+      "source_url": "https://www.espn.com/college-football/scoreboard",
+      "source_name": "The Odds API v4"
+    },
+    {
+      "league": "NFL",
+      "title": "NFL Betting Market",
+      "headline": "NFL: Green Bay Packers priced as clear favorite vs Carolina Panthers (-185)",
+      "snapshot": "Green Bay Packers carries an implied win probability of approximately 64.9% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-carolina-panthers-at-green-bay-packers",
+      "source_label": "The Odds API v4",
+      "key_data": [
+        "Favorite: Green Bay Packers -185 (64.9% implied).",
         "Spread: Carolina Panthers +3.5 (-108) / Green Bay Packers -3.5 (-112).",
-        "Total: +47.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
+        "Total: +46.5 (Over -120 / Under +100); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Green Bay Packers before lineup, injury and late-news adjustments.",
@@ -647,7 +683,7 @@
       ],
       "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-10-28 02:20:32 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -664,12 +700,12 @@
       "title": "NFL Betting Market",
       "headline": "NFL: Pittsburgh Steelers priced as clear favorite vs Cleveland Browns (-192)",
       "snapshot": "Pittsburgh Steelers carries an implied win probability of approximately 65.8% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-cleveland-browns-at-pittsburgh-steelers",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-cleveland-browns-at-pittsburgh-steelers",
       "source_label": "The Odds API v4",
       "key_data": [
         "Favorite: Pittsburgh Steelers -192 (65.8% implied).",
         "Spread: Cleveland Browns +3.5 (-110) / Pittsburgh Steelers -3.5 (-110).",
-        "Total: +39.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+        "Total: +39.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Pittsburgh Steelers before lineup, injury and late-news adjustments.",
@@ -683,7 +719,7 @@
       ],
       "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-10-28 02:20:32 PM ET",
+      "updated_at": "2026-10-29 02:28:08 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -694,98 +730,26 @@
       "start_time": "1:00 PM ET",
       "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
-    },
-    {
-      "league": "College Football",
-      "title": "College Football Betting Market",
-      "headline": "College Football: Jacksonville State Gamecocks priced as clear favorite vs New Mexico State Aggies (-156)",
-      "snapshot": "Jacksonville State Gamecocks carries an implied win probability of approximately 60.9% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-jacksonville-state-gamecocks-at-new-mexico-state-aggies",
-      "source_label": "The Odds API v4",
-      "key_data": [
-        "Favorite: Jacksonville State Gamecocks -156 (60.9% implied).",
-        "Spread: Jacksonville State Gamecocks -3.5 (+100) / New Mexico State Aggies +3.5 (-122).",
-        "Total: +49.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
-      ],
-      "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Jacksonville State Gamecocks before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-      ],
-      "what_to_watch": [
-        "Line movement after injury, lineup, weather or starting-goalie news.",
-        "Whether the favorite price gets shorter or drifts back toward the underdog.",
-        "Whether the total moves enough to change the expected game environment."
-      ],
-      "priority_score": 113,
-      "story_type": "market_signal",
-      "updated_at": "2026-10-28 02:20:33 PM ET",
-      "verified_markets": [
-        "moneyline",
-        "spread",
-        "total"
-      ],
-      "bookmaker": "FanDuel",
-      "matchup": "Jacksonville State Gamecocks at New Mexico State Aggies",
-      "start_time": "8:00 PM ET",
-      "source_url": "https://www.espn.com/college-football/scoreboard",
-      "source_name": "The Odds API v4"
-    },
-    {
-      "league": "MLB",
-      "title": "MLB Betting Market",
-      "headline": "MLB: Milwaukee Brewers priced as clear favorite vs Tampa Bay Rays (-158)",
-      "snapshot": "Milwaukee Brewers carries an implied win probability of approximately 61.2% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-milwaukee-brewers-at-tampa-bay-rays",
-      "source_label": "The Odds API v4",
-      "key_data": [
-        "Favorite: Milwaukee Brewers -158 (61.2% implied).",
-        "Spread: Milwaukee Brewers -1.5 (+112) / Tampa Bay Rays +1.5 (-134).",
-        "Total: +6.5 (Over -120 / Under -102); higher-scoring hockey environment."
-      ],
-      "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Milwaukee Brewers before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-      ],
-      "what_to_watch": [
-        "Line movement after injury, lineup, weather or starting-goalie news.",
-        "Whether the favorite price gets shorter or drifts back toward the underdog.",
-        "Whether the total moves enough to change the expected game environment."
-      ],
-      "priority_score": 97,
-      "story_type": "market_signal",
-      "updated_at": "2026-10-28 02:20:33 PM ET",
-      "verified_markets": [
-        "moneyline",
-        "spread",
-        "total"
-      ],
-      "bookmaker": "FanDuel",
-      "matchup": "Milwaukee Brewers at Tampa Bay Rays",
-      "start_time": "8:00 PM ET",
-      "source_url": "https://www.espn.com/mlb/scoreboard",
-      "source_name": "The Odds API v4"
     }
   ],
   "sections": {
     "nfl": {
       "title": "NFL Betting Market",
-      "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-355)",
-      "snapshot": "Dallas Cowboys carries an implied win probability of approximately 78.0% based on the listed moneyline.",
+      "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-325)",
+      "snapshot": "Dallas Cowboys carries an implied win probability of approximately 76.5% based on the listed moneyline.",
       "cards": [
         {
           "id": "nfl-arizona-cardinals-at-dallas-cowboys",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-355)",
-          "snapshot": "Dallas Cowboys carries an implied win probability of approximately 78.0% based on the listed moneyline.",
+          "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Arizona Cardinals (-325)",
+          "snapshot": "Dallas Cowboys carries an implied win probability of approximately 76.5% based on the listed moneyline.",
           "matchup": "Arizona Cardinals at Dallas Cowboys",
           "start_time": "1:00 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Dallas Cowboys -355 (78.0% implied).",
-            "Spread: Arizona Cardinals +7 (-112) / Dallas Cowboys -7 (-108).",
+            "Favorite: Dallas Cowboys -325 (76.5% implied).",
+            "Spread: Arizona Cardinals +7 (-108) / Dallas Cowboys -7 (-112).",
             "Total: +54.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
@@ -800,7 +764,7 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-10-28-arizona-cardinals-at-dallas-cowboys",
+          "url": "https://www.globalbettingreport.com/editorial/2026-10-29-arizona-cardinals-at-dallas-cowboys",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "NFL",
@@ -810,22 +774,22 @@
             "start_time": "1:00 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 280,
-              "home_price": -355,
-              "away_price_text": "+280",
-              "home_price_text": "-355",
-              "away_implied_probability": 0.2631578947368421,
-              "home_implied_probability": 0.7802197802197802
+              "away_price": 260,
+              "home_price": -325,
+              "away_price_text": "+260",
+              "home_price_text": "-325",
+              "away_implied_probability": 0.2777777777777778,
+              "home_implied_probability": 0.7647058823529411
             },
             "spread": {
               "away_point": 7.0,
               "home_point": -7.0,
               "away_point_text": "+7",
               "home_point_text": "-7",
-              "away_price": -112,
-              "home_price": -108,
-              "away_price_text": "-112",
-              "home_price_text": "-108"
+              "away_price": -108,
+              "home_price": -112,
+              "away_price_text": "-108",
+              "home_price_text": "-112"
             },
             "total": {
               "point": 54.5,
@@ -839,7 +803,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-10-28 02:20:32 PM ET",
+          "updated_at": "2026-10-29 02:28:08 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -852,14 +816,14 @@
           "id": "nfl-tennessee-titans-at-cincinnati-bengals",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Cincinnati Bengals priced as heavy favorite vs Tennessee Titans (-500)",
-          "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 83.3% based on the listed moneyline.",
+          "headline": "NFL: Cincinnati Bengals priced as heavy favorite vs Tennessee Titans (-625)",
+          "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 86.2% based on the listed moneyline.",
           "matchup": "Tennessee Titans at Cincinnati Bengals",
           "start_time": "1:00 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Cincinnati Bengals -500 (83.3% implied).",
-            "Spread: Tennessee Titans +10.5 (-115) / Cincinnati Bengals -10.5 (-105).",
+            "Favorite: Cincinnati Bengals -625 (86.2% implied).",
+            "Spread: Tennessee Titans +11.5 (-112) / Cincinnati Bengals -11.5 (-108).",
             "Total: +46.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
@@ -874,7 +838,7 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-10-28-tennessee-titans-at-cincinnati-bengals",
+          "url": "https://www.globalbettingreport.com/editorial/2026-10-29-tennessee-titans-at-cincinnati-bengals",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "NFL",
@@ -884,22 +848,22 @@
             "start_time": "1:00 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 380,
-              "home_price": -500,
-              "away_price_text": "+380",
-              "home_price_text": "-500",
-              "away_implied_probability": 0.20833333333333334,
-              "home_implied_probability": 0.8333333333333334
+              "away_price": 455,
+              "home_price": -625,
+              "away_price_text": "+455",
+              "home_price_text": "-625",
+              "away_implied_probability": 0.18018018018018017,
+              "home_implied_probability": 0.8620689655172413
             },
             "spread": {
-              "away_point": 10.5,
-              "home_point": -10.5,
-              "away_point_text": "+10.5",
-              "home_point_text": "-10.5",
-              "away_price": -115,
-              "home_price": -105,
-              "away_price_text": "-115",
-              "home_price_text": "-105"
+              "away_point": 11.5,
+              "home_point": -11.5,
+              "away_point_text": "+11.5",
+              "home_point_text": "-11.5",
+              "away_price": -112,
+              "home_price": -108,
+              "away_price_text": "-112",
+              "home_price_text": "-108"
             },
             "total": {
               "point": 46.5,
@@ -913,7 +877,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-10-28 02:20:32 PM ET",
+          "updated_at": "2026-10-29 02:28:08 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -933,7 +897,7 @@
           "bookmaker": "DraftKings",
           "key_data": [
             "Favorite: Jacksonville Jaguars -500 (83.3% implied).",
-            "Spread: Indianapolis Colts +10 (-115) / Jacksonville Jaguars -10 (-105).",
+            "Spread: Indianapolis Colts +10 (-112) / Jacksonville Jaguars -10 (-108).",
             "Total: +46.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
@@ -948,7 +912,7 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-10-28-indianapolis-colts-at-jacksonville-jaguars",
+          "url": "https://www.globalbettingreport.com/editorial/2026-10-29-indianapolis-colts-at-jacksonville-jaguars",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "NFL",
@@ -970,10 +934,10 @@
               "home_point": -10.0,
               "away_point_text": "+10",
               "home_point_text": "-10",
-              "away_price": -115,
-              "home_price": -105,
-              "away_price_text": "-115",
-              "home_price_text": "-105"
+              "away_price": -112,
+              "home_price": -108,
+              "away_price_text": "-112",
+              "home_price_text": "-108"
             },
             "total": {
               "point": 46.5,
@@ -987,7 +951,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-10-28 02:20:32 PM ET",
+          "updated_at": "2026-10-29 02:28:08 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1000,15 +964,15 @@
           "id": "nfl-carolina-panthers-at-green-bay-packers",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Green Bay Packers priced as clear favorite vs Carolina Panthers (-192)",
-          "snapshot": "Green Bay Packers carries an implied win probability of approximately 65.8% based on the listed moneyline.",
+          "headline": "NFL: Green Bay Packers priced as clear favorite vs Carolina Panthers (-185)",
+          "snapshot": "Green Bay Packers carries an implied win probability of approximately 64.9% based on the listed moneyline.",
           "matchup": "Carolina Panthers at Green Bay Packers",
           "start_time": "8:15 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Green Bay Packers -192 (65.8% implied).",
+            "Favorite: Green Bay Packers -185 (64.9% implied).",
             "Spread: Carolina Panthers +3.5 (-108) / Green Bay Packers -3.5 (-112).",
-            "Total: +47.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
+            "Total: +46.5 (Over -120 / Under +100); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward Green Bay Packers before lineup, injury and late-news adjustments.",
@@ -1022,7 +986,7 @@
           ],
           "priority_score": 120,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-10-28-carolina-panthers-at-green-bay-packers",
+          "url": "https://www.globalbettingreport.com/editorial/2026-10-29-carolina-panthers-at-green-bay-packers",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "NFL",
@@ -1032,12 +996,12 @@
             "start_time": "8:15 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 160,
-              "home_price": -192,
-              "away_price_text": "+160",
-              "home_price_text": "-192",
-              "away_implied_probability": 0.38461538461538464,
-              "home_implied_probability": 0.6575342465753424
+              "away_price": 154,
+              "home_price": -185,
+              "away_price_text": "+154",
+              "home_price_text": "-185",
+              "away_implied_probability": 0.3937007874015748,
+              "home_implied_probability": 0.6491228070175439
             },
             "spread": {
               "away_point": 3.5,
@@ -1050,18 +1014,18 @@
               "home_price_text": "-112"
             },
             "total": {
-              "point": 47.5,
-              "point_text": "+47.5",
-              "over_price": -112,
-              "under_price": -108,
-              "over_price_text": "-112",
-              "under_price_text": "-108",
+              "point": 46.5,
+              "point_text": "+46.5",
+              "over_price": -120,
+              "under_price": 100,
+              "over_price_text": "-120",
+              "under_price_text": "+100",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-10-28 02:20:32 PM ET",
+          "updated_at": "2026-10-29 02:28:08 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1082,7 +1046,7 @@
           "key_data": [
             "Favorite: Pittsburgh Steelers -192 (65.8% implied).",
             "Spread: Cleveland Browns +3.5 (-110) / Pittsburgh Steelers -3.5 (-110).",
-            "Total: +39.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+            "Total: +39.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward Pittsburgh Steelers before lineup, injury and late-news adjustments.",
@@ -1096,7 +1060,7 @@
           ],
           "priority_score": 120,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-10-28-cleveland-browns-at-pittsburgh-steelers",
+          "url": "https://www.globalbettingreport.com/editorial/2026-10-29-cleveland-browns-at-pittsburgh-steelers",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "NFL",
@@ -1126,16 +1090,16 @@
             "total": {
               "point": 39.5,
               "point_text": "+39.5",
-              "over_price": -108,
-              "under_price": -112,
-              "over_price_text": "-108",
-              "under_price_text": "-112",
+              "over_price": -105,
+              "under_price": -115,
+              "over_price_text": "-105",
+              "under_price_text": "-115",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-10-28 02:20:32 PM ET",
+          "updated_at": "2026-10-29 02:28:08 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1146,29 +1110,29 @@
         }
       ],
       "source_label": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-arizona-cardinals-at-dallas-cowboys",
-      "updated_at": "2026-10-28T18:20:33.324475Z",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-arizona-cardinals-at-dallas-cowboys",
+      "updated_at": "2026-10-29T18:28:08.944380Z",
       "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     },
     "college_football": {
       "title": "College Football Betting Market",
-      "headline": "College Football: North Texas Mean Green priced as heavy favorite vs Florida Atlantic Owls (-520)",
-      "snapshot": "North Texas Mean Green carries an implied win probability of approximately 83.9% based on the listed moneyline.",
+      "headline": "College Football: North Texas Mean Green priced as heavy favorite vs Florida Atlantic Owls (-550)",
+      "snapshot": "North Texas Mean Green carries an implied win probability of approximately 84.6% based on the listed moneyline.",
       "cards": [
         {
           "id": "college-football-florida-atlantic-owls-at-north-texas-mean-green",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: North Texas Mean Green priced as heavy favorite vs Florida Atlantic Owls (-520)",
-          "snapshot": "North Texas Mean Green carries an implied win probability of approximately 83.9% based on the listed moneyline.",
+          "headline": "College Football: North Texas Mean Green priced as heavy favorite vs Florida Atlantic Owls (-550)",
+          "snapshot": "North Texas Mean Green carries an implied win probability of approximately 84.6% based on the listed moneyline.",
           "matchup": "Florida Atlantic Owls at North Texas Mean Green",
           "start_time": "7:30 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: North Texas Mean Green -520 (83.9% implied).",
-            "Spread: Florida Atlantic Owls +13.5 (-105) / North Texas Mean Green -13.5 (-115).",
-            "Total: +76.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
+            "Favorite: North Texas Mean Green -550 (84.6% implied).",
+            "Spread: Florida Atlantic Owls +14.5 (-120) / North Texas Mean Green -14.5 (-102).",
+            "Total: +77.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward North Texas Mean Green before lineup, injury and late-news adjustments.",
@@ -1182,7 +1146,7 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-10-28-florida-atlantic-owls-at-north-texas-mean-green",
+          "url": "https://www.globalbettingreport.com/editorial/2026-10-29-florida-atlantic-owls-at-north-texas-mean-green",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "College Football",
@@ -1193,35 +1157,35 @@
             "bookmaker": "FanDuel",
             "moneyline": {
               "away_price": 420,
-              "home_price": -520,
+              "home_price": -550,
               "away_price_text": "+420",
-              "home_price_text": "-520",
+              "home_price_text": "-550",
               "away_implied_probability": 0.19230769230769232,
-              "home_implied_probability": 0.8387096774193549
+              "home_implied_probability": 0.8461538461538461
             },
             "spread": {
-              "away_point": 13.5,
-              "home_point": -13.5,
-              "away_point_text": "+13.5",
-              "home_point_text": "-13.5",
-              "away_price": -105,
-              "home_price": -115,
-              "away_price_text": "-105",
-              "home_price_text": "-115"
+              "away_point": 14.5,
+              "home_point": -14.5,
+              "away_point_text": "+14.5",
+              "home_point_text": "-14.5",
+              "away_price": -120,
+              "home_price": -102,
+              "away_price_text": "-120",
+              "home_price_text": "-102"
             },
             "total": {
-              "point": 76.5,
-              "point_text": "+76.5",
-              "over_price": -115,
-              "under_price": -105,
-              "over_price_text": "-115",
-              "under_price_text": "-105",
+              "point": 77.5,
+              "point_text": "+77.5",
+              "over_price": -110,
+              "under_price": -110,
+              "over_price_text": "-110",
+              "under_price_text": "-110",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-10-28 02:20:33 PM ET",
+          "updated_at": "2026-10-29 02:28:08 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1234,15 +1198,15 @@
           "id": "college-football-troy-trojans-at-james-madison-dukes",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: James Madison Dukes priced as heavy favorite vs Troy Trojans (-1400)",
-          "snapshot": "James Madison Dukes carries an implied win probability of approximately 93.3% based on the listed moneyline.",
+          "headline": "College Football: James Madison Dukes priced as heavy favorite vs Troy Trojans (-1200)",
+          "snapshot": "James Madison Dukes carries an implied win probability of approximately 92.3% based on the listed moneyline.",
           "matchup": "Troy Trojans at James Madison Dukes",
           "start_time": "7:30 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: James Madison Dukes -1400 (93.3% implied).",
-            "Spread: Troy Trojans +20.5 (-105) / James Madison Dukes -20.5 (-115).",
-            "Total: +49.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+            "Favorite: James Madison Dukes -1200 (92.3% implied).",
+            "Spread: Troy Trojans +18.5 (-110) / James Madison Dukes -18.5 (-110).",
+            "Total: +50.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward James Madison Dukes before lineup, injury and late-news adjustments.",
@@ -1256,7 +1220,7 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-10-28-troy-trojans-at-james-madison-dukes",
+          "url": "https://www.globalbettingreport.com/editorial/2026-10-29-troy-trojans-at-james-madison-dukes",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "College Football",
@@ -1266,36 +1230,36 @@
             "start_time": "7:30 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": 810,
-              "home_price": -1400,
-              "away_price_text": "+810",
-              "home_price_text": "-1400",
-              "away_implied_probability": 0.10989010989010989,
-              "home_implied_probability": 0.9333333333333333
+              "away_price": 760,
+              "home_price": -1200,
+              "away_price_text": "+760",
+              "home_price_text": "-1200",
+              "away_implied_probability": 0.11627906976744186,
+              "home_implied_probability": 0.9230769230769231
             },
             "spread": {
-              "away_point": 20.5,
-              "home_point": -20.5,
-              "away_point_text": "+20.5",
-              "home_point_text": "-20.5",
-              "away_price": -105,
-              "home_price": -115,
-              "away_price_text": "-105",
-              "home_price_text": "-115"
+              "away_point": 18.5,
+              "home_point": -18.5,
+              "away_point_text": "+18.5",
+              "home_point_text": "-18.5",
+              "away_price": -110,
+              "home_price": -110,
+              "away_price_text": "-110",
+              "home_price_text": "-110"
             },
             "total": {
-              "point": 49.5,
-              "point_text": "+49.5",
-              "over_price": -110,
-              "under_price": -110,
-              "over_price_text": "-110",
-              "under_price_text": "-110",
+              "point": 50.5,
+              "point_text": "+50.5",
+              "over_price": -115,
+              "under_price": -105,
+              "over_price_text": "-115",
+              "under_price_text": "-105",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-10-28 02:20:33 PM ET",
+          "updated_at": "2026-10-29 02:28:08 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1308,14 +1272,14 @@
           "id": "college-football-tulane-green-wave-at-charlotte-49ers",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: Tulane Green Wave priced as heavy favorite vs Charlotte 49ers (-395)",
-          "snapshot": "Tulane Green Wave carries an implied win probability of approximately 79.8% based on the listed moneyline.",
+          "headline": "College Football: Tulane Green Wave priced as heavy favorite vs Charlotte 49ers (-345)",
+          "snapshot": "Tulane Green Wave carries an implied win probability of approximately 77.5% based on the listed moneyline.",
           "matchup": "Tulane Green Wave at Charlotte 49ers",
           "start_time": "7:00 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Tulane Green Wave -395 (79.8% implied).",
-            "Spread: Tulane Green Wave -10 (-110) / Charlotte 49ers +10 (-110).",
+            "Favorite: Tulane Green Wave -345 (77.5% implied).",
+            "Spread: Tulane Green Wave -8.5 (-110) / Charlotte 49ers +8.5 (-110).",
             "Total: +47.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
@@ -1330,7 +1294,7 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-10-28-tulane-green-wave-at-charlotte-49ers",
+          "url": "https://www.globalbettingreport.com/editorial/2026-10-29-tulane-green-wave-at-charlotte-49ers",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "College Football",
@@ -1340,18 +1304,18 @@
             "start_time": "7:00 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": -395,
-              "home_price": 310,
-              "away_price_text": "-395",
-              "home_price_text": "+310",
-              "away_implied_probability": 0.797979797979798,
-              "home_implied_probability": 0.24390243902439024
+              "away_price": -345,
+              "home_price": 275,
+              "away_price_text": "-345",
+              "home_price_text": "+275",
+              "away_implied_probability": 0.7752808988764045,
+              "home_implied_probability": 0.26666666666666666
             },
             "spread": {
-              "away_point": -10.0,
-              "home_point": 10.0,
-              "away_point_text": "-10",
-              "home_point_text": "+10",
+              "away_point": -8.5,
+              "home_point": 8.5,
+              "away_point_text": "-8.5",
+              "home_point_text": "+8.5",
               "away_price": -110,
               "home_price": -110,
               "away_price_text": "-110",
@@ -1369,7 +1333,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-10-28 02:20:33 PM ET",
+          "updated_at": "2026-10-29 02:28:08 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1382,14 +1346,14 @@
           "id": "college-football-kent-state-golden-flashes-at-sacramento-state-hornets",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: Kent State Golden Flashes priced as heavy favorite vs Sacramento State Hornets (-335)",
-          "snapshot": "Kent State Golden Flashes carries an implied win probability of approximately 77.0% based on the listed moneyline.",
+          "headline": "College Football: Kent State Golden Flashes priced as heavy favorite vs Sacramento State Hornets (-310)",
+          "snapshot": "Kent State Golden Flashes carries an implied win probability of approximately 75.6% based on the listed moneyline.",
           "matchup": "Kent State Golden Flashes at Sacramento State Hornets",
           "start_time": "10:30 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Kent State Golden Flashes -335 (77.0% implied).",
-            "Spread: Kent State Golden Flashes -9.5 (-110) / Sacramento State Hornets +9.5 (-110).",
+            "Favorite: Kent State Golden Flashes -310 (75.6% implied).",
+            "Spread: Kent State Golden Flashes -7.5 (-112) / Sacramento State Hornets +7.5 (-108).",
             "Total: +46.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
@@ -1404,7 +1368,7 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-10-28-kent-state-golden-flashes-at-sacramento-state-hornets",
+          "url": "https://www.globalbettingreport.com/editorial/2026-10-29-kent-state-golden-flashes-at-sacramento-state-hornets",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "College Football",
@@ -1414,22 +1378,22 @@
             "start_time": "10:30 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": -335,
-              "home_price": 270,
-              "away_price_text": "-335",
-              "home_price_text": "+270",
-              "away_implied_probability": 0.7701149425287356,
-              "home_implied_probability": 0.2702702702702703
+              "away_price": -310,
+              "home_price": 250,
+              "away_price_text": "-310",
+              "home_price_text": "+250",
+              "away_implied_probability": 0.7560975609756098,
+              "home_implied_probability": 0.2857142857142857
             },
             "spread": {
-              "away_point": -9.5,
-              "home_point": 9.5,
-              "away_point_text": "-9.5",
-              "home_point_text": "+9.5",
-              "away_price": -110,
-              "home_price": -110,
-              "away_price_text": "-110",
-              "home_price_text": "-110"
+              "away_point": -7.5,
+              "home_point": 7.5,
+              "away_point_text": "-7.5",
+              "home_point_text": "+7.5",
+              "away_price": -112,
+              "home_price": -108,
+              "away_price_text": "-112",
+              "home_price_text": "-108"
             },
             "total": {
               "point": 46.5,
@@ -1443,7 +1407,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-10-28 02:20:33 PM ET",
+          "updated_at": "2026-10-29 02:28:08 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1453,21 +1417,21 @@
           "source_name": "The Odds API v4"
         },
         {
-          "id": "college-football-jacksonville-state-gamecocks-at-new-mexico-state-aggies",
+          "id": "college-football-boston-college-eagles-at-duke-blue-devils",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: Jacksonville State Gamecocks priced as clear favorite vs New Mexico State Aggies (-156)",
-          "snapshot": "Jacksonville State Gamecocks carries an implied win probability of approximately 60.9% based on the listed moneyline.",
-          "matchup": "Jacksonville State Gamecocks at New Mexico State Aggies",
-          "start_time": "8:00 PM ET",
+          "headline": "College Football: Duke Blue Devils priced as heavy favorite vs Boston College Eagles (-295)",
+          "snapshot": "Duke Blue Devils carries an implied win probability of approximately 74.7% based on the listed moneyline.",
+          "matchup": "Boston College Eagles at Duke Blue Devils",
+          "start_time": "12:00 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Jacksonville State Gamecocks -156 (60.9% implied).",
-            "Spread: Jacksonville State Gamecocks -3.5 (+100) / New Mexico State Aggies +3.5 (-122).",
-            "Total: +49.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+            "Favorite: Duke Blue Devils -295 (74.7% implied).",
+            "Spread: Boston College Eagles +7.5 (-114) / Duke Blue Devils -7.5 (-106).",
+            "Total: +48.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Jacksonville State Gamecocks before lineup, injury and late-news adjustments.",
+            "The moneyline shows how strongly the market is leaning toward Duke Blue Devils before lineup, injury and late-news adjustments.",
             "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
             "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
           ],
@@ -1476,48 +1440,48 @@
             "Whether the favorite price gets shorter or drifts back toward the underdog.",
             "Whether the total moves enough to change the expected game environment."
           ],
-          "priority_score": 113,
+          "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-10-28-jacksonville-state-gamecocks-at-new-mexico-state-aggies",
+          "url": "https://www.globalbettingreport.com/editorial/2026-10-29-boston-college-eagles-at-duke-blue-devils",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "College Football",
-            "away_team": "Jacksonville State Gamecocks",
-            "home_team": "New Mexico State Aggies",
-            "matchup": "Jacksonville State Gamecocks at New Mexico State Aggies",
-            "start_time": "8:00 PM ET",
+            "away_team": "Boston College Eagles",
+            "home_team": "Duke Blue Devils",
+            "matchup": "Boston College Eagles at Duke Blue Devils",
+            "start_time": "12:00 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": -156,
-              "home_price": 130,
-              "away_price_text": "-156",
-              "home_price_text": "+130",
-              "away_implied_probability": 0.609375,
-              "home_implied_probability": 0.43478260869565216
+              "away_price": 235,
+              "home_price": -295,
+              "away_price_text": "+235",
+              "home_price_text": "-295",
+              "away_implied_probability": 0.29850746268656714,
+              "home_implied_probability": 0.7468354430379747
             },
             "spread": {
-              "away_point": -3.5,
-              "home_point": 3.5,
-              "away_point_text": "-3.5",
-              "home_point_text": "+3.5",
-              "away_price": 100,
-              "home_price": -122,
-              "away_price_text": "+100",
-              "home_price_text": "-122"
+              "away_point": 7.5,
+              "home_point": -7.5,
+              "away_point_text": "+7.5",
+              "home_point_text": "-7.5",
+              "away_price": -114,
+              "home_price": -106,
+              "away_price_text": "-114",
+              "home_price_text": "-106"
             },
             "total": {
-              "point": 49.5,
-              "point_text": "+49.5",
-              "over_price": -110,
-              "under_price": -110,
-              "over_price_text": "-110",
-              "under_price_text": "-110",
+              "point": 48.5,
+              "point_text": "+48.5",
+              "over_price": -105,
+              "under_price": -115,
+              "over_price_text": "-105",
+              "under_price_text": "-115",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-10-28 02:20:33 PM ET",
+          "updated_at": "2026-10-29 02:28:08 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1528,107 +1492,21 @@
         }
       ],
       "source_label": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-florida-atlantic-owls-at-north-texas-mean-green",
-      "updated_at": "2026-10-28T18:20:33.324475Z",
+      "url": "https://www.globalbettingreport.com/editorial/2026-10-29-florida-atlantic-owls-at-north-texas-mean-green",
+      "updated_at": "2026-10-29T18:28:08.944380Z",
       "source_url": "https://www.espn.com/college-football/scoreboard",
-      "source_name": "The Odds API v4"
-    },
-    "mlb": {
-      "title": "MLB Betting Market",
-      "headline": "MLB: Milwaukee Brewers priced as clear favorite vs Tampa Bay Rays (-158)",
-      "snapshot": "Milwaukee Brewers carries an implied win probability of approximately 61.2% based on the listed moneyline.",
-      "cards": [
-        {
-          "id": "mlb-milwaukee-brewers-at-tampa-bay-rays",
-          "sport": "MLB",
-          "title": "MLB Betting Market",
-          "headline": "MLB: Milwaukee Brewers priced as clear favorite vs Tampa Bay Rays (-158)",
-          "snapshot": "Milwaukee Brewers carries an implied win probability of approximately 61.2% based on the listed moneyline.",
-          "matchup": "Milwaukee Brewers at Tampa Bay Rays",
-          "start_time": "8:00 PM ET",
-          "bookmaker": "FanDuel",
-          "key_data": [
-            "Favorite: Milwaukee Brewers -158 (61.2% implied).",
-            "Spread: Milwaukee Brewers -1.5 (+112) / Tampa Bay Rays +1.5 (-134).",
-            "Total: +6.5 (Over -120 / Under -102); higher-scoring hockey environment."
-          ],
-          "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Milwaukee Brewers before lineup, injury and late-news adjustments.",
-            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-          ],
-          "what_to_watch": [
-            "Line movement after injury, lineup, weather or starting-goalie news.",
-            "Whether the favorite price gets shorter or drifts back toward the underdog.",
-            "Whether the total moves enough to change the expected game environment."
-          ],
-          "priority_score": 97,
-          "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-10-28-milwaukee-brewers-at-tampa-bay-rays",
-          "source_label": "The Odds API v4",
-          "market": {
-            "sport": "MLB",
-            "away_team": "Milwaukee Brewers",
-            "home_team": "Tampa Bay Rays",
-            "matchup": "Milwaukee Brewers at Tampa Bay Rays",
-            "start_time": "8:00 PM ET",
-            "bookmaker": "FanDuel",
-            "moneyline": {
-              "away_price": -158,
-              "home_price": 134,
-              "away_price_text": "-158",
-              "home_price_text": "+134",
-              "away_implied_probability": 0.6124031007751938,
-              "home_implied_probability": 0.42735042735042733
-            },
-            "spread": {
-              "away_point": -1.5,
-              "home_point": 1.5,
-              "away_point_text": "-1.5",
-              "home_point_text": "+1.5",
-              "away_price": 112,
-              "home_price": -134,
-              "away_price_text": "+112",
-              "home_price_text": "-134"
-            },
-            "total": {
-              "point": 6.5,
-              "point_text": "+6.5",
-              "over_price": -120,
-              "under_price": -102,
-              "over_price_text": "-120",
-              "under_price_text": "-102",
-              "environment": "higher-scoring hockey environment"
-            },
-            "has_pricing": true,
-            "url": "https://www.espn.com/mlb/scoreboard"
-          },
-          "updated_at": "2026-10-28 02:20:33 PM ET",
-          "verified_markets": [
-            "moneyline",
-            "spread",
-            "total"
-          ],
-          "source_url": "https://www.espn.com/mlb/scoreboard",
-          "source_name": "The Odds API v4"
-        }
-      ],
-      "source_label": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-10-28-milwaukee-brewers-at-tampa-bay-rays",
-      "updated_at": "2026-10-28T18:20:33.324475Z",
-      "source_url": "https://www.espn.com/mlb/scoreboard",
       "source_name": "The Odds API v4"
     }
   },
   "disclaimer": "This report is an automated betting-market summary intended to support, not replace, human sports journalism. It is not betting advice.",
   "site_name": "Global Betting Report",
-  "generated_utc": "2026-10-28T18:20:33.324475Z",
-  "verified_at": "2026-10-28T18:20:33.324475Z",
+  "generated_utc": "2026-10-29T18:28:08.944380Z",
+  "verified_at": "2026-10-29T18:28:08.944380Z",
   "source_mode": "the_odds_api_v4_daily",
   "verification": {
     "status": "verified",
     "provider": "The Odds API v4",
-    "verified_at": "2026-10-28T18:20:33.324475Z",
+    "verified_at": "2026-10-29T18:28:08.944380Z",
     "sports": [
       "NFL",
       "College Football",
@@ -1640,8 +1518,8 @@
       "total"
     ],
     "region": "us",
-    "total_verified_events": 11,
-    "credits_before_run": 239,
+    "total_verified_events": 10,
+    "credits_before_run": 230,
     "estimated_credits_used": 9
   }
 }
