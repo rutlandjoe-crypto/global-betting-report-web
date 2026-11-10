@@ -11,7 +11,7 @@ export const fetchCache = "force-no-store";
 import EditorialStandard from "@/components/EditorialStandard";
 import SocialIconLinks from "@/app/SocialIconLinks";
 import { formatUpdatedAt } from "@/lib/formatUpdatedAt";
-import { bettingEditorialSlug } from "@/app/lib/betting-editorial";
+import { getBettingStories } from "@/app/lib/betting-editorial";
 
 export const metadata: Metadata = {
   alternates: {
@@ -765,7 +765,7 @@ function NewsroomBriefing({ items }: { items: string[] }) {
   );
 }
 
-function StoryCard({ story, index, publishedAt }: { story: AnyObj; index: number; publishedAt: string }) {
+function StoryCard({ story, index, editorialSlug }: { story: AnyObj; index: number; editorialSlug?: string }) {
   const title = removeDoubleLeaguePrefix(storyTitle(story, index));
   const summary = storySummary(story);
   const label = storyLabel(story);
@@ -805,7 +805,9 @@ function StoryCard({ story, index, publishedAt }: { story: AnyObj; index: number
       </p>
 
       <h3 className="text-xl font-black leading-tight text-white">
-        <a href={`/editorial/${bettingEditorialSlug(title, publishedAt, index)}`} className="hover:text-lime-300">{title}</a>
+        {editorialSlug ? (
+          <a href={`/editorial/${editorialSlug}`} className="hover:text-lime-300">{title}</a>
+        ) : title}
       </h3>
 
       <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
@@ -908,10 +910,15 @@ export default async function Page() {
       cleanText(report.generated_at) ||
       cleanText(report.published_at),
   );
-  const publishedAt =
-    cleanText(report.updated_at) ||
-    cleanText(report.generated_at) ||
-    cleanText(report.published_at);
+  const reportDate = [report.updated_at, report.generated_at, report.generated_utc, report.published_at]
+    .map((value) => cleanText(value).match(/\d{4}-\d{2}-\d{2}/)?.[0])
+    .find(Boolean);
+  const editorialSlugs = new Map<string, string>();
+  for (const story of getBettingStories()) {
+    if (story.reportDate === reportDate && !editorialSlugs.has(story.title)) {
+      editorialSlugs.set(story.title, story.slug);
+    }
+  }
 
   if (!stories.length) {
     stories = [cleanFallbackStory(updated)];
@@ -1102,7 +1109,12 @@ export default async function Page() {
 
         <section className="space-y-6">
           {leadStories.map((story, index) => (
-            <StoryCard key={cleanText(story.id) || index} story={story} index={index} publishedAt={publishedAt} />
+            <StoryCard
+              key={cleanText(story.id) || index}
+              story={story}
+              index={index}
+              editorialSlug={editorialSlugs.get(storyTitle(story, index))}
+            />
           ))}
         </section>
       </section>

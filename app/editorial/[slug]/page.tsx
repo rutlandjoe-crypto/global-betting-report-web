@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound, permanentRedirect } from "next/navigation";
-import { getBettingStory } from "@/app/lib/betting-editorial";
+import { notFound, permanentRedirect, redirect } from "next/navigation";
+import { bettingEditorialSlug, getBettingStories, getBettingStory } from "@/app/lib/betting-editorial";
 
 export const dynamic = "force-dynamic";
 
@@ -47,7 +47,14 @@ export default async function EditorialPage({ params }: Props) {
   const { slug } = await params;
   const story = getBettingStory(slug);
 
-  if (!story) notFound();
+  if (!story) {
+    // Old homepage links used the league in place of the matchup.
+    const isOldLeagueLink = getBettingStories().some(
+      (entry) => entry.reportDate && bettingEditorialSlug(entry.label, entry.reportDate) === slug,
+    );
+    if (isOldLeagueLink) redirect("/archive");
+    notFound();
+  }
   if (slug !== story.slug) permanentRedirect(`/editorial/${story.slug}`);
 
   return (
