@@ -1,8 +1,278 @@
 {
   "site": "Global Betting Report",
-  "generatedAt": "2026-11-11T19:34:45.189188Z",
-  "storyCount": 455,
+  "generatedAt": "2026-11-12T19:53:16.110843Z",
+  "storyCount": 465,
   "stories": [
+    {
+      "slug": "2026-11-12-new-england-patriots-at-detroit-lions",
+      "title": "NFL: Detroit Lions priced as clear favorite vs New England Patriots (-155)",
+      "label": "NFL",
+      "summary": "Detroit Lions carries an implied win probability of approximately 60.8% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-12T19:53:16.110843Z",
+      "reportDate": "2026-11-12",
+      "game": "New England Patriots at Detroit Lions",
+      "market": [
+        "Favorite: Detroit Lions -155 (60.8% implied).",
+        "Spread: New England Patriots +2.5 (+100) / Detroit Lions -2.5 (-120).",
+        "Total: +51.5 (Over +100 / Under -120); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Detroit Lions before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-12-miami-dolphins-at-indianapolis-colts",
+      "title": "NFL: Indianapolis Colts priced as clear favorite vs Miami Dolphins (-205)",
+      "label": "NFL",
+      "summary": "Indianapolis Colts carries an implied win probability of approximately 67.2% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-12T19:53:16.110843Z",
+      "reportDate": "2026-11-12",
+      "game": "Miami Dolphins at Indianapolis Colts",
+      "market": [
+        "Favorite: Indianapolis Colts -205 (67.2% implied).",
+        "Spread: Miami Dolphins +3.5 (-102) / Indianapolis Colts -3.5 (-118).",
+        "Total: +38.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Indianapolis Colts before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-12-memphis-tigers-at-south-florida-bulls",
+      "title": "College Football: Memphis Tigers priced as clear favorite vs South Florida Bulls (-188)",
+      "label": "College Football",
+      "summary": "Memphis Tigers carries an implied win probability of approximately 65.3% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-12T19:53:16.110843Z",
+      "reportDate": "2026-11-12",
+      "game": "Memphis Tigers at South Florida Bulls",
+      "market": [
+        "Favorite: Memphis Tigers -188 (65.3% implied).",
+        "Spread: Memphis Tigers -3.5 (-120) / South Florida Bulls +3.5 (+100).",
+        "Total: +49.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Memphis Tigers before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-12-louisiana-ragin-cajuns-at-ul-monroe-warhawks",
+      "title": "College Football: Louisiana Ragin Cajuns priced as heavy favorite vs UL Monroe Warhawks (-430)",
+      "label": "College Football",
+      "summary": "Louisiana Ragin Cajuns carries an implied win probability of approximately 81.1% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-12T19:53:16.110843Z",
+      "reportDate": "2026-11-12",
+      "game": "Louisiana Ragin Cajuns at UL Monroe Warhawks",
+      "market": [
+        "Favorite: Louisiana Ragin Cajuns -430 (81.1% implied).",
+        "Spread: Louisiana Ragin Cajuns -10.5 (-110) / UL Monroe Warhawks +10.5 (-110).",
+        "Total: +47.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Louisiana Ragin Cajuns before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-12-kansas-city-chiefs-at-atlanta-falcons",
+      "title": "NFL: Kansas City Chiefs priced as clear favorite vs Atlanta Falcons (-180)",
+      "label": "NFL",
+      "summary": "Kansas City Chiefs carries an implied win probability of approximately 64.3% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-12T19:53:16.110843Z",
+      "reportDate": "2026-11-12",
+      "game": "Kansas City Chiefs at Atlanta Falcons",
+      "market": [
+        "Favorite: Kansas City Chiefs -180 (64.3% implied).",
+        "Spread: Kansas City Chiefs -3 (-120) / Atlanta Falcons +3 (+100).",
+        "Total: +46.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Kansas City Chiefs before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-12-illinois-fighting-illini-at-ucla-bruins",
+      "title": "College Football: UCLA Bruins priced as heavy favorite vs Illinois Fighting Illini (-395)",
+      "label": "College Football",
+      "summary": "UCLA Bruins carries an implied win probability of approximately 79.8% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-12T19:53:16.110843Z",
+      "reportDate": "2026-11-12",
+      "game": "Illinois Fighting Illini at UCLA Bruins",
+      "market": [
+        "Favorite: UCLA Bruins -395 (79.8% implied).",
+        "Spread: Illinois Fighting Illini +10 (-110) / UCLA Bruins -10 (-110).",
+        "Total: +47.5 (Over -115 / Under -105); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward UCLA Bruins before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-12-houston-texans-at-cleveland-browns",
+      "title": "NFL: Houston Texans priced as heavy favorite vs Cleveland Browns (-225)",
+      "label": "NFL",
+      "summary": "Houston Texans carries an implied win probability of approximately 69.2% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-12T19:53:16.110843Z",
+      "reportDate": "2026-11-12",
+      "game": "Houston Texans at Cleveland Browns",
+      "market": [
+        "Favorite: Houston Texans -225 (69.2% implied).",
+        "Spread: Houston Texans -4.5 (-115) / Cleveland Browns +4.5 (-105).",
+        "Total: +40.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Houston Texans before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-12-houston-cougars-at-colorado-buffaloes",
+      "title": "College Football: Houston Cougars priced as heavy favorite vs Colorado Buffaloes (-360)",
+      "label": "College Football",
+      "summary": "Houston Cougars carries an implied win probability of approximately 78.3% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-12T19:53:16.110843Z",
+      "reportDate": "2026-11-12",
+      "game": "Houston Cougars at Colorado Buffaloes",
+      "market": [
+        "Favorite: Houston Cougars -360 (78.3% implied).",
+        "Spread: Houston Cougars -9.5 (-112) / Colorado Buffaloes +9.5 (-108).",
+        "Total: +51.5 (Over -102 / Under -118); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Houston Cougars before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-12-duke-blue-devils-at-miami-hurricanes",
+      "title": "College Football: Miami Hurricanes priced as heavy favorite vs Duke Blue Devils (-575)",
+      "label": "College Football",
+      "summary": "Miami Hurricanes carries an implied win probability of approximately 85.2% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-12T19:53:16.110843Z",
+      "reportDate": "2026-11-12",
+      "game": "Duke Blue Devils at Miami Hurricanes",
+      "market": [
+        "Favorite: Miami Hurricanes -575 (85.2% implied).",
+        "Spread: Duke Blue Devils +13.5 (-108) / Miami Hurricanes -13.5 (-112).",
+        "Total: +54.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Miami Hurricanes before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-12-buffalo-bills-at-new-york-jets",
+      "title": "NFL: Buffalo Bills priced as heavy favorite vs New York Jets (-440)",
+      "label": "NFL",
+      "summary": "Buffalo Bills carries an implied win probability of approximately 81.5% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-12T19:53:16.110843Z",
+      "reportDate": "2026-11-12",
+      "game": "Buffalo Bills at New York Jets",
+      "market": [
+        "Favorite: Buffalo Bills -440 (81.5% implied).",
+        "Spread: Buffalo Bills -8.5 (-108) / New York Jets +8.5 (-112).",
+        "Total: +50.5 (Over -118 / Under -102); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Buffalo Bills before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
     {
       "slug": "2026-11-11-washington-commanders-at-new-york-giants",
       "title": "NFL: New York Giants priced as slight favorite vs Washington Commanders (-142)",
