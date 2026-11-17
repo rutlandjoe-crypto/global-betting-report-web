@@ -40,6 +40,8 @@ SPORTS = [
     {"label": "NFL", "key": "americanfootball_nfl"},
     {"label": "College Football", "key": "americanfootball_ncaaf"},
     {"label": "MLB", "key": "baseball_mlb"},
+    {"label": "NBA", "key": "basketball_nba"},
+    {"label": "NHL", "key": "icehockey_nhl"},
 ]
 
 MARKETS = "h2h,spreads,totals"
