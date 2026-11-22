@@ -1,8 +1,332 @@
 {
   "site": "Global Betting Report",
-  "generatedAt": "2026-11-21T19:14:19.581296Z",
-  "storyCount": 555,
+  "generatedAt": "2026-11-22T19:37:48.261945Z",
+  "storyCount": 567,
   "stories": [
+    {
+      "slug": "2026-11-22-temple-owls-at-memphis-tigers",
+      "title": "College Football: Memphis Tigers priced as heavy favorite vs Temple Owls (-880)",
+      "label": "College Football",
+      "summary": "Memphis Tigers carries an implied win probability of approximately 89.8% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-22T19:37:48.261945Z",
+      "reportDate": "2026-11-22",
+      "game": "Temple Owls at Memphis Tigers",
+      "market": [
+        "Favorite: Memphis Tigers -880 (89.8% implied).",
+        "Spread: Temple Owls +17.5 (-116) / Memphis Tigers -17.5 (-104).",
+        "Total: +65.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Memphis Tigers before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-22-tcu-horned-frogs-at-texas-tech-red-raiders",
+      "title": "College Football: Texas Tech Red Raiders priced as heavy favorite vs TCU Horned Frogs (-410)",
+      "label": "College Football",
+      "summary": "Texas Tech Red Raiders carries an implied win probability of approximately 80.4% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-22T19:37:48.261945Z",
+      "reportDate": "2026-11-22",
+      "game": "TCU Horned Frogs at Texas Tech Red Raiders",
+      "market": [
+        "Favorite: Texas Tech Red Raiders -410 (80.4% implied).",
+        "Spread: TCU Horned Frogs +11.5 (-105) / Texas Tech Red Raiders -11.5 (-115).",
+        "Total: +46.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Texas Tech Red Raiders before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-22-tampa-bay-buccaneers-at-detroit-lions",
+      "title": "NFL: Detroit Lions priced as heavy favorite vs Tampa Bay Buccaneers (-260)",
+      "label": "NFL",
+      "summary": "Detroit Lions carries an implied win probability of approximately 72.2% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-22T19:37:48.261945Z",
+      "reportDate": "2026-11-22",
+      "game": "Tampa Bay Buccaneers at Detroit Lions",
+      "market": [
+        "Favorite: Detroit Lions -260 (72.2% implied).",
+        "Spread: Tampa Bay Buccaneers +3.5 (-120) / Detroit Lions -3.5 (-110).",
+        "Total: +41.5 (Over -107 / Under -123); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Detroit Lions before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-22-orlando-magic-at-washington-wizards",
+      "title": "NBA: Orlando Magic priced as clear favorite vs Washington Wizards (-198)",
+      "label": "NBA",
+      "summary": "Orlando Magic carries an implied win probability of approximately 66.4% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-22T19:37:48.261945Z",
+      "reportDate": "2026-11-22",
+      "game": "Orlando Magic at Washington Wizards",
+      "market": [
+        "Favorite: Orlando Magic -198 (66.4% implied).",
+        "Spread: Orlando Magic -4.5 (-114) / Washington Wizards +4.5 (-106).",
+        "Total: +219.5 (Over -106 / Under -114); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Orlando Magic before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-22-oklahoma-city-thunder-at-miami-heat",
+      "title": "NBA: Miami Heat priced as clear favorite vs Oklahoma City Thunder (-172)",
+      "label": "NBA",
+      "summary": "Miami Heat carries an implied win probability of approximately 63.2% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-22T19:37:48.261945Z",
+      "reportDate": "2026-11-22",
+      "game": "Oklahoma City Thunder at Miami Heat",
+      "market": [
+        "Favorite: Miami Heat -172 (63.2% implied).",
+        "Spread: Oklahoma City Thunder +3.5 (-105) / Miami Heat -3.5 (-115).",
+        "Total: +231.5 (Over -108 / Under -112); high-scoring basketball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Miami Heat before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-22-new-orleans-saints-at-chicago-bears",
+      "title": "NFL: Chicago Bears priced as heavy favorite vs New Orleans Saints (-1020)",
+      "label": "NFL",
+      "summary": "Chicago Bears carries an implied win probability of approximately 91.1% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-22T19:37:48.261945Z",
+      "reportDate": "2026-11-22",
+      "game": "New Orleans Saints at Chicago Bears",
+      "market": [
+        "Favorite: Chicago Bears -1020 (91.1% implied).",
+        "Spread: New Orleans Saints +10.5 (-120) / Chicago Bears -10.5 (-110).",
+        "Total: +48.5 (Over -124 / Under -106); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Chicago Bears before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-22-mississippi-state-bulldogs-at-ole-miss-rebels",
+      "title": "College Football: Ole Miss Rebels priced as heavy favorite vs Mississippi State Bulldogs (-1100)",
+      "label": "College Football",
+      "summary": "Ole Miss Rebels carries an implied win probability of approximately 91.7% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-22T19:37:48.261945Z",
+      "reportDate": "2026-11-22",
+      "game": "Mississippi State Bulldogs at Ole Miss Rebels",
+      "market": [
+        "Favorite: Ole Miss Rebels -1100 (91.7% implied).",
+        "Spread: Mississippi State Bulldogs +19.5 (-115) / Ole Miss Rebels -19.5 (-105).",
+        "Total: +56.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Ole Miss Rebels before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-22-miami-oh-redhawks-at-western-michigan-broncos",
+      "title": "College Football: Western Michigan Broncos priced as heavy favorite vs Miami (OH) RedHawks (-265)",
+      "label": "College Football",
+      "summary": "Western Michigan Broncos carries an implied win probability of approximately 72.6% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-22T19:37:48.261945Z",
+      "reportDate": "2026-11-22",
+      "game": "Miami (OH) RedHawks at Western Michigan Broncos",
+      "market": [
+        "Favorite: Western Michigan Broncos -265 (72.6% implied).",
+        "Spread: Miami (OH) RedHawks +7.5 (-120) / Western Michigan Broncos -7.5 (+100).",
+        "Total: +46.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Western Michigan Broncos before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-22-indiana-pacers-at-new-york-knicks",
+      "title": "NBA: New York Knicks priced as heavy favorite vs Indiana Pacers (-290)",
+      "label": "NBA",
+      "summary": "New York Knicks carries an implied win probability of approximately 74.4% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-22T19:37:48.261945Z",
+      "reportDate": "2026-11-22",
+      "game": "Indiana Pacers at New York Knicks",
+      "market": [
+        "Favorite: New York Knicks -290 (74.4% implied).",
+        "Spread: Indiana Pacers +7.5 (-115) / New York Knicks -7.5 (-105).",
+        "Total: +213.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward New York Knicks before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-22-denver-nuggets-at-chicago-bulls",
+      "title": "NBA: Denver Nuggets priced as heavy favorite vs Chicago Bulls (-460)",
+      "label": "NBA",
+      "summary": "Denver Nuggets carries an implied win probability of approximately 82.1% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-22T19:37:48.261945Z",
+      "reportDate": "2026-11-22",
+      "game": "Denver Nuggets at Chicago Bulls",
+      "market": [
+        "Favorite: Denver Nuggets -460 (82.1% implied).",
+        "Spread: Denver Nuggets -10.5 (-106) / Chicago Bulls +10.5 (-114).",
+        "Total: +236.5 (Over -108 / Under -112); high-scoring basketball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Denver Nuggets before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-22-buffalo-bulls-at-akron-zips",
+      "title": "College Football: Buffalo Bulls priced as heavy favorite vs Akron Zips (-350)",
+      "label": "College Football",
+      "summary": "Buffalo Bulls carries an implied win probability of approximately 77.8% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-22T19:37:48.261945Z",
+      "reportDate": "2026-11-22",
+      "game": "Buffalo Bulls at Akron Zips",
+      "market": [
+        "Favorite: Buffalo Bulls -350 (77.8% implied).",
+        "Spread: Buffalo Bulls -8.5 (-112) / Akron Zips +8.5 (-108).",
+        "Total: +49.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Buffalo Bulls before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
+    {
+      "slug": "2026-11-22-boston-celtics-at-golden-state-warriors",
+      "title": "NBA: Boston Celtics priced as heavy favorite vs Golden State Warriors (-355)",
+      "label": "NBA",
+      "summary": "Boston Celtics carries an implied win probability of approximately 78.0% based on the listed moneyline.",
+      "sourceUrl": "",
+      "publishedAt": "2026-11-22T19:37:48.261945Z",
+      "reportDate": "2026-11-22",
+      "game": "Boston Celtics at Golden State Warriors",
+      "market": [
+        "Favorite: Boston Celtics -355 (78.0% implied).",
+        "Spread: Boston Celtics -8.5 (-110) / Golden State Warriors +8.5 (-110).",
+        "Total: +210.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+      ],
+      "impliedProbability": [],
+      "whyItMatters": [
+        "The moneyline shows how strongly the market is leaning toward Boston Celtics before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "whatToWatch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "storyAngles": []
+    },
     {
       "slug": "2026-11-21-wisconsin-badgers-at-purdue-boilermakers",
       "title": "College Football: Wisconsin Badgers priced as heavy favorite vs Purdue Boilermakers (-20000)",
