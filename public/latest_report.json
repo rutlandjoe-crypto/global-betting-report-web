@@ -2,12 +2,12 @@
   "site": "Global Betting Report",
   "vertical": "Betting",
   "title": "Global Betting Report",
-  "headline": "NFL: Chicago Bears priced as heavy favorite vs New Orleans Saints (-1020)",
+  "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Philadelphia Eagles (-489)",
   "snapshot": "A full multi-league betting board is live, giving the desk enough volume to compare favorites, totals and matchup pricing.",
-  "updated_at": "2026-11-22T19:37:48.261945Z",
-  "generated_at": "2026-11-22T19:37:48.261945Z",
+  "updated_at": "2026-11-23T23:52:13.237636Z",
+  "generated_at": "2026-11-23T23:52:13.237636Z",
   "freshness": {
-    "last_checked": "2026-11-22 02:37:48 PM ET",
+    "last_checked": "2026-11-23 06:52:13 PM ET",
     "sports_checked": [
       "NFL",
       "College Football",
@@ -15,7 +15,7 @@
       "NBA",
       "NHL"
     ],
-    "total_games_checked": 103,
+    "total_games_checked": 106,
     "total_market_cards": 12,
     "odds_api_key_found": true,
     "source": "The Odds API v4"
@@ -35,8 +35,8 @@
   },
   "live_newsroom": [
     {
-      "headline": "NFL Top Picks Today Week 11",
-      "url": "https://www.covers.com/nfl/week-11-top-picks-sunday-nov-22-2026",
+      "headline": "Bengals vs Commanders MNF Predictions",
+      "url": "https://www.covers.com/nfl/bengals-vs-commanders-prediction-picks-best-bets-tonight-nov-23-2026",
       "snapshot": "Betting coverage from Covers.",
       "source_name": "Covers",
       "story_type": "betting_news",
@@ -45,8 +45,8 @@
       "what_to_watch": []
     },
     {
-      "headline": "NFL Week 11 Anytime Touchdown Picks",
-      "url": "https://www.covers.com/nfl/anytime-touchdown-picks-week-11-2026",
+      "headline": "Bengals vs Commanders Prop Picks",
+      "url": "https://www.covers.com/nfl/bengals-vs-commanders-props-best-bets-week-11-2026",
       "snapshot": "Betting coverage from Covers.",
       "source_name": "Covers",
       "story_type": "betting_news",
@@ -55,8 +55,8 @@
       "what_to_watch": []
     },
     {
-      "headline": "Vikings vs 49ers SNF Predictions",
-      "url": "https://www.covers.com/nfl/vikings-vs-49ers-prediction-picks-nov-22-2026",
+      "headline": "Bengals vs Commanders Touchdown Picks Tonight",
+      "url": "https://www.covers.com/nfl/bengals-vs-commanders-anytime-touchdown-picks-week-11-2026",
       "snapshot": "Betting coverage from Covers.",
       "source_name": "Covers",
       "story_type": "betting_news",
@@ -65,8 +65,8 @@
       "what_to_watch": []
     },
     {
-      "headline": "Raiders vs Broncos Predictions",
-      "url": "https://www.covers.com/nfl/raiders-vs-broncos-prediction-picks-best-bets-today-nov-22-2026",
+      "headline": "NFL Week 12 Picks: Trade Now or Trade Later",
+      "url": "https://www.covers.com/nfl/predictions-to-bet-now-bet-later-week-12-2026",
       "snapshot": "Betting coverage from Covers.",
       "source_name": "Covers",
       "story_type": "betting_news",
@@ -75,10 +75,20 @@
       "what_to_watch": []
     },
     {
-      "headline": "Jets vs Chargers Predictions Today",
-      "url": "https://www.covers.com/nfl/jets-vs-chargers-prediction-picks-best-bets-today-nov-22-2026",
+      "headline": "World Chess Championship Odds: Sindarov Favored Over Gukesh",
+      "url": "https://www.covers.com/general/world-chess-championship-odds-gukesh-sindarov-2026",
       "snapshot": "Betting coverage from Covers.",
       "source_name": "Covers",
+      "story_type": "betting_news",
+      "key_data": [],
+      "why_it_matters": [],
+      "what_to_watch": []
+    },
+    {
+      "headline": "BREAKING NEWSReport: Florida State hires Georgia DC Glenn Schumann as coachRead more",
+      "url": "https://sports.yahoo.com/college-football/article/florida-state-reportedly-hires-georgia-dc-glenn-schumann-as-new-head-coach-on-5-year-deal-232226524.html",
+      "snapshot": "Betting coverage from Yahoo Sports Betting.",
+      "source_name": "Yahoo Sports Betting",
       "story_type": "betting_news",
       "key_data": [],
       "why_it_matters": [],
@@ -105,28 +115,18 @@
       "what_to_watch": []
     },
     {
-      "headline": "The Ariel Helwani ShowEverything boxing & MMA from the world and mind of Ariel Helwani.",
-      "url": "https://sports.yahoo.com/videos/shows/ariel-helwani-show/",
-      "snapshot": "Betting coverage from Yahoo Sports Betting.",
-      "source_name": "Yahoo Sports Betting",
-      "story_type": "betting_news",
-      "key_data": [],
-      "why_it_matters": [],
-      "what_to_watch": []
-    },
-    {
-      "headline": "NFL: Chicago Bears priced as heavy favorite vs New Orleans Saints (-1020)",
-      "snapshot": "Chicago Bears carries an implied win probability of approximately 91.1% based on the listed moneyline.",
+      "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Philadelphia Eagles (-489)",
+      "snapshot": "Dallas Cowboys carries an implied win probability of approximately 83.0% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-new-orleans-saints-at-chicago-bears",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-philadelphia-eagles-at-dallas-cowboys",
       "league": "NFL",
       "key_data": [
-        "Favorite: Chicago Bears -1020 (91.1% implied).",
-        "Spread: New Orleans Saints +10.5 (-120) / Chicago Bears -10.5 (-110).",
-        "Total: +48.5 (Over -124 / Under -106); elevated run-scoring baseball environment."
+        "Favorite: Dallas Cowboys -489 (83.0% implied).",
+        "Spread: Philadelphia Eagles +8.5 (-108) / Dallas Cowboys -8.5 (-111).",
+        "Total: +48.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Chicago Bears before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Dallas Cowboys before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -135,23 +135,23 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-11-22 02:37:47 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "College Football: Western Michigan Broncos priced as heavy favorite vs Miami (OH) RedHawks (-265)",
-      "snapshot": "Western Michigan Broncos carries an implied win probability of approximately 72.6% based on the listed moneyline.",
+      "headline": "NFL: Minnesota Vikings priced as heavy favorite vs Atlanta Falcons (-350)",
+      "snapshot": "Minnesota Vikings carries an implied win probability of approximately 77.8% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-miami-oh-redhawks-at-western-michigan-broncos",
-      "league": "College Football",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-atlanta-falcons-at-minnesota-vikings",
+      "league": "NFL",
       "key_data": [
-        "Favorite: Western Michigan Broncos -265 (72.6% implied).",
-        "Spread: Miami (OH) RedHawks +7.5 (-120) / Western Michigan Broncos -7.5 (+100).",
-        "Total: +46.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
+        "Favorite: Minnesota Vikings -350 (77.8% implied).",
+        "Spread: Atlanta Falcons +7 (-120) / Minnesota Vikings -7 (+100).",
+        "Total: +42.5 (Over -104 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Western Michigan Broncos before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Minnesota Vikings before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -160,20 +160,20 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-11-22 02:37:48 PM ET",
-      "source_url": "https://www.espn.com/college-football/scoreboard",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
+      "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "College Football: Texas Tech Red Raiders priced as heavy favorite vs TCU Horned Frogs (-410)",
-      "snapshot": "Texas Tech Red Raiders carries an implied win probability of approximately 80.4% based on the listed moneyline.",
+      "headline": "College Football: Texas Tech Red Raiders priced as heavy favorite vs TCU Horned Frogs (-550)",
+      "snapshot": "Texas Tech Red Raiders carries an implied win probability of approximately 84.6% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-tcu-horned-frogs-at-texas-tech-red-raiders",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-tcu-horned-frogs-at-texas-tech-red-raiders",
       "league": "College Football",
       "key_data": [
-        "Favorite: Texas Tech Red Raiders -410 (80.4% implied).",
-        "Spread: TCU Horned Frogs +11.5 (-105) / Texas Tech Red Raiders -11.5 (-115).",
-        "Total: +46.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+        "Favorite: Texas Tech Red Raiders -550 (84.6% implied).",
+        "Spread: TCU Horned Frogs +13.5 (-105) / Texas Tech Red Raiders -13.5 (-115).",
+        "Total: +47.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Texas Tech Red Raiders before lineup, injury and late-news adjustments.",
@@ -185,20 +185,20 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "source_url": "https://www.espn.com/college-football/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "College Football: Buffalo Bulls priced as heavy favorite vs Akron Zips (-350)",
-      "snapshot": "Buffalo Bulls carries an implied win probability of approximately 77.8% based on the listed moneyline.",
+      "headline": "College Football: Buffalo Bulls priced as heavy favorite vs Akron Zips (-310)",
+      "snapshot": "Buffalo Bulls carries an implied win probability of approximately 75.6% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-buffalo-bulls-at-akron-zips",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-buffalo-bulls-at-akron-zips",
       "league": "College Football",
       "key_data": [
-        "Favorite: Buffalo Bulls -350 (77.8% implied).",
-        "Spread: Buffalo Bulls -8.5 (-112) / Akron Zips +8.5 (-108).",
-        "Total: +49.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
+        "Favorite: Buffalo Bulls -310 (75.6% implied).",
+        "Spread: Buffalo Bulls -7.5 (-112) / Akron Zips +7.5 (-108).",
+        "Total: +49.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Buffalo Bulls before lineup, injury and late-news adjustments.",
@@ -210,32 +210,7 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-11-22 02:37:48 PM ET",
-      "source_url": "https://www.espn.com/college-football/scoreboard",
-      "source_name": "The Odds API v4"
-    },
-    {
-      "headline": "College Football: Memphis Tigers priced as heavy favorite vs Temple Owls (-880)",
-      "snapshot": "Memphis Tigers carries an implied win probability of approximately 89.8% based on the listed moneyline.",
-      "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-temple-owls-at-memphis-tigers",
-      "league": "College Football",
-      "key_data": [
-        "Favorite: Memphis Tigers -880 (89.8% implied).",
-        "Spread: Temple Owls +17.5 (-116) / Memphis Tigers -17.5 (-104).",
-        "Total: +65.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
-      ],
-      "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Memphis Tigers before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-      ],
-      "what_to_watch": [
-        "Line movement after injury, lineup, weather or starting-goalie news.",
-        "Whether the favorite price gets shorter or drifts back toward the underdog.",
-        "Whether the total moves enough to change the expected game environment."
-      ],
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "source_url": "https://www.espn.com/college-football/scoreboard",
       "source_name": "The Odds API v4"
     },
@@ -243,11 +218,11 @@
       "headline": "College Football: Ole Miss Rebels priced as heavy favorite vs Mississippi State Bulldogs (-1100)",
       "snapshot": "Ole Miss Rebels carries an implied win probability of approximately 91.7% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-mississippi-state-bulldogs-at-ole-miss-rebels",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-mississippi-state-bulldogs-at-ole-miss-rebels",
       "league": "College Football",
       "key_data": [
         "Favorite: Ole Miss Rebels -1100 (91.7% implied).",
-        "Spread: Mississippi State Bulldogs +19.5 (-115) / Ole Miss Rebels -19.5 (-105).",
+        "Spread: Mississippi State Bulldogs +18.5 (-105) / Ole Miss Rebels -18.5 (-115).",
         "Total: +56.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -260,23 +235,23 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "source_url": "https://www.espn.com/college-football/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "NBA: Denver Nuggets priced as heavy favorite vs Chicago Bulls (-460)",
-      "snapshot": "Denver Nuggets carries an implied win probability of approximately 82.1% based on the listed moneyline.",
+      "headline": "NBA: Minnesota Timberwolves priced as heavy favorite vs Brooklyn Nets (-500)",
+      "snapshot": "Minnesota Timberwolves carries an implied win probability of approximately 83.3% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-denver-nuggets-at-chicago-bulls",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-brooklyn-nets-at-minnesota-timberwolves",
       "league": "NBA",
       "key_data": [
-        "Favorite: Denver Nuggets -460 (82.1% implied).",
-        "Spread: Denver Nuggets -10.5 (-106) / Chicago Bulls +10.5 (-114).",
-        "Total: +236.5 (Over -108 / Under -112); high-scoring basketball environment."
+        "Favorite: Minnesota Timberwolves -500 (83.3% implied).",
+        "Spread: Brooklyn Nets +10.5 (-105) / Minnesota Timberwolves -10.5 (-115).",
+        "Total: +222.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Denver Nuggets before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Minnesota Timberwolves before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -285,23 +260,23 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:13 PM ET",
       "source_url": "https://www.espn.com/nba/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "NBA: New York Knicks priced as heavy favorite vs Indiana Pacers (-290)",
-      "snapshot": "New York Knicks carries an implied win probability of approximately 74.4% based on the listed moneyline.",
+      "headline": "NBA: Toronto Raptors priced as heavy favorite vs Milwaukee Bucks (-430)",
+      "snapshot": "Toronto Raptors carries an implied win probability of approximately 81.1% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-indiana-pacers-at-new-york-knicks",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-milwaukee-bucks-at-toronto-raptors",
       "league": "NBA",
       "key_data": [
-        "Favorite: New York Knicks -290 (74.4% implied).",
-        "Spread: Indiana Pacers +7.5 (-115) / New York Knicks -7.5 (-105).",
-        "Total: +213.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+        "Favorite: Toronto Raptors -430 (81.1% implied).",
+        "Spread: Milwaukee Bucks +10.5 (-112) / Toronto Raptors -10.5 (-108).",
+        "Total: +222.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward New York Knicks before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Toronto Raptors before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -310,23 +285,23 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:13 PM ET",
       "source_url": "https://www.espn.com/nba/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "NBA: Boston Celtics priced as heavy favorite vs Golden State Warriors (-355)",
-      "snapshot": "Boston Celtics carries an implied win probability of approximately 78.0% based on the listed moneyline.",
+      "headline": "NBA: Cleveland Cavaliers priced as heavy favorite vs Chicago Bulls (-360)",
+      "snapshot": "Cleveland Cavaliers carries an implied win probability of approximately 78.3% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-boston-celtics-at-golden-state-warriors",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-cleveland-cavaliers-at-chicago-bulls",
       "league": "NBA",
       "key_data": [
-        "Favorite: Boston Celtics -355 (78.0% implied).",
-        "Spread: Boston Celtics -8.5 (-110) / Golden State Warriors +8.5 (-110).",
-        "Total: +210.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+        "Favorite: Cleveland Cavaliers -360 (78.3% implied).",
+        "Spread: Cleveland Cavaliers -8.5 (-110) / Chicago Bulls +8.5 (-110).",
+        "Total: +241.5 (Over -106 / Under -114); high-scoring basketball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Boston Celtics before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Cleveland Cavaliers before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -335,23 +310,48 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:13 PM ET",
       "source_url": "https://www.espn.com/nba/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "headline": "NFL: Detroit Lions priced as heavy favorite vs Tampa Bay Buccaneers (-260)",
-      "snapshot": "Detroit Lions carries an implied win probability of approximately 72.2% based on the listed moneyline.",
+      "headline": "NBA: Houston Rockets priced as heavy favorite vs Los Angeles Clippers (-650)",
+      "snapshot": "Houston Rockets carries an implied win probability of approximately 86.7% based on the listed moneyline.",
       "source": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-tampa-bay-buccaneers-at-detroit-lions",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-los-angeles-clippers-at-houston-rockets",
+      "league": "NBA",
+      "key_data": [
+        "Favorite: Houston Rockets -650 (86.7% implied).",
+        "Spread: Los Angeles Clippers +12.5 (-108) / Houston Rockets -12.5 (-112).",
+        "Total: +223.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+      ],
+      "why_it_matters": [
+        "The moneyline shows how strongly the market is leaning toward Houston Rockets before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "what_to_watch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "updated_at": "2026-11-23 06:52:13 PM ET",
+      "source_url": "https://www.espn.com/nba/scoreboard",
+      "source_name": "The Odds API v4"
+    },
+    {
+      "headline": "NFL: Cincinnati Bengals priced as heavy favorite vs Washington Commanders (-301)",
+      "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 75.1% based on the listed moneyline.",
+      "source": "The Odds API v4",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-cincinnati-bengals-at-washington-commanders",
       "league": "NFL",
       "key_data": [
-        "Favorite: Detroit Lions -260 (72.2% implied).",
-        "Spread: Tampa Bay Buccaneers +3.5 (-120) / Detroit Lions -3.5 (-110).",
-        "Total: +41.5 (Over -107 / Under -123); elevated run-scoring baseball environment."
+        "Favorite: Cincinnati Bengals -301 (75.1% implied).",
+        "Spread: Cincinnati Bengals -6 (-120) / Washington Commanders +6 (+100).",
+        "Total: +54.5 (Over -113 / Under -106); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Detroit Lions before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Cincinnati Bengals before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -360,14 +360,14 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "updated_at": "2026-11-22 02:37:47 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     }
   ],
   "editor_signals": [
-    "Lead market: NFL: Chicago Bears priced as heavy favorite vs New Orleans Saints (-1020)",
-    "Total games checked: 103.",
+    "Lead market: NFL: Dallas Cowboys priced as heavy favorite vs Philadelphia Eagles (-489)",
+    "Total games checked: 106.",
     "Cards prioritize implied probability, expected margin and scoring environment instead of raw odds alone.",
     "Betting context should remain descriptive and journalist-facing, not prescriptive wagering advice.",
     "Active sports on board: College Football, MLB, NBA, NFL, NHL."
@@ -376,17 +376,17 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Chicago Bears priced as heavy favorite vs New Orleans Saints (-1020)",
-      "snapshot": "Chicago Bears carries an implied win probability of approximately 91.1% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-new-orleans-saints-at-chicago-bears",
+      "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Philadelphia Eagles (-489)",
+      "snapshot": "Dallas Cowboys carries an implied win probability of approximately 83.0% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-philadelphia-eagles-at-dallas-cowboys",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Chicago Bears -1020 (91.1% implied).",
-        "Spread: New Orleans Saints +10.5 (-120) / Chicago Bears -10.5 (-110).",
-        "Total: +48.5 (Over -124 / Under -106); elevated run-scoring baseball environment."
+        "Favorite: Dallas Cowboys -489 (83.0% implied).",
+        "Spread: Philadelphia Eagles +8.5 (-108) / Dallas Cowboys -8.5 (-111).",
+        "Total: +48.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Chicago Bears before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Dallas Cowboys before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -397,32 +397,32 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-11-22 02:37:47 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
         "total"
       ],
       "bookmaker": "DraftKings",
-      "matchup": "New Orleans Saints at Chicago Bears",
-      "start_time": "1:02 PM ET",
+      "matchup": "Philadelphia Eagles at Dallas Cowboys",
+      "start_time": "4:30 PM ET",
       "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "league": "College Football",
-      "title": "College Football Betting Market",
-      "headline": "College Football: Western Michigan Broncos priced as heavy favorite vs Miami (OH) RedHawks (-265)",
-      "snapshot": "Western Michigan Broncos carries an implied win probability of approximately 72.6% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-miami-oh-redhawks-at-western-michigan-broncos",
+      "league": "NFL",
+      "title": "NFL Betting Market",
+      "headline": "NFL: Minnesota Vikings priced as heavy favorite vs Atlanta Falcons (-350)",
+      "snapshot": "Minnesota Vikings carries an implied win probability of approximately 77.8% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-atlanta-falcons-at-minnesota-vikings",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Western Michigan Broncos -265 (72.6% implied).",
-        "Spread: Miami (OH) RedHawks +7.5 (-120) / Western Michigan Broncos -7.5 (+100).",
-        "Total: +46.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
+        "Favorite: Minnesota Vikings -350 (77.8% implied).",
+        "Spread: Atlanta Falcons +7 (-120) / Minnesota Vikings -7 (+100).",
+        "Total: +42.5 (Over -104 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Western Michigan Broncos before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Minnesota Vikings before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -433,29 +433,29 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
         "total"
       ],
-      "bookmaker": "FanDuel",
-      "matchup": "Miami (OH) RedHawks at Western Michigan Broncos",
-      "start_time": "7:00 PM ET",
-      "source_url": "https://www.espn.com/college-football/scoreboard",
+      "bookmaker": "DraftKings",
+      "matchup": "Atlanta Falcons at Minnesota Vikings",
+      "start_time": "1:00 PM ET",
+      "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: Texas Tech Red Raiders priced as heavy favorite vs TCU Horned Frogs (-410)",
-      "snapshot": "Texas Tech Red Raiders carries an implied win probability of approximately 80.4% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-tcu-horned-frogs-at-texas-tech-red-raiders",
+      "headline": "College Football: Texas Tech Red Raiders priced as heavy favorite vs TCU Horned Frogs (-550)",
+      "snapshot": "Texas Tech Red Raiders carries an implied win probability of approximately 84.6% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-tcu-horned-frogs-at-texas-tech-red-raiders",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Texas Tech Red Raiders -410 (80.4% implied).",
-        "Spread: TCU Horned Frogs +11.5 (-105) / Texas Tech Red Raiders -11.5 (-115).",
-        "Total: +46.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+        "Favorite: Texas Tech Red Raiders -550 (84.6% implied).",
+        "Spread: TCU Horned Frogs +13.5 (-105) / Texas Tech Red Raiders -13.5 (-115).",
+        "Total: +47.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Texas Tech Red Raiders before lineup, injury and late-news adjustments.",
@@ -469,7 +469,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -484,14 +484,14 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: Buffalo Bulls priced as heavy favorite vs Akron Zips (-350)",
-      "snapshot": "Buffalo Bulls carries an implied win probability of approximately 77.8% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-buffalo-bulls-at-akron-zips",
+      "headline": "College Football: Buffalo Bulls priced as heavy favorite vs Akron Zips (-310)",
+      "snapshot": "Buffalo Bulls carries an implied win probability of approximately 75.6% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-buffalo-bulls-at-akron-zips",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Buffalo Bulls -350 (77.8% implied).",
-        "Spread: Buffalo Bulls -8.5 (-112) / Akron Zips +8.5 (-108).",
-        "Total: +49.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
+        "Favorite: Buffalo Bulls -310 (75.6% implied).",
+        "Spread: Buffalo Bulls -7.5 (-112) / Akron Zips +7.5 (-108).",
+        "Total: +49.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
         "The moneyline shows how strongly the market is leaning toward Buffalo Bulls before lineup, injury and late-news adjustments.",
@@ -505,7 +505,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -520,49 +520,13 @@
     {
       "league": "College Football",
       "title": "College Football Betting Market",
-      "headline": "College Football: Memphis Tigers priced as heavy favorite vs Temple Owls (-880)",
-      "snapshot": "Memphis Tigers carries an implied win probability of approximately 89.8% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-temple-owls-at-memphis-tigers",
-      "source_label": "The Odds API v4",
-      "key_data": [
-        "Favorite: Memphis Tigers -880 (89.8% implied).",
-        "Spread: Temple Owls +17.5 (-116) / Memphis Tigers -17.5 (-104).",
-        "Total: +65.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
-      ],
-      "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Memphis Tigers before lineup, injury and late-news adjustments.",
-        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-      ],
-      "what_to_watch": [
-        "Line movement after injury, lineup, weather or starting-goalie news.",
-        "Whether the favorite price gets shorter or drifts back toward the underdog.",
-        "Whether the total moves enough to change the expected game environment."
-      ],
-      "priority_score": 126,
-      "story_type": "market_signal",
-      "updated_at": "2026-11-22 02:37:48 PM ET",
-      "verified_markets": [
-        "moneyline",
-        "spread",
-        "total"
-      ],
-      "bookmaker": "FanDuel",
-      "matchup": "Temple Owls at Memphis Tigers",
-      "start_time": "12:00 PM ET",
-      "source_url": "https://www.espn.com/college-football/scoreboard",
-      "source_name": "The Odds API v4"
-    },
-    {
-      "league": "College Football",
-      "title": "College Football Betting Market",
       "headline": "College Football: Ole Miss Rebels priced as heavy favorite vs Mississippi State Bulldogs (-1100)",
       "snapshot": "Ole Miss Rebels carries an implied win probability of approximately 91.7% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-mississippi-state-bulldogs-at-ole-miss-rebels",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-mississippi-state-bulldogs-at-ole-miss-rebels",
       "source_label": "The Odds API v4",
       "key_data": [
         "Favorite: Ole Miss Rebels -1100 (91.7% implied).",
-        "Spread: Mississippi State Bulldogs +19.5 (-115) / Ole Miss Rebels -19.5 (-105).",
+        "Spread: Mississippi State Bulldogs +18.5 (-105) / Ole Miss Rebels -18.5 (-115).",
         "Total: +56.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
@@ -577,7 +541,7 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
@@ -592,17 +556,17 @@
     {
       "league": "NBA",
       "title": "NBA Betting Market",
-      "headline": "NBA: Denver Nuggets priced as heavy favorite vs Chicago Bulls (-460)",
-      "snapshot": "Denver Nuggets carries an implied win probability of approximately 82.1% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-denver-nuggets-at-chicago-bulls",
+      "headline": "NBA: Minnesota Timberwolves priced as heavy favorite vs Brooklyn Nets (-500)",
+      "snapshot": "Minnesota Timberwolves carries an implied win probability of approximately 83.3% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-brooklyn-nets-at-minnesota-timberwolves",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Denver Nuggets -460 (82.1% implied).",
-        "Spread: Denver Nuggets -10.5 (-106) / Chicago Bulls +10.5 (-114).",
-        "Total: +236.5 (Over -108 / Under -112); high-scoring basketball environment."
+        "Favorite: Minnesota Timberwolves -500 (83.3% implied).",
+        "Spread: Brooklyn Nets +10.5 (-105) / Minnesota Timberwolves -10.5 (-115).",
+        "Total: +222.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Denver Nuggets before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Minnesota Timberwolves before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -613,32 +577,32 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:13 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
         "total"
       ],
       "bookmaker": "FanDuel",
-      "matchup": "Denver Nuggets at Chicago Bulls",
-      "start_time": "7:10 PM ET",
+      "matchup": "Brooklyn Nets at Minnesota Timberwolves",
+      "start_time": "7:40 PM ET",
       "source_url": "https://www.espn.com/nba/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
       "league": "NBA",
       "title": "NBA Betting Market",
-      "headline": "NBA: New York Knicks priced as heavy favorite vs Indiana Pacers (-290)",
-      "snapshot": "New York Knicks carries an implied win probability of approximately 74.4% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-indiana-pacers-at-new-york-knicks",
+      "headline": "NBA: Toronto Raptors priced as heavy favorite vs Milwaukee Bucks (-430)",
+      "snapshot": "Toronto Raptors carries an implied win probability of approximately 81.1% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-milwaukee-bucks-at-toronto-raptors",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: New York Knicks -290 (74.4% implied).",
-        "Spread: Indiana Pacers +7.5 (-115) / New York Knicks -7.5 (-105).",
-        "Total: +213.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+        "Favorite: Toronto Raptors -430 (81.1% implied).",
+        "Spread: Milwaukee Bucks +10.5 (-112) / Toronto Raptors -10.5 (-108).",
+        "Total: +222.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward New York Knicks before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Toronto Raptors before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -649,14 +613,50 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:13 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
         "total"
       ],
       "bookmaker": "FanDuel",
-      "matchup": "Indiana Pacers at New York Knicks",
+      "matchup": "Milwaukee Bucks at Toronto Raptors",
+      "start_time": "7:40 PM ET",
+      "source_url": "https://www.espn.com/nba/scoreboard",
+      "source_name": "The Odds API v4"
+    },
+    {
+      "league": "NBA",
+      "title": "NBA Betting Market",
+      "headline": "NBA: Cleveland Cavaliers priced as heavy favorite vs Chicago Bulls (-360)",
+      "snapshot": "Cleveland Cavaliers carries an implied win probability of approximately 78.3% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-cleveland-cavaliers-at-chicago-bulls",
+      "source_label": "The Odds API v4",
+      "key_data": [
+        "Favorite: Cleveland Cavaliers -360 (78.3% implied).",
+        "Spread: Cleveland Cavaliers -8.5 (-110) / Chicago Bulls +8.5 (-110).",
+        "Total: +241.5 (Over -106 / Under -114); high-scoring basketball environment."
+      ],
+      "why_it_matters": [
+        "The moneyline shows how strongly the market is leaning toward Cleveland Cavaliers before lineup, injury and late-news adjustments.",
+        "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+        "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+      ],
+      "what_to_watch": [
+        "Line movement after injury, lineup, weather or starting-goalie news.",
+        "Whether the favorite price gets shorter or drifts back toward the underdog.",
+        "Whether the total moves enough to change the expected game environment."
+      ],
+      "priority_score": 126,
+      "story_type": "market_signal",
+      "updated_at": "2026-11-23 06:52:13 PM ET",
+      "verified_markets": [
+        "moneyline",
+        "spread",
+        "total"
+      ],
+      "bookmaker": "FanDuel",
+      "matchup": "Cleveland Cavaliers at Chicago Bulls",
       "start_time": "8:10 PM ET",
       "source_url": "https://www.espn.com/nba/scoreboard",
       "source_name": "The Odds API v4"
@@ -664,17 +664,17 @@
     {
       "league": "NBA",
       "title": "NBA Betting Market",
-      "headline": "NBA: Boston Celtics priced as heavy favorite vs Golden State Warriors (-355)",
-      "snapshot": "Boston Celtics carries an implied win probability of approximately 78.0% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-boston-celtics-at-golden-state-warriors",
+      "headline": "NBA: Houston Rockets priced as heavy favorite vs Los Angeles Clippers (-650)",
+      "snapshot": "Houston Rockets carries an implied win probability of approximately 86.7% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-los-angeles-clippers-at-houston-rockets",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Boston Celtics -355 (78.0% implied).",
-        "Spread: Boston Celtics -8.5 (-110) / Golden State Warriors +8.5 (-110).",
-        "Total: +210.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+        "Favorite: Houston Rockets -650 (86.7% implied).",
+        "Spread: Los Angeles Clippers +12.5 (-108) / Houston Rockets -12.5 (-112).",
+        "Total: +223.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Boston Celtics before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Houston Rockets before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -685,14 +685,14 @@
       ],
       "priority_score": 126,
       "story_type": "market_signal",
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:13 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
         "total"
       ],
       "bookmaker": "FanDuel",
-      "matchup": "Boston Celtics at Golden State Warriors",
+      "matchup": "Los Angeles Clippers at Houston Rockets",
       "start_time": "8:40 PM ET",
       "source_url": "https://www.espn.com/nba/scoreboard",
       "source_name": "The Odds API v4"
@@ -700,17 +700,17 @@
     {
       "league": "NFL",
       "title": "NFL Betting Market",
-      "headline": "NFL: Detroit Lions priced as heavy favorite vs Tampa Bay Buccaneers (-260)",
-      "snapshot": "Detroit Lions carries an implied win probability of approximately 72.2% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-tampa-bay-buccaneers-at-detroit-lions",
+      "headline": "NFL: Cincinnati Bengals priced as heavy favorite vs Washington Commanders (-301)",
+      "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 75.1% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-cincinnati-bengals-at-washington-commanders",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Detroit Lions -260 (72.2% implied).",
-        "Spread: Tampa Bay Buccaneers +3.5 (-120) / Detroit Lions -3.5 (-110).",
-        "Total: +41.5 (Over -107 / Under -123); elevated run-scoring baseball environment."
+        "Favorite: Cincinnati Bengals -301 (75.1% implied).",
+        "Spread: Cincinnati Bengals -6 (-120) / Washington Commanders +6 (+100).",
+        "Total: +54.5 (Over -113 / Under -106); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Detroit Lions before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Cincinnati Bengals before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -721,32 +721,32 @@
       ],
       "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-11-22 02:37:47 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
         "total"
       ],
       "bookmaker": "DraftKings",
-      "matchup": "Tampa Bay Buccaneers at Detroit Lions",
-      "start_time": "1:03 PM ET",
+      "matchup": "Cincinnati Bengals at Washington Commanders",
+      "start_time": "8:15 PM ET",
       "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "league": "NBA",
-      "title": "NBA Betting Market",
-      "headline": "NBA: Orlando Magic priced as clear favorite vs Washington Wizards (-198)",
-      "snapshot": "Orlando Magic carries an implied win probability of approximately 66.4% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-orlando-magic-at-washington-wizards",
+      "league": "NFL",
+      "title": "NFL Betting Market",
+      "headline": "NFL: Houston Texans priced as heavy favorite vs Baltimore Ravens (-310)",
+      "snapshot": "Houston Texans carries an implied win probability of approximately 75.6% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-baltimore-ravens-at-houston-texans",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Orlando Magic -198 (66.4% implied).",
-        "Spread: Orlando Magic -4.5 (-114) / Washington Wizards +4.5 (-106).",
-        "Total: +219.5 (Over -106 / Under -114); elevated run-scoring baseball environment."
+        "Favorite: Houston Texans -310 (75.6% implied).",
+        "Spread: Baltimore Ravens +6.5 (-104) / Houston Texans -6.5 (-115).",
+        "Total: +46.5 (Over -110 / Under -109); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Orlando Magic before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Houston Texans before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -757,32 +757,32 @@
       ],
       "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
         "total"
       ],
-      "bookmaker": "FanDuel",
-      "matchup": "Orlando Magic at Washington Wizards",
-      "start_time": "7:10 PM ET",
-      "source_url": "https://www.espn.com/nba/scoreboard",
+      "bookmaker": "DraftKings",
+      "matchup": "Baltimore Ravens at Houston Texans",
+      "start_time": "1:00 PM ET",
+      "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     },
     {
-      "league": "NBA",
-      "title": "NBA Betting Market",
-      "headline": "NBA: Miami Heat priced as clear favorite vs Oklahoma City Thunder (-172)",
-      "snapshot": "Miami Heat carries an implied win probability of approximately 63.2% based on the listed moneyline.",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-oklahoma-city-thunder-at-miami-heat",
+      "league": "College Football",
+      "title": "College Football Betting Market",
+      "headline": "College Football: Eastern Michigan Eagles priced as clear favorite vs Kent State Golden Flashes (-215)",
+      "snapshot": "Eastern Michigan Eagles carries an implied win probability of approximately 68.3% based on the listed moneyline.",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-kent-state-golden-flashes-at-eastern-michigan-eagles",
       "source_label": "The Odds API v4",
       "key_data": [
-        "Favorite: Miami Heat -172 (63.2% implied).",
-        "Spread: Oklahoma City Thunder +3.5 (-105) / Miami Heat -3.5 (-115).",
-        "Total: +231.5 (Over -108 / Under -112); high-scoring basketball environment."
+        "Favorite: Eastern Michigan Eagles -215 (68.3% implied).",
+        "Spread: Kent State Golden Flashes +5.5 (-106) / Eastern Michigan Eagles -5.5 (-114).",
+        "Total: +46.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
       ],
       "why_it_matters": [
-        "The moneyline shows how strongly the market is leaning toward Miami Heat before lineup, injury and late-news adjustments.",
+        "The moneyline shows how strongly the market is leaning toward Eastern Michigan Eagles before lineup, injury and late-news adjustments.",
         "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
         "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
       ],
@@ -791,43 +791,43 @@
         "Whether the favorite price gets shorter or drifts back toward the underdog.",
         "Whether the total moves enough to change the expected game environment."
       ],
-      "priority_score": 113,
+      "priority_score": 120,
       "story_type": "market_signal",
-      "updated_at": "2026-11-22 02:37:48 PM ET",
+      "updated_at": "2026-11-23 06:52:12 PM ET",
       "verified_markets": [
         "moneyline",
         "spread",
         "total"
       ],
       "bookmaker": "FanDuel",
-      "matchup": "Oklahoma City Thunder at Miami Heat",
-      "start_time": "6:10 PM ET",
-      "source_url": "https://www.espn.com/nba/scoreboard",
+      "matchup": "Kent State Golden Flashes at Eastern Michigan Eagles",
+      "start_time": "7:00 PM ET",
+      "source_url": "https://www.espn.com/college-football/scoreboard",
       "source_name": "The Odds API v4"
     }
   ],
   "sections": {
     "nfl": {
       "title": "NFL Betting Market",
-      "headline": "NFL: Chicago Bears priced as heavy favorite vs New Orleans Saints (-1020)",
-      "snapshot": "Chicago Bears carries an implied win probability of approximately 91.1% based on the listed moneyline.",
+      "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Philadelphia Eagles (-489)",
+      "snapshot": "Dallas Cowboys carries an implied win probability of approximately 83.0% based on the listed moneyline.",
       "cards": [
         {
-          "id": "nfl-new-orleans-saints-at-chicago-bears",
+          "id": "nfl-philadelphia-eagles-at-dallas-cowboys",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Chicago Bears priced as heavy favorite vs New Orleans Saints (-1020)",
-          "snapshot": "Chicago Bears carries an implied win probability of approximately 91.1% based on the listed moneyline.",
-          "matchup": "New Orleans Saints at Chicago Bears",
-          "start_time": "1:02 PM ET",
+          "headline": "NFL: Dallas Cowboys priced as heavy favorite vs Philadelphia Eagles (-489)",
+          "snapshot": "Dallas Cowboys carries an implied win probability of approximately 83.0% based on the listed moneyline.",
+          "matchup": "Philadelphia Eagles at Dallas Cowboys",
+          "start_time": "4:30 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Chicago Bears -1020 (91.1% implied).",
-            "Spread: New Orleans Saints +10.5 (-120) / Chicago Bears -10.5 (-110).",
-            "Total: +48.5 (Over -124 / Under -106); elevated run-scoring baseball environment."
+            "Favorite: Dallas Cowboys -489 (83.0% implied).",
+            "Spread: Philadelphia Eagles +8.5 (-108) / Dallas Cowboys -8.5 (-111).",
+            "Total: +48.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Chicago Bears before lineup, injury and late-news adjustments.",
+            "The moneyline shows how strongly the market is leaning toward Dallas Cowboys before lineup, injury and late-news adjustments.",
             "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
             "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
           ],
@@ -838,46 +838,46 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-11-22-new-orleans-saints-at-chicago-bears",
+          "url": "https://www.globalbettingreport.com/editorial/2026-11-23-philadelphia-eagles-at-dallas-cowboys",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "NFL",
-            "away_team": "New Orleans Saints",
-            "home_team": "Chicago Bears",
-            "matchup": "New Orleans Saints at Chicago Bears",
-            "start_time": "1:02 PM ET",
+            "away_team": "Philadelphia Eagles",
+            "home_team": "Dallas Cowboys",
+            "matchup": "Philadelphia Eagles at Dallas Cowboys",
+            "start_time": "4:30 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 571,
-              "home_price": -1020,
-              "away_price_text": "+571",
-              "home_price_text": "-1020",
-              "away_implied_probability": 0.14903129657228018,
-              "home_implied_probability": 0.9107142857142857
+              "away_price": 376,
+              "home_price": -489,
+              "away_price_text": "+376",
+              "home_price_text": "-489",
+              "away_implied_probability": 0.21008403361344538,
+              "home_implied_probability": 0.830220713073005
             },
             "spread": {
-              "away_point": 10.5,
-              "home_point": -10.5,
-              "away_point_text": "+10.5",
-              "home_point_text": "-10.5",
-              "away_price": -120,
-              "home_price": -110,
-              "away_price_text": "-120",
-              "home_price_text": "-110"
+              "away_point": 8.5,
+              "home_point": -8.5,
+              "away_point_text": "+8.5",
+              "home_point_text": "-8.5",
+              "away_price": -108,
+              "home_price": -111,
+              "away_price_text": "-108",
+              "home_price_text": "-111"
             },
             "total": {
               "point": 48.5,
               "point_text": "+48.5",
-              "over_price": -124,
-              "under_price": -106,
-              "over_price_text": "-124",
-              "under_price_text": "-106",
+              "over_price": -110,
+              "under_price": -110,
+              "over_price_text": "-110",
+              "under_price_text": "-110",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-11-22 02:37:47 PM ET",
+          "updated_at": "2026-11-23 06:52:12 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -887,21 +887,95 @@
           "source_name": "The Odds API v4"
         },
         {
-          "id": "nfl-tampa-bay-buccaneers-at-detroit-lions",
+          "id": "nfl-atlanta-falcons-at-minnesota-vikings",
           "sport": "NFL",
           "title": "NFL Betting Market",
-          "headline": "NFL: Detroit Lions priced as heavy favorite vs Tampa Bay Buccaneers (-260)",
-          "snapshot": "Detroit Lions carries an implied win probability of approximately 72.2% based on the listed moneyline.",
-          "matchup": "Tampa Bay Buccaneers at Detroit Lions",
-          "start_time": "1:03 PM ET",
+          "headline": "NFL: Minnesota Vikings priced as heavy favorite vs Atlanta Falcons (-350)",
+          "snapshot": "Minnesota Vikings carries an implied win probability of approximately 77.8% based on the listed moneyline.",
+          "matchup": "Atlanta Falcons at Minnesota Vikings",
+          "start_time": "1:00 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Detroit Lions -260 (72.2% implied).",
-            "Spread: Tampa Bay Buccaneers +3.5 (-120) / Detroit Lions -3.5 (-110).",
-            "Total: +41.5 (Over -107 / Under -123); elevated run-scoring baseball environment."
+            "Favorite: Minnesota Vikings -350 (77.8% implied).",
+            "Spread: Atlanta Falcons +7 (-120) / Minnesota Vikings -7 (+100).",
+            "Total: +42.5 (Over -104 / Under -115); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Detroit Lions before lineup, injury and late-news adjustments.",
+            "The moneyline shows how strongly the market is leaning toward Minnesota Vikings before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 126,
+          "story_type": "market_signal",
+          "url": "https://www.globalbettingreport.com/editorial/2026-11-23-atlanta-falcons-at-minnesota-vikings",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "NFL",
+            "away_team": "Atlanta Falcons",
+            "home_team": "Minnesota Vikings",
+            "matchup": "Atlanta Falcons at Minnesota Vikings",
+            "start_time": "1:00 PM ET",
+            "bookmaker": "DraftKings",
+            "moneyline": {
+              "away_price": 280,
+              "home_price": -350,
+              "away_price_text": "+280",
+              "home_price_text": "-350",
+              "away_implied_probability": 0.2631578947368421,
+              "home_implied_probability": 0.7777777777777778
+            },
+            "spread": {
+              "away_point": 7.0,
+              "home_point": -7.0,
+              "away_point_text": "+7",
+              "home_point_text": "-7",
+              "away_price": -120,
+              "home_price": 100,
+              "away_price_text": "-120",
+              "home_price_text": "+100"
+            },
+            "total": {
+              "point": 42.5,
+              "point_text": "+42.5",
+              "over_price": -104,
+              "under_price": -115,
+              "over_price_text": "-104",
+              "under_price_text": "-115",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/nfl/scoreboard"
+          },
+          "updated_at": "2026-11-23 06:52:12 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ],
+          "source_url": "https://www.espn.com/nfl/scoreboard",
+          "source_name": "The Odds API v4"
+        },
+        {
+          "id": "nfl-cincinnati-bengals-at-washington-commanders",
+          "sport": "NFL",
+          "title": "NFL Betting Market",
+          "headline": "NFL: Cincinnati Bengals priced as heavy favorite vs Washington Commanders (-301)",
+          "snapshot": "Cincinnati Bengals carries an implied win probability of approximately 75.1% based on the listed moneyline.",
+          "matchup": "Cincinnati Bengals at Washington Commanders",
+          "start_time": "8:15 PM ET",
+          "bookmaker": "DraftKings",
+          "key_data": [
+            "Favorite: Cincinnati Bengals -301 (75.1% implied).",
+            "Spread: Cincinnati Bengals -6 (-120) / Washington Commanders +6 (+100).",
+            "Total: +54.5 (Over -113 / Under -106); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Cincinnati Bengals before lineup, injury and late-news adjustments.",
             "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
             "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
           ],
@@ -912,46 +986,120 @@
           ],
           "priority_score": 120,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-11-22-tampa-bay-buccaneers-at-detroit-lions",
+          "url": "https://www.globalbettingreport.com/editorial/2026-11-23-cincinnati-bengals-at-washington-commanders",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "NFL",
-            "away_team": "Tampa Bay Buccaneers",
-            "home_team": "Detroit Lions",
-            "matchup": "Tampa Bay Buccaneers at Detroit Lions",
-            "start_time": "1:03 PM ET",
+            "away_team": "Cincinnati Bengals",
+            "home_team": "Washington Commanders",
+            "matchup": "Cincinnati Bengals at Washington Commanders",
+            "start_time": "8:15 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 191,
-              "home_price": -260,
-              "away_price_text": "+191",
-              "home_price_text": "-260",
-              "away_implied_probability": 0.3436426116838488,
-              "home_implied_probability": 0.7222222222222222
+              "away_price": -301,
+              "home_price": 245,
+              "away_price_text": "-301",
+              "home_price_text": "+245",
+              "away_implied_probability": 0.7506234413965087,
+              "home_implied_probability": 0.2898550724637681
             },
             "spread": {
-              "away_point": 3.5,
-              "home_point": -3.5,
-              "away_point_text": "+3.5",
-              "home_point_text": "-3.5",
+              "away_point": -6.0,
+              "home_point": 6.0,
+              "away_point_text": "-6",
+              "home_point_text": "+6",
               "away_price": -120,
-              "home_price": -110,
+              "home_price": 100,
               "away_price_text": "-120",
-              "home_price_text": "-110"
+              "home_price_text": "+100"
             },
             "total": {
-              "point": 41.5,
-              "point_text": "+41.5",
-              "over_price": -107,
-              "under_price": -123,
-              "over_price_text": "-107",
-              "under_price_text": "-123",
+              "point": 54.5,
+              "point_text": "+54.5",
+              "over_price": -113,
+              "under_price": -106,
+              "over_price_text": "-113",
+              "under_price_text": "-106",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/nfl/scoreboard"
           },
-          "updated_at": "2026-11-22 02:37:47 PM ET",
+          "updated_at": "2026-11-23 06:52:12 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ],
+          "source_url": "https://www.espn.com/nfl/scoreboard",
+          "source_name": "The Odds API v4"
+        },
+        {
+          "id": "nfl-baltimore-ravens-at-houston-texans",
+          "sport": "NFL",
+          "title": "NFL Betting Market",
+          "headline": "NFL: Houston Texans priced as heavy favorite vs Baltimore Ravens (-310)",
+          "snapshot": "Houston Texans carries an implied win probability of approximately 75.6% based on the listed moneyline.",
+          "matchup": "Baltimore Ravens at Houston Texans",
+          "start_time": "1:00 PM ET",
+          "bookmaker": "DraftKings",
+          "key_data": [
+            "Favorite: Houston Texans -310 (75.6% implied).",
+            "Spread: Baltimore Ravens +6.5 (-104) / Houston Texans -6.5 (-115).",
+            "Total: +46.5 (Over -110 / Under -109); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Houston Texans before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 120,
+          "story_type": "market_signal",
+          "url": "https://www.globalbettingreport.com/editorial/2026-11-23-baltimore-ravens-at-houston-texans",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "NFL",
+            "away_team": "Baltimore Ravens",
+            "home_team": "Houston Texans",
+            "matchup": "Baltimore Ravens at Houston Texans",
+            "start_time": "1:00 PM ET",
+            "bookmaker": "DraftKings",
+            "moneyline": {
+              "away_price": 251,
+              "home_price": -310,
+              "away_price_text": "+251",
+              "home_price_text": "-310",
+              "away_implied_probability": 0.2849002849002849,
+              "home_implied_probability": 0.7560975609756098
+            },
+            "spread": {
+              "away_point": 6.5,
+              "home_point": -6.5,
+              "away_point_text": "+6.5",
+              "home_point_text": "-6.5",
+              "away_price": -104,
+              "home_price": -115,
+              "away_price_text": "-104",
+              "home_price_text": "-115"
+            },
+            "total": {
+              "point": 46.5,
+              "point_text": "+46.5",
+              "over_price": -110,
+              "under_price": -109,
+              "over_price_text": "-110",
+              "under_price_text": "-109",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/nfl/scoreboard"
+          },
+          "updated_at": "2026-11-23 06:52:12 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -962,103 +1110,29 @@
         }
       ],
       "source_label": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-new-orleans-saints-at-chicago-bears",
-      "updated_at": "2026-11-22T19:37:48.261945Z",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-philadelphia-eagles-at-dallas-cowboys",
+      "updated_at": "2026-11-23T23:52:13.237636Z",
       "source_url": "https://www.espn.com/nfl/scoreboard",
       "source_name": "The Odds API v4"
     },
     "college_football": {
       "title": "College Football Betting Market",
-      "headline": "College Football: Western Michigan Broncos priced as heavy favorite vs Miami (OH) RedHawks (-265)",
-      "snapshot": "Western Michigan Broncos carries an implied win probability of approximately 72.6% based on the listed moneyline.",
+      "headline": "College Football: Texas Tech Red Raiders priced as heavy favorite vs TCU Horned Frogs (-550)",
+      "snapshot": "Texas Tech Red Raiders carries an implied win probability of approximately 84.6% based on the listed moneyline.",
       "cards": [
-        {
-          "id": "college-football-miami-oh-redhawks-at-western-michigan-broncos",
-          "sport": "College Football",
-          "title": "College Football Betting Market",
-          "headline": "College Football: Western Michigan Broncos priced as heavy favorite vs Miami (OH) RedHawks (-265)",
-          "snapshot": "Western Michigan Broncos carries an implied win probability of approximately 72.6% based on the listed moneyline.",
-          "matchup": "Miami (OH) RedHawks at Western Michigan Broncos",
-          "start_time": "7:00 PM ET",
-          "bookmaker": "FanDuel",
-          "key_data": [
-            "Favorite: Western Michigan Broncos -265 (72.6% implied).",
-            "Spread: Miami (OH) RedHawks +7.5 (-120) / Western Michigan Broncos -7.5 (+100).",
-            "Total: +46.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
-          ],
-          "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Western Michigan Broncos before lineup, injury and late-news adjustments.",
-            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-          ],
-          "what_to_watch": [
-            "Line movement after injury, lineup, weather or starting-goalie news.",
-            "Whether the favorite price gets shorter or drifts back toward the underdog.",
-            "Whether the total moves enough to change the expected game environment."
-          ],
-          "priority_score": 126,
-          "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-11-22-miami-oh-redhawks-at-western-michigan-broncos",
-          "source_label": "The Odds API v4",
-          "market": {
-            "sport": "College Football",
-            "away_team": "Miami (OH) RedHawks",
-            "home_team": "Western Michigan Broncos",
-            "matchup": "Miami (OH) RedHawks at Western Michigan Broncos",
-            "start_time": "7:00 PM ET",
-            "bookmaker": "FanDuel",
-            "moneyline": {
-              "away_price": 215,
-              "home_price": -265,
-              "away_price_text": "+215",
-              "home_price_text": "-265",
-              "away_implied_probability": 0.31746031746031744,
-              "home_implied_probability": 0.726027397260274
-            },
-            "spread": {
-              "away_point": 7.5,
-              "home_point": -7.5,
-              "away_point_text": "+7.5",
-              "home_point_text": "-7.5",
-              "away_price": -120,
-              "home_price": 100,
-              "away_price_text": "-120",
-              "home_price_text": "+100"
-            },
-            "total": {
-              "point": 46.5,
-              "point_text": "+46.5",
-              "over_price": -114,
-              "under_price": -106,
-              "over_price_text": "-114",
-              "under_price_text": "-106",
-              "environment": "elevated run-scoring baseball environment"
-            },
-            "has_pricing": true,
-            "url": "https://www.espn.com/college-football/scoreboard"
-          },
-          "updated_at": "2026-11-22 02:37:48 PM ET",
-          "verified_markets": [
-            "moneyline",
-            "spread",
-            "total"
-          ],
-          "source_url": "https://www.espn.com/college-football/scoreboard",
-          "source_name": "The Odds API v4"
-        },
         {
           "id": "college-football-tcu-horned-frogs-at-texas-tech-red-raiders",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: Texas Tech Red Raiders priced as heavy favorite vs TCU Horned Frogs (-410)",
-          "snapshot": "Texas Tech Red Raiders carries an implied win probability of approximately 80.4% based on the listed moneyline.",
+          "headline": "College Football: Texas Tech Red Raiders priced as heavy favorite vs TCU Horned Frogs (-550)",
+          "snapshot": "Texas Tech Red Raiders carries an implied win probability of approximately 84.6% based on the listed moneyline.",
           "matchup": "TCU Horned Frogs at Texas Tech Red Raiders",
           "start_time": "8:00 PM ET",
           "bookmaker": "DraftKings",
           "key_data": [
-            "Favorite: Texas Tech Red Raiders -410 (80.4% implied).",
-            "Spread: TCU Horned Frogs +11.5 (-105) / Texas Tech Red Raiders -11.5 (-115).",
-            "Total: +46.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
+            "Favorite: Texas Tech Red Raiders -550 (84.6% implied).",
+            "Spread: TCU Horned Frogs +13.5 (-105) / Texas Tech Red Raiders -13.5 (-115).",
+            "Total: +47.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward Texas Tech Red Raiders before lineup, injury and late-news adjustments.",
@@ -1072,7 +1146,7 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-11-22-tcu-horned-frogs-at-texas-tech-red-raiders",
+          "url": "https://www.globalbettingreport.com/editorial/2026-11-23-tcu-horned-frogs-at-texas-tech-red-raiders",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "College Football",
@@ -1082,26 +1156,26 @@
             "start_time": "8:00 PM ET",
             "bookmaker": "DraftKings",
             "moneyline": {
-              "away_price": 320,
-              "home_price": -410,
-              "away_price_text": "+320",
-              "home_price_text": "-410",
-              "away_implied_probability": 0.23809523809523808,
-              "home_implied_probability": 0.803921568627451
+              "away_price": 410,
+              "home_price": -550,
+              "away_price_text": "+410",
+              "home_price_text": "-550",
+              "away_implied_probability": 0.19607843137254902,
+              "home_implied_probability": 0.8461538461538461
             },
             "spread": {
-              "away_point": 11.5,
-              "home_point": -11.5,
-              "away_point_text": "+11.5",
-              "home_point_text": "-11.5",
+              "away_point": 13.5,
+              "home_point": -13.5,
+              "away_point_text": "+13.5",
+              "home_point_text": "-13.5",
               "away_price": -105,
               "home_price": -115,
               "away_price_text": "-105",
               "home_price_text": "-115"
             },
             "total": {
-              "point": 46.5,
-              "point_text": "+46.5",
+              "point": 47.5,
+              "point_text": "+47.5",
               "over_price": -105,
               "under_price": -115,
               "over_price_text": "-105",
@@ -1111,7 +1185,7 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-11-22 02:37:48 PM ET",
+          "updated_at": "2026-11-23 06:52:12 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1124,15 +1198,15 @@
           "id": "college-football-buffalo-bulls-at-akron-zips",
           "sport": "College Football",
           "title": "College Football Betting Market",
-          "headline": "College Football: Buffalo Bulls priced as heavy favorite vs Akron Zips (-350)",
-          "snapshot": "Buffalo Bulls carries an implied win probability of approximately 77.8% based on the listed moneyline.",
+          "headline": "College Football: Buffalo Bulls priced as heavy favorite vs Akron Zips (-310)",
+          "snapshot": "Buffalo Bulls carries an implied win probability of approximately 75.6% based on the listed moneyline.",
           "matchup": "Buffalo Bulls at Akron Zips",
           "start_time": "12:00 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Buffalo Bulls -350 (77.8% implied).",
-            "Spread: Buffalo Bulls -8.5 (-112) / Akron Zips +8.5 (-108).",
-            "Total: +49.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
+            "Favorite: Buffalo Bulls -310 (75.6% implied).",
+            "Spread: Buffalo Bulls -7.5 (-112) / Akron Zips +7.5 (-108).",
+            "Total: +49.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
             "The moneyline shows how strongly the market is leaning toward Buffalo Bulls before lineup, injury and late-news adjustments.",
@@ -1146,7 +1220,7 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-11-22-buffalo-bulls-at-akron-zips",
+          "url": "https://www.globalbettingreport.com/editorial/2026-11-23-buffalo-bulls-at-akron-zips",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "College Football",
@@ -1156,18 +1230,18 @@
             "start_time": "12:00 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": -350,
-              "home_price": 280,
-              "away_price_text": "-350",
-              "home_price_text": "+280",
-              "away_implied_probability": 0.7777777777777778,
-              "home_implied_probability": 0.2631578947368421
+              "away_price": -310,
+              "home_price": 250,
+              "away_price_text": "-310",
+              "home_price_text": "+250",
+              "away_implied_probability": 0.7560975609756098,
+              "home_implied_probability": 0.2857142857142857
             },
             "spread": {
-              "away_point": -8.5,
-              "home_point": 8.5,
-              "away_point_text": "-8.5",
-              "home_point_text": "+8.5",
+              "away_point": -7.5,
+              "home_point": 7.5,
+              "away_point_text": "-7.5",
+              "home_point_text": "+7.5",
               "away_price": -112,
               "home_price": -108,
               "away_price_text": "-112",
@@ -1176,90 +1250,16 @@
             "total": {
               "point": 49.5,
               "point_text": "+49.5",
-              "over_price": -114,
-              "under_price": -106,
-              "over_price_text": "-114",
-              "under_price_text": "-106",
+              "over_price": -112,
+              "under_price": -108,
+              "over_price_text": "-112",
+              "under_price_text": "-108",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-11-22 02:37:48 PM ET",
-          "verified_markets": [
-            "moneyline",
-            "spread",
-            "total"
-          ],
-          "source_url": "https://www.espn.com/college-football/scoreboard",
-          "source_name": "The Odds API v4"
-        },
-        {
-          "id": "college-football-temple-owls-at-memphis-tigers",
-          "sport": "College Football",
-          "title": "College Football Betting Market",
-          "headline": "College Football: Memphis Tigers priced as heavy favorite vs Temple Owls (-880)",
-          "snapshot": "Memphis Tigers carries an implied win probability of approximately 89.8% based on the listed moneyline.",
-          "matchup": "Temple Owls at Memphis Tigers",
-          "start_time": "12:00 PM ET",
-          "bookmaker": "FanDuel",
-          "key_data": [
-            "Favorite: Memphis Tigers -880 (89.8% implied).",
-            "Spread: Temple Owls +17.5 (-116) / Memphis Tigers -17.5 (-104).",
-            "Total: +65.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
-          ],
-          "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Memphis Tigers before lineup, injury and late-news adjustments.",
-            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-          ],
-          "what_to_watch": [
-            "Line movement after injury, lineup, weather or starting-goalie news.",
-            "Whether the favorite price gets shorter or drifts back toward the underdog.",
-            "Whether the total moves enough to change the expected game environment."
-          ],
-          "priority_score": 126,
-          "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-11-22-temple-owls-at-memphis-tigers",
-          "source_label": "The Odds API v4",
-          "market": {
-            "sport": "College Football",
-            "away_team": "Temple Owls",
-            "home_team": "Memphis Tigers",
-            "matchup": "Temple Owls at Memphis Tigers",
-            "start_time": "12:00 PM ET",
-            "bookmaker": "FanDuel",
-            "moneyline": {
-              "away_price": 590,
-              "home_price": -880,
-              "away_price_text": "+590",
-              "home_price_text": "-880",
-              "away_implied_probability": 0.14492753623188406,
-              "home_implied_probability": 0.8979591836734694
-            },
-            "spread": {
-              "away_point": 17.5,
-              "home_point": -17.5,
-              "away_point_text": "+17.5",
-              "home_point_text": "-17.5",
-              "away_price": -116,
-              "home_price": -104,
-              "away_price_text": "-116",
-              "home_price_text": "-104"
-            },
-            "total": {
-              "point": 65.5,
-              "point_text": "+65.5",
-              "over_price": -105,
-              "under_price": -115,
-              "over_price_text": "-105",
-              "under_price_text": "-115",
-              "environment": "elevated run-scoring baseball environment"
-            },
-            "has_pricing": true,
-            "url": "https://www.espn.com/college-football/scoreboard"
-          },
-          "updated_at": "2026-11-22 02:37:48 PM ET",
+          "updated_at": "2026-11-23 06:52:12 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1279,7 +1279,7 @@
           "bookmaker": "DraftKings",
           "key_data": [
             "Favorite: Ole Miss Rebels -1100 (91.7% implied).",
-            "Spread: Mississippi State Bulldogs +19.5 (-115) / Ole Miss Rebels -19.5 (-105).",
+            "Spread: Mississippi State Bulldogs +18.5 (-105) / Ole Miss Rebels -18.5 (-115).",
             "Total: +56.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
@@ -1294,7 +1294,7 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-11-22-mississippi-state-bulldogs-at-ole-miss-rebels",
+          "url": "https://www.globalbettingreport.com/editorial/2026-11-23-mississippi-state-bulldogs-at-ole-miss-rebels",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "College Football",
@@ -1312,14 +1312,14 @@
               "home_implied_probability": 0.9166666666666666
             },
             "spread": {
-              "away_point": 19.5,
-              "home_point": -19.5,
-              "away_point_text": "+19.5",
-              "home_point_text": "-19.5",
-              "away_price": -115,
-              "home_price": -105,
-              "away_price_text": "-115",
-              "home_price_text": "-105"
+              "away_point": 18.5,
+              "home_point": -18.5,
+              "away_point_text": "+18.5",
+              "home_point_text": "-18.5",
+              "away_price": -105,
+              "home_price": -115,
+              "away_price_text": "-105",
+              "home_price_text": "-115"
             },
             "total": {
               "point": 56.5,
@@ -1333,7 +1333,81 @@
             "has_pricing": true,
             "url": "https://www.espn.com/college-football/scoreboard"
           },
-          "updated_at": "2026-11-22 02:37:48 PM ET",
+          "updated_at": "2026-11-23 06:52:12 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ],
+          "source_url": "https://www.espn.com/college-football/scoreboard",
+          "source_name": "The Odds API v4"
+        },
+        {
+          "id": "college-football-kent-state-golden-flashes-at-eastern-michigan-eagles",
+          "sport": "College Football",
+          "title": "College Football Betting Market",
+          "headline": "College Football: Eastern Michigan Eagles priced as clear favorite vs Kent State Golden Flashes (-215)",
+          "snapshot": "Eastern Michigan Eagles carries an implied win probability of approximately 68.3% based on the listed moneyline.",
+          "matchup": "Kent State Golden Flashes at Eastern Michigan Eagles",
+          "start_time": "7:00 PM ET",
+          "bookmaker": "FanDuel",
+          "key_data": [
+            "Favorite: Eastern Michigan Eagles -215 (68.3% implied).",
+            "Spread: Kent State Golden Flashes +5.5 (-106) / Eastern Michigan Eagles -5.5 (-114).",
+            "Total: +46.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Eastern Michigan Eagles before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 120,
+          "story_type": "market_signal",
+          "url": "https://www.globalbettingreport.com/editorial/2026-11-23-kent-state-golden-flashes-at-eastern-michigan-eagles",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "College Football",
+            "away_team": "Kent State Golden Flashes",
+            "home_team": "Eastern Michigan Eagles",
+            "matchup": "Kent State Golden Flashes at Eastern Michigan Eagles",
+            "start_time": "7:00 PM ET",
+            "bookmaker": "FanDuel",
+            "moneyline": {
+              "away_price": 180,
+              "home_price": -215,
+              "away_price_text": "+180",
+              "home_price_text": "-215",
+              "away_implied_probability": 0.35714285714285715,
+              "home_implied_probability": 0.6825396825396826
+            },
+            "spread": {
+              "away_point": 5.5,
+              "home_point": -5.5,
+              "away_point_text": "+5.5",
+              "home_point_text": "-5.5",
+              "away_price": -106,
+              "home_price": -114,
+              "away_price_text": "-106",
+              "home_price_text": "-114"
+            },
+            "total": {
+              "point": 46.5,
+              "point_text": "+46.5",
+              "over_price": -108,
+              "under_price": -112,
+              "over_price_text": "-108",
+              "under_price_text": "-112",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/college-football/scoreboard"
+          },
+          "updated_at": "2026-11-23 06:52:12 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1344,32 +1418,32 @@
         }
       ],
       "source_label": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-miami-oh-redhawks-at-western-michigan-broncos",
-      "updated_at": "2026-11-22T19:37:48.261945Z",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-tcu-horned-frogs-at-texas-tech-red-raiders",
+      "updated_at": "2026-11-23T23:52:13.237636Z",
       "source_url": "https://www.espn.com/college-football/scoreboard",
       "source_name": "The Odds API v4"
     },
     "nba": {
       "title": "NBA Betting Market",
-      "headline": "NBA: Denver Nuggets priced as heavy favorite vs Chicago Bulls (-460)",
-      "snapshot": "Denver Nuggets carries an implied win probability of approximately 82.1% based on the listed moneyline.",
+      "headline": "NBA: Minnesota Timberwolves priced as heavy favorite vs Brooklyn Nets (-500)",
+      "snapshot": "Minnesota Timberwolves carries an implied win probability of approximately 83.3% based on the listed moneyline.",
       "cards": [
         {
-          "id": "nba-denver-nuggets-at-chicago-bulls",
+          "id": "nba-brooklyn-nets-at-minnesota-timberwolves",
           "sport": "NBA",
           "title": "NBA Betting Market",
-          "headline": "NBA: Denver Nuggets priced as heavy favorite vs Chicago Bulls (-460)",
-          "snapshot": "Denver Nuggets carries an implied win probability of approximately 82.1% based on the listed moneyline.",
-          "matchup": "Denver Nuggets at Chicago Bulls",
-          "start_time": "7:10 PM ET",
+          "headline": "NBA: Minnesota Timberwolves priced as heavy favorite vs Brooklyn Nets (-500)",
+          "snapshot": "Minnesota Timberwolves carries an implied win probability of approximately 83.3% based on the listed moneyline.",
+          "matchup": "Brooklyn Nets at Minnesota Timberwolves",
+          "start_time": "7:40 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Denver Nuggets -460 (82.1% implied).",
-            "Spread: Denver Nuggets -10.5 (-106) / Chicago Bulls +10.5 (-114).",
-            "Total: +236.5 (Over -108 / Under -112); high-scoring basketball environment."
+            "Favorite: Minnesota Timberwolves -500 (83.3% implied).",
+            "Spread: Brooklyn Nets +10.5 (-105) / Minnesota Timberwolves -10.5 (-115).",
+            "Total: +222.5 (Over -114 / Under -106); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Denver Nuggets before lineup, injury and late-news adjustments.",
+            "The moneyline shows how strongly the market is leaning toward Minnesota Timberwolves before lineup, injury and late-news adjustments.",
             "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
             "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
           ],
@@ -1380,120 +1454,46 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-11-22-denver-nuggets-at-chicago-bulls",
+          "url": "https://www.globalbettingreport.com/editorial/2026-11-23-brooklyn-nets-at-minnesota-timberwolves",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "NBA",
-            "away_team": "Denver Nuggets",
-            "home_team": "Chicago Bulls",
-            "matchup": "Denver Nuggets at Chicago Bulls",
-            "start_time": "7:10 PM ET",
+            "away_team": "Brooklyn Nets",
+            "home_team": "Minnesota Timberwolves",
+            "matchup": "Brooklyn Nets at Minnesota Timberwolves",
+            "start_time": "7:40 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": -460,
-              "home_price": 360,
-              "away_price_text": "-460",
-              "home_price_text": "+360",
-              "away_implied_probability": 0.8214285714285714,
-              "home_implied_probability": 0.21739130434782608
+              "away_price": 380,
+              "home_price": -500,
+              "away_price_text": "+380",
+              "home_price_text": "-500",
+              "away_implied_probability": 0.20833333333333334,
+              "home_implied_probability": 0.8333333333333334
             },
             "spread": {
-              "away_point": -10.5,
-              "home_point": 10.5,
-              "away_point_text": "-10.5",
-              "home_point_text": "+10.5",
-              "away_price": -106,
-              "home_price": -114,
-              "away_price_text": "-106",
-              "home_price_text": "-114"
+              "away_point": 10.5,
+              "home_point": -10.5,
+              "away_point_text": "+10.5",
+              "home_point_text": "-10.5",
+              "away_price": -105,
+              "home_price": -115,
+              "away_price_text": "-105",
+              "home_price_text": "-115"
             },
             "total": {
-              "point": 236.5,
-              "point_text": "+236.5",
-              "over_price": -108,
-              "under_price": -112,
-              "over_price_text": "-108",
-              "under_price_text": "-112",
-              "environment": "high-scoring basketball environment"
-            },
-            "has_pricing": true,
-            "url": "https://www.espn.com/nba/scoreboard"
-          },
-          "updated_at": "2026-11-22 02:37:48 PM ET",
-          "verified_markets": [
-            "moneyline",
-            "spread",
-            "total"
-          ],
-          "source_url": "https://www.espn.com/nba/scoreboard",
-          "source_name": "The Odds API v4"
-        },
-        {
-          "id": "nba-indiana-pacers-at-new-york-knicks",
-          "sport": "NBA",
-          "title": "NBA Betting Market",
-          "headline": "NBA: New York Knicks priced as heavy favorite vs Indiana Pacers (-290)",
-          "snapshot": "New York Knicks carries an implied win probability of approximately 74.4% based on the listed moneyline.",
-          "matchup": "Indiana Pacers at New York Knicks",
-          "start_time": "8:10 PM ET",
-          "bookmaker": "FanDuel",
-          "key_data": [
-            "Favorite: New York Knicks -290 (74.4% implied).",
-            "Spread: Indiana Pacers +7.5 (-115) / New York Knicks -7.5 (-105).",
-            "Total: +213.5 (Over -105 / Under -115); elevated run-scoring baseball environment."
-          ],
-          "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward New York Knicks before lineup, injury and late-news adjustments.",
-            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-          ],
-          "what_to_watch": [
-            "Line movement after injury, lineup, weather or starting-goalie news.",
-            "Whether the favorite price gets shorter or drifts back toward the underdog.",
-            "Whether the total moves enough to change the expected game environment."
-          ],
-          "priority_score": 126,
-          "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-11-22-indiana-pacers-at-new-york-knicks",
-          "source_label": "The Odds API v4",
-          "market": {
-            "sport": "NBA",
-            "away_team": "Indiana Pacers",
-            "home_team": "New York Knicks",
-            "matchup": "Indiana Pacers at New York Knicks",
-            "start_time": "8:10 PM ET",
-            "bookmaker": "FanDuel",
-            "moneyline": {
-              "away_price": 235,
-              "home_price": -290,
-              "away_price_text": "+235",
-              "home_price_text": "-290",
-              "away_implied_probability": 0.29850746268656714,
-              "home_implied_probability": 0.7435897435897436
-            },
-            "spread": {
-              "away_point": 7.5,
-              "home_point": -7.5,
-              "away_point_text": "+7.5",
-              "home_point_text": "-7.5",
-              "away_price": -115,
-              "home_price": -105,
-              "away_price_text": "-115",
-              "home_price_text": "-105"
-            },
-            "total": {
-              "point": 213.5,
-              "point_text": "+213.5",
-              "over_price": -105,
-              "under_price": -115,
-              "over_price_text": "-105",
-              "under_price_text": "-115",
+              "point": 222.5,
+              "point_text": "+222.5",
+              "over_price": -114,
+              "under_price": -106,
+              "over_price_text": "-114",
+              "under_price_text": "-106",
               "environment": "elevated run-scoring baseball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/nba/scoreboard"
           },
-          "updated_at": "2026-11-22 02:37:48 PM ET",
+          "updated_at": "2026-11-23 06:52:13 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1503,21 +1503,21 @@
           "source_name": "The Odds API v4"
         },
         {
-          "id": "nba-boston-celtics-at-golden-state-warriors",
+          "id": "nba-milwaukee-bucks-at-toronto-raptors",
           "sport": "NBA",
           "title": "NBA Betting Market",
-          "headline": "NBA: Boston Celtics priced as heavy favorite vs Golden State Warriors (-355)",
-          "snapshot": "Boston Celtics carries an implied win probability of approximately 78.0% based on the listed moneyline.",
-          "matchup": "Boston Celtics at Golden State Warriors",
-          "start_time": "8:40 PM ET",
+          "headline": "NBA: Toronto Raptors priced as heavy favorite vs Milwaukee Bucks (-430)",
+          "snapshot": "Toronto Raptors carries an implied win probability of approximately 81.1% based on the listed moneyline.",
+          "matchup": "Milwaukee Bucks at Toronto Raptors",
+          "start_time": "7:40 PM ET",
           "bookmaker": "FanDuel",
           "key_data": [
-            "Favorite: Boston Celtics -355 (78.0% implied).",
-            "Spread: Boston Celtics -8.5 (-110) / Golden State Warriors +8.5 (-110).",
-            "Total: +210.5 (Over -108 / Under -112); elevated run-scoring baseball environment."
+            "Favorite: Toronto Raptors -430 (81.1% implied).",
+            "Spread: Milwaukee Bucks +10.5 (-112) / Toronto Raptors -10.5 (-108).",
+            "Total: +222.5 (Over -112 / Under -108); elevated run-scoring baseball environment."
           ],
           "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Boston Celtics before lineup, injury and late-news adjustments.",
+            "The moneyline shows how strongly the market is leaning toward Toronto Raptors before lineup, injury and late-news adjustments.",
             "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
             "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
           ],
@@ -1528,21 +1528,95 @@
           ],
           "priority_score": 126,
           "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-11-22-boston-celtics-at-golden-state-warriors",
+          "url": "https://www.globalbettingreport.com/editorial/2026-11-23-milwaukee-bucks-at-toronto-raptors",
           "source_label": "The Odds API v4",
           "market": {
             "sport": "NBA",
-            "away_team": "Boston Celtics",
-            "home_team": "Golden State Warriors",
-            "matchup": "Boston Celtics at Golden State Warriors",
-            "start_time": "8:40 PM ET",
+            "away_team": "Milwaukee Bucks",
+            "home_team": "Toronto Raptors",
+            "matchup": "Milwaukee Bucks at Toronto Raptors",
+            "start_time": "7:40 PM ET",
             "bookmaker": "FanDuel",
             "moneyline": {
-              "away_price": -355,
+              "away_price": 340,
+              "home_price": -430,
+              "away_price_text": "+340",
+              "home_price_text": "-430",
+              "away_implied_probability": 0.22727272727272727,
+              "home_implied_probability": 0.8113207547169812
+            },
+            "spread": {
+              "away_point": 10.5,
+              "home_point": -10.5,
+              "away_point_text": "+10.5",
+              "home_point_text": "-10.5",
+              "away_price": -112,
+              "home_price": -108,
+              "away_price_text": "-112",
+              "home_price_text": "-108"
+            },
+            "total": {
+              "point": 222.5,
+              "point_text": "+222.5",
+              "over_price": -112,
+              "under_price": -108,
+              "over_price_text": "-112",
+              "under_price_text": "-108",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/nba/scoreboard"
+          },
+          "updated_at": "2026-11-23 06:52:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ],
+          "source_url": "https://www.espn.com/nba/scoreboard",
+          "source_name": "The Odds API v4"
+        },
+        {
+          "id": "nba-cleveland-cavaliers-at-chicago-bulls",
+          "sport": "NBA",
+          "title": "NBA Betting Market",
+          "headline": "NBA: Cleveland Cavaliers priced as heavy favorite vs Chicago Bulls (-360)",
+          "snapshot": "Cleveland Cavaliers carries an implied win probability of approximately 78.3% based on the listed moneyline.",
+          "matchup": "Cleveland Cavaliers at Chicago Bulls",
+          "start_time": "8:10 PM ET",
+          "bookmaker": "FanDuel",
+          "key_data": [
+            "Favorite: Cleveland Cavaliers -360 (78.3% implied).",
+            "Spread: Cleveland Cavaliers -8.5 (-110) / Chicago Bulls +8.5 (-110).",
+            "Total: +241.5 (Over -106 / Under -114); high-scoring basketball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Cleveland Cavaliers before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 126,
+          "story_type": "market_signal",
+          "url": "https://www.globalbettingreport.com/editorial/2026-11-23-cleveland-cavaliers-at-chicago-bulls",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "NBA",
+            "away_team": "Cleveland Cavaliers",
+            "home_team": "Chicago Bulls",
+            "matchup": "Cleveland Cavaliers at Chicago Bulls",
+            "start_time": "8:10 PM ET",
+            "bookmaker": "FanDuel",
+            "moneyline": {
+              "away_price": -360,
               "home_price": 285,
-              "away_price_text": "-355",
+              "away_price_text": "-360",
               "home_price_text": "+285",
-              "away_implied_probability": 0.7802197802197802,
+              "away_implied_probability": 0.782608695652174,
               "home_implied_probability": 0.2597402597402597
             },
             "spread": {
@@ -1556,166 +1630,92 @@
               "home_price_text": "-110"
             },
             "total": {
-              "point": 210.5,
-              "point_text": "+210.5",
-              "over_price": -108,
-              "under_price": -112,
-              "over_price_text": "-108",
-              "under_price_text": "-112",
-              "environment": "elevated run-scoring baseball environment"
-            },
-            "has_pricing": true,
-            "url": "https://www.espn.com/nba/scoreboard"
-          },
-          "updated_at": "2026-11-22 02:37:48 PM ET",
-          "verified_markets": [
-            "moneyline",
-            "spread",
-            "total"
-          ],
-          "source_url": "https://www.espn.com/nba/scoreboard",
-          "source_name": "The Odds API v4"
-        },
-        {
-          "id": "nba-orlando-magic-at-washington-wizards",
-          "sport": "NBA",
-          "title": "NBA Betting Market",
-          "headline": "NBA: Orlando Magic priced as clear favorite vs Washington Wizards (-198)",
-          "snapshot": "Orlando Magic carries an implied win probability of approximately 66.4% based on the listed moneyline.",
-          "matchup": "Orlando Magic at Washington Wizards",
-          "start_time": "7:10 PM ET",
-          "bookmaker": "FanDuel",
-          "key_data": [
-            "Favorite: Orlando Magic -198 (66.4% implied).",
-            "Spread: Orlando Magic -4.5 (-114) / Washington Wizards +4.5 (-106).",
-            "Total: +219.5 (Over -106 / Under -114); elevated run-scoring baseball environment."
-          ],
-          "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Orlando Magic before lineup, injury and late-news adjustments.",
-            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-          ],
-          "what_to_watch": [
-            "Line movement after injury, lineup, weather or starting-goalie news.",
-            "Whether the favorite price gets shorter or drifts back toward the underdog.",
-            "Whether the total moves enough to change the expected game environment."
-          ],
-          "priority_score": 120,
-          "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-11-22-orlando-magic-at-washington-wizards",
-          "source_label": "The Odds API v4",
-          "market": {
-            "sport": "NBA",
-            "away_team": "Orlando Magic",
-            "home_team": "Washington Wizards",
-            "matchup": "Orlando Magic at Washington Wizards",
-            "start_time": "7:10 PM ET",
-            "bookmaker": "FanDuel",
-            "moneyline": {
-              "away_price": -198,
-              "home_price": 166,
-              "away_price_text": "-198",
-              "home_price_text": "+166",
-              "away_implied_probability": 0.6644295302013423,
-              "home_implied_probability": 0.37593984962406013
-            },
-            "spread": {
-              "away_point": -4.5,
-              "home_point": 4.5,
-              "away_point_text": "-4.5",
-              "home_point_text": "+4.5",
-              "away_price": -114,
-              "home_price": -106,
-              "away_price_text": "-114",
-              "home_price_text": "-106"
-            },
-            "total": {
-              "point": 219.5,
-              "point_text": "+219.5",
+              "point": 241.5,
+              "point_text": "+241.5",
               "over_price": -106,
               "under_price": -114,
               "over_price_text": "-106",
               "under_price_text": "-114",
-              "environment": "elevated run-scoring baseball environment"
-            },
-            "has_pricing": true,
-            "url": "https://www.espn.com/nba/scoreboard"
-          },
-          "updated_at": "2026-11-22 02:37:48 PM ET",
-          "verified_markets": [
-            "moneyline",
-            "spread",
-            "total"
-          ],
-          "source_url": "https://www.espn.com/nba/scoreboard",
-          "source_name": "The Odds API v4"
-        },
-        {
-          "id": "nba-oklahoma-city-thunder-at-miami-heat",
-          "sport": "NBA",
-          "title": "NBA Betting Market",
-          "headline": "NBA: Miami Heat priced as clear favorite vs Oklahoma City Thunder (-172)",
-          "snapshot": "Miami Heat carries an implied win probability of approximately 63.2% based on the listed moneyline.",
-          "matchup": "Oklahoma City Thunder at Miami Heat",
-          "start_time": "6:10 PM ET",
-          "bookmaker": "FanDuel",
-          "key_data": [
-            "Favorite: Miami Heat -172 (63.2% implied).",
-            "Spread: Oklahoma City Thunder +3.5 (-105) / Miami Heat -3.5 (-115).",
-            "Total: +231.5 (Over -108 / Under -112); high-scoring basketball environment."
-          ],
-          "why_it_matters": [
-            "The moneyline shows how strongly the market is leaning toward Miami Heat before lineup, injury and late-news adjustments.",
-            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
-            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
-          ],
-          "what_to_watch": [
-            "Line movement after injury, lineup, weather or starting-goalie news.",
-            "Whether the favorite price gets shorter or drifts back toward the underdog.",
-            "Whether the total moves enough to change the expected game environment."
-          ],
-          "priority_score": 113,
-          "story_type": "market_signal",
-          "url": "https://www.globalbettingreport.com/editorial/2026-11-22-oklahoma-city-thunder-at-miami-heat",
-          "source_label": "The Odds API v4",
-          "market": {
-            "sport": "NBA",
-            "away_team": "Oklahoma City Thunder",
-            "home_team": "Miami Heat",
-            "matchup": "Oklahoma City Thunder at Miami Heat",
-            "start_time": "6:10 PM ET",
-            "bookmaker": "FanDuel",
-            "moneyline": {
-              "away_price": 144,
-              "home_price": -172,
-              "away_price_text": "+144",
-              "home_price_text": "-172",
-              "away_implied_probability": 0.4098360655737705,
-              "home_implied_probability": 0.6323529411764706
-            },
-            "spread": {
-              "away_point": 3.5,
-              "home_point": -3.5,
-              "away_point_text": "+3.5",
-              "home_point_text": "-3.5",
-              "away_price": -105,
-              "home_price": -115,
-              "away_price_text": "-105",
-              "home_price_text": "-115"
-            },
-            "total": {
-              "point": 231.5,
-              "point_text": "+231.5",
-              "over_price": -108,
-              "under_price": -112,
-              "over_price_text": "-108",
-              "under_price_text": "-112",
               "environment": "high-scoring basketball environment"
             },
             "has_pricing": true,
             "url": "https://www.espn.com/nba/scoreboard"
           },
-          "updated_at": "2026-11-22 02:37:48 PM ET",
+          "updated_at": "2026-11-23 06:52:13 PM ET",
+          "verified_markets": [
+            "moneyline",
+            "spread",
+            "total"
+          ],
+          "source_url": "https://www.espn.com/nba/scoreboard",
+          "source_name": "The Odds API v4"
+        },
+        {
+          "id": "nba-los-angeles-clippers-at-houston-rockets",
+          "sport": "NBA",
+          "title": "NBA Betting Market",
+          "headline": "NBA: Houston Rockets priced as heavy favorite vs Los Angeles Clippers (-650)",
+          "snapshot": "Houston Rockets carries an implied win probability of approximately 86.7% based on the listed moneyline.",
+          "matchup": "Los Angeles Clippers at Houston Rockets",
+          "start_time": "8:40 PM ET",
+          "bookmaker": "FanDuel",
+          "key_data": [
+            "Favorite: Houston Rockets -650 (86.7% implied).",
+            "Spread: Los Angeles Clippers +12.5 (-108) / Houston Rockets -12.5 (-112).",
+            "Total: +223.5 (Over -110 / Under -110); elevated run-scoring baseball environment."
+          ],
+          "why_it_matters": [
+            "The moneyline shows how strongly the market is leaning toward Houston Rockets before lineup, injury and late-news adjustments.",
+            "The spread gives reporters a cleaner read on expected margin than the moneyline alone.",
+            "The total frames the scoring environment and can be a useful signal for fantasy, pace and game-script coverage."
+          ],
+          "what_to_watch": [
+            "Line movement after injury, lineup, weather or starting-goalie news.",
+            "Whether the favorite price gets shorter or drifts back toward the underdog.",
+            "Whether the total moves enough to change the expected game environment."
+          ],
+          "priority_score": 126,
+          "story_type": "market_signal",
+          "url": "https://www.globalbettingreport.com/editorial/2026-11-23-los-angeles-clippers-at-houston-rockets",
+          "source_label": "The Odds API v4",
+          "market": {
+            "sport": "NBA",
+            "away_team": "Los Angeles Clippers",
+            "home_team": "Houston Rockets",
+            "matchup": "Los Angeles Clippers at Houston Rockets",
+            "start_time": "8:40 PM ET",
+            "bookmaker": "FanDuel",
+            "moneyline": {
+              "away_price": 480,
+              "home_price": -650,
+              "away_price_text": "+480",
+              "home_price_text": "-650",
+              "away_implied_probability": 0.1724137931034483,
+              "home_implied_probability": 0.8666666666666667
+            },
+            "spread": {
+              "away_point": 12.5,
+              "home_point": -12.5,
+              "away_point_text": "+12.5",
+              "home_point_text": "-12.5",
+              "away_price": -108,
+              "home_price": -112,
+              "away_price_text": "-108",
+              "home_price_text": "-112"
+            },
+            "total": {
+              "point": 223.5,
+              "point_text": "+223.5",
+              "over_price": -110,
+              "under_price": -110,
+              "over_price_text": "-110",
+              "under_price_text": "-110",
+              "environment": "elevated run-scoring baseball environment"
+            },
+            "has_pricing": true,
+            "url": "https://www.espn.com/nba/scoreboard"
+          },
+          "updated_at": "2026-11-23 06:52:13 PM ET",
           "verified_markets": [
             "moneyline",
             "spread",
@@ -1726,21 +1726,21 @@
         }
       ],
       "source_label": "The Odds API v4",
-      "url": "https://www.globalbettingreport.com/editorial/2026-11-22-denver-nuggets-at-chicago-bulls",
-      "updated_at": "2026-11-22T19:37:48.261945Z",
+      "url": "https://www.globalbettingreport.com/editorial/2026-11-23-brooklyn-nets-at-minnesota-timberwolves",
+      "updated_at": "2026-11-23T23:52:13.237636Z",
       "source_url": "https://www.espn.com/nba/scoreboard",
       "source_name": "The Odds API v4"
     }
   },
   "disclaimer": "This report is an automated betting-market summary intended to support, not replace, human sports journalism. It is not betting advice.",
   "site_name": "Global Betting Report",
-  "generated_utc": "2026-11-22T19:37:48.261945Z",
-  "verified_at": "2026-11-22T19:37:48.261945Z",
+  "generated_utc": "2026-11-23T23:52:13.237636Z",
+  "verified_at": "2026-11-23T23:52:13.237636Z",
   "source_mode": "the_odds_api_v4_daily",
   "verification": {
     "status": "verified",
     "provider": "The Odds API v4",
-    "verified_at": "2026-11-22T19:37:48.261945Z",
+    "verified_at": "2026-11-23T23:52:13.237636Z",
     "sports": [
       "NFL",
       "College Football",
@@ -1755,7 +1755,7 @@
     ],
     "region": "us",
     "total_verified_events": 12,
-    "credits_before_run": 335,
+    "credits_before_run": 323,
     "estimated_credits_used": 9
   }
 }
